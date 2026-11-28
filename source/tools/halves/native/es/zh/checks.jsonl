@@ -1,0 +1,84 @@
+{"id":"pinyin.k1","q":"¿Qué representa un carácter chino?","o":["Una sílaba, con un significado","Una letra de una palabra","Una oración entera","Un sonido sin significado"],"why":"Cada carácter es una sílaba y tiene un significado; el pinyin escribe juntas las sílabas de una palabra."}
+{"id":"pinyin.k2","q":"¿Cómo se dice la q de 去 (qù)?","o":["Como la «cu» de «cuatro»","Como la *k* de «kilo»","Como una «ch» con soplo de aire","Como la jota de «jamón»"],"why":"La q del pinyin es una «ch» con soplo de aire y la lengua abajo; nunca «k» ni «cu»."}
+{"id":"pinyin.k3","q":"¿Por qué 西安 (Xī'ān) lleva apóstrofo?","o":["Marca una pregunta","Muestra que ān empieza una sílaba nueva","Indica el tono neutro","Indica que falta una letra"],"why":"El apóstrofo marca una sílaba que empieza con a, o o e: Xī'ān son dos sílabas; xiān sería una sola."}
+{"id":"tones.k1","q":"¿Qué tono es bajo y, dicho solo, baja y vuelve a subir?","o":["El primer tono","El segundo tono","El tercer tono","El cuarto tono"],"why":"El tercer tono (ǎ) es bajo; dicho solo, baja y vuelve a subir."}
+{"id":"tones.k2","q":"Una palabra con cuarto tono queda al final de tu pregunta. ¿Qué pasa con su tono?","o":["Sigue cayendo","Sube, como al final de una pregunta en español","Se vuelve primer tono","Pierde su tono"],"why":"El tono es parte de la palabra, así que cae incluso al final de una pregunta."}
+{"id":"tones.k3","q":"买 (mǎi) y 卖 (mài) solo se distinguen por el tono. ¿Qué significan?","o":["vender y comprar","comprar y vender","comprar y comprador","lo mismo"],"why":"买 con tercer tono es «comprar»; 卖 con cuarto tono es «vender»."}
+{"id":"tone-change.k1","q":"¿Cómo se dice 不 en 不是 (no es)?","o":["bù, cayendo","bú, subiendo","bū, alto y sostenido","sin tono"],"why":"不 delante de un cuarto tono (shì) sube: bú shì."}
+{"id":"tone-change.k2","q":"Van dos terceros tonos seguidos, como en 你好. ¿Cómo se dicen?","o":["Los dos bajos, con su curva completa","Los dos cayendo","El primero, como un segundo tono","El segundo, como un segundo tono"],"why":"El primero de dos terceros tonos se dice como un segundo tono: 你好 se pronuncia ní hǎo."}
+{"id":"tone-change.k3","q":"¿En cuál de estos se dice 一 yī, con el primer tono?","o":["第一 (primero)","一个人 (una persona)","一天 (un día)","一起 (juntos)"],"why":"Después de 第 y al contar, 一 conserva el primer tono; delante de una palabra, cambia."}
+{"id":"characters.k1","q":"¿Qué es un radical?","o":["Una parte del carácter que da una pista sobre su significado","Una letra del alfabeto chino","El pinyin de un carácter","Una marca de tono"],"why":"Un radical, como 氵 para el agua, da una pista del significado; no deletrea el sonido."}
+{"id":"characters.k2","q":"¿Qué muestra 休 (descansar)?","o":["Dos árboles","Una persona apoyada en un árbol","El sol y la luna","Una boca abierta"],"why":"休 es 亻 (persona) junto a 木 (árbol): alguien que descansa apoyado en un árbol."}
+{"id":"characters.k3","q":"¿Qué caracteres enseña este curso?","o":["Los tradicionales, como en Taiwán","Una mezcla de los dos","Los simplificados, como en China continental","Solo pinyin, sin caracteres"],"why":"El curso enseña los caracteres simplificados, los de China continental, con el pinyin debajo."}
+{"id":"greetings.k1","q":"¿Cuándo usas 您 en lugar de 你?","o":["Con tu mejor amigo","Con una persona mayor, un profesor o un cliente","Con un niño pequeño","Nunca: está pasado de moda"],"why":"您 muestra respeto, como «usted»: a las personas mayores, a los profesores, y del personal a los clientes."}
+{"id":"greetings.k2","q":"¿Qué significa normalmente 你好吗？","o":["¡Hola! (un saludo casual)","Adiós","Una pregunta de verdad: ¿cómo estás?","Gracias"],"why":"你好吗 pregunta de verdad cómo está alguien («¿Cómo estás?»); para un hola casual, di 你好."}
+{"id":"greetings.k3","q":"¿Qué palabra usas para llamar al mesero en un restaurante?","why":"Al mesero se le llama 服务员. En China continental, 小姐 tiene hoy un sentido feo, aunque «¡señorita!» sea cortés en partes de América Latina."}
+{"id":"pronouns.k1","q":"¿Cómo se dice «nosotros»?","o":["我s",null,null,null],"why":"们 después de un pronombre lo hace plural: 我们."}
+{"id":"pronouns.k2","q":"¿Cómo suenan 他 (él) y 她 (ella)?","o":["他 es tā, 她 es tà","Exactamente igual: tā","她 se dice nǚ","他 sube y 她 baja"],"why":"他, 她 y 它 se dicen todos tā; solo el carácter muestra la diferencia."}
+{"id":"pronouns.k3","q":"¿Cuál es correcto para «cinco estudiantes»?","why":"Un número lleva clasificador y no lleva 们: 五个学生."}
+{"id":"shi.k1","q":"¿Qué frase significa «Soy estadounidense»?","why":"Sustantivo 是 sustantivo: 我是美国人. 美国 solo es el país."}
+{"id":"shi.k2","q":"¿Cómo se dice 不是?","why":"不 sube antes de un cuarto tono: bú shì."}
+{"id":"shi.k3","q":"¿Dónde va 也 (también)?","o":["Al final, como puede ir «también»","Antes del verbo","Antes del sujeto","Después del verbo"],"why":"也 va justo antes del verbo: 我也是学生."}
+{"id":"adj.k1","q":"¿Qué frase significa «Él es alto»?","why":"Los adjetivos funcionan como verbos: sin 是, y con 很 antes del adjetivo."}
+{"id":"adj.k2","q":"¿Qué añade 很 en 我很好 («Estoy bien»)?","o":["Normalmente poco: es un pegamento antes del adjetivo","Siempre un «muy» fuerte","Convierte la frase en pregunta","Marca el pasado"],"why":"En una afirmación simple, 很 sobre todo hace que la frase suene completa."}
+{"id":"adj.k3","q":"¿Cómo se dice «no ocupado»?","why":"不 va justo antes del adjetivo, sin 是: 不忙."}
+{"id":"ma.k1","q":"¿Cómo conviertes 你是老师。 en una pregunta?","o":["Subo la voz al final","Añado 吗 al final","Pongo 是 primero","Añado 呢 al principio"],"why":"Deja la afirmación como está y añade 吗: 你是老师吗？"}
+{"id":"ma.k2","q":"你是学生吗？ ¿Cómo dices que sí?","o":["是。 o 是，我是学生。",null,null,null],"why":"Responde con el verbo de la pregunta: 是."}
+{"id":"ma.k3","q":"¿Para qué sirve 你呢？","o":["Para despedirse","Para preguntar el nombre del otro","Para devolver la misma pregunta","Para decir que no"],"why":"呢 después de una persona devuelve la pregunta: «¿y tú?»."}
+{"id":"question-words.k1","q":"¿Dónde va la palabra interrogativa en una pregunta china?","o":["Siempre al principio, como en español","Donde iría la respuesta","Siempre al final","Después de 吗"],"why":"Pon la palabra interrogativa donde va la respuesta: 你住哪儿？ 我住纽约."}
+{"id":"question-words.k2","q":"¿Es correcto decir 你叫什么名字吗？","o":["Sí, es más cortés","Sí, 吗 siempre hace falta","No: 什么 tiene que ir primero","No: la palabra interrogativa ya pregunta, así que sobra 吗"],"why":"Las palabras interrogativas nunca llevan 吗: 你叫什么名字？"}
+{"id":"question-words.k3","q":"¿Cómo preguntas la nacionalidad de alguien?","why":"哪 («cuál, qué») + 国人: 你是哪国人？"}
+{"id":"bu-mei.k1","q":"¿Cómo se dice «No tengo celular»?","why":"有 solo se niega con 没: 没有."}
+{"id":"bu-mei.k2","q":"¿Cómo se dice «Ayer no fui»?","why":"没 para una acción que no pasó, antes del verbo, sin 了."}
+{"id":"bu-mei.k3","q":"«No tomo café» es un hábito. ¿Cuál es correcta?","why":"Un hábito lleva 不, justo antes del verbo; 我没喝咖啡 significa «no tomé café»."}
+{"id":"de.k1","q":"¿Cómo se dice «el libro de mi profesor»?","why":"Primero el dueño, luego 的 y luego la cosa: 我老师的书, que se lee como «libro de mi profesor» empezando por el final."}
+{"id":"de.k2","q":"Un amigo dice 我妈妈 («mi mamá»). ¿Qué falta, y está bien?","o":["是; es un error","的; es un error","们; está bien","的; está bien con palabras de familia"],"why":"Con la familia y las relaciones cercanas, 的 suele caer después de un pronombre."}
+{"id":"de.k3","q":"¿Cómo se dice «un auto rojo»?","why":"Lo que describe va delante del sustantivo, unido con 的: al revés que en «auto rojo»."}
+{"id":"you.k1","q":"«Hay un banco cerca.» ¿Dónde va 附近 («cerca»)?","o":["Al principio, antes de 有","Al final, después de 银行","Entre 有 y 银行","En ningún lugar: el chino no lo necesita"],"why":"Primero el lugar, luego 有: 附近有银行."}
+{"id":"you.k2","q":"¿Qué significa 附近没有银行?","o":["Hay un banco cerca.","¿Hay un banco cerca?","No hay ningún banco cerca.","No tengo banco."],"why":"没有 después de un lugar significa «no hay»."}
+{"id":"you.k3","q":"¿Qué puede significar 有?","o":["ser (soy, es, son)","en","querer","tener, y también «hay»"],"why":"有 cubre «tener» y «haber» («hay»)."}
+{"id":"numbers.k1","q":"¿Cómo se dice «dos personas»?","why":"Dos de algo, antes de un clasificador, es 两."}
+{"id":"numbers.k2","q":"¿Cuál es 25?","why":"Dos, diez, cinco: 二十五."}
+{"id":"numbers.k3","q":"¿Qué palabra para el yuan dice la gente al hablar?","why":"块 al hablar, 元 en las etiquetas de precio."}
+{"id":"measure.k1","q":"En 三本书 («tres libros»), ¿dónde va el clasificador 本?","o":["Entre el número y el sustantivo","Después del sustantivo","Antes del número","Solo en las preguntas"],"why":"Número + clasificador + sustantivo."}
+{"id":"measure.k2","q":"¿Qué clasificador es para cosas planas, como boletos y papel?","why":"张 es para cosas planas: 一张票."}
+{"id":"measure.k3","q":"En una tienda, señalas algo y dices 这个. ¿Qué significa?","o":["¿Qué es?","este","cuántos","ese es barato"],"why":"这个 solo, sin sustantivo, significa «este»."}
+{"id":"food.k1","q":"¿Cuál es la forma más segura de llamar al mesero?","why":"服务员 es neutro y normal; 小姐 puede sonar ofensivo en China continental."}
+{"id":"food.k2","q":"«Quiero dos tés con leche». ¿Cuál es la correcta?","why":"«Dos» delante de un clasificador es 两, y una bebida en vaso o taza lleva 杯."}
+{"id":"food.k3","q":"¿Qué significa 打包 en un restaurante?","o":["Para llevar.","La cuenta, por favor.","Sin picante.","Otro más, por favor."],"why":"打包 sirve para llevarte lo que sobró o para pedir comida para llevar."}
+{"id":"family.k1","q":"¿Qué palabra significa «hermano menor»?","why":"El hermano mayor es 哥哥; el hermano menor, 弟弟."}
+{"id":"family.k2","q":"En 我家有四口人, ¿qué hace 口?","o":["Significa «y».","Convierte la oración en pregunta.","Es el clasificador para los miembros de la familia.","Significa «boca», así que la oración habla de comida."],"why":"口 cuenta a las personas de una familia: 四口人."}
+{"id":"family.k3","q":"Un compañero de trabajo tiene más o menos tu edad. ¿Cómo le preguntas «¿Cuántos años tienes?»?","why":"En China continental, a un adulto se le pregunta 你多大？; 你几岁？ es sobre todo para niños."}
+{"id":"time.k1","q":"¿Cómo se dice «3 de diciembre»?","why":"De lo grande a lo pequeño: primero el mes, luego el día."}
+{"id":"time.k2","q":"«Mañana voy a Pekín». ¿Dónde va 明天?","o":["Al final, después de 北京","Justo después de 去","Antes de 去, o al principio de todo","En cualquier lugar"],"why":"Las palabras de tiempo van antes del verbo, o al principio de la oración."}
+{"id":"time.k3","q":"¿Qué es 三点半?","o":["las tres y media","tres días y medio","3:15","las tres menos cuarto"],"why":"点 es «la hora» (las tres) y 半 es «y media»."}
+{"id":"zai.k1","q":"¿Cómo se dice «Trabajo en un banco»?","why":"在 + lugar va antes del verbo."}
+{"id":"zai.k2","q":"¿Por qué hace falta 上 en 书在桌子上 (el libro está sobre la mesa)?","o":["上 significa «está»","上 la convierte en pregunta","Una mesa necesita una palabra de ubicación para ser un lugar","上 es el clasificador de los libros"],"why":"Los objetos necesitan una palabra de ubicación detrás: 桌子上, 房间里."}
+{"id":"zai.k3","q":"¿Cuál de estos no necesita palabra de ubicación después de 在?","o":["北京 (una ciudad)","桌子 (una mesa)","椅子 (una silla)","书包 (una mochila)"],"why":"Las ciudades y los países ya son lugares: 我在北京."}
+{"id":"word-order.k1","q":"¿Dónde va 明天 (mañana) en «Mañana voy al banco»?","o":["Al final: 我去银行明天","Antes del verbo: 我明天去银行","Entre 去 y 银行","En cualquier lugar: el orden chino es libre"],"why":"El tiempo va antes del verbo (o al principio de todo), nunca al final."}
+{"id":"word-order.k2","q":"¿Qué oración tiene el orden correcto?","why":"Quién, luego cuándo, luego dónde, y luego el verbo."}
+{"id":"word-order.k3","q":"¿Cómo se dice «el sábado a las diez de la mañana»?","why":"De lo grande a lo pequeño: el día, luego la parte del día y luego la hora."}
+{"id":"want-can.k1","q":"¿Qué palabra usas para una habilidad que aprendiste, como nadar?","why":"会 significa «saber (hacer algo)»: 我会游泳."}
+{"id":"want-can.k2","q":"¿Cómo preguntas «¿Puedo pasar?»?","why":"可以 pide permiso."}
+{"id":"want-can.k3","q":"«No quiero ir» es…","why":"不 va delante de 想: 不想去."}
+{"id":"le.k1","q":"¿Qué indica 了 justo después de un verbo?","o":["Que la oración es una pregunta","Que la acción está terminada","El pasado de cualquier verbo","Que la acción está ocurriendo ahora"],"why":"了 después de un verbo indica que la acción está completa; no es un tiempo pasado."}
+{"id":"le.k2","q":"«Ayer estaba muy ocupado» es…","why":"Un estado en el pasado no lleva 了; la palabra de tiempo ya dice cuándo."}
+{"id":"le.k3","q":"¿Qué significa 天气冷了?","o":["Ya hace frío.","Hacía frío.","No hace frío.","¿Hace frío?"],"why":"了 al final indica un cambio: antes no, y ahora hace frío."}
+{"id":"progress.k1","q":"¿Cómo se dice «Estoy comiendo» (ahora)?","why":"在 antes del verbo indica que la acción está en curso; 是 no es «estar»."}
+{"id":"progress.k2","q":"¿Qué palabra puede ir al final para añadir «ahora mismo»?","why":"呢 al final acompaña a 在 o 正在 en una acción en curso."}
+{"id":"progress.k3","q":"«Mañana voy a Shanghái» (un plan) es…","why":"Un plan no lleva 在: 在 es para una acción que está ocurriendo ahora."}
+{"id":"serial.k1","q":"¿Cómo se dice «Voy al supermercado a comprar cosas»?","why":"Primero vas al lugar y luego haces lo que vas a hacer allí."}
+{"id":"serial.k2","q":"¿Qué verbo usas para ir en metro o en autobús?","why":"坐 (literalmente «sentarse») sirve para todo lo que lleva pasajeros sentados dentro."}
+{"id":"serial.k3","q":"¿Dónde va «en metro» en «Voy a la escuela en metro»?","o":["Antes de 去: 我坐地铁去学校","Al final: 我去学校坐地铁","Entre 去 y 学校","Antes de 我"],"why":"La forma de viajar va antes de 去."}
+{"id":"a-not-a.k1","q":"¿Qué pregunta es correcta?","why":"Sin 很 y sin 吗: solo 忙不忙."}
+{"id":"a-not-a.k2","q":"¿Cuál es la pregunta verbo-no-verbo con 有?","why":"有 se niega con 没, así que la pregunta es 有没有."}
+{"id":"a-not-a.k3","q":"¿Cómo contestas que sí a 你去不去？","why":"Contesta con el verbo mismo: 去 o 不去."}
+{"id":"ye-dou.k1","q":"¿Dónde va 也 en «Yo también soy estudiante»?","o":["Al final: 我是学生也","Al principio: 也我是学生","Antes del verbo: 我也是学生","Después del verbo: 我是也学生"],"why":"也 va después del sujeto, justo antes del verbo."}
+{"id":"ye-dou.k2","q":"¿Qué significa 我们都不喝酒?","o":["Ninguno de nosotros toma alcohol.","No todos tomamos alcohol.","Todos tomamos alcohol.","Todavía no tomamos alcohol."],"why":"都不 significa «ninguno»; 不都 sería «no todos»."}
+{"id":"ye-dou.k3","q":"«Todavía no he comido» es…","why":"还没 + verbo significa «todavía no», sin 了."}
+{"id":"ba-bie.k1","q":"¿Cómo se dice «Vámonos»?","why":"吧 al final de una oración con 我们 significa «vamos a…»."}
+{"id":"ba-bie.k2","q":"¿Cómo se dice «No te preocupes»?","why":"别 + verbo le pide a alguien que no haga algo."}
+{"id":"ba-bie.k3","q":"¿Dónde va 请 en «Pasa, por favor»?","o":["Antes del verbo: 请进","Después del verbo: 进请","Al final, con 吧: 进吧请","Aquí no se usa"],"why":"请 va primero, luego el verbo: 请进."}
+{"id":"and-or.k1","q":"¿Qué puede unir 和?","o":["Dos oraciones","Dos verbos","Dos sustantivos, como personas o cosas","Cualquier cosa, como la «y» del español"],"why":"和 une sustantivos y pronombres, no oraciones."}
+{"id":"and-or.k2","q":"«¿Quieres té o café?» es…","why":"En una pregunta, «o» es 还是, sin 吗."}
+{"id":"and-or.k3","q":"«Voy el sábado o el domingo (da igual cuál)» es…","why":"En una afirmación, «o» es 或者, y el tiempo va antes de 去."}

@@ -1,0 +1,108 @@
+{
+ "_about": "SEC-1 writer file for es-zh.",
+ "greetings": {
+  "0": {"add": [["你", "nǐ", "tú", ""], ["好", "hǎo", "bien; bueno", ""]]},
+  "1": {"add": [["您", "nín", "usted (con respeto)", ""], "老师好！"]}
+ },
+ "pronouns": {
+  "0": {"add": [["我", "wǒ", "yo; me; mí", ""], ["他", "tā", "él", ""], ["她", "tā", "ella", ""], ["它", "tā", "él, ella (cosa o animal)", ""]]}
+ },
+ "shi": {
+  "1": {"add": ["我不是中国人。", ["不是", "bú shì", "no (no es)", ""]]},
+  "3": {"add": [["美国学生", "Měiguó xuésheng", "estudiante estadounidense", ""], ["中文老师", "Zhōngwén lǎoshī", "profesor de chino", ""]]},
+  "4": {"add": ["我也是美国人。", ["也", "yě", "también", ""]]},
+  "5": {"add": [["美国", "Měiguó", "Estados Unidos", ""], ["美国人", "Měiguórén", "estadounidense", ""], ["我二十五岁。", "Wǒ èrshíwǔ suì.", "Tengo 25 años.", ""]]}
+ },
+ "adj": {
+  "1": {"add": [["很", "hěn", "muy", ""]]},
+  "2": {"add": [["不忙", "bù máng", "no estar ocupado", ""], ["不贵", "bú guì", "no ser caro", ""]]},
+  "3": {"add": [["太累了！", "Tài lèi le!", "¡Qué cansado estoy!", ""]]},
+  "4": {"add": [["冷", "lěng", "frío", ""], ["热", "rè", "caliente", ""]]},
+  "5": {"add": [["好朋友", "hǎo péngyou", "buen amigo", ""], "他是一个很好的人。"]}
+ },
+ "ma": {
+  "1": {"add": [["吗", "ma", "¿…? (partícula de pregunta de sí o no)", ""]]},
+  "3": {"add": [["他呢？", "Tā ne?", "¿Y él?", ""]]}
+ },
+ "question-words": {
+  "3": {"add": [["几", "jǐ", "cuántos (número pequeño)", ""], ["几个", "jǐ ge", "cuántos (de algo)", ""]]}
+ },
+ "bu-mei": {
+  "3": {"add": [["我不去。", "Wǒ bú qù.", "No voy. / No voy a ir.", ""], ["我没有。", "Wǒ méiyǒu.", "No lo tengo.", ""]]}
+ },
+ "de": {
+  "2": {"add": [["我朋友", "wǒ péngyou", "mi amigo", ""], ["中国菜", "Zhōngguó cài", "comida china", ""]]}
+ },
+ "you": {
+  "1": {"add": [["桌子上", "zhuōzi shàng", "en la mesa; sobre la mesa", ""], ["一本书", "yì běn shū", "un libro", ""]]},
+  "3": {"add": [["附近有银行。", "Fùjìn yǒu yínháng.", "Hay un banco cerca.", ""], ["附近没有银行。", "Fùjìn méiyǒu yínháng.", "No hay ningún banco cerca.", ""]]}
+ },
+ "numbers": {
+  "3": {"add": [["两个学生", "liǎng ge xuésheng", "dos estudiantes", ""]]}
+ },
+ "food": {
+  "0": {"add": [["要", "yào", "querer", ""]]},
+  "2": {"add": ["一瓶啤酒", "我要一杯奶茶。", ["两杯奶茶", "liǎng bēi nǎichá", "dos tés con leche", ""]]},
+  "3": {"add": [["辣", "là", "picante", ""]]}
+ },
+ "family": {
+  "1": {"add": [["一个哥哥", "yí ge gēge", "un hermano mayor", ""], ["两个妹妹", "liǎng ge mèimei", "dos hermanas menores", ""]]},
+  "2": {"add": [["家", "jiā", "familia; casa", ""], ["四口人", "sì kǒu rén", "cuatro personas (en una familia)", ""]]}
+ },
+ "time": {
+  "2": {"add": [["一月", "yīyuè", "enero", ""], ["十二月", "shí'èryuè", "diciembre", ""]]}
+ },
+ "zai": {
+  "2": {"add": ["我在公园等你。"]},
+  "3": {"add": [["银行在超市对面。", "Yínháng zài chāoshì duìmiàn.", "El banco está enfrente del supermercado.", ""], ["附近有银行。", "Fùjìn yǒu yínháng.", "Hay un banco cerca.", ""], "医院在银行对面。", "附近有地铁站吗？"]}
+ },
+ "word-order": {
+  "1": {"add": [["明天我在家吃饭。", "Míngtiān wǒ zài jiā chīfàn.", "Mañana como en casa.", ""]]},
+  "2": {"add": [["坐", "zuò", "sentarse; ir en (un vehículo)", ""], ["坐地铁", "zuò dìtiě", "ir en metro", ""]]},
+  "3": {"add": [["星期六上午十点", "xīngqīliù shàngwǔ shí diǎn", "el sábado a las diez de la mañana", ""], "十二月三号", "晚上七点"]},
+  "4": {"add": [["住", "zhù", "vivir", ""], ["我住在北京。", "Wǒ zhù zài Běijīng.", "Vivo en Pekín.", ""]]}
+ },
+ "want-can": {
+  "1": {"add": [["会", "huì", "saber (hacer algo)", ""]]},
+  "3": {"add": [["不想", "bù xiǎng", "no querer; no tener ganas", ""], ["不会", "bú huì", "no saber (hacer algo)", ""], ["不能", "bù néng", "no poder", ""], "我明天不能来。"]},
+  "4": {"add": ["你会开车吗？", ["不可以", "bù kěyǐ", "no poder (no tener permiso)", ""]]},
+  "5": {"add": [["我今天想在家吃饭。", "Wǒ jīntiān xiǎng zài jiā chīfàn.", "Hoy me gustaría comer en casa.", ""], ["我会说中文。", "Wǒ huì shuō Zhōngwén.", "Sé hablar chino.", ""]]}
+ },
+ "le": {
+  "3": {"add": [["我吃饭了。", "Wǒ chīfàn le.", "Ya comí.", ""], ["我没吃饭。", "Wǒ méi chīfàn.", "No he comido.", ""]]}
+ },
+ "progress": {
+  "0": {"add": ["我在学习中文。", ["我在看电视。", "Wǒ zài kàn diànshì.", "Estoy viendo la tele.", ""]]},
+  "2": {"add": [["我在家吃饭呢。", "Wǒ zài jiā chīfàn ne.", "Estoy comiendo en casa.", ""]]},
+  "4": {"add": [["我是老师。", "Wǒ shì lǎoshī.", "Soy profesor.", ""], ["我在工作。", "Wǒ zài gōngzuò.", "Estoy trabajando.", ""], ["我在吃饭。", "Wǒ zài chīfàn.", "Estoy comiendo.", ""]], "drop": ["老师"]}
+ },
+ "serial": {
+  "2": {"add": ["我坐高铁去上海。", ["坐高铁", "zuò gāotiě", "ir en tren de alta velocidad", ""]], "drop": ["明天"]},
+  "3": {"add": [["我昨天没去银行换钱。", "Wǒ zuótiān méi qù yínháng huàn qián.", "Ayer no fui al banco a cambiar dinero.", ""], ["他不来我家吃饭。", "Tā bù lái wǒ jiā chīfàn.", "Él no viene a comer a mi casa.", ""]]}
+ },
+ "a-not-a": {
+  "0": {"add": [["你喝不喝咖啡？", "Nǐ hē bu hē kāfēi?", "¿Tomas café o no?", ""]]},
+  "1": {"add": [["你忙不忙？", "Nǐ máng bu máng?", "¿Estás ocupado o no?", ""], ["你累不累？", "Nǐ lèi bu lèi?", "¿Estás cansado o no?", ""]]},
+  "2": {"add": [["你有没有车？", "Nǐ yǒu méiyǒu chē?", "¿Tienes auto o no?", ""], ["附近有没有银行？", "Fùjìn yǒu méiyǒu yínháng?", "¿Hay un banco cerca o no?", ""]]},
+  "3": {"add": ["你喜不喜欢中国菜？"]},
+  "4": {"add": [["你明天去不去银行？", "Nǐ míngtiān qù bu qù yínháng?", "¿Vas al banco mañana o no?", ""]]},
+  "6": {"add": ["你忙吗？", ["你有时间吗？", "Nǐ yǒu shíjiān ma?", "¿Tienes tiempo?", ""]]},
+  "7": {"add": [["不去", "bú qù", "no (no voy)", ""]]}
+ },
+ "ye-dou": {
+  "0": {"add": [["也", "yě", "también", ""]]},
+  "1": {"add": [["我也不忙。", "Wǒ yě bù máng.", "Yo tampoco estoy ocupado.", ""], ["我也没去。", "Wǒ yě méi qù.", "Yo tampoco fui.", ""]]},
+  "2": {"add": ["我们都是美国人。", ["都", "dōu", "todos; los dos", ""]]},
+  "3": {"add": [["我们也都是学生。", "Wǒmen yě dōu shì xuésheng.", "Nosotros también somos todos estudiantes.", ""], ["也都", "yě dōu", "también todos", ""]]},
+  "4": {"add": [["我们都不是老师。", "Wǒmen dōu bú shì lǎoshī.", "Ninguno de nosotros es profesor.", ""], ["我们不都是老师。", "Wǒmen bù dōu shì lǎoshī.", "No todos somos profesores.", ""]]},
+  "5": {"drop": ["我是美国人。"]}
+ },
+ "ba-bie": {
+  "2": {"add": [["请坐。", "Qǐng zuò.", "Siéntate, por favor.", ""], ["请", "qǐng", "por favor", ""]]},
+  "3": {"add": [["麻烦你", "máfan nǐ", "¿me harías el favor…?", ""]]},
+  "4": {"add": [["行", "xíng", "Va, de acuerdo.", ""]]}
+ },
+ "and-or": {
+  "1": {"add": [["睡觉", "shuìjiào", "dormir", ""]]}
+ }
+}

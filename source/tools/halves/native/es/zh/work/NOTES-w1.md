@@ -1,0 +1,194 @@
+# w1: glosses and decisions other writers must reuse (only w1 writes this file)
+
+Format: `Chinese → Spanish gloss · note`. Before glossing a repeated sentence (REPEATS.md) or a recurring phrase, read every NOTES-w*.md.
+
+## Decisions
+
+- 安娜 → Ana · the Spanish form of the name (profile §1 uses «el libro de Ana»)
+- 纽约 → Nueva York
+- 饺子 → empanadillas chinas (jiaozi) · in sentences «empanadillas»
+- 包子 → bollos al vapor (baozi)
+- 火锅 → olla caliente (hot pot) · in sentences «hot pot» is not used: «olla caliente»
+- 北京烤鸭 → pato laqueado de Pekín
+- 奶茶 → té con leche (profile §3.1)
+- 宫保鸡丁 → pollo Kung Pao
+- 洗手间 → el baño · «¿Dónde está el baño?»
+- 地铁站 → estación de metro
+- 高铁 → tren de alta velocidad
+- 师傅 → no vocative word in a gloss: «Al aeropuerto, por favor.» (profile: 师傅 = «maestro», card note explains it)
+- 有…吗？ to shop staff, no pronoun → «¿Hay…?» (no person, profile §3.2): 有大号的吗 «¿Hay talla grande?», 有房间吗 «¿Hay habitaciones?»
+- 可以…吗？ with no pronoun → «¿Puedo…?» or «¿Se puede…?»: 可以打包吗 «¿Se puede pedir para llevar?»
+- 我吃饱了 → Ya estoy lleno. · 了 = change, «ya»
+- 好吃 → rico, sabroso · 这个很好吃 «Esto está muy rico.»
+- 你真厉害 → ¡Eres increíble! · c0805, also in c0574's note
+- 真香 → ¡Qué bien huele!
+- 喂 → ¿Aló? (al teléfono)
+- 师傅，在这儿停一下 → Aquí, por favor. · no usted (no 您)
+- 快叫警察 → ¡Rápido, llamen a la policía! · to bystanders, plural
+- 你最近怎么样 / 最近怎么样 → ¿Qué tal te va últimamente? / ¿Cómo te ha ido?
+- 我今年二十五岁 → Este año cumplo 25 años.
+- 了 after an adjective of state (饿了, 饱了, 好一点儿了) → «ya» or «me dio…»: 我饿了 «Tengo hambre.», 我吃饱了 «Ya estoy lleno.»
+
+## Repeated Chinese (w1 listed first in REPEATS.md): the gloss to copy
+
+Card meanings are dictionary-style; in a sentence gloss, drop a bracketed tag such as «(con respeto, de usted)» and keep the rest.
+
+- 谢谢 → ¡Gracias! · zh.c0063
+- 服务员 → ¡Mesero! · zh.c0308
+- 去 → ir · zh.c0008
+- 好 → bueno; bien · zh.c0047
+- 你好 → ¡Hola! · zh.c0055
+- 不客气 → De nada. · zh.c0065
+- 没关系 → No pasa nada. · zh.c0067
+- 你家有几口人 → ¿Cuántas personas hay en tu familia? · zh.c0086
+- 你叫什么名字 → ¿Cómo te llamas? · zh.c0092
+- 你是哪国人 → ¿De qué país eres? · zh.c0096
+- 我也是美国人 → Yo también soy estadounidense. · zh.c0098
+- 二十五块 → 25 yuanes · zh.c0123
+- 服务员，买单 → ¡Mesero, la cuenta! · zh.c0161
+- 现在几点 → ¿Qué hora es? · zh.c0182
+- 今天几号 → ¿Qué fecha es hoy? · zh.c0186
+- 我会说一点儿中文 → Sé hablar un poco de chino. · zh.c0237
+- 你在做什么 → ¿Qué estás haciendo? · zh.c0243
+- 这个很好吃 → Esto está muy rico. · zh.c0271
+- 来 → venir · zh.c0437
+- 请 → invitar (pagar la cuenta) · zh.c0450
+- 八 → ocho · zh.c0001
+- 怕 → tener miedo · zh.c0002
+- 菜 → plato (de comida); verdura · zh.c0015
+- 绿 → verde · zh.c0018
+- 妈 → mamá (como en 妈妈) · zh.c0019
+- 麻 → entumecido; que hormiguea · zh.c0020
+- 马 → caballo · zh.c0021
+- 骂 → regañar · zh.c0022
+- 买 → comprar · zh.c0023
+- 卖 → vender · zh.c0024
+- 汤 → sopa · zh.c0025
+- 糖 → azúcar; dulces · zh.c0026
+- 七 → siete · zh.c0032
+- 人 → persona · zh.c0037
+- 木 → árbol; madera · zh.c0039
+- 林 → arboleda · zh.c0040
+- 山 → montaña · zh.c0042
+- 明 → brillante; claro · zh.c0044
+- 您好 → ¡Hola! (con respeto, de usted) · zh.c0056
+- 大家好 → ¡Hola a todos! · zh.c0057
+- 对不起 → ¡Lo siento! · zh.c0066
+- 再见 → ¡Adiós! · zh.c0071
+- 妈妈 → mamá · zh.c0074
+- 我家有四口人 → En mi familia somos cuatro. · zh.c0087
+- 我有一个哥哥 → Tengo un hermano mayor. · zh.c0088
+- 您贵姓 → ¿Cuál es su apellido? · zh.c0093
+- 我姓王 → Me apellido Wang. · zh.c0094
+- 我是美国人 → Soy estadounidense. · zh.c0095
+- 你住在哪儿 → ¿Dónde vives? · zh.c0101
+- 我今年二十五岁 → Este año cumplo 25 años. · zh.c0102
+- 你今年多大 → ¿Cuántos años tienes? (a un adulto) · zh.c0103
+- 一百零五 → ciento cinco · zh.c0118
+- 三块五 → tres yuanes con cincuenta · zh.c0125
+- 一个人 → una persona · zh.c0126
+- 三本书 → tres libros · zh.c0127
+- 一只猫 → un gato · zh.c0130
+- 几个人 → ¿Cuántas personas? · zh.c0143
+- 米饭 → arroz (cocido) · zh.c0146
+- 你想吃什么 → ¿Qué quieres comer? · zh.c0151
+- 我要一杯奶茶 → Quiero un té con leche. · zh.c0152
+- 不要辣的 → Sin picante. · zh.c0155
+- 可以打包吗 → ¿Se puede pedir para llevar? · zh.c0160
+- 太贵了 → ¡Qué caro! · zh.c0162
+- 可以扫码吗 → ¿Puedo pagar escaneando un código? · zh.c0164
+- 有大号的吗 → ¿Hay talla grande? · zh.c0165
+- 一共多少钱 → ¿Cuánto es en total? · zh.c0168
+- 我要这个 → Me llevo este. · zh.c0169
+- 我想买一双鞋 → Me gustaría comprar un par de zapatos. · zh.c0177
+- 明天 → mañana · zh.c0180
+- 三点半 → las tres y media · zh.c0183
+- 十二月三号 → 3 de diciembre · zh.c0184
+- 今天星期几 → ¿Qué día de la semana es hoy? · zh.c0185
+- 今天星期五 → Hoy es viernes. · zh.c0187
+- 两点十分 → 2:10 · zh.c0190
+- 你几点下班 → ¿A qué hora sales del trabajo? · zh.c0197
+- 银行在超市旁边 → El banco está al lado del supermercado. · zh.c0201
+- 附近有地铁站吗 → ¿Hay una estación de metro cerca? · zh.c0202
+- 请问，去天安门怎么走 → Perdón, ¿cómo llego a Tiananmen? · zh.c0208
+- 我去超市买东西 → Voy al supermercado a comprar cosas. · zh.c0213
+- 师傅，去机场 → Al aeropuerto, por favor. (al conductor) · zh.c0217
+- 我的护照呢 → ¿Y mi pasaporte? · zh.c0225
+- 火车几点到 → ¿A qué hora llega el tren? · zh.c0230
+- 老师 → profesor/a · zh.c0233
+- 我在银行工作 → Trabajo en un banco. · zh.c0235
+- 你做什么工作 → ¿A qué te dedicas? · zh.c0236
+- 你会开车吗 → ¿Sabes manejar? · zh.c0245
+- 我可以进来吗 → ¿Puedo pasar? · zh.c0247
+- 你哪儿不舒服 → ¿Qué te duele? · zh.c0258
+- 别担心 → No te preocupes. · zh.c0262
+- 你好一点儿了吗 → ¿Ya te sientes un poco mejor? · zh.c0266
+- 她很高 → Ella es alta. · zh.c0273
+- 我很忙 → Estoy ocupado. · zh.c0278
+- 这儿很热闹 → Aquí hay mucho ambiente. · zh.c0281
+- 太好了 → ¡Genial! · zh.c0286
+- 为什么 → ¿Por qué? · zh.c0292
+- 你忙吗 → ¿Estás ocupado? · zh.c0296
+- 你去不去 → ¿Vas o no vas? · zh.c0297
+- 你有没有时间 → ¿Tienes tiempo? · zh.c0298
+- 这个用中文怎么说 → ¿Cómo se dice esto en chino? · zh.c0300
+- 两个人 → dos personas · zh.c0307
+- 我很累 → Estoy cansado. · zh.c0310
+- 我饿了 → Tengo hambre. · zh.c0312
+- 我不喝酒 → No tomo alcohol. · zh.c0313
+- 我没有钱 → No tengo dinero. · zh.c0314
+- 她中文说得很好 → Ella habla muy bien chino. · zh.c0317
+- 东西 → cosa · zh.c0320
+- 工作 → trabajo · zh.c0322
+- 中国 → China · zh.c0323
+- 钱 → dinero · zh.c0331
+- 家 → casa; familia · zh.c0332
+- 电话 → teléfono; llamada · zh.c0337
+- 学校 → escuela · zh.c0344
+- 饭 → comida; arroz cocido · zh.c0362
+- 茶 → té · zh.c0363
+- 话 → palabras; lo que se dice · zh.c0366
+- 手 → mano · zh.c0373
+- 心 → corazón · zh.c0374
+- 苹果 → manzana · zh.c0391
+- 面包 → pan · zh.c0394
+- 灯 → luz; lámpara · zh.c0402
+- 大学 → universidad · zh.c0416
+- 想 → querer (hacer); pensar; extrañar · zh.c0439
+- 听 → escuchar; oír · zh.c0444
+- 叫 → llamarse; llamar · zh.c0451
+- 学 → aprender · zh.c0459
+- 写 → escribir · zh.c0462
+- 坐 → sentarse; ir en (un transporte) · zh.c0464
+- 进 → entrar · zh.c0469
+- 慢 → lento · zh.c0531
+- 冷 → frío · zh.c0534
+- 忙 → ocupado · zh.c0536
+- 红 → rojo · zh.c0578
+- 黄 → amarillo · zh.c0581
+- 晴 → despejado; soleado · zh.c0586
+- 很 → muy · zh.c0592
+- 您 → usted · zh.c0638
+- 从 → desde; de · zh.c0664
+- 好吧 → Bueno, está bien. · zh.c0704
+- 没问题 → ¡No hay problema! · zh.c0710
+- 好的 → De acuerdo. · zh.c0711
+- 行 → Va, de acuerdo. · zh.c0712
+- 不是 → no (no es) · zh.c0718
+- 六 → seis · zh.c0731
+- 十二 → doce · zh.c0734
+- 第一 → primero · zh.c0742
+- 今天 → hoy · zh.c0743
+- 间 → habitaciones · zh.c0781
+- 吗 → (convierte una afirmación en pregunta de sí o no) · zh.c0790
+- 们 → (plural de personas) · zh.c0797
+- 真香 → ¡Qué bien huele! · zh.c0800
+- 你做的菜真好吃 → ¡Lo que cocinas está riquísimo! · zh.c0801
+- 做得很好 → ¡Bien hecho! · zh.c0804
+- 你真厉害 → ¡Eres increíble! · zh.c0805
+- 你家真漂亮 → ¡Qué bonita es tu casa! · zh.c0810
+- 你穿这件真好看 → ¡Qué bien te queda! · zh.c0812
+- 你孩子真可爱 → ¡Qué lindo es tu hijo! · zh.c0813
+- 你的字写得真漂亮 → ¡Qué bonita letra tienes! · zh.c0815
+- 你中文说得真好 → ¡Qué bien hablas chino! · zh.c0817
+- 哪里哪里 → No es para tanto. (respuesta modesta) · zh.c0819

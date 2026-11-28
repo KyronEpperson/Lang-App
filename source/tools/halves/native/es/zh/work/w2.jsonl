@@ -1,0 +1,881 @@
+{"f":"cards","id":"zh.c0822","k":"meaning","src":"It's OK, I guess.","tgt":"Bueno, no está mal."}
+{"f":"cards","id":"zh.c0822","k":"note","src":"Modest, but accepting a little. Common among young people.","tgt":"Modesto, pero acepta un poco el elogio. Común entre los jóvenes."}
+{"f":"cards","id":"zh.c0823","k":"meaning","src":"I still need to study more.","tgt":"Todavía tengo que estudiar más."}
+{"f":"cards","id":"zh.c0823","k":"note","src":"Modest reply to praise of your Chinese or your work.","tgt":"Respuesta modesta cuando alguien elogia tu chino o tu trabajo."}
+{"f":"cards","id":"zh.c0824","k":"meaning","src":"Really? Thanks!","tgt":"¿En serio? ¡Gracias!"}
+{"f":"cards","id":"zh.c0824","k":"note","src":"The modern way to accept praise: pleased, but not boastful.","tgt":"La forma moderna de aceptar un elogio: contento, pero sin presumir."}
+{"f":"cards","id":"zh.c0825","k":"meaning","src":"pretty; beautiful (everyday)","tgt":"bonito/a, guapo/a (de uso diario)"}
+{"f":"cards","id":"zh.c0825","k":"note","src":"Mostly to a woman; for a man say 帅. Mild.","tgt":"Sobre todo a una mujer; a un hombre se le dice 帅. Suave."}
+{"f":"cards","id":"zh.c0826","k":"meaning","src":"beautiful (stronger)","tgt":"hermoso/a (más fuerte)"}
+{"f":"cards","id":"zh.c0826","k":"note","src":"To a woman; also for scenery. Warm.","tgt":"A una mujer; también para un paisaje. Cálido."}
+{"f":"cards","id":"zh.c0827","k":"meaning","src":"handsome; cool","tgt":"guapo; con estilo"}
+{"f":"cards","id":"zh.c0827","k":"note","src":"To a man (also a cool-looking woman). Mild to warm.","tgt":"A un hombre (también a una mujer con estilo). De suave a cálido."}
+{"f":"cards","id":"zh.c0828","k":"meaning","src":"good-looking","tgt":"lindo/a, que se ve bien"}
+{"f":"cards","id":"zh.c0828","k":"note","src":"To anyone, and for clothes. Mild.","tgt":"A cualquiera, y también para la ropa. Suave."}
+{"f":"cards","id":"zh.c0829","k":"meaning","src":"cute; adorable","tgt":"tierno/a, adorable"}
+{"f":"cards","id":"zh.c0829","k":"note","src":"Warm. To an adult man it is teasing.","tgt":"Cálido. Dicho a un hombre adulto es una broma."}
+{"f":"cards","id":"zh.c0830","k":"meaning","src":"clever; smart","tgt":"inteligente, listo/a"}
+{"f":"cards","id":"zh.c0830","k":"note","src":"To anyone. Mild and always safe.","tgt":"A cualquiera. Suave y siempre seguro."}
+{"f":"cards","id":"zh.c0831","k":"meaning","src":"fun; interesting (person)","tgt":"divertido/a, interesante (persona)"}
+{"f":"cards","id":"zh.c0831","k":"note","src":"Better than 好笑, which can mean \"ridiculous\". Mild.","tgt":"Mejor que 好笑, que puede significar «ridículo». Suave."}
+{"f":"cards","id":"zh.c0832","k":"meaning","src":"pleasant to hear (voice, name)","tgt":"agradable al oído (voz, nombre)"}
+{"f":"cards","id":"zh.c0832","k":"note","src":"For voices, names, songs. Mild.","tgt":"Para voces, nombres y canciones. Suave."}
+{"f":"cards","id":"zh.c0833","k":"meaning","src":"special; one of a kind","tgt":"especial, único/a"}
+{"f":"cards","id":"zh.c0833","k":"note","src":"你很特别. Warm.","tgt":"你很特别 = «Eres especial». Cálido."}
+{"f":"cards","id":"zh.c0834","k":"meaning","src":"young; youthful-looking","tgt":"joven, de aspecto juvenil"}
+{"f":"cards","id":"zh.c0834","k":"note","src":"A big compliment to anyone over thirty. Mild.","tgt":"Un gran cumplido para cualquiera de más de treinta años. Suave."}
+{"f":"cards","id":"zh.c0835","k":"meaning","src":"tall","tgt":"alto/a"}
+{"f":"cards","id":"zh.c0835","k":"note","src":"又高又帅 = tall and handsome, the classic praise for a man.","tgt":"又高又帅 = «alto y guapo», el elogio clásico para un hombre."}
+{"f":"cards","id":"zh.c0836","k":"meaning","src":"sweet (a smile, words)","tgt":"dulce (una sonrisa, unas palabras)"}
+{"f":"cards","id":"zh.c0836","k":"note","src":"笑得很甜 = a sweet smile. Warm.","tgt":"笑得很甜 = «una sonrisa dulce». Cálido."}
+{"f":"cards","id":"zh.c0837","k":"meaning","src":"happy; having fun","tgt":"contento/a, pasarla bien"}
+{"f":"cards","id":"zh.c0837","k":"note","src":"跟你在一起很开心. Warm.","tgt":"跟你在一起很开心 = «Estoy contento contigo». Cálido."}
+{"f":"cards","id":"zh.c0838","k":"meaning","src":"eyes","tgt":"ojos"}
+{"f":"cards","id":"zh.c0838","k":"note","src":"Safe to praise. Mild.","tgt":"Elogiarlos es seguro. Suave."}
+{"f":"cards","id":"zh.c0839","k":"meaning","src":"hair","tgt":"pelo, cabello"}
+{"f":"cards","id":"zh.c0839","k":"note","src":"Safe to praise. Mild.","tgt":"Elogiarlo es seguro. Suave."}
+{"f":"cards","id":"zh.c0840","k":"meaning","src":"to smile; to laugh","tgt":"sonreír; reír"}
+{"f":"cards","id":"zh.c0840","k":"note","src":"One verb for both.","tgt":"Un solo verbo para las dos cosas."}
+{"f":"cards","id":"zh.c0841","k":"meaning","src":"free (have time)","tgt":"estar libre (tener tiempo)"}
+{"f":"cards","id":"zh.c0841","k":"note","src":"有空吗？ is the first step to asking someone out.","tgt":"有空吗？ es el primer paso para invitar a alguien a salir."}
+{"f":"cards","id":"zh.c0842","k":"meaning","src":"boyfriend","tgt":"novio"}
+{"f":"cards","id":"zh.c0842","k":"note","src":"有男朋友了 = she's taken.","tgt":"有男朋友了 = «ya tiene novio»."}
+{"f":"cards","id":"zh.c0843","k":"meaning","src":"girlfriend","tgt":"novia"}
+{"f":"cards","id":"zh.c0843","k":"note","src":"有女朋友了 = he's taken.","tgt":"有女朋友了 = «ya tiene novia»."}
+{"f":"cards","id":"zh.c0844","k":"meaning","src":"You're really pretty.","tgt":"Eres muy bonita."}
+{"f":"cards","id":"zh.c0844","k":"note","src":"To a woman. As direct as in English. Warm.","tgt":"A una mujer. Tan directo como en español. Cálido.","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0845","k":"meaning","src":"You look really pretty today.","tgt":"Hoy te ves muy bonita."}
+{"f":"cards","id":"zh.c0845","k":"note","src":"To a woman; 今天 keeps it light. Mild.","tgt":"A una mujer; 今天 lo hace ligero. Suave."}
+{"f":"cards","id":"zh.c0846","k":"meaning","src":"You're beautiful.","tgt":"Eres hermosa."}
+{"f":"cards","id":"zh.c0846","k":"note","src":"To a woman. Bold if you don't know her well.","tgt":"A una mujer. Atrevido si no la conoces bien."}
+{"f":"cards","id":"zh.c0847","k":"meaning","src":"You're so handsome!","tgt":"¡Qué guapo eres!"}
+{"f":"cards","id":"zh.c0847","k":"note","src":"To a man; friends also say it as a joke. Warm.","tgt":"A un hombre; los amigos también lo dicen en broma. Cálido."}
+{"f":"cards","id":"zh.c0848","k":"meaning","src":"You look so handsome today!","tgt":"¡Hoy te ves guapísimo!"}
+{"f":"cards","id":"zh.c0848","k":"note","src":"To a man. 好 here = so. Warm.","tgt":"A un hombre. Aquí 好 = «muy, qué». Cálido."}
+{"f":"cards","id":"zh.c0849","k":"meaning","src":"You're tall and handsome.","tgt":"Eres alto y guapo."}
+{"f":"cards","id":"zh.c0849","k":"note","src":"To a man. The classic compliment. Warm.","tgt":"A un hombre. El cumplido clásico. Cálido."}
+{"f":"cards","id":"zh.c0850","k":"meaning","src":"You look lovely when you smile.","tgt":"Cuando sonríes te ves muy bien."}
+{"f":"cards","id":"zh.c0850","k":"note","src":"To anyone. Warm.","tgt":"A cualquiera. Cálido."}
+{"f":"cards","id":"zh.c0851","k":"meaning","src":"You look good in anything.","tgt":"Todo te queda bien."}
+{"f":"cards","id":"zh.c0851","k":"note","src":"To anyone. Warm, a little bold.","tgt":"A cualquiera. Cálido, un poco atrevido."}
+{"f":"cards","id":"zh.c0852","k":"meaning","src":"You're so cute.","tgt":"Eres muy tierna."}
+{"f":"cards","id":"zh.c0852","k":"note","src":"To a woman, or teasing a man. Warm.","tgt":"A una mujer, o en broma a un hombre. Cálido."}
+{"f":"cards","id":"zh.c0853","k":"meaning","src":"You're smart and beautiful.","tgt":"Eres inteligente y bonita."}
+{"f":"cards","id":"zh.c0853","k":"note","src":"To a woman; to a man: 又聪明又帅. Warm.","tgt":"A una mujer; a un hombre: 又聪明又帅. Cálido."}
+{"f":"cards","id":"zh.c0854","k":"meaning","src":"You're such a fun person.","tgt":"Eres una persona muy divertida."}
+{"f":"cards","id":"zh.c0854","k":"note","src":"To anyone. Mild: a good opener.","tgt":"A cualquiera. Suave: buena forma de empezar."}
+{"f":"cards","id":"zh.c0855","k":"meaning","src":"Talking with you is fun.","tgt":"Es divertido hablar contigo."}
+{"f":"cards","id":"zh.c0855","k":"note","src":"To anyone. Mild.","tgt":"A cualquiera. Suave."}
+{"f":"cards","id":"zh.c0856","k":"meaning","src":"What a lovely name.","tgt":"¡Qué nombre tan bonito!"}
+{"f":"cards","id":"zh.c0856","k":"note","src":"To anyone, on meeting. Mild.","tgt":"A cualquiera, al conocerse. Suave."}
+{"f":"cards","id":"zh.c0857","k":"meaning","src":"I think you're special.","tgt":"Creo que eres especial."}
+{"f":"cards","id":"zh.c0857","k":"note","src":"To anyone. Bold: it says you're interested.","tgt":"A cualquiera. Atrevido: dice que te interesa."}
+{"f":"cards","id":"zh.c0858","k":"meaning","src":"You have beautiful eyes.","tgt":"Tienes unos ojos preciosos."}
+{"f":"cards","id":"zh.c0858","k":"note","src":"To anyone. Warm.","tgt":"A cualquiera. Cálido."}
+{"f":"cards","id":"zh.c0859","k":"meaning","src":"Your hair looks great.","tgt":"Tu pelo se ve muy bien."}
+{"f":"cards","id":"zh.c0859","k":"note","src":"To anyone. Mild.","tgt":"A cualquiera. Suave."}
+{"f":"cards","id":"zh.c0860","k":"meaning","src":"I love seeing you smile.","tgt":"Me encanta verte sonreír."}
+{"f":"cards","id":"zh.c0860","k":"note","src":"To anyone. Warm to bold.","tgt":"A cualquiera. De cálido a atrevido."}
+{"f":"cards","id":"zh.c0861","k":"meaning","src":"You have such a sweet smile.","tgt":"Tienes una sonrisa muy dulce."}
+{"f":"cards","id":"zh.c0861","k":"note","src":"Usually to a woman. Warm.","tgt":"Normalmente a una mujer. Cálido."}
+{"f":"cards","id":"zh.c0862","k":"meaning","src":"You're such a sweet-talker.","tgt":"¡Qué palabras tan dulces!"}
+{"f":"cards","id":"zh.c0862","k":"note","src":"Playful answer to a compliment: lit. \"your mouth is so sweet\". Mild.","tgt":"Respuesta juguetona a un cumplido; literalmente, «tu boca es muy dulce». Suave."}
+{"f":"cards","id":"zh.c0863","k":"meaning","src":"I'm happy when I'm with you.","tgt":"Estoy contento cuando estoy contigo."}
+{"f":"cards","id":"zh.c0863","k":"note","src":"To anyone. Warm to bold.","tgt":"A cualquiera. De cálido a atrevido."}
+{"f":"cards","id":"zh.c0864","k":"meaning","src":"You look so young!","tgt":"¡Te ves muy joven!"}
+{"f":"cards","id":"zh.c0864","k":"note","src":"To anyone over thirty; never to a teenager. Mild.","tgt":"A cualquiera de más de treinta; nunca a un adolescente. Suave."}
+{"f":"cards","id":"zh.c0865","k":"meaning","src":"Do you have WeChat?","tgt":"¿Tienes WeChat?"}
+{"f":"cards","id":"zh.c0865","k":"note","src":"The usual first step: people swap WeChat, not numbers. Mild.","tgt":"El primer paso habitual: se intercambia el WeChat, no el número. Suave."}
+{"f":"cards","id":"zh.c0866","k":"meaning","src":"I'll scan your code.","tgt":"Te escaneo el código."}
+{"f":"cards","id":"zh.c0866","k":"note","src":"Lit. \"I'll scan you\": scan their WeChat QR code to add them. Mild.","tgt":"Literalmente, «te escaneo»: escaneas su código QR de WeChat para agregarlo. Suave."}
+{"f":"cards","id":"zh.c0867","k":"meaning","src":"Are you free this weekend?","tgt":"¿Estás libre este fin de semana?"}
+{"f":"cards","id":"zh.c0867","k":"note","src":"The standard way to ask someone out. Mild.","tgt":"La forma típica de invitar a alguien a salir. Suave."}
+{"f":"cards","id":"zh.c0868","k":"meaning","src":"Shall we grab a meal?","tgt":"¿Comemos juntos?"}
+{"f":"cards","id":"zh.c0868","k":"note","src":"A meal is the classic first date. Mild.","tgt":"Una comida es la primera cita clásica. Suave."}
+{"f":"cards","id":"zh.c0869","k":"meaning","src":"I'd like to buy you a coffee.","tgt":"Me gustaría invitarte a un café."}
+{"f":"cards","id":"zh.c0869","k":"note","src":"请 = my treat; the person who asks usually pays. Warm.","tgt":"请 = «invito yo»; quien invita suele pagar. Cálido."}
+{"f":"cards","id":"zh.c0870","k":"meaning","src":"Do you have a boyfriend?","tgt":"¿Tienes novio?"}
+{"f":"cards","id":"zh.c0870","k":"note","src":"An indirect way to show interest. To a man: 女朋友. Warm.","tgt":"Una forma indirecta de mostrar interés. A un hombre: 女朋友. Cálido."}
+{"f":"cards","id":"zh.c0871","k":"meaning","src":"Have you eaten?","tgt":"¿Ya comiste?"}
+{"f":"cards","id":"zh.c0871","k":"note","src":"Interest is often shown as care, in messages like this. Mild.","tgt":"El interés suele mostrarse como cuidado, con mensajes como este. Suave."}
+{"f":"cards","id":"zh.c0872","k":"meaning","src":"Get some rest (don't stay up late).","tgt":"Descansa (no te acuestes tarde)."}
+{"f":"cards","id":"zh.c0872","k":"note","src":"A caring goodnight message that reads as interest. Mild.","tgt":"Un mensaje de buenas noches atento que se lee como interés. Suave."}
+{"f":"cards","id":"zh.c0873","k":"meaning","src":"Let me see you home.","tgt":"Te acompaño a casa."}
+{"f":"cards","id":"zh.c0873","k":"note","src":"Caring; common after a date. Warm.","tgt":"Atento; común después de una cita. Cálido."}
+{"f":"cards","id":"zh.c0874","k":"meaning","src":"I'm so glad I met you.","tgt":"Me alegra mucho haberte conocido."}
+{"f":"cards","id":"zh.c0874","k":"note","src":"Warm.","tgt":"Cálido."}
+{"f":"cards","id":"zh.c0875","k":"meaning","src":"Can we go out again sometime?","tgt":"¿Volvemos a salir otro día?"}
+{"f":"cards","id":"zh.c0875","k":"note","src":"Warm.","tgt":"Cálido."}
+{"f":"cards","id":"zh.c0876","k":"meaning","src":"I've been thinking about you.","tgt":"No dejo de pensar en ti."}
+{"f":"cards","id":"zh.c0876","k":"note","src":"Bold: for someone you are already seeing.","tgt":"Atrevido: para alguien con quien ya sales."}
+{"f":"cards","id":"zh.c0877","k":"meaning","src":"I kind of like you.","tgt":"Me gustas un poco."}
+{"f":"cards","id":"zh.c0877","k":"note","src":"Bold but shy: a soft confession.","tgt":"Atrevido pero tímido: una declaración suave."}
+{"f":"cards","id":"zh.c0878","k":"meaning","src":"I like you.","tgt":"Me gustas."}
+{"f":"cards","id":"zh.c0878","k":"note","src":"Bold: a real confession, stronger than English \"I like you\".","tgt":"Atrevido: una declaración de verdad, como «me gustas» en español; no es un simple «me caes bien».","rw":"mentions English"}
+{"f":"cards","id":"zh.c0879","k":"meaning","src":"Sure, I'd love to!","tgt":"¡Claro, me encantaría!"}
+{"f":"cards","id":"zh.c0879","k":"note","src":"A warm yes.","tgt":"Un sí cálido."}
+{"f":"cards","id":"zh.c0880","k":"meaning","src":"I like you too.","tgt":"Tú también me gustas."}
+{"f":"cards","id":"zh.c0880","k":"note","src":"The happy answer to a confession.","tgt":"La respuesta feliz a una declaración."}
+{"f":"cards","id":"zh.c0881","k":"meaning","src":"You really know how to sweet-talk!","tgt":"¡Sí que sabes halagar!"}
+{"f":"cards","id":"zh.c0881","k":"note","src":"Playful, pleased; not a no. Mild.","tgt":"Juguetón y contento; no es un no. Suave."}
+{"f":"cards","id":"zh.c0882","k":"meaning","src":"Oh, stop it! (not true)","tgt":"¡Ay, no digas eso! (no es verdad)"}
+{"f":"cards","id":"zh.c0882","k":"note","src":"Playful, modest brush-off of a compliment. Mild.","tgt":"Forma juguetona y modesta de rechazar un cumplido. Suave."}
+{"f":"cards","id":"zh.c0883","k":"meaning","src":"Thanks, but I have a boyfriend.","tgt":"Gracias, pero ya tengo novio."}
+{"f":"cards","id":"zh.c0883","k":"note","src":"A kind, clear no. A man says 女朋友.","tgt":"Un no amable y claro. Un hombre dice 女朋友."}
+{"f":"cards","id":"zh.c0884","k":"meaning","src":"Thanks, but let's just be friends.","tgt":"Gracias, pero mejor seamos amigos."}
+{"f":"cards","id":"zh.c0884","k":"note","src":"A kind, clear no.","tgt":"Un no amable y claro."}
+{"f":"cards","id":"zh.c0885","k":"meaning","src":"Sorry, I'm not looking for a boyfriend right now.","tgt":"Perdón, ahora no busco novio."}
+{"f":"cards","id":"zh.c0885","k":"note","src":"A kind, clear no. A man says 女朋友.","tgt":"Un no amable y claro. Un hombre dice 女朋友."}
+{"f":"cards","id":"zh.c0886","k":"meaning","src":"I'm busy this weekend.","tgt":"Este fin de semana estoy ocupado."}
+{"f":"cards","id":"zh.c0886","k":"note","src":"An excuse; repeated excuses mean no. Say it clearly if you mean no.","tgt":"Una excusa; si se repite, significa que no. Si quieres decir que no, dilo claro."}
+{"f":"dialog","id":"zh.g001","k":"tr","src":"Where are you going? / I'm going to Beijing.","tgt":"¿Adónde vas? / Voy a Pekín."}
+{"f":"dialog","id":"zh.g002","k":"tr","src":"What are you eating? / I'm eating dumplings.","tgt":"¿Qué comes? / Como empanadillas."}
+{"f":"dialog","id":"zh.g003","k":"tr","src":"What will you drink? / I'll have tea.","tgt":"¿Qué tomas? / Tomo té."}
+{"f":"dialog","id":"zh.g004","k":"tr","src":"What are you buying? / I'm buying a coffee.","tgt":"¿Qué compras? / Compro un café."}
+{"f":"dialog","id":"zh.g005","k":"tr","src":"Do you want soup? / Yes, a bowl of soup.","tgt":"¿Quieres sopa? / Sí, un tazón de sopa."}
+{"f":"dialog","id":"zh.g006","k":"tr","src":"Can I ask you a question? / Sure, go ahead.","tgt":"¿Te puedo hacer una pregunta? / Sí, pregunta."}
+{"f":"dialog","id":"zh.g007","k":"tr","src":"Who's that person? / He's my teacher.","tgt":"¿Quién es esa persona? / Es mi profesor."}
+{"f":"dialog","id":"zh.g008","k":"tr","src":"Would you like some water? / Yes, thanks.","tgt":"¿Quieres agua? / Sí, gracias."}
+{"f":"dialog","id":"zh.g009","k":"tr","src":"Let's go tomorrow, OK? / OK!","tgt":"Vamos mañana, ¿te parece? / ¡Bien!"}
+{"f":"dialog","id":"zh.g010","k":"tr","src":"Hi! I'm Anna. / Hi! I'm Wang Ming.","tgt":"¡Hola! Me llamo Ana. / ¡Hola! Me llamo Wang Ming."}
+{"f":"dialog","id":"zh.g011","k":"tr","src":"Hello! What would you like? / I'd like a coffee.","tgt":"¡Hola! ¿Qué desea usted? / Quiero un café."}
+{"f":"dialog","id":"zh.g012","k":"tr","src":"Here's your coffee. / Thank you!","tgt":"Aquí tiene su café. / ¡Gracias!"}
+{"f":"dialog","id":"zh.g013","k":"tr","src":"Sorry I'm late. / That's OK.","tgt":"Lo siento, llegué tarde. / No pasa nada."}
+{"f":"dialog","id":"zh.g014","k":"tr","src":"Xiao Li, how have you been? / Busy. And you?","tgt":"Xiao Li, ¿qué tal últimamente? / Ocupado, ¿y tú?"}
+{"f":"dialog","id":"zh.g015","k":"tr","src":"How many people are in your family? / There are five of us.","tgt":"¿Cuántas personas hay en tu familia? / En mi familia somos cinco."}
+{"f":"dialog","id":"zh.g016","k":"tr","src":"Do you have an older brother? / Yes, I have two older brothers.","tgt":"¿Tienes un hermano mayor? / Sí, tengo dos hermanos mayores."}
+{"f":"dialog","id":"zh.g017","k":"tr","src":"Who's he? / He's my friend, Zhang Wei.","tgt":"¿Quién es él? / Es mi amigo, Zhang Wei."}
+{"f":"dialog","id":"zh.g018","k":"tr","src":"Hello, auntie! / Hi! Come on in.","tgt":"¡Hola, señora! / ¡Hola! Pasa, pasa."}
+{"f":"dialog","id":"zh.g019","k":"tr","src":"What's your name? / My name is Mark.","tgt":"¿Cómo te llamas? / Me llamo Mark."}
+{"f":"dialog","id":"zh.g020","k":"tr","src":"May I ask your surname? / My surname is Chen. I'm Chen Jing.","tgt":"¿Cuál es su apellido? / Me apellido Chen; me llamo Chen Jing."}
+{"f":"dialog","id":"zh.g021","k":"tr","src":"What country are you from? / I'm Canadian.","tgt":"¿De qué país eres? / Soy canadiense."}
+{"f":"dialog","id":"zh.g022","k":"tr","src":"Where do you live? / I live in Shanghai.","tgt":"¿Dónde vives? / Vivo en Shanghái."}
+{"f":"dialog","id":"zh.g023","k":"tr","src":"I'm American. And you? / I'm American too.","tgt":"Soy estadounidense, ¿y tú? / Yo también soy estadounidense."}
+{"f":"dialog","id":"zh.g024","k":"tr","src":"How old are you? / I'm thirty.","tgt":"¿Cuántos años tienes? / Tengo treinta años."}
+{"f":"dialog","id":"zh.g025","k":"tr","src":"How much is this? / Twenty yuan.","tgt":"¿Cuánto cuesta esto? / Veinte yuanes."}
+{"f":"dialog","id":"zh.g026","k":"tr","src":"How much is a coffee? / Twenty-five yuan.","tgt":"¿Cuánto cuesta un café? / 25 yuanes."}
+{"f":"dialog","id":"zh.g027","k":"tr","src":"How many do you want? / Two.","tgt":"¿Cuántos quiere usted? / Dos."}
+{"f":"dialog","id":"zh.g028","k":"tr","src":"Which one do you want? / I want this one.","tgt":"¿Cuál quiere usted? / Me llevo este."}
+{"f":"dialog","id":"zh.g029","k":"tr","src":"How many people? / Three.","tgt":"¿Cuántas personas? / Tres."}
+{"f":"dialog","id":"zh.g030","k":"tr","src":"Do you have a dog? / No, I have a cat.","tgt":"¿Tienes perro? / No, tengo un gato."}
+{"f":"dialog","id":"zh.g031","k":"tr","src":"How many tickets would you like? / Two tickets, please.","tgt":"¿Cuántos boletos quiere usted? / Dos boletos, gracias."}
+{"f":"dialog","id":"zh.g032","k":"tr","src":"What do you want to eat? / I feel like dumplings.","tgt":"¿Qué quieres comer? / Tengo ganas de comer empanadillas."}
+{"f":"dialog","id":"zh.g033","k":"tr","src":"What would you like to drink? / I'd like a milk tea.","tgt":"¿Qué desea tomar? / Quiero un té con leche."}
+{"f":"dialog","id":"zh.g034","k":"tr","src":"Do you want it spicy? / Not spicy, thanks.","tgt":"¿Picante? / Sin picante, gracias."}
+{"f":"dialog","id":"zh.g035","k":"tr","src":"Can I get this to go? / Of course.","tgt":"¿Se puede pedir para llevar? / Claro que sí."}
+{"f":"dialog","id":"zh.g036","k":"tr","src":"Check, please! / Sure, that's eighty yuan.","tgt":"¡Mesero, la cuenta! / De acuerdo, son ochenta yuanes en total."}
+{"f":"dialog","id":"zh.g037","k":"tr","src":"This one is three hundred yuan. / That's too expensive! Could you make it a bit cheaper?","tgt":"Esta prenda cuesta trescientos yuanes. / ¡Es demasiado caro! Un poco más barato, ¿no?"}
+{"f":"dialog","id":"zh.g038","k":"tr","src":"Can I pay by scanning a code? / Sure, scan the code here.","tgt":"¿Puedo pagar escaneando un código? / Sí, se escanea aquí."}
+{"f":"dialog","id":"zh.g039","k":"tr","src":"Do you have it in a large? / Yes, just a moment.","tgt":"¿Hay talla grande? / Sí, espere un momento."}
+{"f":"dialog","id":"zh.g040","k":"tr","src":"Hello, what are you looking for? / I'm just looking, thanks.","tgt":"Hola, ¿qué desea comprar? / Solo estoy mirando, gracias."}
+{"f":"dialog","id":"zh.g041","k":"tr","src":"How much is it altogether? / Eighty-five yuan altogether.","tgt":"¿Cuánto es en total? / Son ochenta y cinco yuanes en total."}
+{"f":"dialog","id":"zh.g042","k":"tr","src":"Can I try this one on? / Sure, you can try it on over there.","tgt":"¿Me puedo probar esta? / Sí, puedes probártela allá."}
+{"f":"dialog","id":"zh.g043","k":"tr","src":"What time is it now? / Half past three.","tgt":"¿Qué hora es? / Las tres y media."}
+{"f":"dialog","id":"zh.g044","k":"tr","src":"What day is it today? / Today is Friday.","tgt":"¿Qué día de la semana es hoy? / Hoy es viernes."}
+{"f":"dialog","id":"zh.g045","k":"tr","src":"What's the date today? / Today is December 3.","tgt":"¿Qué fecha es hoy? / Hoy es 3 de diciembre."}
+{"f":"dialog","id":"zh.g046","k":"tr","src":"What time do you get off work? / I get off at six.","tgt":"¿A qué hora sales del trabajo? / Salgo a las seis."}
+{"f":"dialog","id":"zh.g047","k":"tr","src":"Are you free this weekend? / Yes, see you Saturday.","tgt":"¿Estás libre este fin de semana? / Sí, nos vemos el sábado."}
+{"f":"dialog","id":"zh.g048","k":"tr","src":"Excuse me, where's the restroom? / Over there. Turn left.","tgt":"Perdón, ¿dónde está el baño? / Allá, a la izquierda."}
+{"f":"dialog","id":"zh.g049","k":"tr","src":"Is there a subway station nearby? / Yes, go straight for five minutes and you're there.","tgt":"¿Hay una estación de metro cerca? / Sí, sigues recto cinco minutos y ya llegas."}
+{"f":"dialog","id":"zh.g050","k":"tr","src":"Is the museum far from here? / Not far, it's a five-minute walk.","tgt":"¿El museo está lejos de aquí? / No, está a cinco minutos a pie."}
+{"f":"dialog","id":"zh.g051","k":"tr","src":"Excuse me, how do I get to Tiananmen? / Keep going straight and turn right at the intersection.","tgt":"Perdón, ¿cómo llego a Tiananmen? / Sigue todo recto y gira a la derecha en el cruce."}
+{"f":"dialog","id":"zh.g052","k":"tr","src":"To the airport, please. / OK. What time is your flight?","tgt":"Al aeropuerto, por favor. / De acuerdo. ¿A qué hora es su vuelo?"}
+{"f":"dialog","id":"zh.g053","k":"tr","src":"Hello, where are you going? / A ticket to Xi'an, for tomorrow morning.","tgt":"Hola, ¿adónde va usted? / Un boleto a Xi'an, para mañana por la mañana."}
+{"f":"dialog","id":"zh.g054","k":"tr","src":"Where's my passport? / It's in your bag.","tgt":"¿Y mi pasaporte? / Está en tu bolso."}
+{"f":"dialog","id":"zh.g055","k":"tr","src":"Hi, do you have any rooms tonight? / Yes, how many nights will you stay?","tgt":"Hola, ¿hay habitaciones para esta noche? / Sí, ¿cuántas noches se va a quedar?"}
+{"f":"dialog","id":"zh.g056","k":"tr","src":"What time does the train arrive? / It gets to Xi'an at two in the afternoon.","tgt":"¿A qué hora llega el tren? / Llega a Xi'an a las dos de la tarde."}
+{"f":"dialog","id":"zh.g057","k":"tr","src":"What do you do? / I'm an engineer; I work at a company.","tgt":"¿A qué te dedicas? / Soy ingeniero, trabajo en una empresa."}
+{"f":"dialog","id":"zh.g058","k":"tr","src":"What are you doing? / I'm studying Chinese.","tgt":"¿Qué estás haciendo? / Estoy estudiando chino."}
+{"f":"dialog","id":"zh.g059","k":"tr","src":"Can you drive? / Yes, but I don't have a car.","tgt":"¿Sabes manejar? / Sí, pero no tengo auto."}
+{"f":"dialog","id":"zh.g060","k":"tr","src":"Professor Wang, may I come in? / Come in.","tgt":"Profesor Wang, ¿puedo pasar? / Pasa, por favor."}
+{"f":"dialog","id":"zh.g061","k":"tr","src":"Sorry, I can't come tomorrow. / That's OK, get some rest.","tgt":"Lo siento, mañana no puedo venir. / No pasa nada, descansa bien."}
+{"f":"dialog","id":"zh.g062","k":"tr","src":"What's wrong? / I have a headache and a bit of a fever too.","tgt":"¿Qué te duele? / Me duele la cabeza y también tengo un poco de fiebre."}
+{"f":"dialog","id":"zh.g063","k":"tr","src":"What's the matter? / I've caught a cold. I want to rest a bit.","tgt":"¿Qué te pasa? / Me resfrié, quiero descansar un rato."}
+{"f":"dialog","id":"zh.g064","k":"tr","src":"Could you help me, please? / Sure, no problem.","tgt":"¿Me ayudas un momento, por favor? / De acuerdo, no hay problema."}
+{"f":"dialog","id":"zh.g065","k":"tr","src":"Are you feeling a bit better? / Much better, thanks.","tgt":"¿Ya te sientes un poco mejor? / Mucho mejor, gracias."}
+{"f":"dialog","id":"zh.g066","k":"tr","src":"How's this dish? / It's delicious!","tgt":"¿Qué tal este plato? / ¡Esto está muy rico!"}
+{"f":"dialog","id":"zh.g067","k":"tr","src":"It's cold today, so wear something warm. / OK, I'll put on a coat.","tgt":"Hoy hace frío, abrígate más. / De acuerdo, me pongo el abrigo."}
+{"f":"dialog","id":"zh.g068","k":"tr","src":"Is Chinese hard? / Chinese isn't hard, but the tones are a bit tricky.","tgt":"¿El chino es difícil? / El chino no es difícil, pero los tonos son un poco difíciles."}
+{"f":"dialog","id":"zh.g069","k":"tr","src":"It's lively here! / Yeah, there are lots of people on weekends.","tgt":"¡Aquí hay mucho ambiente! / Sí, los fines de semana hay mucha gente."}
+{"f":"dialog","id":"zh.g070","k":"tr","src":"I'm American, and you? / I'm Chinese.","tgt":"Soy estadounidense, ¿y tú? / Soy chino."}
+{"f":"dialog","id":"zh.g071","k":"tr","src":"What will you have to drink? Tea or coffee? / Tea, thanks.","tgt":"¿Qué tomas? ¿Té o café? / Té, gracias."}
+{"f":"dialog","id":"zh.g072","k":"tr","src":"I'm not going to work tomorrow. / Why?","tgt":"Mañana no voy a trabajar. / ¿Por qué?"}
+{"f":"dialog","id":"zh.g073","k":"tr","src":"We're having hotpot tonight. Are you coming? / Yes!","tgt":"Esta noche comemos olla caliente, ¿vas o no vas? / ¡Voy!"}
+{"f":"dialog","id":"zh.g074","k":"tr","src":"How do you say this in Chinese? / These are called 筷子 (chopsticks).","tgt":"¿Cómo se dice esto en chino? / Esto se llama 筷子 (palillos)."}
+{"f":"dialog","id":"zh.g075","k":"tr","src":"Have you eaten, Auntie Wang? / Yes, I have. And you?","tgt":"Señora Wang, ¿ya comiste? / Sí, ¿y tú?"}
+{"f":"dialog","id":"zh.g076","k":"tr","src":"Excuse me! / Coming! What would you like?","tgt":"¡Mesero! / ¡Ya voy! ¿Qué desea?"}
+{"f":"dialog","id":"zh.g077","k":"tr","src":"Did you go to the supermarket yesterday? / I didn't go. I was too busy.","tgt":"¿Fuiste al súper ayer? / No fui, estaba demasiado ocupado."}
+{"f":"dialog","id":"zh.g078","k":"tr","src":"Her Chinese is really good! / Yes, she lived in Beijing for five years.","tgt":"¡Ella habla muy bien chino! / Sí, vivió cinco años en Pekín."}
+{"f":"dialog","id":"zh.g079","k":"tr","src":"Li Na, how are you? / I'm fine, thanks. And you?","tgt":"Li Na, ¿cómo estás? / Bien, gracias. ¿Y tú?"}
+{"f":"dialog","id":"zh.g080","k":"tr","src":"The dumplings are ready, come and eat! / It smells amazing!","tgt":"¡Ya están las empanadillas, ven a comer! / ¡Qué bien huele!"}
+{"f":"dialog","id":"zh.g081","k":"tr","src":"Your cooking is delicious! / Really? Then have some more!","tgt":"¡Lo que cocinas está riquísimo! / ¿Ah, sí? ¡Entonces come un poco más!"}
+{"f":"dialog","id":"zh.g082","k":"tr","src":"Teacher, how's my homework? / Well done!","tgt":"Profesor, ¿qué tal mi tarea? / ¡Bien hecho!"}
+{"f":"dialog","id":"zh.g083","k":"tr","src":"I run ten kilometers every day. / That's impressive!","tgt":"Corro diez kilómetros todos los días. / ¡Eres increíble!"}
+{"f":"dialog","id":"zh.g084","k":"tr","src":"Don't worry, I'll help you. / Thanks, you're so kind.","tgt":"No te preocupes, yo te ayudo. / Gracias, eres muy buena persona."}
+{"f":"dialog","id":"zh.g085","k":"tr","src":"Your home is beautiful! / Thanks, come in and sit down.","tgt":"¡Qué bonita es tu casa! / Gracias, pasa, siéntate, por favor."}
+{"f":"dialog","id":"zh.g086","k":"tr","src":"You look great in that! / Really? Thanks!","tgt":"¡Qué bien te queda! / ¿En serio? ¡Gracias!"}
+{"f":"dialog","id":"zh.g087","k":"tr","src":"Your Chinese is really good! / Oh, not at all, I still have a long way to go.","tgt":"¡Qué bien hablas chino! / No es para tanto, todavía me falta mucho."}
+{"f":"dialog","id":"zh.g088","k":"tr","src":"Your handwriting is beautiful! / Oh, not at all.","tgt":"¡Qué bonita letra tienes! / No es para tanto."}
+{"f":"dialog","id":"zh.g089","k":"tr","src":"Your Chinese is very good! / Thanks, I don't speak it well yet.","tgt":"¡Tu chino es muy bueno! / Gracias, todavía no lo hablo bien."}
+{"f":"dialog","id":"zh.g090","k":"tr","src":"Your child is adorable! / Thanks! He's three this year.","tgt":"¡Qué lindo es tu hijo! / ¡Gracias! Este año cumple tres."}
+{"f":"dialog","id":"zh.g091","k":"tr","src":"You're really pretty. / Thanks, you're such a smooth talker!","tgt":"Eres muy bonita. / Gracias, ¡sí que sabes halagar!"}
+{"f":"dialog","id":"zh.g092","k":"tr","src":"Sorry I'm late. / No problem. You look really pretty today.","tgt":"Lo siento, llegué tarde. / No pasa nada. Hoy te ves muy bonita."}
+{"f":"dialog","id":"zh.g093","k":"tr","src":"You're so handsome! / Oh, stop it!","tgt":"¡Qué guapo eres! / ¡Ay, no digas eso!"}
+{"f":"dialog","id":"zh.g094","k":"tr","src":"You're tall and handsome. / You're such a sweet-talker!","tgt":"Eres alto y guapo. / ¡Qué palabras tan dulces!"}
+{"f":"dialog","id":"zh.g095","k":"tr","src":"You look lovely when you smile. / Really? Thanks!","tgt":"Cuando sonríes te ves muy bien. / ¿En serio? ¡Gracias!"}
+{"f":"dialog","id":"zh.g096","k":"tr","src":"My name is Li Na. / What a lovely name.","tgt":"Me llamo Li Na. / ¡Qué nombre tan bonito!"}
+{"f":"dialog","id":"zh.g097","k":"tr","src":"You're such a fun person. / So are you!","tgt":"Eres una persona muy divertida. / ¡Tú también!"}
+{"f":"dialog","id":"zh.g098","k":"tr","src":"Why are you looking at me? / I love seeing you smile.","tgt":"¿Por qué me miras? / Me encanta verte sonreír."}
+{"f":"dialog","id":"zh.g099","k":"tr","src":"You look great today! / Oh, stop it! You're the one who looks great!","tgt":"¡Hoy te ves muy bien! / ¡Ay, no digas eso! ¡Tú sí que te ves bien!"}
+{"f":"dialog","id":"zh.g100","k":"tr","src":"You're the best-looking person I've ever met. / You really know how to sweet-talk!","tgt":"Eres la persona más guapa que he conocido. / ¡Sí que sabes halagar!"}
+{"f":"dialog","id":"zh.g101","k":"tr","src":"Do you have WeChat? / Yes, I'll scan your code.","tgt":"¿Tienes WeChat? / Sí, te escaneo el código."}
+{"f":"dialog","id":"zh.g102","k":"tr","src":"Are you free this weekend? / Yes, why?","tgt":"¿Estás libre este fin de semana? / Sí, ¿por qué?"}
+{"f":"dialog","id":"zh.g103","k":"tr","src":"Shall we grab a meal on Saturday? / Sure! What time?","tgt":"¿Comemos juntos el sábado? / ¡Claro! ¿A qué hora?"}
+{"f":"dialog","id":"zh.g104","k":"tr","src":"I'd like to buy you a coffee. / Sure, how about tomorrow afternoon?","tgt":"Me gustaría invitarte a un café. / ¡Claro! ¿Qué tal mañana por la tarde?"}
+{"f":"dialog","id":"zh.g105","k":"tr","src":"Have you eaten? / Not yet, have you?","tgt":"¿Ya comiste? / Todavía no, ¿y tú?"}
+{"f":"dialog","id":"zh.g106","k":"tr","src":"It's late, let me see you home. / OK, thank you.","tgt":"Ya es muy tarde, te acompaño a casa. / ¡Claro, gracias!"}
+{"f":"dialog","id":"zh.g107","k":"tr","src":"I like you. / I like you too.","tgt":"Me gustas. / Tú también me gustas."}
+{"f":"dialog","id":"zh.g108","k":"tr","src":"I kind of like you. / Thank you, but let's just be friends.","tgt":"Me gustas un poco. / Gracias, pero mejor seamos amigos."}
+{"f":"dialog","id":"zh.g109","k":"tr","src":"Shall we see a movie this weekend? / Sorry, I'm not looking for a boyfriend right now.","tgt":"¿Vamos al cine el fin de semana? / Perdón, ahora no busco novio."}
+{"f":"dialog","id":"zh.g110","k":"tr","src":"Do you have a boyfriend? / I do, but thank you.","tgt":"¿Tienes novio? / Sí, pero gracias."}
+{"f":"dialog","id":"zh.g111","k":"tr","src":"Hello? Is that Wang Ming? / Speaking. Who's calling?","tgt":"¿Hola? ¿Hablo con Wang Ming? / Sí, soy yo. ¿Quién habla?"}
+{"f":"dialog","id":"zh.g112","k":"tr","src":"I've lost my phone! / Oh my God! Where did you lose it?","tgt":"¡Perdí mi celular! / ¡Dios mío! ¿Dónde lo perdiste?"}
+{"f":"dialog","id":"zh.g113","k":"tr","src":"I have an exam tomorrow. / Go for it! You can do it!","tgt":"Mañana tengo un examen. / ¡Ánimo! ¡Seguro que puedes!"}
+{"f":"dialog","id":"zh.g114","k":"tr","src":"That restaurant is too crowded. / Forget it, let's eat at home.","tgt":"Ese restaurante tiene demasiada gente. / Olvídalo, vamos a comer a casa."}
+{"f":"dialog","id":"zh.g115","k":"tr","src":"Are you ready? / All set, let's go!","tgt":"¿Ya estás listo? / ¡Listo, vámonos!"}
+{"f":"dialog","id":"zh.g116","k":"tr","src":"I don't feel like going out today. / Oh, all right, let's watch a movie at home then.","tgt":"Hoy no tengo ganas de salir. / Bueno, está bien, entonces vemos una película en casa."}
+{"f":"dialog","id":"zh.g117","k":"tr","src":"Oh, by the way, are you free tomorrow? / Yes, why?","tgt":"Por cierto, ¿estás libre mañana? / Sí, ¿por qué?"}
+{"f":"dialog","id":"zh.g118","k":"tr","src":"I'm going to China next month. / Really? That's great!","tgt":"El mes que viene voy a China. / ¿Ah, sí? ¡Genial!"}
+{"f":"dialog","id":"zh.g119","k":"tr","src":"I can speak a little Chinese. / Really?! Let's hear some!","tgt":"Sé hablar un poco de chino. / ¿En serio? ¡A ver, di algo!"}
+{"f":"dialog","id":"zh.g120","k":"tr","src":"He got married. / No way! He's only twenty!","tgt":"Se casó. / ¡No puede ser! ¡Si solo tiene veinte años!"}
+{"f":"dialog","id":"zh.g121","k":"tr","src":"I can't come tomorrow after all. / What a pity!","tgt":"Mañana ya no puedo venir. / ¡Qué lástima!"}
+{"f":"dialog","id":"zh.g122","k":"tr","src":"Can you give me a hand? / No problem!","tgt":"¿Me puedes ayudar un momento? / ¡No hay problema!"}
+{"f":"dialog","id":"zh.g123","k":"tr","src":"Please wait a moment. / OK.","tgt":"Un momento, por favor. / De acuerdo."}
+{"f":"dialog","id":"zh.g124","k":"tr","src":"Let's meet at seven, OK? / Sure, that works!","tgt":"Nos vemos a las siete, ¿te parece? / ¡Va, de acuerdo!"}
+{"f":"dialog","id":"zh.g125","k":"tr","src":"Can I park here? / No, you can't park here.","tgt":"¿Puedo estacionar el auto aquí? / No, aquí no se puede estacionar."}
+{"f":"dialog","id":"zh.g126","k":"tr","src":"Hurry up! The movie starts at seven! / Coming, coming!","tgt":"¡Rápido! ¡La película empieza a las siete! / ¡Ya voy, ya voy!"}
+{"f":"dialog","id":"zh.g127","k":"tr","src":"I'm heading off! / Take care on the way!","tgt":"¡Me voy! / ¡Despacio, cuídate en el camino!"}
+{"f":"examples","id":"zh.e001","k":"tr","src":"I watch TV at home in the evening.","tgt":"Por la noche veo la tele en casa."}
+{"f":"examples","id":"zh.e002","k":"tr","src":"Right, I'm American.","tgt":"Exacto, soy estadounidense."}
+{"f":"examples","id":"zh.e003","k":"tr","src":"What does this character mean?","tgt":"¿Qué significa este carácter?"}
+{"f":"examples","id":"zh.e004","k":"tr","src":"Do they sell coffee here?","tgt":"¿Aquí venden café?"}
+{"f":"examples","id":"zh.e005","k":"tr","src":"I have a younger sister.","tgt":"Tengo una hermana menor."}
+{"f":"examples","id":"zh.e006","k":"tr","src":"He got angry.","tgt":"Se enojó."}
+{"f":"examples","id":"zh.e007","k":"tr","src":"I'm going to Beijing in January.","tgt":"En enero voy a Pekín."}
+{"f":"examples","id":"zh.e008","k":"tr","src":"It's started raining outside.","tgt":"Afuera ya está lloviendo."}
+{"f":"examples","id":"zh.e009","k":"tr","src":"I'm Mark. Nice to meet you.","tgt":"Me llamo Mark, mucho gusto."}
+{"f":"examples","id":"zh.e010","k":"tr","src":"Excuse me, where's the subway station?","tgt":"Perdón, ¿dónde está la estación de metro?"}
+{"f":"examples","id":"zh.e011","k":"tr","src":"Goodbye, teacher!","tgt":"¡Adiós, profesor!"}
+{"f":"examples","id":"zh.e012","k":"tr","src":"I have an older brother and a younger sister.","tgt":"Tengo un hermano mayor y una hermana menor."}
+{"f":"examples","id":"zh.e013","k":"tr","src":"My grandma is eighty this year.","tgt":"Mi abuela cumple ochenta años este año."}
+{"f":"examples","id":"zh.e014","k":"tr","src":"They're all my classmates.","tgt":"Todos ellos son mis compañeros de clase."}
+{"f":"examples","id":"zh.e015","k":"tr","src":"We're all American, and we're all studying Chinese in Beijing.","tgt":"Todos somos estadounidenses y todos estudiamos chino en Pekín."}
+{"f":"examples","id":"zh.e016","k":"tr","src":"I like singing, and I like dancing too.","tgt":"Me gusta cantar, y también me gusta bailar."}
+{"f":"examples","id":"zh.e017","k":"tr","src":"I study Chinese, and my friend studies English.","tgt":"Yo estudio chino y mi amigo estudia inglés.","rw":"mentions English"}
+{"f":"examples","id":"zh.e018","k":"tr","src":"This book is 105 yuan.","tgt":"Este libro cuesta 105 yuanes."}
+{"f":"examples","id":"zh.e019","k":"tr","src":"A bottle of water is three fifty.","tgt":"Una botella de agua cuesta tres yuanes con cincuenta."}
+{"f":"examples","id":"zh.e020","k":"tr","src":"I bought three books.","tgt":"Compré tres libros."}
+{"f":"examples","id":"zh.e021","k":"tr","src":"I'd like to buy a pair of shoes.","tgt":"Me gustaría comprar un par de zapatos."}
+{"f":"examples","id":"zh.e022","k":"tr","src":"There's a restaurant next to my place.","tgt":"Al lado de mi casa hay un restaurante."}
+{"f":"examples","id":"zh.e023","k":"tr","src":"Let's go have hot pot tonight.","tgt":"Esta noche vamos a comer olla caliente."}
+{"f":"examples","id":"zh.e024","k":"tr","src":"I don't eat meat. Do you have any tofu?","tgt":"No como carne. ¿Hay tofu?"}
+{"f":"examples","id":"zh.e025","k":"tr","src":"I'd like a bowl of noodles and two steamed buns.","tgt":"Quiero un tazón de fideos y dos bollos al vapor."}
+{"f":"examples","id":"zh.e026","k":"tr","src":"I'm buying two. Could you make it a bit cheaper?","tgt":"Jefe, me llevo dos, un poco más barato, ¿no?"}
+{"f":"examples","id":"zh.e027","k":"tr","src":"These shoes look nice. Do you have other colors?","tgt":"Estos zapatos son bonitos. ¿Hay otros colores?"}
+{"f":"examples","id":"zh.e028","k":"tr","src":"Thanks, I'll keep looking and come back later.","tgt":"Gracias, voy a seguir mirando y vuelvo luego."}
+{"f":"examples","id":"zh.e029","k":"tr","src":"I get up at seven every day and go to work at eight.","tgt":"Todos los días me levanto a las siete y voy a trabajar a las ocho."}
+{"f":"examples","id":"zh.e030","k":"tr","src":"It takes an hour to get to the airport by subway.","tgt":"En metro se tarda una hora al aeropuerto."}
+{"f":"examples","id":"zh.e031","k":"tr","src":"Let's meet at the restaurant at seven tomorrow evening.","tgt":"Nos vemos mañana a las siete de la noche en el restaurante."}
+{"f":"examples","id":"zh.e032","k":"tr","src":"Look, the bank is next to the supermarket, and the hospital is across from the bank.","tgt":"Mira, el banco está al lado del supermercado y el hospital está enfrente del banco."}
+{"f":"examples","id":"zh.e033","k":"tr","src":"After work I'm going to the supermarket to buy some things. Do you need anything?","tgt":"Después del trabajo voy al súper a comprar cosas. ¿Quieres algo?"}
+{"f":"examples","id":"zh.e034","k":"tr","src":"I'll wait for you at the park at ten tomorrow morning.","tgt":"Mañana a las diez de la mañana te espero en el parque."}
+{"f":"examples","id":"zh.e035","k":"tr","src":"Next week I'm taking the high-speed train to Shanghai to see a friend.","tgt":"La semana que viene voy a Shanghái en tren de alta velocidad a ver a un amigo."}
+{"f":"examples","id":"zh.e036","k":"tr","src":"The subway station is too far. Let's take a taxi.","tgt":"La estación de metro está demasiado lejos, vamos en taxi."}
+{"f":"examples","id":"zh.e037","k":"tr","src":"During the break I'm going on a trip to Xi'an to see the Terracotta Army.","tgt":"En las vacaciones voy de viaje a Xi'an a ver los Guerreros de Terracota."}
+{"f":"examples","id":"zh.e038","k":"tr","src":"I work at a bank, and my wife is a teacher.","tgt":"Trabajo en un banco y mi esposa es profesora."}
+{"f":"examples","id":"zh.e039","k":"tr","src":"I can speak a little Chinese, but I can't write characters.","tgt":"Sé hablar un poco de chino, pero no sé escribir caracteres."}
+{"f":"examples","id":"zh.e040","k":"tr","src":"There's an exam tomorrow, so I'm studying in the library tonight.","tgt":"Mañana hay examen, así que esta noche estudio en la biblioteca."}
+{"f":"examples","id":"zh.e041","k":"tr","src":"Is there a pharmacy nearby? I want to buy some cold medicine.","tgt":"¿Hay una farmacia cerca? Quiero comprar medicina para el resfriado."}
+{"f":"examples","id":"zh.e042","k":"tr","src":"You've got a cold: drink lots of water and get plenty of rest.","tgt":"Estás resfriado: toma mucha agua y descansa mucho."}
+{"f":"examples","id":"zh.e043","k":"tr","src":"I have a fever, so I can't go to work today.","tgt":"Tengo fiebre, hoy no puedo ir a trabajar."}
+{"f":"examples","id":"zh.e044","k":"tr","src":"He's a really nice person; he often helps others.","tgt":"Es muy buena persona, siempre ayuda a los demás."}
+{"f":"examples","id":"zh.e045","k":"tr","src":"The food at this restaurant is delicious, but it's a bit pricey.","tgt":"La comida de este restaurante es muy rica, pero un poco cara."}
+{"f":"examples","id":"zh.e046","k":"tr","src":"I'm busy this week, but I'm free next week.","tgt":"Esta semana estoy ocupado; la semana que viene estoy libre."}
+{"f":"examples","id":"zh.e047","k":"tr","src":"Because it's raining today, we're not going to the park after all.","tgt":"Como hoy llueve, ya no vamos al parque."}
+{"f":"examples","id":"zh.e048","k":"tr","src":"He's going to Beijing tomorrow, and I'm going with him.","tgt":"Él va a Pekín mañana, y yo voy con él."}
+{"f":"examples","id":"zh.e049","k":"tr","src":"Let's go see a movie on Saturday or Sunday.","tgt":"Vamos al cine el sábado o el domingo."}
+{"f":"examples","id":"zh.e050","k":"tr","src":"I'm hungry. Let's go eat.","tgt":"Tengo hambre, vamos a comer."}
+{"f":"examples","id":"zh.e051","k":"tr","src":"Hi, there are two of us. Do you have a table?","tgt":"Hola, somos dos. ¿Hay mesa?"}
+{"f":"examples","id":"zh.e052","k":"tr","src":"Thanks, but I don't drink. I'll have tea.","tgt":"Gracias, no tomo alcohol; tomo té."}
+{"f":"examples","id":"zh.e053","k":"tr","src":"My Chinese still has a long way to go; I study every day.","tgt":"A mi chino todavía le falta mucho; estudio todos los días."}
+{"f":"examples","id":"zh.e054","k":"tr","src":"You study so hard! You study every evening.","tgt":"¡Qué dedicado eres! Estudias todas las noches."}
+{"f":"examples","id":"zh.e055","k":"tr","src":"Your tones are really good. How long have you been studying?","tgt":"Tus tonos son muy buenos. ¿Cuánto tiempo llevas estudiando?"}
+{"f":"examples","id":"zh.e056","k":"tr","src":"Thanks, I still need to study more.","tgt":"Gracias, todavía tengo que estudiar más."}
+{"f":"examples","id":"zh.e057","k":"tr","src":"You're so beautiful, I don't know what to say.","tgt":"Eres hermosa, no sé qué decir."}
+{"f":"examples","id":"zh.e058","k":"tr","src":"I had a great time with you today.","tgt":"Hoy la pasé muy bien contigo."}
+{"f":"examples","id":"zh.e059","k":"tr","src":"It's late; get some rest. Good night.","tgt":"Ya es muy tarde, descansa. Buenas noches."}
+{"f":"examples","id":"zh.e060","k":"tr","src":"I'm so glad I met you. See you next time!","tgt":"Me alegra mucho haberte conocido. ¡Hasta la próxima!"}
+{"f":"examples","id":"zh.e061","k":"tr","src":"I'd like a coffee.","tgt":"Quiero un café."}
+{"f":"examples","id":"zh.e062","k":"tr","src":"He says he's coming tomorrow.","tgt":"Él dice que viene mañana."}
+{"f":"examples","id":"zh.e063","k":"tr","src":"Can you swim?","tgt":"¿Sabes nadar?"}
+{"f":"examples","id":"zh.e064","k":"tr","src":"I don't know where he lives.","tgt":"No sé dónde vive él."}
+{"f":"examples","id":"zh.e065","k":"tr","src":"When are you coming?","tgt":"¿Cuándo vienes?"}
+{"f":"examples","id":"zh.e066","k":"tr","src":"Let me think.","tgt":"Déjame pensar."}
+{"f":"examples","id":"zh.e067","k":"tr","src":"I want to take a trip to China.","tgt":"Me gustaría ir de viaje a China."}
+{"f":"examples","id":"zh.e068","k":"tr","src":"Can I sit here?","tgt":"¿Puedo sentarme aquí?"}
+{"f":"examples","id":"zh.e069","k":"tr","src":"What are you doing tonight?","tgt":"¿Qué haces esta noche?"}
+{"f":"examples","id":"zh.e070","k":"tr","src":"Wait a moment, I'm coming right away.","tgt":"Espera un momento, ya voy."}
+{"f":"examples","id":"zh.e071","k":"tr","src":"Can you help me?","tgt":"¿Me puedes ayudar?"}
+{"f":"examples","id":"zh.e072","k":"tr","src":"I can't follow (what I hear).","tgt":"No entiendo (lo que oigo)."}
+{"f":"examples","id":"zh.e073","k":"tr","src":"It's late, I'm off.","tgt":"Ya es muy tarde, me voy."}
+{"f":"examples","id":"zh.e074","k":"tr","src":"I think this is delicious.","tgt":"Creo que esto está muy rico."}
+{"f":"examples","id":"zh.e075","k":"tr","src":"What music do you like?","tgt":"¿Qué música te gusta?"}
+{"f":"examples","id":"zh.e076","k":"tr","src":"What are you looking for?","tgt":"¿Qué buscas?"}
+{"f":"examples","id":"zh.e077","k":"tr","src":"You should drink more water.","tgt":"Deberías tomar más agua."}
+{"f":"examples","id":"zh.e078","k":"tr","src":"Today dinner's on me.","tgt":"Hoy te invito a comer."}
+{"f":"examples","id":"zh.e079","k":"tr","src":"What's this dish called?","tgt":"¿Cómo se llama este plato?"}
+{"f":"examples","id":"zh.e080","k":"tr","src":"It's boiling hot today!","tgt":"¡Hoy hace un calor terrible!"}
+{"f":"examples","id":"zh.e081","k":"tr","src":"Could you hold this for me?","tgt":"¿Me sostienes esto un momento?"}
+{"f":"examples","id":"zh.e082","k":"tr","src":"Do you need help?","tgt":"¿Necesitas ayuda?"}
+{"f":"examples","id":"zh.e083","k":"tr","src":"What time do we start?","tgt":"¿A qué hora empezamos?"}
+{"f":"examples","id":"zh.e084","k":"tr","src":"It'll rain tomorrow, so bring an umbrella.","tgt":"Mañana llueve, lleva paraguas."}
+{"f":"examples","id":"zh.e085","k":"tr","src":"Do you know him?","tgt":"¿Lo conoces?"}
+{"f":"examples","id":"zh.e086","k":"tr","src":"I live in Shanghai.","tgt":"Vivo en Shanghái."}
+{"f":"examples","id":"zh.e087","k":"tr","src":"I'm learning Chinese.","tgt":"Estoy estudiando chino."}
+{"f":"examples","id":"zh.e088","k":"tr","src":"Teacher Wang teaches us Chinese.","tgt":"El profesor Wang nos enseña chino."}
+{"f":"examples","id":"zh.e089","k":"tr","src":"Can you write characters?","tgt":"¿Sabes escribir caracteres?"}
+{"f":"examples","id":"zh.e090","k":"tr","src":"Let's take the subway.","tgt":"Vamos en metro."}
+{"f":"examples","id":"zh.e091","k":"tr","src":"I'm going back to Beijing tomorrow.","tgt":"Mañana vuelvo a Pekín."}
+{"f":"examples","id":"zh.e092","k":"tr","src":"It's cold outside, come in.","tgt":"Afuera hace frío, entra."}
+{"f":"examples","id":"zh.e093","k":"tr","src":"Please open the door.","tgt":"Abre la puerta, por favor."}
+{"f":"examples","id":"zh.e094","k":"tr","src":"Please turn off the light.","tgt":"Apaga la luz, por favor."}
+{"f":"examples","id":"zh.e095","k":"tr","src":"It's cold today, so wear more.","tgt":"Hoy hace frío, abrígate más."}
+{"f":"examples","id":"zh.e096","k":"tr","src":"Put the book on the table.","tgt":"Pon el libro en la mesa."}
+{"f":"examples","id":"zh.e097","k":"tr","src":"I'm giving you a present.","tgt":"Te regalo algo."}
+{"f":"examples","id":"zh.e098","k":"tr","src":"Let's go have fun in the park this weekend.","tgt":"Este fin de semana vamos a pasear al parque."}
+{"f":"examples","id":"zh.e099","k":"tr","src":"I go to bed at eleven.","tgt":"Me acuesto a las once."}
+{"f":"examples","id":"zh.e100","k":"tr","src":"You're tired, take a rest.","tgt":"Estás cansado, descansa un rato."}
+{"f":"examples","id":"zh.e101","k":"tr","src":"I love my family.","tgt":"Quiero a mi familia."}
+{"f":"examples","id":"zh.e102","k":"tr","src":"Do you get what I mean?","tgt":"¿Entiendes lo que quiero decir?"}
+{"f":"examples","id":"zh.e103","k":"tr","src":"Do you still remember me?","tgt":"¿Todavía te acuerdas de mí?"}
+{"f":"examples","id":"zh.e104","k":"tr","src":"I hope you like this present.","tgt":"Espero que te guste este regalo."}
+{"f":"examples","id":"zh.e105","k":"tr","src":"What are you planning to do this weekend?","tgt":"¿Qué piensas hacer este fin de semana?"}
+{"f":"examples","id":"zh.e106","k":"tr","src":"I'm getting ready for an exam.","tgt":"Me estoy preparando para un examen."}
+{"f":"examples","id":"zh.e107","k":"tr","src":"Let's meet tomorrow.","tgt":"Veámonos mañana."}
+{"f":"examples","id":"zh.e108","k":"tr","src":"Can I try it on?","tgt":"¿Puedo probármelo?"}
+{"f":"examples","id":"zh.e109","k":"tr","src":"Let me introduce you: this is my friend.","tgt":"Te presento: este es mi amigo."}
+{"f":"examples","id":"zh.e110","k":"tr","src":"Call me tonight.","tgt":"Llámame esta noche."}
+{"f":"examples","id":"zh.e111","k":"tr","src":"I've lost my keys.","tgt":"Perdí mis llaves."}
+{"f":"examples","id":"zh.e112","k":"tr","src":"Mom is worried about you.","tgt":"Mamá está muy preocupada por ti."}
+{"f":"examples","id":"zh.e113","k":"tr","src":"I hear you're going to China!","tgt":"¡Me dijeron que vas a ir a China!"}
+{"f":"examples","id":"zh.e114","k":"tr","src":"Let's go and eat together.","tgt":"Vamos a comer juntos."}
+{"f":"examples","id":"zh.e115","k":"tr","src":"I've finished eating.","tgt":"Ya terminé de comer."}
+{"f":"examples","id":"zh.e116","k":"tr","src":"He runs fast.","tgt":"Él corre muy rápido."}
+{"f":"examples","id":"zh.e117","k":"tr","src":"This is my new phone.","tgt":"Este es mi celular nuevo."}
+{"f":"examples","id":"zh.e118","k":"tr","src":"It's crowded here.","tgt":"Aquí hay mucha gente."}
+{"f":"examples","id":"zh.e119","k":"tr","src":"My phone is the same as yours.","tgt":"Mi celular es igual que el tuyo."}
+{"f":"examples","id":"zh.e120","k":"tr","src":"There are few people today.","tgt":"Hoy hay poca gente."}
+{"f":"examples","id":"zh.e121","k":"tr","src":"This road is long.","tgt":"Esta calle es muy larga."}
+{"f":"examples","id":"zh.e122","k":"tr","src":"My grandpa has gotten old; he walks slowly.","tgt":"Mi abuelo ya es mayor; camina despacio."}
+{"f":"examples","id":"zh.e123","k":"tr","src":"This top is old now.","tgt":"Esta ropa ya está muy vieja."}
+{"f":"examples","id":"zh.e124","k":"tr","src":"Please speak a little more slowly.","tgt":"Habla un poco más despacio, por favor."}
+{"f":"examples","id":"zh.e125","k":"tr","src":"You came early today.","tgt":"Hoy llegaste temprano."}
+{"f":"examples","id":"zh.e126","k":"tr","src":"It's late, let's go home.","tgt":"Ya es muy tarde, vamos a casa."}
+{"f":"examples","id":"zh.e127","k":"tr","src":"The soup is hot, drink it slowly.","tgt":"La sopa está muy caliente, tómala despacio."}
+{"f":"examples","id":"zh.e128","k":"tr","src":"Have you been busy lately?","tgt":"¿Has estado ocupado últimamente?"}
+{"f":"examples","id":"zh.e129","k":"tr","src":"I'm tired today.","tgt":"Hoy estoy muy cansado."}
+{"f":"examples","id":"zh.e130","k":"tr","src":"I'm thirsty. Is there any water?","tgt":"Tengo sed. ¿Hay agua?"}
+{"f":"examples","id":"zh.e131","k":"tr","src":"I'm sleepy, I want to go to bed.","tgt":"Tengo sueño, quiero dormir."}
+{"f":"examples","id":"zh.e132","k":"tr","src":"The airport is far from here.","tgt":"El aeropuerto está lejos de aquí."}
+{"f":"examples","id":"zh.e133","k":"tr","src":"My home is close to school.","tgt":"Mi casa está cerca de la escuela."}
+{"f":"examples","id":"zh.e134","k":"tr","src":"This is cheap.","tgt":"Esto es barato."}
+{"f":"examples","id":"zh.e135","k":"tr","src":"You've lost weight!","tgt":"¡Adelgazaste!"}
+{"f":"examples","id":"zh.e136","k":"tr","src":"I've put on weight lately.","tgt":"Últimamente subí de peso."}
+{"f":"examples","id":"zh.e137","k":"tr","src":"This dish is too spicy.","tgt":"Este plato es demasiado picante."}
+{"f":"examples","id":"zh.e138","k":"tr","src":"Peking duck is delicious.","tgt":"El pato laqueado de Pekín es muy rico."}
+{"f":"examples","id":"zh.e139","k":"tr","src":"Characters are hard but fun.","tgt":"Los caracteres son difíciles, pero muy interesantes."}
+{"f":"examples","id":"zh.e140","k":"tr","src":"Pinyin is easy.","tgt":"El pinyin es fácil."}
+{"f":"examples","id":"zh.e141","k":"tr","src":"This chair is comfortable.","tgt":"Esta silla es muy cómoda."}
+{"f":"examples","id":"zh.e142","k":"tr","src":"Taking the subway is convenient.","tgt":"Ir en metro es muy práctico."}
+{"f":"examples","id":"zh.e143","k":"tr","src":"Your room is really clean.","tgt":"¡Qué limpio está tu cuarto!"}
+{"f":"examples","id":"zh.e144","k":"tr","src":"The library is quiet.","tgt":"La biblioteca es muy tranquila."}
+{"f":"examples","id":"zh.e145","k":"tr","src":"Xi'an is famous.","tgt":"Xi'an es muy famosa."}
+{"f":"examples","id":"zh.e146","k":"tr","src":"This is important.","tgt":"Esto es muy importante."}
+{"f":"examples","id":"zh.e147","k":"tr","src":"I'm happy today.","tgt":"Hoy estoy muy contento."}
+{"f":"examples","id":"zh.e148","k":"tr","src":"This restaurant is pretty good.","tgt":"Este restaurante no está mal."}
+{"f":"examples","id":"zh.e149","k":"tr","src":"Sorry, I was wrong.","tgt":"Lo siento, me equivoqué."}
+{"f":"examples","id":"zh.e150","k":"tr","src":"I didn't catch that.","tgt":"No lo oí bien."}
+{"f":"examples","id":"zh.e151","k":"tr","src":"I see.","tgt":"Ya entiendo."}
+{"f":"examples","id":"zh.e152","k":"tr","src":"He's really good at ball games.","tgt":"Él juega muy bien a la pelota."}
+{"f":"examples","id":"zh.e153","k":"tr","src":"My phone is broken.","tgt":"Mi celular está roto."}
+{"f":"examples","id":"zh.e154","k":"tr","src":"Her bag is red.","tgt":"El bolso de ella es rojo."}
+{"f":"examples","id":"zh.e155","k":"tr","src":"We're almost there.","tgt":"Ya casi llegamos."}
+{"f":"examples","id":"zh.e156","k":"tr","src":"It's warm today.","tgt":"Hoy está templado."}
+{"f":"examples","id":"zh.e157","k":"tr","src":"I don't drink coffee.","tgt":"No tomo café."}
+{"f":"examples","id":"zh.e158","k":"tr","src":"I'm coming right now!","tgt":"¡Voy enseguida!"}
+{"f":"examples","id":"zh.e159","k":"tr","src":"I like tea too.","tgt":"A mí también me gusta tomar té."}
+{"f":"examples","id":"zh.e160","k":"tr","src":"We're all students.","tgt":"Todos somos estudiantes."}
+{"f":"examples","id":"zh.e161","k":"tr","src":"She's busy.","tgt":"Ella está muy ocupada."}
+{"f":"examples","id":"zh.e162","k":"tr","src":"He's still sleeping.","tgt":"Él todavía está durmiendo."}
+{"f":"examples","id":"zh.e163","k":"tr","src":"Don't go, stay a little longer.","tgt":"No te vayas, quédate un rato más."}
+{"f":"examples","id":"zh.e164","k":"tr","src":"I really love Chinese food.","tgt":"De verdad me encanta la comida china."}
+{"f":"examples","id":"zh.e165","k":"tr","src":"I'm at home now.","tgt":"Ahora estoy en casa."}
+{"f":"examples","id":"zh.e166","k":"tr","src":"It's way too cold today!","tgt":"¡Hoy hace demasiado frío!"}
+{"f":"examples","id":"zh.e167","k":"tr","src":"I didn't go to work yesterday.","tgt":"Ayer no fui a trabajar."}
+{"f":"examples","id":"zh.e168","k":"tr","src":"The weather's so nice today!","tgt":"¡Qué buen tiempo hace hoy!"}
+{"f":"examples","id":"zh.e169","k":"tr","src":"I've already eaten.","tgt":"Ya comí."}
+{"f":"examples","id":"zh.e170","k":"tr","src":"He didn't get up until ten.","tgt":"Él no se levantó hasta las diez."}
+{"f":"examples","id":"zh.e171","k":"tr","src":"Let's go together!","tgt":"¡Vamos juntos!"}
+{"f":"examples","id":"zh.e172","k":"tr","src":"I've only got ten yuan.","tgt":"Solo tengo diez yuanes."}
+{"f":"examples","id":"zh.e173","k":"tr","src":"Please wait a moment.","tgt":"Un momento, por favor."}
+{"f":"examples","id":"zh.e174","k":"tr","src":"Please say it again.","tgt":"Repítelo, por favor."}
+{"f":"examples","id":"zh.e175","k":"tr","src":"Dumplings are my favorite food.","tgt":"Mi comida favorita son las empanadillas."}
+{"f":"examples","id":"zh.e176","k":"tr","src":"It might rain tomorrow.","tgt":"Puede que mañana llueva."}
+{"f":"examples","id":"zh.e177","k":"tr","src":"This one is even better.","tgt":"Este es todavía mejor."}
+{"f":"examples","id":"zh.e178","k":"tr","src":"Thank you very much!","tgt":"¡Muchísimas gracias!"}
+{"f":"examples","id":"zh.e179","k":"tr","src":"How have you been lately?","tgt":"¿Qué tal te va últimamente?"}
+{"f":"examples","id":"zh.e180","k":"tr","src":"I'll be there in a minute.","tgt":"Llego enseguida."}
+{"f":"examples","id":"zh.e181","k":"tr","src":"I'm eating, just a moment.","tgt":"Estoy comiendo, espera un momento."}
+{"f":"examples","id":"zh.e182","k":"tr","src":"I often go to that restaurant.","tgt":"Voy seguido a ese restaurante."}
+{"f":"examples","id":"zh.e183","k":"tr","src":"Sometimes I take the subway to work.","tgt":"A veces voy al trabajo en metro."}
+{"f":"examples","id":"zh.e184","k":"tr","src":"You go first.","tgt":"Ve tú primero."}
+{"f":"examples","id":"zh.e185","k":"tr","src":"You have to come!","tgt":"¡Tienes que venir!"}
+{"f":"examples","id":"zh.e186","k":"tr","src":"Of course you can!","tgt":"¡Claro que sí!"}
+{"f":"examples","id":"zh.e187","k":"tr","src":"Enjoy your meal! (lit. eat slowly)","tgt":"¡Buen provecho! (literalmente, «come despacio»)"}
+{"f":"examples","id":"zh.e188","k":"tr","src":"I'm a student.","tgt":"Soy estudiante."}
+{"f":"examples","id":"zh.e189","k":"tr","src":"Are you busy today?","tgt":"¿Estás ocupado hoy?"}
+{"f":"examples","id":"zh.e190","k":"tr","src":"He's my older brother.","tgt":"Es mi hermano mayor."}
+{"f":"examples","id":"zh.e191","k":"tr","src":"This is my book.","tgt":"Este es mi libro."}
+{"f":"examples","id":"zh.e192","k":"tr","src":"She's my teacher.","tgt":"Ella es mi profesora."}
+{"f":"examples","id":"zh.e193","k":"tr","src":"What's that?","tgt":"¿Qué es eso?"}
+{"f":"examples","id":"zh.e194","k":"tr","src":"I cook for myself.","tgt":"Cocino yo mismo."}
+{"f":"examples","id":"zh.e195","k":"tr","src":"Are you (all) students?","tgt":"¿Ustedes son estudiantes?"}
+{"f":"examples","id":"zh.e196","k":"tr","src":"I have a cat; it's very cute.","tgt":"Tengo un gato; es muy tierno."}
+{"f":"examples","id":"zh.e197","k":"tr","src":"It's quiet here.","tgt":"Aquí está muy tranquilo."}
+{"f":"examples","id":"zh.e198","k":"tr","src":"What would you like to drink?","tgt":"¿Qué desea tomar?"}
+{"f":"examples","id":"zh.e199","k":"tr","src":"Let's go! (you and me)","tgt":"¡Vámonos! (tú y yo)"}
+{"f":"examples","id":"zh.e200","k":"tr","src":"Everyone's here.","tgt":"Ya llegaron todos."}
+{"f":"examples","id":"zh.e201","k":"tr","src":"They're my classmates.","tgt":"Ellas son mis compañeras de clase."}
+{"f":"examples","id":"zh.e202","k":"tr","src":"These two cats are cute; they're both mine.","tgt":"Estos dos gatos son muy tiernos; los dos son míos."}
+{"f":"examples","id":"zh.e203","k":"tr","src":"Are these yours?","tgt":"¿Estos son tuyos?"}
+{"f":"examples","id":"zh.e204","k":"tr","src":"Who are those people?","tgt":"¿Quiénes son esas personas?"}
+{"f":"examples","id":"zh.e205","k":"tr","src":"Is anyone sitting here?","tgt":"¿Está ocupado este lugar?"}
+{"f":"examples","id":"zh.e206","k":"tr","src":"Your bag is over there.","tgt":"Tu bolso está allí."}
+{"f":"examples","id":"zh.e207","k":"tr","src":"It's beautiful there.","tgt":"Allí es muy bonito."}
+{"f":"examples","id":"zh.e208","k":"tr","src":"Where are you going?","tgt":"¿Adónde vas?"}
+{"f":"examples","id":"zh.e209","k":"tr","src":"Where's the restroom?","tgt":"¿Dónde está el baño?"}
+{"f":"examples","id":"zh.e210","k":"tr","src":"Which book do you like?","tgt":"¿Qué libro te gusta?"}
+{"f":"examples","id":"zh.e211","k":"tr","src":"Do you want anything else?","tgt":"¿Quieres algo más?"}
+{"f":"examples","id":"zh.e212","k":"tr","src":"This is mine.","tgt":"Esto es mío."}
+{"f":"examples","id":"zh.e213","k":"tr","src":"Your phone is here.","tgt":"Tu celular está aquí."}
+{"f":"examples","id":"zh.e214","k":"tr","src":"His Chinese is very good.","tgt":"Su chino es muy bueno."}
+{"f":"examples","id":"zh.e215","k":"tr","src":"Her name sounds lovely.","tgt":"El nombre de ella suena muy bonito."}
+{"f":"examples","id":"zh.e216","k":"tr","src":"This is our teacher.","tgt":"Este es nuestro profesor."}
+{"f":"examples","id":"zh.e217","k":"tr","src":"Whose umbrella is this?","tgt":"¿De quién es este paraguas?"}
+{"f":"examples","id":"zh.e218","k":"tr","src":"I eat at home.","tgt":"Como en casa."}
+{"f":"examples","id":"zh.e219","k":"tr","src":"Please hand me the book.","tgt":"Dame el libro, por favor."}
+{"f":"examples","id":"zh.e220","k":"tr","src":"I'm happy for you.","tgt":"Me alegro por ti."}
+{"f":"examples","id":"zh.e221","k":"tr","src":"I'm home.","tgt":"Ya llegué a casa."}
+{"f":"examples","id":"zh.e222","k":"tr","src":"My coffee got drunk by my brother.","tgt":"Mi hermano mayor se tomó mi café."}
+{"f":"examples","id":"zh.e223","k":"tr","src":"I'll call you.","tgt":"Te llamo."}
+{"f":"examples","id":"zh.e224","k":"tr","src":"I'm from the US.","tgt":"Vengo de Estados Unidos."}
+{"f":"examples","id":"zh.e225","k":"tr","src":"Come with me.","tgt":"Ven conmigo."}
+{"f":"examples","id":"zh.e226","k":"tr","src":"I eat with chopsticks.","tgt":"Como con palillos."}
+{"f":"examples","id":"zh.e227","k":"tr","src":"Turn left.","tgt":"Gira a la izquierda."}
+{"f":"examples","id":"zh.e228","k":"tr","src":"Is the school far from here?","tgt":"¿La escuela está lejos de aquí?"}
+{"f":"examples","id":"zh.e229","k":"tr","src":"Today is colder than yesterday.","tgt":"Hoy hace más frío que ayer."}
+{"f":"examples","id":"zh.e230","k":"tr","src":"The money is in the bag.","tgt":"El dinero está en el bolso."}
+{"f":"examples","id":"zh.e231","k":"tr","src":"See you in three days.","tgt":"Nos vemos en tres días."}
+{"f":"examples","id":"zh.e232","k":"tr","src":"I came to China three years ago.","tgt":"Estuve en China hace tres años."}
+{"f":"examples","id":"zh.e233","k":"tr","src":"There's a supermarket next to my home.","tgt":"Al lado de mi casa hay un supermercado."}
+{"f":"examples","id":"zh.e234","k":"tr","src":"I'll sit between you.","tgt":"Me siento entre ustedes."}
+{"f":"examples","id":"zh.e235","k":"tr","src":"Is there a restaurant near here?","tgt":"¿Hay algún restaurante por aquí cerca?"}
+{"f":"examples","id":"zh.e236","k":"tr","src":"The book is on the table.","tgt":"El libro está sobre la mesa."}
+{"f":"examples","id":"zh.e237","k":"tr","src":"My sister and I both like cats.","tgt":"A mi hermana menor y a mí nos gustan los gatos."}
+{"f":"examples","id":"zh.e238","k":"tr","src":"If you're free, let's go together.","tgt":"Si estás libre, vamos juntos."}
+{"f":"examples","id":"zh.e239","k":"tr","src":"I'll have a bowl of noodles, and a tea too.","tgt":"Quiero un tazón de fideos y también un té."}
+{"f":"examples","id":"zh.e240","k":"tr","src":"Are you going today or tomorrow?","tgt":"¿Vas hoy o mañana?"}
+{"f":"examples","id":"zh.e241","k":"tr","src":"We'll take the subway or a taxi.","tgt":"Vamos en metro o en taxi."}
+{"f":"examples","id":"zh.e242","k":"tr","src":"I want to go, but I don't have time.","tgt":"Quiero ir, pero no tengo tiempo."}
+{"f":"examples","id":"zh.e243","k":"tr","src":"This is nice, but a bit pricey.","tgt":"Este es muy bueno, aunque un poco caro."}
+{"f":"examples","id":"zh.e244","k":"tr","src":"I get off work at six and then go to the supermarket.","tgt":"Salgo del trabajo a las seis y luego voy al súper."}
+{"f":"examples","id":"zh.e245","k":"tr","src":"Well then, see you tomorrow.","tgt":"Entonces, nos vemos mañana."}
+{"f":"examples","id":"zh.e246","k":"tr","src":"Because it's raining, we're not going to the park.","tgt":"Como llueve, ya no vamos al parque."}
+{"f":"examples","id":"zh.e247","k":"tr","src":"If it rains tomorrow, we won't go.","tgt":"Si mañana llueve, no vamos."}
+{"f":"examples","id":"zh.e248","k":"tr","src":"Let's eat first, then see a movie.","tgt":"Primero comemos y luego vamos al cine."}
+{"f":"examples","id":"zh.e249","k":"tr","src":"I don't look at my phone when I eat.","tgt":"Cuando como, no miro el celular."}
+{"f":"examples","id":"zh.e250","k":"tr","src":"This restaurant is tasty and cheap.","tgt":"Este restaurante es rico y barato."}
+{"f":"examples","id":"zh.e251","k":"tr","src":"On weekends I'm either at home or in the park.","tgt":"Los fines de semana, si no estoy en casa, estoy en el parque."}
+{"f":"examples","id":"zh.e252","k":"tr","src":"I like the red bag.","tgt":"Me gusta el bolso rojo."}
+{"f":"examples","id":"zh.e253","k":"tr","src":"I ate three steamed buns.","tgt":"Me comí tres bollos al vapor."}
+{"f":"examples","id":"zh.e254","k":"tr","src":"Are you a teacher?","tgt":"¿Eres profesor?"}
+{"f":"examples","id":"zh.e255","k":"tr","src":"Let's go.","tgt":"Vámonos."}
+{"f":"examples","id":"zh.e256","k":"tr","src":"Sure, let's go!","tgt":"¡Claro, vamos!"}
+{"f":"examples","id":"zh.e257","k":"tr","src":"The door is open.","tgt":"La puerta está abierta."}
+{"f":"examples","id":"zh.e258","k":"tr","src":"Have you ever been to Beijing?","tgt":"¿Has estado alguna vez en Pekín?"}
+{"f":"examples","id":"zh.e259","k":"tr","src":"Where's my phone?","tgt":"¿Y mi celular?"}
+{"f":"examples","id":"zh.e260","k":"tr","src":"He speaks fast.","tgt":"Él habla muy rápido."}
+{"f":"examples","id":"zh.e261","k":"tr","src":"Class, let's begin!","tgt":"¡Chicos, empieza la clase!"}
+{"f":"examples","id":"zh.e262","k":"tr","src":"I came by plane.","tgt":"Vine en avión."}
+{"f":"examples","id":"zh.e263","k":"tr","src":"If it rains, we'll stay home.","tgt":"Si llueve, nos quedamos en casa."}
+{"f":"examples","id":"zh.e264","k":"tr","src":"I've been to Shanghai twice.","tgt":"He estado dos veces en Shanghái."}
+{"f":"examples","id":"zh.e265","k":"tr","src":"Which kind of tea do you like?","tgt":"¿Qué tipo de té te gusta?"}
+{"f":"examples","id":"zh.e266","k":"tr","src":"One order of dumplings, please.","tgt":"Una porción de empanadillas, por favor."}
+{"f":"examples","id":"zh.e267","k":"tr","src":"I have three classes today.","tgt":"Hoy tengo tres clases."}
+{"f":"examples","id":"zh.e268","k":"tr","src":"I live on the twelfth floor.","tgt":"Vivo en el piso doce."}
+{"f":"examples","id":"zh.e269","k":"tr","src":"I want to buy a computer.","tgt":"Quiero comprar una computadora."}
+{"f":"examples","id":"zh.e270","k":"tr","src":"Let's watch a movie.","tgt":"Veamos una película."}
+{"f":"examples","id":"zh.e271","k":"tr","src":"I lived in Beijing for a while.","tgt":"Viví un tiempo en Pekín."}
+{"f":"examples","id":"zh.e272","k":"tr","src":"I've seen this movie three times.","tgt":"Esta película la vi tres veces."}
+{"f":"examples","id":"zh.e273","k":"tr","src":"We'd like a plate of dumplings.","tgt":"Queremos un plato de empanadillas."}
+{"f":"examples","id":"zh.e274","k":"tr","src":"Could you give me a pen?","tgt":"¿Me das un bolígrafo?"}
+{"f":"examples","id":"zh.e275","k":"tr","src":"This classroom is big.","tgt":"Este salón de clase es muy grande."}
+{"f":"examples","id":"zh.e276","k":"tr","src":"He bought an apartment in Beijing.","tgt":"Él compró un apartamento en Pekín."}
+{"f":"examples","id":"zh.e277","k":"tr","src":"How much is a jin of apples?","tgt":"¿A cuánto está el jin de manzanas?"}
+{"f":"examples","id":"zh.e278","k":"tr","src":"I ate two bowls of rice.","tgt":"Me comí dos tazones de arroz."}
+{"f":"examples","id":"zh.e279","k":"tr","src":"Fifty yuan in total.","tgt":"Son cincuenta yuanes en total."}
+{"f":"examples","id":"zh.e280","k":"tr","src":"My luggage weighs twenty kilos.","tgt":"Mi equipaje pesa veinte kilos."}
+{"f":"examples","id":"zh.e281","k":"tr","src":"I run five kilometers every day.","tgt":"Corro cinco kilómetros todos los días."}
+{"f":"examples","id":"zh.e282","k":"tr","src":"How do you write this character?","tgt":"¿Cómo se escribe este carácter?"}
+{"f":"examples","id":"zh.e283","k":"tr","src":"How many students are at your school?","tgt":"¿Cuántos estudiantes hay en la escuela de ustedes?"}
+{"f":"examples","id":"zh.e284","k":"tr","src":"How many children do you have?","tgt":"¿Cuántos hijos tienes?"}
+{"f":"examples","id":"zh.e285","k":"tr","src":"How long have you been learning Chinese?","tgt":"¿Cuánto tiempo llevas estudiando chino?"}
+{"f":"examples","id":"zh.e286","k":"tr","src":"I go every week.","tgt":"Voy todas las semanas."}
+{"f":"examples","id":"zh.e287","k":"tr","src":"I bought some fruit.","tgt":"Compré algo de fruta."}
+{"f":"patterns","id":"zh.p001","k":"meaning","src":"My name is ___.","tgt":"Me llamo ___."}
+{"f":"patterns","id":"zh.p001","k":"tr","src":"My name is Wang Ming.","tgt":"Me llamo Wang Ming."}
+{"f":"patterns","id":"zh.p002","k":"meaning","src":"I'm ___. (nationality)","tgt":"Soy ___. (nacionalidad)"}
+{"f":"patterns","id":"zh.p002","k":"tr","src":"I'm Canadian.","tgt":"Soy canadiense."}
+{"f":"patterns","id":"zh.p003","k":"meaning","src":"I live in ___.","tgt":"Vivo en ___."}
+{"f":"patterns","id":"zh.p003","k":"tr","src":"I live in San Francisco.","tgt":"Vivo en San Francisco."}
+{"f":"patterns","id":"zh.p004","k":"meaning","src":"Excuse me, ___?","tgt":"Perdón, ¿___?"}
+{"f":"patterns","id":"zh.p004","k":"tr","src":"Excuse me, what's your name?","tgt":"Perdón, ¿cómo te llamas?"}
+{"f":"patterns","id":"zh.p005","k":"meaning","src":"Hello, ___! (polite)","tgt":"¡Hola, ___! (con respeto)"}
+{"f":"patterns","id":"zh.p005","k":"tr","src":"Hello, Professor Wang!","tgt":"¡Hola, profesor Wang!"}
+{"f":"patterns","id":"zh.p006","k":"meaning","src":"I have ___.","tgt":"Tengo ___."}
+{"f":"patterns","id":"zh.p006","k":"tr","src":"I have two younger sisters.","tgt":"Tengo dos hermanas menores."}
+{"f":"patterns","id":"zh.p007","k":"meaning","src":"How much is ___?","tgt":"¿Cuánto cuesta ___?"}
+{"f":"patterns","id":"zh.p007","k":"tr","src":"How much is this book?","tgt":"¿Cuánto cuesta este libro?"}
+{"f":"patterns","id":"zh.p008","k":"meaning","src":"I'd like ___.","tgt":"Quiero ___."}
+{"f":"patterns","id":"zh.p008","k":"tr","src":"I'd like two bowls of rice.","tgt":"Quiero dos tazones de arroz."}
+{"f":"patterns","id":"zh.p009","k":"meaning","src":"We'll have ___. (ordering)","tgt":"___, por favor. (para pedir)"}
+{"f":"patterns","id":"zh.p009","k":"tr","src":"Two bottles of beer, please.","tgt":"Dos botellas de cerveza, por favor."}
+{"f":"patterns","id":"zh.p010","k":"meaning","src":"Where's ___?","tgt":"¿Dónde está ___?"}
+{"f":"patterns","id":"zh.p010","k":"tr","src":"Where's the subway station?","tgt":"¿Dónde está la estación de metro?"}
+{"f":"patterns","id":"zh.p011","k":"meaning","src":"How do I get to ___?","tgt":"¿Cómo se llega a ___?"}
+{"f":"patterns","id":"zh.p011","k":"tr","src":"How do I get to the train station?","tgt":"¿Cómo se llega a la estación de tren?"}
+{"f":"patterns","id":"zh.p012","k":"meaning","src":"My ___ hurts.","tgt":"Me duele ___."}
+{"f":"patterns","id":"zh.p012","k":"tr","src":"My foot hurts.","tgt":"Me duele el pie."}
+{"f":"patterns","id":"zh.p013","k":"meaning","src":"I'm going by ___.","tgt":"Voy en ___."}
+{"f":"patterns","id":"zh.p013","k":"tr","src":"I'm going by subway.","tgt":"Voy en metro."}
+{"f":"patterns","id":"zh.p014","k":"meaning","src":"What time do you ___?","tgt":"¿A qué hora ___?"}
+{"f":"patterns","id":"zh.p014","k":"tr","src":"What time do you get up?","tgt":"¿A qué hora te levantas?"}
+{"f":"patterns","id":"zh.p015","k":"meaning","src":"It's so ___!","tgt":"¡Qué ___!"}
+{"f":"patterns","id":"zh.p015","k":"tr","src":"It's so delicious!","tgt":"¡Qué rico!"}
+{"f":"patterns","id":"zh.p016","k":"meaning","src":"Can you ___? (a skill you learned)","tgt":"¿Sabes ___? (algo que se aprende)"}
+{"f":"patterns","id":"zh.p016","k":"tr","src":"Can you swim?","tgt":"¿Sabes nadar?"}
+{"f":"patterns","id":"zh.p017","k":"meaning","src":"Can I ___? / Is it OK to ___?","tgt":"¿Se puede ___? / ¿Puedo ___?"}
+{"f":"patterns","id":"zh.p017","k":"tr","src":"Can I take photos?","tgt":"¿Se pueden tomar fotos?"}
+{"f":"patterns","id":"zh.p018","k":"meaning","src":"I work at ___.","tgt":"Trabajo en ___."}
+{"f":"patterns","id":"zh.p018","k":"tr","src":"I work at a hospital.","tgt":"Trabajo en un hospital."}
+{"f":"patterns","id":"zh.p019","k":"meaning","src":"You're so ___!","tgt":"¡Qué ___ eres!"}
+{"f":"patterns","id":"zh.p019","k":"tr","src":"You're so nice!","tgt":"¡Qué bueno eres!"}
+{"f":"patterns","id":"zh.p020","k":"meaning","src":"You ___ really well!","tgt":"¡___ muy bien!"}
+{"f":"patterns","id":"zh.p020","k":"tr","src":"You write really well!","tgt":"¡Escribes muy bien!"}
+{"f":"patterns","id":"zh.p021","k":"meaning","src":"___ is ___. (adjective, no 是)","tgt":"___ es / está ___. (adjetivo, sin 是)"}
+{"f":"patterns","id":"zh.p021","k":"tr","src":"It's cold today.","tgt":"Hoy hace frío."}
+{"f":"patterns","id":"zh.p022","k":"meaning","src":"I work at ___.","tgt":"Trabajo en ___."}
+{"f":"patterns","id":"zh.p022","k":"tr","src":"I work at a hospital.","tgt":"Trabajo en un hospital."}
+{"f":"patterns","id":"zh.p023","k":"meaning","src":"He ___ fast.","tgt":"Él ___ muy rápido."}
+{"f":"patterns","id":"zh.p023","k":"tr","src":"He runs fast.","tgt":"Él corre muy rápido."}
+{"f":"patterns","id":"zh.p024","k":"meaning","src":"___ is colder than ___.","tgt":"___ hace más frío que ___."}
+{"f":"patterns","id":"zh.p024","k":"tr","src":"Today is colder than yesterday.","tgt":"Hoy hace más frío que ayer."}
+{"f":"patterns","id":"zh.p025","k":"meaning","src":"Please pass me the ___.","tgt":"Pásame ___, por favor."}
+{"f":"patterns","id":"zh.p025","k":"tr","src":"Please pass me the salt.","tgt":"Pásame la sal, por favor."}
+{"f":"patterns","id":"zh.p026","k":"meaning","src":"I've (ever) ___ ___.","tgt":"(Alguna vez) he ___ ___."}
+{"f":"patterns","id":"zh.p026","k":"tr","src":"I've been to Shanghai.","tgt":"He estado en Shanghái."}
+{"f":"patterns","id":"zh.p027","k":"meaning","src":"Because ___, ___.","tgt":"Como ___, ___."}
+{"f":"patterns","id":"zh.p027","k":"tr","src":"Because I'm too tired, I'm not going.","tgt":"Como estoy demasiado cansado, ya no voy."}
+{"f":"patterns","id":"zh.p028","k":"meaning","src":"If ___, I'll ___.","tgt":"Si ___, (yo) ___."}
+{"f":"patterns","id":"zh.p028","k":"tr","src":"If I have time, I'll go.","tgt":"Si tengo tiempo, voy."}
+{"f":"lessons","id":"pinyin","k":"title","src":"1 · Pinyin: initials and finals","tgt":"1 · Pinyin: iniciales y finales"}
+{"f":"lessons","id":"pinyin","k":"blurb","src":"Read any pinyin syllable aloud roughly right, and know the letters that do not sound the way English spells them.","tgt":"Lee en voz alta cualquier sílaba en pinyin casi sin errores y aprende qué letras no suenan como en español.","rw":"mentions English"}
+{"f":"labels","id":"zh.ld.pinyin-syllables","k":"text","src":"Pinyin syllables","tgt":"Sílabas en pinyin"}
+{"f":"lessoncards","id":"zh.lc0001","k":"meaning","src":"to come","tgt":"venir"}
+{"f":"lessoncards","id":"zh.lc0001","k":"note","src":"l + ai + second tone.","tgt":"l + ai + segundo tono."}
+{"f":"lessoncards","id":"zh.lc0002","k":"meaning","src":"to fly","tgt":"volar"}
+{"f":"lessoncards","id":"zh.lc0002","k":"note","src":"f + ei + first tone. ei sounds like the ay in \"day\".","tgt":"f + ei + primer tono. ei suena como el «ei» de «rey».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"lessoncards","id":"zh.lc0003","k":"meaning","src":"tall; high","tgt":"alto/a"}
+{"f":"lessoncards","id":"zh.lc0003","k":"note","src":"g + ao + first tone. ao sounds like the ow in \"how\".","tgt":"g + ao + primer tono. ao suena como el «au» de «causa».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"lessoncards","id":"zh.lc0004","k":"meaning","src":"hand","tgt":"mano"}
+{"f":"lessoncards","id":"zh.lc0004","k":"note","src":"sh + ou + third tone. ou sounds like \"oh\".","tgt":"sh + ou + tercer tono. ou es una «o» que se desliza hacia «u».","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"lessoncards","id":"zh.lc0005","k":"meaning","src":"slow","tgt":"lento"}
+{"f":"lessoncards","id":"zh.lc0005","k":"note","src":"m + an + fourth tone.","tgt":"m + an + cuarto tono."}
+{"f":"lessoncards","id":"zh.lc0006","k":"meaning","src":"very","tgt":"muy"}
+{"f":"lessoncards","id":"zh.lc0006","k":"note","src":"h + en + third tone.","tgt":"h + en + tercer tono."}
+{"f":"lessoncards","id":"zh.lc0007","k":"meaning","src":"busy","tgt":"ocupado"}
+{"f":"lessoncards","id":"zh.lc0007","k":"note","src":"m + ang + second tone.","tgt":"m + ang + segundo tono."}
+{"f":"lessoncards","id":"zh.lc0008","k":"meaning","src":"cold","tgt":"frío"}
+{"f":"lessoncards","id":"zh.lc0008","k":"note","src":"l + eng + third tone. eng is \"uh\" + ng.","tgt":"l + eng + tercer tono. eng es una *e* breve y apagada + la *n* de «tengo»."}
+{"f":"lessoncards","id":"zh.lc0009","k":"meaning","src":"red","tgt":"rojo"}
+{"f":"lessoncards","id":"zh.lc0009","k":"note","src":"h + ong + second tone.","tgt":"h + ong + segundo tono."}
+{"f":"lessoncards","id":"zh.lc0010","k":"meaning","src":"home; family","tgt":"casa; familia"}
+{"f":"lessoncards","id":"zh.lc0010","k":"note","src":"j + ia + first tone.","tgt":"j + ia + primer tono."}
+{"f":"lessoncards","id":"zh.lc0011","k":"meaning","src":"to write","tgt":"escribir"}
+{"f":"lessoncards","id":"zh.lc0011","k":"note","src":"x + ie + third tone. ie sounds like \"yeh\".","tgt":"x + ie + tercer tono. ie suena como el «ie» de «tiene».","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"lessoncards","id":"zh.lc0012","k":"meaning","src":"to call; to be called","tgt":"llamarse; llamar"}
+{"f":"lessoncards","id":"zh.lc0012","k":"note","src":"j + iao + fourth tone.","tgt":"j + iao + cuarto tono."}
+{"f":"lessoncards","id":"zh.lc0013","k":"meaning","src":"cow; ox","tgt":"vaca; buey"}
+{"f":"lessoncards","id":"zh.lc0013","k":"note","src":"n + iu + second tone. iu sounds like \"yo\".","tgt":"n + iu + segundo tono. iu se lee «iou».","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"lessoncards","id":"zh.lc0014","k":"meaning","src":"money","tgt":"dinero"}
+{"f":"lessoncards","id":"zh.lc0014","k":"note","src":"q + ian + second tone. ian sounds like \"yen\".","tgt":"q + ian + segundo tono. ian se lee «ien», nunca «i-an».","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"lessoncards","id":"zh.lc0015","k":"meaning","src":"to enter; to come in","tgt":"entrar"}
+{"f":"lessoncards","id":"zh.lc0015","k":"note","src":"j + in + fourth tone.","tgt":"j + in + cuarto tono."}
+{"f":"lessoncards","id":"zh.lc0016","k":"meaning","src":"to listen","tgt":"escuchar; oír"}
+{"f":"lessoncards","id":"zh.lc0016","k":"note","src":"t + ing + first tone.","tgt":"t + ing + primer tono."}
+{"f":"lessoncards","id":"zh.lc0017","k":"meaning","src":"to draw; a painting","tgt":"dibujar; pintura"}
+{"f":"lessoncards","id":"zh.lc0017","k":"note","src":"h + ua + fourth tone.","tgt":"h + ua + cuarto tono."}
+{"f":"lessoncards","id":"zh.lc0018","k":"meaning","src":"to sit; to take (a bus)","tgt":"sentarse; ir en (un transporte)"}
+{"f":"lessoncards","id":"zh.lc0018","k":"note","src":"z + uo + fourth tone. uo sounds like the wo in \"wore\".","tgt":"z + uo + cuarto tono. uo suena como el «uo» de «cuota».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"lessoncards","id":"zh.lc0019","k":"meaning","src":"to study; to learn","tgt":"aprender"}
+{"f":"lessoncards","id":"zh.lc0019","k":"note","src":"x + üe + second tone. After x the dots on ü are dropped.","tgt":"x + üe + segundo tono. Después de x, la ü se escribe sin los puntos."}
+{"f":"lessoncards","id":"zh.lc0020","k":"meaning","src":"yellow","tgt":"amarillo"}
+{"f":"lessoncards","id":"zh.lc0020","k":"note","src":"h + uang + second tone.","tgt":"h + uang + segundo tono."}
+{"f":"sentences","id":"zh.s0001","k":"gloss","src":"American (a person)","tgt":"estadounidense (persona)"}
+{"f":"sentences","id":"zh.s0002","k":"gloss","src":"eight","tgt":"ocho"}
+{"f":"sentences","id":"zh.s0003","k":"gloss","src":"to be afraid","tgt":"tener miedo"}
+{"f":"sentences","id":"zh.s0004","k":"gloss","src":"seven","tgt":"siete"}
+{"f":"sentences","id":"zh.s0005","k":"gloss","src":"a dish; vegetables","tgt":"plato (de comida); verdura"}
+{"f":"sentences","id":"zh.s0006","k":"gloss","src":"green","tgt":"verde"}
+{"f":"sentences","id":"zh.s0007","k":"gloss","src":"to go","tgt":"ir"}
+{"f":"sentences","id":"zh.s0008","k":"gloss","src":"six","tgt":"seis"}
+{"f":"sentences","id":"zh.s0232","k":"gloss","src":"to come","tgt":"venir"}
+{"f":"sentences","id":"zh.s0009","k":"gloss","src":"Xi'an (a city)","tgt":"Xi'an (ciudad)"}
+{"f":"checks","id":"pinyin.k1","k":"q","src":"What does one Chinese character stand for?","tgt":"¿Qué representa un carácter chino?"}
+{"f":"checks","id":"pinyin.k1","k":"o[0]","src":"One syllable, with a meaning","tgt":"Una sílaba, con un significado"}
+{"f":"checks","id":"pinyin.k1","k":"o[1]","src":"One letter of a word","tgt":"Una letra de una palabra"}
+{"f":"checks","id":"pinyin.k1","k":"o[2]","src":"One whole sentence","tgt":"Una oración entera"}
+{"f":"checks","id":"pinyin.k1","k":"o[3]","src":"A sound with no meaning","tgt":"Un sonido sin significado"}
+{"f":"checks","id":"pinyin.k1","k":"why","src":"Each character is one syllable and carries a meaning; pinyin writes the syllables of a word together.","tgt":"Cada carácter es una sílaba y tiene un significado; el pinyin escribe juntas las sílabas de una palabra."}
+{"f":"checks","id":"pinyin.k2","k":"q","src":"How do you say the q in 去 (qù)?","tgt":"¿Cómo se dice la q de 去 (qù)?"}
+{"f":"checks","id":"pinyin.k2","k":"o[0]","src":"Like the q in queen","tgt":"Como la «cu» de «cuatro»","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"checks","id":"pinyin.k2","k":"o[1]","src":"Like the k in key","tgt":"Como la *k* de «kilo»","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"checks","id":"pinyin.k2","k":"o[2]","src":"Like the ch in cheese","tgt":"Como una «ch» con soplo de aire","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"checks","id":"pinyin.k2","k":"o[3]","src":"Like the sh in she","tgt":"Como la jota de «jamón»","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"checks","id":"pinyin.k2","k":"why","src":"Pinyin q is close to the ch in cheese, never kw.","tgt":"La q del pinyin es una «ch» con soplo de aire y la lengua abajo; nunca «k» ni «cu»."}
+{"f":"checks","id":"pinyin.k3","k":"q","src":"Why does 西安 (Xī'ān) have an apostrophe?","tgt":"¿Por qué 西安 (Xī'ān) lleva apóstrofo?"}
+{"f":"checks","id":"pinyin.k3","k":"o[0]","src":"It marks a question","tgt":"Marca una pregunta"}
+{"f":"checks","id":"pinyin.k3","k":"o[1]","src":"It shows that ān starts a new syllable","tgt":"Muestra que ān empieza una sílaba nueva"}
+{"f":"checks","id":"pinyin.k3","k":"o[2]","src":"It shows the neutral tone","tgt":"Indica el tono neutro"}
+{"f":"checks","id":"pinyin.k3","k":"o[3]","src":"It shows a missing letter","tgt":"Indica que falta una letra"}
+{"f":"checks","id":"pinyin.k3","k":"why","src":"The apostrophe marks a syllable that starts with a, o or e: Xī'ān is two syllables, xiān is one.","tgt":"El apóstrofo marca una sílaba que empieza con a, o o e: Xī'ān son dos sílabas; xiān sería una sola."}
+{"f":"practice","id":"pinyin.01","k":"q","src":"Which pinyin letter sounds like the ch in cheese?","tgt":"¿Qué letra del pinyin suena como una «ch» con soplo de aire?","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.01","k":"why","src":"q is close to the ch in cheese; x is like sh, and c is like the ts in cats.","tgt":"La q es una «ch» con soplo y la lengua abajo; la x es una *s* con la lengua plana, cerca de «¡shh!», y la c es la «ts» de «pitsa» con soplo.","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.02","k":"q","src":"How many syllables are in Měiguórén (美国人, American)?","tgt":"¿Cuántas sílabas tiene Měiguórén (美国人, estadounidense)?"}
+{"f":"practice","id":"pinyin.02","k":"o[0]","src":"three","tgt":"tres"}
+{"f":"practice","id":"pinyin.02","k":"o[1]","src":"one","tgt":"una"}
+{"f":"practice","id":"pinyin.02","k":"o[2]","src":"two","tgt":"dos"}
+{"f":"practice","id":"pinyin.02","k":"o[3]","src":"four","tgt":"cuatro"}
+{"f":"practice","id":"pinyin.02","k":"why","src":"One character is one syllable: 美, 国 and 人 are three syllables written as one word.","tgt":"Un carácter es una sílaba: 美, 国 y 人 son tres sílabas escritas como una sola palabra."}
+{"f":"practice","id":"pinyin.03","k":"q","src":"Which initial has a strong puff of air?","tgt":"¿Qué inicial lleva un soplo fuerte de aire?"}
+{"f":"practice","id":"pinyin.03","k":"why","src":"p, t and k have a puff of air; b, d and g have none.","tgt":"p, t y k llevan un soplo de aire; b, d y g no llevan ninguno: son la p, t, k del español."}
+{"f":"practice","id":"pinyin.04","k":"q","src":"How do you say the ü in 绿 (lǜ, green)?","tgt":"¿Cómo se dice la ü de 绿 (lǜ, verde)?"}
+{"f":"practice","id":"pinyin.04","k":"o[0]","src":"Say ee with rounded lips","tgt":"Una «i» con los labios redondeados"}
+{"f":"practice","id":"pinyin.04","k":"o[1]","src":"Like the oo in food","tgt":"Como la *u* de «uva»","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.04","k":"o[2]","src":"Like the word you","tgt":"Como «iu»"}
+{"f":"practice","id":"pinyin.04","k":"o[3]","src":"Like the u in but","tgt":"Como la ü de «pingüino»: una *u* que suena","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.04","k":"why","src":"ü is an ee sound said with the lips rounded, as for oo.","tgt":"La ü es una «i» dicha con los labios redondeados, como para decir «u». No es la diéresis del español."}
+{"f":"practice","id":"pinyin.05","k":"q","src":"How do you say the e in 喝 (hē, to drink)?","tgt":"¿Cómo se dice la e de 喝 (hē, beber)?"}
+{"f":"practice","id":"pinyin.05","k":"o[0]","src":"Like the u in uh","tgt":"Como una «o» con los labios estirados","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.05","k":"o[1]","src":"Like the e in bed","tgt":"Como la *e* de «mesa»","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.05","k":"o[2]","src":"Like the ee in see","tgt":"Como la *i* de «sí»","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.05","k":"o[3]","src":"Like the a in day","tgt":"Como el «ei» de «rey»","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.05","k":"why","src":"Pinyin e on its own sounds like uh, not like the e in bed.","tgt":"La e sola del pinyin se dice como una «o» con los labios estirados, sin mover la lengua; no es la *e* de «mesa».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"practice","id":"pinyin.06","k":"p","src":"你好 (hello) in pinyin","tgt":"你好 (hola) en pinyin"}
+{"f":"practice","id":"pinyin.06","k":"why","src":"Pinyin writes nǐ with the third tone mark, and hǎo too.","tgt":"En pinyin, nǐ lleva la marca del tercer tono, y hǎo también."}
+{"f":"practice","id":"pinyin.07","k":"p","src":"谢谢 (thank you) in pinyin, one syllable per tile","tgt":"谢谢 (gracias) en pinyin, una sílaba por ficha"}
+{"f":"practice","id":"pinyin.07","k":"why","src":"xiè has the fourth tone mark; the second xie has the neutral tone, so it has no mark.","tgt":"xiè lleva la marca del cuarto tono; el segundo xie tiene tono neutro, así que no lleva marca."}
+{"f":"practice","id":"pinyin.08","k":"p","src":"中文 (Chinese) in pinyin, one syllable per tile","tgt":"中文 (chino) en pinyin, una sílaba por ficha"}
+{"f":"practice","id":"pinyin.08","k":"why","src":"Chinese begins with zh, with the tongue curled back; z would be a different syllable.","tgt":"La palabra empieza con zh, con la lengua doblada hacia atrás; con z sería otra sílaba."}
+{"f":"practice","id":"pinyin.09","k":"p","src":"to go","tgt":"ir"}
+{"f":"practice","id":"pinyin.09","k":"why","src":"去 begins with q, the sound of the ch in cheese.","tgt":"去 empieza con q: una «ch» con soplo, nunca «k»."}
+{"f":"practice","id":"pinyin.10","k":"p","src":"green","tgt":"verde"}
+{"f":"practice","id":"pinyin.10","k":"why","src":"绿 is lǜ: ü with the fourth tone mark. Without the dots, lù is a different syllable.","tgt":"绿 es lǜ: ü con la marca del cuarto tono. Sin los puntos, lù es otra sílaba."}
+{"f":"practice","id":"pinyin.11","k":"p","src":"to be","tgt":"ser"}
+{"f":"practice","id":"pinyin.11","k":"why","src":"是 is shì with the fourth tone mark: it falls.","tgt":"是 es shì, con la marca del cuarto tono: cae."}
+{"f":"practice","id":"pinyin.12","k":"p","src":"Type the pinyin of 你 (you)","tgt":"Escribe el pinyin de 你 (tú)"}
+{"f":"practice","id":"pinyin.12","k":"hint","src":"third tone · use the accent bar","tgt":"tercer tono · usa la barra de tonos"}
+{"f":"practice","id":"pinyin.12","k":"why","src":"你 is nǐ with the third tone mark: low.","tgt":"你 es nǐ, con la marca del tercer tono: bajo."}
+{"f":"practice","id":"pinyin.13","k":"p","src":"Type the pinyin of 八 (eight)","tgt":"Escribe el pinyin de 八 (ocho)"}
+{"f":"practice","id":"pinyin.13","k":"hint","src":"first tone · use the accent bar","tgt":"primer tono · usa la barra de tonos"}
+{"f":"practice","id":"pinyin.13","k":"why","src":"八 is bā with the first tone: high and level.","tgt":"八 es bā, con el primer tono: alto y sostenido."}
+{"f":"practice","id":"pinyin.14","k":"p","src":"Type the pinyin of 去 (to go)","tgt":"Escribe el pinyin de 去 (ir)"}
+{"f":"practice","id":"pinyin.14","k":"hint","src":"q + u · the u after q is really ü","tgt":"q + u · tras q, la u es en realidad ü"}
+{"f":"practice","id":"pinyin.14","k":"why","src":"After q, u is really ü, but the dots are not written: qù.","tgt":"Después de q, la u es en realidad ü, pero los puntos no se escriben: qù."}
+{"f":"lessons","id":"tones","k":"title","src":"2 · Four tones and the neutral tone","tgt":"2 · Los cuatro tonos y el tono neutro"}
+{"f":"lessons","id":"tones","k":"blurb","src":"Hear and say the four tones and the neutral tone, and tell apart words that differ only in tone.","tgt":"Oye y di los cuatro tonos y el tono neutro, y distingue palabras que solo cambian por el tono."}
+{"f":"labels","id":"zh.ld.two-syllable-words","k":"text","src":"Two-syllable words","tgt":"Palabras de dos sílabas"}
+{"f":"lessoncards","id":"zh.lc0021","k":"meaning","src":"today","tgt":"hoy"}
+{"f":"lessoncards","id":"zh.lc0021","k":"note","src":"First tone + first tone: both high and level.","tgt":"Primer tono + primer tono: los dos altos y sostenidos."}
+{"f":"lessoncards","id":"zh.lc0022","k":"meaning","src":"China","tgt":"China"}
+{"f":"lessoncards","id":"zh.lc0022","k":"note","src":"First tone + second tone: stay high, then rise.","tgt":"Primer tono + segundo tono: quédate arriba y luego sube."}
+{"f":"lessoncards","id":"zh.lc0023","k":"meaning","src":"work; to work","tgt":"trabajo"}
+{"f":"lessoncards","id":"zh.lc0023","k":"note","src":"First tone + fourth tone: stay high, then fall.","tgt":"Primer tono + cuarto tono: quédate arriba y luego cae."}
+{"f":"lessoncards","id":"zh.lc0024","k":"meaning","src":"bread","tgt":"pan"}
+{"f":"lessoncards","id":"zh.lc0024","k":"note","src":"Fourth tone + first tone: fall, then jump back up high.","tgt":"Cuarto tono + primer tono: cae y luego salta otra vez arriba."}
+{"f":"lessoncards","id":"zh.lc0025","k":"meaning","src":"tomorrow","tgt":"mañana"}
+{"f":"lessoncards","id":"zh.lc0025","k":"note","src":"Second tone + first tone: rise, then stay high.","tgt":"Segundo tono + primer tono: sube y luego quédate arriba."}
+{"f":"lessoncards","id":"zh.lc0026","k":"meaning","src":"apple","tgt":"manzana"}
+{"f":"lessoncards","id":"zh.lc0026","k":"note","src":"Second tone + third tone: rise, then go low.","tgt":"Segundo tono + tercer tono: sube y luego baja al fondo."}
+{"f":"lessoncards","id":"zh.lc0027","k":"meaning","src":"school","tgt":"escuela"}
+{"f":"lessoncards","id":"zh.lc0027","k":"note","src":"Second tone + fourth tone: rise, then fall.","tgt":"Segundo tono + cuarto tono: sube y luego cae."}
+{"f":"lessoncards","id":"zh.lc0028","k":"meaning","src":"teacher","tgt":"profesor/a"}
+{"f":"lessoncards","id":"zh.lc0028","k":"note","src":"Third tone + first tone: stay low, then jump up high.","tgt":"Tercer tono + primer tono: quédate abajo y luego salta arriba."}
+{"f":"lessoncards","id":"zh.lc0029","k":"meaning","src":"America","tgt":"Estados Unidos"}
+{"f":"lessoncards","id":"zh.lc0029","k":"note","src":"Third tone + second tone: stay low, then rise.","tgt":"Tercer tono + segundo tono: quédate abajo y luego sube."}
+{"f":"lessoncards","id":"zh.lc0030","k":"meaning","src":"cooked rice","tgt":"arroz (cocido)"}
+{"f":"lessoncards","id":"zh.lc0030","k":"note","src":"Third tone + fourth tone: stay low, then fall from high.","tgt":"Tercer tono + cuarto tono: quédate abajo y luego cae desde arriba."}
+{"f":"lessoncards","id":"zh.lc0031","k":"meaning","src":"university","tgt":"universidad"}
+{"f":"lessoncards","id":"zh.lc0031","k":"note","src":"Fourth tone + second tone: fall, then rise.","tgt":"Cuarto tono + segundo tono: cae y luego sube."}
+{"f":"lessoncards","id":"zh.lc0032","k":"meaning","src":"Chinese (the language)","tgt":"chino (el idioma)"}
+{"f":"lessoncards","id":"zh.lc0032","k":"note","src":"Fourth tone + third tone: fall, then stay low.","tgt":"Cuarto tono + tercer tono: cae y luego quédate abajo."}
+{"f":"lessoncards","id":"zh.lc0033","k":"meaning","src":"telephone","tgt":"teléfono; llamada"}
+{"f":"lessoncards","id":"zh.lc0033","k":"note","src":"Fourth tone + fourth tone: two falls, the second one stronger.","tgt":"Cuarto tono + cuarto tono: dos caídas, la segunda más fuerte."}
+{"f":"lessoncards","id":"zh.lc0034","k":"meaning","src":"thing; stuff","tgt":"cosa"}
+{"f":"lessoncards","id":"zh.lc0034","k":"note","src":"First tone + neutral tone: the second syllable is short and light.","tgt":"Primer tono + tono neutro: la segunda sílaba es corta y ligera."}
+{"f":"lessoncards","id":"zh.lc0035","k":"meaning","src":"thank you","tgt":"¡Gracias!"}
+{"f":"lessoncards","id":"zh.lc0035","k":"note","src":"Fourth tone + neutral tone: fall, then a light, short xie.","tgt":"Cuarto tono + tono neutro: cae y luego un xie corto y ligero."}
+{"f":"sentences","id":"zh.s0010","k":"gloss","src":"mom","tgt":"mamá"}
+{"f":"sentences","id":"zh.s0011","k":"gloss","src":"numb; hemp","tgt":"entumecido; que hormiguea"}
+{"f":"sentences","id":"zh.s0012","k":"gloss","src":"horse","tgt":"caballo"}
+{"f":"sentences","id":"zh.s0013","k":"gloss","src":"to scold","tgt":"regañar"}
+{"f":"sentences","id":"zh.s0014","k":"gloss","src":"to buy","tgt":"comprar"}
+{"f":"sentences","id":"zh.s0015","k":"gloss","src":"to sell","tgt":"vender"}
+{"f":"sentences","id":"zh.s0016","k":"gloss","src":"soup","tgt":"sopa"}
+{"f":"sentences","id":"zh.s0017","k":"gloss","src":"sugar","tgt":"azúcar; dulces"}
+{"f":"sentences","id":"zh.s0018","k":"gloss","src":"mom","tgt":"mamá"}
+{"f":"sentences","id":"zh.s0019","k":"gloss","src":"very fast","tgt":"muy rápido"}
+{"f":"checks","id":"tones.k1","k":"q","src":"Which tone is low, and dips when said alone?","tgt":"¿Qué tono es bajo y, dicho solo, baja y vuelve a subir?"}
+{"f":"checks","id":"tones.k1","k":"o[0]","src":"The first tone","tgt":"El primer tono"}
+{"f":"checks","id":"tones.k1","k":"o[1]","src":"The second tone","tgt":"El segundo tono"}
+{"f":"checks","id":"tones.k1","k":"o[2]","src":"The third tone","tgt":"El tercer tono"}
+{"f":"checks","id":"tones.k1","k":"o[3]","src":"The fourth tone","tgt":"El cuarto tono"}
+{"f":"checks","id":"tones.k1","k":"why","src":"The third tone (ǎ) is low; alone it dips and comes back up.","tgt":"El tercer tono (ǎ) es bajo; dicho solo, baja y vuelve a subir."}
+{"f":"checks","id":"tones.k2","k":"q","src":"A word with the fourth tone comes at the end of your question. What happens to its tone?","tgt":"Una palabra con cuarto tono queda al final de tu pregunta. ¿Qué pasa con su tono?"}
+{"f":"checks","id":"tones.k2","k":"o[0]","src":"It still falls","tgt":"Sigue cayendo"}
+{"f":"checks","id":"tones.k2","k":"o[1]","src":"It rises, as in an English question","tgt":"Sube, como al final de una pregunta en español","rw":"English sound comparison (\"as in …\")"}
+{"f":"checks","id":"tones.k2","k":"o[2]","src":"It becomes the first tone","tgt":"Se vuelve primer tono"}
+{"f":"checks","id":"tones.k2","k":"o[3]","src":"It loses its tone","tgt":"Pierde su tono"}
+{"f":"checks","id":"tones.k2","k":"why","src":"The tone belongs to the word, so it falls even at the end of a question.","tgt":"El tono es parte de la palabra, así que cae incluso al final de una pregunta."}
+{"f":"checks","id":"tones.k3","k":"q","src":"买 (mǎi) and 卖 (mài) differ only in tone. What do they mean?","tgt":"买 (mǎi) y 卖 (mài) solo se distinguen por el tono. ¿Qué significan?"}
+{"f":"checks","id":"tones.k3","k":"o[0]","src":"to sell and to buy","tgt":"vender y comprar"}
+{"f":"checks","id":"tones.k3","k":"o[1]","src":"to buy and to sell","tgt":"comprar y vender"}
+{"f":"checks","id":"tones.k3","k":"o[2]","src":"to buy and a buyer","tgt":"comprar y comprador"}
+{"f":"checks","id":"tones.k3","k":"o[3]","src":"the same thing","tgt":"lo mismo"}
+{"f":"checks","id":"tones.k3","k":"why","src":"买 with the third tone is to buy; 卖 with the fourth tone is to sell.","tgt":"买 con tercer tono es «comprar»; 卖 con cuarto tono es «vender»."}
+{"f":"practice","id":"tones.01","k":"q","src":"Which tone mark shows a falling tone?","tgt":"¿Qué marca de tono indica un tono que cae?"}
+{"f":"practice","id":"tones.01","k":"why","src":"The fourth tone mark (à) points down: the voice falls.","tgt":"La marca del cuarto tono (à) apunta hacia abajo: la voz cae."}
+{"f":"practice","id":"tones.02","k":"q","src":"Which word is mǎi (to buy)?","tgt":"¿Qué palabra es mǎi (comprar)?"}
+{"f":"practice","id":"tones.02","k":"why","src":"买 is mǎi; 卖 (mài) is to sell.","tgt":"买 es mǎi; 卖 (mài) es «vender»."}
+{"f":"practice","id":"tones.03","k":"q","src":"Which is the pinyin of 糖 (sugar)?","tgt":"¿Cuál es el pinyin de 糖 (azúcar)?"}
+{"f":"practice","id":"tones.03","k":"why","src":"糖 rises: táng. tāng, with a level tone, is soup.","tgt":"糖 sube: táng. Con tono alto y sostenido, tāng es «sopa»."}
+{"f":"practice","id":"tones.04","k":"q","src":"In 妈妈 (mom), which tone does the second 妈 have?","tgt":"En 妈妈 (mamá), ¿qué tono tiene el segundo 妈?"}
+{"f":"practice","id":"tones.04","k":"o[0]","src":"The neutral tone","tgt":"El tono neutro"}
+{"f":"practice","id":"tones.04","k":"o[1]","src":"The first tone","tgt":"El primer tono"}
+{"f":"practice","id":"tones.04","k":"o[2]","src":"The third tone","tgt":"El tercer tono"}
+{"f":"practice","id":"tones.04","k":"o[3]","src":"The fourth tone","tgt":"El cuarto tono"}
+{"f":"practice","id":"tones.04","k":"why","src":"The second syllable of 妈妈 is short and light: it has no tone mark.","tgt":"La segunda sílaba de 妈妈 es corta y ligera, como en «MA-ma», nunca «mamá»: no lleva marca de tono."}
+{"f":"practice","id":"tones.05","k":"q","src":"What does 马 (mǎ) mean?","tgt":"¿Qué significa 马 (mǎ)?"}
+{"f":"practice","id":"tones.05","k":"o[0]","src":"horse","tgt":"caballo"}
+{"f":"practice","id":"tones.05","k":"o[1]","src":"mom","tgt":"mamá"}
+{"f":"practice","id":"tones.05","k":"o[2]","src":"to scold","tgt":"regañar"}
+{"f":"practice","id":"tones.05","k":"o[3]","src":"numb","tgt":"entumecido"}
+{"f":"practice","id":"tones.05","k":"why","src":"马 with the third tone is horse; mā is mom and mà is to scold.","tgt":"马 con tercer tono es «caballo»; mā es «mamá» y mà es «regañar»."}
+{"f":"practice","id":"tones.06","k":"p","src":"买马 (to buy a horse) in pinyin","tgt":"买马 (comprar un caballo) en pinyin"}
+{"f":"practice","id":"tones.06","k":"why","src":"买 (mǎi) has the third tone; mài, with the fourth tone, means to sell.","tgt":"买 (mǎi) lleva tercer tono; mài, con cuarto tono, significa «vender»."}
+{"f":"practice","id":"tones.07","k":"p","src":"妈妈 (mom) in pinyin, one syllable per tile","tgt":"妈妈 (mamá) en pinyin, una sílaba por ficha"}
+{"f":"practice","id":"tones.07","k":"why","src":"The first 妈 has the first tone; the second has the neutral tone, with no mark.","tgt":"El primer 妈 lleva primer tono; el segundo, tono neutro, sin marca."}
+{"f":"practice","id":"tones.08","k":"p","src":"很快 (very fast) in pinyin","tgt":"很快 (muy rápido) en pinyin"}
+{"f":"practice","id":"tones.08","k":"why","src":"A tone pair: the third tone on hěn, then the fourth tone on kuài.","tgt":"Un par de tonos: tercer tono en hěn y luego cuarto tono en kuài."}
+{"f":"practice","id":"tones.09","k":"p","src":"horse","tgt":"caballo"}
+{"f":"practice","id":"tones.09","k":"why","src":"马 has the third tone: mǎ. mā is mom and mà is to scold.","tgt":"马 lleva tercer tono: mǎ. mā es «mamá» y mà es «regañar»."}
+{"f":"practice","id":"tones.10","k":"p","src":"soup","tgt":"sopa"}
+{"f":"practice","id":"tones.10","k":"why","src":"汤 has the first tone, high and level: tāng. táng is sugar.","tgt":"汤 lleva primer tono, alto y sostenido: tāng. táng es «azúcar»."}
+{"f":"practice","id":"tones.11","k":"p","src":"to sell","tgt":"vender"}
+{"f":"practice","id":"tones.11","k":"why","src":"卖 has the fourth tone: mài. mǎi would be to buy.","tgt":"卖 lleva cuarto tono: mài. mǎi sería «comprar»."}
+{"f":"practice","id":"tones.12","k":"p","src":"Type the pinyin of 卖 (to sell)","tgt":"Escribe el pinyin de 卖 (vender)"}
+{"f":"practice","id":"tones.12","k":"hint","src":"fourth tone · use the accent bar","tgt":"cuarto tono · tecla ` o barra de tonos"}
+{"f":"practice","id":"tones.12","k":"why","src":"卖 has the fourth tone: it falls. mǎi is to buy.","tgt":"卖 lleva cuarto tono: cae. mǎi es «comprar»."}
+{"f":"practice","id":"tones.13","k":"p","src":"Type the pinyin of 糖 (sugar)","tgt":"Escribe el pinyin de 糖 (azúcar)"}
+{"f":"practice","id":"tones.13","k":"hint","src":"second tone · use the accent bar","tgt":"segundo tono · la tecla de acento sirve (á)"}
+{"f":"practice","id":"tones.13","k":"why","src":"糖 has the second tone: it rises. tāng is soup.","tgt":"糖 lleva segundo tono: sube. tāng es «sopa»."}
+{"f":"practice","id":"tones.14","k":"p","src":"Type the pinyin of 妈 (mom)","tgt":"Escribe el pinyin de 妈 (mamá)"}
+{"f":"practice","id":"tones.14","k":"hint","src":"first tone · use the accent bar","tgt":"primer tono · usa la barra de tonos"}
+{"f":"practice","id":"tones.14","k":"why","src":"妈 has the first tone: high and level. mǎ is horse.","tgt":"妈 lleva primer tono: alto y sostenido. mǎ es «caballo»."}
+{"f":"lessons","id":"tone-change","k":"title","src":"3 · Tone changes: 不, 一, third tone","tgt":"3 · Cambios de tono: 不, 一 y tercer tono"}
+{"f":"lessons","id":"tone-change","k":"blurb","src":"Say 不 and 一 with the right tone, and say two third tones in a row the way Chinese speakers do.","tgt":"Di 不 y 一 con el tono correcto, y di dos terceros tonos seguidos como lo hacen los hablantes de chino."}
+{"f":"sentences","id":"zh.s0020","k":"gloss","src":"is not; no","tgt":"no (no es)"}
+{"f":"sentences","id":"zh.s0021","k":"gloss","src":"you're welcome","tgt":"De nada."}
+{"f":"sentences","id":"zh.s0022","k":"gloss","src":"not good","tgt":"no está bien"}
+{"f":"sentences","id":"zh.s0023","k":"gloss","src":"one person","tgt":"una persona"}
+{"f":"sentences","id":"zh.s0024","k":"gloss","src":"one day","tgt":"un día"}
+{"f":"sentences","id":"zh.s0025","k":"gloss","src":"first","tgt":"primero"}
+{"f":"sentences","id":"zh.s0026","k":"gloss","src":"hello","tgt":"¡Hola!"}
+{"f":"sentences","id":"zh.s0027","k":"gloss","src":"very good","tgt":"muy bien"}
+{"f":"checks","id":"tone-change.k1","k":"q","src":"How do you say 不 in 不是 (is not)?","tgt":"¿Cómo se dice 不 en 不是 (no es)?"}
+{"f":"checks","id":"tone-change.k1","k":"o[0]","src":"bù, falling","tgt":"bù, cayendo"}
+{"f":"checks","id":"tone-change.k1","k":"o[1]","src":"bú, rising","tgt":"bú, subiendo"}
+{"f":"checks","id":"tone-change.k1","k":"o[2]","src":"bū, high and level","tgt":"bū, alto y sostenido"}
+{"f":"checks","id":"tone-change.k1","k":"o[3]","src":"with no tone","tgt":"sin tono"}
+{"f":"checks","id":"tone-change.k1","k":"why","src":"不 before a fourth tone (shì) rises: bú shì.","tgt":"不 delante de un cuarto tono (shì) sube: bú shì."}
+{"f":"checks","id":"tone-change.k2","k":"q","src":"Two third tones come in a row, as in 你好. How are they said?","tgt":"Van dos terceros tonos seguidos, como en 你好. ¿Cómo se dicen?","rw":"English sound comparison (\"as in …\")"}
+{"f":"checks","id":"tone-change.k2","k":"o[0]","src":"Both low and dipping","tgt":"Los dos bajos, con su curva completa"}
+{"f":"checks","id":"tone-change.k2","k":"o[1]","src":"Both falling","tgt":"Los dos cayendo"}
+{"f":"checks","id":"tone-change.k2","k":"o[2]","src":"The first one like a second tone","tgt":"El primero, como un segundo tono"}
+{"f":"checks","id":"tone-change.k2","k":"o[3]","src":"The second one like a second tone","tgt":"El segundo, como un segundo tono"}
+{"f":"checks","id":"tone-change.k2","k":"why","src":"The first of two third tones is said like a second tone: 你好 sounds like ní hǎo.","tgt":"El primero de dos terceros tonos se dice como un segundo tono: 你好 se pronuncia ní hǎo.","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"checks","id":"tone-change.k3","k":"q","src":"In which of these is 一 said yī, with the first tone?","tgt":"¿En cuál de estos se dice 一 yī, con el primer tono?"}
+{"f":"checks","id":"tone-change.k3","k":"o[0]","src":"第一 (first)","tgt":"第一 (primero)"}
+{"f":"checks","id":"tone-change.k3","k":"o[1]","src":"一个人 (one person)","tgt":"一个人 (una persona)"}
+{"f":"checks","id":"tone-change.k3","k":"o[2]","src":"一天 (one day)","tgt":"一天 (un día)"}
+{"f":"checks","id":"tone-change.k3","k":"o[3]","src":"一起 (together)","tgt":"一起 (juntos)"}
+{"f":"checks","id":"tone-change.k3","k":"why","src":"After 第 and in counting, 一 keeps its first tone; before a word it changes.","tgt":"Después de 第 y al contar, 一 conserva el primer tono; delante de una palabra, cambia."}
+{"f":"practice","id":"tone-change.01","k":"q","src":"Which is the pinyin of 不是 (is not)?","tgt":"¿Cuál es el pinyin de 不是 (no es)?"}
+{"f":"practice","id":"tone-change.01","k":"why","src":"不 before a fourth tone rises: bú shì.","tgt":"不 delante de un cuarto tono sube: bú shì."}
+{"f":"practice","id":"tone-change.02","k":"q","src":"How do Chinese speakers say 你好 (hello)?","tgt":"¿Cómo dicen 你好 (hola) los hablantes de chino?"}
+{"f":"practice","id":"tone-change.02","k":"o[0]","src":"ní hǎo, with the first syllable rising","tgt":"ní hǎo, con la primera sílaba subiendo"}
+{"f":"practice","id":"tone-change.02","k":"o[1]","src":"nǐ hǎo, with two full dips","tgt":"nǐ hǎo, con dos curvas completas"}
+{"f":"practice","id":"tone-change.02","k":"o[2]","src":"nǐ hào, with the second syllable falling","tgt":"nǐ hào, con la segunda sílaba cayendo"}
+{"f":"practice","id":"tone-change.02","k":"o[3]","src":"nì hǎo, with the first syllable falling","tgt":"nì hǎo, con la primera sílaba cayendo"}
+{"f":"practice","id":"tone-change.02","k":"why","src":"The first of two third tones is said like a second tone; the pinyin still writes nǐ hǎo.","tgt":"El primero de dos terceros tonos se dice como un segundo tono; el pinyin sigue escribiendo nǐ hǎo.","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"practice","id":"tone-change.03","k":"q","src":"Which is the pinyin of 一个人 (one person)?","tgt":"¿Cuál es el pinyin de 一个人 (una persona)?"}
+{"f":"practice","id":"tone-change.03","k":"why","src":"个 counts as a fourth tone, so 一 before it rises: yí ge.","tgt":"个 cuenta como cuarto tono, así que 一 delante de él sube: yí ge."}
+{"f":"practice","id":"tone-change.04","k":"q","src":"In which phrase is 不 said bù, with its fourth tone?","tgt":"¿En qué expresión se dice 不 bù, con su cuarto tono?"}
+{"f":"practice","id":"tone-change.04","k":"why","src":"Before a third tone (hǎo) 不 keeps its fourth tone: bù hǎo.","tgt":"Delante de un tercer tono (hǎo), 不 conserva el cuarto tono: bù hǎo."}
+{"f":"practice","id":"tone-change.05","k":"q","src":"When does 一 keep its first tone, yī?","tgt":"¿Cuándo conserva 一 su primer tono, yī?"}
+{"f":"practice","id":"tone-change.05","k":"o[0]","src":"When you count: yī, èr, sān","tgt":"Al contar: yī, èr, sān"}
+{"f":"practice","id":"tone-change.05","k":"o[1]","src":"Before a fourth tone","tgt":"Delante de un cuarto tono"}
+{"f":"practice","id":"tone-change.05","k":"o[2]","src":"Before 个","tgt":"Delante de 个"}
+{"f":"practice","id":"tone-change.05","k":"o[3]","src":"Before a first tone","tgt":"Delante de un primer tono"}
+{"f":"practice","id":"tone-change.05","k":"why","src":"In counting, at the end of a bigger number (十一) and after 第, 一 stays yī.","tgt":"Al contar, al final de un número más grande (十一) y después de 第, 一 sigue siendo yī."}
+{"f":"practice","id":"tone-change.06","k":"p","src":"不是 (is not) in pinyin","tgt":"不是 (no es) en pinyin"}
+{"f":"practice","id":"tone-change.06","k":"why","src":"Tone change: 不 before a fourth tone is bú.","tgt":"Cambio de tono: 不 delante de un cuarto tono es bú."}
+{"f":"practice","id":"tone-change.07","k":"p","src":"一个人 (one person) in pinyin","tgt":"一个人 (una persona) en pinyin"}
+{"f":"practice","id":"tone-change.07","k":"why","src":"一 before 个 takes the second tone: yí ge rén.","tgt":"一 delante de 个 toma el segundo tono: yí ge rén."}
+{"f":"practice","id":"tone-change.08","k":"p","src":"不好 (not good) in pinyin","tgt":"不好 (no está bien) en pinyin"}
+{"f":"practice","id":"tone-change.08","k":"why","src":"Before a third tone, 不 keeps its fourth tone: bù hǎo.","tgt":"Delante de un tercer tono, 不 conserva su cuarto tono: bù hǎo."}
+{"f":"practice","id":"tone-change.09","k":"p","src":"you're welcome","tgt":"de nada"}
+{"f":"practice","id":"tone-change.09","k":"why","src":"客 has the fourth tone, so 不 rises: bú kèqi.","tgt":"客 lleva cuarto tono, así que 不 sube: bú kèqi."}
+{"f":"practice","id":"tone-change.10","k":"p","src":"together","tgt":"juntos"}
+{"f":"practice","id":"tone-change.10","k":"why","src":"Before a third tone (qǐ), 一 is said yì: yìqǐ.","tgt":"Delante de un tercer tono (qǐ), 一 se dice yì: yìqǐ."}
+{"f":"practice","id":"tone-change.11","k":"p","src":"first","tgt":"primero"}
+{"f":"practice","id":"tone-change.11","k":"why","src":"After 第, 一 keeps its first tone: dìyī.","tgt":"Después de 第, 一 conserva el primer tono: dìyī."}
+{"f":"practice","id":"tone-change.12","k":"p","src":"Type the pinyin of 不客气 (you're welcome)","tgt":"Escribe el pinyin de 不客气 (de nada)"}
+{"f":"practice","id":"tone-change.12","k":"hint","src":"two words · 不 changes before a fourth tone","tgt":"dos palabras · 不 cambia delante de un cuarto tono"}
+{"f":"practice","id":"tone-change.12","k":"why","src":"Tone change: 不 before a fourth tone is bú, so bú kèqi.","tgt":"Cambio de tono: 不 delante de un cuarto tono es bú; por eso, bú kèqi."}
+{"f":"practice","id":"tone-change.13","k":"p","src":"one person (in characters)","tgt":"una persona (en caracteres)"}
+{"f":"practice","id":"tone-change.13","k":"hint","src":"个 goes between the number and the noun","tgt":"个 va entre el número y el sustantivo"}
+{"f":"practice","id":"tone-change.13","k":"why","src":"A number needs a measure word before the noun: 一个人.","tgt":"Un número necesita un clasificador antes del sustantivo: 一个人."}
+{"f":"practice","id":"tone-change.14","k":"p","src":"Type the pinyin of 你好 (hello), the way it is written","tgt":"Escribe el pinyin de 你好 (hola) tal como se escribe"}
+{"f":"practice","id":"tone-change.14","k":"hint","src":"two words · pinyin writes the dictionary tones","tgt":"dos palabras · el pinyin escribe los tonos del diccionario"}
+{"f":"practice","id":"tone-change.14","k":"why","src":"Pinyin writes the third tone mark on both: nǐ hǎo, though you say ní hǎo.","tgt":"El pinyin escribe la marca del tercer tono en las dos: nǐ hǎo, aunque se dice ní hǎo."}

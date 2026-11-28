@@ -24,6 +24,8 @@ const FOUND={'en-ja':{lessons:['hiragana','sounds','katakana'],letters:[...HIRA+
  'en-zh':{lessons:['pinyin','tones','tone-change','characters'],letters:[...'氵亻心忄讠扌艹饣土钅'],tilesOnly:['b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s'],words:['pinyin','tones','characters'],soundOnly:['tone-change']},
  /* Mandarin for Vietnamese speakers: assembled from the Mandarin half, so it has the same foundation as en-zh */
  'vi-zh':{lessons:['pinyin','tones','tone-change','characters'],letters:[...'氵亻心忄讠扌艹饣土钅'],tilesOnly:['b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s'],words:['pinyin','tones','characters'],soundOnly:['tone-change']},
+ /* assembled from the same target half as vi-zh: same foundation */
+ 'es-zh':{lessons:['pinyin','tones','tone-change','characters'],letters:[...'氵亻心忄讠扌艹饣土钅'],tilesOnly:['b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s'],words:['pinyin','tones','characters'],soundOnly:['tone-change']},
  'en-ru':{lessons:['alphabet','letters','sounds'],letters:[...'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'],tilesOnly:[],words:['alphabet','letters','sounds']},
  /* anywhere: the script lessons are not the first lessons (lessons are never reordered). frontStarts: a letter card's front is the letter and its name word (ก ไก่) */
  'en-th':{lessons:['consonants','vowels','finals','tone-marks','tones','sounds'],letters:[...'กขคฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ'],tilesOnly:['ฃ','ฅ'],words:['vowels','finals','tone-marks'],soundOnly:['tones','sounds'],anywhere:true,frontStarts:true},

@@ -1776,3 +1776,11 @@ Done: `tags.js propose` draft per course, then 20 Opus judges (per course: cards
 What the draft got wrong most: English look-alikes tagged (`in`, `so`, `an`, `or`, `do`, `no`, `me`, `also`, `will`), article or pronoun left outside the run, `?` and `!` outside a quoted sentence, endings and letters named as spelling left bare.
 Lessons for the next batch: give every judge its own scratch folder (they shared one and overwrote each other's helper scripts; outputs were not harmed, every row is re-checked by `apply`); `bodyfix` turns bold the lexicon does not know into `<strong>`, so read its "strong:" list (French endings and stems had to be put back to `<b>` by hand); never tag `decks.label` / `groups.name` / `labels.text`.
 Dispatcher's own decisions: residual English look-alikes go in `proseOk` of each target file, not `homographs`; names stay tagged inside hints (they are pieces of the answer) and bare in English prompts.
+
+## PAIR-ES-ZH (2.144.0, 2026-11-28): Mandarin for Spanish speakers, first pair from the finished engines
+
+Ask (owner): "also start building out the courses with the completeengines".
+Built: `es-zh` from `target/zh/` + a new Spanish half (`tools/halves/native/es/zh/`). One pair as a pilot, then ask. Details: `docs/HANDOFF.md`, 2.144.0 entry; `docs/briefs/es-zh-lead.md`.
+Agents: Opus lead (242k), four Opus writers (233k / 267k / 281k / 257k), Opus cold reviewer (377k, 52 edits), Opus section writer (133k). Reading lists held: no agent read a file outside its list except single Greps.
+Dispatcher's own decisions: Mandarin before Cantonese for Spanish speakers (the proven half first); the lead's lesson-21 title kept; `tools/patches/new_assembled_course.py` registers an assembled course from a sister course.
+Not tested: native speakers; real phones; tone-mark typing on a Spanish keyboard.

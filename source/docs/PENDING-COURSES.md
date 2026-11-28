@@ -38,7 +38,7 @@ Korean for English speakers is the built-in course. Taiwanese to English is rele
 | Learner speaks | Cantonese | Vietnamese | Mandarin | Korean | Japanese | Taiwanese | Thai | Hmong | Indonesian | Tagalog | Cebuano |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | English | released | released | released | released | released | released | released | released | released | released | released |
-| Spanish | pending | pending | pending | released | pending | pending | pending | pending | pending | pending | pending |
+| Spanish | pending | pending | released | released | pending | pending | pending | pending | pending | pending | pending |
 
 ## Wave 2: speakers of the other East and Southeast Asian languages
 

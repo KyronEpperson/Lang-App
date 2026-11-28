@@ -3,7 +3,7 @@
 'use strict';
 const { chromium } = require('playwright'); const path = require('path'), fs = require('fs');
 const SRC = process.env.LR_SRC || path.resolve(__dirname, '..', '..', 'korean-flashcards.html');
-const IDS = ['en-zh','vi-zh','en-yue','en-nan','en-ja','en-th','en-ar','en-ur','en-hi','en-bn','en-pa','en-te','en-kn','en-am','en-ru'];
+const IDS = ['en-zh','vi-zh','es-zh','en-yue','en-nan','en-ja','en-th','en-ar','en-ur','en-hi','en-bn','en-pa','en-te','en-kn','en-am','en-ru'];
 (async () => { const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 430, height: 900 } }); const errs = []; p.on('pageerror', e => errs.push(String(e)));
   await p.goto('file://' + SRC); await p.waitForTimeout(1500); let bad = 0; const ok = (n, c, d) => { console.log((c ? 'PASS ' : 'FAIL ') + n + (c ? '' : ' ' + (d || ''))); if (!c) bad++; };
   for (const id of IDS) { const has = await p.evaluate(c => { const r = applyCourse(c, {}); try { unlockAll(); } catch (e) {} location.hash = '#lessons'; return r; }, id); if (!has) { ok(id + ' loads', false); continue; } await p.waitForTimeout(400);

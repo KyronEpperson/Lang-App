@@ -6,7 +6,7 @@
 'use strict';
 const { chromium } = require('playwright'); const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..', '..'), SRC = path.join(ROOT, 'korean-flashcards.html');
-const ALL = ['en-te','en-ar','en-th','en-zh','vi-zh','en-yue','en-nan','en-ja','en-ur','en-hi','en-bn','en-pa','en-kn','en-am','en-ru'];
+const ALL = ['en-te','en-ar','en-th','en-zh','vi-zh','es-zh','en-yue','en-nan','en-ja','en-ur','en-hi','en-bn','en-pa','en-kn','en-am','en-ru'];
 const IDS = process.argv.slice(2).length ? process.argv.slice(2) : ALL;
 const norm = s => String(s).normalize('NFC').toLowerCase().replace(/^[\s.,!?;:…"“”()\/]+|[\s.,!?;:…"“”()\/]+$/g, '').replace(/\s+/g, ' ');
 function tool(t) { if (t === 'ja') return { respell() { throw new Error('no tool: Japanese readings are written by hand (written.json)'); } }; return require(path.join(ROOT, 'tools', 'target', t, 'respell.js')); }

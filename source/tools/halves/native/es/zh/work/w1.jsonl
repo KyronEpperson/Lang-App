@@ -1,0 +1,1649 @@
+{"f":"course","id":"course","k":"name","src":"Chinese (Mandarin)","tgt":"Chino mandarín"}
+{"f":"groups","id":"zh.grp.sounds-and-script","k":"name","src":"Sounds and script","tgt":"Sonidos y escritura"}
+{"f":"groups","id":"zh.grp.first-steps","k":"name","src":"First steps","tgt":"Primeros pasos"}
+{"f":"groups","id":"zh.grp.everyday-words","k":"name","src":"Everyday words","tgt":"Palabras de cada día"}
+{"f":"groups","id":"zh.grp.out-and-about","k":"name","src":"Out and about","tgt":"Fuera de casa"}
+{"f":"groups","id":"zh.grp.conversation","k":"name","src":"Conversation","tgt":"Conversación"}
+{"f":"groups","id":"zh.grp.core-words","k":"name","src":"Core words","tgt":"Palabras clave"}
+{"f":"labels","id":"zh.t01","k":"text","src":"Beginner","tgt":"Brote"}
+{"f":"labels","id":"zh.t03","k":"text","src":"Traveler","tgt":"Trotamundos"}
+{"f":"labels","id":"zh.t05","k":"text","src":"Explorer","tgt":"Estudiante"}
+{"f":"labels","id":"zh.t08","k":"text","src":"Speaker","tgt":"Hablante"}
+{"f":"labels","id":"zh.t12","k":"text","src":"Conversationalist","tgt":"Pro"}
+{"f":"labels","id":"zh.t16","k":"text","src":"Storyteller","tgt":"As"}
+{"f":"labels","id":"zh.t20","k":"text","src":"Master","tgt":"Leyenda"}
+{"f":"labels","id":"zh.h.night","k":"text","src":"Good night (you're up late)","tgt":"buenas noches, ya es tarde"}
+{"f":"labels","id":"zh.h.morning","k":"text","src":"Good morning","tgt":"buenos días"}
+{"f":"labels","id":"zh.h.afternoon","k":"text","src":"Good afternoon","tgt":"buenas tardes"}
+{"f":"labels","id":"zh.h.evening","k":"text","src":"Good evening","tgt":"buenas noches"}
+{"f":"decks","id":"zh.d.pinyin-sounds","k":"label","src":"Pinyin sounds","tgt":"Sonidos del pinyin"}
+{"f":"decks","id":"zh.d.pinyin-sounds","k":"desc","src":"One character per sound point: the initials and finals that English readers misread (b / p, j q x, zh ch sh r, z c s, e, ü, -i)","tgt":"Un carácter por sonido: las iniciales y finales que un lector de español lee mal (b / p, j q x, zh ch sh r, z c s, e, ü, -i). Las letras del pinyin no se leen como en español: b d g son la p, t, k de «papá», «tío», «casa»; p t k, lo mismo con un soplo fuerte de aire.","rw":"mentions English"}
+{"f":"decks","id":"zh.d.tone-pairs","k":"label","src":"Tone pairs","tgt":"Pares de tonos"}
+{"f":"decks","id":"zh.d.tone-pairs","k":"desc","src":"Same syllable, different tone, different word: 妈 麻 马 骂, 买 / 卖, 汤 / 糖, 问 / 吻","tgt":"La misma sílaba con otro tono es otra palabra: 妈 麻 马 骂, 买 / 卖, 汤 / 糖, 问 / 吻. La marca ´ es el segundo tono, no el acento del español."}
+{"f":"decks","id":"zh.d.first-characters","k":"label","src":"First characters","tgt":"Primeros caracteres"}
+{"f":"decks","id":"zh.d.first-characters","k":"desc","src":"Pictures and compounds to recognise: 人 口 木 山 日 月 女 子 好 明 休 林","tgt":"Dibujos y combinaciones para reconocer: 人 口 木 山 日 月 女 子 好 明 休 林"}
+{"f":"decks","id":"zh.d.greetings-and-courtesy","k":"label","src":"Greetings and courtesy","tgt":"Saludos y cortesía"}
+{"f":"decks","id":"zh.d.greetings-and-courtesy","k":"desc","src":"Hello, thank you, sorry, goodbye, and the polite 您","tgt":"Hola, gracias, perdón, adiós, y el 您 de respeto (el «usted» chino)"}
+{"f":"decks","id":"zh.d.people-and-family","k":"label","src":"People and family","tgt":"Personas y familia"}
+{"f":"decks","id":"zh.d.people-and-family","k":"desc","src":"Pronouns, family members and friends, and how to count a family","tgt":"Pronombres, familiares y amigos, y cómo contar a los miembros de una familia"}
+{"f":"decks","id":"zh.d.about-me","k":"label","src":"About me","tgt":"Sobre mí"}
+{"f":"decks","id":"zh.d.about-me","k":"desc","src":"Name, nationality, age, where you live and what you study","tgt":"Nombre, nacionalidad, edad, dónde vives y qué estudias"}
+{"f":"decks","id":"zh.d.numbers-and-money","k":"label","src":"Numbers and money","tgt":"Números y dinero"}
+{"f":"decks","id":"zh.d.numbers-and-money","k":"desc","src":"Numbers to 100 and beyond, 二 and 两, prices in 块","tgt":"Números hasta 100 y más, 二 y 两, precios en 块"}
+{"f":"decks","id":"zh.d.measure-words","k":"label","src":"Measure words","tgt":"Clasificadores"}
+{"f":"decks","id":"zh.d.measure-words","k":"desc","src":"Number or this / that + measure word + noun: 个, 本, 杯, 张, 件, 只, 双","tgt":"Número o este / ese + clasificador + sustantivo: 个, 本, 杯, 张, 件, 只, 双"}
+{"f":"decks","id":"zh.d.food-and-drink","k":"label","src":"Food and drink","tgt":"Comida y bebida"}
+{"f":"decks","id":"zh.d.food-and-drink","k":"desc","src":"Dumplings, noodles, tea and coffee, and ordering and paying in a restaurant","tgt":"Empanadillas chinas, fideos, té y café, y cómo pedir y pagar en un restaurante"}
+{"f":"decks","id":"zh.d.shopping","k":"label","src":"Shopping","tgt":"De compras"}
+{"f":"decks","id":"zh.d.shopping","k":"desc","src":"Prices, sizes, haggling a little, and paying by phone","tgt":"Precios, tallas, regatear un poco y pagar con el celular"}
+{"f":"decks","id":"zh.d.time-days-and-dates","k":"label","src":"Time, days and dates","tgt":"Horas, días y fechas"}
+{"f":"decks","id":"zh.d.time-days-and-dates","k":"desc","src":"Clock time, days of the week, dates, today and tomorrow","tgt":"La hora, los días de la semana, las fechas, hoy y mañana"}
+{"f":"decks","id":"zh.d.around-town-and-directions","k":"label","src":"Around town and directions","tgt":"Por la ciudad"}
+{"f":"decks","id":"zh.d.around-town-and-directions","k":"desc","src":"Where things are, left and right, and asking the way","tgt":"Dónde están las cosas, izquierda y derecha, y cómo preguntar el camino"}
+{"f":"decks","id":"zh.d.travel-and-transport","k":"label","src":"Travel and transport","tgt":"Viajes y transporte"}
+{"f":"decks","id":"zh.d.travel-and-transport","k":"desc","src":"Taxis, the subway, high-speed trains, tickets and hotels","tgt":"Taxis, el metro, los trenes de alta velocidad, boletos y hoteles"}
+{"f":"decks","id":"zh.d.work-and-study","k":"label","src":"Work and study","tgt":"Trabajo y estudios"}
+{"f":"decks","id":"zh.d.work-and-study","k":"desc","src":"Jobs, school, learning Chinese, and what you can do","tgt":"Profesiones, la escuela, aprender chino y lo que sabes hacer"}
+{"f":"decks","id":"zh.d.health-and-help","k":"label","src":"Health and help","tgt":"Salud y ayuda"}
+{"f":"decks","id":"zh.d.health-and-help","k":"desc","src":"Feeling sick, the pharmacy, the doctor, and asking for help","tgt":"Sentirse mal, la farmacia, el médico y cómo pedir ayuda"}
+{"f":"decks","id":"zh.d.describing-things","k":"label","src":"Describing things","tgt":"Describir cosas"}
+{"f":"decks","id":"zh.d.describing-things","k":"desc","src":"Adjectives for people, food, weather and things, with 很 and 太","tgt":"Adjetivos para personas, comida, clima y cosas, con 很 y 太"}
+{"f":"decks","id":"zh.d.questions-and-connectors","k":"label","src":"Questions and connectors","tgt":"Preguntas y conectores"}
+{"f":"decks","id":"zh.d.questions-and-connectors","k":"desc","src":"Question words, 吗 and 呢, verb-not-verb, and the words that join ideas","tgt":"Palabras interrogativas, 吗 y 呢, preguntas verbo-no-verbo y las palabras que unen ideas"}
+{"f":"decks","id":"zh.d.traps-for-english-speakers","k":"label","src":"Traps for English speakers","tgt":"Trampas frecuentes","rw":"mentions English"}
+{"f":"decks","id":"zh.d.traps-for-english-speakers","k":"desc","src":"False friends, calques, 是 with adjectives, 不 and 没, 二 and 两, and polite-sounding mistakes","tgt":"Errores típicos: 是 con adjetivos, 不 y 没, 二 y 两, calcos del español y frases que parecen corteses y no lo son"}
+{"f":"decks","id":"zh.d.top-nouns","k":"label","src":"Top nouns","tgt":"Sustantivos clave"}
+{"f":"decks","id":"zh.d.top-nouns","k":"desc","src":"The most-used nouns: people, places, things, time and everyday objects","tgt":"Los sustantivos más usados: personas, lugares, cosas, tiempo y objetos de cada día"}
+{"f":"decks","id":"zh.d.top-verbs","k":"label","src":"Top verbs","tgt":"Verbos clave"}
+{"f":"decks","id":"zh.d.top-verbs","k":"desc","src":"The most-used verbs, with the complements that go with them (听懂, 吃完, 回来)","tgt":"Los verbos más usados, con los complementos que los acompañan (听懂, 吃完, 回来)"}
+{"f":"decks","id":"zh.d.top-adjectives","k":"label","src":"Top adjectives","tgt":"Adjetivos clave"}
+{"f":"decks","id":"zh.d.top-adjectives","k":"desc","src":"Adjectives work like verbs: 她很忙, no 是. Size, taste, weather, feelings and colors","tgt":"Los adjetivos funcionan como verbos: 她很忙, sin 是. Tamaño, sabor, clima, sentimientos y colores"}
+{"f":"decks","id":"zh.d.top-adverbs","k":"label","src":"Top adverbs","tgt":"Adverbios clave"}
+{"f":"decks","id":"zh.d.top-adverbs","k":"desc","src":"Not, also, all, still, already, only, again, very: the small words before the verb","tgt":"No, también, todos, todavía, ya, solo, otra vez, muy: las palabras pequeñas que van antes del verbo"}
+{"f":"decks","id":"zh.d.top-pronouns","k":"label","src":"Top pronouns","tgt":"Pronombres clave"}
+{"f":"decks","id":"zh.d.top-pronouns","k":"desc","src":"I, you, 您, 咱们, this, that, here, there, mine, whose: the whole useful set","tgt":"Yo, tú, 您, 咱们, este, ese, aquí, allí, mío, de quién: el juego completo y útil"}
+{"f":"decks","id":"zh.d.top-prepositions-coverbs","k":"label","src":"Top prepositions (coverbs)","tgt":"Preposiciones clave"}
+{"f":"decks","id":"zh.d.top-prepositions-coverbs","k":"desc","src":"Chinese prepositions are verbs that come before the main verb (在, 给, 跟, 从, 把), plus location words","tgt":"Las preposiciones chinas son verbos que van antes del verbo principal (un coverbo: una preposición que es también verbo): 在, 给, 跟, 从, 把. Además, las palabras de ubicación"}
+{"f":"decks","id":"zh.d.top-conjunctions","k":"label","src":"Top conjunctions","tgt":"Conjunciones clave"}
+{"f":"decks","id":"zh.d.top-conjunctions","k":"desc","src":"And, or, but, if, because … so, when, both … and","tgt":"Y, o, pero, si, porque … por eso, cuando, tanto … como"}
+{"f":"decks","id":"zh.d.top-interjections","k":"label","src":"Top interjections","tgt":"Interjecciones clave"}
+{"f":"decks","id":"zh.d.top-interjections","k":"desc","src":"What people really say when surprised, cheering someone on, or giving up: 我的天, 加油, 算了","tgt":"Lo que de verdad se dice con sorpresa, para animar a alguien o para rendirse: 我的天, 加油, 算了"}
+{"f":"decks","id":"zh.d.top-words","k":"label","src":"Top words","tgt":"Palabras básicas"}
+{"f":"decks","id":"zh.d.top-words","k":"desc","src":"Question words, numbers to twenty, yes and no, days, seasons and times","tgt":"Palabras interrogativas, números hasta veinte, sí y no, días, estaciones y momentos del día"}
+{"f":"decks","id":"zh.d.top-measure-words","k":"label","src":"Top measure words","tgt":"Clasificadores clave"}
+{"f":"decks","id":"zh.d.top-measure-words","k":"desc","src":"More measure words beyond 个, 本, 杯: 次, 种, 份, 台, 部, 遍, 斤 and what they count","tgt":"Más clasificadores además de 个, 本, 杯: 次, 种, 份, 台, 部, 遍, 斤 y lo que cuentan"}
+{"f":"decks","id":"zh.d.top-particles","k":"label","src":"Top particles","tgt":"Partículas clave"}
+{"f":"decks","id":"zh.d.top-particles","k":"desc","src":"的, 了, 吗, 呢, 吧, 啊, 着, 过, 得: the little words that carry grammar","tgt":"的, 了, 吗, 呢, 吧, 啊, 着, 过, 得: las palabras pequeñas que llevan la gramática"}
+{"f":"decks","id":"zh.d.compliments","k":"label","src":"Compliments","tgt":"Cumplidos"}
+{"f":"decks","id":"zh.d.compliments","k":"desc","src":"Praising food, homes, skills and effort, and how Chinese speakers answer praise (哪里哪里)","tgt":"Elogiar la comida, la casa, las habilidades y el esfuerzo, y cómo responden los chinos a un elogio (哪里哪里)"}
+{"f":"decks","id":"zh.d.flirting","k":"label","src":"Flirting","tgt":"Coqueteo"}
+{"f":"decks","id":"zh.d.flirting","k":"desc","src":"Pretty, handsome, cute, fun: the words, the phrases built from them, asking someone out, and kind ways to say no","tgt":"Linda, guapo, tierno, divertido: las palabras, las frases que se forman con ellas, cómo invitar a salir y formas amables de decir que no"}
+{"f":"cards","id":"zh.c0001","k":"meaning","src":"eight","tgt":"ocho"}
+{"f":"cards","id":"zh.c0001","k":"note","src":"b has no puff of air. To English ears it can sound halfway between b and p.","tgt":"La b no lleva soplo de aire: es la p de «papá». Nunca es la b suave de «haba», ni siquiera entre vocales.","rw":"mentions English"}
+{"f":"cards","id":"zh.c0002","k":"meaning","src":"to be afraid","tgt":"tener miedo"}
+{"f":"cards","id":"zh.c0002","k":"note","src":"p has a strong puff of air, as in English \"pie\".","tgt":"La p lleva un soplo fuerte de aire, que el español no tiene: pon la mano delante de la boca y siéntelo.","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0003","k":"meaning","src":"right; correct","tgt":"correcto; cierto"}
+{"f":"cards","id":"zh.c0003","k":"note","src":"d has no puff of air. The final ui sounds like \"way\".","tgt":"La d no lleva soplo: es la t de «tío». La final ui suena «uei», como en «buey».","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"zh.c0004","k":"meaning","src":"sky; day","tgt":"cielo; día"}
+{"f":"cards","id":"zh.c0004","k":"note","src":"t has a strong puff of air. The final ian sounds like \"yen\", not \"ee-ahn\".","tgt":"La t lleva un soplo fuerte de aire. La final ian suena «ien», no «i-an»: tiān ≈ «tien» con soplo.","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"zh.c0005","k":"meaning","src":"dog","tgt":"perro"}
+{"f":"cards","id":"zh.c0005","k":"note","src":"g has no puff of air, like the k in \"skip\". ou sounds like \"oh\".","tgt":"La g no lleva soplo: es la c de «casa». Siempre es dura, también ante e, i. La final ou suena «ou».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0006","k":"meaning","src":"to look; to watch","tgt":"mirar; ver"}
+{"f":"cards","id":"zh.c0006","k":"note","src":"k has a strong puff of air, as in \"kite\".","tgt":"La k es la c de «casa» con un soplo fuerte de aire.","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0007","k":"meaning","src":"chicken","tgt":"pollo; gallina"}
+{"f":"cards","id":"zh.c0007","k":"note","src":"j is like the j in \"jeep\", with the tip of the tongue down behind the lower teeth.","tgt":"La j es una «ch» suave, con la punta de la lengua abajo, detrás de los dientes de abajo, y los labios estirados, sin soplo; parecida a la y enfática de «¡yo!». Nunca es la jota.","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0008","k":"meaning","src":"to go","tgt":"ir"}
+{"f":"cards","id":"zh.c0008","k":"note","src":"q sounds like the ch in \"cheese\". After q, u is really ü.","tgt":"La q es como la j, pero con soplo; nunca es «k». Después de q, la u es en realidad ü: 去 suena «chü», nunca «cu».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0009","k":"meaning","src":"to thank","tgt":"agradecer"}
+{"f":"cards","id":"zh.c0009","k":"note","src":"x is like \"sh\" said with a smile, never \"ks\". Doubled, 谢谢 is \"thank you\".","tgt":"La x es una s con la lengua plana y los labios en sonrisa, cerca del «¡shh!» que pide silencio; nunca «ks» (como en «taxi») ni jota (como en «México»). Doble, 谢谢 es «gracias»."}
+{"f":"cards","id":"zh.c0010","k":"meaning","src":"middle","tgt":"medio; centro"}
+{"f":"cards","id":"zh.c0010","k":"note","src":"zh is like the j in \"judge\" with the tongue curled back. As in 中国 (China).","tgt":"La zh es una «ch» sin soplo con la punta de la lengua doblada hacia atrás (retrofleja). Como en 中国 (China).","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0011","k":"meaning","src":"to eat","tgt":"comer"}
+{"f":"cards","id":"zh.c0011","k":"note","src":"ch is like the ch in \"church\" with the tongue curled back. The i just buzzes: not \"chee\".","tgt":"La ch es la «ch» de «chico» con soplo y la lengua doblada hacia atrás. La i solo zumba: no suena «chi».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0012","k":"meaning","src":"to be (am, is, are)","tgt":"ser (soy, eres, es…)"}
+{"f":"cards","id":"zh.c0012","k":"note","src":"sh with the tongue curled back, and the i is a buzz. Not \"shee\".","tgt":"sh con la punta de la lengua doblada hacia atrás, y la i es un zumbido. No suena «shi», y menos «sí»."}
+{"f":"cards","id":"zh.c0013","k":"meaning","src":"sun; day","tgt":"sol; día"}
+{"f":"cards","id":"zh.c0013","k":"note","src":"r here is like the s in \"measure\"; the vowel just buzzes. Not \"ree\".","tgt":"La r es como sh con voz, con la lengua doblada hacia atrás; nunca la r de «pero» ni de «perro». La vocal solo zumba: no suena «ri».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0014","k":"meaning","src":"written character","tgt":"carácter (escrito)"}
+{"f":"cards","id":"zh.c0014","k":"note","src":"z sounds like the ds in \"kids\", and the i buzzes.","tgt":"La z es la «ts» de «pizza» como se dice en español («pitsa»), sin soplo; nunca es [θ] (la z de España) ni s. La i zumba.","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0015","k":"meaning","src":"dish (of food); vegetables","tgt":"plato (de comida); verdura"}
+{"f":"cards","id":"zh.c0015","k":"note","src":"c sounds like the ts in \"cats\", never like k.","tgt":"La c es la misma «ts» con soplo: 菜 suena «tsái» con soplo de aire. Nunca «k» ni «s».","rw":"English sound comparison (\"like the x in …\")"}
+{"f":"cards","id":"zh.c0016","k":"meaning","src":"years old","tgt":"años (de edad)"}
+{"f":"cards","id":"zh.c0016","k":"note","src":"s is a plain s, and ui sounds like \"way\": close to English \"sway\".","tgt":"La s es la s de «sol», y ui suena «uei», como en «buey»: suì ≈ «suei».","rw":"mentions English"}
+{"f":"cards","id":"zh.c0017","k":"meaning","src":"to drink","tgt":"beber; tomar"}
+{"f":"cards","id":"zh.c0017","k":"note","src":"e sounds like the \"uh\" in \"duh\", not \"eh\". h is rougher than English h.","tgt":"La e no es la e española: di «o» y estira los labios sin mover la lengua. La h es la jota de «jamón», nunca muda.","rw":"mentions English"}
+{"f":"cards","id":"zh.c0018","k":"meaning","src":"green","tgt":"verde"}
+{"f":"cards","id":"zh.c0018","k":"note","src":"ü: say \"ee\" and round your lips. Written with the dots after l and n.","tgt":"ü: di «i» con los labios redondeados como para «u». Tras l y n se escribe con los dos puntos, pero no es la diéresis de «pingüino»: es otra vocal."}
+{"f":"cards","id":"zh.c0019","k":"meaning","src":"mom (as in 妈妈)","tgt":"mamá (como en 妈妈)","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0019","k":"note","src":"First tone: high and level, as if singing one note.","tgt":"Primer tono: alto y sostenido, como una nota cantada larga."}
+{"f":"cards","id":"zh.c0020","k":"meaning","src":"numb; tingly","tgt":"entumecido; que hormiguea"}
+{"f":"cards","id":"zh.c0020","k":"note","src":"Second tone: it rises, like a surprised \"Huh?\" Set: 妈 麻 马 骂.","tgt":"Segundo tono: sube, como un «¿eh?» o un «¿sí?» de sorpresa. La serie: 妈 麻 马 骂."}
+{"f":"cards","id":"zh.c0021","k":"meaning","src":"horse","tgt":"caballo"}
+{"f":"cards","id":"zh.c0021","k":"note","src":"Third tone: low. Said alone it dips and rises; before another tone it stays low.","tgt":"Tercer tono: bajo. Dicho solo, baja y vuelve a subir; antes de otro tono se queda bajo y plano."}
+{"f":"cards","id":"zh.c0022","k":"meaning","src":"to scold","tgt":"regañar"}
+{"f":"cards","id":"zh.c0022","k":"note","src":"Fourth tone: falls sharply, like a firm \"No!\"","tgt":"Cuarto tono: cae de arriba abajo, corto y firme, como un «¡no!» seco."}
+{"f":"cards","id":"zh.c0023","k":"meaning","src":"to buy","tgt":"comprar"}
+{"f":"cards","id":"zh.c0023","k":"note","src":"Third tone. Same letters as 卖 (mài, to sell): the tone changes the deal.","tgt":"Tercer tono. Mismas letras que 卖 (mài, vender): el tono cambia el trato."}
+{"f":"cards","id":"zh.c0024","k":"meaning","src":"to sell","tgt":"vender"}
+{"f":"cards","id":"zh.c0024","k":"note","src":"Fourth tone: it falls. Mix up 买 and 卖 and you swap buyer and seller.","tgt":"Cuarto tono: cae. Si confundes 买 y 卖, cambias al comprador por el vendedor."}
+{"f":"cards","id":"zh.c0025","k":"meaning","src":"soup","tgt":"sopa"}
+{"f":"cards","id":"zh.c0025","k":"note","src":"First tone, high and level. With a rising tone it becomes 糖, sugar.","tgt":"Primer tono, alto y sostenido. Con un tono que sube se vuelve 糖, azúcar."}
+{"f":"cards","id":"zh.c0026","k":"meaning","src":"sugar; candy","tgt":"azúcar; dulces"}
+{"f":"cards","id":"zh.c0026","k":"note","src":"Second tone: it rises. Said flat and high it is 汤, soup.","tgt":"Segundo tono: sube. Dicho alto y plano es 汤, sopa."}
+{"f":"cards","id":"zh.c0027","k":"meaning","src":"to ask","tgt":"preguntar"}
+{"f":"cards","id":"zh.c0027","k":"note","src":"Fourth tone: it falls. Said low, it becomes 吻 (to kiss).","tgt":"Cuarto tono: cae. Dicho bajo, se vuelve 吻 (besar)."}
+{"f":"cards","id":"zh.c0028","k":"meaning","src":"to kiss","tgt":"besar"}
+{"f":"cards","id":"zh.c0028","k":"note","src":"Third tone: low. 我可以问你吗？ (May I ask you?) said with a low 问 asks for a kiss.","tgt":"Tercer tono: bajo. 我可以问你吗？ (¿Puedo preguntarte algo?) con un 问 bajo pide un beso."}
+{"f":"cards","id":"zh.c0029","k":"meaning","src":"smoke; cigarette","tgt":"humo; cigarrillo"}
+{"f":"cards","id":"zh.c0029","k":"note","src":"First tone. The same letters with other tones: 盐 (salt) rises, 眼 (eye) dips.","tgt":"Primer tono. Las mismas letras con otros tonos: 盐 (sal) sube, 眼 (ojo) baja."}
+{"f":"cards","id":"zh.c0030","k":"meaning","src":"salt","tgt":"sal"}
+{"f":"cards","id":"zh.c0030","k":"note","src":"Second tone: it rises. Said flat and high it is 烟, smoke.","tgt":"Segundo tono: sube. Dicho alto y plano es 烟, humo."}
+{"f":"cards","id":"zh.c0031","k":"meaning","src":"eye","tgt":"ojo"}
+{"f":"cards","id":"zh.c0031","k":"note","src":"Third tone: low. In speech usually 眼睛 (yǎnjing).","tgt":"Tercer tono: bajo. Al hablar se dice casi siempre 眼睛 (yǎnjing)."}
+{"f":"cards","id":"zh.c0032","k":"meaning","src":"seven","tgt":"siete"}
+{"f":"cards","id":"zh.c0032","k":"note","src":"First tone. With a low third tone it is 起 (to get up); with a falling fourth tone, 气 (air).","tgt":"Primer tono. Con el tercer tono, bajo, es 起 (levantarse); con el cuarto, que cae, 气 (aire)."}
+{"f":"cards","id":"zh.c0033","k":"meaning","src":"to get up (as in 起床)","tgt":"levantarse (como en 起床)","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0033","k":"note","src":"Third tone: low. 起床 is to get out of bed.","tgt":"Tercer tono: bajo. 起床 es levantarse de la cama."}
+{"f":"cards","id":"zh.c0034","k":"meaning","src":"air; anger","tgt":"aire; enojo"}
+{"f":"cards","id":"zh.c0034","k":"note","src":"Fourth tone: it falls. 生气 is to get angry.","tgt":"Cuarto tono: cae. 生气 es enojarse."}
+{"f":"cards","id":"zh.c0035","k":"meaning","src":"to have","tgt":"tener"}
+{"f":"cards","id":"zh.c0035","k":"note","src":"Third tone: low. 又 (again) has the falling fourth tone.","tgt":"Tercer tono: bajo. 又 (otra vez) lleva el cuarto tono, que cae."}
+{"f":"cards","id":"zh.c0036","k":"meaning","src":"again","tgt":"otra vez"}
+{"f":"cards","id":"zh.c0036","k":"note","src":"Fourth tone: it falls. 有 (to have) is the low third tone.","tgt":"Cuarto tono: cae. 有 (tener) es el tercer tono, bajo."}
+{"f":"cards","id":"zh.c0037","k":"meaning","src":"person","tgt":"persona"}
+{"f":"cards","id":"zh.c0037","k":"note","src":"Looks like a person walking: two legs.","tgt":"Parece una persona que camina: dos piernas."}
+{"f":"cards","id":"zh.c0038","k":"meaning","src":"mouth","tgt":"boca"}
+{"f":"cards","id":"zh.c0038","k":"note","src":"Also the measure word for family members: 四口人.","tgt":"También es el clasificador de los miembros de una familia: 四口人."}
+{"f":"cards","id":"zh.c0039","k":"meaning","src":"tree; wood","tgt":"árbol; madera"}
+{"f":"cards","id":"zh.c0039","k":"note","src":"Two trees make 林 (woods), three make 森 (forest).","tgt":"Dos árboles forman 林 (arboleda); tres forman 森 (bosque)."}
+{"f":"cards","id":"zh.c0040","k":"meaning","src":"woods","tgt":"arboleda"}
+{"f":"cards","id":"zh.c0040","k":"note","src":"Two trees side by side. Also a common family name.","tgt":"Dos árboles juntos. También es un apellido común."}
+{"f":"cards","id":"zh.c0041","k":"meaning","src":"forest","tgt":"bosque"}
+{"f":"cards","id":"zh.c0041","k":"note","src":"Three trees: more than a wood. Usually said 森林.","tgt":"Tres árboles: más que una arboleda. Al hablar se dice 森林."}
+{"f":"cards","id":"zh.c0042","k":"meaning","src":"mountain","tgt":"montaña"}
+{"f":"cards","id":"zh.c0042","k":"note","src":"Three peaks on a line.","tgt":"Tres picos sobre una línea."}
+{"f":"cards","id":"zh.c0043","k":"meaning","src":"moon; month","tgt":"luna; mes"}
+{"f":"cards","id":"zh.c0043","k":"note","src":"Drawn from a crescent moon. 一月 is January.","tgt":"Viene del dibujo de una luna creciente. 一月 es enero."}
+{"f":"cards","id":"zh.c0044","k":"meaning","src":"bright","tgt":"brillante; claro"}
+{"f":"cards","id":"zh.c0044","k":"note","src":"日 (sun) + 月 (moon). In 明天 it means \"next\" (tomorrow).","tgt":"日 (sol) + 月 (luna). En 明天 significa «siguiente» (mañana)."}
+{"f":"cards","id":"zh.c0045","k":"meaning","src":"woman; female","tgt":"mujer; femenino"}
+{"f":"cards","id":"zh.c0045","k":"note","src":"On the left of a character it hints at women: 妈, 姐, 妹.","tgt":"A la izquierda de un carácter indica algo de mujeres: 妈, 姐, 妹."}
+{"f":"cards","id":"zh.c0046","k":"meaning","src":"child","tgt":"niño; hijo"}
+{"f":"cards","id":"zh.c0046","k":"note","src":"A baby with its arms out. Also a common noun ending: 饺子, 桌子.","tgt":"Un bebé con los brazos abiertos. También es una terminación común de sustantivos: 饺子, 桌子."}
+{"f":"cards","id":"zh.c0047","k":"meaning","src":"good","tgt":"bueno; bien"}
+{"f":"cards","id":"zh.c0047","k":"note","src":"女 (woman) + 子 (child).","tgt":"女 (mujer) + 子 (niño)."}
+{"f":"cards","id":"zh.c0048","k":"meaning","src":"to rest","tgt":"descansar"}
+{"f":"cards","id":"zh.c0048","k":"note","src":"亻 (person) + 木 (tree): a person resting against a tree. As in 休息.","tgt":"亻 (persona) + 木 (árbol): una persona que descansa apoyada en un árbol. Lo encuentras en 休息.","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0049","k":"meaning","src":"up; on top","tgt":"arriba; encima"}
+{"f":"cards","id":"zh.c0049","k":"note","src":"A mark above a line. 桌子上 is \"on the table\".","tgt":"Una marca sobre una línea. 桌子上 es «sobre la mesa»."}
+{"f":"cards","id":"zh.c0050","k":"meaning","src":"down; below","tgt":"abajo; debajo"}
+{"f":"cards","id":"zh.c0050","k":"note","src":"A mark below a line. 下雨 is \"it's raining\": rain comes down.","tgt":"Una marca bajo una línea. 下雨 es «llueve»: la lluvia baja."}
+{"f":"cards","id":"zh.c0051","k":"meaning","src":"door; gate","tgt":"puerta; portón"}
+{"f":"cards","id":"zh.c0051","k":"note","src":"A two-panel door, simplified. In traditional characters: 門.","tgt":"Una puerta de dos hojas, simplificada. En caracteres tradicionales: 門."}
+{"f":"cards","id":"zh.c0052","k":"meaning","src":"rain","tgt":"lluvia"}
+{"f":"cards","id":"zh.c0052","k":"note","src":"Drops of rain falling under the sky.","tgt":"Gotas de lluvia que caen bajo el cielo."}
+{"f":"cards","id":"zh.c0053","k":"meaning","src":"fire","tgt":"fuego"}
+{"f":"cards","id":"zh.c0053","k":"note","src":"A flame with two sparks. 火车 (fire + vehicle) is a train.","tgt":"Una llama con dos chispas. 火车 (fuego + vehículo) es un tren."}
+{"f":"cards","id":"zh.c0054","k":"meaning","src":"water","tgt":"agua"}
+{"f":"cards","id":"zh.c0054","k":"note","src":"A stream with splashes. On the left of a character it becomes 氵: 汤, 酒.","tgt":"Un arroyo que salpica. A la izquierda de un carácter se vuelve 氵: 汤, 酒."}
+{"f":"cards","id":"zh.c0055","k":"meaning","src":"Hello!","tgt":"¡Hola!"}
+{"f":"cards","id":"zh.c0055","k":"note","src":"Safe with anyone. To an older person or a customer: 您好！","tgt":"Sirve con cualquiera. A una persona mayor o a un cliente: 您好！"}
+{"f":"cards","id":"zh.c0056","k":"meaning","src":"Hello! (polite)","tgt":"¡Hola! (con respeto, de usted)"}
+{"f":"cards","id":"zh.c0056","k":"note","src":"您 is the polite \"you\": for older people, teachers and customers.","tgt":"您 es el «usted» chino: para personas mayores, profesores y clientes."}
+{"f":"cards","id":"zh.c0057","k":"meaning","src":"Hello, everyone!","tgt":"¡Hola a todos!"}
+{"f":"cards","id":"zh.c0057","k":"note","src":"To a group or a class. 大家 means everybody.","tgt":"Para un grupo o una clase. 大家 significa «todos»."}
+{"f":"cards","id":"zh.c0058","k":"meaning","src":"Hello! (to a teacher)","tgt":"¡Hola! (al profesor o la profesora)"}
+{"f":"cards","id":"zh.c0058","k":"note","src":"Students greet the teacher by title, not by name.","tgt":"Los alumnos saludan al profesor por su título, no por su nombre."}
+{"f":"cards","id":"zh.c0059","k":"meaning","src":"Good morning!","tgt":"¡Buenos días!"}
+{"f":"cards","id":"zh.c0059","k":"note","src":"For the morning. Friends often just say 早！","tgt":"Para la mañana. Entre amigos basta con 早！"}
+{"f":"cards","id":"zh.c0060","k":"meaning","src":"Good night!","tgt":"¡Buenas noches! (al irse a dormir)"}
+{"f":"cards","id":"zh.c0060","k":"note","src":"Only when someone is going to bed, not as an evening hello.","tgt":"Solo cuando alguien se va a dormir, no como saludo de la noche. El español usa «buenas noches» para las dos cosas; el chino, no."}
+{"f":"cards","id":"zh.c0061","k":"meaning","src":"How have you been?","tgt":"¿Cómo te ha ido?"}
+{"f":"cards","id":"zh.c0061","k":"note","src":"A friendly catch-up. 你好吗？ is a real question about how someone is.","tgt":"Para ponerse al día con un amigo. 你好吗？ es una pregunta real sobre cómo está alguien."}
+{"f":"cards","id":"zh.c0062","k":"meaning","src":"Nice to meet you.","tgt":"Mucho gusto (en conocerte)."}
+{"f":"cards","id":"zh.c0062","k":"note","src":"Literally \"knowing you, I'm very happy\". 很高兴认识你 is just as common. To someone older: 认识您很高兴。","tgt":"Literalmente «conocerte, estoy muy contento». 很高兴认识你 es igual de común. A alguien mayor: 认识您很高兴。"}
+{"f":"cards","id":"zh.c0063","k":"meaning","src":"Thank you!","tgt":"¡Gracias!"}
+{"f":"cards","id":"zh.c0063","k":"note","src":"Among family and close friends Chinese says thank you less than English does.","tgt":"Entre familiares y amigos íntimos los chinos dan las gracias mucho menos que en español: ahí un «gracias» puede sonar distante.","rw":"mentions English"}
+{"f":"cards","id":"zh.c0064","k":"meaning","src":"Thank you! (polite)","tgt":"¡Gracias! (con respeto, de usted)"}
+{"f":"cards","id":"zh.c0064","k":"note","src":"To an older person, a teacher or a customer.","tgt":"A una persona mayor, a un profesor o a un cliente."}
+{"f":"cards","id":"zh.c0065","k":"meaning","src":"You're welcome.","tgt":"De nada."}
+{"f":"cards","id":"zh.c0065","k":"note","src":"Literally \"don't be polite\". bú, because 客 has the fourth tone.","tgt":"Literalmente «no seas cortés». Se dice bú porque 客 lleva el cuarto tono."}
+{"f":"cards","id":"zh.c0066","k":"meaning","src":"I'm sorry!","tgt":"¡Lo siento!"}
+{"f":"cards","id":"zh.c0066","k":"note","src":"A real apology: you bumped into someone, broke something, came late.","tgt":"Una disculpa real: chocaste con alguien, rompiste algo, llegaste tarde."}
+{"f":"cards","id":"zh.c0067","k":"meaning","src":"That's OK. / No problem.","tgt":"No pasa nada."}
+{"f":"cards","id":"zh.c0067","k":"note","src":"The answer to 对不起 (sorry).","tgt":"La respuesta a 对不起 (lo siento)."}
+{"f":"cards","id":"zh.c0068","k":"meaning","src":"Excuse me. / Sorry about that.","tgt":"Perdón."}
+{"f":"cards","id":"zh.c0068","k":"note","src":"For small things: getting attention, squeezing past, a short wait. Lighter than 对不起.","tgt":"Para cosas pequeñas: llamar la atención, pasar entre la gente, hacer esperar un momento. Más ligero que 对不起."}
+{"f":"cards","id":"zh.c0069","k":"meaning","src":"It's nothing. / Don't worry about it.","tgt":"No es nada. / No te preocupes."}
+{"f":"cards","id":"zh.c0069","k":"note","src":"A casual answer to thanks or to a small apology.","tgt":"Respuesta informal a un «gracias» o a una disculpa pequeña."}
+{"f":"cards","id":"zh.c0070","k":"meaning","src":"Excuse me, may I ask…","tgt":"disculpe, una pregunta (para preguntar algo)"}
+{"f":"cards","id":"zh.c0070","k":"note","src":"Opens a question to a stranger: 请问，地铁站在哪儿？","tgt":"Abre una pregunta a un desconocido: 请问，地铁站在哪儿？"}
+{"f":"cards","id":"zh.c0071","k":"meaning","src":"Goodbye!","tgt":"¡Adiós!"}
+{"f":"cards","id":"zh.c0071","k":"note","src":"Literally \"again see\".","tgt":"Literalmente «otra vez ver»."}
+{"f":"cards","id":"zh.c0072","k":"meaning","src":"See you tomorrow!","tgt":"¡Hasta mañana!"}
+{"f":"cards","id":"zh.c0072","k":"note","src":"A day + 见: 星期一见 is \"see you Monday\".","tgt":"Un día + 见: 星期一见 es «hasta el lunes»."}
+{"f":"cards","id":"zh.c0073","k":"meaning","src":"dad","tgt":"papá"}
+{"f":"cards","id":"zh.c0073","k":"note","src":"Like 妈妈, the second syllable has the neutral tone.","tgt":"Como en 妈妈, la segunda sílaba lleva el tono neutro."}
+{"f":"cards","id":"zh.c0074","k":"meaning","src":"mom","tgt":"mamá"}
+{"f":"cards","id":"zh.c0074","k":"note","src":"The second 妈 has the neutral tone: māma.","tgt":"El segundo 妈 lleva el tono neutro: māma, nunca «mamá»."}
+{"f":"cards","id":"zh.c0075","k":"meaning","src":"older brother","tgt":"hermano mayor"}
+{"f":"cards","id":"zh.c0075","k":"note","src":"There is no word for just \"brother\": older is 哥哥, younger is 弟弟.","tgt":"No hay palabra para «hermano» a secas: el mayor es 哥哥; el menor, 弟弟."}
+{"f":"cards","id":"zh.c0076","k":"meaning","src":"older sister","tgt":"hermana mayor"}
+{"f":"cards","id":"zh.c0076","k":"note","src":"Younger sister: 妹妹.","tgt":"Hermana menor: 妹妹."}
+{"f":"cards","id":"zh.c0077","k":"meaning","src":"younger brother","tgt":"hermano menor"}
+{"f":"cards","id":"zh.c0077","k":"note","src":"Older brother: 哥哥.","tgt":"Hermano mayor: 哥哥."}
+{"f":"cards","id":"zh.c0078","k":"meaning","src":"younger sister","tgt":"hermana menor"}
+{"f":"cards","id":"zh.c0078","k":"note","src":"Older sister: 姐姐.","tgt":"Hermana mayor: 姐姐."}
+{"f":"cards","id":"zh.c0079","k":"meaning","src":"grandpa (dad's father)","tgt":"abuelo (paterno)"}
+{"f":"cards","id":"zh.c0079","k":"note","src":"Mom's father has his own word: 姥爷 or 外公.","tgt":"El padre de la madre tiene su propia palabra: 姥爷 o 外公."}
+{"f":"cards","id":"zh.c0080","k":"meaning","src":"grandma (dad's mother)","tgt":"abuela (paterna)"}
+{"f":"cards","id":"zh.c0080","k":"note","src":"Mom's mother has her own word: 姥姥 or 外婆.","tgt":"La madre de la madre tiene su propia palabra: 姥姥 o 外婆."}
+{"f":"cards","id":"zh.c0081","k":"meaning","src":"son","tgt":"hijo"}
+{"f":"cards","id":"zh.c0081","k":"note","src":"子 here has the neutral tone.","tgt":"Aquí 子 lleva el tono neutro."}
+{"f":"cards","id":"zh.c0082","k":"meaning","src":"daughter","tgt":"hija"}
+{"f":"cards","id":"zh.c0082","k":"note","src":"女 (woman) + 儿 (child).","tgt":"女 (mujer) + 儿 (niño)."}
+{"f":"cards","id":"zh.c0083","k":"meaning","src":"friend","tgt":"amigo/a"}
+{"f":"cards","id":"zh.c0083","k":"note","src":"我朋友 and 我的朋友 both mean \"my friend\".","tgt":"我朋友 y 我的朋友 significan los dos «mi amigo»."}
+{"f":"cards","id":"zh.c0084","k":"meaning","src":"we; us","tgt":"nosotros"}
+{"f":"cards","id":"zh.c0084","k":"note","src":"们 makes a plural for people: 我们, 你们, 他们.","tgt":"们 forma el plural de las personas: 我们, 你们, 他们."}
+{"f":"cards","id":"zh.c0085","k":"meaning","src":"they; them","tgt":"ellos"}
+{"f":"cards","id":"zh.c0085","k":"note","src":"For men or mixed groups. Women only: 她们. Both are said tāmen.","tgt":"Para hombres o grupos mixtos. Solo mujeres: 她们. Los dos se dicen tāmen."}
+{"f":"cards","id":"zh.c0086","k":"meaning","src":"How many people are in your family?","tgt":"¿Cuántas personas hay en tu familia?"}
+{"f":"cards","id":"zh.c0086","k":"note","src":"几 asks for a small number; 口 counts family members.","tgt":"几 pregunta por un número pequeño; 口 cuenta a los miembros de la familia."}
+{"f":"cards","id":"zh.c0087","k":"meaning","src":"There are four people in my family.","tgt":"En mi familia somos cuatro."}
+{"f":"cards","id":"zh.c0087","k":"note","src":"口 is the measure word for family members.","tgt":"口 es el clasificador de los miembros de una familia."}
+{"f":"cards","id":"zh.c0088","k":"meaning","src":"I have an older brother.","tgt":"Tengo un hermano mayor."}
+{"f":"cards","id":"zh.c0088","k":"note","src":"Number + measure word + noun. Two older brothers: 两个哥哥.","tgt":"Número + clasificador + sustantivo. Dos hermanos mayores: 两个哥哥."}
+{"f":"cards","id":"zh.c0089","k":"meaning","src":"I don't have any brothers or sisters.","tgt":"No tengo hermanos."}
+{"f":"cards","id":"zh.c0089","k":"note","src":"没有, never 不有.","tgt":"没有, nunca 不有."}
+{"f":"cards","id":"zh.c0090","k":"meaning","src":"auntie (a woman your parents' age)","tgt":"señora (una mujer de la edad de tus padres)"}
+{"f":"cards","id":"zh.c0090","k":"note","src":"Also for a family friend, a neighbor or a cleaner. For a man: 叔叔.","tgt":"Literalmente «tía». También para una amiga de la familia, una vecina o una señora de la limpieza. Para un hombre: 叔叔."}
+{"f":"cards","id":"zh.c0091","k":"meaning","src":"My name is Anna.","tgt":"Me llamo Ana."}
+{"f":"cards","id":"zh.c0091","k":"note","src":"叫 = to be called. Chinese names put the family name first.","tgt":"叫 = llamarse. Los nombres chinos ponen primero el apellido."}
+{"f":"cards","id":"zh.c0092","k":"meaning","src":"What's your name?","tgt":"¿Cómo te llamas?"}
+{"f":"cards","id":"zh.c0092","k":"note","src":"To a peer or a child. 什么 (what) sits where the answer goes.","tgt":"A alguien de tu edad o a un niño. 什么 (qué) va donde va la respuesta."}
+{"f":"cards","id":"zh.c0093","k":"meaning","src":"What's your surname? (polite)","tgt":"¿Cuál es su apellido?"}
+{"f":"cards","id":"zh.c0093","k":"note","src":"Answer 我姓王 (my surname is Wang), not 我贵姓.","tgt":"Se responde 我姓王 (me apellido Wang), no 我贵姓."}
+{"f":"cards","id":"zh.c0094","k":"meaning","src":"My last name is Wang.","tgt":"Me apellido Wang."}
+{"f":"cards","id":"zh.c0094","k":"note","src":"姓 = to have the surname. The usual answer to 您贵姓？","tgt":"姓 = apellidarse. La respuesta normal a 您贵姓？"}
+{"f":"cards","id":"zh.c0095","k":"meaning","src":"I'm American.","tgt":"Soy estadounidense."}
+{"f":"cards","id":"zh.c0095","k":"note","src":"Country + 人 (person): 美国人, 中国人.","tgt":"País + 人 (persona): 美国人, 中国人. 美国 es Estados Unidos, nunca «América»."}
+{"f":"cards","id":"zh.c0096","k":"meaning","src":"What country are you from?","tgt":"¿De qué país eres?"}
+{"f":"cards","id":"zh.c0096","k":"note","src":"Literally \"you are which-country person?\"","tgt":"Literalmente «¿tú eres persona de qué país?»."}
+{"f":"cards","id":"zh.c0097","k":"meaning","src":"I'm not Chinese.","tgt":"No soy chino."}
+{"f":"cards","id":"zh.c0097","k":"note","src":"不 before 是 is said bú, because 是 has the fourth tone.","tgt":"不 antes de 是 se dice bú, porque 是 lleva el cuarto tono."}
+{"f":"cards","id":"zh.c0098","k":"meaning","src":"I'm American too.","tgt":"Yo también soy estadounidense."}
+{"f":"cards","id":"zh.c0098","k":"note","src":"也 (also) goes before the verb, never at the end like \"too\".","tgt":"也 (también) va siempre antes del verbo, como en «yo también soy», nunca al final de la frase."}
+{"f":"cards","id":"zh.c0099","k":"meaning","src":"We're all American.","tgt":"Todos somos estadounidenses."}
+{"f":"cards","id":"zh.c0099","k":"note","src":"都 (all) goes after the subject and before the verb.","tgt":"都 (todos) va después del sujeto y antes del verbo."}
+{"f":"cards","id":"zh.c0100","k":"meaning","src":"I live in New York.","tgt":"Vivo en Nueva York."}
+{"f":"cards","id":"zh.c0100","k":"note","src":"With 住 (live), 在 + place comes after the verb; with most verbs it goes before.","tgt":"Con 住 (vivir), 在 + lugar va después del verbo; con la mayoría de los verbos va antes."}
+{"f":"cards","id":"zh.c0101","k":"meaning","src":"Where do you live?","tgt":"¿Dónde vives?"}
+{"f":"cards","id":"zh.c0101","k":"note","src":"哪儿 (where) takes the place of the answer. Also: 你住哪儿？","tgt":"哪儿 (dónde) ocupa el lugar de la respuesta. También: 你住哪儿？"}
+{"f":"cards","id":"zh.c0102","k":"meaning","src":"I'm 25 this year.","tgt":"Este año cumplo 25 años."}
+{"f":"cards","id":"zh.c0102","k":"note","src":"No 是 and no \"years old\" verb: just the number + 岁.","tgt":"Sin 是 y sin «tener»: solo el número + 岁."}
+{"f":"cards","id":"zh.c0103","k":"meaning","src":"How old are you? (to an adult)","tgt":"¿Cuántos años tienes? (a un adulto)"}
+{"f":"cards","id":"zh.c0103","k":"note","src":"To a child: 你几岁？","tgt":"A un niño: 你几岁？"}
+{"f":"cards","id":"zh.c0104","k":"meaning","src":"I study Chinese.","tgt":"Estudio chino."}
+{"f":"cards","id":"zh.c0104","k":"note","src":"中文 is the Chinese language; 汉语 means the same. 学习 (study) also works: 我学习中文.","tgt":"中文 es el idioma chino; 汉语 significa lo mismo. También sirve 学习 (estudiar): 我学习中文."}
+{"f":"cards","id":"zh.c0105","k":"meaning","src":"I like to sing.","tgt":"Me gusta cantar."}
+{"f":"cards","id":"zh.c0105","k":"note","src":"喜欢 + verb, with no word for \"to\" in between.","tgt":"喜欢 + verbo, sin nada en medio. Al revés que «gustar», el sujeto es quien siente el gusto: 我喜欢 = «me gusta»."}
+{"f":"cards","id":"zh.c0106","k":"meaning","src":"My hobby is reading.","tgt":"Mi pasatiempo es leer."}
+{"f":"cards","id":"zh.c0106","k":"note","src":"爱好 = hobby. 看书, \"look at books\", is to read.","tgt":"爱好 = pasatiempo. 看书, «mirar libros», es leer."}
+{"f":"cards","id":"zh.c0107","k":"meaning","src":"My dad is Chinese.","tgt":"Mi papá es chino."}
+{"f":"cards","id":"zh.c0107","k":"note","src":"Close family usually takes no 的: 我爸爸.","tgt":"La familia cercana suele ir sin 的: 我爸爸."}
+{"f":"cards","id":"zh.c0108","k":"meaning","src":"zero","tgt":"cero"}
+{"f":"cards","id":"zh.c0108","k":"note","src":"It also fills a gap inside a number: 一百零五 (105).","tgt":"También llena un hueco dentro de un número: 一百零五 (105)."}
+{"f":"cards","id":"zh.c0109","k":"meaning","src":"one","tgt":"uno"}
+{"f":"cards","id":"zh.c0109","k":"note","src":"Said this way when counting. Before other words its tone changes: 一个, 一杯.","tgt":"Se dice así al contar. Antes de otras palabras cambia de tono: 一个, 一杯."}
+{"f":"cards","id":"zh.c0110","k":"meaning","src":"two (when counting)","tgt":"dos (al contar)"}
+{"f":"cards","id":"zh.c0110","k":"note","src":"For counting, phone numbers and inside bigger numbers: 十二, 二十.","tgt":"Para contar, en números de teléfono y dentro de números mayores: 十二, 二十."}
+{"f":"cards","id":"zh.c0111","k":"meaning","src":"two (before a measure word)","tgt":"dos (antes de un clasificador)"}
+{"f":"cards","id":"zh.c0111","k":"note","src":"两个人, 两杯茶. Counting and in bigger numbers: 二 (十二, 二十).","tgt":"两个人, 两杯茶. Al contar y en números mayores: 二 (十二, 二十)."}
+{"f":"cards","id":"zh.c0112","k":"meaning","src":"three","tgt":"tres"}
+{"f":"cards","id":"zh.c0113","k":"meaning","src":"ten","tgt":"diez"}
+{"f":"cards","id":"zh.c0113","k":"note","src":"Second tone. Easy to mix up with 四 (sì, four): listen for the sh.","tgt":"Segundo tono. Fácil de confundir con 四 (sì, cuatro): fíjate en la sh."}
+{"f":"cards","id":"zh.c0114","k":"meaning","src":"fifteen","tgt":"quince"}
+{"f":"cards","id":"zh.c0114","k":"note","src":"Ten + five. Fifty is 五十: five tens.","tgt":"Diez + cinco. Cincuenta es 五十: cinco dieces."}
+{"f":"cards","id":"zh.c0115","k":"meaning","src":"twenty","tgt":"veinte"}
+{"f":"cards","id":"zh.c0115","k":"note","src":"Two tens. Twenty-one: 二十一.","tgt":"Dos dieces. Veintiuno: 二十一."}
+{"f":"cards","id":"zh.c0116","k":"meaning","src":"ninety-nine","tgt":"noventa y nueve"}
+{"f":"cards","id":"zh.c0116","k":"note","src":"Nine tens and nine: the top of the two-digit pattern.","tgt":"Nueve dieces y nueve: lo más alto con dos cifras."}
+{"f":"cards","id":"zh.c0117","k":"meaning","src":"one hundred","tgt":"cien"}
+{"f":"cards","id":"zh.c0117","k":"note","src":"一百五 is 150, short for 一百五十. 105 is 一百零五.","tgt":"一百五 es 150, forma corta de 一百五十. 105 es 一百零五."}
+{"f":"cards","id":"zh.c0118","k":"meaning","src":"one hundred and five","tgt":"ciento cinco"}
+{"f":"cards","id":"zh.c0118","k":"note","src":"零 marks the empty tens place.","tgt":"零 marca el lugar vacío de las decenas."}
+{"f":"cards","id":"zh.c0119","k":"meaning","src":"one thousand","tgt":"mil"}
+{"f":"cards","id":"zh.c0120","k":"meaning","src":"ten thousand","tgt":"diez mil"}
+{"f":"cards","id":"zh.c0120","k":"note","src":"Chinese groups big numbers by four zeros: 100,000 is 十万, ten ten-thousands.","tgt":"El chino agrupa los números grandes de cuatro en cuatro ceros: 100,000 es 十万, diez veces diez mil."}
+{"f":"cards","id":"zh.c0121","k":"meaning","src":"How much is it?","tgt":"¿Cuánto cuesta?"}
+{"f":"cards","id":"zh.c0121","k":"note","src":"多少 asks for any amount; 几 is only for small numbers you expect to be under ten.","tgt":"多少 pregunta por cualquier cantidad; 几, solo por números pequeños, que esperas menores de diez."}
+{"f":"cards","id":"zh.c0122","k":"meaning","src":"one yuan","tgt":"un yuan"}
+{"f":"cards","id":"zh.c0122","k":"note","src":"钱 (money) often follows the amount in speech: 十块钱.","tgt":"Al hablar, 钱 (dinero) suele ir después de la cantidad: 十块钱."}
+{"f":"cards","id":"zh.c0123","k":"meaning","src":"25 yuan","tgt":"25 yuanes"}
+{"f":"cards","id":"zh.c0123","k":"note","src":"块 in speech, 元 on price tags.","tgt":"块 al hablar, 元 en las etiquetas de precio."}
+{"f":"cards","id":"zh.c0124","k":"meaning","src":"half a yuan (five mao)","tgt":"medio yuan (cinco mao)"}
+{"f":"cards","id":"zh.c0124","k":"note","src":"毛 is a tenth of a yuan, in speech; on price tags it is 角.","tgt":"毛 es la décima parte de un yuan, al hablar; en las etiquetas es 角."}
+{"f":"cards","id":"zh.c0125","k":"meaning","src":"three yuan fifty","tgt":"tres yuanes con cincuenta"}
+{"f":"cards","id":"zh.c0125","k":"note","src":"Short for 三块五毛: the last unit is often dropped.","tgt":"Forma corta de 三块五毛: la última unidad suele omitirse."}
+{"f":"cards","id":"zh.c0126","k":"meaning","src":"one person; a person","tgt":"una persona"}
+{"f":"cards","id":"zh.c0126","k":"note","src":"个 is the all-purpose measure word, but many nouns have their own.","tgt":"个 es el clasificador comodín, pero muchos sustantivos tienen el suyo."}
+{"f":"cards","id":"zh.c0127","k":"meaning","src":"three books","tgt":"tres libros"}
+{"f":"cards","id":"zh.c0127","k":"note","src":"本 for books and notebooks. Not 三书.","tgt":"本 para libros y cuadernos. Nunca 三书."}
+{"f":"cards","id":"zh.c0128","k":"meaning","src":"a cup of coffee","tgt":"una taza de café"}
+{"f":"cards","id":"zh.c0128","k":"note","src":"杯 for cups and glasses: 一杯水, 两杯茶.","tgt":"杯 para tazas y vasos, como «una taza de…» en español: 一杯水, 两杯茶."}
+{"f":"cards","id":"zh.c0129","k":"meaning","src":"two tickets","tgt":"dos boletos"}
+{"f":"cards","id":"zh.c0129","k":"note","src":"张 for flat things: tickets, tables, photos, paper.","tgt":"张 para cosas planas: boletos, mesas, fotos, papel."}
+{"f":"cards","id":"zh.c0130","k":"meaning","src":"a cat","tgt":"un gato"}
+{"f":"cards","id":"zh.c0130","k":"note","src":"只 (zhī) for most animals. The same character read zhǐ means \"only\".","tgt":"只 (zhī) para la mayoría de los animales. El mismo carácter leído zhǐ significa «solo»."}
+{"f":"cards","id":"zh.c0131","k":"meaning","src":"two dogs","tgt":"dos perros"}
+{"f":"cards","id":"zh.c0131","k":"note","src":"只 again, for animals. 两, not 二, before a measure word.","tgt":"Otra vez 只, para animales. 两, no 二, antes de un clasificador."}
+{"f":"cards","id":"zh.c0132","k":"meaning","src":"a fish","tgt":"un pez"}
+{"f":"cards","id":"zh.c0132","k":"note","src":"条 for long, thin things: fish, roads, pants.","tgt":"条 para cosas largas y delgadas: peces, calles, pantalones."}
+{"f":"cards","id":"zh.c0133","k":"meaning","src":"a piece of clothing","tgt":"una prenda de ropa"}
+{"f":"cards","id":"zh.c0133","k":"note","src":"件 for clothes, especially tops and jackets.","tgt":"件 para la ropa, sobre todo camisas, blusas y chaquetas."}
+{"f":"cards","id":"zh.c0134","k":"meaning","src":"a pair of shoes","tgt":"un par de zapatos"}
+{"f":"cards","id":"zh.c0134","k":"note","src":"双 = a pair: shoes, socks, chopsticks.","tgt":"双 = un par: zapatos, calcetines, palillos."}
+{"f":"cards","id":"zh.c0135","k":"meaning","src":"a bottle of water","tgt":"una botella de agua"}
+{"f":"cards","id":"zh.c0135","k":"note","src":"瓶 = bottle.","tgt":"瓶 = botella."}
+{"f":"cards","id":"zh.c0136","k":"meaning","src":"a car","tgt":"un auto"}
+{"f":"cards","id":"zh.c0136","k":"note","src":"辆 for cars, bikes and buses.","tgt":"辆 para autos, bicicletas y autobuses."}
+{"f":"cards","id":"zh.c0137","k":"meaning","src":"a teacher (polite)","tgt":"un/a profesor/a (cortés)"}
+{"f":"cards","id":"zh.c0137","k":"note","src":"位 is the polite measure word for people.","tgt":"位 es el clasificador cortés para personas."}
+{"f":"cards","id":"zh.c0138","k":"meaning","src":"a restaurant","tgt":"un restaurante"}
+{"f":"cards","id":"zh.c0138","k":"note","src":"家 for shops, restaurants and companies.","tgt":"家 para tiendas, restaurantes y empresas."}
+{"f":"cards","id":"zh.c0139","k":"meaning","src":"this one","tgt":"este"}
+{"f":"cards","id":"zh.c0139","k":"note","src":"这 + measure word: 这个, 这本书.","tgt":"这 + clasificador: 这个, 这本书."}
+{"f":"cards","id":"zh.c0140","k":"meaning","src":"that one","tgt":"ese; aquel"}
+{"f":"cards","id":"zh.c0141","k":"meaning","src":"that table","tgt":"esa mesa"}
+{"f":"cards","id":"zh.c0141","k":"note","src":"那 + measure word + noun. 张 for tables, because the top is flat.","tgt":"那 + clasificador + sustantivo. 张 para las mesas, porque la superficie es plana."}
+{"f":"cards","id":"zh.c0142","k":"meaning","src":"this book","tgt":"este libro"}
+{"f":"cards","id":"zh.c0142","k":"note","src":"No number needed: 这 + measure word + noun. Not 这书.","tgt":"Sin número: 这 + clasificador + sustantivo. Nunca 这书."}
+{"f":"cards","id":"zh.c0143","k":"meaning","src":"How many people?","tgt":"¿Cuántas personas?"}
+{"f":"cards","id":"zh.c0143","k":"note","src":"几 + measure word asks for a small number. Restaurant staff ask politely: 几位？","tgt":"几 + clasificador pregunta por un número pequeño. En un restaurante, el personal pregunta con más cortesía: 几位？"}
+{"f":"cards","id":"zh.c0144","k":"meaning","src":"dumplings","tgt":"empanadillas chinas (jiaozi)"}
+{"f":"cards","id":"zh.c0144","k":"note","src":"Northern family food, eaten at Chinese New Year.","tgt":"Comida familiar del norte; se comen en el Año Nuevo chino."}
+{"f":"cards","id":"zh.c0145","k":"meaning","src":"steamed buns","tgt":"bollos al vapor (baozi)"}
+{"f":"cards","id":"zh.c0145","k":"note","src":"Filled with meat or vegetables; a classic breakfast.","tgt":"Rellenos de carne o verduras; un desayuno clásico."}
+{"f":"cards","id":"zh.c0146","k":"meaning","src":"rice (cooked)","tgt":"arroz (cocido)"}
+{"f":"cards","id":"zh.c0146","k":"note","src":"饭 alone also means a meal: 吃饭 is to eat.","tgt":"饭 solo también significa «comida»: 吃饭 es comer."}
+{"f":"cards","id":"zh.c0147","k":"meaning","src":"hot pot","tgt":"olla caliente (hot pot)"}
+{"f":"cards","id":"zh.c0147","k":"note","src":"A pot of broth on the table where everyone cooks their own meat and vegetables.","tgt":"Una olla de caldo en la mesa donde cada uno cuece su carne y sus verduras."}
+{"f":"cards","id":"zh.c0148","k":"meaning","src":"Peking duck","tgt":"pato laqueado de Pekín"}
+{"f":"cards","id":"zh.c0148","k":"note","src":"Wrapped in thin pancakes with sauce and scallions.","tgt":"Se envuelve en crepas finas con salsa y cebollín."}
+{"f":"cards","id":"zh.c0149","k":"meaning","src":"a bowl of noodles","tgt":"un tazón de fideos"}
+{"f":"cards","id":"zh.c0149","k":"note","src":"碗 (bowl) is the measure word.","tgt":"碗 (tazón) es el clasificador."}
+{"f":"cards","id":"zh.c0150","k":"meaning","src":"green tea","tgt":"té verde"}
+{"f":"cards","id":"zh.c0150","k":"note","src":"红茶, literally \"red tea\", is black tea.","tgt":"红茶, literalmente «té rojo», es el té negro."}
+{"f":"cards","id":"zh.c0151","k":"meaning","src":"What do you want to eat?","tgt":"¿Qué quieres comer?"}
+{"f":"cards","id":"zh.c0151","k":"note","src":"想 = would like. 什么 goes where the answer goes, after the verb.","tgt":"想 = querer, tener ganas. 什么 va donde va la respuesta, después del verbo."}
+{"f":"cards","id":"zh.c0152","k":"meaning","src":"I'd like a milk tea.","tgt":"Quiero un té con leche."}
+{"f":"cards","id":"zh.c0152","k":"note","src":"我要 is normal when ordering; 请给我 is softer.","tgt":"我要 es lo normal al pedir; 请给我 es más suave."}
+{"f":"cards","id":"zh.c0153","k":"meaning","src":"We'll have a Kung Pao chicken.","tgt":"Un pollo Kung Pao, por favor."}
+{"f":"cards","id":"zh.c0153","k":"note","src":"来 + amount + dish is a very common way to order.","tgt":"来 + cantidad + plato es una forma muy común de pedir."}
+{"f":"cards","id":"zh.c0154","k":"meaning","src":"We're ready to order.","tgt":"Queremos pedir."}
+{"f":"cards","id":"zh.c0154","k":"note","src":"点菜 = to order dishes.","tgt":"点菜 = pedir platos (en un restaurante)."}
+{"f":"cards","id":"zh.c0155","k":"meaning","src":"Not spicy, please.","tgt":"Sin picante."}
+{"f":"cards","id":"zh.c0155","k":"note","src":"Literally \"don't want the spicy kind\". A little spicy: 微辣.","tgt":"Literalmente «no quiero lo picante». Poco picante: 微辣."}
+{"f":"cards","id":"zh.c0156","k":"meaning","src":"mildly spicy","tgt":"poco picante"}
+{"f":"cards","id":"zh.c0156","k":"note","src":"Say it when the server asks how spicy you want a dish.","tgt":"Dilo cuando el mesero pregunte cuánto picante quieres."}
+{"f":"cards","id":"zh.c0157","k":"meaning","src":"I don't eat meat.","tgt":"No como carne."}
+{"f":"cards","id":"zh.c0157","k":"note","src":"不 for habits and choices.","tgt":"不 para hábitos y decisiones."}
+{"f":"cards","id":"zh.c0158","k":"meaning","src":"a bottle of beer","tgt":"una botella de cerveza"}
+{"f":"cards","id":"zh.c0158","k":"note","src":"Beer often comes in big bottles to share.","tgt":"La cerveza suele venir en botellas grandes para compartir."}
+{"f":"cards","id":"zh.c0159","k":"meaning","src":"I'm full.","tgt":"Ya estoy lleno."}
+{"f":"cards","id":"zh.c0159","k":"note","src":"了 shows a change: you weren't full before, now you are.","tgt":"了 muestra un cambio: antes no estabas lleno y ahora sí."}
+{"f":"cards","id":"zh.c0160","k":"meaning","src":"Can I get this to go?","tgt":"¿Se puede pedir para llevar?"}
+{"f":"cards","id":"zh.c0160","k":"note","src":"打包 = to pack up leftovers or takeout.","tgt":"打包 = empacar lo que sobra o la comida para llevar."}
+{"f":"cards","id":"zh.c0161","k":"meaning","src":"Check, please!","tgt":"¡Mesero, la cuenta!"}
+{"f":"cards","id":"zh.c0161","k":"note","src":"Call the server 服务员, never 小姐.","tgt":"Al mesero se le llama 服务员, nunca 小姐."}
+{"f":"cards","id":"zh.c0162","k":"meaning","src":"That's too expensive!","tgt":"¡Qué caro!"}
+{"f":"cards","id":"zh.c0162","k":"note","src":"太 + adjective + 了: too.","tgt":"太 + adjetivo + 了: demasiado."}
+{"f":"cards","id":"zh.c0163","k":"meaning","src":"Could you make it a bit cheaper?","tgt":"¿Un poco más barato?"}
+{"f":"cards","id":"zh.c0163","k":"note","src":"Fine in markets, not in malls or supermarkets.","tgt":"Normal en los mercados, no en centros comerciales ni supermercados."}
+{"f":"cards","id":"zh.c0164","k":"meaning","src":"Can I pay by scanning a code?","tgt":"¿Puedo pagar escaneando un código?"}
+{"f":"cards","id":"zh.c0164","k":"note","src":"Most shops in China are paid by phone: you scan the shop's code.","tgt":"En China casi todo se paga con el celular: escaneas el código de la tienda."}
+{"f":"cards","id":"zh.c0165","k":"meaning","src":"Do you have it in a large?","tgt":"¿Hay talla grande?"}
+{"f":"cards","id":"zh.c0165","k":"note","src":"Sizes: 大号, 中号, 小号.","tgt":"Tallas: 大号, 中号, 小号."}
+{"f":"cards","id":"zh.c0166","k":"meaning","src":"I'm just looking.","tgt":"Solo estoy mirando."}
+{"f":"cards","id":"zh.c0166","k":"note","src":"Literally \"I'll look a little\": a doubled verb softens it.","tgt":"Literalmente «miro un poco»: el verbo doble lo suaviza."}
+{"f":"cards","id":"zh.c0167","k":"meaning","src":"How much is this (piece of clothing)?","tgt":"¿Cuánto cuesta esta prenda?"}
+{"f":"cards","id":"zh.c0167","k":"note","src":"件 is the measure word for tops and jackets: 这件衣服.","tgt":"件 es el clasificador de camisas, blusas y chaquetas: 这件衣服."}
+{"f":"cards","id":"zh.c0168","k":"meaning","src":"How much is it altogether?","tgt":"¿Cuánto es en total?"}
+{"f":"cards","id":"zh.c0168","k":"note","src":"一共 = in total. Ask this at the checkout.","tgt":"一共 = en total. Pregúntalo en la caja."}
+{"f":"cards","id":"zh.c0169","k":"meaning","src":"I'll take this one.","tgt":"Me llevo este."}
+{"f":"cards","id":"zh.c0169","k":"note","src":"Point and say it: you don't need to know the name of the thing.","tgt":"Señálalo y dilo: no necesitas saber cómo se llama."}
+{"f":"cards","id":"zh.c0170","k":"meaning","src":"Can I try it on?","tgt":"¿Puedo probármelo?"}
+{"f":"cards","id":"zh.c0170","k":"note","src":"试试 is a doubled verb: \"give it a try\".","tgt":"试试 es un verbo doble: «probar un poco»."}
+{"f":"cards","id":"zh.c0171","k":"meaning","src":"Do you have other colors?","tgt":"¿Hay otros colores?"}
+{"f":"cards","id":"zh.c0171","k":"note","src":"别的 = other, different.","tgt":"别的 = otro, distinto."}
+{"f":"cards","id":"zh.c0172","k":"meaning","src":"Do you have a smaller one?","tgt":"¿Hay uno más pequeño?"}
+{"f":"cards","id":"zh.c0172","k":"note","src":"Adjective + 一点儿 = a little more so: 大一点儿, 便宜一点儿.","tgt":"Adjetivo + 一点儿 = un poco más: 大一点儿, 便宜一点儿."}
+{"f":"cards","id":"zh.c0173","k":"meaning","src":"This one is too big.","tgt":"Esta me queda demasiado grande."}
+{"f":"cards","id":"zh.c0173","k":"note","src":"Once you both know it's clothing, 这件 is enough: no need to repeat 衣服.","tgt":"Si los dos saben que es ropa, basta con 这件: no hace falta repetir 衣服."}
+{"f":"cards","id":"zh.c0174","k":"meaning","src":"Is it on sale?","tgt":"¿Tiene descuento?"}
+{"f":"cards","id":"zh.c0174","k":"note","src":"打折 = give a discount. On signs, 八折 means you pay 80%, i.e. 20% off.","tgt":"打折 = hacer descuento. En los carteles, 八折 significa que pagas el 80%, o sea, un 20% de descuento."}
+{"f":"cards","id":"zh.c0175","k":"meaning","src":"Can I pay by credit card?","tgt":"¿Puedo pagar con tarjeta de crédito?"}
+{"f":"cards","id":"zh.c0175","k":"note","src":"Big stores and hotels take cards; small shops often take only phone payments.","tgt":"Las tiendas grandes y los hoteles aceptan tarjeta; las tiendas pequeñas, a menudo solo el pago con celular."}
+{"f":"cards","id":"zh.c0176","k":"meaning","src":"Is cash OK?","tgt":"¿Puedo pagar en efectivo?"}
+{"f":"cards","id":"zh.c0176","k":"note","src":"现金 = cash. Small shops may not have much change.","tgt":"现金 = efectivo. Las tiendas pequeñas quizá no tengan mucho cambio."}
+{"f":"cards","id":"zh.c0177","k":"meaning","src":"I'd like to buy a pair of shoes.","tgt":"Me gustaría comprar un par de zapatos."}
+{"f":"cards","id":"zh.c0177","k":"note","src":"双 is the measure word for pairs: 一双鞋, 一双筷子.","tgt":"双 es el clasificador de los pares: 一双鞋, 一双筷子."}
+{"f":"cards","id":"zh.c0178","k":"meaning","src":"I'll keep looking.","tgt":"Voy a seguir mirando."}
+{"f":"cards","id":"zh.c0178","k":"note","src":"A polite way to leave without buying anything.","tgt":"Una forma cortés de irte sin comprar nada."}
+{"f":"cards","id":"zh.c0179","k":"meaning","src":"I don't want it after all.","tgt":"Al final no lo quiero."}
+{"f":"cards","id":"zh.c0179","k":"note","src":"了 here shows a change of mind.","tgt":"Aquí 了 muestra un cambio de idea."}
+{"f":"cards","id":"zh.c0180","k":"meaning","src":"tomorrow","tgt":"mañana"}
+{"f":"cards","id":"zh.c0180","k":"note","src":"Time words go before the verb: 我明天去.","tgt":"Las palabras de tiempo van antes del verbo: 我明天去."}
+{"f":"cards","id":"zh.c0181","k":"meaning","src":"Monday","tgt":"lunes"}
+{"f":"cards","id":"zh.c0181","k":"note","src":"Weekday = 星期 + number; Sunday is 星期天 or 星期日.","tgt":"Día de la semana = 星期 + número; el domingo es 星期天 o 星期日."}
+{"f":"cards","id":"zh.c0182","k":"meaning","src":"What time is it now?","tgt":"¿Qué hora es?"}
+{"f":"cards","id":"zh.c0182","k":"note","src":"点 = o'clock. Two o'clock is 两点, not 二点.","tgt":"点 = la hora en punto. Las dos es 两点, no 二点."}
+{"f":"cards","id":"zh.c0183","k":"meaning","src":"half past three","tgt":"las tres y media"}
+{"f":"cards","id":"zh.c0183","k":"note","src":"半 = half.","tgt":"半 = media."}
+{"f":"cards","id":"zh.c0184","k":"meaning","src":"December 3","tgt":"3 de diciembre"}
+{"f":"cards","id":"zh.c0184","k":"note","src":"Month first, then day: big to small. In writing 日 often replaces 号.","tgt":"Primero el mes, luego el día: de lo grande a lo pequeño, al revés que en español. Por escrito, 日 suele reemplazar a 号."}
+{"f":"cards","id":"zh.c0185","k":"meaning","src":"What day is it today?","tgt":"¿Qué día de la semana es hoy?"}
+{"f":"cards","id":"zh.c0185","k":"note","src":"几 asks for the number: literally \"today is week-which-number?\"","tgt":"几 pregunta por el número: literalmente «¿hoy es semana-número cuál?»."}
+{"f":"cards","id":"zh.c0186","k":"meaning","src":"What's the date today?","tgt":"¿Qué fecha es hoy?"}
+{"f":"cards","id":"zh.c0186","k":"note","src":"号 is the day of the month in speech.","tgt":"号 es el día del mes al hablar."}
+{"f":"cards","id":"zh.c0187","k":"meaning","src":"Today is Friday.","tgt":"Hoy es viernes."}
+{"f":"cards","id":"zh.c0187","k":"note","src":"With days and dates you can leave out 是.","tgt":"Con días y fechas puedes omitir 是."}
+{"f":"cards","id":"zh.c0188","k":"meaning","src":"yesterday","tgt":"ayer"}
+{"f":"cards","id":"zh.c0188","k":"note","src":"The day before yesterday is 前天; the day after tomorrow, 后天.","tgt":"Anteayer es 前天; pasado mañana, 后天."}
+{"f":"cards","id":"zh.c0189","k":"meaning","src":"the weekend","tgt":"el fin de semana"}
+{"f":"cards","id":"zh.c0189","k":"note","src":"星期六 and 星期天 together.","tgt":"星期六 y 星期天 juntos."}
+{"f":"cards","id":"zh.c0190","k":"meaning","src":"2:10","tgt":"2:10","pre":1}
+{"f":"cards","id":"zh.c0190","k":"note","src":"分 = minutes. Two o'clock is always 两点, never 二点.","tgt":"分 = minutos. Las dos siempre es 两点, nunca 二点."}
+{"f":"cards","id":"zh.c0191","k":"meaning","src":"a quarter past eight","tgt":"las ocho y cuarto"}
+{"f":"cards","id":"zh.c0191","k":"note","src":"一刻 = a quarter of an hour. You can also say 八点十五.","tgt":"一刻 = un cuarto de hora. También puedes decir 八点十五."}
+{"f":"cards","id":"zh.c0192","k":"meaning","src":"seven in the evening","tgt":"las siete de la tarde"}
+{"f":"cards","id":"zh.c0192","k":"note","src":"Part of the day first, then the hour: big to small.","tgt":"Primero la parte del día y luego la hora: de lo grande a lo pequeño."}
+{"f":"cards","id":"zh.c0193","k":"meaning","src":"an hour","tgt":"una hora (de duración)"}
+{"f":"cards","id":"zh.c0193","k":"note","src":"小时 is usually said with the measure word 个: 一个小时, 两个小时.","tgt":"小时 suele llevar el clasificador 个: 一个小时, 两个小时."}
+{"f":"cards","id":"zh.c0194","k":"meaning","src":"ten minutes","tgt":"diez minutos"}
+{"f":"cards","id":"zh.c0194","k":"note","src":"分钟 counts minutes directly, with no 个.","tgt":"分钟 cuenta los minutos directamente, sin 个."}
+{"f":"cards","id":"zh.c0195","k":"meaning","src":"I get up at seven every day.","tgt":"Me levanto a las siete todos los días."}
+{"f":"cards","id":"zh.c0195","k":"note","src":"When it happens goes before the verb: 每天七点起床.","tgt":"Cuándo ocurre va antes del verbo: 每天七点起床."}
+{"f":"cards","id":"zh.c0196","k":"meaning","src":"See you Saturday.","tgt":"Nos vemos el sábado."}
+{"f":"cards","id":"zh.c0196","k":"note","src":"Literally \"we Saturday meet\": the day goes before 见.","tgt":"Literalmente «nosotros sábado vernos»: el día va antes de 见."}
+{"f":"cards","id":"zh.c0197","k":"meaning","src":"What time do you get off work?","tgt":"¿A qué hora sales del trabajo?"}
+{"f":"cards","id":"zh.c0197","k":"note","src":"几点 sits where the answer will go, before the verb.","tgt":"几点 va donde irá la respuesta, antes del verbo."}
+{"f":"cards","id":"zh.c0198","k":"meaning","src":"Where's the restroom?","tgt":"¿Dónde está el baño?"}
+{"f":"cards","id":"zh.c0198","k":"note","src":"Thing + 在 + 哪儿. Also 厕所 (more direct).","tgt":"Cosa + 在 + 哪儿. También 厕所 (más directo)."}
+{"f":"cards","id":"zh.c0199","k":"meaning","src":"go straight ahead","tgt":"sigue derecho"}
+{"f":"cards","id":"zh.c0199","k":"note","src":"Also 一直走.","tgt":"También 一直走."}
+{"f":"cards","id":"zh.c0200","k":"meaning","src":"turn left","tgt":"gira a la izquierda"}
+{"f":"cards","id":"zh.c0200","k":"note","src":"Right: 右拐.","tgt":"A la derecha: 右拐."}
+{"f":"cards","id":"zh.c0201","k":"meaning","src":"The bank is next to the supermarket.","tgt":"El banco está al lado del supermercado."}
+{"f":"cards","id":"zh.c0201","k":"note","src":"The place word comes after its noun: 超市旁边.","tgt":"La palabra de ubicación va después de su sustantivo: 超市旁边, al revés que «al lado del supermercado»."}
+{"f":"cards","id":"zh.c0202","k":"meaning","src":"Is there a subway station nearby?","tgt":"¿Hay una estación de metro cerca?"}
+{"f":"cards","id":"zh.c0202","k":"note","src":"Place first, then 有: \"nearby has…\".","tgt":"Primero el lugar, luego 有: «cerca hay…»."}
+{"f":"cards","id":"zh.c0203","k":"meaning","src":"on the right; the right side","tgt":"a la derecha; el lado derecho"}
+{"f":"cards","id":"zh.c0203","k":"note","src":"Left: 左边. 在右边 = it's on the right.","tgt":"Izquierda: 左边. 在右边 = está a la derecha."}
+{"f":"cards","id":"zh.c0204","k":"meaning","src":"The hospital is across from the bank.","tgt":"El hospital está enfrente del banco."}
+{"f":"cards","id":"zh.c0204","k":"note","src":"对面 (opposite) goes after the place it is opposite: 银行对面.","tgt":"对面 (enfrente) va después del lugar: 银行对面."}
+{"f":"cards","id":"zh.c0205","k":"meaning","src":"Turn right at the intersection.","tgt":"En el cruce, gira a la derecha."}
+{"f":"cards","id":"zh.c0205","k":"note","src":"Where (在路口) comes before the action (右拐).","tgt":"Dónde (在路口) va antes de la acción (右拐)."}
+{"f":"cards","id":"zh.c0206","k":"meaning","src":"Is it far from here?","tgt":"¿Está lejos de aquí?"}
+{"f":"cards","id":"zh.c0206","k":"note","src":"离 = away from. Answers: 不远 (not far), 很近 (close).","tgt":"离 = a distancia de. Respuestas: 不远 (no está lejos), 很近 (está cerca)."}
+{"f":"cards","id":"zh.c0207","k":"meaning","src":"It's a five-minute walk.","tgt":"Está a cinco minutos a pie."}
+{"f":"cards","id":"zh.c0207","k":"note","src":"Literally \"walk five minutes\".","tgt":"Literalmente «caminar cinco minutos»."}
+{"f":"cards","id":"zh.c0208","k":"meaning","src":"Excuse me, how do I get to Tiananmen?","tgt":"Perdón, ¿cómo llego a Tiananmen?"}
+{"f":"cards","id":"zh.c0208","k":"note","src":"去 + place + 怎么走: the standard way to ask the way.","tgt":"去 + lugar + 怎么走: la forma normal de preguntar el camino."}
+{"f":"cards","id":"zh.c0209","k":"meaning","src":"It's right over there.","tgt":"Está justo ahí."}
+{"f":"cards","id":"zh.c0209","k":"note","src":"就 adds \"right, exactly\".","tgt":"就 añade «justo, precisamente»."}
+{"f":"cards","id":"zh.c0210","k":"meaning","src":"The park is up ahead.","tgt":"El parque está más adelante."}
+{"f":"cards","id":"zh.c0210","k":"note","src":"前边 = in front, ahead; 后边 = behind.","tgt":"前边 = delante, adelante; 后边 = detrás."}
+{"f":"cards","id":"zh.c0211","k":"meaning","src":"traffic light","tgt":"semáforo"}
+{"f":"cards","id":"zh.c0211","k":"note","src":"Literally \"red-green light\".","tgt":"Literalmente «luz roja y verde»."}
+{"f":"cards","id":"zh.c0212","k":"meaning","src":"to cross the street","tgt":"cruzar la calle"}
+{"f":"cards","id":"zh.c0212","k":"note","src":"马路 = road; literally \"horse road\".","tgt":"马路 = calle; literalmente «camino de caballos»."}
+{"f":"cards","id":"zh.c0213","k":"meaning","src":"I'm going to the supermarket to buy some things.","tgt":"Voy al supermercado a comprar cosas."}
+{"f":"cards","id":"zh.c0213","k":"note","src":"Two verbs in a row: 去 + place + what you do there. No word for \"to\".","tgt":"Dos verbos seguidos: 去 + lugar + lo que haces allí. Sin «a» en medio."}
+{"f":"cards","id":"zh.c0214","k":"meaning","src":"I'll wait for you at the park.","tgt":"Te espero en el parque."}
+{"f":"cards","id":"zh.c0214","k":"note","src":"The place with 在 goes before the verb 等 (wait).","tgt":"El lugar con 在 va antes del verbo 等 (esperar), al revés que en español."}
+{"f":"cards","id":"zh.c0215","k":"meaning","src":"taxi","tgt":"taxi"}
+{"f":"cards","id":"zh.c0215","k":"note","src":"In Taiwan: 計程車. Most people now book rides on an app.","tgt":"En Taiwán: 計程車. Hoy casi todos piden el viaje por una app."}
+{"f":"cards","id":"zh.c0216","k":"meaning","src":"subway","tgt":"metro"}
+{"f":"cards","id":"zh.c0216","k":"note","src":"Pay with your phone or a transit card.","tgt":"Se paga con el celular o con una tarjeta de transporte."}
+{"f":"cards","id":"zh.c0217","k":"meaning","src":"To the airport, please. (to a driver)","tgt":"Al aeropuerto, por favor. (al conductor)"}
+{"f":"cards","id":"zh.c0217","k":"note","src":"师傅 is the polite way to address a driver.","tgt":"师傅 es la forma cortés de dirigirse a un conductor."}
+{"f":"cards","id":"zh.c0218","k":"meaning","src":"I'm taking the high-speed train to Shanghai.","tgt":"Voy a Shanghái en tren de alta velocidad."}
+{"f":"cards","id":"zh.c0218","k":"note","src":"How you travel goes before 去: 坐高铁去.","tgt":"El medio de transporte va antes de 去: 坐高铁去."}
+{"f":"cards","id":"zh.c0219","k":"meaning","src":"a ticket to Xi'an","tgt":"un boleto a Xi'an"}
+{"f":"cards","id":"zh.c0219","k":"note","src":"The destination describes the ticket, so it comes before 票 with 的.","tgt":"El destino describe el boleto, así que va antes de 票, con 的: al revés que en español."}
+{"f":"cards","id":"zh.c0220","k":"meaning","src":"bus","tgt":"autobús"}
+{"f":"cards","id":"zh.c0220","k":"note","src":"In Taiwan: 公車.","tgt":"En Taiwán: 公車."}
+{"f":"cards","id":"zh.c0221","k":"meaning","src":"bicycle","tgt":"bicicleta"}
+{"f":"cards","id":"zh.c0221","k":"note","src":"In Taiwan: 腳踏車. Shared bikes are unlocked by scanning a code.","tgt":"En Taiwán: 腳踏車. Las bicis compartidas se desbloquean escaneando un código."}
+{"f":"cards","id":"zh.c0222","k":"meaning","src":"train station","tgt":"estación de tren"}
+{"f":"cards","id":"zh.c0222","k":"note","src":"Big cities have several: check which one your train leaves from.","tgt":"Las ciudades grandes tienen varias: revisa de cuál sale tu tren."}
+{"f":"cards","id":"zh.c0223","k":"meaning","src":"to fly; to take a plane","tgt":"ir en avión"}
+{"f":"cards","id":"zh.c0223","k":"note","src":"坐 (sit) is the verb for vehicles you ride in: 坐车, 坐地铁. Bikes take 骑 (ride).","tgt":"坐 (sentarse) es el verbo de los vehículos en los que vas sentado: 坐车, 坐地铁. Con la bici se usa 骑 (montar)."}
+{"f":"cards","id":"zh.c0224","k":"meaning","src":"passport","tgt":"pasaporte"}
+{"f":"cards","id":"zh.c0224","k":"note","src":"Hotels ask for it at check-in.","tgt":"En los hoteles te lo piden al registrarte."}
+{"f":"cards","id":"zh.c0225","k":"meaning","src":"Where's my passport?","tgt":"¿Y mi pasaporte?"}
+{"f":"cards","id":"zh.c0225","k":"note","src":"Noun + 呢: \"where's…?\" when you can't find something.","tgt":"Sustantivo + 呢: «¿y mi…?», cuando no encuentras algo."}
+{"f":"cards","id":"zh.c0226","k":"meaning","src":"luggage","tgt":"equipaje"}
+{"f":"cards","id":"zh.c0226","k":"note","src":"One piece of luggage: 一件行李.","tgt":"Una maleta: 一件行李."}
+{"f":"cards","id":"zh.c0227","k":"meaning","src":"Do you have any rooms?","tgt":"¿Hay habitaciones?"}
+{"f":"cards","id":"zh.c0227","k":"note","src":"At a hotel front desk.","tgt":"En la recepción de un hotel."}
+{"f":"cards","id":"zh.c0228","k":"meaning","src":"Stop here, please. (to a driver)","tgt":"Aquí, por favor. (al conductor)"}
+{"f":"cards","id":"zh.c0228","k":"note","src":"一下 softens a request: \"just for a moment\".","tgt":"一下 suaviza el pedido: «solo un momento»."}
+{"f":"cards","id":"zh.c0229","k":"meaning","src":"Let's take a taxi there.","tgt":"Vamos en taxi."}
+{"f":"cards","id":"zh.c0229","k":"note","src":"打车 = get a taxi, or book a ride on an app.","tgt":"打车 = tomar un taxi, o pedir un viaje por una app."}
+{"f":"cards","id":"zh.c0230","k":"meaning","src":"What time does the train arrive?","tgt":"¿A qué hora llega el tren?"}
+{"f":"cards","id":"zh.c0230","k":"note","src":"几点 goes before the verb 到 (arrive).","tgt":"几点 va antes del verbo 到 (llegar)."}
+{"f":"cards","id":"zh.c0231","k":"meaning","src":"We've arrived in Beijing.","tgt":"Ya llegamos a Pekín."}
+{"f":"cards","id":"zh.c0231","k":"note","src":"了 at the end shows a change: now we're here.","tgt":"了 al final muestra un cambio: ahora ya estamos aquí."}
+{"f":"cards","id":"zh.c0232","k":"meaning","src":"I'm going to Xi'an for a trip.","tgt":"Me voy de viaje a Xi'an."}
+{"f":"cards","id":"zh.c0232","k":"note","src":"旅游 = travel for fun. A business trip is 出差.","tgt":"旅游 = viajar por placer. Un viaje de trabajo es 出差."}
+{"f":"cards","id":"zh.c0233","k":"meaning","src":"teacher","tgt":"profesor/a"}
+{"f":"cards","id":"zh.c0233","k":"note","src":"Also how you address your teacher: 王老师, or just 老师.","tgt":"También es como llamas a tu profesor: 王老师, o solo 老师."}
+{"f":"cards","id":"zh.c0234","k":"meaning","src":"student","tgt":"estudiante"}
+{"f":"cards","id":"zh.c0234","k":"note","src":"College student: 大学生.","tgt":"Estudiante universitario: 大学生."}
+{"f":"cards","id":"zh.c0235","k":"meaning","src":"I work at a bank.","tgt":"Trabajo en un banco."}
+{"f":"cards","id":"zh.c0235","k":"note","src":"Where you work goes before 工作.","tgt":"Dónde trabajas va antes de 工作, al revés que en español."}
+{"f":"cards","id":"zh.c0236","k":"meaning","src":"What do you do (for work)?","tgt":"¿A qué te dedicas?"}
+{"f":"cards","id":"zh.c0236","k":"note","src":"Literally \"you do what work?\"","tgt":"Literalmente «¿tú haces qué trabajo?»."}
+{"f":"cards","id":"zh.c0237","k":"meaning","src":"I can speak a little Chinese.","tgt":"Sé hablar un poco de chino."}
+{"f":"cards","id":"zh.c0237","k":"note","src":"会 for a skill you learned.","tgt":"会 para una habilidad aprendida: es el «saber» de «sé nadar»."}
+{"f":"cards","id":"zh.c0238","k":"meaning","src":"She's a nurse.","tgt":"Ella es enfermera."}
+{"f":"cards","id":"zh.c0238","k":"note","src":"No word for \"a\": just 是 + the job.","tgt":"Sin «una», como en español con las profesiones: solo 是 + la profesión."}
+{"f":"cards","id":"zh.c0239","k":"meaning","src":"coworker","tgt":"compañero/a de trabajo"}
+{"f":"cards","id":"zh.c0239","k":"note","src":"同 = same: 同事 (same work), 同学 (classmate).","tgt":"同 = mismo: 同事 (mismo trabajo), 同学 (compañero de clase)."}
+{"f":"cards","id":"zh.c0240","k":"meaning","src":"company","tgt":"empresa"}
+{"f":"cards","id":"zh.c0240","k":"note","src":"Counted with 家: 一家公司.","tgt":"Se cuenta con 家: 一家公司."}
+{"f":"cards","id":"zh.c0241","k":"meaning","src":"manager","tgt":"gerente"}
+{"f":"cards","id":"zh.c0241","k":"note","src":"The owner of a small shop is 老板.","tgt":"El dueño de una tienda pequeña es 老板."}
+{"f":"cards","id":"zh.c0242","k":"meaning","src":"I'm learning Chinese.","tgt":"Estoy aprendiendo chino."}
+{"f":"cards","id":"zh.c0242","k":"note","src":"在 before a verb: in the middle of doing it, now or these days.","tgt":"在 antes de un verbo: estar haciéndolo, ahora o en estos días, como «estar» + gerundio."}
+{"f":"cards","id":"zh.c0243","k":"meaning","src":"What are you doing?","tgt":"¿Qué estás haciendo?"}
+{"f":"cards","id":"zh.c0243","k":"note","src":"在 + verb for right now. Not 你是做什么.","tgt":"在 + verbo para lo que pasa ahora mismo. Nunca 你是做什么."}
+{"f":"cards","id":"zh.c0244","k":"meaning","src":"I'm in a meeting right now.","tgt":"Ahora mismo estoy en una reunión."}
+{"f":"cards","id":"zh.c0244","k":"note","src":"正在 stresses \"right at this moment\".","tgt":"正在 subraya «justo en este momento»."}
+{"f":"cards","id":"zh.c0245","k":"meaning","src":"Can you drive?","tgt":"¿Sabes manejar?"}
+{"f":"cards","id":"zh.c0245","k":"note","src":"会 for a learned skill: driving, swimming, a language.","tgt":"会 para una habilidad aprendida, como «saber»: manejar, nadar, un idioma."}
+{"f":"cards","id":"zh.c0246","k":"meaning","src":"I can't come tomorrow.","tgt":"Mañana no puedo venir."}
+{"f":"cards","id":"zh.c0246","k":"note","src":"能 = able to (time, health, permission); 会 is for skills you learned.","tgt":"能 = poder (por tiempo, salud o circunstancias); 会 es para lo que sabes hacer."}
+{"f":"cards","id":"zh.c0247","k":"meaning","src":"May I come in?","tgt":"¿Puedo pasar?"}
+{"f":"cards","id":"zh.c0247","k":"note","src":"可以 = may, it's allowed.","tgt":"可以 = poder, tener permiso: «¿se puede?»."}
+{"f":"cards","id":"zh.c0248","k":"meaning","src":"There's an exam tomorrow.","tgt":"Mañana hay examen."}
+{"f":"cards","id":"zh.c0248","k":"note","src":"No word for \"there\": time + 有 + thing.","tgt":"Tiempo + 有 + cosa: como «hay», sin nada más."}
+{"f":"cards","id":"zh.c0249","k":"meaning","src":"Our class starts at eight.","tgt":"Tenemos clase a las ocho."}
+{"f":"cards","id":"zh.c0249","k":"note","src":"上课 = have class; class ends: 下课.","tgt":"上课 = tener clase; cuando termina la clase: 下课."}
+{"f":"cards","id":"zh.c0250","k":"meaning","src":"library","tgt":"biblioteca"}
+{"f":"cards","id":"zh.c0250","k":"note","src":"馆 = a building for something, as in 饭馆 and 咖啡馆.","tgt":"馆 = un edificio dedicado a algo, como en 饭馆 y 咖啡馆.","rw":"English sound comparison (\"as in …\")"}
+{"f":"cards","id":"zh.c0251","k":"meaning","src":"I don't feel well.","tgt":"Me siento mal."}
+{"f":"cards","id":"zh.c0251","k":"note","src":"Where does it hurt? 你哪儿不舒服？","tgt":"¿Qué te duele? 你哪儿不舒服？"}
+{"f":"cards","id":"zh.c0252","k":"meaning","src":"I have a headache.","tgt":"Me duele la cabeza."}
+{"f":"cards","id":"zh.c0252","k":"note","src":"Body part + 疼: 肚子疼 (stomachache).","tgt":"Parte del cuerpo + 疼: 肚子疼 (dolor de estómago)."}
+{"f":"cards","id":"zh.c0253","k":"meaning","src":"I have a cold.","tgt":"Me resfrié."}
+{"f":"cards","id":"zh.c0253","k":"note","src":"了 here shows a change: I've caught a cold.","tgt":"Aquí 了 muestra un cambio: me dio un resfriado."}
+{"f":"cards","id":"zh.c0254","k":"meaning","src":"pharmacy","tgt":"farmacia"}
+{"f":"cards","id":"zh.c0254","k":"note","src":"药 = medicine.","tgt":"药 = medicina."}
+{"f":"cards","id":"zh.c0255","k":"meaning","src":"Help!","tgt":"¡Socorro!"}
+{"f":"cards","id":"zh.c0255","k":"note","src":"For emergencies only. For everyday help: 请帮我一下.","tgt":"Solo para emergencias. Para pedir ayuda normal: 请帮我一下."}
+{"f":"cards","id":"zh.c0256","k":"meaning","src":"I have a fever.","tgt":"Tengo fiebre."}
+{"f":"cards","id":"zh.c0256","k":"note","src":"了 shows the change: I've come down with a fever.","tgt":"了 muestra el cambio: me dio fiebre."}
+{"f":"cards","id":"zh.c0257","k":"meaning","src":"My stomach hurts.","tgt":"Me duele el estómago."}
+{"f":"cards","id":"zh.c0257","k":"note","src":"肚子 = belly. No \"my\" needed: 我肚子疼.","tgt":"肚子 = barriga. No hace falta «mi»: 我肚子疼."}
+{"f":"cards","id":"zh.c0258","k":"meaning","src":"What's wrong? / Where does it hurt?","tgt":"¿Qué te duele?"}
+{"f":"cards","id":"zh.c0258","k":"note","src":"What a doctor asks. Literally \"where are you not comfortable?\"","tgt":"Lo que pregunta el médico. Literalmente «¿dónde no estás cómodo?»."}
+{"f":"cards","id":"zh.c0259","k":"meaning","src":"I'd like to see a doctor.","tgt":"Me gustaría ir al médico."}
+{"f":"cards","id":"zh.c0259","k":"note","src":"看医生 = see a doctor; 看病 also works.","tgt":"看医生 = ir al médico; también sirve 看病."}
+{"f":"cards","id":"zh.c0260","k":"meaning","src":"I have a bit of a cough.","tgt":"Tengo un poco de tos."}
+{"f":"cards","id":"zh.c0260","k":"note","src":"有点儿 = a bit, usually about something unwelcome.","tgt":"有点儿 = un poco, casi siempre de algo que no gusta."}
+{"f":"cards","id":"zh.c0261","k":"meaning","src":"Could you help me, please?","tgt":"¿Me ayudas un momento, por favor?"}
+{"f":"cards","id":"zh.c0261","k":"note","src":"一下 makes the request lighter: \"for a moment\".","tgt":"一下 hace el pedido más ligero: «un momento»."}
+{"f":"cards","id":"zh.c0262","k":"meaning","src":"Don't worry.","tgt":"No te preocupes."}
+{"f":"cards","id":"zh.c0262","k":"note","src":"别 + verb = don't.","tgt":"别 + verbo = «no» + mandato, como «no te preocupes»."}
+{"f":"cards","id":"zh.c0263","k":"meaning","src":"Be careful! / Watch out!","tgt":"¡Cuidado!"}
+{"f":"cards","id":"zh.c0263","k":"note","src":"Shouted as a warning, or said kindly: 路上小心 (take care on the way).","tgt":"Se grita como aviso, o se dice con cariño: 路上小心 (cuídate en el camino)."}
+{"f":"cards","id":"zh.c0264","k":"meaning","src":"Drink lots of water.","tgt":"Toma mucha agua."}
+{"f":"cards","id":"zh.c0264","k":"note","src":"The standard advice for any illness, together with 多休息 (rest a lot).","tgt":"El consejo de siempre ante cualquier enfermedad, junto con 多休息 (descansa mucho)."}
+{"f":"cards","id":"zh.c0265","k":"meaning","src":"Get some good rest.","tgt":"Descansa bien."}
+{"f":"cards","id":"zh.c0265","k":"note","src":"吧 makes it friendly advice, not an order.","tgt":"吧 lo vuelve un consejo amable, no una orden."}
+{"f":"cards","id":"zh.c0266","k":"meaning","src":"Are you feeling a bit better?","tgt":"¿Ya te sientes un poco mejor?"}
+{"f":"cards","id":"zh.c0266","k":"note","src":"Adjective + 一点儿 + 了: a bit more so now.","tgt":"Adjetivo + 一点儿 + 了: un poco más que antes."}
+{"f":"cards","id":"zh.c0267","k":"meaning","src":"I'm OK. / It's nothing.","tgt":"Estoy bien. / No es nada."}
+{"f":"cards","id":"zh.c0267","k":"note","src":"Also used to brush off an apology.","tgt":"También sirve para quitarle importancia a una disculpa."}
+{"f":"cards","id":"zh.c0268","k":"meaning","src":"Call the police!","tgt":"¡Rápido, llamen a la policía!"}
+{"f":"cards","id":"zh.c0268","k":"note","src":"Emergency numbers: 110 for the police, 120 for an ambulance.","tgt":"Números de emergencia: 110 para la policía, 120 para la ambulancia."}
+{"f":"cards","id":"zh.c0269","k":"meaning","src":"big","tgt":"grande"}
+{"f":"cards","id":"zh.c0269","k":"note","src":"Also \"old\" for age: 你多大？ (how old are you?)","tgt":"También «mayor» para la edad: 你多大？ (¿cuántos años tienes?)"}
+{"f":"cards","id":"zh.c0270","k":"meaning","src":"small; young","tgt":"pequeño; joven"}
+{"f":"cards","id":"zh.c0270","k":"note","src":"小王: a friendly way to call a younger person named Wang.","tgt":"小王: una forma amistosa de llamar a alguien más joven que se apellida Wang."}
+{"f":"cards","id":"zh.c0271","k":"meaning","src":"This is delicious.","tgt":"Esto está muy rico."}
+{"f":"cards","id":"zh.c0271","k":"note","src":"好吃 = good to eat; 好喝 = good to drink.","tgt":"好吃 = rico (para comer); 好喝 = rico (para beber)."}
+{"f":"cards","id":"zh.c0272","k":"meaning","src":"It's cold today.","tgt":"Hoy hace frío."}
+{"f":"cards","id":"zh.c0272","k":"note","src":"No 是 before an adjective; 很 is often just glue, not \"very\".","tgt":"Sin 是 antes de un adjetivo; 很 muchas veces es solo un enlace, no «muy»."}
+{"f":"cards","id":"zh.c0273","k":"meaning","src":"She's tall.","tgt":"Ella es alta."}
+{"f":"cards","id":"zh.c0273","k":"note","src":"Not 她是高.","tgt":"Nunca 她是高, aunque en español digas «es alta»."}
+{"f":"cards","id":"zh.c0274","k":"meaning","src":"He's handsome.","tgt":"Él es guapo."}
+{"f":"cards","id":"zh.c0274","k":"note","src":"帅 is the everyday word for a good-looking man.","tgt":"帅 es la palabra de todos los días para un hombre guapo."}
+{"f":"cards","id":"zh.c0275","k":"meaning","src":"She's beautiful.","tgt":"Ella es muy guapa."}
+{"f":"cards","id":"zh.c0275","k":"note","src":"For things, 好看 (nice-looking) is more common.","tgt":"Para cosas, 好看 (bonito) es más común."}
+{"f":"cards","id":"zh.c0276","k":"meaning","src":"It looks great!","tgt":"¡Qué bonito!"}
+{"f":"cards","id":"zh.c0276","k":"note","src":"真 + adjective = really, so: an exclamation.","tgt":"真 + adjetivo = «¡qué…!»: una exclamación."}
+{"f":"cards","id":"zh.c0277","k":"meaning","src":"It's hot outside.","tgt":"Afuera hace calor."}
+{"f":"cards","id":"zh.c0277","k":"note","src":"Weather words work like other adjectives: 很热, no 是.","tgt":"El clima funciona como los demás adjetivos: 很热, sin 是. Tampoco es «hacer»."}
+{"f":"cards","id":"zh.c0278","k":"meaning","src":"I'm busy.","tgt":"Estoy ocupado."}
+{"f":"cards","id":"zh.c0278","k":"note","src":"很 is light here. For \"very busy\", say 非常忙.","tgt":"Aquí 很 es suave. Para «muy ocupado», di 非常忙."}
+{"f":"cards","id":"zh.c0279","k":"meaning","src":"Chinese isn't hard.","tgt":"El chino no es difícil."}
+{"f":"cards","id":"zh.c0279","k":"note","src":"不 + adjective, with no 是: not 中文不是难.","tgt":"不 + adjetivo, sin 是: nunca 中文不是难."}
+{"f":"cards","id":"zh.c0280","k":"meaning","src":"My room isn't big.","tgt":"Mi habitación no es grande."}
+{"f":"cards","id":"zh.c0280","k":"note","src":"不 + adjective, no 是. 不 before a fourth tone is bú: bú dà.","tgt":"不 + adjetivo, sin 是. 不 antes de un cuarto tono es bú: bú dà."}
+{"f":"cards","id":"zh.c0281","k":"meaning","src":"It's lively here.","tgt":"Aquí hay mucho ambiente."}
+{"f":"cards","id":"zh.c0281","k":"note","src":"热闹 = busy, noisy and fun. Quiet: 安静.","tgt":"热闹 = animado, ruidoso y divertido. Tranquilo: 安静."}
+{"f":"cards","id":"zh.c0282","k":"meaning","src":"This dish is spicy.","tgt":"Este plato es picante."}
+{"f":"cards","id":"zh.c0282","k":"note","src":"菜 = a dish, or vegetables.","tgt":"菜 = un plato, o verduras."}
+{"f":"cards","id":"zh.c0283","k":"meaning","src":"It's a bit pricey.","tgt":"Está un poco caro."}
+{"f":"cards","id":"zh.c0283","k":"note","src":"有点儿 + adjective: a bit, and you don't like it.","tgt":"有点儿 + adjetivo: un poco, y no te gusta."}
+{"f":"cards","id":"zh.c0284","k":"meaning","src":"He's a really nice person.","tgt":"Es una muy buena persona."}
+{"f":"cards","id":"zh.c0284","k":"note","src":"A longer describer goes before the noun, linked by 的: 很好的人.","tgt":"Lo que describe va antes del sustantivo, unido con 的: 很好的人, al revés que «persona muy buena»."}
+{"f":"cards","id":"zh.c0285","k":"meaning","src":"a white car","tgt":"un auto blanco"}
+{"f":"cards","id":"zh.c0285","k":"note","src":"The color goes before the noun, linked by 的; 辆 is the measure word for cars.","tgt":"El color va antes del sustantivo, unido con 的, al revés que en español; 辆 es el clasificador de los autos."}
+{"f":"cards","id":"zh.c0286","k":"meaning","src":"That's great!","tgt":"¡Genial!"}
+{"f":"cards","id":"zh.c0286","k":"note","src":"太 … 了 can be happy too: \"too good\" means great.","tgt":"太 … 了 también puede ser alegre: «demasiado bueno» es genial."}
+{"f":"cards","id":"zh.c0287","k":"meaning","src":"What?","tgt":"¿Qué?"}
+{"f":"cards","id":"zh.c0287","k":"note","src":"In a sentence it stays where the answer goes: 你吃什么？","tgt":"En una oración se queda donde va la respuesta: 你吃什么？"}
+{"f":"cards","id":"zh.c0288","k":"meaning","src":"Who?","tgt":"¿Quién?"}
+{"f":"cards","id":"zh.c0288","k":"note","src":"Also said shuí.","tgt":"También se dice shuí."}
+{"f":"cards","id":"zh.c0289","k":"meaning","src":"And you?","tgt":"¿Y tú?"}
+{"f":"cards","id":"zh.c0289","k":"note","src":"Asks the same question back.","tgt":"Devuelve la misma pregunta."}
+{"f":"cards","id":"zh.c0290","k":"meaning","src":"Tea or coffee?","tgt":"¿Té o café?"}
+{"f":"cards","id":"zh.c0290","k":"note","src":"还是 for \"or\" in a question.","tgt":"还是 para «o» en una pregunta."}
+{"f":"cards","id":"zh.c0291","k":"meaning","src":"but","tgt":"pero"}
+{"f":"cards","id":"zh.c0291","k":"note","src":"Often paired with 虽然 (although) later on; at A1 it stands alone.","tgt":"Más adelante suele ir con 虽然 (aunque); al principio va solo."}
+{"f":"cards","id":"zh.c0292","k":"meaning","src":"Why?","tgt":"¿Por qué?"}
+{"f":"cards","id":"zh.c0292","k":"note","src":"Answer with 因为 (because).","tgt":"Se responde con 因为 (porque)."}
+{"f":"cards","id":"zh.c0293","k":"meaning","src":"How is it? / How about it?","tgt":"¿Qué tal?"}
+{"f":"cards","id":"zh.c0293","k":"note","src":"你最近怎么样？ = How have you been lately?","tgt":"你最近怎么样？ = ¿Qué tal te va últimamente?"}
+{"f":"cards","id":"zh.c0294","k":"meaning","src":"When?","tgt":"¿Cuándo?"}
+{"f":"cards","id":"zh.c0294","k":"note","src":"In a sentence it goes before the verb: 你什么时候来？","tgt":"En una oración va antes del verbo: 你什么时候来？"}
+{"f":"cards","id":"zh.c0295","k":"meaning","src":"Which one?","tgt":"¿Cuál?"}
+{"f":"cards","id":"zh.c0295","k":"note","src":"哪 (third tone) = which; 那 (fourth tone) = that.","tgt":"哪 (tercer tono) = cuál; 那 (cuarto tono) = ese."}
+{"f":"cards","id":"zh.c0296","k":"meaning","src":"Are you busy?","tgt":"¿Estás ocupado?"}
+{"f":"cards","id":"zh.c0296","k":"note","src":"吗 turns a statement into a yes/no question. Answer 忙 or 不忙, not 是.","tgt":"吗 convierte una afirmación en una pregunta de sí o no, sin cambiar el orden. Se responde 忙 o 不忙, no 是."}
+{"f":"cards","id":"zh.c0297","k":"meaning","src":"Are you going (or not)?","tgt":"¿Vas o no vas?"}
+{"f":"cards","id":"zh.c0297","k":"note","src":"Verb + 不 + verb asks yes or no. Never add 吗 to it.","tgt":"Verbo + 不 + verbo pregunta sí o no, como «¿vas o no vas?». Nunca le añadas 吗."}
+{"f":"cards","id":"zh.c0298","k":"meaning","src":"Do you have time?","tgt":"¿Tienes tiempo?"}
+{"f":"cards","id":"zh.c0298","k":"note","src":"有没有 is the verb-not-verb form of 有.","tgt":"有没有 es la forma verbo-no-verbo de 有."}
+{"f":"cards","id":"zh.c0299","k":"meaning","src":"Do you like Chinese food?","tgt":"¿Te gusta la comida china?"}
+{"f":"cards","id":"zh.c0299","k":"note","src":"With a two-character verb: 喜不喜欢 or 喜欢不喜欢.","tgt":"Con un verbo de dos caracteres: 喜不喜欢 o 喜欢不喜欢."}
+{"f":"cards","id":"zh.c0300","k":"meaning","src":"How do you say this in Chinese?","tgt":"¿Cómo se dice esto en chino?"}
+{"f":"cards","id":"zh.c0300","k":"note","src":"怎么 + verb = how to do it.","tgt":"怎么 + verbo = cómo hacerlo."}
+{"f":"cards","id":"zh.c0301","k":"meaning","src":"because","tgt":"porque"}
+{"f":"cards","id":"zh.c0301","k":"note","src":"Often paired: 因为…所以… (because … so …).","tgt":"Suele ir en pareja: 因为…所以… (porque… por eso…)."}
+{"f":"cards","id":"zh.c0302","k":"meaning","src":"so; therefore","tgt":"por eso; así que"}
+{"f":"cards","id":"zh.c0302","k":"note","src":"Chinese can use \"because\" and \"so\" in one sentence; English picks one.","tgt":"El chino puede poner «porque» y «por eso» en la misma oración; el español suele elegir uno.","rw":"mentions English"}
+{"f":"cards","id":"zh.c0303","k":"meaning","src":"Saturday or Sunday","tgt":"sábado o domingo"}
+{"f":"cards","id":"zh.c0303","k":"note","src":"或者 for \"or\" in a statement; in a question, use 还是.","tgt":"或者 para «o» en una afirmación; en una pregunta, 还是."}
+{"f":"cards","id":"zh.c0304","k":"meaning","src":"He and I are going together.","tgt":"Él y yo vamos juntos."}
+{"f":"cards","id":"zh.c0304","k":"note","src":"和 joins nouns (我和他); 一起 goes before the verb.","tgt":"和 une sustantivos (我和他); 一起 va antes del verbo."}
+{"f":"cards","id":"zh.c0305","k":"meaning","src":"I'm happy. / I'm glad.","tgt":"Estoy contento."}
+{"f":"cards","id":"zh.c0305","k":"note","src":"Not 我是高兴: adjectives take 很, not 是.","tgt":"Nunca 我是高兴: los adjetivos llevan 很, no 是, aunque en español digas «estoy»."}
+{"f":"cards","id":"zh.c0306","k":"meaning","src":"I didn't go.","tgt":"No fui."}
+{"f":"cards","id":"zh.c0306","k":"note","src":"没 for what did not happen, with no 了: not 我没去了. (我不去了 means \"I'm not going any more\".)","tgt":"没 para lo que no pasó, sin 了: nunca 我没去了. (我不去了 significa «ya no voy».)"}
+{"f":"cards","id":"zh.c0307","k":"meaning","src":"two people","tgt":"dos personas"}
+{"f":"cards","id":"zh.c0307","k":"note","src":"两 before a measure word, never 二个人.","tgt":"两 antes de un clasificador, nunca 二个人."}
+{"f":"cards","id":"zh.c0308","k":"meaning","src":"Excuse me! (calling a server)","tgt":"¡Mesero!"}
+{"f":"cards","id":"zh.c0308","k":"note","src":"Not 小姐, which now suggests a sex worker in the mainland.","tgt":"Nunca 小姐, que en China continental hoy sugiere una prostituta."}
+{"f":"cards","id":"zh.c0309","k":"meaning","src":"Have you eaten? (a greeting)","tgt":"¿Ya comiste? (saludo)"}
+{"f":"cards","id":"zh.c0309","k":"note","src":"A friendly hello among people who know each other, not an invitation.","tgt":"Un saludo amistoso entre conocidos, no una invitación."}
+{"f":"cards","id":"zh.c0310","k":"meaning","src":"I'm tired.","tgt":"Estoy cansado."}
+{"f":"cards","id":"zh.c0310","k":"note","src":"Not 我是累: no 是 before an adjective.","tgt":"Nunca 我是累: no hay 是 antes de un adjetivo, aunque en español digas «estoy»."}
+{"f":"cards","id":"zh.c0311","k":"meaning","src":"I'm thirty.","tgt":"Tengo treinta años."}
+{"f":"cards","id":"zh.c0311","k":"note","src":"No 是 and no \"years old\" verb: number + 岁.","tgt":"Sin 是 y sin «tener»: número + 岁."}
+{"f":"cards","id":"zh.c0312","k":"meaning","src":"I'm hungry.","tgt":"Tengo hambre."}
+{"f":"cards","id":"zh.c0312","k":"note","src":"了 shows the change: I've gotten hungry. Not 我是饿.","tgt":"了 muestra el cambio: me dio hambre. Ni 我是饿 ni «tener»."}
+{"f":"cards","id":"zh.c0313","k":"meaning","src":"I don't drink (alcohol).","tgt":"No tomo alcohol."}
+{"f":"cards","id":"zh.c0313","k":"note","src":"不 for habits and choices; 没 for what didn't happen.","tgt":"不 para hábitos y decisiones; 没 para lo que no pasó."}
+{"f":"cards","id":"zh.c0314","k":"meaning","src":"I don't have any money.","tgt":"No tengo dinero."}
+{"f":"cards","id":"zh.c0314","k":"note","src":"有 always takes 没, never 不: not 我不有钱.","tgt":"有 siempre se niega con 没, nunca con 不: nunca 我不有钱."}
+{"f":"cards","id":"zh.c0315","k":"meaning","src":"two o'clock","tgt":"las dos"}
+{"f":"cards","id":"zh.c0315","k":"note","src":"Clock time uses 两: 两点, not 二点.","tgt":"La hora usa 两: 两点, no 二点."}
+{"f":"cards","id":"zh.c0316","k":"meaning","src":"How are you? (a real question)","tgt":"¿Cómo estás? (pregunta real)"}
+{"f":"cards","id":"zh.c0316","k":"note","src":"It asks how you really are. For a casual hi, just say 你好.","tgt":"Pregunta de verdad cómo estás. Para un saludo informal, basta con 你好."}
+{"f":"cards","id":"zh.c0317","k":"meaning","src":"Her Chinese is really good.","tgt":"Ella habla muy bien chino."}
+{"f":"cards","id":"zh.c0317","k":"note","src":"\"Good at\" is verb + 得很好. 我很好 alone means \"I'm fine\", not \"I'm good at it\".","tgt":"«Hacer algo bien» es verbo + 得很好. 我很好 solo significa «estoy bien», no «lo hago bien»."}
+{"f":"cards","id":"zh.c0318","k":"meaning","src":"I'm not going after all.","tgt":"Al final no voy."}
+{"f":"cards","id":"zh.c0318","k":"note","src":"不…了 = a change of plan. Not the same as 我没去 (I didn't go).","tgt":"不…了 = un cambio de planes, como «ya no». No es lo mismo que 我没去 (no fui)."}
+{"f":"cards","id":"zh.c0319","k":"meaning","src":"Miss (avoid as an address)","tgt":"señorita (no la uses para llamar a nadie)"}
+{"f":"cards","id":"zh.c0319","k":"note","src":"Don't use it to call anyone in the mainland: it can suggest a sex worker. Fine in Taiwan.","tgt":"No la uses para llamar a nadie en China continental, aunque en español «señorita» sea cortés: puede sugerir una prostituta. En Taiwán no hay problema."}
+{"f":"cards","id":"zh.c0320","k":"meaning","src":"thing; stuff","tgt":"cosa"}
+{"f":"cards","id":"zh.c0320","k":"note","src":"With 西 in the neutral tone it means \"thing\"; said with two full tones it means \"east and west\".","tgt":"Con 西 en tono neutro significa «cosa»; con dos tonos plenos significa «este y oeste»."}
+{"f":"cards","id":"zh.c0321","k":"meaning","src":"foreigner (casual)","tgt":"extranjero/a (coloquial)"}
+{"f":"cards","id":"zh.c0321","k":"note","src":"Everyday slang, usually friendly, but not for formal use. Literally \"old outsider\".","tgt":"Jerga de todos los días, casi siempre amistosa, pero no para situaciones formales. Literalmente «viejo de fuera»."}
+{"f":"cards","id":"zh.c0322","k":"meaning","src":"work; job","tgt":"trabajo"}
+{"f":"cards","id":"zh.c0322","k":"note","src":"Also the verb \"to work\": 我在银行工作.","tgt":"También es el verbo «trabajar»: 我在银行工作."}
+{"f":"cards","id":"zh.c0323","k":"meaning","src":"China","tgt":"China"}
+{"f":"cards","id":"zh.c0323","k":"note","src":"中国人 = a Chinese person; 中国菜 = Chinese food.","tgt":"中国人 = una persona china; 中国菜 = comida china."}
+{"f":"cards","id":"zh.c0324","k":"meaning","src":"Mr.; sir","tgt":"señor"}
+{"f":"cards","id":"zh.c0324","k":"note","src":"After the surname: 王先生. Can also mean \"husband\".","tgt":"Después del apellido: 王先生. También puede significar «esposo»."}
+{"f":"cards","id":"zh.c0325","k":"meaning","src":"question; problem","tgt":"pregunta; problema"}
+{"f":"cards","id":"zh.c0325","k":"note","src":"没问题 = no problem; 有问题吗？ = any questions?","tgt":"没问题 = no hay problema; 有问题吗？ = ¿alguna pregunta?"}
+{"f":"cards","id":"zh.c0326","k":"meaning","src":"time (a point in time)","tgt":"momento (un punto en el tiempo)"}
+{"f":"cards","id":"zh.c0326","k":"note","src":"什么时候 = when; 小的时候 = as a child.","tgt":"什么时候 = cuándo; 小的时候 = de niño."}
+{"f":"cards","id":"zh.c0327","k":"meaning","src":"matter; thing to do","tgt":"asunto; algo que hacer"}
+{"f":"cards","id":"zh.c0327","k":"note","src":"有事 = to be busy with something.","tgt":"有事 = estar ocupado con algo."}
+{"f":"cards","id":"zh.c0328","k":"meaning","src":"child; kid","tgt":"niño/a; hijo/a"}
+{"f":"cards","id":"zh.c0328","k":"note","src":"Also \"son or daughter\": 你有孩子吗？","tgt":"También «hijo o hija»: 你有孩子吗？"}
+{"f":"cards","id":"zh.c0329","k":"meaning","src":"matter; affair","tgt":"asunto; cuestión"}
+{"f":"cards","id":"zh.c0329","k":"note","src":"Fuller form of 事: 这件事情.","tgt":"Forma más completa de 事: 这件事情."}
+{"f":"cards","id":"zh.c0330","k":"meaning","src":"time (a stretch of time)","tgt":"tiempo (un lapso)"}
+{"f":"cards","id":"zh.c0330","k":"note","src":"你有时间吗？ = do you have time?","tgt":"你有时间吗？ = ¿tienes tiempo?"}
+{"f":"cards","id":"zh.c0331","k":"meaning","src":"money","tgt":"dinero"}
+{"f":"cards","id":"zh.c0331","k":"note","src":"有钱 = rich; 多少钱？ = how much?","tgt":"有钱 = rico; 多少钱？ = ¿cuánto cuesta?"}
+{"f":"cards","id":"zh.c0332","k":"meaning","src":"home; family","tgt":"casa; familia"}
+{"f":"cards","id":"zh.c0332","k":"note","src":"回家 = go home. Also a measure word for shops.","tgt":"回家 = volver a casa. También es clasificador de tiendas."}
+{"f":"cards","id":"zh.c0333","k":"meaning","src":"name","tgt":"nombre"}
+{"f":"cards","id":"zh.c0333","k":"note","src":"Surname first: 王明 is Mr. Wang.","tgt":"Primero el apellido: 王明 es el señor Wang."}
+{"f":"cards","id":"zh.c0334","k":"meaning","src":"meaning","tgt":"significado"}
+{"f":"cards","id":"zh.c0334","k":"note","src":"什么意思？ = what does it mean?","tgt":"什么意思？ = ¿qué significa?"}
+{"f":"cards","id":"zh.c0335","k":"meaning","src":"place","tgt":"lugar"}
+{"f":"cards","id":"zh.c0335","k":"note","src":"这个地方 = this place.","tgt":"这个地方 = este lugar."}
+{"f":"cards","id":"zh.c0336","k":"meaning","src":"mobile phone","tgt":"celular"}
+{"f":"cards","id":"zh.c0336","k":"note","src":"The everyday word; 电话 is a call or a landline.","tgt":"La palabra de todos los días; 电话 es una llamada o un teléfono fijo."}
+{"f":"cards","id":"zh.c0337","k":"meaning","src":"telephone; phone call","tgt":"teléfono; llamada"}
+{"f":"cards","id":"zh.c0337","k":"note","src":"打电话 = make a call.","tgt":"打电话 = llamar por teléfono."}
+{"f":"cards","id":"zh.c0338","k":"meaning","src":"computer","tgt":"computadora"}
+{"f":"cards","id":"zh.c0338","k":"note","src":"Lit. \"electric brain\".","tgt":"Literalmente «cerebro eléctrico»."}
+{"f":"cards","id":"zh.c0339","k":"meaning","src":"television","tgt":"televisión"}
+{"f":"cards","id":"zh.c0339","k":"note","src":"看电视 = watch TV.","tgt":"看电视 = ver la tele."}
+{"f":"cards","id":"zh.c0340","k":"meaning","src":"movie; film","tgt":"película"}
+{"f":"cards","id":"zh.c0340","k":"note","src":"看电影 = see a movie.","tgt":"看电影 = ver una película."}
+{"f":"cards","id":"zh.c0341","k":"meaning","src":"clothes","tgt":"ropa"}
+{"f":"cards","id":"zh.c0341","k":"note","src":"Measure word 件 for a top.","tgt":"Clasificador 件 para una prenda de arriba."}
+{"f":"cards","id":"zh.c0342","k":"meaning","src":"house; apartment (the building)","tgt":"casa; vivienda (el edificio)"}
+{"f":"cards","id":"zh.c0342","k":"note","src":"买房子 = buy a home.","tgt":"买房子 = comprar una casa."}
+{"f":"cards","id":"zh.c0343","k":"meaning","src":"room","tgt":"habitación"}
+{"f":"cards","id":"zh.c0343","k":"note","src":"我的房间 = my room.","tgt":"我的房间 = mi habitación."}
+{"f":"cards","id":"zh.c0344","k":"meaning","src":"school","tgt":"escuela"}
+{"f":"cards","id":"zh.c0344","k":"note","src":"去学校 = go to school.","tgt":"去学校 = ir a la escuela."}
+{"f":"cards","id":"zh.c0345","k":"meaning","src":"hospital","tgt":"hospital"}
+{"f":"cards","id":"zh.c0345","k":"note","src":"去医院 = go to the hospital.","tgt":"去医院 = ir al hospital."}
+{"f":"cards","id":"zh.c0346","k":"meaning","src":"doctor","tgt":"médico/a"}
+{"f":"cards","id":"zh.c0346","k":"note","src":"看医生 = see a doctor.","tgt":"看医生 = ir al médico."}
+{"f":"cards","id":"zh.c0347","k":"meaning","src":"man","tgt":"hombre"}
+{"f":"cards","id":"zh.c0347","k":"note","src":"Casual: 男的.","tgt":"Coloquial: 男的."}
+{"f":"cards","id":"zh.c0348","k":"meaning","src":"woman","tgt":"mujer"}
+{"f":"cards","id":"zh.c0348","k":"note","src":"Casual: 女的; polite: 女士.","tgt":"Coloquial: 女的; cortés: 女士."}
+{"f":"cards","id":"zh.c0349","k":"meaning","src":"husband","tgt":"esposo"}
+{"f":"cards","id":"zh.c0349","k":"note","src":"Casual: 老公.","tgt":"Coloquial: 老公."}
+{"f":"cards","id":"zh.c0350","k":"meaning","src":"wife","tgt":"esposa"}
+{"f":"cards","id":"zh.c0350","k":"note","src":"Casual: 老婆.","tgt":"Coloquial: 老婆."}
+{"f":"cards","id":"zh.c0351","k":"meaning","src":"hubby (husband, casual)","tgt":"marido (coloquial)"}
+{"f":"cards","id":"zh.c0351","k":"note","src":"Couples use it all the time.","tgt":"Las parejas lo usan todo el tiempo."}
+{"f":"cards","id":"zh.c0352","k":"meaning","src":"wife (casual)","tgt":"mujer, esposa (coloquial)"}
+{"f":"cards","id":"zh.c0352","k":"note","src":"Affectionate, not rude.","tgt":"Cariñoso, no grosero."}
+{"f":"cards","id":"zh.c0353","k":"meaning","src":"parents","tgt":"padres"}
+{"f":"cards","id":"zh.c0353","k":"note","src":"More formal than 爸爸妈妈.","tgt":"Más formal que 爸爸妈妈."}
+{"f":"cards","id":"zh.c0354","k":"meaning","src":"family members","tgt":"familiares"}
+{"f":"cards","id":"zh.c0354","k":"note","src":"我的家人 = my family.","tgt":"我的家人 = mi familia."}
+{"f":"cards","id":"zh.c0355","k":"meaning","src":"world","tgt":"mundo"}
+{"f":"cards","id":"zh.c0355","k":"note","src":"世界上 = in the world.","tgt":"世界上 = en el mundo."}
+{"f":"cards","id":"zh.c0356","k":"meaning","src":"country; nation","tgt":"país; nación"}
+{"f":"cards","id":"zh.c0356","k":"note","src":"哪个国家？ = which country?","tgt":"哪个国家？ = ¿qué país?"}
+{"f":"cards","id":"zh.c0357","k":"meaning","src":"city","tgt":"ciudad"}
+{"f":"cards","id":"zh.c0357","k":"note","src":"大城市 = a big city.","tgt":"大城市 = una ciudad grande."}
+{"f":"cards","id":"zh.c0358","k":"meaning","src":"road; way","tgt":"camino; calle"}
+{"f":"cards","id":"zh.c0358","k":"note","src":"走路 = to walk.","tgt":"走路 = caminar."}
+{"f":"cards","id":"zh.c0359","k":"meaning","src":"car; vehicle","tgt":"auto; vehículo"}
+{"f":"cards","id":"zh.c0359","k":"note","src":"开车 = drive. Measure word 辆.","tgt":"开车 = manejar. Clasificador 辆."}
+{"f":"cards","id":"zh.c0360","k":"meaning","src":"car; automobile","tgt":"automóvil"}
+{"f":"cards","id":"zh.c0360","k":"note","src":"In speech 车 is more common.","tgt":"Al hablar, 车 es más común."}
+{"f":"cards","id":"zh.c0361","k":"meaning","src":"airplane","tgt":"avión"}
+{"f":"cards","id":"zh.c0361","k":"note","src":"坐飞机 = to fly.","tgt":"坐飞机 = ir en avión."}
+{"f":"cards","id":"zh.c0362","k":"meaning","src":"meal; cooked rice","tgt":"comida; arroz cocido"}
+{"f":"cards","id":"zh.c0362","k":"note","src":"吃饭 = eat (a meal).","tgt":"吃饭 = comer."}
+{"f":"cards","id":"zh.c0363","k":"meaning","src":"tea","tgt":"té"}
+{"f":"cards","id":"zh.c0363","k":"note","src":"喝茶 = drink tea.","tgt":"喝茶 = tomar té."}
+{"f":"cards","id":"zh.c0364","k":"meaning","src":"coffee","tgt":"café"}
+{"f":"cards","id":"zh.c0364","k":"note","src":"一杯咖啡 = a cup of coffee.","tgt":"一杯咖啡 = una taza de café."}
+{"f":"cards","id":"zh.c0365","k":"meaning","src":"book","tgt":"libro"}
+{"f":"cards","id":"zh.c0365","k":"note","src":"Measure word 本: 三本书.","tgt":"Clasificador 本: 三本书."}
+{"f":"cards","id":"zh.c0366","k":"meaning","src":"words; speech","tgt":"palabras; lo que se dice"}
+{"f":"cards","id":"zh.c0366","k":"note","src":"说话 = talk.","tgt":"说话 = hablar."}
+{"f":"cards","id":"zh.c0367","k":"meaning","src":"class; lesson","tgt":"clase; lección"}
+{"f":"cards","id":"zh.c0367","k":"note","src":"上课 = attend class.","tgt":"上课 = ir a clase."}
+{"f":"cards","id":"zh.c0368","k":"meaning","src":"Chinese (the language)","tgt":"chino (el idioma)"}
+{"f":"cards","id":"zh.c0368","k":"note","src":"汉语 is the textbook word.","tgt":"汉语 es la palabra de los libros de texto."}
+{"f":"cards","id":"zh.c0369","k":"meaning","src":"Chinese character","tgt":"carácter chino"}
+{"f":"cards","id":"zh.c0369","k":"note","src":"写汉字 = write characters.","tgt":"写汉字 = escribir caracteres."}
+{"f":"cards","id":"zh.c0370","k":"meaning","src":"English (the language)","tgt":"inglés (el idioma)","rw":"mentions English"}
+{"f":"cards","id":"zh.c0370","k":"note","src":"Also 英文, especially written.","tgt":"También 英文, sobre todo por escrito."}
+{"f":"cards","id":"zh.c0371","k":"meaning","src":"body; health","tgt":"cuerpo; salud"}
+{"f":"cards","id":"zh.c0371","k":"note","src":"身体好 = in good health.","tgt":"身体好 = tener buena salud."}
+{"f":"cards","id":"zh.c0372","k":"meaning","src":"head","tgt":"cabeza"}
+{"f":"cards","id":"zh.c0372","k":"note","src":"我头疼 = I have a headache.","tgt":"我头疼 = me duele la cabeza."}
+{"f":"cards","id":"zh.c0373","k":"meaning","src":"hand","tgt":"mano"}
+{"f":"cards","id":"zh.c0373","k":"note","src":"洗手 = wash your hands.","tgt":"洗手 = lavarse las manos."}
+{"f":"cards","id":"zh.c0374","k":"meaning","src":"heart","tgt":"corazón"}
+{"f":"cards","id":"zh.c0374","k":"note","src":"小心 = careful (lit. small heart).","tgt":"小心 = cuidado (literalmente «corazón pequeño»)."}
+{"f":"cards","id":"zh.c0375","k":"meaning","src":"birthday","tgt":"cumpleaños"}
+{"f":"cards","id":"zh.c0375","k":"note","src":"生日快乐！ = happy birthday!","tgt":"生日快乐！ = ¡feliz cumpleaños!"}
+{"f":"cards","id":"zh.c0376","k":"meaning","src":"weather","tgt":"clima; tiempo"}
+{"f":"cards","id":"zh.c0376","k":"note","src":"今天天气很好。","tgt":"今天天气很好。","pre":1}
+{"f":"cards","id":"zh.c0377","k":"meaning","src":"music","tgt":"música"}
+{"f":"cards","id":"zh.c0377","k":"note","src":"听音乐 = listen to music.","tgt":"听音乐 = escuchar música."}
+{"f":"cards","id":"zh.c0378","k":"meaning","src":"game","tgt":"juego"}
+{"f":"cards","id":"zh.c0378","k":"note","src":"玩游戏 = play games.","tgt":"玩游戏 = jugar videojuegos."}
+{"f":"cards","id":"zh.c0379","k":"meaning","src":"gift; present","tgt":"regalo"}
+{"f":"cards","id":"zh.c0379","k":"note","src":"送礼物 = give a gift.","tgt":"送礼物 = hacer un regalo."}
+{"f":"cards","id":"zh.c0380","k":"meaning","src":"photo","tgt":"foto"}
+{"f":"cards","id":"zh.c0380","k":"note","src":"Measure word 张.","tgt":"Clasificador 张."}
+{"f":"cards","id":"zh.c0381","k":"meaning","src":"foreigner","tgt":"extranjero/a"}
+{"f":"cards","id":"zh.c0381","k":"note","src":"Polite; 老外 is casual.","tgt":"Cortés; 老外 es coloquial."}
+{"f":"cards","id":"zh.c0382","k":"meaning","src":"boss; shop owner","tgt":"jefe/a; dueño/a de una tienda"}
+{"f":"cards","id":"zh.c0382","k":"note","src":"A friendly way to address a stall owner.","tgt":"Una forma amistosa de llamar al dueño de un puesto."}
+{"f":"cards","id":"zh.c0383","k":"meaning","src":"guest; customer","tgt":"invitado/a; cliente"}
+{"f":"cards","id":"zh.c0383","k":"note","src":"有客人 = we have guests.","tgt":"有客人 = tenemos visita."}
+{"f":"cards","id":"zh.c0384","k":"meaning","src":"neighbor","tgt":"vecino/a"}
+{"f":"cards","id":"zh.c0384","k":"note","src":"我的邻居.","tgt":"我的邻居.","pre":1}
+{"f":"cards","id":"zh.c0385","k":"meaning","src":"classmate","tgt":"compañero/a de clase"}
+{"f":"cards","id":"zh.c0385","k":"note","src":"Also how students address each other.","tgt":"También es como se llaman los estudiantes entre sí."}
+{"f":"cards","id":"zh.c0386","k":"meaning","src":"animal","tgt":"animal"}
+{"f":"cards","id":"zh.c0386","k":"note","src":"小动物 = a small animal.","tgt":"小动物 = un animal pequeño."}
+{"f":"cards","id":"zh.c0387","k":"meaning","src":"cat","tgt":"gato"}
+{"f":"cards","id":"zh.c0387","k":"note","src":"Measure word 只.","tgt":"Clasificador 只."}
+{"f":"cards","id":"zh.c0388","k":"meaning","src":"bird","tgt":"pájaro"}
+{"f":"cards","id":"zh.c0388","k":"note","src":"Measure word 只.","tgt":"Clasificador 只."}
+{"f":"cards","id":"zh.c0389","k":"meaning","src":"fish","tgt":"pez; pescado"}
+{"f":"cards","id":"zh.c0389","k":"note","src":"Measure word 条.","tgt":"Clasificador 条."}
+{"f":"cards","id":"zh.c0390","k":"meaning","src":"fruit","tgt":"fruta"}
+{"f":"cards","id":"zh.c0390","k":"note","src":"吃水果 = eat fruit.","tgt":"吃水果 = comer fruta."}
+{"f":"cards","id":"zh.c0391","k":"meaning","src":"apple","tgt":"manzana"}
+{"f":"cards","id":"zh.c0391","k":"note","src":"Also the brand Apple.","tgt":"También la marca Apple."}
+{"f":"cards","id":"zh.c0392","k":"meaning","src":"meat","tgt":"carne"}
+{"f":"cards","id":"zh.c0392","k":"note","src":"Pork, unless named: 牛肉 = beef.","tgt":"Cerdo, si no se dice otra cosa: 牛肉 = carne de res."}
+{"f":"cards","id":"zh.c0393","k":"meaning","src":"egg","tgt":"huevo"}
+{"f":"cards","id":"zh.c0393","k":"note","src":"蛋 alone also works.","tgt":"蛋 solo también sirve."}
+{"f":"cards","id":"zh.c0394","k":"meaning","src":"bread","tgt":"pan"}
+{"f":"cards","id":"zh.c0394","k":"note","src":"面 = flour or noodles.","tgt":"面 = harina o fideos."}
+{"f":"cards","id":"zh.c0395","k":"meaning","src":"milk","tgt":"leche"}
+{"f":"cards","id":"zh.c0395","k":"note","src":"一杯牛奶.","tgt":"一杯牛奶.","pre":1}
+{"f":"cards","id":"zh.c0396","k":"meaning","src":"alcohol (wine, spirits)","tgt":"alcohol (vino, licores)"}
+{"f":"cards","id":"zh.c0396","k":"note","src":"喝酒 = drink alcohol.","tgt":"喝酒 = tomar alcohol."}
+{"f":"cards","id":"zh.c0397","k":"meaning","src":"cup; glass","tgt":"taza; vaso"}
+{"f":"cards","id":"zh.c0397","k":"note","src":"The measure word is 杯.","tgt":"El clasificador es 杯."}
+{"f":"cards","id":"zh.c0398","k":"meaning","src":"table; desk","tgt":"mesa; escritorio"}
+{"f":"cards","id":"zh.c0398","k":"note","src":"桌子上 = on the table.","tgt":"桌子上 = sobre la mesa."}
+{"f":"cards","id":"zh.c0399","k":"meaning","src":"chair","tgt":"silla"}
+{"f":"cards","id":"zh.c0399","k":"note","src":"坐在椅子上 = sit on a chair.","tgt":"坐在椅子上 = sentarse en una silla."}
+{"f":"cards","id":"zh.c0400","k":"meaning","src":"bed","tgt":"cama"}
+{"f":"cards","id":"zh.c0400","k":"note","src":"起床 = get out of bed.","tgt":"起床 = levantarse de la cama."}
+{"f":"cards","id":"zh.c0401","k":"meaning","src":"window","tgt":"ventana"}
+{"f":"cards","id":"zh.c0401","k":"note","src":"开窗户 = open the window.","tgt":"开窗户 = abrir la ventana."}
+{"f":"cards","id":"zh.c0402","k":"meaning","src":"light; lamp","tgt":"luz; lámpara"}
+{"f":"cards","id":"zh.c0402","k":"note","src":"开灯 / 关灯 = lights on / off.","tgt":"开灯 / 关灯 = prender / apagar la luz."}
+{"f":"cards","id":"zh.c0403","k":"meaning","src":"key","tgt":"llave"}
+{"f":"cards","id":"zh.c0403","k":"note","src":"我的钥匙呢？ = where are my keys?","tgt":"我的钥匙呢？ = ¿y mis llaves?"}
+{"f":"cards","id":"zh.c0404","k":"meaning","src":"bag","tgt":"bolsa; mochila"}
+{"f":"cards","id":"zh.c0404","k":"note","src":"书包 = schoolbag.","tgt":"书包 = mochila escolar."}
+{"f":"cards","id":"zh.c0405","k":"meaning","src":"umbrella","tgt":"paraguas"}
+{"f":"cards","id":"zh.c0405","k":"note","src":"带伞 = bring an umbrella.","tgt":"带伞 = llevar paraguas."}
+{"f":"cards","id":"zh.c0406","k":"meaning","src":"pen","tgt":"bolígrafo"}
+{"f":"cards","id":"zh.c0406","k":"note","src":"Measure word 支.","tgt":"Clasificador 支."}
+{"f":"cards","id":"zh.c0407","k":"meaning","src":"paper","tgt":"papel"}
+{"f":"cards","id":"zh.c0407","k":"note","src":"一张纸 = a sheet of paper.","tgt":"一张纸 = una hoja de papel."}
+{"f":"cards","id":"zh.c0408","k":"meaning","src":"map","tgt":"mapa"}
+{"f":"cards","id":"zh.c0408","k":"note","src":"手机地图 = a phone map.","tgt":"手机地图 = un mapa en el celular."}
+{"f":"cards","id":"zh.c0409","k":"meaning","src":"ticket","tgt":"boleto"}
+{"f":"cards","id":"zh.c0409","k":"note","src":"两张票 = two tickets.","tgt":"两张票 = dos boletos."}
+{"f":"cards","id":"zh.c0410","k":"meaning","src":"shop; store","tgt":"tienda"}
+{"f":"cards","id":"zh.c0410","k":"note","src":"去商店买东西.","tgt":"去商店买东西.","pre":1}
+{"f":"cards","id":"zh.c0411","k":"meaning","src":"supermarket","tgt":"supermercado"}
+{"f":"cards","id":"zh.c0411","k":"note","src":"我去超市.","tgt":"我去超市.","pre":1}
+{"f":"cards","id":"zh.c0412","k":"meaning","src":"restaurant (small)","tgt":"restaurante (pequeño)"}
+{"f":"cards","id":"zh.c0412","k":"note","src":"饭店 can also be a hotel.","tgt":"饭店 también puede ser un hotel."}
+{"f":"cards","id":"zh.c0413","k":"meaning","src":"park","tgt":"parque"}
+{"f":"cards","id":"zh.c0413","k":"note","src":"去公园 = go to the park.","tgt":"去公园 = ir al parque."}
+{"f":"cards","id":"zh.c0414","k":"meaning","src":"airport","tgt":"aeropuerto"}
+{"f":"cards","id":"zh.c0414","k":"note","src":"去机场 = go to the airport.","tgt":"去机场 = ir al aeropuerto."}
+{"f":"cards","id":"zh.c0415","k":"meaning","src":"bank","tgt":"banco"}
+{"f":"cards","id":"zh.c0415","k":"note","src":"在银行工作 = work at a bank.","tgt":"在银行工作 = trabajar en un banco."}
+{"f":"cards","id":"zh.c0416","k":"meaning","src":"university","tgt":"universidad"}
+{"f":"cards","id":"zh.c0416","k":"note","src":"上大学 = go to university.","tgt":"上大学 = ir a la universidad."}
+{"f":"cards","id":"zh.c0417","k":"meaning","src":"office","tgt":"oficina"}
+{"f":"cards","id":"zh.c0417","k":"note","src":"在办公室 = at the office.","tgt":"在办公室 = en la oficina."}
+{"f":"cards","id":"zh.c0418","k":"meaning","src":"toilet","tgt":"inodoro; retrete"}
+{"f":"cards","id":"zh.c0418","k":"note","src":"Blunt; 洗手间 is politer.","tgt":"Directo; 洗手间 es más cortés."}
+{"f":"cards","id":"zh.c0419","k":"meaning","src":"kitchen","tgt":"cocina"}
+{"f":"cards","id":"zh.c0419","k":"note","src":"在厨房做饭 = cook in the kitchen.","tgt":"在厨房做饭 = cocinar en la cocina."}
+{"f":"cards","id":"zh.c0420","k":"meaning","src":"hobby","tgt":"pasatiempo"}
+{"f":"cards","id":"zh.c0420","k":"note","src":"你的爱好是什么？","tgt":"你的爱好是什么？","pre":1}
+{"f":"cards","id":"zh.c0421","k":"meaning","src":"new word (vocabulary)","tgt":"palabra nueva (vocabulario)"}
+{"f":"cards","id":"zh.c0421","k":"note","src":"Every textbook lesson has a list.","tgt":"Cada lección del libro de texto trae una lista."}
+{"f":"cards","id":"zh.c0422","k":"meaning","src":"sentence","tgt":"oración (frase)"}
+{"f":"cards","id":"zh.c0422","k":"note","src":"这个句子 = this sentence.","tgt":"这个句子 = esta oración."}
+{"f":"cards","id":"zh.c0423","k":"meaning","src":"WeChat","tgt":"WeChat"}
+{"f":"cards","id":"zh.c0423","k":"note","src":"The app everyone in China uses to message and pay.","tgt":"La app que todos usan en China para escribirse mensajes y pagar."}
+{"f":"cards","id":"zh.c0424","k":"meaning","src":"internet; net","tgt":"internet; red"}
+{"f":"cards","id":"zh.c0424","k":"note","src":"上网 = go online.","tgt":"上网 = conectarse a internet."}
+{"f":"cards","id":"zh.c0425","k":"meaning","src":"number (phone, room)","tgt":"número (de teléfono, de habitación)"}
+{"f":"cards","id":"zh.c0425","k":"note","src":"电话号码 = phone number.","tgt":"电话号码 = número de teléfono."}
+{"f":"cards","id":"zh.c0426","k":"meaning","src":"color","tgt":"color"}
+{"f":"cards","id":"zh.c0426","k":"note","src":"什么颜色？ = what color?","tgt":"什么颜色？ = ¿de qué color?"}
+{"f":"cards","id":"zh.c0427","k":"meaning","src":"little kid","tgt":"niño pequeño"}
+{"f":"cards","id":"zh.c0427","k":"note","src":"Erhua, said in the north.","tgt":"Con la terminación 儿 (erhua), típica del norte."}
+{"f":"cards","id":"zh.c0428","k":"meaning","src":"baby","tgt":"bebé"}
+{"f":"cards","id":"zh.c0428","k":"note","src":"Couples also use it as a pet name.","tgt":"Las parejas también lo usan como apodo cariñoso."}
+{"f":"cards","id":"zh.c0429","k":"meaning","src":"adult; grown-up","tgt":"adulto/a"}
+{"f":"cards","id":"zh.c0429","k":"note","src":"Opposite of 小孩儿.","tgt":"Lo contrario de 小孩儿."}
+{"f":"cards","id":"zh.c0430","k":"meaning","src":"hotel","tgt":"hotel"}
+{"f":"cards","id":"zh.c0430","k":"note","src":"Also 宾馆.","tgt":"También 宾馆."}
+{"f":"cards","id":"zh.c0431","k":"meaning","src":"illness","tgt":"enfermedad"}
+{"f":"cards","id":"zh.c0431","k":"note","src":"生病 = get sick; 看病 = see a doctor.","tgt":"生病 = enfermarse; 看病 = ir al médico."}
+{"f":"cards","id":"zh.c0432","k":"meaning","src":"medicine","tgt":"medicina"}
+{"f":"cards","id":"zh.c0432","k":"note","src":"吃药 = take medicine.","tgt":"吃药 = tomar medicina."}
+{"f":"cards","id":"zh.c0433","k":"meaning","src":"to want; will","tgt":"querer; ir a"}
+{"f":"cards","id":"zh.c0433","k":"note","src":"我要这个。 Also \"need to\": 你要早点儿睡.","tgt":"我要这个。 También «tener que»: 你要早点儿睡."}
+{"f":"cards","id":"zh.c0434","k":"meaning","src":"to say; to speak","tgt":"decir; hablar"}
+{"f":"cards","id":"zh.c0434","k":"note","src":"说中文 = speak Chinese.","tgt":"说中文 = hablar chino."}
+{"f":"cards","id":"zh.c0435","k":"meaning","src":"can (a learned skill); will","tgt":"saber (hacer algo aprendido); ir a (probabilidad)"}
+{"f":"cards","id":"zh.c0435","k":"note","src":"我会游泳。 明天会下雨。","tgt":"我会游泳。 明天会下雨。","pre":1}
+{"f":"cards","id":"zh.c0436","k":"meaning","src":"to know (a fact)","tgt":"saber (un dato)"}
+{"f":"cards","id":"zh.c0436","k":"note","src":"我不知道。 For people, use 认识.","tgt":"我不知道。 Para personas, usa 认识 (conocer)."}
+{"f":"cards","id":"zh.c0437","k":"meaning","src":"to come","tgt":"venir"}
+{"f":"cards","id":"zh.c0437","k":"note","src":"来了！ = coming! 来一个 = I'll have one.","tgt":"来了！ = ¡ya voy! 来一个 = uno, por favor (al pedir)."}
+{"f":"cards","id":"zh.c0438","k":"meaning","src":"to let; to make (someone do)","tgt":"dejar; hacer que (alguien haga algo)"}
+{"f":"cards","id":"zh.c0438","k":"note","src":"让我看看 = let me see.","tgt":"让我看看 = déjame ver."}
+{"f":"cards","id":"zh.c0439","k":"meaning","src":"to want to; to think; to miss","tgt":"querer (hacer); pensar; extrañar"}
+{"f":"cards","id":"zh.c0439","k":"note","src":"我想去 = I want to go. 想你 = miss you.","tgt":"我想去 = quiero ir. 想你 = te extraño."}
+{"f":"cards","id":"zh.c0440","k":"meaning","src":"may; can (allowed)","tgt":"poder (tener permiso)"}
+{"f":"cards","id":"zh.c0440","k":"note","src":"可以吗？ = is that OK?","tgt":"可以吗？ = ¿se puede?, ¿está bien?"}
+{"f":"cards","id":"zh.c0441","k":"meaning","src":"to do; to make","tgt":"hacer"}
+{"f":"cards","id":"zh.c0441","k":"note","src":"做饭 = cook; 做完 = finish doing.","tgt":"做饭 = cocinar; 做完 = terminar de hacer."}
+{"f":"cards","id":"zh.c0442","k":"meaning","src":"to wait","tgt":"esperar"}
+{"f":"cards","id":"zh.c0442","k":"note","src":"等一下 = wait a moment. After a list: etc.","tgt":"等一下 = espera un momento. Después de una lista: etcétera."}
+{"f":"cards","id":"zh.c0443","k":"meaning","src":"can (able, possible)","tgt":"poder (ser capaz, ser posible)"}
+{"f":"cards","id":"zh.c0443","k":"note","src":"Circumstances allow: 我明天不能来.","tgt":"Las circunstancias lo permiten o no: 我明天不能来."}
+{"f":"cards","id":"zh.c0444","k":"meaning","src":"to listen; to hear","tgt":"escuchar; oír"}
+{"f":"cards","id":"zh.c0444","k":"note","src":"听懂 = understand (by ear); 听不懂 = can't follow.","tgt":"听懂 = entender (al oír); 听不懂 = no entender lo que se oye."}
+{"f":"cards","id":"zh.c0445","k":"meaning","src":"to walk; to leave","tgt":"caminar; irse"}
+{"f":"cards","id":"zh.c0445","k":"note","src":"我走了 = I'm off.","tgt":"我走了 = me voy."}
+{"f":"cards","id":"zh.c0446","k":"meaning","src":"to feel; to think (opinion)","tgt":"sentir; opinar"}
+{"f":"cards","id":"zh.c0446","k":"note","src":"我觉得很好。 Softer than 想.","tgt":"我觉得很好。 Más suave que 想."}
+{"f":"cards","id":"zh.c0447","k":"meaning","src":"to like","tgt":"gustar"}
+{"f":"cards","id":"zh.c0447","k":"note","src":"我喜欢你 is a confession: stronger than English \"like\".","tgt":"Al revés que «gustar», quien siente el gusto es el sujeto. 我喜欢你 (me gustas) es una declaración: dila en serio.","rw":"mentions English"}
+{"f":"cards","id":"zh.c0448","k":"meaning","src":"to look for","tgt":"buscar"}
+{"f":"cards","id":"zh.c0448","k":"note","src":"你找谁？ = who are you looking for?","tgt":"你找谁？ = ¿a quién buscas?"}
+{"f":"cards","id":"zh.c0449","k":"meaning","src":"should; ought to","tgt":"deber; tener que"}
+{"f":"cards","id":"zh.c0449","k":"note","src":"你应该休息。","tgt":"你应该休息。","pre":1}
+{"f":"cards","id":"zh.c0450","k":"meaning","src":"to invite; to treat (pay for)","tgt":"invitar (pagar la cuenta)"}
+{"f":"cards","id":"zh.c0450","k":"note","src":"我请你 = my treat. Also \"please\": 请坐.","tgt":"我请你 = yo invito. También «por favor»: 请坐."}
+{"f":"cards","id":"zh.c0451","k":"meaning","src":"to be called; to call","tgt":"llamarse; llamar"}
+{"f":"cards","id":"zh.c0451","k":"note","src":"我叫安娜。 Also: to shout for, to order.","tgt":"我叫安娜。 También: llamar a alguien en voz alta, pedir algo."}
+{"f":"cards","id":"zh.c0452","k":"meaning","src":"to die","tgt":"morir"}
+{"f":"cards","id":"zh.c0452","k":"note","src":"累死了 = dead tired: a very common exaggeration.","tgt":"累死了 = muerto de cansancio: una exageración muy común, como en español."}
+{"f":"cards","id":"zh.c0453","k":"meaning","src":"to help","tgt":"ayudar"}
+{"f":"cards","id":"zh.c0453","k":"note","src":"帮我一下 = give me a hand.","tgt":"帮我一下 = échame una mano."}
+{"f":"cards","id":"zh.c0454","k":"meaning","src":"to need","tgt":"necesitar"}
+{"f":"cards","id":"zh.c0454","k":"note","src":"你需要什么？","tgt":"你需要什么？","pre":1}
+{"f":"cards","id":"zh.c0455","k":"meaning","src":"to start; to begin","tgt":"empezar; comenzar"}
+{"f":"cards","id":"zh.c0455","k":"note","src":"开始上课 = class starts.","tgt":"开始上课 = empieza la clase."}
+{"f":"cards","id":"zh.c0456","k":"meaning","src":"to bring; to take along","tgt":"llevar (consigo); traer"}
+{"f":"cards","id":"zh.c0456","k":"note","src":"带伞 = bring an umbrella.","tgt":"带伞 = llevar paraguas."}
+{"f":"cards","id":"zh.c0457","k":"meaning","src":"to know (a person); to recognize","tgt":"conocer (a alguien); reconocer"}
+{"f":"cards","id":"zh.c0457","k":"note","src":"认识你很高兴。","tgt":"认识你很高兴。","pre":1}
+{"f":"cards","id":"zh.c0458","k":"meaning","src":"to live; to stay","tgt":"vivir; alojarse"}
+{"f":"cards","id":"zh.c0458","k":"note","src":"住在北京: 在 + place comes after 住.","tgt":"住在北京: 在 + lugar va después de 住."}
+{"f":"cards","id":"zh.c0459","k":"meaning","src":"to learn","tgt":"aprender"}
+{"f":"cards","id":"zh.c0459","k":"note","src":"学会 = learn how (and now can).","tgt":"学会 = aprender a hacer algo (y ya saber hacerlo)."}
+{"f":"cards","id":"zh.c0460","k":"meaning","src":"to study","tgt":"estudiar"}
+{"f":"cards","id":"zh.c0460","k":"note","src":"Fuller than 学: 学习中文.","tgt":"Más completo que 学: 学习中文."}
+{"f":"cards","id":"zh.c0461","k":"meaning","src":"to teach","tgt":"enseñar"}
+{"f":"cards","id":"zh.c0461","k":"note","src":"教我中文 = teach me Chinese.","tgt":"教我中文 = enseñarme chino."}
+{"f":"cards","id":"zh.c0462","k":"meaning","src":"to write","tgt":"escribir"}
+{"f":"cards","id":"zh.c0462","k":"note","src":"写完 = finish writing.","tgt":"写完 = terminar de escribir."}
+{"f":"cards","id":"zh.c0463","k":"meaning","src":"to read (aloud); to study","tgt":"leer (en voz alta); estudiar"}
+{"f":"cards","id":"zh.c0463","k":"note","src":"读书 = read; be at school.","tgt":"读书 = leer; estudiar, ir a la escuela."}
+{"f":"cards","id":"zh.c0464","k":"meaning","src":"to sit; to take (transport)","tgt":"sentarse; ir en (un transporte)"}
+{"f":"cards","id":"zh.c0464","k":"note","src":"请坐。 坐地铁 = take the subway.","tgt":"请坐。 坐地铁 = ir en metro."}
+{"f":"cards","id":"zh.c0465","k":"meaning","src":"to stand","tgt":"estar de pie"}
+{"f":"cards","id":"zh.c0465","k":"note","src":"As a noun: station (车站).","tgt":"Como sustantivo: estación (车站)."}
+{"f":"cards","id":"zh.c0466","k":"meaning","src":"to run","tgt":"correr"}
+{"f":"cards","id":"zh.c0466","k":"note","src":"跑步 = jog.","tgt":"跑步 = trotar."}
+{"f":"cards","id":"zh.c0467","k":"meaning","src":"to return","tgt":"volver"}
+{"f":"cards","id":"zh.c0467","k":"note","src":"回来 = come back; 回去 = go back.","tgt":"回来 = volver (hacia aquí); 回去 = volver (hacia allá)."}
+{"f":"cards","id":"zh.c0468","k":"meaning","src":"to go home","tgt":"volver a casa"}
+{"f":"cards","id":"zh.c0468","k":"note","src":"我六点回家。","tgt":"我六点回家。","pre":1}
+{"f":"cards","id":"zh.c0469","k":"meaning","src":"to enter","tgt":"entrar"}
+{"f":"cards","id":"zh.c0469","k":"note","src":"进来 = come in; 进去 = go in.","tgt":"进来 = entrar (hacia aquí); 进去 = entrar (hacia allá)."}
+{"f":"cards","id":"zh.c0470","k":"meaning","src":"to go out; to come out","tgt":"salir"}
+{"f":"cards","id":"zh.c0470","k":"note","src":"出去 = go out; 出来 = come out.","tgt":"出去 = salir (hacia allá); 出来 = salir (hacia aquí)."}
+{"f":"cards","id":"zh.c0471","k":"meaning","src":"to open; to drive; to switch on","tgt":"abrir; manejar; prender"}
+{"f":"cards","id":"zh.c0471","k":"note","src":"开门, 开车, 开灯.","tgt":"开门, 开车, 开灯.","pre":1}
+{"f":"cards","id":"zh.c0472","k":"meaning","src":"to close; to switch off","tgt":"cerrar; apagar"}
+{"f":"cards","id":"zh.c0472","k":"note","src":"关门, 关灯.","tgt":"关门, 关灯.","pre":1}
+{"f":"cards","id":"zh.c0473","k":"meaning","src":"to wear; to put on (clothes, shoes)","tgt":"ponerse; llevar puesto (ropa, zapatos)"}
+{"f":"cards","id":"zh.c0473","k":"note","src":"穿衣服 = get dressed.","tgt":"穿衣服 = vestirse."}
+{"f":"cards","id":"zh.c0474","k":"meaning","src":"to take; to hold","tgt":"tomar; sostener"}
+{"f":"cards","id":"zh.c0474","k":"note","src":"拿着 = holding it.","tgt":"拿着 = tenerlo en la mano."}
+{"f":"cards","id":"zh.c0475","k":"meaning","src":"to put; to place","tgt":"poner; colocar"}
+{"f":"cards","id":"zh.c0475","k":"note","src":"放在桌子上 = put it on the table.","tgt":"放在桌子上 = ponerlo sobre la mesa."}
+{"f":"cards","id":"zh.c0476","k":"meaning","src":"to give (as a gift); to see off","tgt":"regalar; acompañar (a alguien)"}
+{"f":"cards","id":"zh.c0476","k":"note","src":"送你回家 = see you home.","tgt":"送你回家 = acompañarte a casa."}
+{"f":"cards","id":"zh.c0477","k":"meaning","src":"to play; to have fun","tgt":"jugar; divertirse"}
+{"f":"cards","id":"zh.c0477","k":"note","src":"Erhua (northern); also 玩.","tgt":"Con la terminación 儿 (erhua, del norte); también 玩."}
+{"f":"cards","id":"zh.c0478","k":"meaning","src":"to sleep; to go to bed","tgt":"dormir; acostarse"}
+{"f":"cards","id":"zh.c0478","k":"note","src":"睡 + 觉: 睡好觉 = sleep well.","tgt":"睡 + 觉: 睡好觉 = dormir bien."}
+{"f":"cards","id":"zh.c0479","k":"meaning","src":"to get up","tgt":"levantarse (de la cama)"}
+{"f":"cards","id":"zh.c0479","k":"note","src":"我七点起床。","tgt":"我七点起床。","pre":1}
+{"f":"cards","id":"zh.c0480","k":"meaning","src":"to rest","tgt":"descansar (reposar)"}
+{"f":"cards","id":"zh.c0480","k":"note","src":"好好休息 = get some good rest.","tgt":"好好休息 = descansa bien."}
+{"f":"cards","id":"zh.c0481","k":"meaning","src":"to go to work","tgt":"ir a trabajar"}
+{"f":"cards","id":"zh.c0481","k":"note","src":"下班 = get off work.","tgt":"下班 = salir del trabajo."}
+{"f":"cards","id":"zh.c0482","k":"meaning","src":"to love","tgt":"amar; querer (con amor)"}
+{"f":"cards","id":"zh.c0482","k":"note","src":"我爱你 is heavy: kept for real love and family.","tgt":"我爱你 es más «te amo» que «te quiero»: se reserva para el amor de verdad y la familia."}
+{"f":"cards","id":"zh.c0483","k":"meaning","src":"to understand","tgt":"entender"}
+{"f":"cards","id":"zh.c0483","k":"note","src":"懂了 = got it. 听懂 / 看懂 add how.","tgt":"懂了 = entendido. 听懂 / 看懂 añaden cómo (oyendo, leyendo)."}
+{"f":"cards","id":"zh.c0484","k":"meaning","src":"to forget","tgt":"olvidar"}
+{"f":"cards","id":"zh.c0484","k":"note","src":"Usually 忘了: 我忘了。","tgt":"Casi siempre 忘了: 我忘了。"}
+{"f":"cards","id":"zh.c0485","k":"meaning","src":"to remember","tgt":"recordar; acordarse"}
+{"f":"cards","id":"zh.c0485","k":"note","src":"你还记得我吗？","tgt":"你还记得我吗？","pre":1}
+{"f":"cards","id":"zh.c0486","k":"meaning","src":"to hope","tgt":"esperar (desear)"}
+{"f":"cards","id":"zh.c0486","k":"note","src":"希望你喜欢。","tgt":"希望你喜欢。","pre":1}
+{"f":"cards","id":"zh.c0487","k":"meaning","src":"to plan; to intend","tgt":"planear; tener pensado"}
+{"f":"cards","id":"zh.c0487","k":"note","src":"你打算做什么？","tgt":"你打算做什么？","pre":1}
+{"f":"cards","id":"zh.c0488","k":"meaning","src":"to prepare; to get ready","tgt":"preparar; prepararse"}
+{"f":"cards","id":"zh.c0488","k":"note","src":"准备好了吗？ = ready?","tgt":"准备好了吗？ = ¿estás listo?"}
+{"f":"cards","id":"zh.c0489","k":"meaning","src":"to see; to meet","tgt":"ver; encontrarse con"}
+{"f":"cards","id":"zh.c0489","k":"note","src":"明天见 = see you tomorrow.","tgt":"明天见 = hasta mañana."}
+{"f":"cards","id":"zh.c0490","k":"meaning","src":"to meet up","tgt":"verse (con alguien)"}
+{"f":"cards","id":"zh.c0490","k":"note","src":"No object: 跟你见面 = meet you.","tgt":"Sin objeto: 跟你见面 = verme contigo."}
+{"f":"cards","id":"zh.c0491","k":"meaning","src":"to change; to exchange","tgt":"cambiar"}
+{"f":"cards","id":"zh.c0491","k":"note","src":"换钱 = change money.","tgt":"换钱 = cambiar dinero."}
+{"f":"cards","id":"zh.c0492","k":"meaning","src":"to try","tgt":"probar; intentar"}
+{"f":"cards","id":"zh.c0492","k":"note","src":"试试 = give it a try.","tgt":"试试 = probar un poco."}
+{"f":"cards","id":"zh.c0493","k":"meaning","src":"to introduce","tgt":"presentar"}
+{"f":"cards","id":"zh.c0493","k":"note","src":"我介绍一下 = let me introduce.","tgt":"我介绍一下 = permíteme presentar."}
+{"f":"cards","id":"zh.c0494","k":"meaning","src":"to welcome","tgt":"dar la bienvenida"}
+{"f":"cards","id":"zh.c0494","k":"note","src":"欢迎！ = welcome!","tgt":"欢迎！ = ¡bienvenido!"}
+{"f":"cards","id":"zh.c0495","k":"meaning","src":"to sing","tgt":"cantar"}
+{"f":"cards","id":"zh.c0495","k":"note","src":"Verb + object: 唱歌 = sing (songs).","tgt":"Verbo + objeto: 唱歌 = cantar (canciones)."}
+{"f":"cards","id":"zh.c0496","k":"meaning","src":"to dance","tgt":"bailar"}
+{"f":"cards","id":"zh.c0497","k":"meaning","src":"to swim","tgt":"nadar"}
+{"f":"cards","id":"zh.c0497","k":"note","src":"会游泳 = can swim.","tgt":"会游泳 = saber nadar."}
+{"f":"cards","id":"zh.c0498","k":"meaning","src":"to jog; to go running","tgt":"trotar; salir a correr"}
+{"f":"cards","id":"zh.c0498","k":"note","src":"每天跑步 = run every day.","tgt":"每天跑步 = correr todos los días."}
+{"f":"cards","id":"zh.c0499","k":"meaning","src":"to exercise; sport","tgt":"hacer ejercicio; deporte"}
+{"f":"cards","id":"zh.c0499","k":"note","src":"多运动 = exercise more.","tgt":"多运动 = haz más ejercicio."}
+{"f":"cards","id":"zh.c0500","k":"meaning","src":"to travel (as a tourist)","tgt":"viajar (de turismo)"}
+{"f":"cards","id":"zh.c0500","k":"note","src":"去西安旅游 = take a trip to Xi'an.","tgt":"去西安旅游 = irse de viaje a Xi'an."}
+{"f":"cards","id":"zh.c0501","k":"meaning","src":"to drive","tgt":"manejar (un auto)"}
+{"f":"cards","id":"zh.c0501","k":"note","src":"会开车 = can drive.","tgt":"会开车 = saber manejar."}
+{"f":"cards","id":"zh.c0502","k":"meaning","src":"to make a phone call","tgt":"llamar por teléfono"}
+{"f":"cards","id":"zh.c0502","k":"note","src":"给我打电话 = call me.","tgt":"给我打电话 = llámame."}
+{"f":"cards","id":"zh.c0503","k":"meaning","src":"to go online","tgt":"conectarse a internet"}
+{"f":"cards","id":"zh.c0504","k":"meaning","src":"to take an exam; exam","tgt":"presentar un examen; examen"}
+{"f":"cards","id":"zh.c0504","k":"note","src":"明天考试 = the exam is tomorrow.","tgt":"明天考试 = el examen es mañana."}
+{"f":"cards","id":"zh.c0505","k":"meaning","src":"to get married","tgt":"casarse"}
+{"f":"cards","id":"zh.c0505","k":"note","src":"结婚了 = is married.","tgt":"结婚了 = está casado."}
+{"f":"cards","id":"zh.c0506","k":"meaning","src":"to get sick","tgt":"enfermarse"}
+{"f":"cards","id":"zh.c0506","k":"note","src":"生病了 = is sick.","tgt":"生病了 = está enfermo."}
+{"f":"cards","id":"zh.c0507","k":"meaning","src":"to cry","tgt":"llorar"}
+{"f":"cards","id":"zh.c0507","k":"note","src":"别哭 = don't cry.","tgt":"别哭 = no llores."}
+{"f":"cards","id":"zh.c0508","k":"meaning","src":"to send","tgt":"enviar"}
+{"f":"cards","id":"zh.c0508","k":"note","src":"发微信 = send a WeChat message.","tgt":"发微信 = mandar un mensaje de WeChat."}
+{"f":"cards","id":"zh.c0509","k":"meaning","src":"to pay","tgt":"pagar"}
+{"f":"cards","id":"zh.c0509","k":"note","src":"付钱 = pay.","tgt":"付钱 = pagar."}
+{"f":"cards","id":"zh.c0510","k":"meaning","src":"to lose (something)","tgt":"perder (algo)"}
+{"f":"cards","id":"zh.c0510","k":"note","src":"我的手机丢了 = I've lost my phone.","tgt":"我的手机丢了 = perdí el celular."}
+{"f":"cards","id":"zh.c0511","k":"meaning","src":"to help out; to do a favor","tgt":"echar una mano; hacer un favor"}
+{"f":"cards","id":"zh.c0511","k":"note","src":"No object: 帮个忙.","tgt":"Sin objeto: 帮个忙."}
+{"f":"cards","id":"zh.c0512","k":"meaning","src":"to worry","tgt":"preocuparse"}
+{"f":"cards","id":"zh.c0512","k":"note","src":"别担心 = don't worry.","tgt":"别担心 = no te preocupes."}
+{"f":"cards","id":"zh.c0513","k":"meaning","src":"to get angry","tgt":"enojarse"}
+{"f":"cards","id":"zh.c0513","k":"note","src":"别生气 = don't be mad.","tgt":"别生气 = no te enojes."}
+{"f":"cards","id":"zh.c0514","k":"meaning","src":"to take a shower or bath","tgt":"bañarse; ducharse"}
+{"f":"cards","id":"zh.c0515","k":"meaning","src":"to hit; to play (ball); to make (a call)","tgt":"golpear; jugar (a la pelota); hacer (una llamada)"}
+{"f":"cards","id":"zh.c0515","k":"note","src":"打球, 打车, 打电话.","tgt":"打球, 打车, 打电话.","pre":1}
+{"f":"cards","id":"zh.c0516","k":"meaning","src":"to see (catch sight of)","tgt":"ver (alcanzar a ver)"}
+{"f":"cards","id":"zh.c0516","k":"note","src":"看 + 见 (result): 你看见了吗？","tgt":"看 + 见 (resultado): 你看见了吗？"}
+{"f":"cards","id":"zh.c0517","k":"meaning","src":"to hear (that); to be told","tgt":"oír decir (que)"}
+{"f":"cards","id":"zh.c0517","k":"note","src":"听说你结婚了！","tgt":"听说你结婚了！","pre":1}
+{"f":"cards","id":"zh.c0518","k":"meaning","src":"to talk","tgt":"hablar; conversar"}
+{"f":"cards","id":"zh.c0518","k":"note","src":"别说话 = be quiet.","tgt":"别说话 = no hables, silencio."}
+{"f":"cards","id":"zh.c0519","k":"meaning","src":"to eat (a meal)","tgt":"comer (una comida)"}
+{"f":"cards","id":"zh.c0519","k":"note","src":"吃饭了吗？ = have you eaten? (a greeting)","tgt":"吃饭了吗？ = ¿ya comiste? (saludo)"}
+{"f":"cards","id":"zh.c0520","k":"meaning","src":"to finish","tgt":"terminar"}
+{"f":"cards","id":"zh.c0520","k":"note","src":"After a verb: 吃完, 做完.","tgt":"Después de un verbo: 吃完, 做完."}
+{"f":"cards","id":"zh.c0521","k":"meaning","src":"fast; quick","tgt":"rápido"}
+{"f":"cards","id":"zh.c0521","k":"note","src":"Adjectives work like verbs: 他很快 (no 是).","tgt":"Los adjetivos funcionan como verbos: 他很快 (sin 是)."}
+{"f":"cards","id":"zh.c0522","k":"meaning","src":"new","tgt":"nuevo"}
+{"f":"cards","id":"zh.c0522","k":"note","src":"Before a noun: 新手机.","tgt":"Va antes del sustantivo: 新手机 (celular nuevo)."}
+{"f":"cards","id":"zh.c0523","k":"meaning","src":"many; much","tgt":"mucho; muchos"}
+{"f":"cards","id":"zh.c0523","k":"note","src":"Before a noun: 很多人, not 多人.","tgt":"Antes de un sustantivo: 很多人, no 多人."}
+{"f":"cards","id":"zh.c0524","k":"meaning","src":"the same","tgt":"igual; lo mismo"}
+{"f":"cards","id":"zh.c0524","k":"note","src":"跟…一样 = the same as.","tgt":"跟…一样 = igual que."}
+{"f":"cards","id":"zh.c0525","k":"meaning","src":"few; little","tgt":"poco; pocos"}
+{"f":"cards","id":"zh.c0525","k":"note","src":"人很少 = there are few people.","tgt":"人很少 = hay poca gente."}
+{"f":"cards","id":"zh.c0526","k":"meaning","src":"long","tgt":"largo"}
+{"f":"cards","id":"zh.c0526","k":"note","src":"很长. Reads cháng here.","tgt":"很长. Aquí se lee cháng."}
+{"f":"cards","id":"zh.c0527","k":"meaning","src":"short (length)","tgt":"corto (de longitud)"}
+{"f":"cards","id":"zh.c0527","k":"note","src":"For people's height: 矮.","tgt":"Para la estatura: 矮."}
+{"f":"cards","id":"zh.c0528","k":"meaning","src":"short (height)","tgt":"bajo (de estatura)"}
+{"f":"cards","id":"zh.c0528","k":"note","src":"Opposite of 高.","tgt":"Lo contrario de 高."}
+{"f":"cards","id":"zh.c0529","k":"meaning","src":"old (things)","tgt":"viejo (cosas)"}
+{"f":"cards","id":"zh.c0529","k":"note","src":"For people: 老.","tgt":"Para personas: 老."}
+{"f":"cards","id":"zh.c0530","k":"meaning","src":"old (people)","tgt":"viejo; mayor (personas)"}
+{"f":"cards","id":"zh.c0530","k":"note","src":"老王 = \"old Wang\", friendly.","tgt":"老王 = «viejo Wang», en tono amistoso."}
+{"f":"cards","id":"zh.c0531","k":"meaning","src":"slow","tgt":"lento"}
+{"f":"cards","id":"zh.c0531","k":"note","src":"慢点儿 = slow down.","tgt":"慢点儿 = más despacio."}
+{"f":"cards","id":"zh.c0532","k":"meaning","src":"early","tgt":"temprano"}
+{"f":"cards","id":"zh.c0532","k":"note","src":"早！ = morning! (a greeting)","tgt":"早！ = ¡buenos días! (saludo)"}
+{"f":"cards","id":"zh.c0533","k":"meaning","src":"late","tgt":"tarde"}
+{"f":"cards","id":"zh.c0533","k":"note","src":"晚了 = it's late.","tgt":"晚了 = ya es tarde."}
+{"f":"cards","id":"zh.c0534","k":"meaning","src":"cold","tgt":"frío"}
+{"f":"cards","id":"zh.c0534","k":"note","src":"No 是: 今天很冷.","tgt":"Sin 是: 今天很冷."}
+{"f":"cards","id":"zh.c0535","k":"meaning","src":"hot","tgt":"caliente; caluroso"}
+{"f":"cards","id":"zh.c0535","k":"note","src":"Weather and food: 很热.","tgt":"Para el clima y la comida: 很热."}
+{"f":"cards","id":"zh.c0536","k":"meaning","src":"busy","tgt":"ocupado"}
+{"f":"cards","id":"zh.c0536","k":"note","src":"Answer 你忙吗？ with 很忙, not 是.","tgt":"A 你忙吗？ se responde 很忙, no 是."}
+{"f":"cards","id":"zh.c0537","k":"meaning","src":"tired","tgt":"cansado"}
+{"f":"cards","id":"zh.c0537","k":"note","src":"累死了 = exhausted.","tgt":"累死了 = agotado."}
+{"f":"cards","id":"zh.c0538","k":"meaning","src":"hungry","tgt":"hambriento"}
+{"f":"cards","id":"zh.c0538","k":"note","src":"Usually 饿了: 我饿了.","tgt":"Casi siempre 饿了: 我饿了 (tengo hambre), sin ningún «tener»."}
+{"f":"cards","id":"zh.c0539","k":"meaning","src":"thirsty","tgt":"sediento"}
+{"f":"cards","id":"zh.c0539","k":"note","src":"渴了 = I'm thirsty.","tgt":"渴了 = tengo sed."}
+{"f":"cards","id":"zh.c0540","k":"meaning","src":"sleepy","tgt":"con sueño"}
+{"f":"cards","id":"zh.c0540","k":"note","src":"困了 = I'm sleepy.","tgt":"困了 = tengo sueño."}
+{"f":"cards","id":"zh.c0541","k":"meaning","src":"far","tgt":"lejos"}
+{"f":"cards","id":"zh.c0541","k":"note","src":"离这儿远吗？","tgt":"离这儿远吗？","pre":1}
+{"f":"cards","id":"zh.c0542","k":"meaning","src":"near; close","tgt":"cerca"}
+{"f":"cards","id":"zh.c0542","k":"note","src":"很近 = very close.","tgt":"很近 = muy cerca."}
+{"f":"cards","id":"zh.c0543","k":"meaning","src":"expensive","tgt":"caro"}
+{"f":"cards","id":"zh.c0543","k":"note","src":"太贵了！ = too expensive!","tgt":"太贵了！ = ¡qué caro!"}
+{"f":"cards","id":"zh.c0544","k":"meaning","src":"cheap","tgt":"barato"}
+{"f":"cards","id":"zh.c0544","k":"note","src":"便宜一点儿吧 = a bit cheaper?","tgt":"便宜一点儿吧 = ¿un poco más barato?"}
+{"f":"cards","id":"zh.c0545","k":"meaning","src":"fat; chubby","tgt":"gordo; gordito"}
+{"f":"cards","id":"zh.c0545","k":"note","src":"Said more freely than in English, but it can still sting.","tgt":"En China se comenta con bastante libertad, pero puede doler igual.","rw":"mentions English"}
+{"f":"cards","id":"zh.c0546","k":"meaning","src":"thin; slim","tgt":"delgado"}
+{"f":"cards","id":"zh.c0546","k":"note","src":"Often a compliment in China.","tgt":"En China suele ser un cumplido."}
+{"f":"cards","id":"zh.c0547","k":"meaning","src":"sour","tgt":"ácido; agrio"}
+{"f":"cards","id":"zh.c0548","k":"meaning","src":"bitter","tgt":"amargo"}
+{"f":"cards","id":"zh.c0548","k":"note","src":"Also \"hard (life)\".","tgt":"También «duro» (la vida)."}
+{"f":"cards","id":"zh.c0549","k":"meaning","src":"spicy","tgt":"picante"}
+{"f":"cards","id":"zh.c0549","k":"note","src":"不辣 = not spicy.","tgt":"不辣 = no pica."}
+{"f":"cards","id":"zh.c0550","k":"meaning","src":"salty","tgt":"salado"}
+{"f":"cards","id":"zh.c0551","k":"meaning","src":"fragrant; smells good","tgt":"aromático; que huele bien"}
+{"f":"cards","id":"zh.c0551","k":"note","src":"真香 = smells great.","tgt":"真香 = ¡qué bien huele!"}
+{"f":"cards","id":"zh.c0552","k":"meaning","src":"tasty (food)","tgt":"rico (comida)"}
+{"f":"cards","id":"zh.c0552","k":"note","src":"For drinks: 好喝.","tgt":"Para bebidas: 好喝. En español «rico» sirve para las dos cosas."}
+{"f":"cards","id":"zh.c0553","k":"meaning","src":"tasty (drinks)","tgt":"rico (bebida)"}
+{"f":"cards","id":"zh.c0554","k":"meaning","src":"difficult","tgt":"difícil"}
+{"f":"cards","id":"zh.c0554","k":"note","src":"中文不难。","tgt":"中文不难。","pre":1}
+{"f":"cards","id":"zh.c0555","k":"meaning","src":"easy","tgt":"fácil"}
+{"f":"cards","id":"zh.c0555","k":"note","src":"不容易 = not easy.","tgt":"不容易 = no es fácil."}
+{"f":"cards","id":"zh.c0556","k":"meaning","src":"simple","tgt":"sencillo"}
+{"f":"cards","id":"zh.c0557","k":"meaning","src":"comfortable; well","tgt":"cómodo; a gusto"}
+{"f":"cards","id":"zh.c0557","k":"note","src":"不舒服 = unwell.","tgt":"不舒服 = sentirse mal."}
+{"f":"cards","id":"zh.c0558","k":"meaning","src":"convenient","tgt":"práctico; conveniente"}
+{"f":"cards","id":"zh.c0558","k":"note","src":"方便吗？ = is it a good time for you?","tgt":"方便吗？ = ¿te viene bien ahora?"}
+{"f":"cards","id":"zh.c0559","k":"meaning","src":"clean","tgt":"limpio"}
+{"f":"cards","id":"zh.c0560","k":"meaning","src":"quiet","tgt":"tranquilo; silencioso"}
+{"f":"cards","id":"zh.c0561","k":"meaning","src":"lively; bustling","tgt":"animado; con mucho ambiente"}
+{"f":"cards","id":"zh.c0561","k":"note","src":"A good thing in China.","tgt":"En China es algo bueno."}
+{"f":"cards","id":"zh.c0562","k":"meaning","src":"famous","tgt":"famoso"}
+{"f":"cards","id":"zh.c0563","k":"meaning","src":"important","tgt":"importante"}
+{"f":"cards","id":"zh.c0564","k":"meaning","src":"glad; happy","tgt":"contento; alegre"}
+{"f":"cards","id":"zh.c0564","k":"note","src":"很高兴认识你.","tgt":"很高兴认识你.","pre":1}
+{"f":"cards","id":"zh.c0565","k":"meaning","src":"happy (on occasions)","tgt":"feliz (en celebraciones)"}
+{"f":"cards","id":"zh.c0565","k":"note","src":"生日快乐 = happy birthday.","tgt":"生日快乐 = feliz cumpleaños."}
+{"f":"cards","id":"zh.c0566","k":"meaning","src":"sad","tgt":"triste"}
+{"f":"cards","id":"zh.c0567","k":"meaning","src":"wrong","tgt":"equivocado; incorrecto"}
+{"f":"cards","id":"zh.c0567","k":"note","src":"你错了 = you're wrong.","tgt":"你错了 = te equivocas."}
+{"f":"cards","id":"zh.c0568","k":"meaning","src":"pretty good; not bad","tgt":"bastante bueno; nada mal"}
+{"f":"cards","id":"zh.c0568","k":"note","src":"A real compliment, warmer than it sounds.","tgt":"Un cumplido de verdad, más cálido de lo que parece."}
+{"f":"cards","id":"zh.c0569","k":"meaning","src":"clear","tgt":"claro"}
+{"f":"cards","id":"zh.c0569","k":"note","src":"说清楚 = say it clearly.","tgt":"说清楚 = decirlo claramente."}
+{"f":"cards","id":"zh.c0570","k":"meaning","src":"understood; clear","tgt":"entendido; comprendido"}
+{"f":"cards","id":"zh.c0570","k":"note","src":"明白了 = I see.","tgt":"明白了 = ya entiendo."}
+{"f":"cards","id":"zh.c0571","k":"meaning","src":"healthy","tgt":"sano"}
+{"f":"cards","id":"zh.c0572","k":"meaning","src":"dangerous","tgt":"peligroso"}
+{"f":"cards","id":"zh.c0573","k":"meaning","src":"safe","tgt":"seguro"}
+{"f":"cards","id":"zh.c0574","k":"meaning","src":"amazing; formidable","tgt":"increíble; impresionante"}
+{"f":"cards","id":"zh.c0574","k":"note","src":"你真厉害 = you're amazing.","tgt":"你真厉害 = ¡eres increíble!"}
+{"f":"cards","id":"zh.c0575","k":"meaning","src":"warm (weather)","tgt":"templado (clima)"}
+{"f":"cards","id":"zh.c0576","k":"meaning","src":"pleasantly cool","tgt":"fresco (agradable)"}
+{"f":"cards","id":"zh.c0577","k":"meaning","src":"bad; broken","tgt":"malo; descompuesto"}
+{"f":"cards","id":"zh.c0577","k":"note","src":"坏了 = broken.","tgt":"坏了 = se descompuso."}
+{"f":"cards","id":"zh.c0578","k":"meaning","src":"red","tgt":"rojo"}
+{"f":"cards","id":"zh.c0578","k":"note","src":"The lucky color. The noun: 红色.","tgt":"El color de la suerte. El sustantivo: 红色."}
+{"f":"cards","id":"zh.c0579","k":"meaning","src":"white","tgt":"blanco"}
+{"f":"cards","id":"zh.c0579","k":"note","src":"The noun: 白色.","tgt":"El sustantivo: 白色."}
+{"f":"cards","id":"zh.c0580","k":"meaning","src":"black; dark","tgt":"negro; oscuro"}
+{"f":"cards","id":"zh.c0580","k":"note","src":"天黑了 = it's dark.","tgt":"天黑了 = ya oscureció."}
+{"f":"cards","id":"zh.c0581","k":"meaning","src":"yellow","tgt":"amarillo"}
+{"f":"cards","id":"zh.c0582","k":"meaning","src":"blue","tgt":"azul"}
+{"f":"cards","id":"zh.c0582","k":"note","src":"蓝天 = blue sky.","tgt":"蓝天 = cielo azul."}
+{"f":"cards","id":"zh.c0583","k":"meaning","src":"rich","tgt":"rico (con dinero)"}
+{"f":"cards","id":"zh.c0584","k":"meaning","src":"boring","tgt":"aburrido"}
+{"f":"cards","id":"zh.c0584","k":"note","src":"Opposite of 有意思.","tgt":"Lo contrario de 有意思."}
+{"f":"cards","id":"zh.c0585","k":"meaning","src":"about the same; almost","tgt":"casi igual; casi"}
+{"f":"cards","id":"zh.c0585","k":"note","src":"差不多了 = almost done.","tgt":"差不多了 = ya casi está."}
+{"f":"cards","id":"zh.c0586","k":"meaning","src":"sunny","tgt":"despejado; soleado"}
+{"f":"cards","id":"zh.c0586","k":"note","src":"晴天 = a sunny day.","tgt":"晴天 = un día soleado."}
+{"f":"cards","id":"zh.c0587","k":"meaning","src":"cloudy; overcast","tgt":"nublado"}
+{"f":"cards","id":"zh.c0587","k":"note","src":"阴天 = a gray day.","tgt":"阴天 = un día gris."}
+{"f":"cards","id":"zh.c0588","k":"meaning","src":"not","tgt":"no"}
+{"f":"cards","id":"zh.c0588","k":"note","src":"Before a verb or adjective: 不去, 不好. Bú before a fourth tone.","tgt":"Antes de un verbo o adjetivo: 不去, 不好. Bú antes de un cuarto tono."}
+{"f":"cards","id":"zh.c0589","k":"meaning","src":"just; right away; then","tgt":"justo; enseguida; entonces"}
+{"f":"cards","id":"zh.c0589","k":"note","src":"我就来 = I'm coming right now.","tgt":"我就来 = ya voy, ahora mismo."}
+{"f":"cards","id":"zh.c0590","k":"meaning","src":"also; too","tgt":"también"}
+{"f":"cards","id":"zh.c0590","k":"note","src":"Before the verb: 我也去. Never at the end.","tgt":"Antes del verbo: 我也去. Nunca al final."}
+{"f":"cards","id":"zh.c0591","k":"meaning","src":"all; both","tgt":"todos; los dos"}
+{"f":"cards","id":"zh.c0591","k":"note","src":"Before the verb: 我们都去.","tgt":"Antes del verbo: 我们都去."}
+{"f":"cards","id":"zh.c0592","k":"meaning","src":"very","tgt":"muy"}
+{"f":"cards","id":"zh.c0592","k":"note","src":"Links subject and adjective: 我很忙 (no 是).","tgt":"Une el sujeto y el adjetivo: 我很忙 (sin 是)."}
+{"f":"cards","id":"zh.c0593","k":"meaning","src":"still; also","tgt":"todavía; además"}
+{"f":"cards","id":"zh.c0593","k":"note","src":"他还在睡觉 = he's still asleep.","tgt":"他还在睡觉 = todavía está dormido."}
+{"f":"cards","id":"zh.c0594","k":"meaning","src":"don't","tgt":"no (en mandatos)"}
+{"f":"cards","id":"zh.c0594","k":"note","src":"别走！ = don't go!","tgt":"别走！ = ¡no te vayas!"}
+{"f":"cards","id":"zh.c0595","k":"meaning","src":"really; truly","tgt":"de verdad; en serio"}
+{"f":"cards","id":"zh.c0595","k":"note","src":"真的吗？ = really?","tgt":"真的吗？ = ¿de verdad?"}
+{"f":"cards","id":"zh.c0596","k":"meaning","src":"now","tgt":"ahora"}
+{"f":"cards","id":"zh.c0596","k":"note","src":"Before the verb: 我现在很忙.","tgt":"Antes del verbo: 我现在很忙."}
+{"f":"cards","id":"zh.c0597","k":"meaning","src":"too; so (very)","tgt":"demasiado; tan"}
+{"f":"cards","id":"zh.c0597","k":"note","src":"太贵了 = too expensive; 太好了 = great!","tgt":"太贵了 = demasiado caro; 太好了 = ¡genial!"}
+{"f":"cards","id":"zh.c0598","k":"meaning","src":"not (didn't; haven't)","tgt":"no (para lo que no pasó)"}
+{"f":"cards","id":"zh.c0598","k":"note","src":"For the past and for 有: 我没去.","tgt":"Para lo que no pasó y para 有: 我没去."}
+{"f":"cards","id":"zh.c0599","k":"meaning","src":"really; so","tgt":"realmente; ¡qué…!"}
+{"f":"cards","id":"zh.c0599","k":"note","src":"Before adjectives: 真好.","tgt":"Antes de un adjetivo: 真好."}
+{"f":"cards","id":"zh.c0600","k":"meaning","src":"already","tgt":"ya"}
+{"f":"cards","id":"zh.c0600","k":"note","src":"Often with 了: 我已经吃了.","tgt":"Suele ir con 了: 我已经吃了."}
+{"f":"cards","id":"zh.c0601","k":"meaning","src":"only then; not until","tgt":"recién; no hasta"}
+{"f":"cards","id":"zh.c0601","k":"note","src":"他十点才来 = he didn't come till ten.","tgt":"他十点才来 = no llegó hasta las diez."}
+{"f":"cards","id":"zh.c0602","k":"meaning","src":"together","tgt":"juntos"}
+{"f":"cards","id":"zh.c0602","k":"note","src":"一起去吧 = let's go together.","tgt":"一起去吧 = vamos juntos."}
+{"f":"cards","id":"zh.c0603","k":"meaning","src":"only","tgt":"solo; solamente"}
+{"f":"cards","id":"zh.c0603","k":"note","src":"我只有一个 = I have only one.","tgt":"我只有一个 = solo tengo uno."}
+{"f":"cards","id":"zh.c0604","k":"meaning","src":"a bit; briefly (softens a verb)","tgt":"un momento; un poco (suaviza el verbo)"}
+{"f":"cards","id":"zh.c0604","k":"note","src":"等一下 = wait a moment.","tgt":"等一下 = espera un momento."}
+{"f":"cards","id":"zh.c0605","k":"meaning","src":"again (next time)","tgt":"otra vez (la próxima)"}
+{"f":"cards","id":"zh.c0605","k":"note","src":"再见 = see you again.","tgt":"再见 = adiós (literalmente «otra vez ver»)."}
+{"f":"cards","id":"zh.c0606","k":"meaning","src":"most","tgt":"el más"}
+{"f":"cards","id":"zh.c0606","k":"note","src":"最好 = best.","tgt":"最好 = lo mejor."}
+{"f":"cards","id":"zh.c0607","k":"meaning","src":"maybe; possibly","tgt":"quizás; posiblemente"}
+{"f":"cards","id":"zh.c0607","k":"note","src":"他可能不来。","tgt":"他可能不来。","pre":1}
+{"f":"cards","id":"zh.c0608","k":"meaning","src":"even more","tgt":"aún más"}
+{"f":"cards","id":"zh.c0608","k":"note","src":"更好 = even better.","tgt":"更好 = aún mejor."}
+{"f":"cards","id":"zh.c0609","k":"meaning","src":"extremely","tgt":"extremadamente"}
+{"f":"cards","id":"zh.c0609","k":"note","src":"Stronger than 很.","tgt":"Más fuerte que 很."}
+{"f":"cards","id":"zh.c0610","k":"meaning","src":"a little (too)","tgt":"un poco (de más)"}
+{"f":"cards","id":"zh.c0610","k":"note","src":"Usually for bad things: 有点儿贵.","tgt":"Casi siempre para cosas malas: 有点儿贵."}
+{"f":"cards","id":"zh.c0611","k":"meaning","src":"recently; lately","tgt":"últimamente"}
+{"f":"cards","id":"zh.c0611","k":"note","src":"最近怎么样？","tgt":"最近怎么样？","pre":1}
+{"f":"cards","id":"zh.c0612","k":"meaning","src":"rather; fairly","tgt":"bastante; relativamente"}
+{"f":"cards","id":"zh.c0612","k":"note","src":"比较贵 = on the pricey side.","tgt":"比较贵 = más bien caro."}
+{"f":"cards","id":"zh.c0613","k":"meaning","src":"at once; right away","tgt":"enseguida; ahora mismo"}
+{"f":"cards","id":"zh.c0613","k":"note","src":"马上来！ = coming right up!","tgt":"马上来！ = ¡ya va, enseguida!"}
+{"f":"cards","id":"zh.c0614","k":"meaning","src":"in the middle of (doing)","tgt":"estar haciendo (justo ahora)"}
+{"f":"cards","id":"zh.c0614","k":"note","src":"我正在吃饭.","tgt":"我正在吃饭.","pre":1}
+{"f":"cards","id":"zh.c0615","k":"meaning","src":"often","tgt":"a menudo"}
+{"f":"cards","id":"zh.c0615","k":"note","src":"我常常去.","tgt":"我常常去.","pre":1}
+{"f":"cards","id":"zh.c0616","k":"meaning","src":"frequently","tgt":"con frecuencia"}
+{"f":"cards","id":"zh.c0616","k":"note","src":"Same as 常常, a little more formal.","tgt":"Igual que 常常, un poco más formal."}
+{"f":"cards","id":"zh.c0617","k":"meaning","src":"always","tgt":"siempre"}
+{"f":"cards","id":"zh.c0617","k":"note","src":"他总是很忙.","tgt":"他总是很忙.","pre":1}
+{"f":"cards","id":"zh.c0618","k":"meaning","src":"sometimes","tgt":"a veces"}
+{"f":"cards","id":"zh.c0619","k":"meaning","src":"just now","tgt":"hace un momento"}
+{"f":"cards","id":"zh.c0619","k":"note","src":"刚才谁来了？","tgt":"刚才谁来了？","pre":1}
+{"f":"cards","id":"zh.c0620","k":"meaning","src":"first (before others)","tgt":"primero (antes que otros)"}
+{"f":"cards","id":"zh.c0620","k":"note","src":"你先走 = you go first.","tgt":"你先走 = ve tú primero."}
+{"f":"cards","id":"zh.c0621","k":"meaning","src":"definitely; must","tgt":"sin falta; seguro"}
+{"f":"cards","id":"zh.c0621","k":"note","src":"一定要来 = you must come.","tgt":"一定要来 = tienes que venir sin falta."}
+{"f":"cards","id":"zh.c0622","k":"meaning","src":"all along; straight on","tgt":"todo el tiempo; derecho"}
+{"f":"cards","id":"zh.c0622","k":"note","src":"一直走 = go straight.","tgt":"一直走 = sigue derecho."}
+{"f":"cards","id":"zh.c0623","k":"meaning","src":"of course","tgt":"claro; por supuesto"}
+{"f":"cards","id":"zh.c0623","k":"note","src":"当然可以！ = of course!","tgt":"当然可以！ = ¡claro que sí!"}
+{"f":"cards","id":"zh.c0624","k":"meaning","src":"actually; in fact","tgt":"en realidad"}
+{"f":"cards","id":"zh.c0625","k":"meaning","src":"usually; generally","tgt":"normalmente; en general"}
+{"f":"cards","id":"zh.c0625","k":"note","src":"Also \"ordinary, so-so\".","tgt":"También «normal, regular»."}
+{"f":"cards","id":"zh.c0626","k":"meaning","src":"slowly; little by little","tgt":"despacio; poco a poco"}
+{"f":"cards","id":"zh.c0626","k":"note","src":"慢慢吃 = enjoy your meal.","tgt":"慢慢吃 = buen provecho (literalmente «come despacio»)."}
+{"f":"cards","id":"zh.c0627","k":"meaning","src":"properly; well","tgt":"bien; como se debe"}
+{"f":"cards","id":"zh.c0627","k":"note","src":"好好休息 = get good rest.","tgt":"好好休息 = descansa bien."}
+{"f":"cards","id":"zh.c0628","k":"meaning","src":"I; me","tgt":"yo; me"}
+{"f":"cards","id":"zh.c0628","k":"note","src":"One form for I and me.","tgt":"Una sola forma para «yo», «me» y «mí»."}
+{"f":"cards","id":"zh.c0629","k":"meaning","src":"you (one person)","tgt":"tú"}
+{"f":"cards","id":"zh.c0629","k":"note","src":"The friendly default. Polite: 您.","tgt":"La forma amistosa normal. De respeto: 您."}
+{"f":"cards","id":"zh.c0630","k":"meaning","src":"he; him","tgt":"él"}
+{"f":"cards","id":"zh.c0630","k":"note","src":"Sounds the same as 她 and 它: tā.","tgt":"Suena igual que 她 y 它: tā."}
+{"f":"cards","id":"zh.c0631","k":"meaning","src":"this","tgt":"este; esto"}
+{"f":"cards","id":"zh.c0631","k":"note","src":"Usually + measure word: 这本书.","tgt":"Casi siempre + clasificador: 这本书."}
+{"f":"cards","id":"zh.c0632","k":"meaning","src":"she; her","tgt":"ella"}
+{"f":"cards","id":"zh.c0632","k":"note","src":"Sounds the same as 他: tā.","tgt":"Suena igual que 他: tā."}
+{"f":"cards","id":"zh.c0633","k":"meaning","src":"that","tgt":"ese; eso"}
+{"f":"cards","id":"zh.c0633","k":"note","src":"那个 = that one. Also \"then, in that case\".","tgt":"那个 = ese. También «entonces, en ese caso»."}
+{"f":"cards","id":"zh.c0634","k":"meaning","src":"oneself; myself","tgt":"uno mismo; yo mismo"}
+{"f":"cards","id":"zh.c0634","k":"note","src":"我自己 = myself.","tgt":"我自己 = yo mismo."}
+{"f":"cards","id":"zh.c0635","k":"meaning","src":"you (more than one)","tgt":"ustedes"}
+{"f":"cards","id":"zh.c0635","k":"note","src":"你们好 = hello, everyone.","tgt":"你们好 = hola a todos."}
+{"f":"cards","id":"zh.c0636","k":"meaning","src":"it","tgt":"ello (animales y cosas)"}
+{"f":"cards","id":"zh.c0636","k":"note","src":"For animals and things; often left out.","tgt":"Para animales y cosas; muchas veces se omite."}
+{"f":"cards","id":"zh.c0637","k":"meaning","src":"here","tgt":"aquí"}
+{"f":"cards","id":"zh.c0637","k":"note","src":"Same as 这儿; 这里 is more common in the south.","tgt":"Igual que 这儿; 这里 es más común en el sur."}
+{"f":"cards","id":"zh.c0638","k":"meaning","src":"you (polite)","tgt":"usted"}
+{"f":"cards","id":"zh.c0638","k":"note","src":"To older people, teachers and customers.","tgt":"A personas mayores, profesores y clientes. Como «usted», pero el verbo no cambia."}
+{"f":"cards","id":"zh.c0639","k":"meaning","src":"we (you and me)","tgt":"nosotros (tú y yo)"}
+{"f":"cards","id":"zh.c0639","k":"note","src":"Northern; always includes the listener.","tgt":"Del norte; siempre incluye a quien escucha."}
+{"f":"cards","id":"zh.c0640","k":"meaning","src":"everyone","tgt":"todos"}
+{"f":"cards","id":"zh.c0640","k":"note","src":"大家好！ = hi, everyone.","tgt":"大家好！ = ¡hola a todos!"}
+{"f":"cards","id":"zh.c0641","k":"meaning","src":"they (all women)","tgt":"ellas"}
+{"f":"cards","id":"zh.c0641","k":"note","src":"Same sound as 他们.","tgt":"Mismo sonido que 他们."}
+{"f":"cards","id":"zh.c0642","k":"meaning","src":"they (animals or things)","tgt":"ellos (animales o cosas)"}
+{"f":"cards","id":"zh.c0642","k":"note","src":"Mostly written.","tgt":"Sobre todo por escrito."}
+{"f":"cards","id":"zh.c0643","k":"meaning","src":"these","tgt":"estos"}
+{"f":"cards","id":"zh.c0643","k":"note","src":"这些人 = these people.","tgt":"这些人 = estas personas."}
+{"f":"cards","id":"zh.c0644","k":"meaning","src":"those","tgt":"esos"}
+{"f":"cards","id":"zh.c0644","k":"note","src":"那些书 = those books.","tgt":"那些书 = esos libros."}
+{"f":"cards","id":"zh.c0645","k":"meaning","src":"here (northern)","tgt":"aquí (norte)"}
+{"f":"cards","id":"zh.c0645","k":"note","src":"Erhua form of 这里.","tgt":"Forma con 儿 (erhua) de 这里."}
+{"f":"cards","id":"zh.c0646","k":"meaning","src":"there (northern)","tgt":"allí (norte)"}
+{"f":"cards","id":"zh.c0646","k":"note","src":"Erhua form of 那里.","tgt":"Forma con 儿 (erhua) de 那里."}
+{"f":"cards","id":"zh.c0647","k":"meaning","src":"there","tgt":"allí"}
+{"f":"cards","id":"zh.c0648","k":"meaning","src":"where (northern)","tgt":"dónde (norte)"}
+{"f":"cards","id":"zh.c0648","k":"note","src":"你去哪儿？","tgt":"你去哪儿？","pre":1}
+{"f":"cards","id":"zh.c0649","k":"meaning","src":"where","tgt":"dónde"}
+{"f":"cards","id":"zh.c0649","k":"note","src":"Doubled, it is a modest reply: 哪里哪里.","tgt":"Doble, es una respuesta modesta: 哪里哪里."}
+{"f":"cards","id":"zh.c0650","k":"meaning","src":"which","tgt":"cuál; qué"}
+{"f":"cards","id":"zh.c0650","k":"note","src":"+ measure word: 哪本书？","tgt":"+ clasificador: 哪本书？"}
+{"f":"cards","id":"zh.c0651","k":"meaning","src":"other; something else","tgt":"otro; otra cosa"}
+{"f":"cards","id":"zh.c0651","k":"note","src":"别的颜色 = another color.","tgt":"别的颜色 = otro color."}
+{"f":"cards","id":"zh.c0652","k":"meaning","src":"my; mine","tgt":"mi; mío"}
+{"f":"cards","id":"zh.c0652","k":"note","src":"的 shows possession. Family: 我妈妈 (no 的).","tgt":"的 indica posesión. Con la familia: 我妈妈 (sin 的)."}
+{"f":"cards","id":"zh.c0653","k":"meaning","src":"your; yours","tgt":"tu; tuyo"}
+{"f":"cards","id":"zh.c0654","k":"meaning","src":"his","tgt":"su; suyo (de él)"}
+{"f":"cards","id":"zh.c0655","k":"meaning","src":"her; hers","tgt":"su; suyo (de ella)"}
+{"f":"cards","id":"zh.c0656","k":"meaning","src":"our; ours","tgt":"nuestro"}
+{"f":"cards","id":"zh.c0657","k":"meaning","src":"whose","tgt":"de quién"}
+{"f":"cards","id":"zh.c0657","k":"note","src":"这是谁的？ = whose is this?","tgt":"这是谁的？ = ¿de quién es esto?"}
+{"f":"cards","id":"zh.c0658","k":"meaning","src":"at; in (a place)","tgt":"en (un lugar)"}
+{"f":"cards","id":"zh.c0658","k":"note","src":"Before the verb: 我在家吃饭.","tgt":"Antes del verbo, al revés que en español: 我在家吃饭 (como en casa)."}
+{"f":"cards","id":"zh.c0659","k":"meaning","src":"(moves the object before the verb)","tgt":"(pasa el objeto antes del verbo)"}
+{"f":"cards","id":"zh.c0659","k":"note","src":"把书给我 = give me the book.","tgt":"把书给我 = dame el libro."}
+{"f":"cards","id":"zh.c0660","k":"meaning","src":"for (the sake of)","tgt":"por; para (el bien de alguien)"}
+{"f":"cards","id":"zh.c0660","k":"note","src":"为你高兴 = happy for you.","tgt":"为你高兴 = me alegro por ti."}
+{"f":"cards","id":"zh.c0661","k":"meaning","src":"to; until; arrive","tgt":"a; hasta; llegar"}
+{"f":"cards","id":"zh.c0661","k":"note","src":"从…到… = from … to …","tgt":"从…到… = de… a…"}
+{"f":"cards","id":"zh.c0662","k":"meaning","src":"by (passive)","tgt":"por (en la voz pasiva)"}
+{"f":"cards","id":"zh.c0662","k":"note","src":"Often for bad news: 被拿走了 = got taken.","tgt":"Suele ser para malas noticias: 被拿走了 = se lo llevaron."}
+{"f":"cards","id":"zh.c0663","k":"meaning","src":"to; for (someone)","tgt":"a; para (alguien)"}
+{"f":"cards","id":"zh.c0663","k":"note","src":"给我打电话 = call me. Also the verb \"to give\".","tgt":"给我打电话 = llámame. También es el verbo «dar»."}
+{"f":"cards","id":"zh.c0664","k":"meaning","src":"from","tgt":"desde; de"}
+{"f":"cards","id":"zh.c0664","k":"note","src":"我从美国来。","tgt":"我从美国来。","pre":1}
+{"f":"cards","id":"zh.c0665","k":"meaning","src":"with","tgt":"con"}
+{"f":"cards","id":"zh.c0665","k":"note","src":"跟我来 = come with me.","tgt":"跟我来 = ven conmigo."}
+{"f":"cards","id":"zh.c0666","k":"meaning","src":"after; later (after a time word)","tgt":"después (tras una palabra de tiempo)"}
+{"f":"cards","id":"zh.c0666","k":"note","src":"三天后 = three days later.","tgt":"三天后 = tres días después."}
+{"f":"cards","id":"zh.c0667","k":"meaning","src":"with; using","tgt":"con; usando"}
+{"f":"cards","id":"zh.c0667","k":"note","src":"用筷子吃 = eat with chopsticks.","tgt":"用筷子吃 = comer con palillos."}
+{"f":"cards","id":"zh.c0668","k":"meaning","src":"toward","tgt":"hacia"}
+{"f":"cards","id":"zh.c0668","k":"note","src":"往前走 = go straight ahead.","tgt":"往前走 = sigue derecho."}
+{"f":"cards","id":"zh.c0669","k":"meaning","src":"from (distance)","tgt":"de (distancia)"}
+{"f":"cards","id":"zh.c0669","k":"note","src":"离这儿远吗？ = is it far from here?","tgt":"离这儿远吗？ = ¿está lejos de aquí?"}
+{"f":"cards","id":"zh.c0670","k":"meaning","src":"than (compare)","tgt":"que (al comparar)"}
+{"f":"cards","id":"zh.c0670","k":"note","src":"我比他高 = I'm taller than him.","tgt":"我比他高 = soy más alto que él."}
+{"f":"cards","id":"zh.c0671","k":"meaning","src":"in; inside (after a noun)","tgt":"en; dentro (tras un sustantivo)"}
+{"f":"cards","id":"zh.c0671","k":"note","src":"房间里 = in the room.","tgt":"房间里 = en la habitación."}
+{"f":"cards","id":"zh.c0672","k":"meaning","src":"before; ago (after a time word)","tgt":"antes; hace (tras una palabra de tiempo)"}
+{"f":"cards","id":"zh.c0672","k":"note","src":"三天前 = three days ago.","tgt":"三天前 = hace tres días: va detrás, al revés que «hace»."}
+{"f":"cards","id":"zh.c0673","k":"meaning","src":"on top; above","tgt":"encima; arriba"}
+{"f":"cards","id":"zh.c0673","k":"note","src":"桌子上边 = on the table.","tgt":"桌子上边 = sobre la mesa."}
+{"f":"cards","id":"zh.c0674","k":"meaning","src":"below; under","tgt":"debajo; abajo"}
+{"f":"cards","id":"zh.c0675","k":"meaning","src":"inside","tgt":"dentro"}
+{"f":"cards","id":"zh.c0676","k":"meaning","src":"outside","tgt":"fuera; afuera"}
+{"f":"cards","id":"zh.c0677","k":"meaning","src":"in front; ahead","tgt":"delante; adelante"}
+{"f":"cards","id":"zh.c0678","k":"meaning","src":"behind; at the back","tgt":"detrás; atrás"}
+{"f":"cards","id":"zh.c0679","k":"meaning","src":"next to; beside","tgt":"al lado (de)"}
+{"f":"cards","id":"zh.c0680","k":"meaning","src":"opposite; across from","tgt":"enfrente (de)"}
+{"f":"cards","id":"zh.c0681","k":"meaning","src":"between; in the middle","tgt":"en medio; entre"}
+{"f":"cards","id":"zh.c0682","k":"meaning","src":"near; nearby","tgt":"cerca; los alrededores"}
+{"f":"cards","id":"zh.c0683","k":"meaning","src":"on the left","tgt":"a la izquierda"}
+{"f":"cards","id":"zh.c0683","k":"note","src":"Right: 右边.","tgt":"A la derecha: 右边."}
+{"f":"cards","id":"zh.c0684","k":"meaning","src":"and","tgt":"y"}
+{"f":"cards","id":"zh.c0684","k":"note","src":"Joins nouns only: 我和你. Not for joining sentences.","tgt":"Solo une sustantivos: 我和你. No une oraciones, como sí hace «y»."}
+{"f":"cards","id":"zh.c0685","k":"meaning","src":"if","tgt":"si"}
+{"f":"cards","id":"zh.c0685","k":"note","src":"Often followed by 就: see 如果…就.","tgt":"Suele seguirle 就: mira 如果…就."}
+{"f":"cards","id":"zh.c0686","k":"meaning","src":"and also; plus","tgt":"y además; también"}
+{"f":"cards","id":"zh.c0686","k":"note","src":"Adds one more thing: 还有一个问题.","tgt":"Añade una cosa más: 还有一个问题."}
+{"f":"cards","id":"zh.c0687","k":"meaning","src":"or (in questions)","tgt":"o (en preguntas)"}
+{"f":"cards","id":"zh.c0687","k":"note","src":"茶还是咖啡？ In statements use 或者.","tgt":"茶还是咖啡？ En afirmaciones se usa 或者."}
+{"f":"cards","id":"zh.c0688","k":"meaning","src":"or (in statements)","tgt":"o (en afirmaciones)"}
+{"f":"cards","id":"zh.c0689","k":"meaning","src":"but","tgt":"pero"}
+{"f":"cards","id":"zh.c0689","k":"note","src":"Softer than 但是; common in speech.","tgt":"Más suave que 但是; común al hablar."}
+{"f":"cards","id":"zh.c0690","k":"meaning","src":"but; however","tgt":"pero; sin embargo"}
+{"f":"cards","id":"zh.c0690","k":"note","src":"A gentle \"but\": good for polite refusals.","tgt":"Un «pero» suave: bueno para rechazar con cortesía."}
+{"f":"cards","id":"zh.c0691","k":"meaning","src":"and then; after that","tgt":"y luego; después"}
+{"f":"cards","id":"zh.c0692","k":"meaning","src":"well then; so (in that case)","tgt":"entonces; bueno (en ese caso)"}
+{"f":"cards","id":"zh.c0692","k":"note","src":"Starts a reply: 那么，我们走吧.","tgt":"Abre una respuesta: 那么，我们走吧."}
+{"f":"cards","id":"zh.c0693","k":"meaning","src":"because … so","tgt":"porque… por eso"}
+{"f":"cards","id":"zh.c0693","k":"note","src":"Chinese often uses both halves.","tgt":"El chino suele usar las dos mitades; el español, solo una."}
+{"f":"cards","id":"zh.c0694","k":"meaning","src":"if … then","tgt":"si… entonces"}
+{"f":"cards","id":"zh.c0694","k":"note","src":"就 goes before the verb in the second half.","tgt":"就 va antes del verbo en la segunda parte."}
+{"f":"cards","id":"zh.c0695","k":"meaning","src":"first … then","tgt":"primero… luego"}
+{"f":"cards","id":"zh.c0696","k":"meaning","src":"when …","tgt":"cuando…"}
+{"f":"cards","id":"zh.c0696","k":"note","src":"Comes AFTER the clause: 我小的时候.","tgt":"Va DESPUÉS de la oración, al revés que «cuando»: 我小的时候 (cuando era pequeño)."}
+{"f":"cards","id":"zh.c0697","k":"meaning","src":"both … and","tgt":"tanto… como"}
+{"f":"cards","id":"zh.c0697","k":"note","src":"又好吃又便宜 = tasty and cheap.","tgt":"又好吃又便宜 = rico y barato."}
+{"f":"cards","id":"zh.c0698","k":"meaning","src":"either … or","tgt":"o… o"}
+{"f":"cards","id":"zh.c0699","k":"meaning","src":"Hello? (on the phone)","tgt":"¿Aló? (al teléfono)"}
+{"f":"cards","id":"zh.c0699","k":"note","src":"Said wéi on the phone; wèi to call out \"hey!\"","tgt":"Al teléfono se dice wéi; wèi, para llamar a alguien: «¡oye!»."}
+{"f":"cards","id":"zh.c0700","k":"meaning","src":"Oh my God!","tgt":"¡Dios mío!"}
+{"f":"cards","id":"zh.c0700","k":"note","src":"Lit. \"my heaven\". Common and not rude.","tgt":"Literalmente «mi cielo». Común y no es grosero."}
+{"f":"cards","id":"zh.c0701","k":"meaning","src":"Go for it! You can do it!","tgt":"¡Ánimo! ¡Tú puedes!"}
+{"f":"cards","id":"zh.c0701","k":"note","src":"Lit. \"add oil\". For exams, games, hard days.","tgt":"Literalmente «echar aceite». Para exámenes, partidos y días difíciles."}
+{"f":"cards","id":"zh.c0702","k":"meaning","src":"Forget it. Never mind.","tgt":"Olvídalo. Déjalo."}
+{"f":"cards","id":"zh.c0702","k":"note","src":"Giving up on something.","tgt":"Para rendirse con algo."}
+{"f":"cards","id":"zh.c0703","k":"meaning","src":"All set. That's enough.","tgt":"Listo. Ya basta."}
+{"f":"cards","id":"zh.c0703","k":"note","src":"好了，走吧 = right, let's go.","tgt":"好了，走吧 = bueno, vámonos."}
+{"f":"cards","id":"zh.c0704","k":"meaning","src":"Oh, all right.","tgt":"Bueno, está bien."}
+{"f":"cards","id":"zh.c0704","k":"note","src":"Agreeing without much joy.","tgt":"Aceptar sin mucho entusiasmo."}
+{"f":"cards","id":"zh.c0705","k":"meaning","src":"Oh, by the way…","tgt":"Ah, por cierto…"}
+{"f":"cards","id":"zh.c0705","k":"note","src":"Starts a new topic you just remembered.","tgt":"Abre un tema nuevo que acabas de recordar."}
+{"f":"cards","id":"zh.c0706","k":"meaning","src":"Really? Is that so?","tgt":"¿Ah, sí?"}
+{"f":"cards","id":"zh.c0706","k":"note","src":"Mild surprise or interest.","tgt":"Sorpresa o interés suave."}
+{"f":"cards","id":"zh.c0707","k":"meaning","src":"Really?!","tgt":"¡¿En serio?!"}
+{"f":"cards","id":"zh.c0707","k":"note","src":"Stronger surprise than 是吗.","tgt":"Más sorpresa que 是吗."}
+{"f":"cards","id":"zh.c0708","k":"meaning","src":"No way!","tgt":"¡No puede ser!"}
+{"f":"cards","id":"zh.c0708","k":"note","src":"Disbelief: \"it can't be\".","tgt":"Incredulidad total."}
+{"f":"cards","id":"zh.c0709","k":"meaning","src":"What a pity.","tgt":"¡Qué lástima!"}
+{"f":"cards","id":"zh.c0709","k":"note","src":"Often 太可惜了.","tgt":"Muchas veces 太可惜了."}
+{"f":"cards","id":"zh.c0710","k":"meaning","src":"No problem!","tgt":"¡No hay problema!"}
+{"f":"cards","id":"zh.c0710","k":"note","src":"Agreeing to help.","tgt":"Para aceptar ayudar."}
+{"f":"cards","id":"zh.c0711","k":"meaning","src":"OK. Sure.","tgt":"De acuerdo."}
+{"f":"cards","id":"zh.c0711","k":"note","src":"The everyday yes to a request.","tgt":"El «sí» de todos los días ante un pedido."}
+{"f":"cards","id":"zh.c0712","k":"meaning","src":"OK, that works.","tgt":"Va, de acuerdo."}
+{"f":"cards","id":"zh.c0712","k":"note","src":"Very common northern \"fine\".","tgt":"Muy común en el norte para decir «está bien»."}
+{"f":"cards","id":"zh.c0713","k":"meaning","src":"No, that won't do.","tgt":"No, así no puede ser."}
+{"f":"cards","id":"zh.c0713","k":"note","src":"A firm no.","tgt":"Un «no» firme."}
+{"f":"cards","id":"zh.c0714","k":"meaning","src":"Hurry up!","tgt":"¡Date prisa!"}
+{"f":"cards","id":"zh.c0714","k":"note","src":"To friends; adding 吧 softens it.","tgt":"Entre amigos; con 吧 suena más suave."}
+{"f":"cards","id":"zh.c0715","k":"meaning","src":"Slow down! Take care!","tgt":"¡Más despacio! ¡Cuídate!"}
+{"f":"cards","id":"zh.c0715","k":"note","src":"Also said when someone leaves: 慢点儿走.","tgt":"También se dice cuando alguien se va: 慢点儿走."}
+{"f":"cards","id":"zh.c0716","k":"meaning","src":"a; one (of something)","tgt":"un; uno (de algo)"}
+{"f":"cards","id":"zh.c0716","k":"note","src":"个 is the all-purpose measure word: 一个人.","tgt":"个 es el clasificador comodín: 一个人."}
+{"f":"cards","id":"zh.c0717","k":"meaning","src":"no (didn't; there isn't)","tgt":"no (no pasó; no hay)"}
+{"f":"cards","id":"zh.c0717","k":"note","src":"Answers 有…吗 and 了 questions.","tgt":"Responde a preguntas con 有…吗 y con 了."}
+{"f":"cards","id":"zh.c0718","k":"meaning","src":"no (it isn't)","tgt":"no (no es)"}
+{"f":"cards","id":"zh.c0718","k":"note","src":"Answers a 是 question: 不是，我是美国人。","tgt":"Responde a una pregunta con 是: 不是，我是美国人。"}
+{"f":"cards","id":"zh.c0719","k":"meaning","src":"year","tgt":"año"}
+{"f":"cards","id":"zh.c0719","k":"note","src":"三年 = three years (no measure word).","tgt":"三年 = tres años (sin clasificador)."}
+{"f":"cards","id":"zh.c0720","k":"meaning","src":"how","tgt":"cómo"}
+{"f":"cards","id":"zh.c0720","k":"note","src":"怎么走？ = how do I get there?","tgt":"怎么走？ = ¿cómo llego?"}
+{"f":"cards","id":"zh.c0721","k":"meaning","src":"how many; how much","tgt":"cuántos; cuánto"}
+{"f":"cards","id":"zh.c0721","k":"note","src":"Any amount; 几 for small numbers.","tgt":"Cualquier cantidad; 几 para números pequeños."}
+{"f":"cards","id":"zh.c0722","k":"meaning","src":"how many (small numbers)","tgt":"cuántos (números pequeños)"}
+{"f":"cards","id":"zh.c0722","k":"note","src":"+ measure word: 几个？","tgt":"+ clasificador: 几个？"}
+{"f":"cards","id":"zh.c0723","k":"meaning","src":"how long (time)","tgt":"cuánto tiempo"}
+{"f":"cards","id":"zh.c0723","k":"note","src":"你学了多久？","tgt":"你学了多久？","pre":1}
+{"f":"cards","id":"zh.c0724","k":"meaning","src":"how old; how big","tgt":"qué edad; qué tan grande"}
+{"f":"cards","id":"zh.c0724","k":"note","src":"Ask adults 多大, children 几岁.","tgt":"A los adultos se les pregunta 多大; a los niños, 几岁."}
+{"f":"cards","id":"zh.c0725","k":"meaning","src":"every; each","tgt":"cada"}
+{"f":"cards","id":"zh.c0725","k":"note","src":"+ measure word: 每个人 = everyone.","tgt":"+ clasificador: 每个人 = cada uno, todos."}
+{"f":"cards","id":"zh.c0726","k":"meaning","src":"some; a few","tgt":"algunos; unos cuantos"}
+{"f":"cards","id":"zh.c0726","k":"note","src":"一些朋友 = some friends.","tgt":"一些朋友 = algunos amigos."}
+{"f":"cards","id":"zh.c0727","k":"meaning","src":"a little (some)","tgt":"un poco"}
+{"f":"cards","id":"zh.c0727","k":"note","src":"一点儿水. After an adjective: 好一点儿.","tgt":"一点儿水. Después de un adjetivo: 好一点儿."}
+{"f":"cards","id":"zh.c0728","k":"meaning","src":"a lot of; many","tgt":"mucho; muchos"}
+{"f":"cards","id":"zh.c0728","k":"note","src":"很多人 = lots of people.","tgt":"很多人 = mucha gente."}
+{"f":"cards","id":"zh.c0729","k":"meaning","src":"four","tgt":"cuatro"}
+{"f":"cards","id":"zh.c0729","k":"note","src":"Sounds a bit like 死 (die), so many avoid it.","tgt":"Suena parecido a 死 (morir), así que mucha gente lo evita. Y no es «sí»: la i zumba."}
+{"f":"cards","id":"zh.c0730","k":"meaning","src":"five","tgt":"cinco"}
+{"f":"cards","id":"zh.c0731","k":"meaning","src":"six","tgt":"seis"}
+{"f":"cards","id":"zh.c0731","k":"note","src":"A lucky number: 六六大顺.","tgt":"Un número de la suerte: 六六大顺."}
+{"f":"cards","id":"zh.c0732","k":"meaning","src":"nine","tgt":"nueve"}
+{"f":"cards","id":"zh.c0732","k":"note","src":"Sounds like 久 (long-lasting).","tgt":"Suena como 久 (duradero)."}
+{"f":"cards","id":"zh.c0733","k":"meaning","src":"eleven","tgt":"once"}
+{"f":"cards","id":"zh.c0733","k":"note","src":"Ten + one.","tgt":"Diez + uno."}
+{"f":"cards","id":"zh.c0734","k":"meaning","src":"twelve","tgt":"doce"}
+{"f":"cards","id":"zh.c0735","k":"meaning","src":"thirteen","tgt":"trece"}
+{"f":"cards","id":"zh.c0736","k":"meaning","src":"fourteen","tgt":"catorce"}
+{"f":"cards","id":"zh.c0737","k":"meaning","src":"sixteen","tgt":"dieciséis"}
+{"f":"cards","id":"zh.c0738","k":"meaning","src":"seventeen","tgt":"diecisiete"}
+{"f":"cards","id":"zh.c0739","k":"meaning","src":"eighteen","tgt":"dieciocho"}
+{"f":"cards","id":"zh.c0740","k":"meaning","src":"nineteen","tgt":"diecinueve"}
+{"f":"cards","id":"zh.c0741","k":"meaning","src":"half","tgt":"medio; mitad"}
+{"f":"cards","id":"zh.c0741","k":"note","src":"三点半 = half past three. 一半 = one half.","tgt":"三点半 = las tres y media. 一半 = la mitad."}
+{"f":"cards","id":"zh.c0742","k":"meaning","src":"first","tgt":"primero"}
+{"f":"cards","id":"zh.c0742","k":"note","src":"第 + number makes an ordinal: 第二 = second.","tgt":"第 + número forma un ordinal: 第二 = segundo."}
+{"f":"cards","id":"zh.c0743","k":"meaning","src":"today","tgt":"hoy"}
+{"f":"cards","id":"zh.c0744","k":"meaning","src":"the day after tomorrow","tgt":"pasado mañana"}
+{"f":"cards","id":"zh.c0745","k":"meaning","src":"the day before yesterday","tgt":"anteayer"}
+{"f":"cards","id":"zh.c0746","k":"meaning","src":"this year","tgt":"este año"}
+{"f":"cards","id":"zh.c0747","k":"meaning","src":"next year","tgt":"el año que viene"}
+{"f":"cards","id":"zh.c0748","k":"meaning","src":"last year","tgt":"el año pasado"}
+{"f":"cards","id":"zh.c0749","k":"meaning","src":"early morning","tgt":"mañana (temprano)"}
+{"f":"cards","id":"zh.c0749","k":"note","src":"早上好 = good morning.","tgt":"早上好 = buenos días."}
+{"f":"cards","id":"zh.c0750","k":"meaning","src":"morning (before noon)","tgt":"mañana (antes del mediodía)"}
+{"f":"cards","id":"zh.c0751","k":"meaning","src":"noon","tgt":"mediodía"}
+{"f":"cards","id":"zh.c0752","k":"meaning","src":"afternoon","tgt":"tarde"}
+{"f":"cards","id":"zh.c0753","k":"meaning","src":"evening; night","tgt":"noche"}
+{"f":"cards","id":"zh.c0754","k":"meaning","src":"before; in the past","tgt":"antes; en el pasado"}
+{"f":"cards","id":"zh.c0755","k":"meaning","src":"after; later; in the future","tgt":"después; en el futuro"}
+{"f":"cards","id":"zh.c0756","k":"meaning","src":"week","tgt":"semana"}
+{"f":"cards","id":"zh.c0756","k":"note","src":"这个星期 = this week.","tgt":"这个星期 = esta semana."}
+{"f":"cards","id":"zh.c0757","k":"meaning","src":"Tuesday","tgt":"martes"}
+{"f":"cards","id":"zh.c0757","k":"note","src":"星期 + number; Sunday is 星期天.","tgt":"星期 + número; el domingo es 星期天."}
+{"f":"cards","id":"zh.c0758","k":"meaning","src":"Wednesday","tgt":"miércoles"}
+{"f":"cards","id":"zh.c0759","k":"meaning","src":"Thursday","tgt":"jueves"}
+{"f":"cards","id":"zh.c0760","k":"meaning","src":"Friday","tgt":"viernes"}
+{"f":"cards","id":"zh.c0761","k":"meaning","src":"Saturday","tgt":"sábado"}
+{"f":"cards","id":"zh.c0762","k":"meaning","src":"Sunday","tgt":"domingo"}
+{"f":"cards","id":"zh.c0762","k":"note","src":"Also written 星期日.","tgt":"También se escribe 星期日."}
+{"f":"cards","id":"zh.c0763","k":"meaning","src":"hour","tgt":"hora"}
+{"f":"cards","id":"zh.c0763","k":"note","src":"一个小时 = one hour (needs 个).","tgt":"一个小时 = una hora (necesita 个)."}
+{"f":"cards","id":"zh.c0764","k":"meaning","src":"minute","tgt":"minuto"}
+{"f":"cards","id":"zh.c0764","k":"note","src":"十分钟 = ten minutes.","tgt":"十分钟 = diez minutos."}
+{"f":"cards","id":"zh.c0765","k":"meaning","src":"every day","tgt":"todos los días"}
+{"f":"cards","id":"zh.c0766","k":"meaning","src":"spring","tgt":"primavera"}
+{"f":"cards","id":"zh.c0767","k":"meaning","src":"summer","tgt":"verano"}
+{"f":"cards","id":"zh.c0768","k":"meaning","src":"autumn; fall","tgt":"otoño"}
+{"f":"cards","id":"zh.c0769","k":"meaning","src":"winter","tgt":"invierno"}
+{"f":"cards","id":"zh.c0770","k":"meaning","src":"time (how many times)","tgt":"vez (cuántas veces)"}
+{"f":"cards","id":"zh.c0770","k":"note","src":"去过三次 = been three times.","tgt":"去过三次 = he ido tres veces."}
+{"f":"cards","id":"zh.c0771","k":"meaning","src":"kind; type","tgt":"tipo; clase"}
+{"f":"cards","id":"zh.c0771","k":"note","src":"这种茶 = this kind of tea.","tgt":"这种茶 = este tipo de té."}
+{"f":"cards","id":"zh.c0772","k":"meaning","src":"portion; copy","tgt":"porción; ejemplar"}
+{"f":"cards","id":"zh.c0772","k":"note","src":"一份饺子 = an order of dumplings.","tgt":"一份饺子 = una porción de empanadillas."}
+{"f":"cards","id":"zh.c0773","k":"meaning","src":"class period; section","tgt":"hora de clase; sección"}
+{"f":"cards","id":"zh.c0773","k":"note","src":"一节课 = one class.","tgt":"一节课 = una clase."}
+{"f":"cards","id":"zh.c0774","k":"meaning","src":"floor (of a building); layer","tgt":"piso (de un edificio); capa"}
+{"f":"cards","id":"zh.c0774","k":"note","src":"十二层 = the twelfth floor.","tgt":"十二层 = el piso doce."}
+{"f":"cards","id":"zh.c0775","k":"meaning","src":"machines (computers, TVs)","tgt":"máquinas (computadoras, televisores)"}
+{"f":"cards","id":"zh.c0775","k":"note","src":"一台电脑 = a computer.","tgt":"一台电脑 = una computadora."}
+{"f":"cards","id":"zh.c0776","k":"meaning","src":"films; phones","tgt":"películas; teléfonos"}
+{"f":"cards","id":"zh.c0776","k":"note","src":"一部电影 = a film.","tgt":"一部电影 = una película."}
+{"f":"cards","id":"zh.c0777","k":"meaning","src":"stretch (of time or road)","tgt":"tramo (de tiempo o de camino)"}
+{"f":"cards","id":"zh.c0777","k":"note","src":"一段时间 = a while.","tgt":"一段时间 = un tiempo."}
+{"f":"cards","id":"zh.c0778","k":"meaning","src":"time (start to finish)","tgt":"vez (de principio a fin)"}
+{"f":"cards","id":"zh.c0778","k":"note","src":"再说一遍 = say it again.","tgt":"再说一遍 = dilo otra vez."}
+{"f":"cards","id":"zh.c0779","k":"meaning","src":"plate of (food)","tgt":"plato de (comida)"}
+{"f":"cards","id":"zh.c0779","k":"note","src":"一盘饺子 = a plate of dumplings.","tgt":"一盘饺子 = un plato de empanadillas."}
+{"f":"cards","id":"zh.c0780","k":"meaning","src":"stick-shaped things (pens)","tgt":"cosas alargadas (bolígrafos)"}
+{"f":"cards","id":"zh.c0780","k":"note","src":"一支笔 = a pen.","tgt":"一支笔 = un bolígrafo."}
+{"f":"cards","id":"zh.c0781","k":"meaning","src":"rooms","tgt":"habitaciones"}
+{"f":"cards","id":"zh.c0781","k":"note","src":"一间教室 = a classroom.","tgt":"一间教室 = un aula."}
+{"f":"cards","id":"zh.c0782","k":"meaning","src":"set; apartment","tgt":"juego; apartamento"}
+{"f":"cards","id":"zh.c0782","k":"note","src":"一套房子 = an apartment.","tgt":"一套房子 = un apartamento."}
+{"f":"cards","id":"zh.c0783","k":"meaning","src":"jin (half a kilo)","tgt":"jin (medio kilo)"}
+{"f":"cards","id":"zh.c0783","k":"note","src":"Fruit and vegetables are priced per 斤.","tgt":"La fruta y la verdura se venden por 斤."}
+{"f":"cards","id":"zh.c0784","k":"meaning","src":"bowl of","tgt":"tazón de"}
+{"f":"cards","id":"zh.c0784","k":"note","src":"一碗米饭 = a bowl of rice.","tgt":"一碗米饭 = un tazón de arroz."}
+{"f":"cards","id":"zh.c0785","k":"meaning","src":"yuan (formal, written)","tgt":"yuan (formal, por escrito)"}
+{"f":"cards","id":"zh.c0785","k":"note","src":"On price tags; say 块 aloud.","tgt":"En las etiquetas de precio; al hablar se dice 块."}
+{"f":"cards","id":"zh.c0786","k":"meaning","src":"kilogram","tgt":"kilogramo"}
+{"f":"cards","id":"zh.c0787","k":"meaning","src":"kilometer","tgt":"kilómetro"}
+{"f":"cards","id":"zh.c0788","k":"meaning","src":"(links describer and noun; shows possession)","tgt":"(une lo que describe con el sustantivo; indica posesión)"}
+{"f":"cards","id":"zh.c0788","k":"note","src":"我的书; 很好的人.","tgt":"我的书; 很好的人.","pre":1}
+{"f":"cards","id":"zh.c0789","k":"meaning","src":"(action done; or a new situation)","tgt":"(acción terminada o situación nueva)"}
+{"f":"cards","id":"zh.c0789","k":"note","src":"我吃了 = I ate; 下雨了 = now it's raining.","tgt":"我吃了 = ya comí; 下雨了 = ya está lloviendo."}
+{"f":"cards","id":"zh.c0790","k":"meaning","src":"(turns a statement into a yes/no question)","tgt":"(convierte una afirmación en pregunta de sí o no)"}
+{"f":"cards","id":"zh.c0790","k":"note","src":"你忙吗？","tgt":"你忙吗？","pre":1}
+{"f":"cards","id":"zh.c0791","k":"meaning","src":"(suggestion: let's …; I suppose …)","tgt":"(sugerencia: «vamos a…»; suposición: «supongo que…»)"}
+{"f":"cards","id":"zh.c0791","k":"note","src":"走吧 = let's go. 你是安娜吧？","tgt":"走吧 = vámonos. 你是安娜吧？ = Eres Ana, ¿verdad?"}
+{"f":"cards","id":"zh.c0792","k":"meaning","src":"(adds warmth or feeling)","tgt":"(añade calidez o emoción)"}
+{"f":"cards","id":"zh.c0792","k":"note","src":"好啊！ = sure! 是啊 = yeah.","tgt":"好啊！ = ¡claro! 是啊 = sí, así es."}
+{"f":"cards","id":"zh.c0793","k":"meaning","src":"(ongoing state)","tgt":"(estado que dura)"}
+{"f":"cards","id":"zh.c0793","k":"note","src":"门开着 = the door is open.","tgt":"门开着 = la puerta está abierta."}
+{"f":"cards","id":"zh.c0794","k":"meaning","src":"(have ever done)","tgt":"(haber hecho alguna vez)"}
+{"f":"cards","id":"zh.c0794","k":"note","src":"我去过北京 = I've been to Beijing.","tgt":"我去过北京 = he estado en Pekín (alguna vez)."}
+{"f":"cards","id":"zh.c0795","k":"meaning","src":"(and you?; still going on)","tgt":"(«¿y tú?»; algo que sigue en curso)"}
+{"f":"cards","id":"zh.c0795","k":"note","src":"你呢？ = and you? 他在睡觉呢.","tgt":"你呢？ = ¿y tú? 他在睡觉呢."}
+{"f":"cards","id":"zh.c0796","k":"meaning","src":"(links a verb to how it is done)","tgt":"(une el verbo con cómo se hace)"}
+{"f":"cards","id":"zh.c0796","k":"note","src":"说得很好 = speaks well.","tgt":"说得很好 = habla bien."}
+{"f":"cards","id":"zh.c0797","k":"meaning","src":"(plural for people)","tgt":"(plural de personas)"}
+{"f":"cards","id":"zh.c0797","k":"note","src":"我们, 朋友们. Never after a number.","tgt":"我们, 朋友们. Nunca después de un número."}
+{"f":"cards","id":"zh.c0798","k":"meaning","src":"(stresses when, where or how)","tgt":"(subraya cuándo, dónde o cómo)"}
+{"f":"cards","id":"zh.c0798","k":"note","src":"For past events: 我是坐飞机来的.","tgt":"Para hechos pasados: 我是坐飞机来的."}
+{"f":"cards","id":"zh.c0799","k":"meaning","src":"(if, at the end of the clause)","tgt":"(si…, al final de la oración)"}
+{"f":"cards","id":"zh.c0799","k":"note","src":"下雨的话 = if it rains. Often with 如果.","tgt":"下雨的话 = si llueve. Suele ir con 如果."}
+{"f":"cards","id":"zh.c0800","k":"meaning","src":"It smells amazing!","tgt":"¡Qué bien huele!"}
+{"f":"cards","id":"zh.c0800","k":"note","src":"Said about food as it arrives. Online, 真香 is also a joke about eating your words.","tgt":"Se dice de la comida cuando llega a la mesa. En internet, 真香 también es una broma sobre tragarse las propias palabras."}
+{"f":"cards","id":"zh.c0801","k":"meaning","src":"Your cooking is delicious!","tgt":"¡Lo que cocinas está riquísimo!"}
+{"f":"cards","id":"zh.c0801","k":"note","src":"Lit. \"the dishes you make are really tasty\". To an older host: 您做的菜真好吃！","tgt":"Literalmente «los platos que haces están muy ricos». A un anfitrión mayor: 您做的菜真好吃！"}
+{"f":"cards","id":"zh.c0802","k":"meaning","src":"This is so delicious!","tgt":"¡Está riquísimo!"}
+{"f":"cards","id":"zh.c0802","k":"note","src":"Said while eating. 太…了 = so (very).","tgt":"Se dice mientras comes. 太…了 = tan, muy."}
+{"f":"cards","id":"zh.c0803","k":"meaning","src":"This tea is really good!","tgt":"¡Este té está muy rico!"}
+{"f":"cards","id":"zh.c0803","k":"note","src":"For any drink: 好喝.","tgt":"Para cualquier bebida: 好喝."}
+{"f":"cards","id":"zh.c0804","k":"meaning","src":"Well done! / Good job!","tgt":"¡Bien hecho!"}
+{"f":"cards","id":"zh.c0804","k":"note","src":"Praise for work or homework. Sounds like a teacher or boss; between friends 你真厉害 is warmer.","tgt":"Elogio por un trabajo o una tarea. Suena a profesor o a jefe; entre amigos, 你真厉害 es más cálido.","rw":"English sound comparison (\"sounds like …\")"}
+{"f":"cards","id":"zh.c0805","k":"meaning","src":"You're really good at this!","tgt":"¡Eres increíble!"}
+{"f":"cards","id":"zh.c0805","k":"note","src":"The everyday \"wow, impressive!\" for any skill. Fine to friends, colleagues, anyone your age.","tgt":"El «¡guau, qué impresionante!» de todos los días, para cualquier habilidad. Sirve con amigos, colegas y gente de tu edad."}
+{"f":"cards","id":"zh.c0806","k":"meaning","src":"You study so hard!","tgt":"¡Qué empeño pones en estudiar!"}
+{"f":"cards","id":"zh.c0806","k":"note","src":"Praise for effort, much valued in China. 认真 = serious, careful.","tgt":"Elogio del esfuerzo, muy valorado en China. 认真 = serio, cuidadoso."}
+{"f":"cards","id":"zh.c0807","k":"meaning","src":"You're so smart!","tgt":"¡Qué inteligente eres!"}
+{"f":"cards","id":"zh.c0807","k":"note","src":"For adults and children alike.","tgt":"Para adultos y niños por igual."}
+{"f":"cards","id":"zh.c0808","k":"meaning","src":"You're so kind.","tgt":"Eres muy buena persona."}
+{"f":"cards","id":"zh.c0808","k":"note","src":"Lit. \"you, as a person, are really good\". Often said right after someone helps you.","tgt":"Literalmente «tú, como persona, eres muy bueno». Se suele decir justo después de que alguien te ayuda."}
+{"f":"cards","id":"zh.c0809","k":"meaning","src":"You're so fun!","tgt":"¡Qué divertido eres!"}
+{"f":"cards","id":"zh.c0809","k":"note","src":"有意思 = fun, interesting. Not 你真好笑, which can mean \"you're ridiculous\".","tgt":"有意思 = divertido, interesante. No 你真好笑, que puede significar «eres ridículo»."}
+{"f":"cards","id":"zh.c0810","k":"meaning","src":"Your home is beautiful!","tgt":"¡Qué bonita es tu casa!"}
+{"f":"cards","id":"zh.c0810","k":"note","src":"A natural thing to say as a guest. 家 is both \"home\" and \"family\"; here it is the home.","tgt":"Algo natural que decir como invitado. 家 es «casa» y «familia»; aquí es la casa."}
+{"f":"cards","id":"zh.c0811","k":"meaning","src":"Your place is so big!","tgt":"¡Qué grande es tu casa!"}
+{"f":"cards","id":"zh.c0811","k":"note","src":"Said as a guest; space is a real compliment in a Chinese city.","tgt":"Lo dice un invitado; en una ciudad china, el espacio es un cumplido de verdad."}
+{"f":"cards","id":"zh.c0812","k":"meaning","src":"You look great in that!","tgt":"¡Qué bien te queda!"}
+{"f":"cards","id":"zh.c0812","k":"note","src":"Lit. \"you wear this one, really good-looking\". 件 is for tops, coats, dresses; for trousers say 这条.","tgt":"Literalmente «tú llevas esta, muy bonita». 件 es para camisas, abrigos y vestidos; para pantalones se dice 这条."}
+{"f":"cards","id":"zh.c0813","k":"meaning","src":"Your child is adorable!","tgt":"¡Qué lindo es tu hijo!"}
+{"f":"cards","id":"zh.c0813","k":"note","src":"Very common, and always welcome.","tgt":"Muy común y siempre bienvenido."}
+{"f":"cards","id":"zh.c0814","k":"meaning","src":"This photo is great!","tgt":"¡Qué bonita es esta foto!"}
+{"f":"cards","id":"zh.c0814","k":"note","src":"张 is the measure word for photos.","tgt":"张 es el clasificador de las fotos."}
+{"f":"cards","id":"zh.c0815","k":"meaning","src":"Your handwriting is beautiful!","tgt":"¡Qué bonita letra tienes!"}
+{"f":"cards","id":"zh.c0815","k":"note","src":"字 = characters; praise for writing Chinese by hand.","tgt":"字 = caracteres; elogio por escribir chino a mano."}
+{"f":"cards","id":"zh.c0816","k":"meaning","src":"You sing beautifully!","tgt":"¡Qué bien cantas!"}
+{"f":"cards","id":"zh.c0816","k":"note","src":"好听 = pleasant to hear. To a teacher: 您唱歌真好听！","tgt":"好听 = agradable de oír. A un profesor: 您唱歌真好听！"}
+{"f":"cards","id":"zh.c0817","k":"meaning","src":"Your Chinese is really good!","tgt":"¡Qué bien hablas chino!"}
+{"f":"cards","id":"zh.c0817","k":"note","src":"You will hear this a lot, often after you say just 你好. Answer modestly (see 哪里哪里 and 还差得远呢).","tgt":"Lo oirás mucho, a veces después de decir solo 你好. Responde con modestia (mira 哪里哪里 y 还差得远呢)."}
+{"f":"cards","id":"zh.c0818","k":"meaning","src":"Your tones are really good.","tgt":"Tus tonos están muy bien."}
+{"f":"cards","id":"zh.c0818","k":"note","src":"Real praise for a learner: tones are the hard part.","tgt":"Un elogio real para un estudiante: los tonos son lo difícil."}
+{"f":"cards","id":"zh.c0819","k":"meaning","src":"Oh, not at all. (modest reply)","tgt":"No es para tanto. (respuesta modesta)"}
+{"f":"cards","id":"zh.c0819","k":"note","src":"Lit. \"where? where?\": the classic modest way to brush off praise. Older people and formal settings expect it; young people often just say 谢谢.","tgt":"Literalmente «¿dónde? ¿dónde?»: la forma clásica y modesta de quitarle importancia a un elogio. Las personas mayores y las situaciones formales la esperan; los jóvenes muchas veces dicen solo 谢谢."}
+{"f":"cards","id":"zh.c0820","k":"meaning","src":"I still have a long way to go.","tgt":"Todavía me falta mucho."}
+{"f":"cards","id":"zh.c0820","k":"note","src":"The usual reply when someone praises your Chinese. Accepting praise outright can sound boastful; 谢谢 alone is also fine today.","tgt":"La respuesta habitual cuando alguien elogia tu chino. Aceptar el elogio sin más puede sonar presumido; hoy también sirve un simple 谢谢."}
+{"f":"cards","id":"zh.c0821","k":"meaning","src":"I don't speak it well yet.","tgt":"Todavía no lo hablo bien."}
+{"f":"cards","id":"zh.c0821","k":"note","src":"Modest reply to praise of your Chinese; friendlier than a flat 谢谢.","tgt":"Respuesta modesta a un elogio de tu chino; más amable que un 谢谢 seco."}

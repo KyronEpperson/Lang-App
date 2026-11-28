@@ -1,0 +1,31 @@
+{"id":"zh.d.pinyin-sounds","label":"Sonidos del pinyin","desc":"Un carácter por sonido: las iniciales y finales que un lector de español lee mal (b / p, j q x, zh ch sh r, z c s, e, ü, -i). Las letras del pinyin no se leen como en español: b d g son la p, t, k de «papá», «tío», «casa»; p t k, lo mismo con un soplo fuerte de aire."}
+{"id":"zh.d.tone-pairs","label":"Pares de tonos","desc":"La misma sílaba con otro tono es otra palabra: 妈 麻 马 骂, 买 / 卖, 汤 / 糖, 问 / 吻. La marca ´ es el segundo tono, no el acento del español."}
+{"id":"zh.d.first-characters","label":"Primeros caracteres","desc":"Dibujos y combinaciones para reconocer: 人 口 木 山 日 月 女 子 好 明 休 林"}
+{"id":"zh.d.greetings-and-courtesy","label":"Saludos y cortesía","desc":"Hola, gracias, perdón, adiós, y el 您 de respeto (el «usted» chino)"}
+{"id":"zh.d.people-and-family","label":"Personas y familia","desc":"Pronombres, familiares y amigos, y cómo contar a los miembros de una familia"}
+{"id":"zh.d.about-me","label":"Sobre mí","desc":"Nombre, nacionalidad, edad, dónde vives y qué estudias"}
+{"id":"zh.d.numbers-and-money","label":"Números y dinero","desc":"Números hasta 100 y más, 二 y 两, precios en 块"}
+{"id":"zh.d.measure-words","label":"Clasificadores","desc":"Número o este / ese + clasificador + sustantivo: 个, 本, 杯, 张, 件, 只, 双"}
+{"id":"zh.d.food-and-drink","label":"Comida y bebida","desc":"Empanaditas chinas, fideos, té y café, y cómo pedir y pagar en un restaurante"}
+{"id":"zh.d.shopping","label":"De compras","desc":"Precios, tallas, regatear un poco y pagar con el celular"}
+{"id":"zh.d.time-days-and-dates","label":"Horas, días y fechas","desc":"La hora, los días de la semana, las fechas, hoy y mañana"}
+{"id":"zh.d.around-town-and-directions","label":"Por la ciudad","desc":"Dónde están las cosas, izquierda y derecha, y cómo preguntar el camino"}
+{"id":"zh.d.travel-and-transport","label":"Viajes y transporte","desc":"Taxis, el metro, los trenes de alta velocidad, boletos y hoteles"}
+{"id":"zh.d.work-and-study","label":"Trabajo y estudios","desc":"Profesiones, la escuela, aprender chino y lo que sabes hacer"}
+{"id":"zh.d.health-and-help","label":"Salud y ayuda","desc":"Sentirse mal, la farmacia, el médico y cómo pedir ayuda"}
+{"id":"zh.d.describing-things","label":"Describir cosas","desc":"Adjetivos para personas, comida, clima y cosas, con 很 y 太"}
+{"id":"zh.d.questions-and-connectors","label":"Preguntas y conectores","desc":"Palabras interrogativas, 吗 y 呢, preguntas verbo-no-verbo y las palabras que unen ideas"}
+{"id":"zh.d.traps-for-english-speakers","label":"Trampas frecuentes","desc":"Errores típicos: 是 con adjetivos, 不 y 没, 二 y 两, calcos del español y frases que parecen corteses y no lo son"}
+{"id":"zh.d.top-nouns","label":"Sustantivos clave","desc":"Los sustantivos más usados: personas, lugares, cosas, tiempo y objetos de cada día"}
+{"id":"zh.d.top-verbs","label":"Verbos clave","desc":"Los verbos más usados, con los complementos que los acompañan (听懂, 吃完, 回来)"}
+{"id":"zh.d.top-adjectives","label":"Adjetivos clave","desc":"Los adjetivos funcionan como verbos: 她很忙, sin 是. Tamaño, sabor, clima, sentimientos y colores"}
+{"id":"zh.d.top-adverbs","label":"Adverbios clave","desc":"No, también, todos, todavía, ya, solo, otra vez, muy: las palabras pequeñas que van antes del verbo"}
+{"id":"zh.d.top-pronouns","label":"Pronombres clave","desc":"Yo, tú, 您, 咱们, este, ese, aquí, allí, mío, de quién: el juego completo y útil"}
+{"id":"zh.d.top-prepositions-coverbs","label":"Preposiciones clave","desc":"Las preposiciones chinas son verbos que van antes del verbo principal (un coverbo: una preposición que es también verbo): 在, 给, 跟, 从, 把. Además, las palabras de ubicación"}
+{"id":"zh.d.top-conjunctions","label":"Conjunciones clave","desc":"Y, o, pero, si, porque … por eso, cuando, tanto … como"}
+{"id":"zh.d.top-interjections","label":"Interjecciones clave","desc":"Lo que de verdad se dice con sorpresa, para animar a alguien o para rendirse: 我的天, 加油, 算了"}
+{"id":"zh.d.top-words","label":"Palabras básicas","desc":"Palabras interrogativas, números hasta veinte, sí y no, días, estaciones y momentos del día"}
+{"id":"zh.d.top-measure-words","label":"Clasificadores clave","desc":"Más clasificadores además de 个, 本, 杯: 次, 种, 份, 台, 部, 遍, 斤 y lo que cuentan"}
+{"id":"zh.d.top-particles","label":"Partículas clave","desc":"的, 了, 吗, 呢, 吧, 啊, 着, 过, 得: las palabras pequeñas que llevan la gramática"}
+{"id":"zh.d.compliments","label":"Cumplidos","desc":"Elogiar la comida, la casa, las habilidades y el esfuerzo, y cómo responden los chinos a un elogio (哪里哪里)"}
+{"id":"zh.d.flirting","label":"Coqueteo","desc":"Linda, guapo, tierno, divertido: las palabras, las frases que se forman con ellas, cómo invitar a salir y formas amables de decir que no"}

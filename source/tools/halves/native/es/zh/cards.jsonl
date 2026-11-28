@@ -1,0 +1,886 @@
+{"id":"zh.c0001","meaning":"ocho","note":"La b no lleva soplo de aire: es la p de «papá». Nunca es la b suave de «haba», ni siquiera entre vocales."}
+{"id":"zh.c0002","meaning":"tener miedo","note":"La p lleva un soplo fuerte de aire, que el español no tiene: pon la mano delante de la boca y siéntelo."}
+{"id":"zh.c0003","meaning":"correcto; cierto","note":"La d no lleva soplo: es la t de «tío». La final ui suena «uei», como en «buey»."}
+{"id":"zh.c0004","meaning":"cielo; día","note":"La t lleva un soplo fuerte de aire. La final ian suena «ien», no «i-an»: tiān ≈ «tien» con soplo."}
+{"id":"zh.c0005","meaning":"perro","note":"La g no lleva soplo: es la c de «casa». Siempre es dura, también ante e, i. La final ou suena «ou»."}
+{"id":"zh.c0006","meaning":"mirar; ver","note":"La k es la c de «casa» con un soplo fuerte de aire."}
+{"id":"zh.c0007","meaning":"pollo; gallina","note":"La j es una «ch» suave, con la punta de la lengua abajo, detrás de los dientes de abajo, y los labios estirados, sin soplo; parecida a la y enfática de «¡yo!». Nunca es la jota."}
+{"id":"zh.c0008","meaning":"ir","note":"La q es como la j, pero con soplo; nunca es «k». Después de q, la u es en realidad ü: 去 suena «chü», nunca «cu»."}
+{"id":"zh.c0009","meaning":"agradecer","note":"La x es una s con la lengua plana y los labios en sonrisa, cerca del «¡shh!» que pide silencio; nunca «ks» (como en «taxi») ni jota (como en «México»). Doble, 谢谢 es «gracias»."}
+{"id":"zh.c0010","meaning":"medio; centro","note":"La zh es una «ch» sin soplo con la punta de la lengua doblada hacia atrás (retrofleja). Como en 中国 (China)."}
+{"id":"zh.c0011","meaning":"comer","note":"La ch es la «ch» de «chico» con soplo y la lengua doblada hacia atrás. La i solo zumba: no suena «chi»."}
+{"id":"zh.c0012","meaning":"ser (soy, eres, es…)","note":"sh con la punta de la lengua doblada hacia atrás, y la i es un zumbido. No suena «shi», y menos «sí»."}
+{"id":"zh.c0013","meaning":"sol; día","note":"La r es como sh con voz, con la lengua doblada hacia atrás; nunca la r de «pero» ni de «perro». La vocal solo zumba: no suena «ri»."}
+{"id":"zh.c0014","meaning":"carácter (escrito)","note":"La z es la «ts» de «pizza» como se dice en español («pitsa»), sin soplo; nunca es [θ] (la z de España) ni s. La i zumba."}
+{"id":"zh.c0015","meaning":"plato (de comida); verdura","note":"La c es la misma «ts» con soplo: 菜 suena «tsái» con soplo de aire. Nunca «k» ni «s»."}
+{"id":"zh.c0016","meaning":"años (de edad)","note":"La s es la s de «sol», y ui suena «uei», como en «buey»: suì ≈ «suei»."}
+{"id":"zh.c0017","meaning":"beber; tomar","note":"La e no es la e española: di «o» y estira los labios sin mover la lengua. La h es la jota de «jamón», nunca muda."}
+{"id":"zh.c0018","meaning":"verde","note":"ü: di «i» con los labios redondeados como para «u». Tras l y n se escribe con los dos puntos, pero no es la diéresis de «pingüino»: es otra vocal."}
+{"id":"zh.c0019","meaning":"mamá (como en 妈妈)","note":"Primer tono: alto y sostenido, como una nota cantada larga."}
+{"id":"zh.c0020","meaning":"entumecido; que hormiguea","note":"Segundo tono: sube, como un «¿eh?» o un «¿sí?» de sorpresa. La serie: 妈 麻 马 骂."}
+{"id":"zh.c0021","meaning":"caballo","note":"Tercer tono: bajo. Dicho solo, baja y vuelve a subir; antes de otro tono se queda bajo y plano."}
+{"id":"zh.c0022","meaning":"regañar","note":"Cuarto tono: cae de arriba abajo, corto y firme, como un «¡no!» seco."}
+{"id":"zh.c0023","meaning":"comprar","note":"Tercer tono. Mismas letras que 卖 (mài, vender): el tono cambia el trato."}
+{"id":"zh.c0024","meaning":"vender","note":"Cuarto tono: cae. Si confundes 买 y 卖, cambias al comprador por el vendedor."}
+{"id":"zh.c0025","meaning":"sopa","note":"Primer tono, alto y sostenido. Con un tono que sube se vuelve 糖, azúcar."}
+{"id":"zh.c0026","meaning":"azúcar; dulces","note":"Segundo tono: sube. Dicho alto y plano es 汤, sopa."}
+{"id":"zh.c0027","meaning":"preguntar","note":"Cuarto tono: cae. Dicho bajo, se vuelve 吻 (besar)."}
+{"id":"zh.c0028","meaning":"besar","note":"Tercer tono: bajo. 我可以问你吗？ (¿Puedo preguntarte algo?) con un 问 bajo pide un beso."}
+{"id":"zh.c0029","meaning":"humo; cigarrillo","note":"Primer tono. Las mismas letras con otros tonos: 盐 (sal) sube, 眼 (ojo) baja."}
+{"id":"zh.c0030","meaning":"sal","note":"Segundo tono: sube. Dicho alto y plano es 烟, humo."}
+{"id":"zh.c0031","meaning":"ojo","note":"Tercer tono: bajo. Al hablar se dice casi siempre 眼睛 (yǎnjing)."}
+{"id":"zh.c0032","meaning":"siete","note":"Primer tono. Con el tercer tono, bajo, es 起 (levantarse); con el cuarto, que cae, 气 (aire)."}
+{"id":"zh.c0033","meaning":"levantarse (como en 起床)","note":"Tercer tono: bajo. 起床 es levantarse de la cama."}
+{"id":"zh.c0034","meaning":"aire; enojo","note":"Cuarto tono: cae. 生气 es enojarse."}
+{"id":"zh.c0035","meaning":"tener","note":"Tercer tono: bajo. 又 (otra vez) lleva el cuarto tono, que cae."}
+{"id":"zh.c0036","meaning":"otra vez","note":"Cuarto tono: cae. 有 (tener) es el tercer tono, bajo."}
+{"id":"zh.c0037","meaning":"persona","note":"Parece una persona que camina: dos piernas."}
+{"id":"zh.c0038","meaning":"boca","note":"También es el clasificador de los miembros de una familia: 四口人."}
+{"id":"zh.c0039","meaning":"árbol; madera","note":"Dos árboles forman 林 (arboleda); tres forman 森 (bosque)."}
+{"id":"zh.c0040","meaning":"arboleda","note":"Dos árboles juntos. También es un apellido común."}
+{"id":"zh.c0041","meaning":"bosque","note":"Tres árboles: más que una arboleda. Al hablar se dice 森林."}
+{"id":"zh.c0042","meaning":"montaña","note":"Tres picos sobre una línea."}
+{"id":"zh.c0043","meaning":"luna; mes","note":"Viene del dibujo de una luna creciente. 一月 es enero."}
+{"id":"zh.c0044","meaning":"brillante; claro","note":"日 (sol) + 月 (luna). En 明天 significa «siguiente» (mañana)."}
+{"id":"zh.c0045","meaning":"mujer; femenino","note":"A la izquierda de un carácter indica algo de mujeres: 妈, 姐, 妹."}
+{"id":"zh.c0046","meaning":"niño; hijo","note":"Un bebé con los brazos abiertos. También es una terminación común de sustantivos: 饺子, 桌子."}
+{"id":"zh.c0047","meaning":"bueno; bien","note":"女 (mujer) + 子 (niño)."}
+{"id":"zh.c0048","meaning":"descansar","note":"亻 (persona) + 木 (árbol): una persona que descansa apoyada en un árbol. Lo encuentras en 休息."}
+{"id":"zh.c0049","meaning":"arriba; encima","note":"Una marca sobre una línea. 桌子上 es «sobre la mesa»."}
+{"id":"zh.c0050","meaning":"abajo; debajo","note":"Una marca bajo una línea. 下雨 es «llueve»: la lluvia baja."}
+{"id":"zh.c0051","meaning":"puerta; portón","note":"Una puerta de dos hojas, simplificada. En caracteres tradicionales: 門."}
+{"id":"zh.c0052","meaning":"lluvia","note":"Gotas de lluvia que caen bajo el cielo."}
+{"id":"zh.c0053","meaning":"fuego","note":"Una llama con dos chispas. 火车 (fuego + vehículo) es un tren."}
+{"id":"zh.c0054","meaning":"agua","note":"Un arroyo que salpica. A la izquierda de un carácter se vuelve 氵: 汤, 酒."}
+{"id":"zh.c0055","meaning":"¡Hola!","note":"Sirve con cualquiera. A una persona mayor o a un cliente: 您好！"}
+{"id":"zh.c0056","meaning":"¡Hola! (con respeto, de usted)","note":"您 es el «usted» chino: para personas mayores, profesores y clientes."}
+{"id":"zh.c0057","meaning":"¡Hola a todos!","note":"Para un grupo o una clase. 大家 significa «todos»."}
+{"id":"zh.c0058","meaning":"¡Hola! (al profesor o la profesora)","note":"Los alumnos saludan al profesor por su título, no por su nombre."}
+{"id":"zh.c0059","meaning":"¡Buenos días!","note":"Para la mañana. Entre amigos basta con 早！"}
+{"id":"zh.c0060","meaning":"¡Buenas noches! (al irse a dormir)","note":"Solo cuando alguien se va a dormir, no como saludo de la noche. El español usa «buenas noches» para las dos cosas; el chino, no."}
+{"id":"zh.c0061","meaning":"¿Cómo te ha ido?","note":"Para ponerse al día con un amigo. 你好吗？ es una pregunta real sobre cómo está alguien."}
+{"id":"zh.c0062","meaning":"Mucho gusto (en conocerte).","note":"Literalmente «conocerte, estoy muy contento». 很高兴认识你 es igual de común. A alguien mayor: 认识您很高兴。"}
+{"id":"zh.c0063","meaning":"¡Gracias!","note":"Entre familiares y amigos íntimos los chinos dan las gracias mucho menos que en español: ahí un «gracias» puede sonar distante."}
+{"id":"zh.c0064","meaning":"¡Gracias! (con respeto, de usted)","note":"A una persona mayor, a un profesor o a un cliente."}
+{"id":"zh.c0065","meaning":"De nada.","note":"Literalmente «no seas cortés». Se dice bú porque 客 lleva el cuarto tono."}
+{"id":"zh.c0066","meaning":"¡Lo siento!","note":"Una disculpa real: chocaste con alguien, rompiste algo, llegaste tarde."}
+{"id":"zh.c0067","meaning":"No pasa nada.","note":"La respuesta a 对不起 (lo siento)."}
+{"id":"zh.c0068","meaning":"Perdón.","note":"Para cosas pequeñas: llamar la atención, pasar entre la gente, hacer esperar un momento. Más ligero que 对不起."}
+{"id":"zh.c0069","meaning":"No es nada. / No te preocupes.","note":"Respuesta informal a un «gracias» o a una disculpa pequeña."}
+{"id":"zh.c0070","meaning":"disculpe, una pregunta (para preguntar algo)","note":"Abre una pregunta a un desconocido: 请问，地铁站在哪儿？"}
+{"id":"zh.c0071","meaning":"¡Adiós!","note":"Literalmente «otra vez ver»."}
+{"id":"zh.c0072","meaning":"¡Hasta mañana!","note":"Un día + 见: 星期一见 es «hasta el lunes»."}
+{"id":"zh.c0073","meaning":"papá","note":"Como en 妈妈, la segunda sílaba lleva el tono neutro."}
+{"id":"zh.c0074","meaning":"mamá","note":"El segundo 妈 lleva el tono neutro: māma, nunca «mamá»."}
+{"id":"zh.c0075","meaning":"hermano mayor","note":"No hay palabra para «hermano» a secas: el mayor es 哥哥; el menor, 弟弟."}
+{"id":"zh.c0076","meaning":"hermana mayor","note":"Hermana menor: 妹妹."}
+{"id":"zh.c0077","meaning":"hermano menor","note":"Hermano mayor: 哥哥."}
+{"id":"zh.c0078","meaning":"hermana menor","note":"Hermana mayor: 姐姐."}
+{"id":"zh.c0079","meaning":"abuelo (paterno)","note":"El padre de la madre tiene su propia palabra: 姥爷 o 外公."}
+{"id":"zh.c0080","meaning":"abuela (paterna)","note":"La madre de la madre tiene su propia palabra: 姥姥 o 外婆."}
+{"id":"zh.c0081","meaning":"hijo","note":"Aquí 子 lleva el tono neutro."}
+{"id":"zh.c0082","meaning":"hija","note":"女 (mujer) + 儿 (niño)."}
+{"id":"zh.c0083","meaning":"amigo/a","note":"我朋友 y 我的朋友 significan los dos «mi amigo»."}
+{"id":"zh.c0084","meaning":"nosotros","note":"们 forma el plural de las personas: 我们, 你们, 他们."}
+{"id":"zh.c0085","meaning":"ellos","note":"Para hombres o grupos mixtos. Solo mujeres: 她们. Los dos se dicen tāmen."}
+{"id":"zh.c0086","meaning":"¿Cuántas personas hay en tu familia?","note":"几 pregunta por un número pequeño; 口 cuenta a los miembros de la familia."}
+{"id":"zh.c0087","meaning":"En mi familia somos cuatro.","note":"口 es el clasificador de los miembros de una familia."}
+{"id":"zh.c0088","meaning":"Tengo un hermano mayor.","note":"Número + clasificador + sustantivo. Dos hermanos mayores: 两个哥哥."}
+{"id":"zh.c0089","meaning":"No tengo hermanos.","note":"没有, nunca 不有."}
+{"id":"zh.c0090","meaning":"señora (una mujer de la edad de tus padres)","note":"Literalmente «tía». También para una amiga de la familia, una vecina o una señora de la limpieza. Para un hombre: 叔叔."}
+{"id":"zh.c0091","meaning":"Me llamo Ana.","note":"叫 = llamarse. Los nombres chinos ponen primero el apellido."}
+{"id":"zh.c0092","meaning":"¿Cómo te llamas?","note":"A alguien de tu edad o a un niño. 什么 (qué) va donde va la respuesta."}
+{"id":"zh.c0093","meaning":"¿Cuál es su apellido?","note":"Se responde 我姓王 (me apellido Wang), no 我贵姓."}
+{"id":"zh.c0094","meaning":"Me apellido Wang.","note":"姓 = apellidarse. La respuesta normal a 您贵姓？"}
+{"id":"zh.c0095","meaning":"Soy estadounidense.","note":"País + 人 (persona): 美国人, 中国人. 美国 es Estados Unidos, nunca «América»."}
+{"id":"zh.c0096","meaning":"¿De qué país eres?","note":"Literalmente «¿tú eres persona de qué país?»."}
+{"id":"zh.c0097","meaning":"No soy chino.","note":"不 antes de 是 se dice bú, porque 是 lleva el cuarto tono."}
+{"id":"zh.c0098","meaning":"Yo también soy estadounidense.","note":"也 (también) va siempre antes del verbo, como en «yo también soy», nunca al final de la frase."}
+{"id":"zh.c0099","meaning":"Todos somos estadounidenses.","note":"都 (todos) va después del sujeto y antes del verbo."}
+{"id":"zh.c0100","meaning":"Vivo en Nueva York.","note":"Con 住 (vivir), 在 + lugar va después del verbo; con la mayoría de los verbos va antes."}
+{"id":"zh.c0101","meaning":"¿Dónde vives?","note":"哪儿 (dónde) ocupa el lugar de la respuesta. También: 你住哪儿？"}
+{"id":"zh.c0102","meaning":"Este año cumplo 25 años.","note":"Sin 是 y sin «tener»: solo el número + 岁."}
+{"id":"zh.c0103","meaning":"¿Cuántos años tienes? (a un adulto)","note":"A un niño: 你几岁？"}
+{"id":"zh.c0104","meaning":"Estudio chino.","note":"中文 es el idioma chino; 汉语 significa lo mismo. También sirve 学习 (estudiar): 我学习中文."}
+{"id":"zh.c0105","meaning":"Me gusta cantar.","note":"喜欢 + verbo, sin nada en medio. Al revés que «gustar», el sujeto es quien siente el gusto: 我喜欢 = «me gusta»."}
+{"id":"zh.c0106","meaning":"Mi pasatiempo es leer.","note":"爱好 = pasatiempo. 看书, «mirar libros», es leer."}
+{"id":"zh.c0107","meaning":"Mi papá es chino.","note":"La familia cercana suele ir sin 的: 我爸爸."}
+{"id":"zh.c0108","meaning":"cero","note":"También llena un hueco dentro de un número: 一百零五 (105)."}
+{"id":"zh.c0109","meaning":"uno","note":"Se dice así al contar. Antes de otras palabras cambia de tono: 一个, 一杯."}
+{"id":"zh.c0110","meaning":"dos (al contar)","note":"Para contar, en números de teléfono y dentro de números mayores: 十二, 二十."}
+{"id":"zh.c0111","meaning":"dos (antes de un clasificador)","note":"两个人, 两杯茶. Al contar y en números mayores: 二 (十二, 二十)."}
+{"id":"zh.c0112","meaning":"tres","note":""}
+{"id":"zh.c0113","meaning":"diez","note":"Segundo tono. Fácil de confundir con 四 (sì, cuatro): fíjate en la sh."}
+{"id":"zh.c0114","meaning":"quince","note":"Diez + cinco. Cincuenta es 五十: cinco dieces."}
+{"id":"zh.c0115","meaning":"veinte","note":"Dos dieces. Veintiuno: 二十一."}
+{"id":"zh.c0116","meaning":"noventa y nueve","note":"Nueve dieces y nueve: lo más alto con dos cifras."}
+{"id":"zh.c0117","meaning":"cien","note":"一百五 es 150, forma corta de 一百五十. 105 es 一百零五."}
+{"id":"zh.c0118","meaning":"ciento cinco","note":"零 marca el lugar vacío de las decenas."}
+{"id":"zh.c0119","meaning":"mil","note":""}
+{"id":"zh.c0120","meaning":"diez mil","note":"El chino agrupa los números grandes de cuatro en cuatro ceros: 100,000 es 十万, diez veces diez mil."}
+{"id":"zh.c0121","meaning":"¿Cuánto cuesta?","note":"多少 pregunta por cualquier cantidad; 几, solo por números pequeños, que esperas menores de diez."}
+{"id":"zh.c0122","meaning":"un yuan","note":"Al hablar, 钱 (dinero) suele ir después de la cantidad: 十块钱."}
+{"id":"zh.c0123","meaning":"25 yuanes","note":"块 al hablar, 元 en las etiquetas de precio."}
+{"id":"zh.c0124","meaning":"medio yuan (cinco mao)","note":"毛 es la décima parte de un yuan, al hablar; en las etiquetas es 角."}
+{"id":"zh.c0125","meaning":"tres yuanes con cincuenta","note":"Forma corta de 三块五毛: la última unidad suele omitirse."}
+{"id":"zh.c0126","meaning":"una persona","note":"个 es el clasificador comodín, pero muchos sustantivos tienen el suyo."}
+{"id":"zh.c0127","meaning":"tres libros","note":"本 para libros y cuadernos. Nunca 三书."}
+{"id":"zh.c0128","meaning":"una taza de café","note":"杯 para tazas y vasos, como «una taza de…» en español: 一杯水, 两杯茶."}
+{"id":"zh.c0129","meaning":"dos boletos","note":"张 para cosas planas: boletos, mesas, fotos, papel."}
+{"id":"zh.c0130","meaning":"un gato","note":"只 (zhī) para la mayoría de los animales. El mismo carácter leído zhǐ significa «solo»."}
+{"id":"zh.c0131","meaning":"dos perros","note":"Otra vez 只, para animales. 两, no 二, antes de un clasificador."}
+{"id":"zh.c0132","meaning":"un pez","note":"条 para cosas largas y delgadas: peces, calles, pantalones."}
+{"id":"zh.c0133","meaning":"una prenda de ropa","note":"件 para la ropa, sobre todo camisas, blusas y chaquetas."}
+{"id":"zh.c0134","meaning":"un par de zapatos","note":"双 = un par: zapatos, calcetines, palillos."}
+{"id":"zh.c0135","meaning":"una botella de agua","note":"瓶 = botella."}
+{"id":"zh.c0136","meaning":"un auto","note":"辆 para autos, bicicletas y autobuses."}
+{"id":"zh.c0137","meaning":"un/a profesor/a (cortés)","note":"位 es el clasificador cortés para personas."}
+{"id":"zh.c0138","meaning":"un restaurante","note":"家 para tiendas, restaurantes y empresas."}
+{"id":"zh.c0139","meaning":"este","note":"这 + clasificador: 这个, 这本书."}
+{"id":"zh.c0140","meaning":"ese; aquel","note":""}
+{"id":"zh.c0141","meaning":"esa mesa","note":"那 + clasificador + sustantivo. 张 para las mesas, porque la superficie es plana."}
+{"id":"zh.c0142","meaning":"este libro","note":"Sin número: 这 + clasificador + sustantivo. Nunca 这书."}
+{"id":"zh.c0143","meaning":"¿Cuántas personas?","note":"几 + clasificador pregunta por un número pequeño. En un restaurante, el personal pregunta con más cortesía: 几位？"}
+{"id":"zh.c0144","meaning":"empanaditas chinas (jiaozi)","note":"Comida familiar del norte; se comen en el Año Nuevo chino."}
+{"id":"zh.c0145","meaning":"bollos al vapor (baozi)","note":"Rellenos de carne o verduras; un desayuno clásico."}
+{"id":"zh.c0146","meaning":"arroz (cocido)","note":"饭 solo también significa «comida»: 吃饭 es comer."}
+{"id":"zh.c0147","meaning":"olla caliente china (huoguo)","note":"Una olla de caldo en la mesa donde cada uno cuece su carne y sus verduras."}
+{"id":"zh.c0148","meaning":"pato laqueado de Pekín","note":"Se envuelve en crepes finas con salsa y cebollín."}
+{"id":"zh.c0149","meaning":"un tazón de fideos","note":"碗 (tazón) es el clasificador."}
+{"id":"zh.c0150","meaning":"té verde","note":"红茶, literalmente «té rojo», es el té negro."}
+{"id":"zh.c0151","meaning":"¿Qué quieres comer?","note":"想 = querer, tener ganas. 什么 va donde va la respuesta, después del verbo."}
+{"id":"zh.c0152","meaning":"Quiero un té con leche.","note":"我要 es lo normal al pedir; 请给我 es más suave."}
+{"id":"zh.c0153","meaning":"Un pollo Kung Pao, por favor.","note":"来 + cantidad + plato es una forma muy común de pedir."}
+{"id":"zh.c0154","meaning":"Queremos pedir.","note":"点菜 = pedir platos (en un restaurante)."}
+{"id":"zh.c0155","meaning":"Sin picante.","note":"Literalmente «no quiero lo picante». Poco picante: 微辣."}
+{"id":"zh.c0156","meaning":"poco picante","note":"Dilo cuando el mesero pregunte cuánto picante quieres."}
+{"id":"zh.c0157","meaning":"No como carne.","note":"不 para hábitos y decisiones."}
+{"id":"zh.c0158","meaning":"una botella de cerveza","note":"La cerveza suele venir en botellas grandes para compartir."}
+{"id":"zh.c0159","meaning":"Ya estoy lleno.","note":"了 muestra un cambio: antes no estabas lleno y ahora sí."}
+{"id":"zh.c0160","meaning":"¿Se puede pedir para llevar?","note":"打包 = empacar lo que sobra o la comida para llevar."}
+{"id":"zh.c0161","meaning":"¡Mesero, la cuenta!","note":"Al mesero se le llama 服务员, nunca 小姐."}
+{"id":"zh.c0162","meaning":"¡Qué caro!","note":"太 + adjetivo + 了: demasiado."}
+{"id":"zh.c0163","meaning":"¿Un poco más barato?","note":"Normal en los mercados, no en centros comerciales ni supermercados."}
+{"id":"zh.c0164","meaning":"¿Puedo pagar escaneando un código?","note":"En China casi todo se paga con el celular: escaneas el código de la tienda."}
+{"id":"zh.c0165","meaning":"¿Hay talla grande?","note":"Tallas: 大号, 中号, 小号."}
+{"id":"zh.c0166","meaning":"Solo estoy mirando.","note":"Literalmente «miro un poco»: el verbo doble lo suaviza."}
+{"id":"zh.c0167","meaning":"¿Cuánto cuesta esta prenda?","note":"件 es el clasificador de camisas, blusas y chaquetas: 这件衣服."}
+{"id":"zh.c0168","meaning":"¿Cuánto es en total?","note":"一共 = en total. Pregúntalo en la caja."}
+{"id":"zh.c0169","meaning":"Me llevo este.","note":"Señálalo y dilo: no necesitas saber cómo se llama."}
+{"id":"zh.c0170","meaning":"¿Puedo probármelo?","note":"试试 es un verbo doble: «probar un poco»."}
+{"id":"zh.c0171","meaning":"¿Hay otros colores?","note":"别的 = otro, distinto."}
+{"id":"zh.c0172","meaning":"¿Hay uno más pequeño?","note":"Adjetivo + 一点儿 = un poco más: 大一点儿, 便宜一点儿."}
+{"id":"zh.c0173","meaning":"Esta me queda demasiado grande.","note":"Si los dos saben que es ropa, basta con 这件: no hace falta repetir 衣服."}
+{"id":"zh.c0174","meaning":"¿Tiene descuento?","note":"打折 = hacer descuento. En los carteles, 八折 significa que pagas el 80%, o sea, un 20% de descuento."}
+{"id":"zh.c0175","meaning":"¿Puedo pagar con tarjeta de crédito?","note":"Las tiendas grandes y los hoteles aceptan tarjeta; las tiendas pequeñas, a menudo solo el pago con celular."}
+{"id":"zh.c0176","meaning":"¿Puedo pagar en efectivo?","note":"现金 = efectivo. Las tiendas pequeñas quizá no tengan mucho cambio."}
+{"id":"zh.c0177","meaning":"Me gustaría comprar un par de zapatos.","note":"双 es el clasificador de los pares: 一双鞋, 一双筷子."}
+{"id":"zh.c0178","meaning":"Voy a seguir mirando.","note":"Una forma cortés de irte sin comprar nada."}
+{"id":"zh.c0179","meaning":"Al final no lo quiero.","note":"Aquí 了 muestra un cambio de idea."}
+{"id":"zh.c0180","meaning":"mañana","note":"Las palabras de tiempo van antes del verbo: 我明天去."}
+{"id":"zh.c0181","meaning":"lunes","note":"Día de la semana = 星期 + número; el domingo es 星期天 o 星期日."}
+{"id":"zh.c0182","meaning":"¿Qué hora es?","note":"点 = la hora en punto. Las dos es 两点, no 二点."}
+{"id":"zh.c0183","meaning":"las tres y media","note":"半 = media."}
+{"id":"zh.c0184","meaning":"3 de diciembre","note":"Primero el mes, luego el día: de lo grande a lo pequeño, al revés que en español. Por escrito, 日 suele reemplazar a 号."}
+{"id":"zh.c0185","meaning":"¿Qué día de la semana es hoy?","note":"几 pregunta por el número: literalmente «¿hoy es semana-número cuál?»."}
+{"id":"zh.c0186","meaning":"¿Qué fecha es hoy?","note":"号 es el día del mes al hablar."}
+{"id":"zh.c0187","meaning":"Hoy es viernes.","note":"Con días y fechas puedes omitir 是."}
+{"id":"zh.c0188","meaning":"ayer","note":"Anteayer es 前天; pasado mañana, 后天."}
+{"id":"zh.c0189","meaning":"el fin de semana","note":"星期六 y 星期天 juntos."}
+{"id":"zh.c0190","meaning":"las dos y diez","note":"分 = minutos. Las dos siempre es 两点, nunca 二点."}
+{"id":"zh.c0191","meaning":"las ocho y cuarto","note":"一刻 = un cuarto de hora. También puedes decir 八点十五."}
+{"id":"zh.c0192","meaning":"las siete de la noche","note":"Primero la parte del día y luego la hora: de lo grande a lo pequeño."}
+{"id":"zh.c0193","meaning":"una hora (de duración)","note":"小时 suele llevar el clasificador 个: 一个小时, 两个小时."}
+{"id":"zh.c0194","meaning":"diez minutos","note":"分钟 cuenta los minutos directamente, sin 个."}
+{"id":"zh.c0195","meaning":"Me levanto a las siete todos los días.","note":"Cuándo ocurre va antes del verbo: 每天七点起床."}
+{"id":"zh.c0196","meaning":"Nos vemos el sábado.","note":"Literalmente «nosotros sábado vernos»: el día va antes de 见."}
+{"id":"zh.c0197","meaning":"¿A qué hora sales del trabajo?","note":"几点 va donde irá la respuesta, antes del verbo."}
+{"id":"zh.c0198","meaning":"¿Dónde está el baño?","note":"Cosa + 在 + 哪儿. También 厕所 (más directo)."}
+{"id":"zh.c0199","meaning":"sigue derecho","note":"También 一直走."}
+{"id":"zh.c0200","meaning":"gira a la izquierda","note":"A la derecha: 右拐."}
+{"id":"zh.c0201","meaning":"El banco está al lado del supermercado.","note":"La palabra de ubicación va después de su sustantivo: 超市旁边, al revés que «al lado del supermercado»."}
+{"id":"zh.c0202","meaning":"¿Hay una estación de metro cerca?","note":"Primero el lugar, luego 有: «cerca hay…»."}
+{"id":"zh.c0203","meaning":"a la derecha; el lado derecho","note":"Izquierda: 左边. 在右边 = está a la derecha."}
+{"id":"zh.c0204","meaning":"El hospital está enfrente del banco.","note":"对面 (enfrente) va después del lugar: 银行对面."}
+{"id":"zh.c0205","meaning":"En el cruce, gira a la derecha.","note":"Dónde (在路口) va antes de la acción (右拐)."}
+{"id":"zh.c0206","meaning":"¿Está lejos de aquí?","note":"离 = a distancia de. Respuestas: 不远 (no está lejos), 很近 (está cerca)."}
+{"id":"zh.c0207","meaning":"Está a cinco minutos a pie.","note":"Literalmente «caminar cinco minutos»."}
+{"id":"zh.c0208","meaning":"Perdón, ¿cómo llego a Tiananmen?","note":"去 + lugar + 怎么走: la forma normal de preguntar el camino."}
+{"id":"zh.c0209","meaning":"Está justo ahí.","note":"就 añade «justo, precisamente»."}
+{"id":"zh.c0210","meaning":"El parque está más adelante.","note":"前边 = delante, adelante; 后边 = detrás."}
+{"id":"zh.c0211","meaning":"semáforo","note":"Literalmente «luz roja y verde»."}
+{"id":"zh.c0212","meaning":"cruzar la calle","note":"马路 = calle; literalmente «camino de caballos»."}
+{"id":"zh.c0213","meaning":"Voy al supermercado a comprar cosas.","note":"Dos verbos seguidos: 去 + lugar + lo que haces allí. Sin «a» en medio."}
+{"id":"zh.c0214","meaning":"Te espero en el parque.","note":"El lugar con 在 va antes del verbo 等 (esperar), al revés que en español."}
+{"id":"zh.c0215","meaning":"taxi","note":"En Taiwán: 計程車. Hoy casi todos piden el viaje por una app."}
+{"id":"zh.c0216","meaning":"metro","note":"Se paga con el celular o con una tarjeta de transporte."}
+{"id":"zh.c0217","meaning":"Al aeropuerto, por favor. (al conductor)","note":"师傅 es la forma cortés de dirigirse a un conductor."}
+{"id":"zh.c0218","meaning":"Voy a Shanghái en tren de alta velocidad.","note":"El medio de transporte va antes de 去: 坐高铁去."}
+{"id":"zh.c0219","meaning":"un boleto a Xi'an","note":"El destino describe el boleto, así que va antes de 票, con 的: al revés que en español."}
+{"id":"zh.c0220","meaning":"autobús","note":"En Taiwán: 公車."}
+{"id":"zh.c0221","meaning":"bicicleta","note":"En Taiwán: 腳踏車. Las bicis compartidas se desbloquean escaneando un código."}
+{"id":"zh.c0222","meaning":"estación de tren","note":"Las ciudades grandes tienen varias: revisa de cuál sale tu tren."}
+{"id":"zh.c0223","meaning":"ir en avión","note":"坐 (sentarse) es el verbo de los vehículos en los que vas sentado: 坐车, 坐地铁. Con la bici se usa 骑 (montar)."}
+{"id":"zh.c0224","meaning":"pasaporte","note":"En los hoteles te lo piden al registrarte."}
+{"id":"zh.c0225","meaning":"¿Y mi pasaporte?","note":"Sustantivo + 呢: «¿y mi…?», cuando no encuentras algo."}
+{"id":"zh.c0226","meaning":"equipaje","note":"Una maleta: 一件行李."}
+{"id":"zh.c0227","meaning":"¿Hay habitaciones?","note":"En la recepción de un hotel."}
+{"id":"zh.c0228","meaning":"Aquí, por favor. (al conductor)","note":"一下 suaviza el pedido: «solo un momento»."}
+{"id":"zh.c0229","meaning":"Vamos en taxi.","note":"打车 = tomar un taxi, o pedir un viaje por una app."}
+{"id":"zh.c0230","meaning":"¿A qué hora llega el tren?","note":"几点 va antes del verbo 到 (llegar)."}
+{"id":"zh.c0231","meaning":"Ya llegamos a Pekín.","note":"了 al final muestra un cambio: ahora ya estamos aquí."}
+{"id":"zh.c0232","meaning":"Me voy de viaje a Xi'an.","note":"旅游 = viajar por placer. Un viaje de trabajo es 出差."}
+{"id":"zh.c0233","meaning":"profesor/a","note":"También es como llamas a tu profesor: 王老师, o solo 老师."}
+{"id":"zh.c0234","meaning":"estudiante","note":"Estudiante universitario: 大学生."}
+{"id":"zh.c0235","meaning":"Trabajo en un banco.","note":"Dónde trabajas va antes de 工作, al revés que en español."}
+{"id":"zh.c0236","meaning":"¿A qué te dedicas?","note":"Literalmente «¿tú haces qué trabajo?»."}
+{"id":"zh.c0237","meaning":"Sé hablar un poco de chino.","note":"会 para una habilidad aprendida: es el «saber» de «sé nadar»."}
+{"id":"zh.c0238","meaning":"Ella es enfermera.","note":"Sin «una», como en español con las profesiones: solo 是 + la profesión."}
+{"id":"zh.c0239","meaning":"compañero/a de trabajo","note":"同 = mismo: 同事 (mismo trabajo), 同学 (compañero de clase)."}
+{"id":"zh.c0240","meaning":"empresa","note":"Se cuenta con 家: 一家公司."}
+{"id":"zh.c0241","meaning":"gerente","note":"El dueño de una tienda pequeña es 老板."}
+{"id":"zh.c0242","meaning":"Estoy aprendiendo chino.","note":"在 antes de un verbo: estar haciéndolo, ahora o en estos días, como «estar» + gerundio."}
+{"id":"zh.c0243","meaning":"¿Qué estás haciendo?","note":"在 + verbo para lo que pasa ahora mismo. Nunca 你是做什么."}
+{"id":"zh.c0244","meaning":"Ahora mismo estoy en una reunión.","note":"正在 subraya «justo en este momento»."}
+{"id":"zh.c0245","meaning":"¿Sabes manejar?","note":"会 para una habilidad aprendida, como «saber»: manejar, nadar, un idioma."}
+{"id":"zh.c0246","meaning":"Mañana no puedo venir.","note":"能 = poder (por tiempo, salud o circunstancias); 会 es para lo que sabes hacer."}
+{"id":"zh.c0247","meaning":"¿Puedo pasar?","note":"可以 = poder, tener permiso: «¿se puede?»."}
+{"id":"zh.c0248","meaning":"Mañana hay examen.","note":"Tiempo + 有 + cosa: como «hay», sin nada más."}
+{"id":"zh.c0249","meaning":"Tenemos clase a las ocho.","note":"上课 = tener clase; cuando termina la clase: 下课."}
+{"id":"zh.c0250","meaning":"biblioteca","note":"馆 = un edificio dedicado a algo, como en 饭馆 y 咖啡馆."}
+{"id":"zh.c0251","meaning":"Me siento mal.","note":"¿Qué te duele? 你哪儿不舒服？"}
+{"id":"zh.c0252","meaning":"Me duele la cabeza.","note":"Parte del cuerpo + 疼: 肚子疼 (dolor de estómago)."}
+{"id":"zh.c0253","meaning":"Me resfrié.","note":"Aquí 了 muestra un cambio: me dio un resfriado."}
+{"id":"zh.c0254","meaning":"farmacia","note":"药 = medicina."}
+{"id":"zh.c0255","meaning":"¡Socorro!","note":"Solo para emergencias. Para pedir ayuda normal: 请帮我一下."}
+{"id":"zh.c0256","meaning":"Tengo fiebre.","note":"了 muestra el cambio: me dio fiebre."}
+{"id":"zh.c0257","meaning":"Me duele el estómago.","note":"肚子 = barriga. No hace falta «mi»: 我肚子疼."}
+{"id":"zh.c0258","meaning":"¿Qué te duele?","note":"Lo que pregunta el médico. Literalmente «¿dónde no estás cómodo?»."}
+{"id":"zh.c0259","meaning":"Me gustaría ir al médico.","note":"看医生 = ir al médico; también sirve 看病."}
+{"id":"zh.c0260","meaning":"Tengo un poco de tos.","note":"有点儿 = un poco, casi siempre de algo que no gusta."}
+{"id":"zh.c0261","meaning":"¿Me ayudas un momento, por favor?","note":"一下 hace el pedido más ligero: «un momento»."}
+{"id":"zh.c0262","meaning":"No te preocupes.","note":"别 + verbo = «no» + mandato, como «no te preocupes»."}
+{"id":"zh.c0263","meaning":"¡Cuidado!","note":"Se grita como aviso, o se dice con cariño: 路上小心 (cuídate en el camino)."}
+{"id":"zh.c0264","meaning":"Toma mucha agua.","note":"El consejo de siempre ante cualquier enfermedad, junto con 多休息 (descansa mucho)."}
+{"id":"zh.c0265","meaning":"Descansa bien.","note":"吧 lo vuelve un consejo amable, no una orden."}
+{"id":"zh.c0266","meaning":"¿Ya te sientes un poco mejor?","note":"Adjetivo + 一点儿 + 了: un poco más que antes."}
+{"id":"zh.c0267","meaning":"Estoy bien. / No es nada.","note":"También sirve para quitarle importancia a una disculpa."}
+{"id":"zh.c0268","meaning":"¡Rápido, llamen a la policía!","note":"Números de emergencia: 110 para la policía, 120 para la ambulancia."}
+{"id":"zh.c0269","meaning":"grande","note":"También «mayor» para la edad: 你多大？ (¿cuántos años tienes?)"}
+{"id":"zh.c0270","meaning":"pequeño; joven","note":"小王: una forma amistosa de llamar a alguien más joven que se apellida Wang."}
+{"id":"zh.c0271","meaning":"Esto está muy rico.","note":"好吃 = rico (para comer); 好喝 = rico (para beber)."}
+{"id":"zh.c0272","meaning":"Hoy hace frío.","note":"Sin 是 antes de un adjetivo; 很 muchas veces es solo un enlace, no «muy»."}
+{"id":"zh.c0273","meaning":"Ella es alta.","note":"Nunca 她是高, aunque en español digas «es alta»."}
+{"id":"zh.c0274","meaning":"Él es guapo.","note":"帅 es la palabra de todos los días para un hombre guapo."}
+{"id":"zh.c0275","meaning":"Ella es guapa.","note":"Para cosas, 好看 (bonito) es más común."}
+{"id":"zh.c0276","meaning":"¡Qué bonito!","note":"真 + adjetivo = «¡qué…!»: una exclamación."}
+{"id":"zh.c0277","meaning":"Afuera hace calor.","note":"El clima funciona como los demás adjetivos: 很热, sin 是. Tampoco lleva un verbo como el «hacer» de «hace calor»."}
+{"id":"zh.c0278","meaning":"Estoy ocupado.","note":"Aquí 很 es suave. Para «muy ocupado», di 非常忙."}
+{"id":"zh.c0279","meaning":"El chino no es difícil.","note":"不 + adjetivo, sin 是: nunca 中文不是难."}
+{"id":"zh.c0280","meaning":"Mi habitación no es grande.","note":"不 + adjetivo, sin 是. 不 antes de un cuarto tono es bú: bú dà."}
+{"id":"zh.c0281","meaning":"Aquí hay mucho ambiente.","note":"热闹 = animado, ruidoso y divertido. Tranquilo: 安静."}
+{"id":"zh.c0282","meaning":"Este plato es picante.","note":"菜 = un plato, o verduras."}
+{"id":"zh.c0283","meaning":"Está un poco caro.","note":"有点儿 + adjetivo: un poco, y no te gusta."}
+{"id":"zh.c0284","meaning":"Es una muy buena persona.","note":"Lo que describe va antes del sustantivo, unido con 的: 很好的人, al revés que «persona muy buena»."}
+{"id":"zh.c0285","meaning":"un auto blanco","note":"El color va antes del sustantivo, unido con 的, al revés que en español; 辆 es el clasificador de los autos."}
+{"id":"zh.c0286","meaning":"¡Genial!","note":"太 … 了 también puede ser alegre: «demasiado bueno» es genial."}
+{"id":"zh.c0287","meaning":"¿Qué?","note":"En una oración se queda donde va la respuesta: 你吃什么？"}
+{"id":"zh.c0288","meaning":"¿Quién?","note":"También se dice shuí."}
+{"id":"zh.c0289","meaning":"¿Y tú?","note":"Devuelve la misma pregunta."}
+{"id":"zh.c0290","meaning":"¿Té o café?","note":"还是 para «o» en una pregunta."}
+{"id":"zh.c0291","meaning":"pero","note":"Más adelante suele ir con 虽然 (aunque); al principio va solo."}
+{"id":"zh.c0292","meaning":"¿Por qué?","note":"Se responde con 因为 (porque)."}
+{"id":"zh.c0293","meaning":"¿Qué tal?","note":"你最近怎么样？ = ¿Qué tal te va últimamente?"}
+{"id":"zh.c0294","meaning":"¿Cuándo?","note":"En una oración va antes del verbo: 你什么时候来？"}
+{"id":"zh.c0295","meaning":"¿Cuál?","note":"哪 (tercer tono) = cuál; 那 (cuarto tono) = ese."}
+{"id":"zh.c0296","meaning":"¿Estás ocupado?","note":"吗 convierte una afirmación en una pregunta de sí o no, sin cambiar el orden. Se responde 忙 o 不忙, no 是."}
+{"id":"zh.c0297","meaning":"¿Vas o no vas?","note":"Verbo + 不 + verbo pregunta sí o no, como «¿vas o no vas?». Nunca le añadas 吗."}
+{"id":"zh.c0298","meaning":"¿Tienes tiempo o no?","note":"有没有 es la forma verbo-no-verbo de 有."}
+{"id":"zh.c0299","meaning":"¿Te gusta la comida china?","note":"Con un verbo de dos caracteres: 喜不喜欢 o 喜欢不喜欢."}
+{"id":"zh.c0300","meaning":"¿Cómo se dice esto en chino?","note":"怎么 + verbo = cómo hacerlo."}
+{"id":"zh.c0301","meaning":"porque","note":"Suele ir en pareja: 因为…所以… (porque… por eso…)."}
+{"id":"zh.c0302","meaning":"por eso; así que","note":"El chino puede poner «porque» y «por eso» en la misma oración; el español suele elegir uno."}
+{"id":"zh.c0303","meaning":"sábado o domingo","note":"或者 para «o» en una afirmación; en una pregunta, 还是."}
+{"id":"zh.c0304","meaning":"Él y yo vamos juntos.","note":"和 une sustantivos (我和他); 一起 va antes del verbo."}
+{"id":"zh.c0305","meaning":"Estoy contento.","note":"Nunca 我是高兴: los adjetivos llevan 很, no 是, aunque en español digas «estoy»."}
+{"id":"zh.c0306","meaning":"No fui.","note":"没 para lo que no pasó, sin 了: nunca 我没去了. (我不去了 significa «ya no voy».)"}
+{"id":"zh.c0307","meaning":"dos personas","note":"两 antes de un clasificador, nunca 二个人."}
+{"id":"zh.c0308","meaning":"¡Mesero!","note":"Nunca 小姐, que en China continental hoy sugiere una prostituta."}
+{"id":"zh.c0309","meaning":"¿Ya comiste? (saludo)","note":"Un saludo amistoso entre conocidos, no una invitación."}
+{"id":"zh.c0310","meaning":"Estoy cansado.","note":"Nunca 我是累: no hay 是 antes de un adjetivo, aunque en español digas «estoy»."}
+{"id":"zh.c0311","meaning":"Tengo treinta años.","note":"Sin 是 y sin «tener»: número + 岁."}
+{"id":"zh.c0312","meaning":"Ya tengo hambre.","note":"了 muestra el cambio: me dio hambre. Ni 我是饿 ni «tener»."}
+{"id":"zh.c0313","meaning":"No tomo alcohol.","note":"不 para hábitos y decisiones; 没 para lo que no pasó."}
+{"id":"zh.c0314","meaning":"No tengo dinero.","note":"有 siempre se niega con 没, nunca con 不: nunca 我不有钱."}
+{"id":"zh.c0315","meaning":"las dos","note":"La hora usa 两: 两点, no 二点."}
+{"id":"zh.c0316","meaning":"¿Cómo estás? (pregunta real)","note":"Pregunta de verdad cómo estás. Para un saludo informal, basta con 你好."}
+{"id":"zh.c0317","meaning":"Ella habla muy bien chino.","note":"«Hacer algo bien» es verbo + 得很好. 我很好 solo significa «estoy bien», no «lo hago bien»."}
+{"id":"zh.c0318","meaning":"Al final no voy.","note":"不…了 = un cambio de planes, como «ya no». No es lo mismo que 我没去 (no fui)."}
+{"id":"zh.c0319","meaning":"señorita (no la uses para llamar a nadie)","note":"No la uses para llamar a nadie en China continental, aunque en español «señorita» sea cortés: puede sugerir una prostituta. En Taiwán no hay problema."}
+{"id":"zh.c0320","meaning":"cosa","note":"Con 西 en tono neutro significa «cosa»; con dos tonos plenos significa «este y oeste»."}
+{"id":"zh.c0321","meaning":"extranjero/a (coloquial)","note":"Jerga de todos los días, casi siempre amistosa, pero no para situaciones formales. Literalmente «viejo de fuera»."}
+{"id":"zh.c0322","meaning":"trabajo","note":"También es el verbo «trabajar»: 我在银行工作."}
+{"id":"zh.c0323","meaning":"China","note":"中国人 = una persona china; 中国菜 = comida china."}
+{"id":"zh.c0324","meaning":"señor","note":"Después del apellido: 王先生. También puede significar «esposo»."}
+{"id":"zh.c0325","meaning":"pregunta; problema","note":"没问题 = no hay problema; 有问题吗？ = ¿alguna pregunta?"}
+{"id":"zh.c0326","meaning":"momento (un punto en el tiempo)","note":"什么时候 = cuándo; 小的时候 = de niño."}
+{"id":"zh.c0327","meaning":"asunto; algo que hacer","note":"有事 = estar ocupado con algo."}
+{"id":"zh.c0328","meaning":"niño/a; hijo/a","note":"También «hijo o hija»: 你有孩子吗？"}
+{"id":"zh.c0329","meaning":"asunto; cuestión","note":"Forma más completa de 事: 这件事情."}
+{"id":"zh.c0330","meaning":"tiempo (un lapso)","note":"你有时间吗？ = ¿tienes tiempo?"}
+{"id":"zh.c0331","meaning":"dinero","note":"有钱 = rico; 多少钱？ = ¿cuánto cuesta?"}
+{"id":"zh.c0332","meaning":"casa; familia","note":"回家 = volver a casa. También es clasificador de tiendas."}
+{"id":"zh.c0333","meaning":"nombre","note":"Primero el apellido: 王明 es el señor Wang."}
+{"id":"zh.c0334","meaning":"significado","note":"什么意思？ = ¿qué significa?"}
+{"id":"zh.c0335","meaning":"lugar","note":"这个地方 = este lugar."}
+{"id":"zh.c0336","meaning":"celular","note":"La palabra de todos los días; 电话 es una llamada o un teléfono fijo."}
+{"id":"zh.c0337","meaning":"teléfono; llamada","note":"打电话 = llamar por teléfono."}
+{"id":"zh.c0338","meaning":"computadora","note":"Literalmente «cerebro eléctrico»."}
+{"id":"zh.c0339","meaning":"televisión","note":"看电视 = ver la tele."}
+{"id":"zh.c0340","meaning":"película","note":"看电影 = ver una película."}
+{"id":"zh.c0341","meaning":"ropa","note":"Clasificador 件 para una prenda de arriba."}
+{"id":"zh.c0342","meaning":"casa; vivienda (el edificio)","note":"买房子 = comprar una casa."}
+{"id":"zh.c0343","meaning":"habitación","note":"我的房间 = mi habitación."}
+{"id":"zh.c0344","meaning":"escuela","note":"去学校 = ir a la escuela."}
+{"id":"zh.c0345","meaning":"hospital","note":"去医院 = ir al hospital."}
+{"id":"zh.c0346","meaning":"médico/a","note":"看医生 = ir al médico."}
+{"id":"zh.c0347","meaning":"hombre","note":"Coloquial: 男的."}
+{"id":"zh.c0348","meaning":"mujer","note":"Coloquial: 女的; cortés: 女士."}
+{"id":"zh.c0349","meaning":"esposo","note":"Coloquial: 老公."}
+{"id":"zh.c0350","meaning":"esposa","note":"Coloquial: 老婆."}
+{"id":"zh.c0351","meaning":"marido (coloquial)","note":"Las parejas lo usan todo el tiempo."}
+{"id":"zh.c0352","meaning":"mujer, esposa (coloquial)","note":"Cariñoso, no grosero."}
+{"id":"zh.c0353","meaning":"padres","note":"Más formal que 爸爸妈妈."}
+{"id":"zh.c0354","meaning":"familiares","note":"我的家人 = mi familia."}
+{"id":"zh.c0355","meaning":"mundo","note":"世界上 = en el mundo."}
+{"id":"zh.c0356","meaning":"país; nación","note":"哪个国家？ = ¿qué país?"}
+{"id":"zh.c0357","meaning":"ciudad","note":"大城市 = una ciudad grande."}
+{"id":"zh.c0358","meaning":"camino; calle","note":"走路 = caminar."}
+{"id":"zh.c0359","meaning":"auto; vehículo","note":"开车 = manejar. Clasificador 辆."}
+{"id":"zh.c0360","meaning":"automóvil","note":"Al hablar, 车 es más común."}
+{"id":"zh.c0361","meaning":"avión","note":"坐飞机 = ir en avión."}
+{"id":"zh.c0362","meaning":"comida; arroz cocido","note":"吃饭 = comer."}
+{"id":"zh.c0363","meaning":"té","note":"喝茶 = tomar té."}
+{"id":"zh.c0364","meaning":"café","note":"一杯咖啡 = una taza de café."}
+{"id":"zh.c0365","meaning":"libro","note":"Clasificador 本: 三本书."}
+{"id":"zh.c0366","meaning":"palabras; lo que se dice","note":"说话 = hablar."}
+{"id":"zh.c0367","meaning":"clase; lección","note":"上课 = ir a clase."}
+{"id":"zh.c0368","meaning":"chino (el idioma)","note":"汉语 es la palabra de los libros de texto."}
+{"id":"zh.c0369","meaning":"carácter chino","note":"写汉字 = escribir caracteres."}
+{"id":"zh.c0370","meaning":"inglés (el idioma)","note":"También 英文, sobre todo por escrito."}
+{"id":"zh.c0371","meaning":"cuerpo; salud","note":"身体好 = tener buena salud."}
+{"id":"zh.c0372","meaning":"cabeza","note":"我头疼 = me duele la cabeza."}
+{"id":"zh.c0373","meaning":"mano","note":"洗手 = lavarse las manos."}
+{"id":"zh.c0374","meaning":"corazón","note":"小心 = cuidado (literalmente «corazón pequeño»)."}
+{"id":"zh.c0375","meaning":"cumpleaños","note":"生日快乐！ = ¡feliz cumpleaños!"}
+{"id":"zh.c0376","meaning":"clima; tiempo","note":"今天天气很好。"}
+{"id":"zh.c0377","meaning":"música","note":"听音乐 = escuchar música."}
+{"id":"zh.c0378","meaning":"juego","note":"玩游戏 = jugar videojuegos."}
+{"id":"zh.c0379","meaning":"regalo","note":"送礼物 = hacer un regalo."}
+{"id":"zh.c0380","meaning":"foto","note":"Clasificador 张."}
+{"id":"zh.c0381","meaning":"extranjero/a","note":"Cortés; 老外 es coloquial."}
+{"id":"zh.c0382","meaning":"jefe/a; dueño/a de una tienda","note":"Una forma amistosa de llamar al dueño de un puesto."}
+{"id":"zh.c0383","meaning":"invitado/a; cliente","note":"有客人 = tenemos visita."}
+{"id":"zh.c0384","meaning":"vecino/a","note":"我的邻居."}
+{"id":"zh.c0385","meaning":"compañero/a de clase","note":"También es como se llaman los estudiantes entre sí."}
+{"id":"zh.c0386","meaning":"animal","note":"小动物 = un animal pequeño."}
+{"id":"zh.c0387","meaning":"gato","note":"Clasificador 只."}
+{"id":"zh.c0388","meaning":"pájaro","note":"Clasificador 只."}
+{"id":"zh.c0389","meaning":"pez; pescado","note":"Clasificador 条."}
+{"id":"zh.c0390","meaning":"fruta","note":"吃水果 = comer fruta."}
+{"id":"zh.c0391","meaning":"manzana","note":"También la marca Apple."}
+{"id":"zh.c0392","meaning":"carne","note":"Cerdo, si no se dice otra cosa: 牛肉 = carne de res."}
+{"id":"zh.c0393","meaning":"huevo","note":"蛋 solo también sirve."}
+{"id":"zh.c0394","meaning":"pan","note":"面 = harina o fideos."}
+{"id":"zh.c0395","meaning":"leche","note":"一杯牛奶."}
+{"id":"zh.c0396","meaning":"alcohol (vino, licores)","note":"喝酒 = tomar alcohol."}
+{"id":"zh.c0397","meaning":"taza; vaso","note":"El clasificador es 杯."}
+{"id":"zh.c0398","meaning":"mesa; escritorio","note":"桌子上 = sobre la mesa."}
+{"id":"zh.c0399","meaning":"silla","note":"坐在椅子上 = sentarse en una silla."}
+{"id":"zh.c0400","meaning":"cama","note":"起床 = levantarse de la cama."}
+{"id":"zh.c0401","meaning":"ventana","note":"开窗户 = abrir la ventana."}
+{"id":"zh.c0402","meaning":"luz; lámpara","note":"开灯 / 关灯 = prender / apagar la luz."}
+{"id":"zh.c0403","meaning":"llave","note":"我的钥匙呢？ = ¿y mis llaves?"}
+{"id":"zh.c0404","meaning":"bolso; bolsa","note":"书包 = mochila escolar."}
+{"id":"zh.c0405","meaning":"paraguas","note":"带伞 = llevar paraguas."}
+{"id":"zh.c0406","meaning":"bolígrafo","note":"Clasificador 支."}
+{"id":"zh.c0407","meaning":"papel","note":"一张纸 = una hoja de papel."}
+{"id":"zh.c0408","meaning":"mapa","note":"手机地图 = un mapa en el celular."}
+{"id":"zh.c0409","meaning":"boleto","note":"两张票 = dos boletos."}
+{"id":"zh.c0410","meaning":"tienda","note":"去商店买东西."}
+{"id":"zh.c0411","meaning":"supermercado","note":"我去超市."}
+{"id":"zh.c0412","meaning":"restaurante (pequeño)","note":"饭店 también puede ser un hotel."}
+{"id":"zh.c0413","meaning":"parque","note":"去公园 = ir al parque."}
+{"id":"zh.c0414","meaning":"aeropuerto","note":"去机场 = ir al aeropuerto."}
+{"id":"zh.c0415","meaning":"banco","note":"在银行工作 = trabajar en un banco."}
+{"id":"zh.c0416","meaning":"universidad","note":"上大学 = ir a la universidad."}
+{"id":"zh.c0417","meaning":"oficina","note":"在办公室 = en la oficina."}
+{"id":"zh.c0418","meaning":"baño (palabra directa)","note":"洗手间 es más cortés."}
+{"id":"zh.c0419","meaning":"cocina","note":"在厨房做饭 = cocinar en la cocina."}
+{"id":"zh.c0420","meaning":"pasatiempo","note":"你的爱好是什么？"}
+{"id":"zh.c0421","meaning":"palabra nueva (vocabulario)","note":"Cada lección del libro de texto trae una lista."}
+{"id":"zh.c0422","meaning":"oración (frase)","note":"这个句子 = esta oración."}
+{"id":"zh.c0423","meaning":"WeChat","note":"La app que todos usan en China para escribirse mensajes y pagar."}
+{"id":"zh.c0424","meaning":"internet; red","note":"上网 = conectarse a internet."}
+{"id":"zh.c0425","meaning":"número (de teléfono, de habitación)","note":"电话号码 = número de teléfono."}
+{"id":"zh.c0426","meaning":"color","note":"什么颜色？ = ¿de qué color?"}
+{"id":"zh.c0427","meaning":"niño pequeño","note":"Con la terminación 儿 (erhua), típica del norte."}
+{"id":"zh.c0428","meaning":"bebé","note":"Las parejas también lo usan como apodo cariñoso."}
+{"id":"zh.c0429","meaning":"adulto/a","note":"Lo contrario de 小孩儿."}
+{"id":"zh.c0430","meaning":"hotel","note":"También 宾馆."}
+{"id":"zh.c0431","meaning":"enfermedad","note":"生病 = enfermarse; 看病 = ir al médico."}
+{"id":"zh.c0432","meaning":"medicina","note":"吃药 = tomar medicina."}
+{"id":"zh.c0433","meaning":"querer; ir a","note":"我要这个。 También «tener que»: 你要早点儿睡."}
+{"id":"zh.c0434","meaning":"decir; hablar","note":"说中文 = hablar chino."}
+{"id":"zh.c0435","meaning":"saber (hacer algo aprendido); ir a (probabilidad)","note":"我会游泳。 明天会下雨。"}
+{"id":"zh.c0436","meaning":"saber (un dato)","note":"我不知道。 Para personas, usa 认识 (conocer)."}
+{"id":"zh.c0437","meaning":"venir","note":"来了！ = ¡ya voy! 来一个 = uno, por favor (al pedir)."}
+{"id":"zh.c0438","meaning":"dejar; hacer que (alguien haga algo)","note":"让我看看 = déjame ver."}
+{"id":"zh.c0439","meaning":"querer (hacer); pensar; extrañar","note":"我想去 = quiero ir. 想你 = te extraño."}
+{"id":"zh.c0440","meaning":"poder (tener permiso)","note":"可以吗？ = ¿se puede?, ¿está bien?"}
+{"id":"zh.c0441","meaning":"hacer","note":"做饭 = cocinar; 做完 = terminar de hacer."}
+{"id":"zh.c0442","meaning":"esperar","note":"等一下 = espera un momento. Después de una lista: etcétera."}
+{"id":"zh.c0443","meaning":"poder (ser capaz, ser posible)","note":"Las circunstancias lo permiten o no: 我明天不能来."}
+{"id":"zh.c0444","meaning":"escuchar; oír","note":"听懂 = entender (al oír); 听不懂 = no entender lo que se oye."}
+{"id":"zh.c0445","meaning":"caminar; irse","note":"我走了 = me voy."}
+{"id":"zh.c0446","meaning":"sentir; opinar","note":"我觉得很好。 Más suave que 想."}
+{"id":"zh.c0447","meaning":"gustar","note":"Al revés que «gustar», quien siente el gusto es el sujeto. 我喜欢你 (me gustas) es una declaración: dila en serio."}
+{"id":"zh.c0448","meaning":"buscar","note":"你找谁？ = ¿a quién buscas?"}
+{"id":"zh.c0449","meaning":"deber; tener que","note":"你应该休息。"}
+{"id":"zh.c0450","meaning":"invitar (pagar la cuenta)","note":"我请你 = yo invito. También «por favor»: 请坐."}
+{"id":"zh.c0451","meaning":"llamarse; llamar","note":"我叫安娜。 También: llamar a alguien en voz alta, pedir algo."}
+{"id":"zh.c0452","meaning":"morir","note":"累死了 = muerto de cansancio: una exageración muy común, como en español."}
+{"id":"zh.c0453","meaning":"ayudar","note":"帮我一下 = échame una mano."}
+{"id":"zh.c0454","meaning":"necesitar","note":"你需要什么？"}
+{"id":"zh.c0455","meaning":"empezar; comenzar","note":"开始上课 = empieza la clase."}
+{"id":"zh.c0456","meaning":"llevar (consigo); traer","note":"带伞 = llevar paraguas."}
+{"id":"zh.c0457","meaning":"conocer (a alguien); reconocer","note":"认识你很高兴。"}
+{"id":"zh.c0458","meaning":"vivir; alojarse","note":"住在北京: 在 + lugar va después de 住."}
+{"id":"zh.c0459","meaning":"aprender","note":"学会 = aprender a hacer algo (y ya saber hacerlo)."}
+{"id":"zh.c0460","meaning":"estudiar","note":"Más completo que 学: 学习中文."}
+{"id":"zh.c0461","meaning":"enseñar","note":"教我中文 = enseñarme chino."}
+{"id":"zh.c0462","meaning":"escribir","note":"写完 = terminar de escribir."}
+{"id":"zh.c0463","meaning":"leer (en voz alta); estudiar","note":"读书 = leer; estudiar, ir a la escuela."}
+{"id":"zh.c0464","meaning":"sentarse; ir en (un transporte)","note":"请坐。 坐地铁 = ir en metro."}
+{"id":"zh.c0465","meaning":"estar de pie","note":"Como sustantivo: estación (车站)."}
+{"id":"zh.c0466","meaning":"correr","note":"跑步 = trotar."}
+{"id":"zh.c0467","meaning":"volver","note":"回来 = volver (hacia aquí); 回去 = volver (hacia allá)."}
+{"id":"zh.c0468","meaning":"volver a casa","note":"我六点回家。"}
+{"id":"zh.c0469","meaning":"entrar","note":"进来 = entrar (hacia aquí); 进去 = entrar (hacia allá)."}
+{"id":"zh.c0470","meaning":"salir","note":"出去 = salir (hacia allá); 出来 = salir (hacia aquí)."}
+{"id":"zh.c0471","meaning":"abrir; manejar; prender","note":"开门, 开车, 开灯."}
+{"id":"zh.c0472","meaning":"cerrar; apagar","note":"关门, 关灯."}
+{"id":"zh.c0473","meaning":"ponerse; llevar puesto (ropa, zapatos)","note":"穿衣服 = vestirse."}
+{"id":"zh.c0474","meaning":"tomar; sostener","note":"拿着 = tenerlo en la mano."}
+{"id":"zh.c0475","meaning":"poner; colocar","note":"放在桌子上 = ponerlo sobre la mesa."}
+{"id":"zh.c0476","meaning":"regalar; acompañar (a alguien)","note":"送你回家 = acompañarte a casa."}
+{"id":"zh.c0477","meaning":"jugar; divertirse","note":"Con la terminación 儿 (erhua, del norte); también 玩."}
+{"id":"zh.c0478","meaning":"dormir; acostarse","note":"睡 + 觉: 睡好觉 = dormir bien."}
+{"id":"zh.c0479","meaning":"levantarse (de la cama)","note":"我七点起床。"}
+{"id":"zh.c0480","meaning":"descansar (reposar)","note":"好好休息 = descansa bien."}
+{"id":"zh.c0481","meaning":"ir a trabajar","note":"下班 = salir del trabajo."}
+{"id":"zh.c0482","meaning":"amar; querer (con amor)","note":"我爱你 es más «te amo» que «te quiero»: se reserva para el amor de verdad y la familia."}
+{"id":"zh.c0483","meaning":"entender","note":"懂了 = entendido. 听懂 / 看懂 añaden cómo (oyendo, leyendo)."}
+{"id":"zh.c0484","meaning":"olvidar","note":"Casi siempre 忘了: 我忘了。"}
+{"id":"zh.c0485","meaning":"recordar; acordarse","note":"你还记得我吗？"}
+{"id":"zh.c0486","meaning":"esperar (desear)","note":"希望你喜欢。"}
+{"id":"zh.c0487","meaning":"planear; tener pensado","note":"你打算做什么？"}
+{"id":"zh.c0488","meaning":"preparar; prepararse","note":"准备好了吗？ = ¿estás listo?"}
+{"id":"zh.c0489","meaning":"ver; encontrarse con","note":"明天见 = hasta mañana."}
+{"id":"zh.c0490","meaning":"verse (con alguien)","note":"Sin objeto: 跟你见面 = verme contigo."}
+{"id":"zh.c0491","meaning":"cambiar","note":"换钱 = cambiar dinero."}
+{"id":"zh.c0492","meaning":"probar; intentar","note":"试试 = probar un poco."}
+{"id":"zh.c0493","meaning":"presentar","note":"我介绍一下 = permíteme presentar."}
+{"id":"zh.c0494","meaning":"dar la bienvenida","note":"欢迎！ = ¡bienvenido!"}
+{"id":"zh.c0495","meaning":"cantar","note":"Verbo + objeto: 唱歌 = cantar (canciones)."}
+{"id":"zh.c0496","meaning":"bailar","note":""}
+{"id":"zh.c0497","meaning":"nadar","note":"会游泳 = saber nadar."}
+{"id":"zh.c0498","meaning":"trotar; salir a correr","note":"每天跑步 = correr todos los días."}
+{"id":"zh.c0499","meaning":"hacer ejercicio; deporte","note":"多运动 = haz más ejercicio."}
+{"id":"zh.c0500","meaning":"viajar (de turismo)","note":"去西安旅游 = irse de viaje a Xi'an."}
+{"id":"zh.c0501","meaning":"manejar (un auto)","note":"会开车 = saber manejar."}
+{"id":"zh.c0502","meaning":"llamar por teléfono","note":"给我打电话 = llámame."}
+{"id":"zh.c0503","meaning":"conectarse a internet","note":""}
+{"id":"zh.c0504","meaning":"presentar un examen; examen","note":"明天考试 = el examen es mañana."}
+{"id":"zh.c0505","meaning":"casarse","note":"结婚了 = está casado."}
+{"id":"zh.c0506","meaning":"enfermarse","note":"生病了 = está enfermo."}
+{"id":"zh.c0507","meaning":"llorar","note":"别哭 = no llores."}
+{"id":"zh.c0508","meaning":"enviar","note":"发微信 = mandar un mensaje de WeChat."}
+{"id":"zh.c0509","meaning":"pagar","note":"付钱 = pagar."}
+{"id":"zh.c0510","meaning":"perder (algo)","note":"我的手机丢了 = perdí el celular."}
+{"id":"zh.c0511","meaning":"echar una mano; hacer un favor","note":"Sin objeto: 帮个忙."}
+{"id":"zh.c0512","meaning":"preocuparse","note":"别担心 = no te preocupes."}
+{"id":"zh.c0513","meaning":"enojarse","note":"别生气 = no te enojes."}
+{"id":"zh.c0514","meaning":"bañarse; ducharse","note":""}
+{"id":"zh.c0515","meaning":"golpear; jugar (a la pelota); hacer (una llamada)","note":"打球, 打车, 打电话."}
+{"id":"zh.c0516","meaning":"ver (alcanzar a ver)","note":"看 + 见 (resultado): 你看见了吗？"}
+{"id":"zh.c0517","meaning":"oír decir (que)","note":"听说你结婚了！"}
+{"id":"zh.c0518","meaning":"hablar; conversar","note":"别说话 = no hables, silencio."}
+{"id":"zh.c0519","meaning":"comer (una comida)","note":"吃饭了吗？ = ¿ya comiste? (saludo)"}
+{"id":"zh.c0520","meaning":"terminar","note":"Después de un verbo: 吃完, 做完."}
+{"id":"zh.c0521","meaning":"rápido","note":"Los adjetivos funcionan como verbos: 他很快 (sin 是)."}
+{"id":"zh.c0522","meaning":"nuevo","note":"Va antes del sustantivo: 新手机 (celular nuevo)."}
+{"id":"zh.c0523","meaning":"mucho; muchos","note":"Antes de un sustantivo: 很多人, no 多人."}
+{"id":"zh.c0524","meaning":"igual; lo mismo","note":"跟…一样 = igual que."}
+{"id":"zh.c0525","meaning":"poco; pocos","note":"人很少 = hay poca gente."}
+{"id":"zh.c0526","meaning":"largo","note":"很长. Aquí se lee cháng."}
+{"id":"zh.c0527","meaning":"corto (de longitud)","note":"Para la estatura: 矮."}
+{"id":"zh.c0528","meaning":"bajo (de estatura)","note":"Lo contrario de 高."}
+{"id":"zh.c0529","meaning":"viejo (cosas)","note":"Para personas: 老."}
+{"id":"zh.c0530","meaning":"viejo; mayor (personas)","note":"老王 = «viejo Wang», en tono amistoso."}
+{"id":"zh.c0531","meaning":"lento","note":"慢点儿 = más despacio."}
+{"id":"zh.c0532","meaning":"temprano","note":"早！ = ¡buenos días! (saludo)"}
+{"id":"zh.c0533","meaning":"tarde","note":"晚了 = ya es tarde."}
+{"id":"zh.c0534","meaning":"frío","note":"Sin 是: 今天很冷."}
+{"id":"zh.c0535","meaning":"caliente; caluroso","note":"Para el clima y la comida: 很热."}
+{"id":"zh.c0536","meaning":"ocupado","note":"A 你忙吗？ se responde 很忙, no 是."}
+{"id":"zh.c0537","meaning":"cansado","note":"累死了 = agotado."}
+{"id":"zh.c0538","meaning":"hambriento","note":"Casi siempre 饿了: 我饿了 (ya tengo hambre), sin ningún «tener»."}
+{"id":"zh.c0539","meaning":"sediento","note":"渴了 = tengo sed."}
+{"id":"zh.c0540","meaning":"con sueño","note":"困了 = tengo sueño."}
+{"id":"zh.c0541","meaning":"lejos","note":"离这儿远吗？"}
+{"id":"zh.c0542","meaning":"cerca","note":"很近 = muy cerca."}
+{"id":"zh.c0543","meaning":"caro","note":"太贵了！ = ¡qué caro!"}
+{"id":"zh.c0544","meaning":"barato","note":"便宜一点儿吧 = ¿un poco más barato?"}
+{"id":"zh.c0545","meaning":"gordo; gordito","note":"En China se comenta con bastante libertad, pero puede doler igual."}
+{"id":"zh.c0546","meaning":"delgado","note":"En China suele ser un cumplido."}
+{"id":"zh.c0547","meaning":"ácido; agrio","note":""}
+{"id":"zh.c0548","meaning":"amargo","note":"También «duro» (la vida)."}
+{"id":"zh.c0549","meaning":"picante","note":"不辣 = no pica."}
+{"id":"zh.c0550","meaning":"salado","note":""}
+{"id":"zh.c0551","meaning":"aromático; que huele bien","note":"真香 = ¡qué bien huele!"}
+{"id":"zh.c0552","meaning":"rico (comida)","note":"Para bebidas: 好喝. En español «rico» sirve para las dos cosas."}
+{"id":"zh.c0553","meaning":"rico (bebida)","note":""}
+{"id":"zh.c0554","meaning":"difícil","note":"中文不难。"}
+{"id":"zh.c0555","meaning":"fácil","note":"不容易 = no es fácil."}
+{"id":"zh.c0556","meaning":"sencillo","note":""}
+{"id":"zh.c0557","meaning":"cómodo; a gusto","note":"不舒服 = sentirse mal."}
+{"id":"zh.c0558","meaning":"práctico; conveniente","note":"方便吗？ = ¿te viene bien ahora?"}
+{"id":"zh.c0559","meaning":"limpio","note":""}
+{"id":"zh.c0560","meaning":"tranquilo; silencioso","note":""}
+{"id":"zh.c0561","meaning":"animado; con mucho ambiente","note":"En China es algo bueno."}
+{"id":"zh.c0562","meaning":"famoso","note":""}
+{"id":"zh.c0563","meaning":"importante","note":""}
+{"id":"zh.c0564","meaning":"contento; alegre","note":"很高兴认识你."}
+{"id":"zh.c0565","meaning":"feliz (en celebraciones)","note":"生日快乐 = feliz cumpleaños."}
+{"id":"zh.c0566","meaning":"triste","note":""}
+{"id":"zh.c0567","meaning":"equivocado; incorrecto","note":"你错了 = te equivocas."}
+{"id":"zh.c0568","meaning":"bastante bueno; nada mal","note":"Un cumplido de verdad, más cálido de lo que parece."}
+{"id":"zh.c0569","meaning":"claro","note":"说清楚 = decirlo claramente."}
+{"id":"zh.c0570","meaning":"entendido; comprendido","note":"明白了 = ya entiendo."}
+{"id":"zh.c0571","meaning":"sano","note":""}
+{"id":"zh.c0572","meaning":"peligroso","note":""}
+{"id":"zh.c0573","meaning":"seguro","note":""}
+{"id":"zh.c0574","meaning":"increíble; impresionante","note":"你真厉害 = ¡eres increíble!"}
+{"id":"zh.c0575","meaning":"templado (clima)","note":""}
+{"id":"zh.c0576","meaning":"fresco (agradable)","note":""}
+{"id":"zh.c0577","meaning":"malo; descompuesto","note":"坏了 = se descompuso."}
+{"id":"zh.c0578","meaning":"rojo","note":"El color de la suerte. El sustantivo: 红色."}
+{"id":"zh.c0579","meaning":"blanco","note":"El sustantivo: 白色."}
+{"id":"zh.c0580","meaning":"negro; oscuro","note":"天黑了 = ya oscureció."}
+{"id":"zh.c0581","meaning":"amarillo","note":""}
+{"id":"zh.c0582","meaning":"azul","note":"蓝天 = cielo azul."}
+{"id":"zh.c0583","meaning":"rico (con dinero)","note":""}
+{"id":"zh.c0584","meaning":"aburrido","note":"Lo contrario de 有意思."}
+{"id":"zh.c0585","meaning":"casi igual; casi","note":"差不多了 = ya casi está."}
+{"id":"zh.c0586","meaning":"despejado; soleado","note":"晴天 = un día soleado."}
+{"id":"zh.c0587","meaning":"nublado","note":"阴天 = un día gris."}
+{"id":"zh.c0588","meaning":"no","note":"Antes de un verbo o adjetivo: 不去, 不好. Bú antes de un cuarto tono."}
+{"id":"zh.c0589","meaning":"justo; enseguida; entonces","note":"我就来 = ya voy, ahora mismo."}
+{"id":"zh.c0590","meaning":"también","note":"Antes del verbo: 我也去. Nunca al final."}
+{"id":"zh.c0591","meaning":"todos; los dos","note":"Antes del verbo: 我们都去."}
+{"id":"zh.c0592","meaning":"muy","note":"Une el sujeto y el adjetivo: 我很忙 (sin 是)."}
+{"id":"zh.c0593","meaning":"todavía; además","note":"他还在睡觉 = todavía está durmiendo."}
+{"id":"zh.c0594","meaning":"no (en mandatos)","note":"别走！ = ¡no te vayas!"}
+{"id":"zh.c0595","meaning":"de verdad; en serio","note":"真的吗？ = ¿en serio?"}
+{"id":"zh.c0596","meaning":"ahora","note":"Antes del verbo: 我现在很忙."}
+{"id":"zh.c0597","meaning":"demasiado; tan","note":"太贵了 = demasiado caro; 太好了 = ¡genial!"}
+{"id":"zh.c0598","meaning":"no (para lo que no pasó)","note":"Para lo que no pasó y para 有: 我没去."}
+{"id":"zh.c0599","meaning":"realmente; ¡qué…!","note":"Antes de un adjetivo: 真好."}
+{"id":"zh.c0600","meaning":"ya","note":"Suele ir con 了: 我已经吃了."}
+{"id":"zh.c0601","meaning":"recién; no hasta","note":"他十点才来 = no llegó hasta las diez."}
+{"id":"zh.c0602","meaning":"juntos","note":"一起去吧 = vamos juntos."}
+{"id":"zh.c0603","meaning":"solo; solamente","note":"我只有一个 = solo tengo uno."}
+{"id":"zh.c0604","meaning":"un momento; un poco (suaviza el verbo)","note":"等一下 = espera un momento."}
+{"id":"zh.c0605","meaning":"otra vez (la próxima)","note":"再见 = adiós (literalmente «otra vez ver»)."}
+{"id":"zh.c0606","meaning":"el más","note":"最好 = lo mejor."}
+{"id":"zh.c0607","meaning":"quizás; posiblemente","note":"他可能不来。"}
+{"id":"zh.c0608","meaning":"aún más","note":"更好 = aún mejor."}
+{"id":"zh.c0609","meaning":"extremadamente","note":"Más fuerte que 很."}
+{"id":"zh.c0610","meaning":"un poco (de más)","note":"Casi siempre para cosas malas: 有点儿贵."}
+{"id":"zh.c0611","meaning":"últimamente","note":"最近怎么样？"}
+{"id":"zh.c0612","meaning":"bastante; relativamente","note":"比较贵 = más bien caro."}
+{"id":"zh.c0613","meaning":"enseguida; ahora mismo","note":"马上来！ = ¡ya va, enseguida!"}
+{"id":"zh.c0614","meaning":"estar haciendo (justo ahora)","note":"我正在吃饭."}
+{"id":"zh.c0615","meaning":"a menudo","note":"我常常去."}
+{"id":"zh.c0616","meaning":"con frecuencia","note":"Igual que 常常, un poco más formal."}
+{"id":"zh.c0617","meaning":"siempre","note":"他总是很忙."}
+{"id":"zh.c0618","meaning":"a veces","note":""}
+{"id":"zh.c0619","meaning":"hace un momento","note":"刚才谁来了？"}
+{"id":"zh.c0620","meaning":"primero (antes que otros)","note":"你先走 = ve tú primero."}
+{"id":"zh.c0621","meaning":"sin falta; seguro","note":"一定要来 = tienes que venir sin falta."}
+{"id":"zh.c0622","meaning":"todo el tiempo; derecho","note":"一直走 = sigue derecho."}
+{"id":"zh.c0623","meaning":"claro; por supuesto","note":"当然可以！ = ¡claro que sí!"}
+{"id":"zh.c0624","meaning":"en realidad","note":""}
+{"id":"zh.c0625","meaning":"normalmente; en general","note":"También «normal, regular»."}
+{"id":"zh.c0626","meaning":"despacio; poco a poco","note":"慢慢吃 = buen provecho (literalmente «come despacio»)."}
+{"id":"zh.c0627","meaning":"bien; como se debe","note":"好好休息 = descansa bien."}
+{"id":"zh.c0628","meaning":"yo; me","note":"Una sola forma para «yo», «me» y «mí»."}
+{"id":"zh.c0629","meaning":"tú","note":"La forma amistosa normal. De respeto: 您."}
+{"id":"zh.c0630","meaning":"él","note":"Suena igual que 她 y 它: tā."}
+{"id":"zh.c0631","meaning":"este; esto","note":"Casi siempre + clasificador: 这本书."}
+{"id":"zh.c0632","meaning":"ella","note":"Suena igual que 他: tā."}
+{"id":"zh.c0633","meaning":"ese; eso","note":"那个 = ese. También «entonces, en ese caso»."}
+{"id":"zh.c0634","meaning":"uno mismo; yo mismo","note":"我自己 = yo mismo."}
+{"id":"zh.c0635","meaning":"ustedes","note":"你们好 = hola a todos."}
+{"id":"zh.c0636","meaning":"él, ella (animal o cosa)","note":"Para animales y cosas; muchas veces se omite."}
+{"id":"zh.c0637","meaning":"aquí","note":"Igual que 这儿; 这里 es más común en el sur."}
+{"id":"zh.c0638","meaning":"usted","note":"A personas mayores, profesores y clientes. Como «usted», pero el verbo no cambia."}
+{"id":"zh.c0639","meaning":"nosotros (tú y yo)","note":"Del norte; siempre incluye a quien escucha."}
+{"id":"zh.c0640","meaning":"todos","note":"大家好！ = ¡hola a todos!"}
+{"id":"zh.c0641","meaning":"ellas","note":"Mismo sonido que 他们."}
+{"id":"zh.c0642","meaning":"ellos (animales o cosas)","note":"Sobre todo por escrito."}
+{"id":"zh.c0643","meaning":"estos","note":"这些人 = estas personas."}
+{"id":"zh.c0644","meaning":"esos","note":"那些书 = esos libros."}
+{"id":"zh.c0645","meaning":"aquí (norte)","note":"Forma con 儿 (erhua) de 这里."}
+{"id":"zh.c0646","meaning":"allí (norte)","note":"Forma con 儿 (erhua) de 那里."}
+{"id":"zh.c0647","meaning":"allí","note":""}
+{"id":"zh.c0648","meaning":"dónde (norte)","note":"你去哪儿？"}
+{"id":"zh.c0649","meaning":"dónde","note":"Doble, es una respuesta modesta: 哪里哪里."}
+{"id":"zh.c0650","meaning":"cuál; qué","note":"+ clasificador: 哪本书？"}
+{"id":"zh.c0651","meaning":"otro; otra cosa","note":"别的颜色 = otro color."}
+{"id":"zh.c0652","meaning":"mi; mío","note":"的 indica posesión. Con la familia: 我妈妈 (sin 的)."}
+{"id":"zh.c0653","meaning":"tu; tuyo","note":""}
+{"id":"zh.c0654","meaning":"su; suyo (de él)","note":""}
+{"id":"zh.c0655","meaning":"su; suyo (de ella)","note":""}
+{"id":"zh.c0656","meaning":"nuestro","note":""}
+{"id":"zh.c0657","meaning":"de quién","note":"这是谁的？ = ¿de quién es esto?"}
+{"id":"zh.c0658","meaning":"en (un lugar)","note":"Antes del verbo, al revés que en español: 我在家吃饭 (como en casa)."}
+{"id":"zh.c0659","meaning":"(pasa el objeto antes del verbo)","note":"把书给我 = dame el libro."}
+{"id":"zh.c0660","meaning":"por; para (el bien de alguien)","note":"为你高兴 = me alegro por ti."}
+{"id":"zh.c0661","meaning":"a; hasta; llegar","note":"从…到… = de… a…"}
+{"id":"zh.c0662","meaning":"por (en la voz pasiva)","note":"Suele ser para malas noticias: 被拿走了 = se lo llevaron."}
+{"id":"zh.c0663","meaning":"a; para (alguien)","note":"给我打电话 = llámame. También es el verbo «dar»."}
+{"id":"zh.c0664","meaning":"desde; de","note":"我从美国来。"}
+{"id":"zh.c0665","meaning":"con","note":"跟我来 = ven conmigo."}
+{"id":"zh.c0666","meaning":"después (tras una palabra de tiempo)","note":"三天后 = tres días después."}
+{"id":"zh.c0667","meaning":"con; usando","note":"用筷子吃 = comer con palillos."}
+{"id":"zh.c0668","meaning":"hacia","note":"往前走 = sigue derecho."}
+{"id":"zh.c0669","meaning":"de (distancia)","note":"离这儿远吗？ = ¿está lejos de aquí?"}
+{"id":"zh.c0670","meaning":"que (al comparar)","note":"我比他高 = soy más alto que él."}
+{"id":"zh.c0671","meaning":"en; dentro (tras un sustantivo)","note":"房间里 = en la habitación."}
+{"id":"zh.c0672","meaning":"antes; hace (tras una palabra de tiempo)","note":"三天前 = hace tres días: va detrás, al revés que «hace»."}
+{"id":"zh.c0673","meaning":"encima; arriba","note":"桌子上边 = sobre la mesa."}
+{"id":"zh.c0674","meaning":"debajo; abajo","note":""}
+{"id":"zh.c0675","meaning":"dentro","note":""}
+{"id":"zh.c0676","meaning":"fuera; afuera","note":""}
+{"id":"zh.c0677","meaning":"delante; adelante","note":""}
+{"id":"zh.c0678","meaning":"detrás; atrás","note":""}
+{"id":"zh.c0679","meaning":"al lado (de)","note":""}
+{"id":"zh.c0680","meaning":"enfrente (de)","note":""}
+{"id":"zh.c0681","meaning":"en medio; entre","note":""}
+{"id":"zh.c0682","meaning":"cerca; los alrededores","note":""}
+{"id":"zh.c0683","meaning":"a la izquierda","note":"A la derecha: 右边."}
+{"id":"zh.c0684","meaning":"y","note":"Solo une sustantivos: 我和你. No une oraciones, como sí hace «y»."}
+{"id":"zh.c0685","meaning":"si","note":"Suele seguirle 就: mira 如果…就."}
+{"id":"zh.c0686","meaning":"y además; también","note":"Añade una cosa más: 还有一个问题."}
+{"id":"zh.c0687","meaning":"o (en preguntas)","note":"茶还是咖啡？ En afirmaciones se usa 或者."}
+{"id":"zh.c0688","meaning":"o (en afirmaciones)","note":""}
+{"id":"zh.c0689","meaning":"pero","note":"Más suave que 但是; común al hablar."}
+{"id":"zh.c0690","meaning":"pero; sin embargo","note":"Un «pero» suave: bueno para rechazar con cortesía."}
+{"id":"zh.c0691","meaning":"y luego; después","note":""}
+{"id":"zh.c0692","meaning":"entonces; bueno (en ese caso)","note":"Abre una respuesta: 那么，我们走吧."}
+{"id":"zh.c0693","meaning":"porque… por eso","note":"El chino suele usar las dos mitades; el español, solo una."}
+{"id":"zh.c0694","meaning":"si… entonces","note":"就 va antes del verbo en la segunda parte."}
+{"id":"zh.c0695","meaning":"primero… luego","note":""}
+{"id":"zh.c0696","meaning":"cuando…","note":"Va DESPUÉS de la oración, al revés que «cuando»: 我小的时候 (cuando era pequeño)."}
+{"id":"zh.c0697","meaning":"tanto… como","note":"又好吃又便宜 = rico y barato."}
+{"id":"zh.c0698","meaning":"o… o","note":""}
+{"id":"zh.c0699","meaning":"¿Aló? (al teléfono)","note":"Al teléfono se dice wéi; wèi, para llamar a alguien: «¡oye!»."}
+{"id":"zh.c0700","meaning":"¡Dios mío!","note":"Literalmente «mi cielo». Común y no es grosero."}
+{"id":"zh.c0701","meaning":"¡Ánimo! ¡Tú puedes!","note":"Literalmente «echar aceite». Para exámenes, partidos y días difíciles."}
+{"id":"zh.c0702","meaning":"Olvídalo. Déjalo.","note":"Para rendirse con algo."}
+{"id":"zh.c0703","meaning":"Listo. Ya basta.","note":"好了，走吧 = bueno, vámonos."}
+{"id":"zh.c0704","meaning":"Bueno, está bien.","note":"Aceptar sin mucho entusiasmo."}
+{"id":"zh.c0705","meaning":"Ah, por cierto…","note":"Abre un tema nuevo que acabas de recordar."}
+{"id":"zh.c0706","meaning":"¿Ah, sí?","note":"Sorpresa o interés suave."}
+{"id":"zh.c0707","meaning":"¡¿En serio?!","note":"Más sorpresa que 是吗."}
+{"id":"zh.c0708","meaning":"¡No puede ser!","note":"Incredulidad total."}
+{"id":"zh.c0709","meaning":"¡Qué lástima!","note":"Muchas veces 太可惜了."}
+{"id":"zh.c0710","meaning":"¡No hay problema!","note":"Para aceptar ayudar."}
+{"id":"zh.c0711","meaning":"De acuerdo.","note":"El «sí» de todos los días ante un pedido."}
+{"id":"zh.c0712","meaning":"Va, de acuerdo.","note":"Muy común en el norte para decir «está bien»."}
+{"id":"zh.c0713","meaning":"No, así no puede ser.","note":"Un «no» firme."}
+{"id":"zh.c0714","meaning":"¡Apúrate!","note":"Entre amigos; con 吧 suena más suave."}
+{"id":"zh.c0715","meaning":"¡Más despacio! ¡Cuídate!","note":"También se dice cuando alguien se va: 慢点儿走."}
+{"id":"zh.c0716","meaning":"un; uno (de algo)","note":"个 es el clasificador comodín: 一个人."}
+{"id":"zh.c0717","meaning":"no (no pasó; no hay)","note":"Responde a preguntas con 有…吗 y con 了."}
+{"id":"zh.c0718","meaning":"no (no es)","note":"Responde a una pregunta con 是: 不是，我是美国人。"}
+{"id":"zh.c0719","meaning":"año","note":"三年 = tres años (sin clasificador)."}
+{"id":"zh.c0720","meaning":"cómo","note":"怎么走？ = ¿cómo llego?"}
+{"id":"zh.c0721","meaning":"cuántos; cuánto","note":"Cualquier cantidad; 几 para números pequeños."}
+{"id":"zh.c0722","meaning":"cuántos (números pequeños)","note":"+ clasificador: 几个？"}
+{"id":"zh.c0723","meaning":"cuánto tiempo","note":"你学了多久？"}
+{"id":"zh.c0724","meaning":"qué edad; qué tan grande","note":"A los adultos se les pregunta 多大; a los niños, 几岁."}
+{"id":"zh.c0725","meaning":"cada","note":"+ clasificador: 每个人 = cada uno, todos."}
+{"id":"zh.c0726","meaning":"algunos; unos cuantos","note":"一些朋友 = algunos amigos."}
+{"id":"zh.c0727","meaning":"un poco","note":"一点儿水. Después de un adjetivo: 好一点儿."}
+{"id":"zh.c0728","meaning":"mucho; muchos","note":"很多人 = mucha gente."}
+{"id":"zh.c0729","meaning":"cuatro","note":"Suena parecido a 死 (morir), así que mucha gente lo evita. Y no es «sí»: la i zumba."}
+{"id":"zh.c0730","meaning":"cinco","note":""}
+{"id":"zh.c0731","meaning":"seis","note":"Un número de la suerte: 六六大顺."}
+{"id":"zh.c0732","meaning":"nueve","note":"Suena como 久 (duradero)."}
+{"id":"zh.c0733","meaning":"once","note":"Diez + uno."}
+{"id":"zh.c0734","meaning":"doce","note":""}
+{"id":"zh.c0735","meaning":"trece","note":""}
+{"id":"zh.c0736","meaning":"catorce","note":""}
+{"id":"zh.c0737","meaning":"dieciséis","note":""}
+{"id":"zh.c0738","meaning":"diecisiete","note":""}
+{"id":"zh.c0739","meaning":"dieciocho","note":""}
+{"id":"zh.c0740","meaning":"diecinueve","note":""}
+{"id":"zh.c0741","meaning":"medio; mitad","note":"三点半 = las tres y media. 一半 = la mitad."}
+{"id":"zh.c0742","meaning":"primero","note":"第 + número forma un ordinal: 第二 = segundo."}
+{"id":"zh.c0743","meaning":"hoy","note":""}
+{"id":"zh.c0744","meaning":"pasado mañana","note":""}
+{"id":"zh.c0745","meaning":"anteayer","note":""}
+{"id":"zh.c0746","meaning":"este año","note":""}
+{"id":"zh.c0747","meaning":"el año que viene","note":""}
+{"id":"zh.c0748","meaning":"el año pasado","note":""}
+{"id":"zh.c0749","meaning":"mañana (temprano)","note":"早上好 = buenos días."}
+{"id":"zh.c0750","meaning":"mañana (antes del mediodía)","note":""}
+{"id":"zh.c0751","meaning":"mediodía","note":""}
+{"id":"zh.c0752","meaning":"tarde","note":""}
+{"id":"zh.c0753","meaning":"noche","note":""}
+{"id":"zh.c0754","meaning":"antes; en el pasado","note":""}
+{"id":"zh.c0755","meaning":"después; en el futuro","note":""}
+{"id":"zh.c0756","meaning":"semana","note":"这个星期 = esta semana."}
+{"id":"zh.c0757","meaning":"martes","note":"星期 + número; el domingo es 星期天."}
+{"id":"zh.c0758","meaning":"miércoles","note":""}
+{"id":"zh.c0759","meaning":"jueves","note":""}
+{"id":"zh.c0760","meaning":"viernes","note":""}
+{"id":"zh.c0761","meaning":"sábado","note":""}
+{"id":"zh.c0762","meaning":"domingo","note":"También se escribe 星期日."}
+{"id":"zh.c0763","meaning":"hora","note":"一个小时 = una hora (necesita 个)."}
+{"id":"zh.c0764","meaning":"minuto","note":"十分钟 = diez minutos."}
+{"id":"zh.c0765","meaning":"todos los días","note":""}
+{"id":"zh.c0766","meaning":"primavera","note":""}
+{"id":"zh.c0767","meaning":"verano","note":""}
+{"id":"zh.c0768","meaning":"otoño","note":""}
+{"id":"zh.c0769","meaning":"invierno","note":""}
+{"id":"zh.c0770","meaning":"vez (cuántas veces)","note":"去过三次 = he ido tres veces."}
+{"id":"zh.c0771","meaning":"tipo; clase","note":"这种茶 = este tipo de té."}
+{"id":"zh.c0772","meaning":"porción; ejemplar","note":"一份饺子 = una porción de empanaditas."}
+{"id":"zh.c0773","meaning":"hora de clase; sección","note":"一节课 = una clase."}
+{"id":"zh.c0774","meaning":"piso (de un edificio); capa","note":"十二层 = el piso doce."}
+{"id":"zh.c0775","meaning":"máquinas (computadoras, televisores)","note":"一台电脑 = una computadora."}
+{"id":"zh.c0776","meaning":"películas; teléfonos","note":"一部电影 = una película."}
+{"id":"zh.c0777","meaning":"tramo (de tiempo o de camino)","note":"一段时间 = un tiempo."}
+{"id":"zh.c0778","meaning":"vez (de principio a fin)","note":"再说一遍 = dilo otra vez."}
+{"id":"zh.c0779","meaning":"plato de (comida)","note":"一盘饺子 = un plato de empanaditas."}
+{"id":"zh.c0780","meaning":"cosas alargadas (bolígrafos)","note":"一支笔 = un bolígrafo."}
+{"id":"zh.c0781","meaning":"habitaciones","note":"一间教室 = un aula."}
+{"id":"zh.c0782","meaning":"juego; apartamento","note":"一套房子 = un apartamento."}
+{"id":"zh.c0783","meaning":"jin (medio kilo)","note":"La fruta y la verdura se venden por 斤."}
+{"id":"zh.c0784","meaning":"tazón de","note":"一碗米饭 = un tazón de arroz."}
+{"id":"zh.c0785","meaning":"yuan (formal, por escrito)","note":"En las etiquetas de precio; al hablar se dice 块."}
+{"id":"zh.c0786","meaning":"kilogramo","note":""}
+{"id":"zh.c0787","meaning":"kilómetro","note":""}
+{"id":"zh.c0788","meaning":"(une lo que describe con el sustantivo; indica posesión)","note":"我的书; 很好的人."}
+{"id":"zh.c0789","meaning":"(acción terminada o situación nueva)","note":"我吃了 = ya comí; 下雨了 = ya está lloviendo."}
+{"id":"zh.c0790","meaning":"(convierte una afirmación en pregunta de sí o no)","note":"你忙吗？"}
+{"id":"zh.c0791","meaning":"(sugerencia: «vamos a…»; suposición: «supongo que…»)","note":"走吧 = vámonos. 你是安娜吧？ = Eres Ana, ¿verdad?"}
+{"id":"zh.c0792","meaning":"(añade calidez o emoción)","note":"好啊！ = ¡claro! 是啊 = sí, así es."}
+{"id":"zh.c0793","meaning":"(estado que dura)","note":"门开着 = la puerta está abierta."}
+{"id":"zh.c0794","meaning":"(haber hecho alguna vez)","note":"我去过北京 = he estado en Pekín (alguna vez)."}
+{"id":"zh.c0795","meaning":"(«¿y tú?»; algo que sigue en curso)","note":"你呢？ = ¿y tú? 他在睡觉呢."}
+{"id":"zh.c0796","meaning":"(une el verbo con cómo se hace)","note":"说得很好 = habla bien."}
+{"id":"zh.c0797","meaning":"(plural de personas)","note":"我们, 朋友们. Nunca después de un número."}
+{"id":"zh.c0798","meaning":"(subraya cuándo, dónde o cómo)","note":"Para hechos pasados: 我是坐飞机来的."}
+{"id":"zh.c0799","meaning":"(si…, al final de la oración)","note":"下雨的话 = si llueve. Suele ir con 如果."}
+{"id":"zh.c0800","meaning":"¡Qué bien huele!","note":"Se dice de la comida cuando llega a la mesa. En internet, 真香 también es una broma sobre tragarse las propias palabras."}
+{"id":"zh.c0801","meaning":"¡Lo que cocinas está riquísimo!","note":"Literalmente «los platos que haces están muy ricos». A un anfitrión mayor: 您做的菜真好吃！"}
+{"id":"zh.c0802","meaning":"¡Está riquísimo!","note":"Se dice mientras comes. 太…了 = tan, muy."}
+{"id":"zh.c0803","meaning":"¡Este té está muy rico!","note":"Para cualquier bebida: 好喝."}
+{"id":"zh.c0804","meaning":"¡Bien hecho!","note":"Elogio por un trabajo o una tarea. Suena a profesor o a jefe; entre amigos, 你真厉害 es más cálido."}
+{"id":"zh.c0805","meaning":"¡Eres increíble!","note":"El «¡guau, qué impresionante!» de todos los días, para cualquier habilidad. Sirve con amigos, colegas y gente de tu edad."}
+{"id":"zh.c0806","meaning":"¡Qué empeño pones en estudiar!","note":"Elogio del esfuerzo, muy valorado en China. 认真 = serio, cuidadoso."}
+{"id":"zh.c0807","meaning":"¡Qué inteligente eres!","note":"Para adultos y niños por igual."}
+{"id":"zh.c0808","meaning":"Eres muy buena persona.","note":"Literalmente «tú, como persona, eres muy bueno». Se suele decir justo después de que alguien te ayuda."}
+{"id":"zh.c0809","meaning":"¡Qué divertido eres!","note":"有意思 = divertido, interesante. No 你真好笑, que puede significar «eres ridículo»."}
+{"id":"zh.c0810","meaning":"¡Qué bonita es tu casa!","note":"Algo natural que decir como invitado. 家 es «casa» y «familia»; aquí es la casa."}
+{"id":"zh.c0811","meaning":"¡Qué grande es tu casa!","note":"Lo dice un invitado; en una ciudad china, el espacio es un cumplido de verdad."}
+{"id":"zh.c0812","meaning":"¡Qué bien te queda!","note":"Literalmente «tú llevas esta, muy bonita». 件 es para camisas, abrigos y vestidos; para pantalones se dice 这条."}
+{"id":"zh.c0813","meaning":"¡Qué lindo es tu hijo!","note":"Muy común y siempre bienvenido."}
+{"id":"zh.c0814","meaning":"¡Qué bonita es esta foto!","note":"张 es el clasificador de las fotos."}
+{"id":"zh.c0815","meaning":"¡Qué bonita letra tienes!","note":"字 = caracteres; elogio por escribir chino a mano."}
+{"id":"zh.c0816","meaning":"¡Qué bien cantas!","note":"好听 = agradable de oír. A un profesor: 您唱歌真好听！"}
+{"id":"zh.c0817","meaning":"¡Qué bien hablas chino!","note":"Lo oirás mucho, a veces después de decir solo 你好. Responde con modestia (mira 哪里哪里 y 还差得远呢)."}
+{"id":"zh.c0818","meaning":"Tus tonos están muy bien.","note":"Un elogio real para un estudiante: los tonos son lo difícil."}
+{"id":"zh.c0819","meaning":"No es para tanto. (respuesta modesta)","note":"Literalmente «¿dónde? ¿dónde?»: la forma clásica y modesta de quitarle importancia a un elogio. Las personas mayores y las situaciones formales la esperan; los jóvenes muchas veces dicen solo 谢谢."}
+{"id":"zh.c0820","meaning":"Todavía me falta mucho.","note":"La respuesta habitual cuando alguien elogia tu chino. Aceptar el elogio sin más puede sonar presumido; hoy también sirve un simple 谢谢."}
+{"id":"zh.c0821","meaning":"Todavía no lo hablo bien.","note":"Respuesta modesta a un elogio de tu chino; más amable que un 谢谢 seco."}
+{"id":"zh.c0822","meaning":"Bueno, no está mal.","note":"Modesto, pero acepta un poco el elogio. Común entre los jóvenes."}
+{"id":"zh.c0823","meaning":"Todavía tengo que estudiar más.","note":"Respuesta modesta cuando alguien elogia tu chino o tu trabajo."}
+{"id":"zh.c0824","meaning":"¿En serio? ¡Gracias!","note":"La forma moderna de aceptar un elogio: contento, pero sin presumir."}
+{"id":"zh.c0825","meaning":"bonito/a, guapo/a (de uso diario)","note":"Sobre todo a una mujer; a un hombre se le dice 帅. Suave."}
+{"id":"zh.c0826","meaning":"hermoso/a (más fuerte)","note":"A una mujer; también para un paisaje. Cálido."}
+{"id":"zh.c0827","meaning":"guapo; con estilo","note":"A un hombre (también a una mujer con estilo). De suave a cálido."}
+{"id":"zh.c0828","meaning":"lindo/a, que se ve bien","note":"A cualquiera, y también para la ropa. Suave."}
+{"id":"zh.c0829","meaning":"tierno/a, adorable","note":"Cálido. Dicho a un hombre adulto es una broma."}
+{"id":"zh.c0830","meaning":"inteligente, listo/a","note":"A cualquiera. Suave y siempre seguro."}
+{"id":"zh.c0831","meaning":"divertido/a, interesante (persona)","note":"Mejor que 好笑, que puede significar «ridículo». Suave."}
+{"id":"zh.c0832","meaning":"agradable al oído (voz, nombre)","note":"Para voces, nombres y canciones. Suave."}
+{"id":"zh.c0833","meaning":"especial, único/a","note":"你很特别 = «Eres especial». Cálido."}
+{"id":"zh.c0834","meaning":"joven, de aspecto juvenil","note":"Un gran cumplido para cualquiera de más de treinta años. Suave."}
+{"id":"zh.c0835","meaning":"alto/a","note":"又高又帅 = «alto y guapo», el elogio clásico para un hombre."}
+{"id":"zh.c0836","meaning":"dulce (una sonrisa, unas palabras)","note":"笑得很甜 = «una sonrisa dulce». Cálido."}
+{"id":"zh.c0837","meaning":"contento/a, pasarla bien","note":"跟你在一起很开心 = «Estoy contento cuando estoy contigo». Cálido."}
+{"id":"zh.c0838","meaning":"ojos","note":"Elogiarlos es seguro. Suave."}
+{"id":"zh.c0839","meaning":"pelo, cabello","note":"Elogiarlo es seguro. Suave."}
+{"id":"zh.c0840","meaning":"sonreír; reír","note":"Un solo verbo para las dos cosas."}
+{"id":"zh.c0841","meaning":"estar libre (tener tiempo)","note":"有空吗？ es el primer paso para invitar a alguien a salir."}
+{"id":"zh.c0842","meaning":"novio","note":"有男朋友了 = «ya tiene novio»."}
+{"id":"zh.c0843","meaning":"novia","note":"有女朋友了 = «ya tiene novia»."}
+{"id":"zh.c0844","meaning":"Eres muy bonita.","note":"A una mujer. Tan directo como en español. Cálido."}
+{"id":"zh.c0845","meaning":"Hoy te ves muy bonita.","note":"A una mujer; 今天 lo hace ligero. Suave."}
+{"id":"zh.c0846","meaning":"Eres hermosa.","note":"A una mujer. Atrevido si no la conoces bien."}
+{"id":"zh.c0847","meaning":"¡Qué guapo eres!","note":"A un hombre; los amigos también lo dicen en broma. Cálido."}
+{"id":"zh.c0848","meaning":"¡Hoy te ves guapísimo!","note":"A un hombre. Aquí 好 = «muy, qué». Cálido."}
+{"id":"zh.c0849","meaning":"Eres alto y guapo.","note":"A un hombre. El cumplido clásico. Cálido."}
+{"id":"zh.c0850","meaning":"Cuando sonríes te ves muy bien.","note":"A cualquiera. Cálido."}
+{"id":"zh.c0851","meaning":"Todo te queda bien.","note":"A cualquiera. Cálido, un poco atrevido."}
+{"id":"zh.c0852","meaning":"Eres muy tierna.","note":"A una mujer, o en broma a un hombre. Cálido."}
+{"id":"zh.c0853","meaning":"Eres inteligente y bonita.","note":"A una mujer; a un hombre: 又聪明又帅. Cálido."}
+{"id":"zh.c0854","meaning":"Eres una persona muy divertida.","note":"A cualquiera. Suave: buena forma de empezar."}
+{"id":"zh.c0855","meaning":"Es divertido hablar contigo.","note":"A cualquiera. Suave."}
+{"id":"zh.c0856","meaning":"¡Qué nombre tan bonito!","note":"A cualquiera, al conocerse. Suave."}
+{"id":"zh.c0857","meaning":"Creo que eres especial.","note":"A cualquiera. Atrevido: dice que te interesa."}
+{"id":"zh.c0858","meaning":"Tienes unos ojos preciosos.","note":"A cualquiera. Cálido."}
+{"id":"zh.c0859","meaning":"Tu pelo se ve muy bien.","note":"A cualquiera. Suave."}
+{"id":"zh.c0860","meaning":"Me encanta verte sonreír.","note":"A cualquiera. De cálido a atrevido."}
+{"id":"zh.c0861","meaning":"Tienes una sonrisa muy dulce.","note":"Normalmente a una mujer. Cálido."}
+{"id":"zh.c0862","meaning":"¡Qué palabras tan dulces!","note":"Respuesta juguetona a un cumplido; literalmente, «tu boca es muy dulce». Suave."}
+{"id":"zh.c0863","meaning":"Estoy contento cuando estoy contigo.","note":"A cualquiera. De cálido a atrevido."}
+{"id":"zh.c0864","meaning":"¡Te ves muy joven!","note":"A cualquiera de más de treinta; nunca a un adolescente. Suave."}
+{"id":"zh.c0865","meaning":"¿Tienes WeChat?","note":"El primer paso habitual: se intercambia el WeChat, no el número. Suave."}
+{"id":"zh.c0866","meaning":"Te escaneo el código.","note":"Literalmente, «te escaneo»: escaneas su código QR de WeChat para agregarlo. Suave."}
+{"id":"zh.c0867","meaning":"¿Estás libre este fin de semana?","note":"La forma típica de invitar a alguien a salir. Suave."}
+{"id":"zh.c0868","meaning":"¿Comemos juntos?","note":"Una comida es la primera cita clásica. Suave."}
+{"id":"zh.c0869","meaning":"Me gustaría invitarte a un café.","note":"请 = «invito yo»; quien invita suele pagar. Cálido."}
+{"id":"zh.c0870","meaning":"¿Tienes novio?","note":"Una forma indirecta de mostrar interés. A un hombre: 女朋友. Cálido."}
+{"id":"zh.c0871","meaning":"¿Ya comiste?","note":"El interés suele mostrarse como cuidado, con mensajes como este. Suave."}
+{"id":"zh.c0872","meaning":"Descansa (no te acuestes tarde).","note":"Un mensaje de buenas noches atento que se lee como interés. Suave."}
+{"id":"zh.c0873","meaning":"Te acompaño a casa.","note":"Atento; común después de una cita. Cálido."}
+{"id":"zh.c0874","meaning":"Me alegra mucho haberte conocido.","note":"Cálido."}
+{"id":"zh.c0875","meaning":"¿Volvemos a salir otro día?","note":"Cálido."}
+{"id":"zh.c0876","meaning":"No dejo de pensar en ti.","note":"Atrevido: para alguien con quien ya sales."}
+{"id":"zh.c0877","meaning":"Me gustas un poco.","note":"Atrevido pero tímido: una declaración suave."}
+{"id":"zh.c0878","meaning":"Me gustas.","note":"Atrevido: una declaración de verdad, como «me gustas» en español; no es un simple «me caes bien»."}
+{"id":"zh.c0879","meaning":"¡Claro, me encantaría!","note":"Un sí cálido."}
+{"id":"zh.c0880","meaning":"Tú también me gustas.","note":"La respuesta feliz a una declaración."}
+{"id":"zh.c0881","meaning":"¡Sí que sabes halagar!","note":"Juguetón y contento; no es un no. Suave."}
+{"id":"zh.c0882","meaning":"¡Ay, no digas eso! (no es verdad)","note":"Forma juguetona y modesta de rechazar un cumplido. Suave."}
+{"id":"zh.c0883","meaning":"Gracias, pero ya tengo novio.","note":"Un no amable y claro. Un hombre dice 女朋友."}
+{"id":"zh.c0884","meaning":"Gracias, pero mejor seamos amigos.","note":"Un no amable y claro."}
+{"id":"zh.c0885","meaning":"Perdón, ahora no busco novio.","note":"Un no amable y claro. Un hombre dice 女朋友."}
+{"id":"zh.c0886","meaning":"Este fin de semana estoy ocupado.","note":"Una excusa; si se repite, significa que no. Si quieres decir que no, dilo claro."}
