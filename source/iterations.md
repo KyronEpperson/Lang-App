@@ -1777,6 +1777,11 @@ What the draft got wrong most: English look-alikes tagged (`in`, `so`, `an`, `or
 Lessons for the next batch: give every judge its own scratch folder (they shared one and overwrote each other's helper scripts; outputs were not harmed, every row is re-checked by `apply`); `bodyfix` turns bold the lexicon does not know into `<strong>`, so read its "strong:" list (French endings and stems had to be put back to `<b>` by hand); never tag `decks.label` / `groups.name` / `labels.text`.
 Dispatcher's own decisions: residual English look-alikes go in `proseOk` of each target file, not `homographs`; names stay tagged inside hints (they are pieces of the answer) and bare in English prompts.
 
+## TL-3 (2.145.0, 2026-11-28): target-text tags on es-en (pilot for the X-to-English courses)
+
+Why a pilot: the owner approved the roll-out most-used first, and the English courses come first by usage, but they are built by `tools/content/` and already marked English with quotes and italics; replacing those is a visible change, so one course first (owner's rule), then ask.
+Built: `tools/content/tags.js`; brief `/home/work-xtags/es/BRIEF.md`; 8 Opus judges on numbered source lines (decks 2, lessons 1, a1 2, a2 1, b1 1, practice 1), 82k to 110k tokens, 1 to 3 minutes each, each in its own scratch folder. Lines changed 59 / 54 / 88 / 129 / 62 / 116 / 57 / 80.
+Dispatcher's own decisions: the tag replaces the quotes or italics; bold stays the mark of English to learn; an all-English mc question with a gap is tagged as one frame; single letters named as English spelling are tagged (shown, not spoken); `--dry` checks rows only and rebuilds nothing, so judges cannot disturb each other.
 ## PAIR-ES-ZH (2.144.0, 2026-11-28): Mandarin for Spanish speakers, first pair from the finished engines
 
 Ask (owner): "also start building out the courses with the completeengines".

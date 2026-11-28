@@ -56,3 +56,13 @@ Positions that are target text by themselves need no tag: card fronts, dialogue 
 4a. After the judges: `tags.js bodyfix <t> <draft>.orig.jsonl <out>` and `apply` it (taught terms back to `<b>`, English bold to `<strong>`); read its `strong:` lines, target words the lexicon does not know land there and must go back to `<b>`. Compare `tools/sections/dump.js en-<t> --json` before and after.
 4b. Never tag deck names, group names or labels (they are keys), nor translations and glosses.
 5. Script-mode targets (Korean, Chinese, Japanese, Thai, Arabic …) already tell target text by script; tags there are optional and only buy the tap-to-hear highlight for Latin-script learners' notes.
+
+## 6. The English courses (`<lang>-en`, built by `tools/content/`)
+
+Roles swapped: the prose is the learner's language, the tagged language is English. Pilot: es-en (2.145.0).
+
+- These courses marked quoted English with `"…"` (notes, explanations) and `<i>…</i>` (lesson bodies), and often not at all. In a tagged course the tag **replaces** those marks: `"Hello"` and `<i>it</i>` become `‹Hello›` and `‹it›`. `«…»` and quotes around the learner's language stay.
+- Lesson bodies: `<b>` = English shown to learn (never tagged, section decks read it); emphasis in the learner's language = `<strong>` (may hold tags); `<i>` stays for pronunciation keys and the learner's own words.
+- Where a run may stand: card note, deck description, lesson title / blurb / body, check question and why, practice `p`, `hint`, `why`, and the `q` of an mc item. Never a card front, pronunciation, meaning, answer, option, tile, fill question, deck name.
+- Tool: `node tools/content/tags.js base <lang>` (before anything), `draft`, `sheet <lang> <dir>`, readers, `apply <lang> rows.jsonl`, `lint`. Judge brief to copy for the next course: `docs/briefs/target-text-tags-en-judge.md`.
+- Not in the halves engine: nothing to export.
