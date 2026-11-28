@@ -5,11 +5,11 @@ module.exports = [
     title: "Sounds, spelling and stress",
     blurb: "Read Portuguese words aloud the Brazilian way: nasal vowels, the letters that differ from English, and where the stress goes.",
     deck: "Sounds and spelling",
-    sections: [null, null, {"deck": "Sounds and spelling", "n": [8, 12]}, {"deck": "Sounds and spelling", "n": [0, 4]}, [{"deck": "Sounds and spelling", "n": [4, 8]}, {"deck": "Sounds and spelling", "n": [12, 17]}, {"name": "More spellings", "cards": [["ç", "s", "c with a cedilla", "Always s, and only before a, o or u: o açúcar, oo ah-SOO-kahr."], ["ss", "s", "double s", "Always s, never z: a pessoa, ah peh-SOH-uh. A single s between vowels is z: a casa."], ["gi", "zhee", "g before i", "g before e or i sounds zh: a página, ah PAH-zhee-nuh. Before a, o or u it is a hard g: a garrafa."], ["gu", "g", "g and u before e or i", "The u is usually silent and keeps the g hard: a guerra, ah GHEH-huh."], ["x", "sh", "the letter x", "Usually sh: a caixa, ah KAI-shuh. In some words it is ks (o táxi, oo TAHK-see), z (o exame) or s (próximo)."]]}], [{"deck": "Sounds and spelling", "n": [17, 18]}, {"name": "Accent marks", "cards": [["á", "ah", "a with an acute accent", "A stressed ah: o cardápio, oo kahr-DAH-pyoo."], ["é", "eh", "e with an acute accent", "An open eh, as in bet, and stressed: o café, oo kah-FEH."], ["ê", "ay", "e with a circumflex", "A closed ay, and stressed: você, voh-SAY."], ["í", "ee", "i with an acute accent", "A stressed ee: a família, ah fah-MEE-lyuh."], ["ó", "aw", "o with an acute accent", "An open aw, as in law, and stressed: a avó, ah ah-VAW."], ["ô", "oh", "o with a circumflex", "A closed oh, and stressed: o avô, oo ah-VOH."], ["ú", "oo", "u with an acute accent", "A stressed oo: o açúcar, oo ah-SOO-kahr."]]}], {"name": "Whole words", "cards": [["a gente", "ah ZHAYN-chee", "we; people", "g before e is zh; en before a consonant is nasal; final te is chee. Ends in e: stress on the next-to-last syllable."], ["o hotel", "oo oh-TEHW", "the hotel", "h is silent; final l is w. Ends in l: stress on the last syllable."], ["a praia", "ah PRAI-uh", "the beach", "r after p is a quick tap; ai as in eye; final a is a weak uh. Ends in a: stress on the next-to-last syllable."], ["o açúcar", "oo ah-SOO-kahr", "the sugar", "ç is s; c before a is k. The accent mark puts the stress on ú."], ["a caixa", "ah KAI-shuh", "the box; the checkout", "ai as in eye; x is sh. Ends in a: stress on the next-to-last syllable."], ["o sorvete", "oo sohr-VAY-chee", "the ice cream", "r at the end of a syllable changes by region; final te is chee. Ends in e: stress on the next-to-last syllable."], ["a manhã", "ah mah-NYAHNG", "the morning", "nh is ny; ã is nasal, and the syllable with the tilde takes the stress."], ["o limão", "oo lee-MOWNG", "the lime", "ão is nasal, owng, and the syllable with the tilde takes the stress."], ["a garrafa", "ah gah-HAH-fuh", "the bottle", "g before a is hard; rr is h. Ends in a: stress on the next-to-last syllable."], ["o jantar", "oo zhahn-TAHR", "dinner", "j is zh; an before a consonant is nasal. Ends in r: stress on the last syllable."], ["o médico", "oo MEH-jee-koo", "the doctor", "é is an open eh and takes the stress; d before i is j; final o is oo."], ["o ônibus", "oo OH-nee-boos", "the bus", "ô is a closed oh and takes the stress; final s stays s."], ["a música", "ah MOO-zee-kuh", "music", "ú takes the stress; s between vowels is z; c before a is k."], ["a viagem", "ah vee-AH-zhayng", "the trip", "g before e is zh; final em is nasal, ayng. Ends in em: stress on the next-to-last syllable."], ["a chuva", "ah SHOO-vuh", "the rain", "ch is sh; final a is a weak uh. Ends in a: stress on the next-to-last syllable."], ["a mulher", "ah moo-LYEHR", "the woman", "lh is ly. Ends in r: stress on the last syllable."], ["grande", "GRAHN-jee", "big", "an before a consonant is nasal; final de is jee. Ends in e: stress on the next-to-last syllable."]]}, null],
+    sections: [null, null, {"deck": "Sounds and spelling", "n": [8, 12]}, {"deck": "Sounds and spelling", "n": [0, 4]}, [{"deck": "Sounds and spelling", "n": [4, 8]}, {"deck": "Sounds and spelling", "n": [12, 17]}, {"name": "More spellings", "cards": [["ç", "s", "‹c› with a cedilla", "Always s, and only before ‹a›, ‹o› or ‹u›: ‹o açúcar›, oo ah-SOO-kahr."], ["ss", "s", "double ‹s›", "Always s, never z: ‹a pessoa›, ah peh-SOH-uh. A single ‹s› between vowels is z: ‹a casa›."], ["gi", "zhee", "‹g› before ‹i›", "‹g› before ‹e› or ‹i› sounds zh: ‹a página›, ah PAH-zhee-nuh. Before ‹a›, ‹o› or ‹u› it is a hard g: ‹a garrafa›."], ["gu", "g", "‹g› and ‹u› before ‹e› or ‹i›", "The ‹u› is usually silent and keeps the ‹g› hard: ‹a guerra›, ah GHEH-huh."], ["x", "sh", "the letter ‹x›", "Usually sh: ‹a caixa›, ah KAI-shuh. In some words it is ks (‹o táxi›, oo TAHK-see), z (‹o exame›) or s (‹próximo›)."]]}], [{"deck": "Sounds and spelling", "n": [17, 18]}, {"name": "Accent marks", "cards": [["á", "ah", "‹a› with an acute accent", "A stressed ah: ‹o cardápio›, oo kahr-DAH-pyoo."], ["é", "eh", "‹e› with an acute accent", "An open eh, as in bet, and stressed: ‹o café›, oo kah-FEH."], ["ê", "ay", "‹e› with a circumflex", "A closed ay, and stressed: ‹você›, voh-SAY."], ["í", "ee", "‹i› with an acute accent", "A stressed ee: ‹a família›, ah fah-MEE-lyuh."], ["ó", "aw", "‹o› with an acute accent", "An open aw, as in law, and stressed: ‹a avó›, ah ah-VAW."], ["ô", "oh", "‹o› with a circumflex", "A closed oh, and stressed: ‹o avô›, oo ah-VOH."], ["ú", "oo", "‹u› with an acute accent", "A stressed oo: ‹o açúcar›, oo ah-SOO-kahr."]]}], {"name": "Whole words", "cards": [["a gente", "ah ZHAYN-chee", "we; people", "‹g› before ‹e› is zh; ‹en› before a consonant is nasal; final ‹te› is chee. Ends in ‹e›: stress on the next-to-last syllable."], ["o hotel", "oo oh-TEHW", "the hotel", "‹h› is silent; final ‹l› is w. Ends in ‹l›: stress on the last syllable."], ["a praia", "ah PRAI-uh", "the beach", "‹r› after ‹p› is a quick tap; ‹ai› as in eye; final ‹a› is a weak uh. Ends in ‹a›: stress on the next-to-last syllable."], ["o açúcar", "oo ah-SOO-kahr", "the sugar", "‹ç› is s; ‹c› before ‹a› is k. The accent mark puts the stress on ‹ú›."], ["a caixa", "ah KAI-shuh", "the box; the checkout", "‹ai› as in eye; ‹x› is sh. Ends in ‹a›: stress on the next-to-last syllable."], ["o sorvete", "oo sohr-VAY-chee", "the ice cream", "‹r› at the end of a syllable changes by region; final ‹te› is chee. Ends in ‹e›: stress on the next-to-last syllable."], ["a manhã", "ah mah-NYAHNG", "the morning", "‹nh› is ny; ‹ã› is nasal, and the syllable with the tilde takes the stress."], ["o limão", "oo lee-MOWNG", "the lime", "‹ão› is nasal, owng, and the syllable with the tilde takes the stress."], ["a garrafa", "ah gah-HAH-fuh", "the bottle", "‹g› before ‹a› is hard; ‹rr› is h. Ends in ‹a›: stress on the next-to-last syllable."], ["o jantar", "oo zhahn-TAHR", "dinner", "‹j› is zh; ‹an› before a consonant is nasal. Ends in ‹r›: stress on the last syllable."], ["o médico", "oo MEH-jee-koo", "the doctor", "‹é› is an open eh and takes the stress; ‹d› before ‹i› is j; final ‹o› is oo."], ["o ônibus", "oo OH-nee-boos", "the bus", "‹ô› is a closed oh and takes the stress; final ‹s› stays s."], ["a música", "ah MOO-zee-kuh", "music", "‹ú› takes the stress; ‹s› between vowels is z; ‹c› before ‹a› is k."], ["a viagem", "ah vee-AH-zhayng", "the trip", "‹g› before ‹e› is zh; final ‹em› is nasal, ayng. Ends in ‹em›: stress on the next-to-last syllable."], ["a chuva", "ah SHOO-vuh", "the rain", "‹ch› is sh; final ‹a› is a weak uh. Ends in ‹a›: stress on the next-to-last syllable."], ["a mulher", "ah moo-LYEHR", "the woman", "‹lh› is ly. Ends in ‹r›: stress on the last syllable."], ["grande", "GRAHN-jee", "big", "‹an› before a consonant is nasal; final ‹de› is jee. Ends in ‹e›: stress on the next-to-last syllable."]]}, null],
     body: `
 <p>Many Portuguese letters do not sound the way an English reader expects. Under every Portuguese phrase there is a pronunciation line in English letters; the syllable in CAPITALS is stressed.</p>
 <h3>Same letters, new sounds</h3>
-<p>Portuguese uses the alphabet you know: 26 letters, with <b>k</b>, <b>w</b> and <b>y</b> only in borrowed words and names. It adds <b>ç</b> and four marks over vowels: the acute (<b>á</b>), the circumflex (<b>ê</b>), the tilde (<b>ã</b>) and the grave (<b>à</b>). What changes is the sound. This lesson goes one piece at a time: the vowels, t and d, the nasal vowels, the letters that differ from English, and the stress. Then you read whole words.</p>
+<p>Portuguese uses the alphabet you know: 26 letters, with <b>k</b>, <b>w</b> and <b>y</b> only in borrowed words and names. It adds <b>ç</b> and four marks over vowels: the acute (<b>á</b>), the circumflex (<b>ê</b>), the tilde (<b>ã</b>) and the grave (<b>à</b>). What changes is the sound. This lesson goes one piece at a time: the vowels, ‹t› and ‹d›, the nasal vowels, the letters that differ from English, and the stress. Then you read whole words.</p>
 <p>These ten letters sound much as in English (<b>m</b> and <b>n</b> only at the start of a syllable, since at the end they make the vowel nasal, as you will see; and <b>z</b> at the end of a word sounds s, as in <b>dez</b>, ten). Tap a letter to hear it.</p>
 {{tiles:b=b f=f k=k m=m n=n p=p v=v w=w y=y z=z}}
 <h3>Vowels, and the end of a word</h3>
@@ -18,64 +18,64 @@ module.exports = [
 {{tiles:a=ah e=eh/ay i=ee o=aw/oh u=oo é=eh ê=ay ó=aw ô=oh}}
 {{ex:a casa|ah KAH-zuh|the house}}
 {{ex:o carro|oo KAH-hoo|the car}}
-<h3>t and d before an "ee" sound</h3>
+<h3>‹t› and ‹d› before an "ee" sound</h3>
 <p>In most of Brazil, <b>t</b> and <b>d</b> before an <i>ee</i> sound turn into <i>ch</i> and <i>j</i>. That includes a final <b>te</b> or <b>de</b>, because that <b>e</b> sounds <i>ee</i>.</p>
 {{ex:a cidade|ah see-DAH-jee|the city}}
 {{ex:Boa noite.|BOH-uh NOY-chee|Good evening.}}
 {{tiles:t=t ti=chee d=d di=jee}}
 <h3>Nasal vowels</h3>
-<p>English has no real nasal vowels. A tilde (<b>ã, õ</b>) or a final <b>m</b> sends the vowel through the nose. The line writes <i>ng</i> after it: hum it through your nose and do not finish with a hard g. <b>Pão</b> (bread) is nasal; <b>pau</b> (stick) is not. An <b>m</b> or <b>n</b> before another consonant also makes the vowel before it nasal, and here the line keeps the m or n: <b>o tempo</b> (time; weather), oo TAYM-poo.</p>
+<p>English has no real nasal vowels. A tilde (<b>ã</b>, <b>õ</b>) or a final <b>m</b> sends the vowel through the nose. The line writes <i>ng</i> after it: hum it through your nose and do not finish with a hard g. <b>Pão</b> (bread) is nasal; <b>pau</b> (stick) is not. An <b>m</b> or <b>n</b> before another consonant also makes the vowel before it nasal, and here the line keeps the m or n: <b>o tempo</b> (time; weather), oo TAYM-poo.</p>
 {{tiles:ã=ahng õ=ohng ão=owng ãe=aing õe=oyng em=ayng im=eeng om=ohng um=oong}}
 {{ex:o pão|oo powng|the bread}}
 {{ex:a mãe|ah maing|the mother}}
 {{ex:Bom dia.|bohng JEE-uh|Good morning.}}
 <h3>Letters that differ from English</h3>
-<div class="tbl"><table><tr><th>Spelling</th><th>Sound</th><th>Example</th></tr><tr><td class="k">l at the end of a syllable</td><td>w</td><td class="k">o Brasil</td></tr><tr><td class="k">r at the start of a word, rr</td><td>like English h</td><td class="k">o carro</td></tr><tr><td class="k">r at the end of a syllable</td><td>changes by region; the line writes r</td><td class="k">falar</td></tr><tr><td class="k">r between vowels</td><td>a quick tap, like the tt in American <i>butter</i></td><td class="k">caro</td></tr><tr><td class="k">s between vowels</td><td>z (but ss is always s)</td><td class="k">a casa, a pessoa</td></tr><tr><td class="k">lh</td><td>ly, like the lli in <i>million</i></td><td class="k">o trabalho</td></tr><tr><td class="k">nh</td><td>ny, as in <i>canyon</i></td><td class="k">o vinho</td></tr><tr><td class="k">j, and g before e or i</td><td>zh, like the s in <i>measure</i></td><td class="k">a gente</td></tr><tr><td class="k">ch, and often x</td><td>sh</td><td class="k">a chave, a caixa</td></tr><tr><td class="k">ç</td><td>s</td><td class="k">o açúcar</td></tr><tr><td class="k">qu, gu before e or i</td><td>k, g (the u is usually silent)</td><td class="k">o queijo, a guerra</td></tr><tr><td class="k">h</td><td>silent</td><td class="k">o hotel</td></tr></table></div>
+<div class="tbl"><table><tr><th>Spelling</th><th>Sound</th><th>Example</th></tr><tr><td class="k">l at the end of a syllable</td><td>w</td><td class="k">o Brasil</td></tr><tr><td class="k">r at the start of a word, rr</td><td>like English h</td><td class="k">o carro</td></tr><tr><td class="k">r at the end of a syllable</td><td>changes by region; the line writes r</td><td class="k">falar</td></tr><tr><td class="k">r between vowels</td><td>a quick tap, like the tt in American <i>butter</i></td><td class="k">caro</td></tr><tr><td class="k">s between vowels</td><td>z (but ‹ss› is always s)</td><td class="k">a casa, a pessoa</td></tr><tr><td class="k">lh</td><td>ly, like the lli in <i>million</i></td><td class="k">o trabalho</td></tr><tr><td class="k">nh</td><td>ny, as in <i>canyon</i></td><td class="k">o vinho</td></tr><tr><td class="k">j, and g before e or i</td><td>zh, like the s in <i>measure</i></td><td class="k">a gente</td></tr><tr><td class="k">ch, and often x</td><td>sh</td><td class="k">a chave, a caixa</td></tr><tr><td class="k">ç</td><td>s</td><td class="k">o açúcar</td></tr><tr><td class="k">qu, gu before e or i</td><td>k, g (the ‹u› is usually silent)</td><td class="k">o queijo, a guerra</td></tr><tr><td class="k">h</td><td>silent</td><td class="k">o hotel</td></tr></table></div>
 {{ex:o Brasil|oo brah-ZEEW|Brazil}}
 {{ex:o trabalho|oo trah-BAH-lyoo|the work; the job}}
 <p>Tap a letter or spelling to hear it.</p>
 {{tiles:c=k ci=see ç=s g=g gi=zhee gu=g h=silent j=zh l=l/w lh=ly nh=ny q=k qu=k/kw r=h/r rr=h s=s/z ss=s x=sh ch=sh}}
 <h3>Where the stress goes</h3>
-<p>A written accent shows the stress: <b>café</b>, <b>você</b>. Without one, words ending in <b>a, e, o</b> (with or without <b>s</b>), <b>am</b>, <b>em</b> or <b>ens</b> stress the next-to-last syllable; all other words stress the last. The marks also show the vowel: <b>avó</b> (grandmother) has an open <i>aw</i>, <b>avô</b> (grandfather) a closed <i>oh</i>.</p>
+<p>A written accent shows the stress: <b>café</b>, <b>você</b>. Without one, words ending in <b>a</b>, <b>e</b>, <b>o</b> (with or without <b>s</b>), <b>am</b>, <b>em</b> or <b>ens</b> stress the next-to-last syllable; all other words stress the last. The marks also show the vowel: <b>avó</b> (grandmother) has an open <i>aw</i>, <b>avô</b> (grandfather) a closed <i>oh</i>.</p>
 {{ex:o café|oo kah-FEH|the coffee}}
 {{ex:a avó|ah ah-VAW|the grandmother}}
 {{ex:o avô|oo ah-VOH|the grandfather}}
-<p>Two more marks. <b>â</b>, as in <b>a câmera</b> (the camera), is a stressed ah, a little closed and nasal, since it almost always comes before m or n. The grave <b>à</b> shows up almost only in <b>à</b> and <b>às</b> (to the, at the) and does not change the sound. Tap a mark to hear its vowel.</p>
+<p>Two more marks. <b>â</b>, as in <b>a câmera</b> (the camera), is a stressed ah, a little closed and nasal, since it almost always comes before ‹m› or ‹n›. The grave <b>à</b> shows up almost only in <b>à</b> and <b>às</b> (to the, at the) and does not change the sound. Tap a mark to hear its vowel.</p>
 {{tiles:á=ah í=ee ú=oo â=ah à=ah}}
 <h3>Read whole words</h3>
-<p>Now put the pieces together. Read a word in two steps. First give each letter or spelling its Portuguese sound: <b>ch</b> is sh, <b>lh</b> is ly, <b>rr</b> is h, and an unstressed final <b>e</b> is ee, which turns a <b>t</b> or <b>d</b> before it into ch or j. Then place the stress: an accent mark shows it, and so does a tilde when the word has no other mark (<b>órfão</b> stresses the ó); with no mark, the ending decides, as above. So <b>sorvete</b> is sohr-VAY-chee, and <b>mulher</b> is moo-LYEHR. Each card's note breaks the word into its pieces. Say the word aloud before you flip it.</p>
+<p>Now put the pieces together. Read a word in two steps. First give each letter or spelling its Portuguese sound: <b>ch</b> is sh, <b>lh</b> is ly, <b>rr</b> is h, and an unstressed final <b>e</b> is ee, which turns a <b>t</b> or <b>d</b> before it into ch or j. Then place the stress: an accent mark shows it, and so does a tilde when the word has no other mark (<b>órfão</b> stresses the ‹ó›); with no mark, the ending decides, as above. So <b>sorvete</b> is sohr-VAY-chee, and <b>mulher</b> is moo-LYEHR. Each card's note breaks the word into its pieces. Say the word aloud before you flip it.</p>
 {{ex:o sorvete|oo sohr-VAY-chee|the ice cream}}
-<h3>o and a</h3>
+<h3>‹o› and ‹a›</h3>
 <p>Nouns here come with <b>o</b> or <b>a</b> in front. Both mean "the": every noun is masculine (<b>o carro</b>) or feminine (<b>a casa</b>), as lesson 3 explains. For more than one, both add <b>s</b>: <b>os carros</b>, <b>as casas</b>.</p>
 <p>The line is a crutch: listen to the audio first, and hide it once the spelling feels natural.</p>
-<div class="tip"><b>Most common mistake:</b> reading with English letter values. <b>cidade</b> said "see-DAH-day" → <b>cidade</b> said "see-DAH-jee", with the final <b>de</b> sounding <i>jee</i>.</div>
+<div class="tip"><strong>Most common mistake:</strong> reading with English letter values. <b>cidade</b> said "see-DAH-day" → <b>cidade</b> said "see-DAH-jee", with the final <b>de</b> sounding <i>jee</i>.</div>
 `,
     check: [
-      ["How does the final de in cidade sound in most of Brazil?",["day","jee","dee","It is silent"],1,"t and d before an ee sound turn into ch and j, and a final e sounds ee, so de sounds jee."],
-      ["Where is the stress in falar (to speak)?",["On the first syllable","It has no stress","On both syllables","On the last syllable"],3,"falar ends in r, not in a, e, o, am, em or ens, so the stress falls on the last syllable: fah-LAHR."],
-      ["What does the tilde in pão tell you?",["The vowel goes through the nose","The word is a question","The stress is on the first letter","The vowel is silent"],0,"A tilde marks a nasal vowel: pão (bread) is nasal, pau (stick) is not."]
+      ["How does the final ‹de› in ‹cidade› sound in most of Brazil?",["day","jee","dee","It is silent"],1,"‹t› and ‹d› before an ee sound turn into ch and j, and a final ‹e› sounds ee, so ‹de› sounds jee."],
+      ["Where is the stress in ‹falar› (to speak)?",["On the first syllable","It has no stress","On both syllables","On the last syllable"],3,"‹falar› ends in ‹r›, not in ‹a›, ‹e›, ‹o›, ‹am›, ‹em› or ‹ens›, so the stress falls on the last syllable: fah-LAHR."],
+      ["What does the tilde in ‹pão› tell you?",["The vowel goes through the nose","The word is a question","The stress is on the first letter","The vowel is silent"],0,"A tilde marks a nasal vowel: ‹pão› (bread) is nasal, ‹pau› (stick) is not."]
     ],
     practice: [
-      ["mc","Which word has a nasal vowel?","a mãe","o pai","a casa","o café","ãe has a tilde, so the vowel goes through the nose."],
-      ["mc","In which word does the r sound like an English h?","o carro","caro","a hora","obrigado","rr, and r at the start of a word, sound like English h; a single r between vowels is a quick tap."],
-      ["mc","How does the l at the end of Brasil sound?","like w","like the English l in ball","it is silent","like y","At the end of a syllable, l sounds like w: brah-ZEEW."],
-      ["mc","In which word does the d sound like j?","o dia","o dado","a moda","nada","d before an ee sound turns into j: dia sounds JEE-uh."],
-      ["mc","Which word is stressed on its LAST syllable?","falar","a casa","o carro","a cidade","falar ends in r, so the stress falls on the last syllable."],
-      ["or","the city","a cidade","o","cidade is feminine, so its article is a: a cidade."],
-      ["or","the car","o carro","a","carro is masculine, so its article is o: o carro."],
-      ["or","the houses","as casas","os","casas is a feminine plural noun, so the article is as."],
-      ["fi","__ mãe","the mother","a","o|as|os","mãe is feminine and there is one, so the article is a."],
-      ["fi","o ca__o","the car","rr","r|l|lh","car needs the h-like rr: carro. With one r, caro means expensive."],
-      ["fi","o vi__o","the wine","nh","lh|n|ni","nh sounds ny, as in canyon: vinho."],
-      ["ty","the cities","as cidades","cidade · add -s for more than one","os","cidades is feminine and plural, so the article agrees: as cidades."],
-      ["ty","the cars","os carros","carro · add -s for more than one","as","carros is masculine and plural, so the article agrees: os carros."],
-      ["ty","the mother","a mãe","mãe · ãe has a tilde","o","mãe is feminine, so the article agrees: a mãe."]
+      ["mc","Which word has a nasal vowel?","a mãe","o pai","a casa","o café","‹ãe› has a tilde, so the vowel goes through the nose."],
+      ["mc","In which word does the ‹r› sound like an English h?","o carro","caro","a hora","obrigado","‹rr›, and ‹r› at the start of a word, sound like English h; a single ‹r› between vowels is a quick tap."],
+      ["mc","How does the ‹l› at the end of ‹Brasil› sound?","like w","like the English l in ball","it is silent","like y","At the end of a syllable, ‹l› sounds like w: brah-ZEEW."],
+      ["mc","In which word does the ‹d› sound like j?","o dia","o dado","a moda","nada","‹d› before an ee sound turns into j: ‹dia› sounds JEE-uh."],
+      ["mc","Which word is stressed on its LAST syllable?","falar","a casa","o carro","a cidade","‹falar› ends in ‹r›, so the stress falls on the last syllable."],
+      ["or","the city","a cidade","o","‹cidade› is feminine, so its article is ‹a›: ‹a cidade›."],
+      ["or","the car","o carro","a","‹carro› is masculine, so its article is ‹o›: ‹o carro›."],
+      ["or","the houses","as casas","os","‹casas› is a feminine plural noun, so the article is ‹as›."],
+      ["fi","__ mãe","the mother","a","o|as|os","‹mãe› is feminine and there is one, so the article is ‹a›."],
+      ["fi","o ca__o","the car","rr","r|l|lh","car needs the h-like ‹rr›: ‹carro›. With one ‹r›, ‹caro› means expensive."],
+      ["fi","o vi__o","the wine","nh","lh|n|ni","‹nh› sounds ny, as in canyon: ‹vinho›."],
+      ["ty","the cities","as cidades","‹cidade› · add ‹-s› for more than one","os","‹cidades› is feminine and plural, so the article agrees: ‹as cidades›."],
+      ["ty","the cars","os carros","‹carro› · add ‹-s› for more than one","as","‹carros› is masculine and plural, so the article agrees: ‹os carros›."],
+      ["ty","the mother","a mãe","‹mãe› · ‹ãe› has a tilde","o","‹mãe› is feminine, so the article agrees: ‹a mãe›."]
     ]
   },
   {
     id: "greetings",
-    title: "Greetings: você and o senhor",
-    blurb: "Greet people at any time of day, say thank you the right way, and choose between você and o senhor.",
+    title: "Greetings: ‹você› and ‹o senhor›",
+    blurb: "Greet people at any time of day, say thank you the right way, and choose between ‹você› and ‹o senhor›.",
     deck: "Greetings and courtesy",
     body: `
 <p><b>Oi</b> is the everyday "hi" in Brazil, and it works with anyone. <b>Olá</b> is a little more formal. To sound warmer, add the greeting for the time of day.</p>
@@ -96,38 +96,38 @@ module.exports = [
 <h3>Polite words</h3>
 <ul><li><b>por favor</b>: please</li><li><b>com licença</b>: excuse me, to get past someone or to interrupt</li><li><b>desculpa</b>: sorry</li><li><b>tchau</b>: bye</li></ul>
 {{ex:Com licença, por favor.|kohng lee-SAYN-suh pohr fah-VOHR|Excuse me, please.}}
-<h3>você and o senhor</h3>
+<h3>‹você› and ‹o senhor›</h3>
 <p>English has one "you". In Brazil, <b>você</b> is the "you" for almost everyone: friends, coworkers, shop staff, people your age. For older people, a friend's parents or a formal setting, say <b>o senhor</b> to a man and <b>a senhora</b> to a woman. They take the same verb as <b>você</b>, so only the word changes.</p>
 {{ex:Tudo bem, e a senhora?|TOO-doo bayng ee ah seh-NYAW-ruh|I'm fine, and you? (to an older woman)}}
 <p>In Rio, the South and parts of the North and Northeast you will hear <b>tu</b>, usually with the <b>você</b> verb form (<b>tu vai</b>, <b>tu quer</b>); in Portugal <b>tu</b> has its own form (<b>tu vais</b>). This course uses <b>você</b>.</p>
-<div class="tip"><b>Most common mistake:</b> a woman saying <b>Obrigado</b> → <b>Obrigada</b>. It agrees with the person speaking, not with the person being thanked.</div>
+<div class="tip"><strong>Most common mistake:</strong> a woman saying <b>Obrigado</b> → <b>Obrigada</b>. It agrees with the person speaking, not with the person being thanked.</div>
 `,
     check: [
-      ["A woman thanks a man. What does she say?",["Obrigado.","Obrigada.","De nada.","Por favor."],1,"obrigada agrees with the speaker, and the speaker is a woman."],
-      ["It's 3 p.m. How do you greet someone?",["Bom dia.","Bom tarde.","Boa noite.","Boa tarde."],3,"After about noon it is boa tarde, and boa is feminine because tarde is."],
-      ["You meet your friend's grandmother. Which 'you' fits best?",["a senhora","ele","eu","o senhor"],0,"a senhora is the respectful 'you' for an older woman; o senhor is for a man."]
+      ["A woman thanks a man. What does she say?",["Obrigado.","Obrigada.","De nada.","Por favor."],1,"‹obrigada› agrees with the speaker, and the speaker is a woman."],
+      ["It's 3 p.m. How do you greet someone?",["Bom dia.","Bom tarde.","Boa noite.","Boa tarde."],3,"After about noon it is ‹boa tarde›, and ‹boa› is feminine because ‹tarde› is."],
+      ["You meet your friend's grandmother. Which 'you' fits best?",["a senhora","ele","eu","o senhor"],0,"‹a senhora› is the respectful 'you' for an older woman; ‹o senhor› is for a man."]
     ],
     practice: [
-      ["mc","'Good afternoon' =","Boa tarde","Bom tarde","Boa tardes","Bom dia","tarde is feminine, so good is boa: boa tarde."],
-      ["mc","A man says 'Thank you':","Obrigado","Obrigada","De nada","Por favor","obrigado agrees with the speaker; a man says obrigado."],
-      ["mc","Which greeting works at any time of day?","Oi","Bom dia","Boa noite","Boa tarde","Oi is hi, at any hour; the others depend on the time of day."],
-      ["mc","You want to get past someone on the bus. You say:","Com licença","De nada","Tchau","Prazer","com licença is excuse me, to get past someone or to interrupt."],
-      ["mc","To an older man, 'And you?' is:","E o senhor?","E a senhora?","E ele?","E eu?","o senhor is the respectful 'you' for a man; a senhora is for a woman."],
-      ["or","Good evening","Boa noite","Bom","noite is feminine, so good agrees: boa noite."],
-      ["or","Thank you so much! (said by a woman)","Muito obrigada","obrigado","obrigada agrees with the speaker, a woman."],
-      ["or","My name is Pedro.","Eu me chamo Pedro","se","me goes before chamo: eu me chamo, literally I call myself."],
-      ["fi","__ dia!","Good morning!","Bom","Boa|Bons|Boas","dia is masculine, so bom dia."],
-      ["fi","Muito __!","Thank you so much! (said by a woman)","obrigada","obrigado|obrigados|obrigadas","obrigada agrees with the speaker, one woman."],
-      ["fi","Tudo bem, e __?","I'm fine, and you? (to an older woman)","a senhora","o senhor|ela|eu","a senhora is the respectful 'you' for a woman; o senhor is for a man."],
-      ["ty","Good afternoon!","Boa tarde","bom · tarde","Bom","tarde is feminine, so good agrees: boa tarde."],
-      ["ty","Thank you! (said by a woman)","Obrigada","obrigado · the speaker is a woman","Obrigado","obrigada agrees with the speaker, a woman."],
-      ["ty","Excuse me, please. (to get past someone)","Com licença, por favor|Licença, por favor","com licença · por favor","desculpa","com licença is the polite way to get past someone; desculpa means sorry."]
+      ["mc","'Good afternoon' =","Boa tarde","Bom tarde","Boa tardes","Bom dia","‹tarde› is feminine, so good is ‹boa›: ‹boa tarde›."],
+      ["mc","A man says 'Thank you':","Obrigado","Obrigada","De nada","Por favor","‹obrigado› agrees with the speaker; a man says ‹obrigado›."],
+      ["mc","Which greeting works at any time of day?","Oi","Bom dia","Boa noite","Boa tarde","‹Oi› is hi, at any hour; the others depend on the time of day."],
+      ["mc","You want to get past someone on the bus. You say:","Com licença","De nada","Tchau","Prazer","‹com licença› is excuse me, to get past someone or to interrupt."],
+      ["mc","To an older man, 'And you?' is:","E o senhor?","E a senhora?","E ele?","E eu?","‹o senhor› is the respectful 'you' for a man; ‹a senhora› is for a woman."],
+      ["or","Good evening","Boa noite","Bom","‹noite› is feminine, so good agrees: ‹boa noite›."],
+      ["or","Thank you so much! (said by a woman)","Muito obrigada","obrigado","‹obrigada› agrees with the speaker, a woman."],
+      ["or","My name is Pedro.","Eu me chamo Pedro","se","‹me› goes before ‹chamo›: ‹eu me chamo›, literally I call myself."],
+      ["fi","__ dia!","Good morning!","Bom","Boa|Bons|Boas","‹dia› is masculine, so ‹bom dia›."],
+      ["fi","Muito __!","Thank you so much! (said by a woman)","obrigada","obrigado|obrigados|obrigadas","‹obrigada› agrees with the speaker, one woman."],
+      ["fi","Tudo bem, e __?","I'm fine, and you? (to an older woman)","a senhora","o senhor|ela|eu","‹a senhora› is the respectful 'you' for a woman; ‹o senhor› is for a man."],
+      ["ty","Good afternoon!","Boa tarde","‹bom› · ‹tarde›","Bom","‹tarde› is feminine, so good agrees: ‹boa tarde›."],
+      ["ty","Thank you! (said by a woman)","Obrigada","‹obrigado› · the speaker is a woman","Obrigado","‹obrigada› agrees with the speaker, a woman."],
+      ["ty","Excuse me, please. (to get past someone)","Com licença, por favor|Licença, por favor","‹com licença› · ‹por favor›","desculpa","‹com licença› is the polite way to get past someone; ‹desculpa› means sorry."]
     ]
   },
   {
     id: "articles",
-    title: "Gender and o / a, um / uma",
-    blurb: "Use the right 'the' and 'a' with any noun, make nouns plural, and order food with um and uma.",
+    title: "Gender and ‹o› / ‹a›, ‹um› / ‹uma›",
+    blurb: "Use the right 'the' and 'a' with any noun, make nouns plural, and order food with ‹um› and ‹uma›.",
     deck: "Food and drink",
     body: `
 <p>English has one "the" (the definite article) and one "a" (the indefinite article). Portuguese has a set of each, because every noun is masculine or feminine, even a coffee or a glass of water. The article agrees with its noun.</p>
@@ -141,52 +141,52 @@ module.exports = [
 {{ex:o problema|oo proh-BLAY-muh|the problem}}
 {{ex:a carne|ah KAHR-nee|the meat}}
 <h3>Plurals</h3>
-<p>Most nouns add <b>-s</b>, and the article goes plural with them: <b>o ovo, os ovos</b>. Many nouns in <b>-ão</b> change to <b>-ões</b> (<b>o limão, os limões</b>), but not all: <b>o pão, os pães</b>. Nouns in <b>-al</b> change to <b>-ais</b>: one <b>real</b>, Brazil's money, but two <b>reais</b>.</p>
+<p>Most nouns add <b>-s</b>, and the article goes plural with them: <b>o ovo</b>, <b>os ovos</b>. Many nouns in <b>-ão</b> change to <b>-ões</b> (<b>o limão</b>, <b>os limões</b>), but not all: <b>o pão</b>, <b>os pães</b>. Nouns in <b>-al</b> change to <b>-ais</b>: one <b>real</b>, Brazil's money, but two <b>reais</b>.</p>
 {{ex:os ovos|oos AW-voos|the eggs}}
 {{ex:os limões|oos lee-MOYNGS|the limes}}
 <h3>Things in general</h3>
 <p>English drops "the" when it talks about a thing in general: "Cheese bread is good." Portuguese usually keeps the article. (<b>é</b> means "is"; lesson 4 covers it.)</p>
 {{ex:O pão de queijo é bom.|oo powng jee KAY-zhoo eh bohng|Cheese bread is good.}}
-<h3>Ordering with um and uma</h3>
+<h3>Ordering with ‹um› and ‹uma›</h3>
 <p>When you order, "a" agrees with the food or drink: <b>um suco</b>, <b>uma água</b>, <b>um pão de queijo</b>. Add <b>por favor</b> and you have a full order.</p>
 {{ex:Um pão de queijo, por favor.|oong powng jee KAY-zhoo pohr fah-VOHR|A cheese bread, please.}}
 {{ex:Uma água, por favor.|OO-muh AH-gwuh pohr fah-VOHR|A water, please.}}
-<div class="tip"><b>Most common mistake:</b> making every noun masculine. <b>o água</b> → <b>a água</b>. And watch the reverse trap: <b>a problema</b> → <b>o problema</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> making every noun masculine. <b>o água</b> → <b>a água</b>. And watch the reverse trap: <b>a problema</b> → <b>o problema</b>.</div>
 `,
     check: [
-      ["Which article goes with problema?",["a","o","uma","as"],1,"problema ends in -a but is masculine: o problema."],
-      ["How do you order 'a water'?",["Um água, por favor.","Una água, por favor.","A água, por favor.","Uma água, por favor."],3,"água is feminine, so 'a' is uma; a água means the water."],
-      ["What is the plural of o limão?",["os limões","os limãos","as limões","os limão"],0,"Many -ão nouns change to -ões, and the article goes plural too: os limões."]
+      ["Which article goes with ‹problema›?",["a","o","uma","as"],1,"‹problema› ends in ‹-a› but is masculine: ‹o problema›."],
+      ["How do you order 'a water'?",["Um água, por favor.","Una água, por favor.","A água, por favor.","Uma água, por favor."],3,"‹água› is feminine, so 'a' is ‹uma›; ‹a água› means the water."],
+      ["What is the plural of ‹o limão›?",["os limões","os limãos","as limões","os limão"],0,"Many ‹-ão› nouns change to ‹-ões›, and the article goes plural too: ‹os limões›."]
     ],
     practice: [
-      ["mc","Which article goes with dia?","o","a","uma","as","dia ends in -a but is masculine: o dia."],
-      ["mc","'a juice' =","um suco","uma suco","o suco","uns suco","suco is masculine, so 'a' is um."],
-      ["mc","Which noun is feminine?","mão","dia","problema","mapa","mão is feminine: a mão. The other three are masculine despite looking feminine."],
-      ["mc","'the eggs' =","os ovos","as ovos","os ovo","o ovos","Both the article and the noun go plural: os ovos."],
-      ["mc","The plural of o pão is:","os pães","os pãos","os pões","as pães","pão is one of the -ão nouns that does not take -ões: os pães."],
-      ["or","the meat","a carne","o","carne is feminine, so its article is a: a carne."],
-      ["or","the problem","o problema","a","problema is masculine, even with its -a ending: o problema."],
-      ["or","Cheese bread is good.","O pão de queijo é bom","boa","pão is masculine, so the adjective agrees: bom."],
-      ["fi","__ problema","the problem","o","a|os|as","problema is masculine and singular: o problema."],
-      ["fi","Um suco e __ água, por favor.","A juice and a water, please.","uma","um|una|umas","água is feminine, so 'a' is uma."],
-      ["fi","os __","the limes","limões","limãos|limão|limães","limão is one of the -ão nouns that change to -ões."],
-      ["ty","A coffee, please.","Um café, por favor","café · por favor","Uma","café is masculine, so 'a' agrees: um café."],
-      ["ty","the eggs","os ovos","ovo · more than one","as","ovos is masculine and plural, so the article agrees: os ovos."],
-      ["ty","the hand","a mão","mão · check its gender","o","mão is feminine, so the article agrees: a mão."]
+      ["mc","Which article goes with ‹dia›?","o","a","uma","as","‹dia› ends in ‹-a› but is masculine: ‹o dia›."],
+      ["mc","'a juice' =","um suco","uma suco","o suco","uns suco","‹suco› is masculine, so 'a' is ‹um›."],
+      ["mc","Which noun is feminine?","mão","dia","problema","mapa","‹mão› is feminine: ‹a mão›. The other three are masculine despite looking feminine."],
+      ["mc","'the eggs' =","os ovos","as ovos","os ovo","o ovos","Both the article and the noun go plural: ‹os ovos›."],
+      ["mc","The plural of ‹o pão› is:","os pães","os pãos","os pões","as pães","‹pão› is one of the ‹-ão› nouns that does not take ‹-ões›: ‹os pães›."],
+      ["or","the meat","a carne","o","‹carne› is feminine, so its article is ‹a›: ‹a carne›."],
+      ["or","the problem","o problema","a","‹problema› is masculine, even with its ‹-a› ending: ‹o problema›."],
+      ["or","Cheese bread is good.","O pão de queijo é bom","boa","‹pão› is masculine, so the adjective agrees: ‹bom›."],
+      ["fi","__ problema","the problem","o","a|os|as","‹problema› is masculine and singular: ‹o problema›."],
+      ["fi","Um suco e __ água, por favor.","A juice and a water, please.","uma","um|una|umas","‹água› is feminine, so 'a' is ‹uma›."],
+      ["fi","os __","the limes","limões","limãos|limão|limães","‹limão› is one of the ‹-ão› nouns that change to ‹-ões›."],
+      ["ty","A coffee, please.","Um café, por favor","‹café› · ‹por favor›","Uma","‹café› is masculine, so 'a' agrees: ‹um café›."],
+      ["ty","the eggs","os ovos","‹ovo› · more than one","as","‹ovos› is masculine and plural, so the article agrees: ‹os ovos›."],
+      ["ty","the hand","a mão","‹mão› · check its gender","o","‹mão› is feminine, so the article agrees: ‹a mão›."]
     ]
   },
   {
     id: "ser",
-    title: "Subject pronouns and ser",
-    blurb: "Say who you are, where you're from and what you do, with every subject pronoun and the verb ser.",
+    title: "Subject pronouns and ‹ser›",
+    blurb: "Say who you are, where you're from and what you do, with every subject pronoun and the verb ‹ser›.",
     deck: "About me",
     body: `
 <p>English "be" has three forms: am, is, are. Portuguese has two whole verbs for "be". This lesson is about <b>ser</b>, for who you are: your name, where you are from, your job and your nationality.</p>
 <h3>Who's who</h3>
 <div class="tbl"><table><tr><th>English</th><th>Portuguese</th></tr><tr><td>I</td><td class="k">eu</td></tr><tr><td>you (one person)</td><td class="k">você</td></tr><tr><td>he, she</td><td class="k">ele, ela</td></tr><tr><td>we</td><td class="k">a gente, nós</td></tr><tr><td>you (more than one)</td><td class="k">vocês</td></tr><tr><td>they</td><td class="k">eles, elas</td></tr></table></div>
 <p><b>Eles</b> is for men or a mixed group, <b>elas</b> only for women. <b>A gente</b> (literally "the people") is the everyday spoken "we"; <b>nós</b> is a little more careful. You will hear both, and both are right.</p>
-<h3>The forms of ser</h3>
-<div class="tbl"><table><tr><th>Subject</th><th>ser</th></tr><tr><td class="k">eu</td><td class="k">sou</td></tr><tr><td class="k">você, ele, ela, a gente</td><td class="k">é</td></tr><tr><td class="k">nós</td><td class="k">somos</td></tr><tr><td class="k">vocês, eles, elas</td><td class="k">são</td></tr></table></div>
+<h3>The forms of ‹ser›</h3>
+<div class="tbl"><table><tr><th>Subject</th><th>‹ser›</th></tr><tr><td class="k">eu</td><td class="k">sou</td></tr><tr><td class="k">você, ele, ela, a gente</td><td class="k">é</td></tr><tr><td class="k">nós</td><td class="k">somos</td></tr><tr><td class="k">vocês, eles, elas</td><td class="k">são</td></tr></table></div>
 <p>The verb ending matches the subject. Notice that <b>você</b> and <b>a gente</b> use the same form as <b>ele</b>: <b>você é</b>, <b>a gente é</b>. Say <b>nós somos</b> or <b>a gente é</b>, never a mix of the two.</p>
 {{ex:Eu sou americano.|ayw soh ah-meh-ree-KAH-noo|I'm American. (a man speaking)}}
 {{ex:Você é brasileira?|voh-SAY eh brah-zee-LAY-ruh|Are you Brazilian? (to a woman)}}
@@ -202,28 +202,28 @@ module.exports = [
 <h3>Keep the pronoun, mostly</h3>
 <p>You can leave out <b>eu</b> and <b>nós</b>, because <b>sou</b> and <b>somos</b> already say who. Brazilians usually keep <b>você</b>, <b>ele</b> and <b>ela</b>, because <b>é</b> alone could mean any of them.</p>
 {{ex:Sou enfermeira.|soh ayn-fehr-MAY-ruh|I'm a nurse.}}
-<div class="tip"><b>Most common mistake:</b> copying the English "a" before a job. <b>Eu sou um professor.</b> → <b>Eu sou professor.</b></div>
+<div class="tip"><strong>Most common mistake:</strong> copying the English "a" before a job. <b>Eu sou um professor.</b> → <b>Eu sou professor.</b></div>
 `,
     check: [
-      ["'You are' (to one person) =",["você és","você é","você são","você sou"],1,"você takes the ele form: você é."],
-      ["A woman says 'I'm a teacher':",["Sou professor.","É professora.","Sou professora.","Sou uma professor."],2,"No article before a job, and professora agrees with the speaker, a woman."],
-      ["Which form of ser goes with a gente?",["é","somos","são","sou"],0,"a gente takes the ele form: a gente é."]
+      ["'You are' (to one person) =",["você és","você é","você são","você sou"],1,"‹você› takes the ‹ele› form: ‹você é›."],
+      ["A woman says 'I'm a teacher':",["Sou professor.","É professora.","Sou professora.","Sou uma professor."],2,"No article before a job, and ‹professora› agrees with the speaker, a woman."],
+      ["Which form of ‹ser› goes with ‹a gente›?",["é","somos","são","sou"],0,"‹a gente› takes the ‹ele› form: ‹a gente é›."]
     ],
     practice: [
-      ["mc","'They are' (all women) =","elas são","eles são","elas é","elas somos","elas is only for women, and são is the form for eles and elas."],
-      ["mc","'We are', with a gente =","a gente é","a gente somos","a gente são","a gente sou","a gente takes the same form as ele: é."],
-      ["mc","'He's a doctor.' =","Ele é médico.","Ele é médica.","Ele são médico.","Ele sou médico.","No article before a job, médico for a man, and é for ele."],
-      ["mc","Which 'you' is for more than one person?","vocês","você","a senhora","o senhor","vocês is the plural 'you'; it takes the same form as eles."],
-      ["mc","'She's American.' =","Ela é americana.","Ela é americano.","Ela são americana.","Ela sou americana.","Nationalities agree with the person and are lowercase: americana."],
-      ["or","We're Brazilian. (use nós)","Nós somos brasileiros","são","somos is the nós form: the verb ending matches the subject."],
-      ["or","She is a teacher.","Ela é professora","professor","professora agrees with ela: feminine, and no article before a job."],
-      ["or","I'm from Boston.","Eu sou de Boston","é","sou is the eu form of ser."],
-      ["fi","Vocês __ de Miami?","Are you guys from Miami?","são","é|somos|sou","vocês takes the eles form: são."],
-      ["fi","A gente __ de São Paulo.","We're from São Paulo.","é","somos|são|sou","a gente takes the ele form: é."],
-      ["fi","Ele é __.","He's Brazilian.","brasileiro","brasileira|brasileiros|brasileiras","brasileiro agrees with ele: masculine and singular."],
-      ["ty","I'm American. (a woman speaking)","Eu sou americana|Sou americana","ser · americano","americano","americana agrees with the speaker, a woman."],
-      ["ty","We're from Miami.","Nós somos de Miami|Somos de Miami|A gente é de Miami","ser · Miami","são","The nós form is somos; with a gente, use the ele form: é."],
-      ["ty","Are you a nurse? (to a man)","Você é enfermeiro|É enfermeiro","ser · enfermeiro (nurse)","enfermeira um","No article before a job, and enfermeiro agrees with a man: masculine."]
+      ["mc","'They are' (all women) =","elas são","eles são","elas é","elas somos","‹elas› is only for women, and ‹são› is the form for ‹eles› and ‹elas›."],
+      ["mc","'We are', with ‹a gente› =","a gente é","a gente somos","a gente são","a gente sou","‹a gente› takes the same form as ‹ele›: ‹é›."],
+      ["mc","'He's a doctor.' =","Ele é médico.","Ele é médica.","Ele são médico.","Ele sou médico.","No article before a job, ‹médico› for a man, and ‹é› for ‹ele›."],
+      ["mc","Which 'you' is for more than one person?","vocês","você","a senhora","o senhor","‹vocês› is the plural 'you'; it takes the same form as ‹eles›."],
+      ["mc","'She's American.' =","Ela é americana.","Ela é americano.","Ela são americana.","Ela sou americana.","Nationalities agree with the person and are lowercase: ‹americana›."],
+      ["or","We're Brazilian. (use ‹nós›)","Nós somos brasileiros","são","‹somos› is the ‹nós› form: the verb ending matches the subject."],
+      ["or","She is a teacher.","Ela é professora","professor","‹professora› agrees with ‹ela›: feminine, and no article before a job."],
+      ["or","I'm from Boston.","Eu sou de Boston","é","‹sou› is the ‹eu› form of ‹ser›."],
+      ["fi","Vocês __ de Miami?","Are you guys from Miami?","são","é|somos|sou","‹vocês› takes the ‹eles› form: ‹são›."],
+      ["fi","A gente __ de São Paulo.","We're from São Paulo.","é","somos|são|sou","‹a gente› takes the ‹ele› form: ‹é›."],
+      ["fi","Ele é __.","He's Brazilian.","brasileiro","brasileira|brasileiros|brasileiras","‹brasileiro› agrees with ‹ele›: masculine and singular."],
+      ["ty","I'm American. (a woman speaking)","Eu sou americana|Sou americana","‹ser› · ‹americano›","americano","‹americana› agrees with the speaker, a woman."],
+      ["ty","We're from Miami.","Nós somos de Miami|Somos de Miami|A gente é de Miami","‹ser› · ‹Miami›","são","The ‹nós› form is ‹somos›; with ‹a gente›, use the ‹ele› form: ‹é›."],
+      ["ty","Are you a nurse? (to a man)","Você é enfermeiro|É enfermeiro","‹ser› · ‹enfermeiro› (nurse)","enfermeira um","No article before a job, and ‹enfermeiro› agrees with a man: masculine."]
     ]
   },
   {
@@ -238,104 +238,104 @@ module.exports = [
 {{ex:O pai é alto.|oo pai eh OW-too|The father is tall.}}
 {{ex:A irmã é alta.|ah eer-MAHNG eh OW-tuh|The sister is tall.}}
 {{ex:Os amigos são simpáticos.|oos ah-MEE-goos sowng seem-PAH-chee-koos|The friends are nice.}}
-<p>The adjective agrees with its noun even after <b>é</b> or <b>são</b>, far from the noun: <b>a Ana é alta</b>, <b>os meninos são altos</b>. Colors and nationalities work the same way: <b>preto, preta, pretos, pretas</b>; <b>americano, americana, americanos, americanas</b>.</p>
+<p>The adjective agrees with its noun even after <b>é</b> or <b>são</b>, far from the noun: <b>a Ana é alta</b>, <b>os meninos são altos</b>. Colors and nationalities work the same way: <b>preto</b>, <b>preta</b>, <b>pretos</b>, <b>pretas</b>; <b>americano</b>, <b>americana</b>, <b>americanos</b>, <b>americanas</b>.</p>
 <p>A group of men and women takes the masculine plural: <b>O irmão e a irmã são altos.</b></p>
-<h3>Adjectives in -e or a consonant</h3>
-<p>These have no separate feminine form, only one and more than one: <b>grande, grandes</b>; <b>feliz, felizes</b>; <b>jovem, jovens</b>. Adjectives in <b>-l</b> change to <b>-is</b>: <b>azul, azuis</b>.</p>
+<h3>Adjectives in ‹-e› or a consonant</h3>
+<p>These have no separate feminine form, only one and more than one: <b>grande</b>, <b>grandes</b>; <b>feliz</b>, <b>felizes</b>; <b>jovem</b>, <b>jovens</b>. Adjectives in <b>-l</b> change to <b>-is</b>: <b>azul</b>, <b>azuis</b>.</p>
 {{ex:A família é grande.|ah fah-MEE-lyuh eh GRAHN-jee|The family is big.}}
 {{ex:os olhos azuis|oos AW-lyoos ah-ZOOYS|the blue eyes}}
 <h3>After the noun</h3>
 <p>English puts the adjective first: "a black car". Portuguese usually puts it after: <b>um carro preto</b>. Colors and nationalities always go after. A few common adjectives, such as <b>bom</b>, often come first, but after the noun is the safe default.</p>
 {{ex:uma camisa branca|OO-muh kah-MEE-zuh BRAHN-kuh|a white shirt}}
 {{ex:um amigo brasileiro|oong ah-MEE-goo brah-zee-LAY-roo|a Brazilian friend}}
-<h3>Very: muito</h3>
+<h3>Very: ‹muito›</h3>
 <p><b>Muito</b> before an adjective means "very", and in that job it never changes. Only the adjective agrees: <b>muito alta</b>, <b>muito simpáticos</b>.</p>
 {{ex:Ela é muito simpática.|EH-luh eh MOOYN-too seem-PAH-chee-kuh|She's very nice.}}
 <p>Watch one false friend: <b>simpático</b> means nice or friendly, not "sympathetic".</p>
 <h3>Learn adjectives in pairs</h3>
-<p>When you meet a new adjective, learn both forms at once: <b>bonito, bonita</b>; <b>simpático, simpática</b>; <b>brasileiro, brasileira</b>. Then look at the noun before you speak: if it takes <b>a</b>, the adjective ends in <b>-a</b> too.</p>
-<div class="tip"><b>Most common mistake:</b> leaving the adjective in its masculine form. <b>a casa bonito</b> → <b>a casa bonita</b>: the adjective agrees with the noun.</div>
+<p>When you meet a new adjective, learn both forms at once: <b>bonito</b>, <b>bonita</b>; <b>simpático</b>, <b>simpática</b>; <b>brasileiro</b>, <b>brasileira</b>. Then look at the noun before you speak: if it takes <b>a</b>, the adjective ends in <b>-a</b> too.</p>
+<div class="tip"><strong>Most common mistake:</strong> leaving the adjective in its masculine form. <b>a casa bonito</b> → <b>a casa bonita</b>: the adjective agrees with the noun.</div>
 `,
     check: [
-      ["'the tall sisters' =",["as irmãs altas","as irmãs altos","as irmã altas","os irmãs altas"],0,"irmãs is feminine and plural, so the article and the adjective agree: as irmãs altas."],
-      ["Where does a color go?",["Before the noun","After the noun","Either place, freely","At the end of the sentence"],1,"Colors always follow the noun: um carro preto."],
-      ["'blue cars' =",["carros azuls","carros azul","carros azules","carros azuis"],3,"Adjectives in -l change to -is in the plural: azuis."]
+      ["'the tall sisters' =",["as irmãs altas","as irmãs altos","as irmã altas","os irmãs altas"],0,"‹irmãs› is feminine and plural, so the article and the adjective agree: ‹as irmãs altas›."],
+      ["Where does a color go?",["Before the noun","After the noun","Either place, freely","At the end of the sentence"],1,"Colors always follow the noun: ‹um carro preto›."],
+      ["'blue cars' =",["carros azuls","carros azul","carros azules","carros azuis"],3,"Adjectives in ‹-l› change to ‹-is› in the plural: ‹azuis›."]
     ],
     practice: [
-      ["mc","'a black car' =","um carro preto","um preto carro","uma carro preta","um carro preta","The color goes after the noun and agrees with carro: preto."],
-      ["mc","'The mother is tall.' =","A mãe é alta.","A mãe é alto.","A mãe é altas.","O mãe é alta.","mãe is feminine and singular: a mãe, alta."],
-      ["mc","Which adjective is the same for men and women?","feliz","alto","bonito","simpático","Adjectives in a consonant or -e, like feliz, have no separate feminine form."],
-      ["mc","'very nice' (about two women) =","muito simpáticas","muitas simpáticas","muito simpáticos","muita simpática","muito before an adjective never changes; only simpáticas changes."],
-      ["mc","'The brother and the sister are tall.' =","O irmão e a irmã são altos.","O irmão e a irmã são altas.","O irmão e a irmã é altos.","O irmão e a irmã são alto.","A mixed group takes the masculine plural: altos."],
-      ["or","the white shirt","a camisa branca","branco","camisa is feminine, so the adjective agrees: branca."],
-      ["or","The sisters are very nice.","As irmãs são muito simpáticas","simpáticos","simpáticas agrees with irmãs: feminine plural."],
-      ["or","the blue eyes","os olhos azuis","azuls","Adjectives in -l change to -is in the plural: azul, azuis."],
-      ["fi","O carro é __.","The car is black.","preto","preta|pretos|pretas","carro is masculine and there is one car: preto."],
-      ["fi","As meninas são __.","The girls are happy.","felizes","feliz|felizas|felices","feliz has no separate feminine form; for more than one it becomes felizes."],
-      ["fi","Ela é __ alta.","She's very tall.","muito","muita|muitos|muitas","muito before an adjective means very, and then it never changes."],
-      ["ty","The father is tall.","O pai é alto","pai · alto","alta","pai is masculine, so the adjective agrees: alto."],
-      ["ty","the white houses","as casas brancas","casa · branco","brancos","casas is feminine and plural, so the adjective agrees: brancas."],
-      ["ty","She's very nice.","Ela é muito simpática","muito · simpático","simpático muita","simpática agrees with ela, and muito does not change."]
+      ["mc","'a black car' =","um carro preto","um preto carro","uma carro preta","um carro preta","The color goes after the noun and agrees with ‹carro›: ‹preto›."],
+      ["mc","'The mother is tall.' =","A mãe é alta.","A mãe é alto.","A mãe é altas.","O mãe é alta.","‹mãe› is feminine and singular: ‹a mãe›, ‹alta›."],
+      ["mc","Which adjective is the same for men and women?","feliz","alto","bonito","simpático","Adjectives in a consonant or ‹-e›, like ‹feliz›, have no separate feminine form."],
+      ["mc","'very nice' (about two women) =","muito simpáticas","muitas simpáticas","muito simpáticos","muita simpática","‹muito› before an adjective never changes; only ‹simpáticas› changes."],
+      ["mc","'The brother and the sister are tall.' =","O irmão e a irmã são altos.","O irmão e a irmã são altas.","O irmão e a irmã é altos.","O irmão e a irmã são alto.","A mixed group takes the masculine plural: ‹altos›."],
+      ["or","the white shirt","a camisa branca","branco","‹camisa› is feminine, so the adjective agrees: ‹branca›."],
+      ["or","The sisters are very nice.","As irmãs são muito simpáticas","simpáticos","‹simpáticas› agrees with ‹irmãs›: feminine plural."],
+      ["or","the blue eyes","os olhos azuis","azuls","Adjectives in ‹-l› change to ‹-is› in the plural: ‹azul›, ‹azuis›."],
+      ["fi","O carro é __.","The car is black.","preto","preta|pretos|pretas","‹carro› is masculine and there is one car: ‹preto›."],
+      ["fi","As meninas são __.","The girls are happy.","felizes","feliz|felizas|felices","‹feliz› has no separate feminine form; for more than one it becomes ‹felizes›."],
+      ["fi","Ela é __ alta.","She's very tall.","muito","muita|muitos|muitas","‹muito› before an adjective means very, and then it never changes."],
+      ["ty","The father is tall.","O pai é alto","‹pai› · ‹alto›","alta","‹pai› is masculine, so the adjective agrees: ‹alto›."],
+      ["ty","the white houses","as casas brancas","‹casa› · ‹branco›","brancos","‹casas› is feminine and plural, so the adjective agrees: ‹brancas›."],
+      ["ty","She's very nice.","Ela é muito simpática","‹muito› · ‹simpático›","simpático muita","‹simpática› agrees with ‹ela›, and ‹muito› does not change."]
     ]
   },
   {
     id: "present",
-    title: "Present tense: -ar, -er, -ir",
+    title: "Present tense: ‹-ar›, ‹-er›, ‹-ir›",
     blurb: "Say what you and others do every day, with the right verb ending for each subject.",
     deck: "Work and study",
     body: `
 <p>English verbs barely change: I work, you work, we work; only "he works" adds an s. Portuguese changes the verb ending to match the subject. The good news: everyday Brazilian Portuguese uses only four forms of most verbs.</p>
 <h3>Three families</h3>
 <p>Every infinitive (the "to" form) ends in <b>-ar</b>, <b>-er</b> or <b>-ir</b>. Take off those two letters to get the stem, then add the ending. Other regular verbs that work the same way: <b>falar</b> (speak), <b>morar</b> (live), <b>estudar</b> (study), <b>comer</b> (eat).</p>
-<div class="tbl"><table><tr><th>Subject</th><th>trabalhar (work)</th><th>aprender (learn)</th><th>abrir (open)</th></tr><tr><td class="k">eu</td><td class="k">trabalho</td><td class="k">aprendo</td><td class="k">abro</td></tr><tr><td class="k">você, ele, ela, a gente</td><td class="k">trabalha</td><td class="k">aprende</td><td class="k">abre</td></tr><tr><td class="k">nós</td><td class="k">trabalhamos</td><td class="k">aprendemos</td><td class="k">abrimos</td></tr><tr><td class="k">vocês, eles, elas</td><td class="k">trabalham</td><td class="k">aprendem</td><td class="k">abrem</td></tr></table></div>
+<div class="tbl"><table><tr><th>Subject</th><th>‹trabalhar› (work)</th><th>‹aprender› (learn)</th><th>‹abrir› (open)</th></tr><tr><td class="k">eu</td><td class="k">trabalho</td><td class="k">aprendo</td><td class="k">abro</td></tr><tr><td class="k">você, ele, ela, a gente</td><td class="k">trabalha</td><td class="k">aprende</td><td class="k">abre</td></tr><tr><td class="k">nós</td><td class="k">trabalhamos</td><td class="k">aprendemos</td><td class="k">abrimos</td></tr><tr><td class="k">vocês, eles, elas</td><td class="k">trabalham</td><td class="k">aprendem</td><td class="k">abrem</td></tr></table></div>
 {{ex:Eu trabalho em Miami.|ayw trah-BAH-lyoo ayng mee-AH-mee|I work in Miami.}}
 {{ex:Ela aprende português.|EH-luh ah-PRAYN-jee pohr-too-GAYS|She's learning Portuguese.}}
-<h3>The ele form does a lot</h3>
-<p>The ele form also goes with <b>você</b> and <b>a gente</b>. So "we work" is <b>nós trabalhamos</b> or, in everyday speech, <b>a gente trabalha</b>. Both are correct; just do not mix them, as in <b>a gente trabalhamos</b>.</p>
+<h3>The ‹ele› form does a lot</h3>
+<p>The ‹ele› form also goes with <b>você</b> and <b>a gente</b>. So "we work" is <b>nós trabalhamos</b> or, in everyday speech, <b>a gente trabalha</b>. Both are correct; just do not mix them, as in <b>a gente trabalhamos</b>.</p>
 {{ex:Você fala inglês?|voh-SAY FAH-luh een-GLAYS|Do you speak English?}}
 {{ex:Nós moramos em Orlando.|naws moh-RAH-moos ayng ohr-LAHN-doo|We live in Orlando.}}
 {{ex:A gente estuda de manhã.|ah ZHAYN-chee ees-TOO-duh jee mah-NYAHNG|We study in the morning.}}
-<p>The plural "you", <b>vocês</b>, takes the eles form. And the eu form always ends in <b>-o</b>, in all three families: <b>falo, como, abro</b>.</p>
+<p>The plural "you", <b>vocês</b>, takes the ‹eles› form. And the ‹eu› form always ends in <b>-o</b>, in all three families: <b>falo</b>, <b>como</b>, <b>abro</b>.</p>
 {{ex:Vocês moram em Boston?|voh-SAYS MAW-rowng ayng BAWS-tohng|Do you guys live in Boston?}}
 <h3>No "do", and no extra "-ing"</h3>
 <p>English needs "do" for questions and for "not". Portuguese simply raises the voice for a question, and puts <b>não</b> before the verb for "not".</p>
 {{ex:Eu não falo espanhol.|ayw nowng FAH-loo ees-pah-NYOHW|I don't speak Spanish.}}
 <p>The present also covers things that are true these days: <b>Moro em Boston</b> is "I live in Boston" and also "I'm living in Boston". For what is happening this very second, a later lesson adds another form.</p>
-<h3>tu</h3>
+<h3>‹tu›</h3>
 <p>In Rio, the South and parts of the North and Northeast you will hear <b>tu</b>, usually with the <b>você</b> form (<b>tu fala</b>); in Portugal <b>tu</b> has its own form (<b>tu falas</b>). In this course, use <b>você</b>.</p>
-<div class="tip"><b>Most common mistake:</b> leaving the verb as an infinitive. <b>Ela trabalhar aqui.</b> → <b>Ela trabalha aqui.</b> Give the verb the ending of its subject.</div>
+<div class="tip"><strong>Most common mistake:</strong> leaving the verb as an infinitive. <b>Ela trabalhar aqui.</b> → <b>Ela trabalha aqui.</b> Give the verb the ending of its subject.</div>
 `,
     check: [
-      ["'We speak' (use a gente) =",["a gente falamos","a gente fala","a gente falam","a gente falo"],1,"a gente takes the ele form: a gente fala."],
-      ["'You all study' =",["vocês estuda","vocês estudamos","vocês estudam","vocês estudas"],2,"vocês takes the eles form: estudam."],
-      ["'I don't work' =",["Eu não trabalho.","Eu não trabalhar.","Eu não trabalha.","Não eu trabalho."],0,"não goes right before the verb, and trabalho is the eu form."]
+      ["'We speak' (use ‹a gente›) =",["a gente falamos","a gente fala","a gente falam","a gente falo"],1,"‹a gente› takes the ‹ele› form: ‹a gente fala›."],
+      ["'You all study' =",["vocês estuda","vocês estudamos","vocês estudam","vocês estudas"],2,"‹vocês› takes the ‹eles› form: ‹estudam›."],
+      ["'I don't work' =",["Eu não trabalho.","Eu não trabalhar.","Eu não trabalha.","Não eu trabalho."],0,"‹não› goes right before the verb, and ‹trabalho› is the ‹eu› form."]
     ],
     practice: [
-      ["mc","'she works' =","ela trabalha","ela trabalho","ela trabalhar","ela trabalham","ela takes the ele form: trabalha."],
-      ["mc","'I eat' =","eu como","eu come","eu comer","eu comemos","The eu form ends in -o: como."],
-      ["mc","'you open' (one person) =","você abre","você abres","você abrir","você abrem","você takes the ele form: abre."],
-      ["mc","'we live' (use nós) =","nós moramos","nós mora","nós moram","nós moro","The nós form ends in -mos: moramos."],
-      ["mc","Which question means 'Do you speak English?'","Você fala inglês?","Você falar inglês?","Você falam inglês?","Você falas inglês?","No 'do' in Portuguese, and você takes the ele form: fala."],
-      ["or","We live in Orlando. (use nós)","Nós moramos em Orlando","mora","The nós form: the verb ending matches the subject, -amos."],
-      ["or","They study Portuguese.","Eles estudam português","estuda","eles takes the eles form: estudam."],
-      ["or","I don't speak Spanish.","Eu não falo espanhol","fala","não goes before the verb, and falo is the eu form."],
-      ["fi","Vocês __ em Boston?","Do you guys work in Boston?","trabalham","trabalha|trabalhamos|trabalho","vocês takes the eles form: trabalham."],
-      ["fi","A gente __ português.","We're learning Portuguese.","aprende","aprendemos|aprendem|aprendo","a gente takes the ele form: aprende."],
-      ["fi","Eu __ a porta.","I open the door.","abro","abre|abrimos|abrir","The eu form of abrir is abro."],
-      ["ty","We live in Miami.","Nós moramos em Miami|Moramos em Miami|A gente mora em Miami","morar · Miami","mora moram","The nós form: the verb ending matches the subject, -amos. With a gente, use the ele form: mora."],
-      ["ty","She works in Boston.","Ela trabalha em Boston","trabalhar · Boston","trabalho trabalhar","The ele form: the verb ending matches the subject, trabalha."],
-      ["ty","Do you speak English?","Você fala inglês|Fala inglês","falar · inglês","falas falar","você takes the ele form: fala."]
+      ["mc","'she works' =","ela trabalha","ela trabalho","ela trabalhar","ela trabalham","‹ela› takes the ‹ele› form: ‹trabalha›."],
+      ["mc","'I eat' =","eu como","eu come","eu comer","eu comemos","The ‹eu› form ends in ‹-o›: ‹como›."],
+      ["mc","'you open' (one person) =","você abre","você abres","você abrir","você abrem","‹você› takes the ‹ele› form: ‹abre›."],
+      ["mc","'we live' (use ‹nós›) =","nós moramos","nós mora","nós moram","nós moro","The ‹nós› form ends in ‹-mos›: ‹moramos›."],
+      ["mc","Which question means 'Do you speak English?'","Você fala inglês?","Você falar inglês?","Você falam inglês?","Você falas inglês?","No 'do' in Portuguese, and ‹você› takes the ‹ele› form: ‹fala›."],
+      ["or","We live in Orlando. (use ‹nós›)","Nós moramos em Orlando","mora","The ‹nós› form: the verb ending matches the subject, ‹-amos›."],
+      ["or","They study Portuguese.","Eles estudam português","estuda","‹eles› takes the ‹eles› form: ‹estudam›."],
+      ["or","I don't speak Spanish.","Eu não falo espanhol","fala","‹não› goes before the verb, and ‹falo› is the ‹eu› form."],
+      ["fi","Vocês __ em Boston?","Do you guys work in Boston?","trabalham","trabalha|trabalhamos|trabalho","‹vocês› takes the ‹eles› form: ‹trabalham›."],
+      ["fi","A gente __ português.","We're learning Portuguese.","aprende","aprendemos|aprendem|aprendo","‹a gente› takes the ‹ele› form: ‹aprende›."],
+      ["fi","Eu __ a porta.","I open the door.","abro","abre|abrimos|abrir","The ‹eu› form of ‹abrir› is ‹abro›."],
+      ["ty","We live in Miami.","Nós moramos em Miami|Moramos em Miami|A gente mora em Miami","‹morar› · ‹Miami›","mora moram","The ‹nós› form: the verb ending matches the subject, ‹-amos›. With ‹a gente›, use the ‹ele› form: ‹mora›."],
+      ["ty","She works in Boston.","Ela trabalha em Boston","‹trabalhar› · ‹Boston›","trabalho trabalhar","The ‹ele› form: the verb ending matches the subject, ‹trabalha›."],
+      ["ty","Do you speak English?","Você fala inglês|Fala inglês","‹falar› · ‹inglês›","falas falar","‹você› takes the ‹ele› form: ‹fala›."]
     ]
   },
   {
     id: "estar",
-    title: "estar: where and how",
-    blurb: "Say where people and things are, how someone is right now, and ask where a place is with ficar.",
+    title: "‹estar›: where and how",
+    blurb: "Say where people and things are, how someone is right now, and ask where a place is with ‹ficar›.",
     deck: "Around town and directions",
     body: `
 <p>Lesson 4 used <b>ser</b> for who you are. Portuguese has a second verb for "be", <b>estar</b>, for where someone is and how they are right now.</p>
 <h3>The forms</h3>
-<div class="tbl"><table><tr><th>Subject</th><th>estar</th></tr><tr><td class="k">eu</td><td class="k">estou</td></tr><tr><td class="k">você, ele, ela, a gente</td><td class="k">está</td></tr><tr><td class="k">nós</td><td class="k">estamos</td></tr><tr><td class="k">vocês, eles, elas</td><td class="k">estão</td></tr></table></div>
+<div class="tbl"><table><tr><th>Subject</th><th>‹estar›</th></tr><tr><td class="k">eu</td><td class="k">estou</td></tr><tr><td class="k">você, ele, ela, a gente</td><td class="k">está</td></tr><tr><td class="k">nós</td><td class="k">estamos</td></tr><tr><td class="k">vocês, eles, elas</td><td class="k">estão</td></tr></table></div>
 <p>Mind the accent on <b>está</b>: it carries the stress and the meaning. Without it, <b>esta</b> means "this".</p>
 {{ex:Estou em casa.|ees-TOH ayng KAH-zuh|I'm at home.}}
 {{ex:A Ana está em Miami.|ah AH-nuh ees-TAH ayng mee-AH-mee|Ana is in Miami.}}
@@ -348,44 +348,44 @@ module.exports = [
 <p>To ask, <b>Como você está?</b> works anywhere, though <b>Tudo bem?</b> is more common. English "I'm good" invites a word-for-word copy with <b>bom</b>, but the everyday way to say you are fine is <b>Estou bem</b> or just <b>Tudo bem</b>.</p>
 {{ex:Estou bem, obrigado.|ees-TOH bayng oh-bree-GAH-doo|I'm fine, thanks.}}
 {{ex:Ela está cansada.|EH-luh ees-TAH kahn-SAH-duh|She's tired.}}
-<h3>Where places are: ficar</h3>
-<p>Buildings and places do not move, and for them Brazilians usually ask with <b>ficar</b>: <b>Onde fica o banco?</b> (Where is the bank?). You will also hear <b>Onde é o banco?</b>. The answer uses <b>ficar</b> too. <b>Fica</b> is the ele form; for more than one place, say <b>ficam</b>: <b>Onde ficam os banheiros?</b></p>
+<h3>Where places are: ‹ficar›</h3>
+<p>Buildings and places do not move, and for them Brazilians usually ask with <b>ficar</b>: <b>Onde fica o banco?</b> (Where is the bank?). You will also hear <b>Onde é o banco?</b>. The answer uses <b>ficar</b> too. <b>Fica</b> is the ‹ele› form; for more than one place, say <b>ficam</b>: <b>Onde ficam os banheiros?</b></p>
 {{ex:Onde fica o banheiro?|OHN-jee FEE-kuh oo bah-NYAY-roo|Where is the bathroom?}}
 {{ex:A farmácia fica ali.|ah fahr-MAH-syuh FEE-kuh ah-LEE|The pharmacy is over there.}}
-<h3>What you will hear: tô and tá</h3>
+<h3>What you will hear: ‹tô› and ‹tá›</h3>
 <p>In speech, <b>estou</b> often shrinks to <b>tô</b> and <b>está</b> to <b>tá</b>: <b>Tô bem</b>, <b>Ela tá aqui</b>. These are short forms of the same verb. Recognize them, and write <b>estou</b> and <b>está</b> in your answers.</p>
-<div class="tip"><b>Most common mistake:</b> using <b>ser</b> for how you feel right now. <b>Sou cansado.</b> → <b>Estou cansado.</b></div>
+<div class="tip"><strong>Most common mistake:</strong> using <b>ser</b> for how you feel right now. <b>Sou cansado.</b> → <b>Estou cansado.</b></div>
 `,
     check: [
-      ["'I'm at home' =",["Sou em casa.","Estou em casa.","Está em casa.","Estar em casa."],1,"Where a person is takes estar, and the eu form is estou."],
-      ["'Where is the bank?' The usual Brazilian way:",["Onde ficam o banco?","Onde fico o banco?","Onde é banco?","Onde fica o banco?"],3,"For where a building is, Brazilians usually use ficar: Onde fica o banco?"],
-      ["A woman says 'I'm tired':",["Estou cansado.","Sou cansada.","Estou cansada.","Está cansada."],2,"How you are right now takes estar, and cansada agrees with the speaker, a woman."]
+      ["'I'm at home' =",["Sou em casa.","Estou em casa.","Está em casa.","Estar em casa."],1,"Where a person is takes ‹estar›, and the ‹eu› form is ‹estou›."],
+      ["'Where is the bank?' The usual Brazilian way:",["Onde ficam o banco?","Onde fico o banco?","Onde é banco?","Onde fica o banco?"],3,"For where a building is, Brazilians usually use ‹ficar›: ‹Onde fica o banco?›"],
+      ["A woman says 'I'm tired':",["Estou cansado.","Sou cansada.","Estou cansada.","Está cansada."],2,"How you are right now takes ‹estar›, and ‹cansada› agrees with the speaker, a woman."]
     ],
     practice: [
-      ["mc","'We're at home' (use nós) =","Nós estamos em casa.","Nós está em casa.","Nós somos em casa.","Nós estão em casa.","Where people are takes estar, and the nós form is estamos."],
-      ["mc","'Where are you?' =","Onde você está?","Onde você é?","Onde você estou?","Onde você estão?","Where a person is takes estar; você takes está."],
-      ["mc","'Where is the bathroom?' The usual Brazilian way:","Onde fica o banheiro?","Onde fico o banheiro?","Onde ficam o banheiro?","Onde sou o banheiro?","For where a place is, Brazilians usually use ficar: fica."],
-      ["mc","'They're tired' (all women) =","Elas estão cansadas.","Elas estão cansados.","Elas está cansadas.","Elas somos cansadas.","How they are right now takes estar: estão, and cansadas for women."],
-      ["mc","Which spelling means 'is'?","está","esta","estã","ésta","está, with the accent on the a, means is; esta means this.","!strict"],
-      ["or","Ana is at home.","A Ana está em casa","estão","está is the ele form, for one person: Ana."],
-      ["or","I'm tired. (a woman speaking)","Eu estou cansada","cansado","cansada agrees with the speaker, a woman."],
-      ["or","Where is the pharmacy? (use ficar)","Onde fica a farmácia","o","farmácia is feminine, so its article is a: a farmácia."],
-      ["fi","Vocês __ bem?","Are you guys OK?","estão","está|estamos|estou","vocês takes the eles form: estão."],
-      ["fi","O Pedro __ aqui.","Pedro is here.","está","esta|estão|estou","está, with the accent, means is; esta means this.","!strict"],
-      ["fi","Onde __ o hotel?","Where is the hotel? (use ficar)","fica","ficam|fico|ficamos","For where a place is, use fica: one hotel, so the ele form."],
-      ["ty","I'm tired. (a man speaking)","Estou cansado|Eu estou cansado","estar · cansado","cansada sou","cansado agrees with the speaker, a man, and how you are right now takes estar."],
-      ["ty","We're in Boston.","Nós estamos em Boston|Estamos em Boston|A gente está em Boston","estar · Boston","estão somos","The nós form is estamos; with a gente, use the ele form: está."],
-      ["ty","Where is the bathroom? (use ficar)","Onde fica o banheiro","ficar · banheiro","ficam a","banheiro is masculine, so the article agrees: o banheiro; for places, use fica."]
+      ["mc","'We're at home' (use ‹nós›) =","Nós estamos em casa.","Nós está em casa.","Nós somos em casa.","Nós estão em casa.","Where people are takes ‹estar›, and the ‹nós› form is ‹estamos›."],
+      ["mc","'Where are you?' =","Onde você está?","Onde você é?","Onde você estou?","Onde você estão?","Where a person is takes ‹estar›; ‹você› takes ‹está›."],
+      ["mc","'Where is the bathroom?' The usual Brazilian way:","Onde fica o banheiro?","Onde fico o banheiro?","Onde ficam o banheiro?","Onde sou o banheiro?","For where a place is, Brazilians usually use ‹ficar›: ‹fica›."],
+      ["mc","'They're tired' (all women) =","Elas estão cansadas.","Elas estão cansados.","Elas está cansadas.","Elas somos cansadas.","How they are right now takes ‹estar›: ‹estão›, and ‹cansadas› for women."],
+      ["mc","Which spelling means 'is'?","está","esta","estã","ésta","‹está›, with the accent on the ‹a›, means is; ‹esta› means this.","!strict"],
+      ["or","Ana is at home.","A Ana está em casa","estão","‹está› is the ‹ele› form, for one person: ‹Ana›."],
+      ["or","I'm tired. (a woman speaking)","Eu estou cansada","cansado","‹cansada› agrees with the speaker, a woman."],
+      ["or","Where is the pharmacy? (use ‹ficar›)","Onde fica a farmácia","o","‹farmácia› is feminine, so its article is ‹a›: ‹a farmácia›."],
+      ["fi","Vocês __ bem?","Are you guys OK?","estão","está|estamos|estou","‹vocês› takes the ‹eles› form: ‹estão›."],
+      ["fi","O Pedro __ aqui.","Pedro is here.","está","esta|estão|estou","‹está›, with the accent, means is; ‹esta› means this.","!strict"],
+      ["fi","Onde __ o hotel?","Where is the hotel? (use ‹ficar›)","fica","ficam|fico|ficamos","For where a place is, use ‹fica›: one hotel, so the ‹ele› form."],
+      ["ty","I'm tired. (a man speaking)","Estou cansado|Eu estou cansado","‹estar› · ‹cansado›","cansada sou","‹cansado› agrees with the speaker, a man, and how you are right now takes ‹estar›."],
+      ["ty","We're in Boston.","Nós estamos em Boston|Estamos em Boston|A gente está em Boston","‹estar› · ‹Boston›","estão somos","The ‹nós› form is ‹estamos›; with ‹a gente›, use the ‹ele› form: ‹está›."],
+      ["ty","Where is the bathroom? (use ‹ficar›)","Onde fica o banheiro","‹ficar› · ‹banheiro›","ficam a","‹banheiro› is masculine, so the article agrees: ‹o banheiro›; for places, use ‹fica›."]
     ]
   },
   {
     id: "contractions",
-    title: "no, na, do, da: contractions",
-    blurb: "Join em and de with o and a, and say where you are and where you're from with countries and cities.",
+    title: "‹no›, ‹na›, ‹do›, ‹da›: contractions",
+    blurb: "Join ‹em› and ‹de› with ‹o› and ‹a›, and say where you are and where you're from with countries and cities.",
     deck: "Travel and transport",
     body: `
-<p>English keeps small words apart: "in the car", "from the city". Portuguese fuses some of them. When <b>em</b> (in, on, at) or <b>de</b> (of, from) meets <b>o, a, os, as</b>, the two always join into one word, called a contraction.</p>
-<h3>em and de with the article</h3>
+<p>English keeps small words apart: "in the car", "from the city". Portuguese fuses some of them. When <b>em</b> (in, on, at) or <b>de</b> (of, from) meets <b>o</b>, <b>a</b>, <b>os</b>, <b>as</b>, the two always join into one word, called a contraction.</p>
+<h3>‹em› and ‹de› with the article</h3>
 <div class="tbl"><table><tr><td></td><td class="k">o</td><td class="k">a</td><td class="k">os</td><td class="k">as</td></tr><tr><td class="k">em</td><td class="k">no</td><td class="k">na</td><td class="k">nos</td><td class="k">nas</td></tr><tr><td class="k">de</td><td class="k">do</td><td class="k">da</td><td class="k">dos</td><td class="k">das</td></tr></table></div>
 <p>The article inside still agrees with the noun: <b>no aeroporto</b> (from <b>o aeroporto</b>), <b>na rodoviária</b>, the bus station (from <b>a rodoviária</b>). Plurals work the same way: <b>nas praias</b>, <b>dos amigos</b>.</p>
 <p>These fused forms are not casual speech: <b>em o</b> and <b>de a</b> are wrong in speech and in writing alike. When you are unsure, find the noun's article first (<b>a praia</b>), then pick the matching form (<b>na praia</b>, <b>da praia</b>).</p>
@@ -393,51 +393,51 @@ module.exports = [
 {{ex:A passagem está na bolsa.|ah pah-SAH-zhayng ees-TAH nah BOHW-suh|The ticket is in the bag.}}
 {{ex:o horário do ônibus|oo oh-RAH-ryoo doo OH-nee-boos|the bus schedule}}
 <h3>Countries and cities</h3>
-<p>Most countries take an article, so they contract: <b>o Brasil</b> gives <b>no Brasil</b> and <b>do Brasil</b>; <b>os Estados Unidos</b> gives <b>nos Estados Unidos</b>. A few countries, like Portugal, take none: <b>em Portugal</b>. Most cities take none either: <b>em São Paulo</b>, <b>de Boston</b>. Rio is the famous exception: <b>no Rio</b>, <b>do Rio</b>. Some Brazilian states take one too: <b>a Bahia</b>, so <b>da Bahia</b>.</p>
+<p>Most countries take an article, so they contract: <b>o Brasil</b> gives <b>no Brasil</b> and <b>do Brasil</b>; <b>os Estados Unidos</b> gives <b>nos Estados Unidos</b>. A few countries, like Portugal, take none: <b>em Portugal</b>. Most cities take none either: <b>em São Paulo</b>, <b>de Boston</b>. ‹Rio› is the famous exception: <b>no Rio</b>, <b>do Rio</b>. Some Brazilian states take one too: <b>a Bahia</b>, so <b>da Bahia</b>.</p>
 {{ex:Moro nos Estados Unidos.|MAW-roo noos ees-TAH-doos oo-NEE-doos|I live in the United States.}}
 {{ex:Eu sou do Rio.|ayw soh doo HEE-oo|I'm from Rio.}}
 {{ex:Ela é da Bahia.|EH-luh eh dah bah-EE-uh|She's from Bahia.}}
 <h3>Other contractions</h3>
-<ul><li><b>em + um, uma</b> = <b>num, numa</b> (in a): <b>num hotel</b>. In writing you will also see <b>em um</b>. <b>de + um</b> can fuse into <b>dum</b>, but Brazilians usually write <b>de um</b>.</li><li><b>de + ele, ela</b> = <b>dele, dela</b>. Brazilians use them for "his" and "her", after the thing: <b>a mala dele</b>, his suitcase.</li><li><b>a + a</b> = <b>à</b> (to the), with a grave accent: <b>à direita</b>, on the right.</li></ul>
+<ul><li><b>em</b> + <b>um</b>, <b>uma</b> = <b>num</b>, <b>numa</b> (in a): <b>num hotel</b>. In writing you will also see <b>em um</b>. <b>de</b> + <b>um</b> can fuse into <b>dum</b>, but Brazilians usually write <b>de um</b>.</li><li><b>de</b> + <b>ele</b>, <b>ela</b> = <b>dele</b>, <b>dela</b>. Brazilians use them for "his" and "her", after the thing: <b>a mala dele</b>, his suitcase.</li><li><b>a</b> + <b>a</b> = <b>à</b> (to the), with a grave accent: <b>à direita</b>, on the right.</li></ul>
 {{ex:Estamos num hotel.|ees-TAH-moos noong oh-TEHW|We're at a hotel.}}
 {{ex:a mala dele|ah MAH-luh DAY-lee|his suitcase}}
-<div class="tip"><b>Most common mistake:</b> keeping the two words apart. <b>em o Brasil</b> → <b>no Brasil</b>. And keep the gender: <b>no praia</b> → <b>na praia</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> keeping the two words apart. <b>em o Brasil</b> → <b>no Brasil</b>. And keep the gender: <b>no praia</b> → <b>na praia</b>.</div>
 `,
     check: [
-      ["em + a praia =",["em a praia","no praia","na praia","a praia"],2,"em + a always fuse into na, and praia is feminine."],
-      ["'I'm from Brazil' =",["Sou do Brasil.","Sou de Brasil.","Sou da Brasil.","Sou de o Brasil."],0,"o Brasil takes the article, so de + o fuse into do."],
-      ["Which city takes an article, so it contracts?",["São Paulo","Boston","Miami","Rio"],3,"o Rio takes the article: no Rio, do Rio. Most cities take none."]
+      ["‹em› + ‹a praia› =",["em a praia","no praia","na praia","a praia"],2,"‹em› + ‹a› always fuse into ‹na›, and ‹praia› is feminine."],
+      ["'I'm from Brazil' =",["Sou do Brasil.","Sou de Brasil.","Sou da Brasil.","Sou de o Brasil."],0,"‹o Brasil› takes the article, so ‹de› + ‹o› fuse into ‹do›."],
+      ["Which city takes an article, so it contracts?",["São Paulo","Boston","Miami","Rio"],3,"‹o Rio› takes the article: ‹no Rio›, ‹do Rio›. Most cities take none."]
     ],
     practice: [
-      ["mc","'in the car' =","no carro","na carro","em o carro","num carro","em + o fuse into no; num carro means in a car."],
-      ["mc","'from the city' =","da cidade","do cidade","de a cidade","de cidade","cidade takes a, and de + a fuse into da."],
-      ["mc","'in the United States' =","nos Estados Unidos","no Estados Unidos","em Estados Unidos","nas Estados Unidos","os Estados Unidos is plural and masculine: em + os = nos."],
-      ["mc","'his ticket' =","a passagem dele","a passagem dela","a passagem de ele","o passagem dele","de + ele fuse into dele, and passagem keeps its own article, a."],
-      ["mc","'in São Paulo' =","em São Paulo","no São Paulo","na São Paulo","de São Paulo","São Paulo takes no article, so there is nothing to fuse: em São Paulo."],
-      ["or","I'm at the airport.","Estou no aeroporto","na","aeroporto is masculine: em + o make the contraction no."],
-      ["or","She's from Bahia.","Ela é da Bahia","do","a Bahia is feminine: de + a make the contraction da."],
-      ["or","We live in Brazil. (use nós)","Nós moramos no Brasil","em","o Brasil takes the article, so em + o fuse into the contraction no."],
-      ["fi","A passagem está __ bolsa.","The ticket is in the bag.","na","no|nas|em a","bolsa is feminine: em + a make the contraction na."],
-      ["fi","Eu sou __ Rio.","I'm from Rio.","do","da|de|dos","o Rio takes the article: de + o make the contraction do."],
-      ["fi","A mala __ é azul.","Her suitcase is blue.","dela","dele|de ela|da","For 'her', use dela, after the thing: de + ela."],
-      ["ty","I live in Brazil.","Eu moro no Brasil|Moro no Brasil","morar · o Brasil","em na","o Brasil takes the article: em + o make the contraction no."],
-      ["ty","We're from Rio.","Nós somos do Rio|Somos do Rio|A gente é do Rio","ser · o Rio","da de","o Rio takes the article: de + o make the contraction do."],
-      ["ty","The key is in the car.","A chave está no carro","chave · carro","na em","o carro is masculine: em + o make the contraction no."]
+      ["mc","'in the car' =","no carro","na carro","em o carro","num carro","‹em› + ‹o› fuse into ‹no›; ‹num carro› means in a car."],
+      ["mc","'from the city' =","da cidade","do cidade","de a cidade","de cidade","‹cidade› takes ‹a›, and ‹de› + ‹a› fuse into ‹da›."],
+      ["mc","'in the United States' =","nos Estados Unidos","no Estados Unidos","em Estados Unidos","nas Estados Unidos","‹os Estados Unidos› is plural and masculine: ‹em› + ‹os› = ‹nos›."],
+      ["mc","'his ticket' =","a passagem dele","a passagem dela","a passagem de ele","o passagem dele","‹de› + ‹ele› fuse into ‹dele›, and ‹passagem› keeps its own article, ‹a›."],
+      ["mc","'in São Paulo' =","em São Paulo","no São Paulo","na São Paulo","de São Paulo","‹São Paulo› takes no article, so there is nothing to fuse: ‹em São Paulo›."],
+      ["or","I'm at the airport.","Estou no aeroporto","na","‹aeroporto› is masculine: ‹em› + ‹o› make the contraction ‹no›."],
+      ["or","She's from Bahia.","Ela é da Bahia","do","‹a Bahia› is feminine: ‹de› + ‹a› make the contraction ‹da›."],
+      ["or","We live in Brazil. (use ‹nós›)","Nós moramos no Brasil","em","‹o Brasil› takes the article, so ‹em› + ‹o› fuse into the contraction ‹no›."],
+      ["fi","A passagem está __ bolsa.","The ticket is in the bag.","na","no|nas|em a","‹bolsa› is feminine: ‹em› + ‹a› make the contraction ‹na›."],
+      ["fi","Eu sou __ Rio.","I'm from Rio.","do","da|de|dos","‹o Rio› takes the article: ‹de› + ‹o› make the contraction ‹do›."],
+      ["fi","A mala __ é azul.","Her suitcase is blue.","dela","dele|de ela|da","For 'her', use ‹dela›, after the thing: ‹de› + ‹ela›."],
+      ["ty","I live in Brazil.","Eu moro no Brasil|Moro no Brasil","‹morar› · ‹o Brasil›","em na","‹o Brasil› takes the article: ‹em› + ‹o› make the contraction ‹no›."],
+      ["ty","We're from Rio.","Nós somos do Rio|Somos do Rio|A gente é do Rio","‹ser› · ‹o Rio›","da de","‹o Rio› takes the article: ‹de› + ‹o› make the contraction ‹do›."],
+      ["ty","The key is in the car.","A chave está no carro","‹chave› · ‹carro›","na em","‹o carro› is masculine: ‹em› + ‹o› make the contraction ‹no›."]
     ]
   },
   {
     id: "ser-estar",
-    title: "ser vs estar (and ficar)",
-    blurb: "Choose between ser, estar and ficar by asking what you are describing.",
+    title: "‹ser› vs ‹estar› (and ‹ficar›)",
+    blurb: "Choose between ‹ser›, ‹estar› and ‹ficar› by asking what you are describing.",
     deck: "Feelings and states",
     body: `
-<p>You now know both verbs for "be". This lesson puts them side by side. Forget a rule you may have heard, "ser is permanent, estar is temporary": it fails too often. Ask instead what you are describing. Is it what someone or something is, or an event? Then <b>ser</b>. Is it where a person or thing is, or how someone is at the moment? Then <b>estar</b>.</p>
-<h3>ser: what someone or something is</h3>
+<p>You now know both verbs for "be". This lesson puts them side by side. Forget a rule you may have heard, "‹ser› is permanent, ‹estar› is temporary": it fails too often. Ask instead what you are describing. Is it what someone or something is, or an event? Then <b>ser</b>. Is it where a person or thing is, or how someone is at the moment? Then <b>estar</b>.</p>
+<h3>‹ser›: what someone or something is</h3>
 <ul><li>who or what: <b>Ela é médica.</b></li><li>where from: <b>Sou de Recife.</b></li><li>what someone or something is like: <b>A cidade é bonita.</b></li><li>time: <b>É cedo.</b> (It's early.)</li><li>where an event takes place: <b>A festa é na casa da Ana.</b></li></ul>
 {{ex:O Pedro é muito calmo.|oo PAY-droo eh MOOYN-too KOW-moo|Pedro is a very calm person.}}
 {{ex:A festa é na casa da Ana.|ah FEHS-tuh eh nah KAH-zuh dah AH-nuh|The party is at Ana's house.}}
 {{ex:Ainda é cedo.|ah-EEN-duh eh SAY-doo|It's still early.}}
-<h3>estar: where, and how right now</h3>
+<h3>‹estar›: where, and how right now</h3>
 <ul><li>where a person or thing is: <b>A Ana está na praia.</b></li><li>how someone feels or is at the moment: <b>Estou nervoso.</b></li></ul>
 {{ex:Hoje o Pedro está nervoso.|OH-zhee oo PAY-droo ees-TAH nehr-VOH-zoo|Pedro is nervous today.}}
 {{ex:Estou feliz.|ees-TOH feh-LEES|I'm happy.}}
@@ -448,31 +448,31 @@ module.exports = [
 <p>"Where" can take all three verbs, depending on what is there.</p>
 <div class="tbl"><table><tr><th>What is there</th><th>Verb</th><th>Example</th></tr><tr><td>an event</td><td class="k">ser</td><td class="k">A reunião é no escritório.</td></tr><tr><td>a person or a movable thing</td><td class="k">estar</td><td class="k">A Ana está no escritório.</td></tr><tr><td>a building or place</td><td class="k">ficar</td><td class="k">O escritório fica no centro.</td></tr></table></div>
 {{ex:A reunião é no escritório.|ah heh-oo-nee-OWNG eh noo ees-kree-TAW-ryoo|The meeting is at the office.}}
-<h3>ficar: become</h3>
+<h3>‹ficar›: become</h3>
 <p><b>Ficar</b> also means "get" or "become": <b>Fico nervoso</b> is "I get nervous". You will hear its past, <b>Fiquei feliz</b> (I was glad), all the time.</p>
 {{ex:Eu fico nervoso no aeroporto.|ayw FEE-koo nehr-VOH-zoo noo ah-eh-roh-POHR-too|I get nervous at the airport.}}
-<div class="tip"><b>Most common mistake:</b> using <b>estar</b> for an event because the sentence says where. <b>A festa está na casa da Ana.</b> → <b>A festa é na casa da Ana.</b></div>
+<div class="tip"><strong>Most common mistake:</strong> using <b>estar</b> for an event because the sentence says where. <b>A festa está na casa da Ana.</b> → <b>A festa é na casa da Ana.</b></div>
 `,
     check: [
-      ["'The party is at Ana's house' =",["A festa está na casa da Ana.","A festa é na casa da Ana.","A festa fica na casa da Ana.","A festa são na casa da Ana."],1,"A party is an event, and where an event takes place uses ser."],
-      ["A man says 'I'm nervous' (right now):",["Sou nervoso.","Fico nervosa.","Estou nervosa.","Estou nervoso."],3,"How you feel at the moment takes estar, and nervoso agrees with the speaker, a man."],
-      ["What does Ela está bonita mean?",["She looks pretty (today).","She is a pretty person.","She is from a pretty place.","She is getting pretty."],0,"With estar, bonita describes how she looks now; Ela é bonita describes the person."]
+      ["'The party is at Ana's house' =",["A festa está na casa da Ana.","A festa é na casa da Ana.","A festa fica na casa da Ana.","A festa são na casa da Ana."],1,"A party is an event, and where an event takes place uses ‹ser›."],
+      ["A man says 'I'm nervous' (right now):",["Sou nervoso.","Fico nervosa.","Estou nervosa.","Estou nervoso."],3,"How you feel at the moment takes ‹estar›, and ‹nervoso› agrees with the speaker, a man."],
+      ["What does ‹Ela está bonita› mean?",["She looks pretty (today).","She is a pretty person.","She is from a pretty place.","She is getting pretty."],0,"With ‹estar›, ‹bonita› describes how she looks now; ‹Ela é bonita› describes the person."]
     ],
     practice: [
-      ["mc","'Pedro is at the beach.' =","O Pedro está na praia.","O Pedro é na praia.","O Pedro estão na praia.","O Pedro está no praia.","Where a person is takes estar, and praia takes na."],
-      ["mc","'The meeting is at the office.' =","A reunião é no escritório.","A reunião está no escritório.","A reunião são no escritório.","A reunião é na escritório.","A meeting is an event, and where an event takes place uses ser."],
-      ["mc","'She's a doctor.' =","Ela é médica.","Ela sou médica.","Ela é médico.","Ela são médica.","A job takes ser, and médica agrees with ela."],
-      ["mc","Which sentence means 'I get nervous'?","Eu fico nervoso.","Eu sou nervoso.","Eu estou nervoso.","Eu fica nervoso.","ficar also means get or become: fico nervoso."],
-      ["mc","'The soup is cold' (it has gone cold) =","A sopa está fria.","A sopa é fria.","A sopa está frio.","A sopa estão fria.","How the soup is now takes estar, and fria agrees with sopa."],
-      ["or","Ana is worried.","A Ana está preocupada","preocupado","preocupada agrees with Ana: feminine. How she is now takes estar."],
-      ["or","The party is at Ana's house.","A festa é na casa da Ana","está no","Events take ser, and casa is feminine, so the contraction is na."],
-      ["or","We're from Recife. (use nós)","Nós somos de Recife","estamos","Where someone is from takes ser: somos."],
-      ["fi","O Pedro __ muito calmo.","Pedro is a very calm person.","é","está|e|são","What a person is like takes ser: é, with the accent; e means and.","!strict"],
-      ["fi","Eu __ nervosa hoje.","I'm nervous today. (a woman speaking)","estou","sou|está|estamos","How you feel right now takes estar: estou."],
-      ["fi","O churrasco __ na casa do Lucas.","The barbecue is at Lucas's house.","é","está|fica|são","A barbecue party is an event, and events take ser."],
-      ["ty","I'm worried. (a man speaking)","Estou preocupado|Eu estou preocupado","estar · preocupado","preocupada sou","preocupado agrees with the speaker, a man, and how you feel now takes estar."],
-      ["ty","We're teachers. (use nós; all women)","Nós somos professoras|Somos professoras","ser · professora","professores estamos","A job takes ser, and professoras agrees with a group of women: feminine."],
-      ["ty","The party is in Rio.","A festa é no Rio","ser · festa · o Rio","está na","Events take ser, and o Rio takes the article: em + o make the contraction no."]
+      ["mc","'Pedro is at the beach.' =","O Pedro está na praia.","O Pedro é na praia.","O Pedro estão na praia.","O Pedro está no praia.","Where a person is takes ‹estar›, and ‹praia› takes ‹na›."],
+      ["mc","'The meeting is at the office.' =","A reunião é no escritório.","A reunião está no escritório.","A reunião são no escritório.","A reunião é na escritório.","A meeting is an event, and where an event takes place uses ‹ser›."],
+      ["mc","'She's a doctor.' =","Ela é médica.","Ela sou médica.","Ela é médico.","Ela são médica.","A job takes ‹ser›, and ‹médica› agrees with ‹ela›."],
+      ["mc","Which sentence means 'I get nervous'?","Eu fico nervoso.","Eu sou nervoso.","Eu estou nervoso.","Eu fica nervoso.","‹ficar› also means get or become: ‹fico nervoso›."],
+      ["mc","'The soup is cold' (it has gone cold) =","A sopa está fria.","A sopa é fria.","A sopa está frio.","A sopa estão fria.","How the soup is now takes ‹estar›, and ‹fria› agrees with ‹sopa›."],
+      ["or","Ana is worried.","A Ana está preocupada","preocupado","‹preocupada› agrees with ‹Ana›: feminine. How she is now takes ‹estar›."],
+      ["or","The party is at Ana's house.","A festa é na casa da Ana","está no","Events take ‹ser›, and ‹casa› is feminine, so the contraction is ‹na›."],
+      ["or","We're from Recife. (use ‹nós›)","Nós somos de Recife","estamos","Where someone is from takes ‹ser›: ‹somos›."],
+      ["fi","O Pedro __ muito calmo.","Pedro is a very calm person.","é","está|e|são","What a person is like takes ‹ser›: ‹é›, with the accent; ‹e› means and.","!strict"],
+      ["fi","Eu __ nervosa hoje.","I'm nervous today. (a woman speaking)","estou","sou|está|estamos","How you feel right now takes ‹estar›: ‹estou›."],
+      ["fi","O churrasco __ na casa do Lucas.","The barbecue is at Lucas's house.","é","está|fica|são","A barbecue party is an event, and events take ‹ser›."],
+      ["ty","I'm worried. (a man speaking)","Estou preocupado|Eu estou preocupado","‹estar› · ‹preocupado›","preocupada sou","‹preocupado› agrees with the speaker, a man, and how you feel now takes ‹estar›."],
+      ["ty","We're teachers. (use ‹nós›; all women)","Nós somos professoras|Somos professoras","‹ser› · ‹professora›","professores estamos","A job takes ‹ser›, and ‹professoras› agrees with a group of women: feminine."],
+      ["ty","The party is in Rio.","A festa é no Rio","‹ser› · ‹festa› · ‹o Rio›","está na","Events take ‹ser›, and ‹o Rio› takes the article: ‹em› + ‹o› make the contraction ‹no›."]
     ]
   }
 ];

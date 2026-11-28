@@ -1,29 +1,29 @@
-{"id":"pt.lc0001","meaning":"c with a cedilla","note":"Always s, and only before a, o or u: o açúcar, oo ah-SOO-kahr."}
-{"id":"pt.lc0002","meaning":"double s","note":"Always s, never z: a pessoa, ah peh-SOH-uh. A single s between vowels is z: a casa."}
-{"id":"pt.lc0003","meaning":"g before i","note":"g before e or i sounds zh: a página, ah PAH-zhee-nuh. Before a, o or u it is a hard g: a garrafa."}
-{"id":"pt.lc0004","meaning":"g and u before e or i","note":"The u is usually silent and keeps the g hard: a guerra, ah GHEH-huh."}
-{"id":"pt.lc0005","meaning":"the letter x","note":"Usually sh: a caixa, ah KAI-shuh. In some words it is ks (o táxi, oo TAHK-see), z (o exame) or s (próximo)."}
-{"id":"pt.lc0006","meaning":"a with an acute accent","note":"A stressed ah: o cardápio, oo kahr-DAH-pyoo."}
-{"id":"pt.lc0007","meaning":"e with an acute accent","note":"An open eh, as in bet, and stressed: o café, oo kah-FEH."}
-{"id":"pt.lc0008","meaning":"e with a circumflex","note":"A closed ay, and stressed: você, voh-SAY."}
-{"id":"pt.lc0009","meaning":"i with an acute accent","note":"A stressed ee: a família, ah fah-MEE-lyuh."}
-{"id":"pt.lc0010","meaning":"o with an acute accent","note":"An open aw, as in law, and stressed: a avó, ah ah-VAW."}
-{"id":"pt.lc0011","meaning":"o with a circumflex","note":"A closed oh, and stressed: o avô, oo ah-VOH."}
-{"id":"pt.lc0012","meaning":"u with an acute accent","note":"A stressed oo: o açúcar, oo ah-SOO-kahr."}
-{"id":"pt.lc0013","meaning":"we; people","note":"g before e is zh; en before a consonant is nasal; final te is chee. Ends in e: stress on the next-to-last syllable."}
-{"id":"pt.lc0014","meaning":"the hotel","note":"h is silent; final l is w. Ends in l: stress on the last syllable."}
-{"id":"pt.lc0015","meaning":"the beach","note":"r after p is a quick tap; ai as in eye; final a is a weak uh. Ends in a: stress on the next-to-last syllable."}
-{"id":"pt.lc0016","meaning":"the sugar","note":"ç is s; c before a is k. The accent mark puts the stress on ú."}
-{"id":"pt.lc0017","meaning":"the box; the checkout","note":"ai as in eye; x is sh. Ends in a: stress on the next-to-last syllable."}
-{"id":"pt.lc0018","meaning":"the ice cream","note":"r at the end of a syllable changes by region; final te is chee. Ends in e: stress on the next-to-last syllable."}
-{"id":"pt.lc0019","meaning":"the morning","note":"nh is ny; ã is nasal, and the syllable with the tilde takes the stress."}
-{"id":"pt.lc0020","meaning":"the lime","note":"ão is nasal, owng, and the syllable with the tilde takes the stress."}
-{"id":"pt.lc0021","meaning":"the bottle","note":"g before a is hard; rr is h. Ends in a: stress on the next-to-last syllable."}
-{"id":"pt.lc0022","meaning":"dinner","note":"j is zh; an before a consonant is nasal. Ends in r: stress on the last syllable."}
-{"id":"pt.lc0023","meaning":"the doctor","note":"é is an open eh and takes the stress; d before i is j; final o is oo."}
-{"id":"pt.lc0024","meaning":"the bus","note":"ô is a closed oh and takes the stress; final s stays s."}
-{"id":"pt.lc0025","meaning":"music","note":"ú takes the stress; s between vowels is z; c before a is k."}
-{"id":"pt.lc0026","meaning":"the trip","note":"g before e is zh; final em is nasal, ayng. Ends in em: stress on the next-to-last syllable."}
-{"id":"pt.lc0027","meaning":"the rain","note":"ch is sh; final a is a weak uh. Ends in a: stress on the next-to-last syllable."}
-{"id":"pt.lc0028","meaning":"the woman","note":"lh is ly. Ends in r: stress on the last syllable."}
-{"id":"pt.lc0029","meaning":"big","note":"an before a consonant is nasal; final de is jee. Ends in e: stress on the next-to-last syllable."}
+{"id":"pt.lc0001","meaning":"‹c› with a cedilla","note":"Always s, and only before ‹a›, ‹o› or ‹u›: ‹o açúcar›, oo ah-SOO-kahr."}
+{"id":"pt.lc0002","meaning":"double ‹s›","note":"Always s, never z: ‹a pessoa›, ah peh-SOH-uh. A single ‹s› between vowels is z: ‹a casa›."}
+{"id":"pt.lc0003","meaning":"‹g› before ‹i›","note":"‹g› before ‹e› or ‹i› sounds zh: ‹a página›, ah PAH-zhee-nuh. Before ‹a›, ‹o› or ‹u› it is a hard g: ‹a garrafa›."}
+{"id":"pt.lc0004","meaning":"‹g› and ‹u› before ‹e› or ‹i›","note":"The ‹u› is usually silent and keeps the ‹g› hard: ‹a guerra›, ah GHEH-huh."}
+{"id":"pt.lc0005","meaning":"the letter ‹x›","note":"Usually sh: ‹a caixa›, ah KAI-shuh. In some words it is ks (‹o táxi›, oo TAHK-see), z (‹o exame›) or s (‹próximo›)."}
+{"id":"pt.lc0006","meaning":"‹a› with an acute accent","note":"A stressed ah: ‹o cardápio›, oo kahr-DAH-pyoo."}
+{"id":"pt.lc0007","meaning":"‹e› with an acute accent","note":"An open eh, as in bet, and stressed: ‹o café›, oo kah-FEH."}
+{"id":"pt.lc0008","meaning":"‹e› with a circumflex","note":"A closed ay, and stressed: ‹você›, voh-SAY."}
+{"id":"pt.lc0009","meaning":"‹i› with an acute accent","note":"A stressed ee: ‹a família›, ah fah-MEE-lyuh."}
+{"id":"pt.lc0010","meaning":"‹o› with an acute accent","note":"An open aw, as in law, and stressed: ‹a avó›, ah ah-VAW."}
+{"id":"pt.lc0011","meaning":"‹o› with a circumflex","note":"A closed oh, and stressed: ‹o avô›, oo ah-VOH."}
+{"id":"pt.lc0012","meaning":"‹u› with an acute accent","note":"A stressed oo: ‹o açúcar›, oo ah-SOO-kahr."}
+{"id":"pt.lc0013","meaning":"we; people","note":"‹g› before ‹e› is zh; ‹en› before a consonant is nasal; final ‹te› is chee. Ends in ‹e›: stress on the next-to-last syllable."}
+{"id":"pt.lc0014","meaning":"the hotel","note":"‹h› is silent; final ‹l› is w. Ends in ‹l›: stress on the last syllable."}
+{"id":"pt.lc0015","meaning":"the beach","note":"‹r› after ‹p› is a quick tap; ‹ai› as in eye; final ‹a› is a weak uh. Ends in ‹a›: stress on the next-to-last syllable."}
+{"id":"pt.lc0016","meaning":"the sugar","note":"‹ç› is s; ‹c› before ‹a› is k. The accent mark puts the stress on ‹ú›."}
+{"id":"pt.lc0017","meaning":"the box; the checkout","note":"‹ai› as in eye; ‹x› is sh. Ends in ‹a›: stress on the next-to-last syllable."}
+{"id":"pt.lc0018","meaning":"the ice cream","note":"‹r› at the end of a syllable changes by region; final ‹te› is chee. Ends in ‹e›: stress on the next-to-last syllable."}
+{"id":"pt.lc0019","meaning":"the morning","note":"‹nh› is ny; ‹ã› is nasal, and the syllable with the tilde takes the stress."}
+{"id":"pt.lc0020","meaning":"the lime","note":"‹ão› is nasal, owng, and the syllable with the tilde takes the stress."}
+{"id":"pt.lc0021","meaning":"the bottle","note":"‹g› before ‹a› is hard; ‹rr› is h. Ends in ‹a›: stress on the next-to-last syllable."}
+{"id":"pt.lc0022","meaning":"dinner","note":"‹j› is zh; ‹an› before a consonant is nasal. Ends in ‹r›: stress on the last syllable."}
+{"id":"pt.lc0023","meaning":"the doctor","note":"‹é› is an open eh and takes the stress; ‹d› before ‹i› is j; final ‹o› is oo."}
+{"id":"pt.lc0024","meaning":"the bus","note":"‹ô› is a closed oh and takes the stress; final ‹s› stays s."}
+{"id":"pt.lc0025","meaning":"music","note":"‹ú› takes the stress; ‹s› between vowels is z; ‹c› before ‹a› is k."}
+{"id":"pt.lc0026","meaning":"the trip","note":"‹g› before ‹e› is zh; final ‹em› is nasal, ayng. Ends in ‹em›: stress on the next-to-last syllable."}
+{"id":"pt.lc0027","meaning":"the rain","note":"‹ch› is sh; final ‹a› is a weak uh. Ends in ‹a›: stress on the next-to-last syllable."}
+{"id":"pt.lc0028","meaning":"the woman","note":"‹lh› is ly. Ends in ‹r›: stress on the last syllable."}
+{"id":"pt.lc0029","meaning":"big","note":"‹an› before a consonant is nasal; final ‹de› is jee. Ends in ‹e›: stress on the next-to-last syllable."}

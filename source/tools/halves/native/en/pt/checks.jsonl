@@ -1,75 +1,75 @@
-{"id":"sounds.k1","q":"How does the final de in cidade sound in most of Brazil?","o":["day","jee","dee","It is silent"],"why":"t and d before an ee sound turn into ch and j, and a final e sounds ee, so de sounds jee."}
-{"id":"sounds.k2","q":"Where is the stress in falar (to speak)?","o":["On the first syllable","It has no stress","On both syllables","On the last syllable"],"why":"falar ends in r, not in a, e, o, am, em or ens, so the stress falls on the last syllable: fah-LAHR."}
-{"id":"sounds.k3","q":"What does the tilde in pão tell you?","o":["The vowel goes through the nose","The word is a question","The stress is on the first letter","The vowel is silent"],"why":"A tilde marks a nasal vowel: pão (bread) is nasal, pau (stick) is not."}
-{"id":"greetings.k1","q":"A woman thanks a man. What does she say?","why":"obrigada agrees with the speaker, and the speaker is a woman."}
-{"id":"greetings.k2","q":"It's 3 p.m. How do you greet someone?","why":"After about noon it is boa tarde, and boa is feminine because tarde is."}
-{"id":"greetings.k3","q":"You meet your friend's grandmother. Which 'you' fits best?","why":"a senhora is the respectful 'you' for an older woman; o senhor is for a man."}
-{"id":"articles.k1","q":"Which article goes with problema?","why":"problema ends in -a but is masculine: o problema."}
-{"id":"articles.k2","q":"How do you order 'a water'?","why":"água is feminine, so 'a' is uma; a água means the water."}
-{"id":"articles.k3","q":"What is the plural of o limão?","why":"Many -ão nouns change to -ões, and the article goes plural too: os limões."}
-{"id":"ser.k1","q":"'You are' (to one person) =","why":"você takes the ele form: você é."}
-{"id":"ser.k2","q":"A woman says 'I'm a teacher':","why":"No article before a job, and professora agrees with the speaker, a woman."}
-{"id":"ser.k3","q":"Which form of ser goes with a gente?","why":"a gente takes the ele form: a gente é."}
-{"id":"adjectives.k1","q":"'the tall sisters' =","why":"irmãs is feminine and plural, so the article and the adjective agree: as irmãs altas."}
-{"id":"adjectives.k2","q":"Where does a color go?","o":["Before the noun","After the noun","Either place, freely","At the end of the sentence"],"why":"Colors always follow the noun: um carro preto."}
-{"id":"adjectives.k3","q":"'blue cars' =","why":"Adjectives in -l change to -is in the plural: azuis."}
-{"id":"present.k1","q":"'We speak' (use a gente) =","why":"a gente takes the ele form: a gente fala."}
-{"id":"present.k2","q":"'You all study' =","why":"vocês takes the eles form: estudam."}
-{"id":"present.k3","q":"'I don't work' =","why":"não goes right before the verb, and trabalho is the eu form."}
-{"id":"estar.k1","q":"'I'm at home' =","why":"Where a person is takes estar, and the eu form is estou."}
-{"id":"estar.k2","q":"'Where is the bank?' The usual Brazilian way:","why":"For where a building is, Brazilians usually use ficar: Onde fica o banco?"}
-{"id":"estar.k3","q":"A woman says 'I'm tired':","why":"How you are right now takes estar, and cansada agrees with the speaker, a woman."}
-{"id":"contractions.k1","q":"em + a praia =","why":"em + a always fuse into na, and praia is feminine."}
-{"id":"contractions.k2","q":"'I'm from Brazil' =","why":"o Brasil takes the article, so de + o fuse into do."}
-{"id":"contractions.k3","q":"Which city takes an article, so it contracts?","why":"o Rio takes the article: no Rio, do Rio. Most cities take none."}
-{"id":"ser-estar.k1","q":"'The party is at Ana's house' =","why":"A party is an event, and where an event takes place uses ser."}
-{"id":"ser-estar.k2","q":"A man says 'I'm nervous' (right now):","why":"How you feel at the moment takes estar, and nervoso agrees with the speaker, a man."}
-{"id":"ser-estar.k3","q":"What does Ela está bonita mean?","o":["She looks pretty (today).","She is a pretty person.","She is from a pretty place.","She is getting pretty."],"why":"With estar, bonita describes how she looks now; Ela é bonita describes the person."}
-{"id":"ter.k1","q":"How do you say I'm twenty (vinte)?","why":"Age uses ter: you have years. Eu tenho vinte anos."}
-{"id":"ter.k2","q":"In everyday Brazilian speech, how do you ask Is there a pharmacy near here?","why":"In speech, tem means there is or there are."}
-{"id":"ter.k3","q":"How do you say I'm hungry?","why":"Hunger is a noun in Portuguese: estar com fome, literally to be with hunger."}
-{"id":"questions.k1","q":"How do you ask Do you speak Portuguese?","o":["Do você fala português?","Você fala português?","Fala você português, do?","Você falas português?"],"why":"Portuguese has no word for do: same order as the statement, with a rising voice."}
-{"id":"questions.k2","q":"Which word means because?","why":"porque, one word, means because; por que and por quê ask why."}
-{"id":"questions.k3","q":"How many sisters do you have? =","why":"quanto agrees with irmãs, which is feminine plural: quantas."}
-{"id":"numbers.k1","q":"It's two o'clock. =","why":"From two on the verb is plural (são), and hora is feminine (duas)."}
-{"id":"numbers.k2","q":"How is a price tag of R$ 30 read aloud?","why":"R$ means reais, and the plural of real is reais."}
-{"id":"numbers.k3","q":"Twenty-one people (pessoas is feminine) =","why":"um agrees with a feminine noun: vinte e uma pessoas."}
-{"id":"location.k1","q":"next to the bank (o banco) =","why":"de + o = do, and the contraction agrees with banco, which is masculine."}
-{"id":"location.k2","q":"The keys are on the table. =","why":"Movable things take estar (plural: estão), and mesa is feminine, so da."}
-{"id":"location.k3","q":"near the pharmacy (a farmácia) =","why":"de + a = da: the contraction agrees with farmácia, which is feminine."}
-{"id":"possessives.k1","q":"A woman talks about her father. She says…","why":"The possessive agrees with the thing owned: pai is masculine, so meu."}
-{"id":"possessives.k2","q":"Her car, said the clear Brazilian way =","why":"Her = dela, after the noun; o agrees with carro."}
-{"id":"possessives.k3","q":"Pointing at something you don't name: What's that?","why":"For an unnamed thing, use isso; esse and essa need a noun after them."}
-{"id":"irregular.k1","q":"I do; I make =","why":"fazer is irregular in the eu form: faço."}
-{"id":"irregular.k2","q":"We're going to the beach. =","why":"The nós form of ir is vamos."}
-{"id":"irregular.k3","q":"In a clothing store: Can I try it on? =","why":"Posso (the eu form of poder) + the infinitive, with nothing in between."}
-{"id":"future.k1","q":"I'm going to travel. =","why":"ir + the infinitive, with nothing between them: vou viajar."}
-{"id":"future.k2","q":"We're going to have dinner at home. (use a gente)","why":"A gente takes the ele form: vai, then the infinitive."}
-{"id":"future.k3","q":"What does falarei mean?","o":["I spoke","I'm speaking","I would speak","I will speak"],"why":"falarei is the one-word future, mostly written; in conversation, vou falar."}
-{"id":"gostar.k1","q":"I like coffee. =","why":"gostar always takes de: gosto de café."}
-{"id":"gostar.k2","q":"She likes the beach. =","why":"de + a = da, and praia is feminine."}
-{"id":"gostar.k3","q":"How is adorar different from gostar?","o":["It needs de twice","It takes no de: adoro samba","It only works with verbs","It is only for people"],"why":"adorar goes straight to the thing: adoro samba, with no de."}
-{"id":"prepositions.k1","q":"How do you say 'I need help'?","why":"precisar takes de before a noun: Preciso de ajuda."}
-{"id":"prepositions.k2","q":"How do you say 'I go by car'?","why":"Vehicles take de, with no article: de carro, de ônibus."}
-{"id":"prepositions.k3","q":"'Thanks for everything' (said by a man) is…","why":"Thanks for is obrigado por; para is for where you are going or who gets something."}
-{"id":"progressive.k1","q":"How do you say 'I'm studying right now'?","why":"estar + the -ndo form: estou estudando."}
-{"id":"progressive.k2","q":"What is the -ndo form of comer?","why":"-er verbs drop the r and add -ndo: comendo."}
-{"id":"progressive.k3","q":"Which one means 'I work at a bank' as a general fact, not right now?","why":"For habits and facts, use the simple present; estar + -ndo is for what is happening now."}
-{"id":"reflexive.k1","q":"How do Brazilians say 'My name is Ana'?","why":"In Brazil the pronoun goes before the verb, and eu takes me: Eu me chamo Ana."}
-{"id":"reflexive.k2","q":"Which pronoun goes with a gente?","why":"A gente takes the ele form, so se: a gente se levanta."}
-{"id":"reflexive.k3","q":"How does Eu levanto às sete (with no me) sound to a Brazilian?","o":["Normal everyday speech","A serious mistake","European Portuguese","Like a question"],"why":"Brazilians often drop the pronoun with routine verbs; both versions are fine."}
-{"id":"object-pronouns.k1","q":"Where does me go in Você me ajuda? (Can you help me?)","o":["After ajuda, as in English","Before ajuda","At the end of the sentence","It is left out"],"why":"In Brazil the short pronoun goes before the verb."}
-{"id":"object-pronouns.k2","q":"In everyday speech, 'I know her' is usually…","why":"In speech ela goes after the verb; writing uses Eu a conheço."}
-{"id":"object-pronouns.k3","q":"In Eu o conheço, what is o?","o":["The article 'the'","'him': a written object pronoun","'or'","A short form of você"],"why":"Written o before a verb means him; it looks like the article but is not."}
-{"id":"past.k1","q":"'Yesterday I worked' =","why":"trabalhei is the eu form of the pretérito perfeito."}
-{"id":"past.k2","q":"How do you say 'Have you ever been to Brazil?'","why":"For 'ever', use já + the pretérito perfeito: Você já foi…?"}
-{"id":"past.k3","q":"Nós falamos com ela can mean…","o":["Only 'we talked to her'","Only 'we talk to her'","Both: a time word tells you which","Neither: it is a mistake"],"why":"The nós form of regular verbs is the same in the present and the past."}
-{"id":"requests.k1","q":"Which is the polite way to ask at a pharmacy?","why":"Eu queria + por favor is the polite way to ask for something."}
-{"id":"requests.k2","q":"In Brazil, 'Can I have a coffee, please?' at a counter is usually…","why":"In Brazil the pronoun comes first: Me dá…? (Dá-me is the order used in Portugal.)"}
-{"id":"requests.k3","q":"A stranger tells you Vire à esquerda. What do you do?","o":["Turn left","Turn right","Go straight ahead","Wait here"],"why":"esquerda = left; direita = right."}
-{"id":"connectors.k1","q":"Which one means 'because'?","why":"Because is one word with no accent: porque."}
-{"id":"connectors.k2","q":"'I want more coffee' =","why":"mais = more; mas = but."}
-{"id":"connectors.k3","q":"'I don't like tea.' 'Me neither.' Which reply fits?","why":"Not either is também não."}
-{"id":"city.k1","q":"'On the right' is…","why":"à = a + a, and it is always the feminine direita."}
-{"id":"city.k2","q":"'Which bus goes downtown?' =","why":"One bus takes vai, and para goes with the destination."}
-{"id":"city.k3","q":"Which verb do Brazilians use most for catching a bus or an Uber?","why":"pegar (catch) is the everyday verb: pegar o ônibus, pegar um Uber."}
+{"id":"sounds.k1","q":"How does the final ‹de› in ‹cidade› sound in most of Brazil?","o":["day","jee","dee","It is silent"],"why":"‹t› and ‹d› before an ee sound turn into ch and j, and a final ‹e› sounds ee, so ‹de› sounds jee."}
+{"id":"sounds.k2","q":"Where is the stress in ‹falar› (to speak)?","o":["On the first syllable","It has no stress","On both syllables","On the last syllable"],"why":"‹falar› ends in ‹r›, not in ‹a›, ‹e›, ‹o›, ‹am›, ‹em› or ‹ens›, so the stress falls on the last syllable: fah-LAHR."}
+{"id":"sounds.k3","q":"What does the tilde in ‹pão› tell you?","o":["The vowel goes through the nose","The word is a question","The stress is on the first letter","The vowel is silent"],"why":"A tilde marks a nasal vowel: ‹pão› (bread) is nasal, ‹pau› (stick) is not."}
+{"id":"greetings.k1","q":"A woman thanks a man. What does she say?","why":"‹obrigada› agrees with the speaker, and the speaker is a woman."}
+{"id":"greetings.k2","q":"It's 3 p.m. How do you greet someone?","why":"After about noon it is ‹boa tarde›, and ‹boa› is feminine because ‹tarde› is."}
+{"id":"greetings.k3","q":"You meet your friend's grandmother. Which 'you' fits best?","why":"‹a senhora› is the respectful 'you' for an older woman; ‹o senhor› is for a man."}
+{"id":"articles.k1","q":"Which article goes with ‹problema›?","why":"‹problema› ends in ‹-a› but is masculine: ‹o problema›."}
+{"id":"articles.k2","q":"How do you order 'a water'?","why":"‹água› is feminine, so 'a' is ‹uma›; ‹a água› means the water."}
+{"id":"articles.k3","q":"What is the plural of ‹o limão›?","why":"Many ‹-ão› nouns change to ‹-ões›, and the article goes plural too: ‹os limões›."}
+{"id":"ser.k1","q":"'You are' (to one person) =","why":"‹você› takes the ‹ele› form: ‹você é›."}
+{"id":"ser.k2","q":"A woman says 'I'm a teacher':","why":"No article before a job, and ‹professora› agrees with the speaker, a woman."}
+{"id":"ser.k3","q":"Which form of ‹ser› goes with ‹a gente›?","why":"‹a gente› takes the ‹ele› form: ‹a gente é›."}
+{"id":"adjectives.k1","q":"'the tall sisters' =","why":"‹irmãs› is feminine and plural, so the article and the adjective agree: ‹as irmãs altas›."}
+{"id":"adjectives.k2","q":"Where does a color go?","o":["Before the noun","After the noun","Either place, freely","At the end of the sentence"],"why":"Colors always follow the noun: ‹um carro preto›."}
+{"id":"adjectives.k3","q":"'blue cars' =","why":"Adjectives in ‹-l› change to ‹-is› in the plural: ‹azuis›."}
+{"id":"present.k1","q":"'We speak' (use ‹a gente›) =","why":"‹a gente› takes the ‹ele› form: ‹a gente fala›."}
+{"id":"present.k2","q":"'You all study' =","why":"‹vocês› takes the ‹eles› form: ‹estudam›."}
+{"id":"present.k3","q":"'I don't work' =","why":"‹não› goes right before the verb, and ‹trabalho› is the ‹eu› form."}
+{"id":"estar.k1","q":"'I'm at home' =","why":"Where a person is takes ‹estar›, and the ‹eu› form is ‹estou›."}
+{"id":"estar.k2","q":"'Where is the bank?' The usual Brazilian way:","why":"For where a building is, Brazilians usually use ‹ficar›: ‹Onde fica o banco?›"}
+{"id":"estar.k3","q":"A woman says 'I'm tired':","why":"How you are right now takes ‹estar›, and ‹cansada› agrees with the speaker, a woman."}
+{"id":"contractions.k1","q":"‹em› + ‹a praia› =","why":"‹em› + ‹a› always fuse into ‹na›, and ‹praia› is feminine."}
+{"id":"contractions.k2","q":"'I'm from Brazil' =","why":"‹o Brasil› takes the article, so ‹de› + ‹o› fuse into ‹do›."}
+{"id":"contractions.k3","q":"Which city takes an article, so it contracts?","why":"‹o Rio› takes the article: ‹no Rio›, ‹do Rio›. Most cities take none."}
+{"id":"ser-estar.k1","q":"'The party is at Ana's house' =","why":"A party is an event, and where an event takes place uses ‹ser›."}
+{"id":"ser-estar.k2","q":"A man says 'I'm nervous' (right now):","why":"How you feel at the moment takes ‹estar›, and ‹nervoso› agrees with the speaker, a man."}
+{"id":"ser-estar.k3","q":"What does ‹Ela está bonita› mean?","o":["She looks pretty (today).","She is a pretty person.","She is from a pretty place.","She is getting pretty."],"why":"With ‹estar›, ‹bonita› describes how she looks now; ‹Ela é bonita› describes the person."}
+{"id":"ter.k1","q":"How do you say I'm twenty (‹vinte›)?","why":"Age uses ‹ter›: you have years. ‹Eu tenho vinte anos›."}
+{"id":"ter.k2","q":"In everyday Brazilian speech, how do you ask Is there a pharmacy near here?","why":"In speech, ‹tem› means there is or there are."}
+{"id":"ter.k3","q":"How do you say I'm hungry?","why":"Hunger is a noun in Portuguese: ‹estar com fome›, literally to be with hunger."}
+{"id":"questions.k1","q":"How do you ask Do you speak Portuguese?","o":["‹Do você fala português?›","‹Você fala português?›","‹Fala você português, do?›","‹Você falas português?›"],"why":"Portuguese has no word for do: same order as the statement, with a rising voice."}
+{"id":"questions.k2","q":"Which word means because?","why":"‹porque›, one word, means because; ‹por que› and ‹por quê› ask why."}
+{"id":"questions.k3","q":"How many sisters do you have? =","why":"‹quanto› agrees with ‹irmãs›, which is feminine plural: ‹quantas›."}
+{"id":"numbers.k1","q":"It's two o'clock. =","why":"From two on the verb is plural (‹são›), and ‹hora› is feminine (‹duas›)."}
+{"id":"numbers.k2","q":"How is a price tag of R$ 30 read aloud?","why":"R$ means ‹reais›, and the plural of ‹real› is ‹reais›."}
+{"id":"numbers.k3","q":"Twenty-one people (‹pessoas› is feminine) =","why":"‹um› agrees with a feminine noun: ‹vinte e uma pessoas›."}
+{"id":"location.k1","q":"next to the bank (‹o banco›) =","why":"‹de› + ‹o› = ‹do›, and the contraction agrees with ‹banco›, which is masculine."}
+{"id":"location.k2","q":"The keys are on the table. =","why":"Movable things take ‹estar› (plural: ‹estão›), and ‹mesa› is feminine, so ‹da›."}
+{"id":"location.k3","q":"near the pharmacy (‹a farmácia›) =","why":"‹de› + ‹a› = ‹da›: the contraction agrees with ‹farmácia›, which is feminine."}
+{"id":"possessives.k1","q":"A woman talks about her father. She says…","why":"The possessive agrees with the thing owned: ‹pai› is masculine, so ‹meu›."}
+{"id":"possessives.k2","q":"Her car, said the clear Brazilian way =","why":"Her = ‹dela›, after the noun; ‹o› agrees with ‹carro›."}
+{"id":"possessives.k3","q":"Pointing at something you don't name: What's that?","why":"For an unnamed thing, use ‹isso›; ‹esse› and ‹essa› need a noun after them."}
+{"id":"irregular.k1","q":"I do; I make =","why":"‹fazer› is irregular in the ‹eu› form: ‹faço›."}
+{"id":"irregular.k2","q":"We're going to the beach. =","why":"The ‹nós› form of ‹ir› is ‹vamos›."}
+{"id":"irregular.k3","q":"In a clothing store: Can I try it on? =","why":"‹Posso› (the ‹eu› form of ‹poder›) + the infinitive, with nothing in between."}
+{"id":"future.k1","q":"I'm going to travel. =","why":"‹ir› + the infinitive, with nothing between them: ‹vou viajar›."}
+{"id":"future.k2","q":"We're going to have dinner at home. (use ‹a gente›)","why":"‹A gente› takes the ‹ele› form: ‹vai›, then the infinitive."}
+{"id":"future.k3","q":"What does ‹falarei› mean?","o":["I spoke","I'm speaking","I would speak","I will speak"],"why":"‹falarei› is the one-word future, mostly written; in conversation, ‹vou falar›."}
+{"id":"gostar.k1","q":"I like coffee. =","why":"‹gostar› always takes ‹de›: ‹gosto de café›."}
+{"id":"gostar.k2","q":"She likes the beach. =","why":"‹de› + ‹a› = ‹da›, and ‹praia› is feminine."}
+{"id":"gostar.k3","q":"How is ‹adorar› different from ‹gostar›?","o":["It needs ‹de› twice","It takes no ‹de›: ‹adoro samba›","It only works with verbs","It is only for people"],"why":"‹adorar› goes straight to the thing: ‹adoro samba›, with no ‹de›."}
+{"id":"prepositions.k1","q":"How do you say 'I need help'?","why":"‹precisar› takes ‹de› before a noun: ‹Preciso de ajuda›."}
+{"id":"prepositions.k2","q":"How do you say 'I go by car'?","why":"Vehicles take ‹de›, with no article: ‹de carro›, ‹de ônibus›."}
+{"id":"prepositions.k3","q":"'Thanks for everything' (said by a man) is…","why":"Thanks for is ‹obrigado por›; ‹para› is for where you are going or who gets something."}
+{"id":"progressive.k1","q":"How do you say 'I'm studying right now'?","why":"‹estar› + the ‹-ndo› form: ‹estou estudando›."}
+{"id":"progressive.k2","q":"What is the ‹-ndo› form of ‹comer›?","why":"‹-er› verbs drop the ‹r› and add ‹-ndo›: ‹comendo›."}
+{"id":"progressive.k3","q":"Which one means 'I work at a bank' as a general fact, not right now?","why":"For habits and facts, use the simple present; ‹estar› + ‹-ndo› is for what is happening now."}
+{"id":"reflexive.k1","q":"How do Brazilians say 'My name is Ana'?","why":"In Brazil the pronoun goes before the verb, and ‹eu› takes ‹me›: ‹Eu me chamo Ana›."}
+{"id":"reflexive.k2","q":"Which pronoun goes with ‹a gente›?","why":"‹A gente› takes the ‹ele› form, so ‹se›: ‹a gente se levanta›."}
+{"id":"reflexive.k3","q":"How does ‹Eu levanto às sete› (with no ‹me›) sound to a Brazilian?","o":["Normal everyday speech","A serious mistake","European Portuguese","Like a question"],"why":"Brazilians often drop the pronoun with routine verbs; both versions are fine."}
+{"id":"object-pronouns.k1","q":"Where does ‹me› go in ‹Você me ajuda›? (Can you help me?)","o":["After ‹ajuda›, as in English","Before ‹ajuda›","At the end of the sentence","It is left out"],"why":"In Brazil the short pronoun goes before the verb."}
+{"id":"object-pronouns.k2","q":"In everyday speech, 'I know her' is usually…","why":"In speech ‹ela› goes after the verb; writing uses ‹Eu a conheço›."}
+{"id":"object-pronouns.k3","q":"In ‹Eu o conheço›, what is ‹o›?","o":["The article 'the'","'him': a written object pronoun","'or'","A short form of ‹você›"],"why":"Written ‹o› before a verb means him; it looks like the article but is not."}
+{"id":"past.k1","q":"'Yesterday I worked' =","why":"‹trabalhei› is the ‹eu› form of the ‹pretérito perfeito›."}
+{"id":"past.k2","q":"How do you say 'Have you ever been to Brazil?'","why":"For 'ever', use ‹já› + the ‹pretérito perfeito›: ‹Você já foi…?›"}
+{"id":"past.k3","q":"‹Nós falamos com ela› can mean…","o":["Only 'we talked to her'","Only 'we talk to her'","Both: a time word tells you which","Neither: it is a mistake"],"why":"The ‹nós› form of regular verbs is the same in the present and the past."}
+{"id":"requests.k1","q":"Which is the polite way to ask at a pharmacy?","why":"‹Eu queria› + ‹por favor› is the polite way to ask for something."}
+{"id":"requests.k2","q":"In Brazil, 'Can I have a coffee, please?' at a counter is usually…","why":"In Brazil the pronoun comes first: ‹Me dá…?› (‹Dá-me› is the order used in Portugal.)"}
+{"id":"requests.k3","q":"A stranger tells you ‹Vire à esquerda›. What do you do?","o":["Turn left","Turn right","Go straight ahead","Wait here"],"why":"‹esquerda› = left; ‹direita› = right."}
+{"id":"connectors.k1","q":"Which one means 'because'?","why":"Because is one word with no accent: ‹porque›."}
+{"id":"connectors.k2","q":"'I want more coffee' =","why":"‹mais› = more; ‹mas› = but."}
+{"id":"connectors.k3","q":"'I don't like tea.' 'Me neither.' Which reply fits?","why":"Not either is ‹também não›."}
+{"id":"city.k1","q":"'On the right' is…","why":"‹à› = ‹a› + ‹a›, and it is always the feminine ‹direita›."}
+{"id":"city.k2","q":"'Which bus goes downtown?' =","why":"One bus takes ‹vai›, and ‹para› goes with the destination."}
+{"id":"city.k3","q":"Which verb do Brazilians use most for catching a bus or an Uber?","why":"‹pegar› (catch) is the everyday verb: ‹pegar o ônibus›, ‹pegar um Uber›."}

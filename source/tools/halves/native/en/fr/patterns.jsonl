@@ -11,8 +11,8 @@
 {"id":"fr.p011","meaning":"Is there ___ near here?","tr":"Is there a bakery near here?"}
 {"id":"fr.p012","meaning":"I'm going to Marseille by ___.","tr":"I'm going to Marseille by car."}
 {"id":"fr.p013","meaning":"My ___ hurts.","tr":"My throat hurts."}
-{"id":"fr.p014","meaning":"I'm a ___. (a job: no un or une)","tr":"I'm a teacher."}
-{"id":"fr.p015","meaning":"I'm ___. (hungry, thirsty, cold: avoir)","tr":"I'm thirsty."}
+{"id":"fr.p014","meaning":"I'm a ___. (a job: no ‹un› or ‹une›)","tr":"I'm a teacher."}
+{"id":"fr.p015","meaning":"I'm ___. (hungry, thirsty, cold: ‹avoir›)","tr":"I'm thirsty."}
 {"id":"fr.p016","meaning":"I do ___. (a sport or hobby)","tr":"I do yoga."}
 {"id":"fr.p017","meaning":"I play ___. (a sport or game)","tr":"I play tennis."}
 {"id":"fr.p018","meaning":"I'm not coming because ___.","tr":"I'm not coming because I'm tired."}

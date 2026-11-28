@@ -74,7 +74,7 @@ C'è ___ qui vicino? | Is there ___ near here? | C'è un supermercato qui vicino
 Un biglietto per ___, per favore. | A ticket to ___, please. | Un biglietto per Verona, per favore. | A ticket to Verona, please.
 Mi fa male ___. | My ___ hurts. | Mi fa male la schiena. | My back hurts.
 Lavoro come ___. | I work as a ___. | Lavoro come cameriere. | I work as a waiter.
-Ho molta ___. | I'm really ___. (avere + a feminine noun) | Ho molta sete. | I'm really thirsty.
+Ho molta ___. | I'm really ___. (‹avere› + a feminine noun) | Ho molta sete. | I'm really thirsty.
 Mi piace ___. | I like ___. | Mi piace cucinare. | I like cooking.
 Perché ___? | Why ___? | Perché studi l'italiano? | Why are you studying Italian?
 Vorrei ___, per favore. | I'd like ___, please. | Vorrei una spremuta d'arancia, per favore. | I'd like a fresh-squeezed orange juice, please.

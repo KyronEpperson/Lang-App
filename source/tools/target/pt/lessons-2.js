@@ -2,14 +2,14 @@
 module.exports = [
   {
     id: "ter",
-    title: "ter: have, there is, and estar com",
+    title: "‹ter›: have, there is, and ‹estar com›",
     blurb: "Say what you have, how old you are, what there is nearby, and that you're hungry, thirsty or cold.",
     deck: "Traps for English speakers",
     body: `
 <p>English uses "to have" for owning things, and "to be" for age, hunger and cold. Portuguese uses <b>ter</b> (to have) for more of these, and <b>estar com</b> ("to be with") for how your body feels right now.</p>
-<h3>The forms of ter</h3>
-<p><b>ter</b> is irregular, but it has only four forms. As always, <b>você</b> and <b>a gente</b> take the ele form, and <b>vocês</b> takes the eles form.</p>
-<div class="tbl"><table><tr><th>Who</th><th>ter</th></tr><tr><td>I</td><td class="k">eu tenho</td></tr><tr><td>you, he, she, we (a gente)</td><td class="k">você, ele, ela, a gente tem</td></tr><tr><td>we</td><td class="k">nós temos</td></tr><tr><td>you all, they</td><td class="k">vocês, eles, elas têm</td></tr></table></div>
+<h3>The forms of ‹ter›</h3>
+<p><b>ter</b> is irregular, but it has only four forms. As always, <b>você</b> and <b>a gente</b> take the ‹ele› form, and <b>vocês</b> takes the ‹eles› form.</p>
+<div class="tbl"><table><tr><th>Who</th><th>‹ter›</th></tr><tr><td>I</td><td class="k">eu tenho</td></tr><tr><td>you, he, she, we (‹a gente›)</td><td class="k">você, ele, ela, a gente tem</td></tr><tr><td>we</td><td class="k">nós temos</td></tr><tr><td>you all, they</td><td class="k">vocês, eles, elas têm</td></tr></table></div>
 <p>In everyday Brazilian speech <b>tem</b> and <b>têm</b> usually sound the same (some speakers stretch <b>têm</b> a little). The circumflex on <b>têm</b> shows the plural in writing, so don't forget it.</p>
 {{ex:Eu tenho dois irmãos.|ayw TAY-nyoo doys eer-MOWNGS|I have two brothers.}}
 {{ex:Eles têm uma casa em Recife.|AY-lees tayng OO-muh KAH-zuh ayng heh-SEE-fee|They have a house in Recife.}}
@@ -17,38 +17,38 @@ module.exports = [
 <p>English says "I am twenty-five". Portuguese says "I have twenty-five years": <b>Tenho vinte e cinco anos</b>. Age never uses <b>ser</b>. To ask, say <b>Quantos anos você tem?</b>, literally "how many years do you have?"</p>
 {{ex:Tenho vinte e cinco anos.|TAY-nyoo VEEN-chee ee SEEN-koo AH-noos|I'm twenty-five.}}
 {{ex:Quantos anos você tem?|KWAHN-toos AH-noos voh-SAY tayng|How old are you?}}
-<h3>tem = there is, there are</h3>
+<h3>‹tem› = there is, there are</h3>
 <p>In everyday Brazilian speech, <b>tem</b> also means "there is" or "there are". In this meaning it never changes: one thing or many, it stays <b>tem</b>. In writing and formal speech you will see <b>há</b> with the same meaning.</p>
 {{ex:Tem um banco aqui perto?|tayng oong BAHN-koo ah-KEE PEHR-too|Is there a bank near here?}}
 {{ex:Tem muita gente na praia.|tayng MOOYN-tuh ZHAYN-chee nah PRAI-uh|There are a lot of people at the beach.}}
-<h3>estar com: hungry, thirsty, cold</h3>
+<h3>‹estar com›: hungry, thirsty, cold</h3>
 <p>English says "I am hungry", with an adjective. Portuguese uses a noun: "I am with hunger", <b>Estou com fome</b>. The same pattern works with <b>sede</b> (thirst), <b>frio</b> (cold), <b>calor</b> (heat), <b>sono</b> (sleepiness) and <b>medo</b> (fear). You will also hear <b>ter</b> with these nouns (<b>Tenho fome</b>), which is correct too; <b>estar com</b> is the everyday choice.</p>
 {{ex:Estou com fome.|ees-TOH kohng FOH-mee|I'm hungry.}}
 {{ex:Você está com frio?|voh-SAY ees-TAH kohng FREE-oo|Are you cold?}}
 {{ex:A gente está com sono.|ah ZHAYN-chee ees-TAH kohng SOH-noo|We're sleepy.}}
 <p>Because these words are nouns, they don't change for a man or a woman: <b>Ela está com frio</b>.</p>
-<div class="tip"><b>Most common mistake:</b> age with "to be". <b>Eu sou vinte e cinco</b> → <b>Eu tenho vinte e cinco anos</b>. And keep the <b>com</b>: <b>Estou fome</b> → <b>Estou com fome</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> age with "to be". <b>Eu sou vinte e cinco</b> → <b>Eu tenho vinte e cinco anos</b>. And keep the <b>com</b>: <b>Estou fome</b> → <b>Estou com fome</b>.</div>
 `,
     check: [
-      ["How do you say I'm twenty (vinte)?",["Eu sou vinte anos.","Eu tenho vinte anos.","Eu estou vinte anos.","Eu sou com vinte anos."],1,"Age uses ter: you have years. Eu tenho vinte anos."],
-      ["In everyday Brazilian speech, how do you ask Is there a pharmacy near here?",["Tem uma farmácia aqui perto?","Está uma farmácia aqui perto?","É uma farmácia aqui perto?","Ter uma farmácia aqui perto?"],0,"In speech, tem means there is or there are."],
-      ["How do you say I'm hungry?",["Eu sou com fome.","Estou fome.","Estou com fome.","Eu tenho com fome."],2,"Hunger is a noun in Portuguese: estar com fome, literally to be with hunger."]
+      ["How do you say I'm twenty (‹vinte›)?",["Eu sou vinte anos.","Eu tenho vinte anos.","Eu estou vinte anos.","Eu sou com vinte anos."],1,"Age uses ‹ter›: you have years. ‹Eu tenho vinte anos›."],
+      ["In everyday Brazilian speech, how do you ask Is there a pharmacy near here?",["Tem uma farmácia aqui perto?","Está uma farmácia aqui perto?","É uma farmácia aqui perto?","Ter uma farmácia aqui perto?"],0,"In speech, ‹tem› means there is or there are."],
+      ["How do you say I'm hungry?",["Eu sou com fome.","Estou fome.","Estou com fome.","Eu tenho com fome."],2,"Hunger is a noun in Portuguese: ‹estar com fome›, literally to be with hunger."]
     ],
     practice: [
-      ["mc","I'm twenty-five. =","Tenho vinte e cinco anos.","Sou vinte e cinco anos.","Estou vinte e cinco anos.","Eu sou vinte e cinco.","Age uses ter: you have twenty-five years."],
-      ["mc","She's cold. =","Ela está com frio.","Ela é com frio.","Ela está frio.","Ela é frio.","Feeling cold is estar com frio: a noun after com."],
-      ["mc","Is there a bank around here? (everyday speech)","Tem um banco aqui perto?","Está um banco aqui perto?","É um banco aqui perto?","Tem um banco está aqui perto?","In speech, tem means there is or there are."],
-      ["mc","They have a dog. =","Eles têm um cachorro.","Eles tem um cachorro.","Eles temos um cachorro.","Eles tenho um cachorro.","têm, with a circumflex, goes with eles; tem without it goes with ele.","!strict"],
-      ["mc","Are you thirsty? =","Você está com sede?","Você é com sede?","Você está sede?","Você é sede?","Thirst works like hunger: estar com sede."],
-      ["or","We have two cars.","Nós temos dois carros","têm","The nós form of ter is temos: the verb ending matches the subject."],
-      ["or","They have a blue house.","Eles têm uma casa azul","um","casa is feminine, so the article agrees: uma casa."],
-      ["or","She's sleepy.","Ela está com sono","é","Sleepiness is a noun here: estar com sono."],
-      ["fi","Eles __ três filhos.","They have three children.","têm","tem|temos|tenho","têm, with a circumflex, is the plural form; tem is for one person.","!strict"],
-      ["fi","Estou __ fome.","I'm hungry.","com","de|em|a","Hunger takes estar com: estou com fome."],
-      ["fi","Eu __ trinta anos.","I'm thirty.","tenho","sou|estou|tem","Age uses ter, and with eu the form is tenho."],
-      ["ty","I'm twenty years old.","Eu tenho vinte anos|Tenho vinte anos","ter · vinte (twenty) · o ano · age uses have","sou tem","Age uses ter, and the verb ending matches the subject: eu tenho."],
-      ["ty","We have a dog.","Nós temos um cachorro|Temos um cachorro|A gente tem um cachorro","ter · o cachorro (dog)","têm uma","The nós form is temos; with a gente, use the ele form: a gente tem."],
-      ["ty","Are you hungry?","Você está com fome|Está com fome|Você tem fome|Tem fome","estar com · a fome","é","Hunger takes estar com: você está com fome (tem fome is also fine)."]
+      ["mc","I'm twenty-five. =","Tenho vinte e cinco anos.","Sou vinte e cinco anos.","Estou vinte e cinco anos.","Eu sou vinte e cinco.","Age uses ‹ter›: you have twenty-five years."],
+      ["mc","She's cold. =","Ela está com frio.","Ela é com frio.","Ela está frio.","Ela é frio.","Feeling cold is ‹estar com frio›: a noun after ‹com›."],
+      ["mc","Is there a bank around here? (everyday speech)","Tem um banco aqui perto?","Está um banco aqui perto?","É um banco aqui perto?","Tem um banco está aqui perto?","In speech, ‹tem› means there is or there are."],
+      ["mc","They have a dog. =","Eles têm um cachorro.","Eles tem um cachorro.","Eles temos um cachorro.","Eles tenho um cachorro.","‹têm›, with a circumflex, goes with ‹eles›; ‹tem› without it goes with ‹ele›.","!strict"],
+      ["mc","Are you thirsty? =","Você está com sede?","Você é com sede?","Você está sede?","Você é sede?","Thirst works like hunger: ‹estar com sede›."],
+      ["or","We have two cars.","Nós temos dois carros","têm","The ‹nós› form of ‹ter› is ‹temos›: the verb ending matches the subject."],
+      ["or","They have a blue house.","Eles têm uma casa azul","um","‹casa› is feminine, so the article agrees: ‹uma casa›."],
+      ["or","She's sleepy.","Ela está com sono","é","Sleepiness is a noun here: ‹estar com sono›."],
+      ["fi","Eles __ três filhos.","They have three children.","têm","tem|temos|tenho","‹têm›, with a circumflex, is the plural form; ‹tem› is for one person.","!strict"],
+      ["fi","Estou __ fome.","I'm hungry.","com","de|em|a","Hunger takes ‹estar com›: ‹estou com fome›."],
+      ["fi","Eu __ trinta anos.","I'm thirty.","tenho","sou|estou|tem","Age uses ‹ter›, and with ‹eu› the form is ‹tenho›."],
+      ["ty","I'm twenty years old.","Eu tenho vinte anos|Tenho vinte anos","‹ter› · ‹vinte› (twenty) · ‹o ano› · age uses have","sou tem","Age uses ‹ter›, and the verb ending matches the subject: ‹eu tenho›."],
+      ["ty","We have a dog.","Nós temos um cachorro|Temos um cachorro|A gente tem um cachorro","‹ter› · ‹o cachorro› (dog)","têm uma","The ‹nós› form is ‹temos›; with ‹a gente›, use the ‹ele› form: ‹a gente tem›."],
+      ["ty","Are you hungry?","Você está com fome|Está com fome|Você tem fome|Tem fome","‹estar com› · ‹a fome›","é","Hunger takes ‹estar com›: ‹você está com fome› (‹tem fome› is also fine)."]
     ]
   },
   {
@@ -71,40 +71,40 @@ module.exports = [
 {{ex:O que você estuda?|oo kee voh-SAY ees-TOO-duh|What do you study?}}
 <p>With <b>é</b>, English "what" is often <b>qual</b> in Portuguese, because you are picking one answer out of many possible ones: <b>Qual é o telefone do hotel?</b>, not <b>O que é o telefone?</b></p>
 {{ex:Qual é o telefone do hotel?|kwow eh oo teh-leh-FOH-nee doo oh-TEHW|What's the hotel's phone number?}}
-<h3>quanto agrees</h3>
+<h3>‹quanto› agrees</h3>
 <p><b>quanto</b> changes like an adjective, to agree with the noun after it: <b>quanto</b> with a masculine singular noun, <b>quanta</b> feminine singular, <b>quantos</b> masculine plural, <b>quantas</b> feminine plural. On its own, <b>quanto</b> asks a price: <b>Quanto custa?</b> (How much is it?)</p>
 {{ex:Quantas irmãs você tem?|KWAHN-tuhs eer-MAHNGS voh-SAY tayng|How many sisters do you have?}}
 <h3>Why and because</h3>
 <p>Three spellings that sound almost alike: <b>por que</b> (two words) starts a question, <b>por quê</b> (with a circumflex) ends one or stands alone, and <b>porque</b> (one word) means "because".</p>
 {{ex:Por que você estuda português? Porque eu moro no Brasil.|pohr kee voh-SAY ees-TOO-duh pohr-too-GAYS pohr-KAY ayw MAW-roo noo brah-ZEEW|Why do you study Portuguese? Because I live in Brazil.}}
-<div class="tip"><b>Most common mistake:</b> forgetting that <b>quanto</b> agrees. <b>Quantos irmãs você tem?</b> → <b>Quantas irmãs você tem?</b> (<b>irmãs</b> is feminine).</div>
+<div class="tip"><strong>Most common mistake:</strong> forgetting that <b>quanto</b> agrees. <b>Quantos irmãs você tem?</b> → <b>Quantas irmãs você tem?</b> (<b>irmãs</b> is feminine).</div>
 `,
     check: [
-      ["How do you ask Do you speak Portuguese?",["Do você fala português?","Você fala português?","Fala você português, do?","Você falas português?"],1,"Portuguese has no word for do: same order as the statement, with a rising voice."],
-      ["Which word means because?",["por que","por quê","quê","porque"],3,"porque, one word, means because; por que and por quê ask why."],
-      ["How many sisters do you have? =",["Quantos irmãs você tem?","Quanto irmãs você tem?","Quantas irmãs você tem?","Quanta irmãs você tem?"],2,"quanto agrees with irmãs, which is feminine plural: quantas."]
+      ["How do you ask Do you speak Portuguese?",["‹Do você fala português?›","‹Você fala português?›","‹Fala você português, do?›","‹Você falas português?›"],1,"Portuguese has no word for do: same order as the statement, with a rising voice."],
+      ["Which word means because?",["por que","por quê","quê","porque"],3,"‹porque›, one word, means because; ‹por que› and ‹por quê› ask why."],
+      ["How many sisters do you have? =",["Quantos irmãs você tem?","Quanto irmãs você tem?","Quantas irmãs você tem?","Quanta irmãs você tem?"],2,"‹quanto› agrees with ‹irmãs›, which is feminine plural: ‹quantas›."]
     ],
     practice: [
-      ["mc","Where? =","Onde?","Quando?","Como?","Quem?","onde = where; quando = when; como = how; quem = who."],
-      ["mc","Do you speak Portuguese? =","Você fala português?","Do você fala português?","Você falas português?","Você falar português?","A yes/no question keeps the statement order; only your voice rises."],
-      ["mc","How many people? (a pessoa = person)","Quantas pessoas?","Quantos pessoas?","Quanto pessoas?","Quanta pessoas?","pessoas is feminine plural, so quanto becomes quantas."],
-      ["mc","Why? (alone, as a one-word question)","Por quê?","Porque?","Por que?","Porquê que?","Alone or at the end of a question, it is por quê, two words with a circumflex.","!strict"],
-      ["mc","You think Pedro lives in Recife. You ask: Pedro mora em Recife, ...?","né?","sim?","bem?","quê?","né? (from não é?) asks for agreement, like English right?"],
-      ["or","How many sisters do you have? (question word first, then você)","Quantas irmãs você tem","Quantos","irmãs is feminine plural, so quantas agrees with it."],
-      ["or","Where do you all live? (question word first, then vocês)","Onde vocês moram","mora","Vocês takes the eles form: moram."],
-      ["or","Do you speak English?","Você fala inglês","falo","No extra word for do, and você takes the ele form: fala."],
-      ["fi","__ você mora?","Where do you live?","Onde","Quando|Quem|Como","Where = onde."],
-      ["fi","__ irmãos você tem?","How many brothers do you have?","Quantos","Quantas|Quanto|Quanta","irmãos is masculine plural: quantos."],
-      ["fi","__ você está?","How are you?","Como","Quando|Quem|Quanto","How = como: Como você está?"],
-      ["ty","Where do you live?","Onde você mora|Você mora onde|Onde mora|Mora onde|Onde mora você","onde · morar","moro","Você takes the ele form: você mora."],
-      ["ty","How many sisters do you have?","Quantas irmãs você tem|Você tem quantas irmãs|Quantas irmãs tem|Quantas irmãs tem você","quanto · a irmã · ter","Quantos","irmãs is feminine plural, so quantas agrees with it."],
-      ["ty","When is the party?","Quando é a festa|A festa é quando","quando · ser · a festa","está","Events take ser, even when you ask when: a festa é."]
+      ["mc","Where? =","Onde?","Quando?","Como?","Quem?","‹onde› = where; ‹quando› = when; ‹como› = how; ‹quem› = who."],
+      ["mc","Do you speak Portuguese? =","‹Você fala português?›","‹Do você fala português?›","‹Você falas português?›","‹Você falar português?›","A yes/no question keeps the statement order; only your voice rises."],
+      ["mc","How many people? (‹a pessoa› = person)","Quantas pessoas?","Quantos pessoas?","Quanto pessoas?","Quanta pessoas?","‹pessoas› is feminine plural, so ‹quanto› becomes ‹quantas›."],
+      ["mc","Why? (alone, as a one-word question)","Por quê?","Porque?","Por que?","Porquê que?","Alone or at the end of a question, it is ‹por quê›, two words with a circumflex.","!strict"],
+      ["mc","You think Pedro lives in Recife. You ask: ‹Pedro mora em Recife›, ...?","né?","sim?","bem?","quê?","‹né?› (from ‹não é?›) asks for agreement, like English right?"],
+      ["or","How many sisters do you have? (question word first, then ‹você›)","Quantas irmãs você tem","Quantos","‹irmãs› is feminine plural, so ‹quantas› agrees with it."],
+      ["or","Where do you all live? (question word first, then ‹vocês›)","Onde vocês moram","mora","‹Vocês› takes the ‹eles› form: ‹moram›."],
+      ["or","Do you speak English?","Você fala inglês","falo","No extra word for do, and ‹você› takes the ‹ele› form: ‹fala›."],
+      ["fi","__ você mora?","Where do you live?","Onde","Quando|Quem|Como","Where = ‹onde›."],
+      ["fi","__ irmãos você tem?","How many brothers do you have?","Quantos","Quantas|Quanto|Quanta","‹irmãos› is masculine plural: ‹quantos›."],
+      ["fi","__ você está?","How are you?","Como","Quando|Quem|Quanto","How = ‹como›: ‹Como você está?›"],
+      ["ty","Where do you live?","Onde você mora|Você mora onde|Onde mora|Mora onde|Onde mora você","‹onde› · ‹morar›","moro","‹Você› takes the ‹ele› form: ‹você mora›."],
+      ["ty","How many sisters do you have?","Quantas irmãs você tem|Você tem quantas irmãs|Quantas irmãs tem|Quantas irmãs tem você","‹quanto› · ‹a irmã› · ‹ter›","Quantos","‹irmãs› is feminine plural, so ‹quantas› agrees with it."],
+      ["ty","When is the party?","Quando é a festa|A festa é quando","‹quando› · ‹ser› · ‹a festa›","está","Events take ‹ser›, even when you ask when: ‹a festa é›."]
     ]
   },
   {
     id: "numbers",
     title: "Numbers, time and prices",
-    blurb: "Count to 1,000, tell the time, and read prices in reais.",
+    blurb: "Count to 1,000, tell the time, and read prices in ‹reais›.",
     deck: "Numbers, time and prices",
     body: `
 <p>Portuguese numbers are easy to build once you know two habits: a few numbers agree with the noun, and <b>e</b> ("and") joins the parts.</p>
@@ -116,36 +116,36 @@ module.exports = [
 <p>Put <b>e</b> between the parts: <b>vinte e cinco</b> (25), <b>cento e dez</b> (110), <b>trezentos e quarenta e dois</b> (342). A round 100 is <b>cem</b>; from 101 to 199 the number starts with <b>cento e</b>. 1,000 is <b>mil</b>, with no "one" in front. Phone numbers are read one digit at a time, and many Brazilians say <b>meia</b> (half a dozen) instead of <b>seis</b> for 6 there.</p>
 {{ex:cento e cinquenta|SAYN-too ee seen-KWAYN-tuh|one hundred fifty}}
 <h3>Telling the time</h3>
-<p>English says "it is" for every hour. Portuguese counts the hours: one o'clock is singular, <b>É uma hora</b>; from two on, the verb is plural, <b>São duas horas</b>. <b>hora</b> is feminine, so it's <b>uma</b> and <b>duas</b>. Half past is <b>e meia</b> (and a half hour). Noon is <b>meio-dia</b>, midnight <b>meia-noite</b>. For "at", use <b>às</b> (a + as horas), but <b>à uma</b> (at one), <b>ao meio-dia</b> and <b>à meia-noite</b>.</p>
+<p>English says "it is" for every hour. Portuguese counts the hours: one o'clock is singular, <b>É uma hora</b>; from two on, the verb is plural, <b>São duas horas</b>. <b>hora</b> is feminine, so it's <b>uma</b> and <b>duas</b>. Half past is <b>e meia</b> (and a half hour). Noon is <b>meio-dia</b>, midnight <b>meia-noite</b>. For "at", use <b>às</b> (‹a› + ‹as horas›), but <b>à uma</b> (at one), <b>ao meio-dia</b> and <b>à meia-noite</b>.</p>
 {{ex:Que horas são? São duas horas.|kee AW-ruhs sowng sowng DOO-uhs AW-ruhs|What time is it? It's two o'clock.}}
 {{ex:É uma hora.|eh OO-muh AW-ruh|It's one o'clock.}}
 {{ex:A aula é às oito e meia.|ah OW-luh eh ahs OY-too ee MAY-uh|The class is at eight thirty.}}
-<h3>Prices in reais</h3>
+<h3>Prices in ‹reais›</h3>
 <p>Brazil's money is the <b>real</b>; the plural is <b>reais</b>. A price tag that says R$ 25 is read <b>vinte e cinco reais</b>, never "dollars". Cents are <b>centavos</b>. To ask a price, say <b>Quanto custa?</b> for one thing and <b>Quanto custam?</b> for more than one.</p>
 {{ex:Custa vinte e cinco reais.|KOOS-tuh VEEN-chee ee SEEN-koo heh-AIS|It costs twenty-five reais.}}
 {{ex:Quanto custam as camisas?|KWAHN-too KOOS-towng ahs kah-MEE-zuhs|How much are the shirts?}}
-<div class="tip"><b>Most common mistake:</b> forgetting that hours are feminine and plural. <b>É dois horas</b> → <b>São duas horas</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> forgetting that hours are feminine and plural. <b>É dois horas</b> → <b>São duas horas</b>.</div>
 `,
     check: [
-      ["It's two o'clock. =",["É dois horas.","São duas horas.","São dois horas.","É duas hora."],1,"From two on the verb is plural (são), and hora is feminine (duas)."],
-      ["How is a price tag of R$ 30 read aloud?",["trinta real","trinta dólares","trinta reais","trinta reals"],2,"R$ means reais, and the plural of real is reais."],
-      ["Twenty-one people (pessoas is feminine) =",["vinte e um pessoas","vinte um pessoas","vinte e uma pessoa","vinte e uma pessoas"],3,"um agrees with a feminine noun: vinte e uma pessoas."]
+      ["It's two o'clock. =",["É dois horas.","São duas horas.","São dois horas.","É duas hora."],1,"From two on the verb is plural (‹são›), and ‹hora› is feminine (‹duas›)."],
+      ["How is a price tag of R$ 30 read aloud?",["trinta real","trinta dólares","trinta reais","trinta reals"],2,"R$ means ‹reais›, and the plural of ‹real› is ‹reais›."],
+      ["Twenty-one people (‹pessoas› is feminine) =",["vinte e um pessoas","vinte um pessoas","vinte e uma pessoa","vinte e uma pessoas"],3,"‹um› agrees with a feminine noun: ‹vinte e uma pessoas›."]
     ],
     practice: [
-      ["mc","two women =","duas mulheres","dois mulheres","duas mulher","dois mulher","duas is the feminine form, agreeing with mulheres."],
-      ["mc","It's one o'clock. =","É uma hora.","São uma hora.","É um hora.","São uma horas.","One o'clock is singular: é uma hora."],
-      ["mc","A price tag says R$ 40. You read…","quarenta reais","quarenta real","quarenta dólares","quatro reais","R$ means reais; one real, two or more reais."],
-      ["mc","150 =","cento e cinquenta","cem e cinquenta","cento cinquenta","um cento e cinquenta","100 alone is cem; with more after it, cento e…"],
-      ["mc","half past three =","três e meia","três e meio","três e metade","meia e três","Half past is e meia: meia hora, half an hour."],
-      ["or","It's two o'clock.","São duas horas","dois É","horas is feminine plural: duas horas, with the plural verb são."],
-      ["or","How much are the shoes? (question word first, then the verb)","Quanto custam os sapatos","custa","Two shoes, plural verb: os sapatos custam."],
-      ["or","two hundred people","duzentas pessoas","duzentos","pessoas is feminine, so duzentas agrees with it."],
-      ["fi","São __ horas.","It's two o'clock.","duas","dois|uma|um","horas is feminine: duas horas."],
-      ["fi","Custa vinte e cinco __.","It costs twenty-five reais.","reais","real|reals|dólares","One real, two reais: the plural of real is reais."],
-      ["fi","A aula é às oito e __.","The class is at eight thirty.","meia","meio|metade|média","Half past is e meia, short for meia hora."],
-      ["ty","It's three o'clock.","São três horas|São três","ser · três (three) · a hora","É","More than one hour takes the plural verb: são três horas."],
-      ["ty","It costs fifty reais.","Custa cinquenta reais","custar · cinquenta (fifty) · o real","custam real","One price, singular verb: custa; and the plural noun is reais."],
-      ["ty","I have two sisters.","Eu tenho duas irmãs|Tenho duas irmãs","ter · dois · a irmã","dois","irmãs is feminine, so dois becomes duas."]
+      ["mc","two women =","duas mulheres","dois mulheres","duas mulher","dois mulher","‹duas› is the feminine form, agreeing with ‹mulheres›."],
+      ["mc","It's one o'clock. =","É uma hora.","São uma hora.","É um hora.","São uma horas.","One o'clock is singular: ‹é uma hora›."],
+      ["mc","A price tag says R$ 40. You read…","quarenta reais","quarenta real","quarenta dólares","quatro reais","R$ means ‹reais›; one ‹real›, two or more ‹reais›."],
+      ["mc","150 =","cento e cinquenta","cem e cinquenta","cento cinquenta","um cento e cinquenta","100 alone is ‹cem›; with more after it, ‹cento e›…"],
+      ["mc","half past three =","três e meia","três e meio","três e metade","meia e três","Half past is ‹e meia›: ‹meia hora›, half an hour."],
+      ["or","It's two o'clock.","São duas horas","dois É","‹horas› is feminine plural: ‹duas horas›, with the plural verb ‹são›."],
+      ["or","How much are the shoes? (question word first, then the verb)","Quanto custam os sapatos","custa","Two shoes, plural verb: ‹os sapatos custam›."],
+      ["or","two hundred people","duzentas pessoas","duzentos","‹pessoas› is feminine, so ‹duzentas› agrees with it."],
+      ["fi","São __ horas.","It's two o'clock.","duas","dois|uma|um","‹horas› is feminine: ‹duas horas›."],
+      ["fi","Custa vinte e cinco __.","It costs twenty-five ‹reais›.","reais","real|reals|dólares","One ‹real›, two ‹reais›: the plural of ‹real› is ‹reais›."],
+      ["fi","A aula é às oito e __.","The class is at eight thirty.","meia","meio|metade|média","Half past is ‹e meia›, short for ‹meia hora›."],
+      ["ty","It's three o'clock.","São três horas|São três","‹ser› · ‹três› (three) · ‹a hora›","É","More than one hour takes the plural verb: ‹são três horas›."],
+      ["ty","It costs fifty ‹reais›.","Custa cinquenta reais","‹custar› · ‹cinquenta› (fifty) · ‹o real›","custam real","One price, singular verb: ‹custa›; and the plural noun is ‹reais›."],
+      ["ty","I have two sisters.","Eu tenho duas irmãs|Tenho duas irmãs","‹ter› · ‹dois› · ‹a irmã›","dois","‹irmãs› is feminine, so ‹dois› becomes ‹duas›."]
     ]
   },
   {
@@ -157,48 +157,48 @@ module.exports = [
 <p>English puts one small word before the place: "near the beach", "on the table". Portuguese uses short phrases that end in <b>de</b>, and that <b>de</b> joins the article after it, just as in the lesson on contractions.</p>
 <h3>The location phrases</h3>
 <div class="tbl"><table><tr><th>Portuguese</th><th>English</th></tr><tr><td class="k">perto de</td><td>near</td></tr><tr><td class="k">longe de</td><td>far from</td></tr><tr><td class="k">em cima de</td><td>on, on top of</td></tr><tr><td class="k">embaixo de</td><td>under</td></tr><tr><td class="k">ao lado de</td><td>next to</td></tr><tr><td class="k">na frente de</td><td>in front of</td></tr><tr><td class="k">atrás de</td><td>behind</td></tr><tr><td class="k">dentro de</td><td>inside</td></tr></table></div>
-<h3>de + the article = one word</h3>
-<p>English keeps "of" and "the" apart. Portuguese fuses them: <b>de + o = do</b>, <b>de + a = da</b>, <b>de + os = dos</b>, <b>de + as = das</b>. The contraction agrees with the noun after it, so check that noun's gender: <b>perto do mercado</b> (o mercado), <b>perto da farmácia</b> (a farmácia).</p>
+<h3>‹de› + the article = one word</h3>
+<p>English keeps "of" and "the" apart. Portuguese fuses them: <b>de</b> + <b>o</b> = <b>do</b>, <b>de</b> + <b>a</b> = <b>da</b>, <b>de</b> + <b>os</b> = <b>dos</b>, <b>de</b> + <b>as</b> = <b>das</b>. The contraction agrees with the noun after it, so check that noun's gender: <b>perto do mercado</b> (‹o mercado›), <b>perto da farmácia</b> (‹a farmácia›).</p>
 {{ex:A farmácia fica perto da praia.|ah fahr-MAH-syuh FEE-kuh PEHR-too dah PRAI-uh|The pharmacy is near the beach.}}
 {{ex:O banco fica ao lado do mercado.|oo BAHN-koo FEE-kuh ow LAH-doo doo mehr-KAH-doo|The bank is next to the market.}}
 {{ex:O celular está em cima da mesa.|oo seh-loo-LAHR ees-TAH ayng SEE-muh dah MAY-zuh|The phone is on the table.}}
 {{ex:O gato está embaixo da cama.|oo GAH-too ees-TAH aym-BAI-shoo dah KAH-muh|The cat is under the bed.}}
 {{ex:O carro está na frente da casa.|oo KAH-hoo ees-TAH nah FRAYN-chee dah KAH-zuh|The car is in front of the house.}}
-<p>When no article follows, <b>de</b> stays alone (<b>perto de Boston</b>), or fuses with the next word: <b>longe daqui</b> (de + aqui).</p>
+<p>When no article follows, <b>de</b> stays alone (<b>perto de Boston</b>), or fuses with the next word: <b>longe daqui</b> (‹de› + ‹aqui›).</p>
 {{ex:É longe daqui?|eh LOHN-zhee dah-KEE|Is it far from here?}}
-<h3>estar or ficar</h3>
-<p>Some of these phrases already contain a contraction: <b>na frente de</b> is <b>em + a frente</b>, and <b>ao lado de</b> is <b>a + o lado</b>. Learn them as fixed chunks.</p>
+<h3>‹estar› or ‹ficar›</h3>
+<p>Some of these phrases already contain a contraction: <b>na frente de</b> is <b>em</b> + <b>a frente</b>, and <b>ao lado de</b> is <b>a</b> + <b>o lado</b>. Learn them as fixed chunks.</p>
 <p>Remember: people and things that move use <b>estar</b> (<b>A chave está dentro da bolsa</b>); buildings and fixed places use <b>ficar</b> (<b>O banco fica atrás da igreja</b>).</p>
 <h3>Here and there</h3>
 <p>English has "here" and "there". Portuguese has <b>aqui</b> (here, near me), <b>aí</b> (there, near you), and <b>ali</b> and <b>lá</b> (over there, away from both of us; <b>lá</b> is usually farther).</p>
 {{ex:Estou aqui. Você está aí?|ees-TOH ah-KEE voh-SAY ees-TAH ah-EE|I'm here. Are you there?}}
-<div class="tip"><b>Most common mistake:</b> leaving <b>de</b> and the article apart, or giving the contraction the wrong gender. <b>ao lado de o banco</b> → <b>ao lado do banco</b>; <b>perto do farmácia</b> → <b>perto da farmácia</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> leaving <b>de</b> and the article apart, or giving the contraction the wrong gender. <b>ao lado de o banco</b> → <b>ao lado do banco</b>; <b>perto do farmácia</b> → <b>perto da farmácia</b>.</div>
 `,
     check: [
-      ["next to the bank (o banco) =",["ao lado de o banco","ao lado do banco","ao lado da banco","no lado de banco"],1,"de + o = do, and the contraction agrees with banco, which is masculine."],
-      ["The keys are on the table. =",["As chaves estão em cima da mesa.","As chaves estão em cima do mesa.","As chaves são em cima da mesa.","As chaves está em cima da mesa."],0,"Movable things take estar (plural: estão), and mesa is feminine, so da."],
-      ["near the pharmacy (a farmácia) =",["perto do farmácia","perto de a farmácia","perto na farmácia","perto da farmácia"],3,"de + a = da: the contraction agrees with farmácia, which is feminine."]
+      ["next to the bank (‹o banco›) =",["ao lado de o banco","ao lado do banco","ao lado da banco","no lado de banco"],1,"‹de› + ‹o› = ‹do›, and the contraction agrees with ‹banco›, which is masculine."],
+      ["The keys are on the table. =",["As chaves estão em cima da mesa.","As chaves estão em cima do mesa.","As chaves são em cima da mesa.","As chaves está em cima da mesa."],0,"Movable things take ‹estar› (plural: ‹estão›), and ‹mesa› is feminine, so ‹da›."],
+      ["near the pharmacy (‹a farmácia›) =",["perto do farmácia","perto de a farmácia","perto na farmácia","perto da farmácia"],3,"‹de› + ‹a› = ‹da›: the contraction agrees with ‹farmácia›, which is feminine."]
     ],
     practice: [
-      ["mc","near the beach =","perto da praia","perto do praia","perto de a praia","perto na praia","de + a = da, and praia is feminine."],
-      ["mc","on top of the sofa =","em cima do sofá","em cima da sofá","em cima de o sofá","no cima do sofá","de + o = do, and sofá is masculine."],
-      ["mc","under the bed =","embaixo da cama","em cima da cama","embaixo do cama","embaixo de a cama","Under = embaixo de, and de + a cama = da cama."],
-      ["mc","The bank is far from here. =","O banco fica longe daqui.","O banco fica longe de aqui.","O banco fica perto daqui.","O banco fica longe aqui.","Far from is longe de, and de + aqui = daqui."],
-      ["mc","The phone is inside the bag. =","O celular está dentro da bolsa.","O celular é dentro da bolsa.","O celular está dentro do bolsa.","O celular está dentro de a bolsa.","A phone moves, so estar; and de + a bolsa = da bolsa."],
-      ["or","The cat is under the bed. (start with the cat)","O gato está embaixo da cama","do","cama is feminine, so the contraction is da."],
-      ["or","The pharmacy is next to the bank. (start with the pharmacy)","A farmácia fica ao lado do banco","da","banco is masculine: de + o = do, the contraction agrees with it."],
-      ["or","The car is in front of the house. (start with the car)","O carro está na frente da casa","do","casa is feminine, so the contraction is da: na frente da casa."],
-      ["fi","O celular está em cima __ mesa.","The phone is on the table.","da","do|de a|na","mesa is feminine: em cima da mesa."],
-      ["fi","A padaria fica perto __ hotel.","The bakery is near the hotel.","do","da|de o|no","hotel is masculine: perto do hotel."],
-      ["fi","Ana mora __, longe daqui.","Ana lives over there, far from here.","lá|ali","aqui|daqui|perto","Over there, away from both of us: lá or ali."],
-      ["ty","The keys are on the table.","As chaves estão em cima da mesa|As chaves estão na mesa","a chave · estar · em cima de · a mesa","do está","chaves is plural, so estão; mesa is feminine, so the contraction is da."],
-      ["ty","The bank is near the beach. (use ficar)","O banco fica perto da praia","o banco · ficar · perto de · a praia","do","praia is feminine: de + a = da, the contraction agrees with it."],
-      ["ty","The bathroom is next to the kitchen. (use ficar)","O banheiro fica ao lado da cozinha","o banheiro · ficar · ao lado de · a cozinha","do","cozinha is feminine, so the contraction is da."]
+      ["mc","near the beach =","perto da praia","perto do praia","perto de a praia","perto na praia","‹de› + ‹a› = ‹da›, and ‹praia› is feminine."],
+      ["mc","on top of the sofa =","em cima do sofá","em cima da sofá","em cima de o sofá","no cima do sofá","‹de› + ‹o› = ‹do›, and ‹sofá› is masculine."],
+      ["mc","under the bed =","embaixo da cama","em cima da cama","embaixo do cama","embaixo de a cama","Under = ‹embaixo de›, and ‹de› + ‹a cama› = ‹da cama›."],
+      ["mc","The bank is far from here. =","O banco fica longe daqui.","O banco fica longe de aqui.","O banco fica perto daqui.","O banco fica longe aqui.","Far from is ‹longe de›, and ‹de› + ‹aqui› = ‹daqui›."],
+      ["mc","The phone is inside the bag. =","O celular está dentro da bolsa.","O celular é dentro da bolsa.","O celular está dentro do bolsa.","O celular está dentro de a bolsa.","A phone moves, so ‹estar›; and ‹de› + ‹a bolsa› = ‹da bolsa›."],
+      ["or","The cat is under the bed. (start with the cat)","O gato está embaixo da cama","do","‹cama› is feminine, so the contraction is ‹da›."],
+      ["or","The pharmacy is next to the bank. (start with the pharmacy)","A farmácia fica ao lado do banco","da","‹banco› is masculine: ‹de› + ‹o› = ‹do›, the contraction agrees with it."],
+      ["or","The car is in front of the house. (start with the car)","O carro está na frente da casa","do","‹casa› is feminine, so the contraction is ‹da›: ‹na frente da casa›."],
+      ["fi","O celular está em cima __ mesa.","The phone is on the table.","da","do|de a|na","‹mesa› is feminine: ‹em cima da mesa›."],
+      ["fi","A padaria fica perto __ hotel.","The bakery is near the hotel.","do","da|de o|no","‹hotel› is masculine: ‹perto do hotel›."],
+      ["fi","Ana mora __, longe daqui.","Ana lives over there, far from here.","lá|ali","aqui|daqui|perto","Over there, away from both of us: ‹lá› or ‹ali›."],
+      ["ty","The keys are on the table.","As chaves estão em cima da mesa|As chaves estão na mesa","‹a chave› · ‹estar› · ‹em cima de› · ‹a mesa›","do está","‹chaves› is plural, so ‹estão›; ‹mesa› is feminine, so the contraction is ‹da›."],
+      ["ty","The bank is near the beach. (use ‹ficar›)","O banco fica perto da praia","‹o banco› · ‹ficar› · ‹perto de› · ‹a praia›","do","‹praia› is feminine: ‹de› + ‹a› = ‹da›, the contraction agrees with it."],
+      ["ty","The bathroom is next to the kitchen. (use ‹ficar›)","O banheiro fica ao lado da cozinha","‹o banheiro› · ‹ficar› · ‹ao lado de› · ‹a cozinha›","do","‹cozinha› is feminine, so the contraction is ‹da›."]
     ]
   },
   {
     id: "possessives",
-    title: "meu / minha, este / esse",
+    title: "‹meu› / ‹minha›, ‹este› / ‹esse›",
     blurb: "Say my, your, his, her and our, and point at things with this and that.",
     deck: "People and family",
     body: `
@@ -209,8 +209,8 @@ module.exports = [
 {{ex:Minha mãe mora em Orlando.|MEE-nyuh maing MAW-ruh ayng ohr-LAHN-doo|My mother lives in Orlando.}}
 {{ex:Nossos amigos são brasileiros.|NAW-soos ah-MEE-goos sowng brah-zee-LAY-roos|Our friends are Brazilian.}}
 <p>Number agrees too: <b>meus livros</b>, <b>minhas amigas</b>. The owner can be one person or many; only the thing owned decides the ending. In Brazil the article before a possessive is optional: <b>minha irmã</b> and <b>a minha irmã</b> are both normal.</p>
-<h3>his and her: dele, dela</h3>
-<p>In Brazil, <b>seu</b> and <b>sua</b> usually mean "your". For "his" and "her", Brazilians put <b>dele</b> (de + ele) or <b>dela</b> (de + ela) after the noun, with the article in front. This contraction agrees with the owner: <b>dele</b> for a man, <b>dela</b> for a woman.</p>
+<h3>his and her: ‹dele›, ‹dela›</h3>
+<p>In Brazil, <b>seu</b> and <b>sua</b> usually mean "your". For "his" and "her", Brazilians put <b>dele</b> (‹de› + ‹ele›) or <b>dela</b> (‹de› + ‹ela›) after the noun, with the article in front. This contraction agrees with the owner: <b>dele</b> for a man, <b>dela</b> for a woman.</p>
 {{ex:A casa dele é grande.|ah KAH-zuh DAY-lee eh GRAHN-jee|His house is big.}}
 {{ex:O carro dela é azul.|oo KAH-hoo DEH-luh eh ah-ZOOW|Her car is blue.}}
 <p>For "their", the same pattern gives <b>deles</b> and <b>delas</b>: <b>os pais deles</b> (their parents). In formal writing <b>seu</b> can still mean "his", "her" or "their", which is exactly why everyday speech prefers the clear <b>dele</b> and <b>dela</b>.</p>
@@ -219,92 +219,92 @@ module.exports = [
 {{ex:Essa camisa é bonita.|EH-suh kah-MEE-zuh eh boh-NEE-tuh|This shirt is pretty.}}
 {{ex:O que é isso?|oo kee eh EE-soo|What's this?}}
 {{ex:Aquela casa é do Pedro.|ah-KEH-luh KAH-zuh eh doo PAY-droo|That house over there is Pedro's.}}
-<div class="tip"><b>Most common mistake:</b> making the possessive agree with the owner. A woman talking about her father: <b>minha pai</b> → <b>meu pai</b>. And for "his house": <b>sua casa</b> → <b>a casa dele</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> making the possessive agree with the owner. A woman talking about her father: <b>minha pai</b> → <b>meu pai</b>. And for "his house": <b>sua casa</b> → <b>a casa dele</b>.</div>
 `,
     check: [
-      ["A woman talks about her father. She says…",["minha pai","meu pai","meus pai","mia pai"],1,"The possessive agrees with the thing owned: pai is masculine, so meu."],
-      ["Her car, said the clear Brazilian way =",["o carro dela","a carro dela","o carro dele","sua carro"],0,"Her = dela, after the noun; o agrees with carro."],
-      ["Pointing at something you don't name: What's that?",["O que é essa?","O que é esse?","O que é isso?","O que é esso?"],2,"For an unnamed thing, use isso; esse and essa need a noun after them."]
+      ["A woman talks about her father. She says…",["minha pai","meu pai","meus pai","mia pai"],1,"The possessive agrees with the thing owned: ‹pai› is masculine, so ‹meu›."],
+      ["Her car, said the clear Brazilian way =",["o carro dela","a carro dela","o carro dele","sua carro"],0,"Her = ‹dela›, after the noun; ‹o› agrees with ‹carro›."],
+      ["Pointing at something you don't name: What's that?",["O que é essa?","O que é esse?","O que é isso?","O que é esso?"],2,"For an unnamed thing, use ‹isso›; ‹esse› and ‹essa› need a noun after them."]
     ],
     practice: [
-      ["mc","my sisters =","minhas irmãs","meus irmãs","minha irmãs","mias irmãs","minhas agrees with irmãs: feminine plural."],
-      ["mc","his house =","a casa dele","a casa dela","o casa dele","a dele casa","His = dele, after the noun; the article agrees with casa."],
-      ["mc","my grandmother =","minha avó","minha avô","meu avó","meu avô","avó, with an acute accent, is grandmother; avô is grandfather.","!strict"],
-      ["mc","Pointing at something you don't name: What's this?","O que é isso?","O que é esse?","O que é essa?","O que é aquele?","An unnamed thing is isso; esse needs a noun after it."],
-      ["mc","our parents =","nossos pais","nossas pais","nosso pais","nossos país","pais (parents) is masculine plural: nossos; país with an accent means country.","!strict"],
-      ["or","My mother is a teacher.","Minha mãe é professora","Meu","minha agrees with mãe, which is feminine, not with the owner."],
-      ["or","Her car is blue.","O carro dela é azul","dele","Her = dela: this contraction agrees with the owner, a woman."],
-      ["or","Those shoes over there are new.","Aqueles sapatos são novos","Aquelas","sapatos is masculine plural, so aqueles and novos agree with it."],
-      ["fi","__ pai é de Recife.","My father is from Recife.","Meu|O meu","Minha|Meus|Minhas","pai is masculine singular: meu."],
-      ["fi","A casa __ é grande.","Her house is big.","dela","dele|ela|de ela","Her = dela, de + ela fused."],
-      ["fi","__ livro é seu?","Is this book yours?","Esse|Este","Essa|Isso|Esta","livro is masculine, so esse (or este); isso stands alone."],
-      ["ty","my sister","minha irmã|a minha irmã","meu · a irmã","meu","minha agrees with irmã, which is feminine, not with the owner."],
-      ["ty","Our house is big.","Nossa casa é grande|A nossa casa é grande","nosso · a casa · grande","Nosso","nossa agrees with casa, which is feminine."],
-      ["ty","His parents live in Miami.","Os pais dele moram em Miami","os pais · ele · morar · Miami","dela mora","His = dele after the noun, and os pais takes the eles form: moram."]
+      ["mc","my sisters =","minhas irmãs","meus irmãs","minha irmãs","mias irmãs","‹minhas› agrees with ‹irmãs›: feminine plural."],
+      ["mc","his house =","a casa dele","a casa dela","o casa dele","a dele casa","His = ‹dele›, after the noun; the article agrees with ‹casa›."],
+      ["mc","my grandmother =","minha avó","minha avô","meu avó","meu avô","‹avó›, with an acute accent, is grandmother; ‹avô› is grandfather.","!strict"],
+      ["mc","Pointing at something you don't name: What's this?","O que é isso?","O que é esse?","O que é essa?","O que é aquele?","An unnamed thing is ‹isso›; ‹esse› needs a noun after it."],
+      ["mc","our parents =","nossos pais","nossas pais","nosso pais","nossos país","‹pais› (parents) is masculine plural: ‹nossos›; ‹país› with an accent means country.","!strict"],
+      ["or","My mother is a teacher.","Minha mãe é professora","Meu","‹minha› agrees with ‹mãe›, which is feminine, not with the owner."],
+      ["or","Her car is blue.","O carro dela é azul","dele","Her = ‹dela›: this contraction agrees with the owner, a woman."],
+      ["or","Those shoes over there are new.","Aqueles sapatos são novos","Aquelas","‹sapatos› is masculine plural, so ‹aqueles› and ‹novos› agree with it."],
+      ["fi","__ pai é de Recife.","My father is from Recife.","Meu|O meu","Minha|Meus|Minhas","‹pai› is masculine singular: ‹meu›."],
+      ["fi","A casa __ é grande.","Her house is big.","dela","dele|ela|de ela","Her = ‹dela›, ‹de› + ‹ela› fused."],
+      ["fi","__ livro é seu?","Is this book yours?","Esse|Este","Essa|Isso|Esta","‹livro› is masculine, so ‹esse› (or ‹este›); ‹isso› stands alone."],
+      ["ty","my sister","minha irmã|a minha irmã","‹meu› · ‹a irmã›","meu","‹minha› agrees with ‹irmã›, which is feminine, not with the owner."],
+      ["ty","Our house is big.","Nossa casa é grande|A nossa casa é grande","‹nosso› · ‹a casa› · ‹grande›","Nosso","‹nossa› agrees with ‹casa›, which is feminine."],
+      ["ty","His parents live in Miami.","Os pais dele moram em Miami","‹os pais› · ‹ele› · ‹morar› · ‹Miami›","dela mora","His = ‹dele› after the noun, and ‹os pais› takes the ‹eles› form: ‹moram›."]
     ]
   },
   {
     id: "irregular",
-    title: "ir, fazer, querer, poder",
+    title: "‹ir›, ‹fazer›, ‹querer›, ‹poder›",
     blurb: "Use four everyday irregular verbs to say where you're going, what you do, what you want and what you can do.",
     deck: "Shopping and clothes",
     body: `
 <p>Some of the most common verbs don't follow the regular endings. Four of them carry a lot of everyday Portuguese: <b>ir</b> (to go), <b>fazer</b> (to do, to make), <b>querer</b> (to want) and <b>poder</b> (can).</p>
 <h3>The four verbs</h3>
-<div class="tbl"><table><tr><th></th><th>ir</th><th>fazer</th><th>querer</th><th>poder</th></tr><tr><td>eu</td><td class="k">vou</td><td class="k">faço</td><td class="k">quero</td><td class="k">posso</td></tr><tr><td>você, ele, ela, a gente</td><td class="k">vai</td><td class="k">faz</td><td class="k">quer</td><td class="k">pode</td></tr><tr><td>nós</td><td class="k">vamos</td><td class="k">fazemos</td><td class="k">queremos</td><td class="k">podemos</td></tr><tr><td>vocês, eles, elas</td><td class="k">vão</td><td class="k">fazem</td><td class="k">querem</td><td class="k">podem</td></tr></table></div>
-<p>The ele form still goes with <b>você</b> and <b>a gente</b>: <b>a gente vai</b>, never <b>a gente vamos</b>.</p>
-<h3>ir: going places</h3>
-<p>English says "go to". Portuguese says <b>ir a</b> or <b>ir para</b>, and the <b>a</b> fuses with the article: <b>ao shopping</b> (a + o), <b>à praia</b> (a + a). In casual speech you will also hear <b>em</b>: <b>vou na praia</b>.</p>
+<div class="tbl"><table><tr><th></th><th>‹ir›</th><th>‹fazer›</th><th>‹querer›</th><th>‹poder›</th></tr><tr><td>‹eu›</td><td class="k">vou</td><td class="k">faço</td><td class="k">quero</td><td class="k">posso</td></tr><tr><td>‹você›, ‹ele›, ‹ela›, ‹a gente›</td><td class="k">vai</td><td class="k">faz</td><td class="k">quer</td><td class="k">pode</td></tr><tr><td>‹nós›</td><td class="k">vamos</td><td class="k">fazemos</td><td class="k">queremos</td><td class="k">podemos</td></tr><tr><td>‹vocês›, ‹eles›, ‹elas›</td><td class="k">vão</td><td class="k">fazem</td><td class="k">querem</td><td class="k">podem</td></tr></table></div>
+<p>The ‹ele› form still goes with <b>você</b> and <b>a gente</b>: <b>a gente vai</b>, never <b>a gente vamos</b>.</p>
+<h3>‹ir›: going places</h3>
+<p>English says "go to". Portuguese says <b>ir a</b> or <b>ir para</b>, and the <b>a</b> fuses with the article: <b>ao shopping</b> (‹a› + ‹o›), <b>à praia</b> (‹a› + ‹a›). In casual speech you will also hear <b>em</b>: <b>vou na praia</b>.</p>
 {{ex:Eu vou ao shopping.|ayw voh ow SHAW-peeng|I'm going to the mall.}}
 {{ex:Vocês vão à praia?|voh-SAYS vowng ah PRAI-uh|Are you all going to the beach?}}
-<h3>fazer: do, make, and the weather</h3>
+<h3>‹fazer›: do, make, and the weather</h3>
 <p><b>fazer</b> covers both "do" and "make". It also describes the weather with a noun: <b>faz calor</b> (it's hot), <b>faz frio</b> (it's cold). And it counts time: <b>Faz dois anos que moro aqui</b> means "I've lived here for two years", literally "it makes two years that I live here".</p>
 {{ex:Faço compras no sábado.|FAH-soo KOHM-pruhs noo SAH-bah-doo|I go shopping on Saturday.}}
 {{ex:Hoje faz frio.|OH-zhee fahs FREE-oo|It's cold today.}}
-<h3>querer and poder</h3>
+<h3>‹querer› and ‹poder›</h3>
 <p><b>querer</b> + a noun or a verb is "want". In a shop or a café, <b>Eu queria…</b> ("I wanted") sounds softer than <b>Eu quero…</b>. <b>poder</b> + a verb is "can": <b>Posso…?</b> asks permission, and <b>Pode…?</b> or <b>Você pode…?</b> asks a favor. The second verb stays in the infinitive, with nothing in between.</p>
 {{ex:Quero uma camisa branca.|KEH-roo OO-muh kah-MEE-zuh BRAHN-kuh|I want a white shirt.}}
 {{ex:Posso pagar com cartão?|PAW-soo pah-GAHR kohng kahr-TOWNG|Can I pay by card?}}
 {{ex:Você pode falar mais devagar?|voh-SAY PAW-jee fah-LAHR mais deh-vah-GAHR|Can you speak more slowly?}}
-<p>Some other verbs change a vowel in the eu form only, like <b>dormir</b> (to sleep): <b>eu durmo</b>, <b>ele dorme</b>. These are called stem-changing verbs; learn the eu form with the verb.</p>
-<div class="tip"><b>Most common mistake:</b> giving these verbs regular endings. <b>Eu fazo</b> → <b>Eu faço</b>; <b>Eu podo</b> → <b>Eu posso</b>.</div>
+<p>Some other verbs change a vowel in the ‹eu› form only, like <b>dormir</b> (to sleep): <b>eu durmo</b>, <b>ele dorme</b>. These are called stem-changing verbs; learn the ‹eu› form with the verb.</p>
+<div class="tip"><strong>Most common mistake:</strong> giving these verbs regular endings. <b>Eu fazo</b> → <b>Eu faço</b>; <b>Eu podo</b> → <b>Eu posso</b>.</div>
 `,
     check: [
-      ["I do; I make =",["eu fazo","eu faço","eu faz","eu fazer"],1,"fazer is irregular in the eu form: faço."],
-      ["We're going to the beach. =",["Nós vai à praia.","Nós vão à praia.","Nós ir à praia.","Nós vamos à praia."],3,"The nós form of ir is vamos."],
-      ["In a clothing store: Can I try it on? =",["Posso experimentar?","Podo experimentar?","Pode eu experimentar?","Posso a experimentar?"],0,"Posso (the eu form of poder) + the infinitive, with nothing in between."]
+      ["I do; I make =",["eu fazo","eu faço","eu faz","eu fazer"],1,"‹fazer› is irregular in the ‹eu› form: ‹faço›."],
+      ["We're going to the beach. =",["Nós vai à praia.","Nós vão à praia.","Nós ir à praia.","Nós vamos à praia."],3,"The ‹nós› form of ‹ir› is ‹vamos›."],
+      ["In a clothing store: Can I try it on? =",["Posso experimentar?","Podo experimentar?","Pode eu experimentar?","Posso a experimentar?"],0,"‹Posso› (the ‹eu› form of ‹poder›) + the infinitive, with nothing in between."]
     ],
     practice: [
-      ["mc","I can =","eu posso","eu podo","eu pode","eu poso","poder is irregular in the eu form: posso."],
-      ["mc","they want =","eles querem","eles quer","eles queremos","eles quero","querem is the form for eles, elas and vocês."],
-      ["mc","It's hot today. (use fazer)","Hoje faz calor.","Hoje faz quente.","Hoje fazem calor.","Hoje faço calor.","Weather with a noun: faz calor, faz frio."],
-      ["mc","Where are you going? =","Para onde você vai?","Para onde você vou?","Para onde você vão?","Para onde você ir?","Você goes with vai, the ele form of ir."],
-      ["mc","Can you speak more slowly? =","Você pode falar mais devagar?","Você posso falar mais devagar?","Você pode fala mais devagar?","Você pode a falar mais devagar?","pode + the infinitive, with nothing in between."],
-      ["or","We want two shirts.","Nós queremos duas camisas","querem dois","The nós form is queremos, and duas agrees with camisas, which is feminine."],
-      ["or","They're going to the store.","Eles vão à loja","vai","Eles takes the eles form of ir: vão."],
-      ["or","Can I pay by card?","Posso pagar com cartão","Podem","Posso is the eu form: the verb ending matches the subject."],
-      ["fi","Eu __ compras no sábado.","I go shopping on Saturday.","faço","fazo|faz|fazer","fazer is irregular: eu faço."],
-      ["fi","Vocês __ ao shopping?","Are you all going to the mall?","vão","vai|vamos|vou","Vocês takes the eles form: vão."],
-      ["fi","__ experimentar?","Can I try it on?","Posso","Podem|Podo|Poder","Can I = posso, the eu form of poder."],
-      ["ty","I want a white shirt.","Eu quero uma camisa branca|Quero uma camisa branca","querer · a camisa · branco","branco quer","camisa is feminine, so branca agrees; quero is the eu form."],
-      ["ty","We're going to Rio.","Nós vamos para o Rio|Vamos para o Rio|A gente vai para o Rio|Nós vamos pro Rio|Vamos pro Rio|A gente vai pro Rio|Nós vamos ao Rio|Vamos ao Rio|A gente vai ao Rio","ir · para · o Rio","vão","The nós form of ir is vamos; with a gente, the ele form: a gente vai."],
-      ["ty","Do you want a coffee?","Você quer um café|Quer um café|Você quer café|Quer café","querer · o café","quero uma","Você takes the ele form: quer; and café is masculine: um café."]
+      ["mc","I can =","eu posso","eu podo","eu pode","eu poso","‹poder› is irregular in the ‹eu› form: ‹posso›."],
+      ["mc","they want =","eles querem","eles quer","eles queremos","eles quero","‹querem› is the form for ‹eles›, ‹elas› and ‹vocês›."],
+      ["mc","It's hot today. (use ‹fazer›)","Hoje faz calor.","Hoje faz quente.","Hoje fazem calor.","Hoje faço calor.","Weather with a noun: ‹faz calor›, ‹faz frio›."],
+      ["mc","Where are you going? =","Para onde você vai?","Para onde você vou?","Para onde você vão?","Para onde você ir?","‹Você› goes with ‹vai›, the ‹ele› form of ‹ir›."],
+      ["mc","Can you speak more slowly? =","Você pode falar mais devagar?","Você posso falar mais devagar?","Você pode fala mais devagar?","Você pode a falar mais devagar?","‹pode› + the infinitive, with nothing in between."],
+      ["or","We want two shirts.","Nós queremos duas camisas","querem dois","The ‹nós› form is ‹queremos›, and ‹duas› agrees with ‹camisas›, which is feminine."],
+      ["or","They're going to the store.","Eles vão à loja","vai","‹Eles› takes the ‹eles› form of ‹ir›: ‹vão›."],
+      ["or","Can I pay by card?","Posso pagar com cartão","Podem","‹Posso› is the ‹eu› form: the verb ending matches the subject."],
+      ["fi","Eu __ compras no sábado.","I go shopping on Saturday.","faço","fazo|faz|fazer","‹fazer› is irregular: ‹eu faço›."],
+      ["fi","Vocês __ ao shopping?","Are you all going to the mall?","vão","vai|vamos|vou","‹Vocês› takes the ‹eles› form: ‹vão›."],
+      ["fi","__ experimentar?","Can I try it on?","Posso","Podem|Podo|Poder","Can I = ‹posso›, the ‹eu› form of ‹poder›."],
+      ["ty","I want a white shirt.","Eu quero uma camisa branca|Quero uma camisa branca","‹querer› · ‹a camisa› · ‹branco›","branco quer","‹camisa› is feminine, so ‹branca› agrees; ‹quero› is the ‹eu› form."],
+      ["ty","We're going to Rio.","Nós vamos para o Rio|Vamos para o Rio|A gente vai para o Rio|Nós vamos pro Rio|Vamos pro Rio|A gente vai pro Rio|Nós vamos ao Rio|Vamos ao Rio|A gente vai ao Rio","‹ir› · ‹para› · ‹o Rio›","vão","The ‹nós› form of ‹ir› is ‹vamos›; with ‹a gente›, the ‹ele› form: ‹a gente vai›."],
+      ["ty","Do you want a coffee?","Você quer um café|Quer um café|Você quer café|Quer café","‹querer› · ‹o café›","quero uma","‹Você› takes the ‹ele› form: ‹quer›; and ‹café› is masculine: ‹um café›."]
     ]
   },
   {
     id: "future",
-    title: "ir + infinitive: plans",
-    blurb: "Talk about plans and the future with vou, vai, vamos and vão plus a verb.",
+    title: "‹ir› + infinitive: plans",
+    blurb: "Talk about plans and the future with ‹vou›, ‹vai›, ‹vamos› and ‹vão› plus a verb.",
     deck: "Days, dates and weather",
     body: `
 <p>English often talks about plans with "going to": "I'm going to travel." Portuguese does the same, with the verb <b>ir</b> you already know, and it is the normal way to talk about the future in Brazil.</p>
-<h3>ir + infinitive</h3>
+<h3>‹ir› + infinitive</h3>
 <p>Take the right form of <b>ir</b> and add the infinitive of the main verb. Nothing goes between them: there is no word for "to".</p>
-<div class="tbl"><table><tr><th>Who</th><th>Portuguese</th></tr><tr><td>I</td><td class="k">eu vou viajar</td></tr><tr><td>you, he, she, we (a gente)</td><td class="k">você, ele, ela, a gente vai viajar</td></tr><tr><td>we</td><td class="k">nós vamos viajar</td></tr><tr><td>you all, they</td><td class="k">vocês, eles, elas vão viajar</td></tr></table></div>
+<div class="tbl"><table><tr><th>Who</th><th>Portuguese</th></tr><tr><td>I</td><td class="k">eu vou viajar</td></tr><tr><td>you, he, she, we (‹a gente›)</td><td class="k">você, ele, ela, a gente vai viajar</td></tr><tr><td>we</td><td class="k">nós vamos viajar</td></tr><tr><td>you all, they</td><td class="k">vocês, eles, elas vão viajar</td></tr></table></div>
 {{ex:Vou viajar amanhã.|voh vee-ah-ZHAHR ah-mah-NYAHNG|I'm going to travel tomorrow.}}
 {{ex:Ela vai trabalhar no sábado.|EH-luh vai trah-bah-LYAHR noo SAH-bah-doo|She's going to work on Saturday.}}
 {{ex:A gente vai jantar em casa.|ah ZHAYN-chee vai zhahn-TAHR ayng KAH-zuh|We're going to have dinner at home.}}
-<p>Only <b>ir</b> changes for the person: <b>vou</b> for eu, <b>vai</b> for você, ele, ela and a gente, <b>vamos</b> for nós, <b>vão</b> for vocês, eles and elas. The second verb always stays in the infinitive, whoever the subject is.</p>
+<p>Only <b>ir</b> changes for the person: <b>vou</b> for ‹eu›, <b>vai</b> for ‹você›, ‹ele›, ‹ela› and ‹a gente›, <b>vamos</b> for ‹nós›, <b>vão</b> for ‹vocês›, ‹eles› and ‹elas›. The second verb always stays in the infinitive, whoever the subject is.</p>
 <p>The weather works the same way: <b>vai chover</b> (it's going to rain), <b>vai fazer calor</b> (it's going to be hot).</p>
 {{ex:Vai chover amanhã.|vai shoh-VAYR ah-mah-NYAHNG|It's going to rain tomorrow.}}
 <h3>Saying when</h3>
@@ -315,77 +315,77 @@ module.exports = [
 {{ex:Não vou trabalhar na sexta.|nowng voh trah-bah-LYAHR nah SAYS-tuh|I'm not going to work on Friday.}}
 <h3>The other future</h3>
 <p>Portuguese also has a one-word future, such as <b>falarei</b> (I will speak). You will see it in writing and hear it in formal speeches, but in conversation Brazilians say <b>vou falar</b>.</p>
-<div class="tip"><b>Most common mistake:</b> adding a word between the two verbs, or conjugating both. If you know Spanish, its <b>a</b> doesn't belong here: <b>Vou a viajar</b> → <b>Vou viajar</b>. And only <b>ir</b> changes: <b>Vou viajo</b> → <b>Vou viajar</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> adding a word between the two verbs, or conjugating both. If you know Spanish, its <b>a</b> doesn't belong here: <b>Vou a viajar</b> → <b>Vou viajar</b>. And only <b>ir</b> changes: <b>Vou viajo</b> → <b>Vou viajar</b>.</div>
 `,
     check: [
-      ["I'm going to travel. =",["Vou a viajar.","Vou viajo.","Vou viajar.","Vou para viajar."],2,"ir + the infinitive, with nothing between them: vou viajar."],
-      ["We're going to have dinner at home. (use a gente)",["A gente vai jantar em casa.","A gente vamos jantar em casa.","A gente vão jantar em casa.","A gente vai janta em casa."],0,"A gente takes the ele form: vai, then the infinitive."],
-      ["What does falarei mean?",["I spoke","I'm speaking","I would speak","I will speak"],3,"falarei is the one-word future, mostly written; in conversation, vou falar."]
+      ["I'm going to travel. =",["Vou a viajar.","Vou viajo.","Vou viajar.","Vou para viajar."],2,"‹ir› + the infinitive, with nothing between them: ‹vou viajar›."],
+      ["We're going to have dinner at home. (use ‹a gente›)",["A gente vai jantar em casa.","A gente vamos jantar em casa.","A gente vão jantar em casa.","A gente vai janta em casa."],0,"‹A gente› takes the ‹ele› form: ‹vai›, then the infinitive."],
+      ["What does ‹falarei› mean?",["I spoke","I'm speaking","I would speak","I will speak"],3,"‹falarei› is the one-word future, mostly written; in conversation, ‹vou falar›."]
     ],
     practice: [
-      ["mc","I'm going to work. =","Vou trabalhar.","Vou a trabalhar.","Vou trabalho.","Vou para trabalhar.","After vou comes the infinitive, with nothing in between."],
-      ["mc","It's going to rain tomorrow. =","Vai chover amanhã.","Vai chove amanhã.","Vão chover amanhã.","Está chover amanhã.","Weather: vai + the infinitive, vai chover."],
-      ["mc","next week =","semana que vem","semana que vai","semana de vem","semana vem que","Next week is semana que vem, literally week that comes."],
-      ["mc","Are you going to have dinner at home? (to two friends)","Vocês vão jantar em casa?","Vocês vai jantar em casa?","Vocês vamos jantar em casa?","Vocês vão jantam em casa?","Vocês goes with vão, then the infinitive."],
-      ["mc","In a newspaper you read viajarei. It means…","I will travel","I traveled","I'm traveling","I would travel","viajarei is the written one-word future; in speech, vou viajar."],
-      ["or","We're going to study.","Nós vamos estudar","vão","The nós form of ir is vamos: the verb ending matches the subject."],
-      ["or","They're going to have dinner at home. (start with eles)","Eles vão jantar em casa","vai","Eles takes the eles form: vão jantar."],
-      ["or","I'm going to travel tomorrow. (put amanhã last)","Vou viajar amanhã","a","ir + infinitive, with nothing in between: vou viajar."],
-      ["fi","Amanhã eu __ visitar a minha avó.","Tomorrow I'm going to visit my grandmother.","vou","vai|vamos|vão","With eu, the form of ir is vou."],
-      ["fi","A gente __ viajar no sábado.","We're going to travel on Saturday.","vai","vamos|vão|vou","A gente takes the ele form: vai."],
-      ["fi","Vou __ amanhã.","I'm going to study tomorrow.","estudar","estudo|estuda|a estudar","After vou, the infinitive: estudar."],
-      ["ty","I'm going to work on Saturday.","Eu vou trabalhar no sábado|Vou trabalhar no sábado|No sábado eu vou trabalhar|No sábado vou trabalhar|Eu vou trabalhar sábado|Vou trabalhar sábado|Sábado eu vou trabalhar|Sábado vou trabalhar","ir · trabalhar · o sábado","vai","vou is the eu form of ir; then the infinitive, with nothing in between."],
-      ["ty","We're going to travel next week. (use semana que vem, at the end)","Nós vamos viajar semana que vem|Vamos viajar semana que vem|A gente vai viajar semana que vem|Nós vamos viajar na semana que vem|Vamos viajar na semana que vem|A gente vai viajar na semana que vem","ir · viajar · semana que vem","vão","The nós form is vamos; with a gente, the ele form: vai."],
-      ["ty","Are you going to have dinner at home?","Você vai jantar em casa|Vai jantar em casa","ir · jantar · em casa","vou","Você takes the ele form: vai jantar."]
+      ["mc","I'm going to work. =","Vou trabalhar.","Vou a trabalhar.","Vou trabalho.","Vou para trabalhar.","After ‹vou› comes the infinitive, with nothing in between."],
+      ["mc","It's going to rain tomorrow. =","Vai chover amanhã.","Vai chove amanhã.","Vão chover amanhã.","Está chover amanhã.","Weather: ‹vai› + the infinitive, ‹vai chover›."],
+      ["mc","next week =","semana que vem","semana que vai","semana de vem","semana vem que","Next week is ‹semana que vem›, literally week that comes."],
+      ["mc","Are you going to have dinner at home? (to two friends)","Vocês vão jantar em casa?","Vocês vai jantar em casa?","Vocês vamos jantar em casa?","Vocês vão jantam em casa?","‹Vocês› goes with ‹vão›, then the infinitive."],
+      ["mc","In a newspaper you read ‹viajarei›. It means…","I will travel","I traveled","I'm traveling","I would travel","‹viajarei› is the written one-word future; in speech, ‹vou viajar›."],
+      ["or","We're going to study.","Nós vamos estudar","vão","The ‹nós› form of ‹ir› is ‹vamos›: the verb ending matches the subject."],
+      ["or","They're going to have dinner at home. (start with ‹eles›)","Eles vão jantar em casa","vai","‹Eles› takes the ‹eles› form: ‹vão jantar›."],
+      ["or","I'm going to travel tomorrow. (put ‹amanhã› last)","Vou viajar amanhã","a","‹ir› + infinitive, with nothing in between: ‹vou viajar›."],
+      ["fi","Amanhã eu __ visitar a minha avó.","Tomorrow I'm going to visit my grandmother.","vou","vai|vamos|vão","With ‹eu›, the form of ‹ir› is ‹vou›."],
+      ["fi","A gente __ viajar no sábado.","We're going to travel on Saturday.","vai","vamos|vão|vou","‹A gente› takes the ‹ele› form: ‹vai›."],
+      ["fi","Vou __ amanhã.","I'm going to study tomorrow.","estudar","estudo|estuda|a estudar","After ‹vou›, the infinitive: ‹estudar›."],
+      ["ty","I'm going to work on Saturday.","Eu vou trabalhar no sábado|Vou trabalhar no sábado|No sábado eu vou trabalhar|No sábado vou trabalhar|Eu vou trabalhar sábado|Vou trabalhar sábado|Sábado eu vou trabalhar|Sábado vou trabalhar","‹ir› · ‹trabalhar› · ‹o sábado›","vai","‹vou› is the ‹eu› form of ‹ir›; then the infinitive, with nothing in between."],
+      ["ty","We're going to travel next week. (use ‹semana que vem›, at the end)","Nós vamos viajar semana que vem|Vamos viajar semana que vem|A gente vai viajar semana que vem|Nós vamos viajar na semana que vem|Vamos viajar na semana que vem|A gente vai viajar na semana que vem","‹ir› · ‹viajar› · ‹semana que vem›","vão","The ‹nós› form is ‹vamos›; with ‹a gente›, the ‹ele› form: ‹vai›."],
+      ["ty","Are you going to have dinner at home?","Você vai jantar em casa|Vai jantar em casa","‹ir› · ‹jantar› · ‹em casa›","vou","‹Você› takes the ‹ele› form: ‹vai jantar›."]
     ]
   },
   {
     id: "gostar",
-    title: "gostar de: likes",
+    title: "‹gostar de›: likes",
     blurb: "Say what you and others like and love, and agree with me too and me neither.",
     deck: "Likes and free time",
     body: `
 <p>English says "I like coffee": the verb goes straight to the thing. Portuguese always puts <b>de</b> after <b>gostar</b>: <b>Eu gosto de café</b>, literally "I like of coffee". Leaving out <b>de</b> is the classic beginner mistake.</p>
-<h3>gostar de + noun or verb</h3>
-<p><b>gostar</b> is a regular -ar verb, so it takes the usual endings: <b>eu gosto</b>, <b>você gosta</b>, <b>nós gostamos</b>, <b>eles gostam</b>. After it comes <b>de</b>, then a noun or an infinitive.</p>
+<h3>‹gostar de› + noun or verb</h3>
+<p><b>gostar</b> is a regular ‹-ar› verb, so it takes the usual endings: <b>eu gosto</b>, <b>você gosta</b>, <b>nós gostamos</b>, <b>eles gostam</b>. After it comes <b>de</b>, then a noun or an infinitive.</p>
 {{ex:Eu gosto de café.|ayw GAWS-too jee kah-FEH|I like coffee.}}
 {{ex:Você gosta de dançar?|voh-SAY GAWS-tuh jee dahn-SAHR|Do you like to dance?}}
 {{ex:A gente gosta de futebol.|ah ZHAYN-chee GAWS-tuh jee foo-chee-BOHW|We like soccer.}}
-<h3>de + the article</h3>
+<h3>‹de› + the article</h3>
 <p>For things in general, use <b>de</b> alone: <b>Gosto de música</b>. For a specific thing, or a place that takes an article, <b>de</b> fuses with the article, and the contraction agrees with the noun: <b>do</b>, <b>da</b>, <b>dos</b>, <b>das</b>.</p>
 {{ex:Gosto do Brasil.|GAWS-too doo brah-ZEEW|I like Brazil.}}
 {{ex:Ela gosta da praia.|EH-luh GAWS-tuh dah PRAI-uh|She likes the beach.}}
 {{ex:Eles não gostam de chuva.|AY-lees nowng GAWS-towng jee SHOO-vuh|They don't like rain.}}
 <h3>Who does the liking</h3>
 <p>Portuguese works like English here: the person who likes is the subject, and the verb ending matches that person: <b>ela gosta</b>, <b>nós gostamos</b>. If you know Spanish, don't copy its order: <b>Eu gosto de…</b>, never <b>Me gosta…</b>.</p>
-<h3>adorar: no de</h3>
+<h3>‹adorar›: no ‹de›</h3>
 <p><b>adorar</b> (to love, to adore) is the stronger word, and it takes no <b>de</b>.</p>
 {{ex:Adoro música brasileira.|ah-DAW-roo MOO-zee-kuh brah-zee-LAY-ruh|I love Brazilian music.}}
 <h3>Answering and agreeing</h3>
 <p>To answer a yes/no question, repeat the verb: <b>Você gosta de praia? Gosto!</b> or <b>Não gosto.</b> To agree, say <b>Eu também</b> (me too); to disagree with someone who likes something, say <b>Eu não</b> (I don't). To agree with a negative, say <b>Nem eu</b> or <b>Eu também não</b> (me neither).</p>
 {{ex:Não gosto de chuva. Nem eu.|nowng GAWS-too jee SHOO-vuh nayng ayw|I don't like rain. Me neither.}}
-<div class="tip"><b>Most common mistake:</b> dropping the <b>de</b>, or keeping it apart from the article. <b>Eu gosto café</b> → <b>Eu gosto de café</b>; <b>Gosto de o Brasil</b> → <b>Gosto do Brasil</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> dropping the <b>de</b>, or keeping it apart from the article. <b>Eu gosto café</b> → <b>Eu gosto de café</b>; <b>Gosto de o Brasil</b> → <b>Gosto do Brasil</b>.</div>
 `,
     check: [
-      ["I like coffee. =",["Eu gosto café.","Me gosta café.","Eu gosto de café.","Eu gosto o café."],2,"gostar always takes de: gosto de café."],
-      ["She likes the beach. =",["Ela gosta da praia.","Ela gosta do praia.","Ela gosta de a praia.","Ela gosta praia."],0,"de + a = da, and praia is feminine."],
-      ["How is adorar different from gostar?",["It needs de twice","It takes no de: adoro samba","It only works with verbs","It is only for people"],1,"adorar goes straight to the thing: adoro samba, with no de."]
+      ["I like coffee. =",["Eu gosto café.","Me gosta café.","Eu gosto de café.","Eu gosto o café."],2,"‹gostar› always takes ‹de›: ‹gosto de café›."],
+      ["She likes the beach. =",["Ela gosta da praia.","Ela gosta do praia.","Ela gosta de a praia.","Ela gosta praia."],0,"‹de› + ‹a› = ‹da›, and ‹praia› is feminine."],
+      ["How is ‹adorar› different from ‹gostar›?",["It needs ‹de› twice","It takes no ‹de›: ‹adoro samba›","It only works with verbs","It is only for people"],1,"‹adorar› goes straight to the thing: ‹adoro samba›, with no ‹de›."]
     ],
     practice: [
-      ["mc","I like soccer. =","Eu gosto de futebol.","Eu gosto futebol.","Me gusta futebol.","Eu gosto o futebol.","gostar always takes de: gosto de futebol."],
-      ["mc","We like the city. =","Gostamos da cidade.","Gostamos do cidade.","Gostamos de a cidade.","Gostamos a cidade.","de + a = da, and cidade is feminine."],
-      ["mc","Você gosta de dançar? The natural short answer is…","Gosto!","Sim, gosta!","Gusto!","Sim, gostar!","Brazilians answer with the verb in the eu form: gosto!"],
-      ["mc","I love Brazilian music. =","Adoro música brasileira.","Adoro de música brasileira.","Adoro música brasileiro.","Adoro da música brasileira.","adorar takes no de, and brasileira agrees with música."],
-      ["mc","Não gosto de chuva. — Me neither. =","Nem eu.","Eu também.","Eu sim.","Também nem.","To agree with a negative: nem eu (or eu também não)."],
-      ["or","She likes the beach.","Ela gosta da praia","do","praia is feminine: de + a = da, the contraction agrees with it."],
-      ["or","They like movies.","Eles gostam de filmes","gosta","Eles takes the eles form: gostam."],
-      ["or","We like Brazil.","Nós gostamos do Brasil","de","Brasil takes o, so de + o = do: the contraction is required."],
-      ["fi","Eu gosto __ Rio.","I like Rio.","do","de|da|no","o Rio: de + o = do."],
-      ["fi","Você gosta __ ler?","Do you like to read?","de","do|a|em","Before a verb, plain de: gosta de ler."],
-      ["fi","Elas __ de música.","They like music.","gostam","gosta|gostamos|gosto","Elas takes the eles form: gostam."],
-      ["ty","I like Bahia.","Eu gosto da Bahia|Gosto da Bahia","gostar de · a Bahia","do","Bahia takes a, so de + a = da: the contraction agrees with it."],
-      ["ty","We like to dance.","Nós gostamos de dançar|Gostamos de dançar|A gente gosta de dançar","gostar de · dançar","gostam","The nós form is gostamos; a gente takes the ele form: gosta."],
-      ["ty","Do you like Brazilian food?","Você gosta de comida brasileira|Gosta de comida brasileira|Você gosta da comida brasileira|Gosta da comida brasileira","gostar de · a comida · brasileiro","brasileiro","comida is feminine, so brasileira agrees with it."]
+      ["mc","I like soccer. =","Eu gosto de futebol.","Eu gosto futebol.","Me gusta futebol.","Eu gosto o futebol.","‹gostar› always takes ‹de›: ‹gosto de futebol›."],
+      ["mc","We like the city. =","Gostamos da cidade.","Gostamos do cidade.","Gostamos de a cidade.","Gostamos a cidade.","‹de› + ‹a› = ‹da›, and ‹cidade› is feminine."],
+      ["mc","‹Você gosta de dançar?› The natural short answer is…","Gosto!","Sim, gosta!","Gusto!","Sim, gostar!","Brazilians answer with the verb in the ‹eu› form: ‹gosto!›"],
+      ["mc","I love Brazilian music. =","Adoro música brasileira.","Adoro de música brasileira.","Adoro música brasileiro.","Adoro da música brasileira.","‹adorar› takes no ‹de›, and ‹brasileira› agrees with ‹música›."],
+      ["mc","‹Não gosto de chuva›. — Me neither. =","Nem eu.","Eu também.","Eu sim.","Também nem.","To agree with a negative: ‹nem eu› (or ‹eu também não›)."],
+      ["or","She likes the beach.","Ela gosta da praia","do","‹praia› is feminine: ‹de› + ‹a› = ‹da›, the contraction agrees with it."],
+      ["or","They like movies.","Eles gostam de filmes","gosta","‹Eles› takes the ‹eles› form: ‹gostam›."],
+      ["or","We like Brazil.","Nós gostamos do Brasil","de","‹Brasil› takes ‹o›, so ‹de› + ‹o› = ‹do›: the contraction is required."],
+      ["fi","Eu gosto __ Rio.","I like Rio.","do","de|da|no","‹o Rio›: ‹de› + ‹o› = ‹do›."],
+      ["fi","Você gosta __ ler?","Do you like to read?","de","do|a|em","Before a verb, plain ‹de›: ‹gosta de ler›."],
+      ["fi","Elas __ de música.","They like music.","gostam","gosta|gostamos|gosto","‹Elas› takes the ‹eles› form: ‹gostam›."],
+      ["ty","I like Bahia.","Eu gosto da Bahia|Gosto da Bahia","‹gostar de› · ‹a Bahia›","do","‹Bahia› takes ‹a›, so ‹de› + ‹a› = ‹da›: the contraction agrees with it."],
+      ["ty","We like to dance.","Nós gostamos de dançar|Gostamos de dançar|A gente gosta de dançar","‹gostar de› · ‹dançar›","gostam","The ‹nós› form is ‹gostamos›; ‹a gente› takes the ‹ele› form: ‹gosta›."],
+      ["ty","Do you like Brazilian food?","Você gosta de comida brasileira|Gosta de comida brasileira|Você gosta da comida brasileira|Gosta da comida brasileira","‹gostar de› · ‹a comida› · ‹brasileiro›","brasileiro","‹comida› is feminine, so ‹brasileira› agrees with it."]
     ]
   }
 ];

@@ -181,7 +181,7 @@ function inventoryTarget(cfg) {
       how = 'own';
       if (ownW.has(x)) { if (TAGGED) lint.push([a, b, 'own', m[0]]); else add(a, b); } else if (DIA.test(x) || (x.length > 1 && !HOMO.has(x) && inLex(x))) { unmarked.push(m[0]); lint.push([a, b, 'lex', m[0]]); } }
     /* tagged: everything the old rules would have marked or reported, outside ‹…›, is reported (the release wants none) */
-    if (TAGGED) { unmarked.length = 0; lint.forEach(x => unmarked.push(x[3])); }
+    if (TAGGED) { unmarked.length = 0; if (extra && extra.lintOff) lint.length = 0; lint.forEach(x => unmarked.push(x[3])); }
     return { spans: spans.sort((x, y) => x[0] - y[0]).map(x => x[1]), unmarked, ranges: ranges.sort((x, y) => x[0] - y[0]), lint: lint.sort((x, y) => x[0] - y[0]) };
   }
 

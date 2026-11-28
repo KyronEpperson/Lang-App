@@ -183,7 +183,7 @@
     {
       "name": "Sounds and spelling",
       "group": "First steps",
-      "desc": "Words that show each spelling rule: c and g before e and i, ch, gn, gli, sc, z and double consonants"
+      "desc": "Words that show each spelling rule: ‹c› and ‹g› before ‹e› and ‹i›, ‹ch›, ‹gn›, ‹gli›, ‹sc›, ‹z› and double consonants"
     },
     {
       "name": "Greetings and courtesy",
@@ -248,7 +248,7 @@
     {
       "name": "Feelings and states",
       "group": "Conversation",
-      "desc": "How you feel, with essere, avere and stare"
+      "desc": "How you feel, with ‹essere›, ‹avere› and ‹stare›"
     },
     {
       "name": "Likes and free time",
@@ -283,12 +283,12 @@
     {
       "name": "Top nouns",
       "group": "Core words",
-      "desc": "The most-used nouns, with il, la, lo or l'"
+      "desc": "The most-used nouns, with ‹il›, ‹la›, ‹lo› or ‹l'›"
     },
     {
       "name": "Top verbs",
       "group": "Core words",
-      "desc": "The most-used verbs, with the io form and irregulars flagged"
+      "desc": "The most-used verbs, with the ‹io› form and irregulars flagged"
     },
     {
       "name": "Top adjectives",
@@ -298,7 +298,7 @@
     {
       "name": "Top adverbs",
       "group": "Core words",
-      "desc": "When, where, how and how much: già, sempre, qui, molto"
+      "desc": "When, where, how and how much: ‹già›, ‹sempre›, ‹qui›, ‹molto›"
     },
     {
       "name": "Top pronouns",
@@ -308,17 +308,17 @@
     {
       "name": "Top prepositions",
       "group": "Core words",
-      "desc": "di, a, da, in, con, per and the rest, with the contracted forms"
+      "desc": "‹di›, ‹a›, ‹da›, ‹in›, ‹con›, ‹per› and the rest, with the contracted forms"
     },
     {
       "name": "Top conjunctions",
       "group": "Core words",
-      "desc": "The small words that join ideas: che, se, però, quindi, mentre"
+      "desc": "The small words that join ideas: ‹che›, ‹se›, ‹però›, ‹quindi›, ‹mentre›"
     },
     {
       "name": "Top interjections",
       "group": "Core words",
-      "desc": "What Italians really exclaim: boh, dai, magari, mamma mia"
+      "desc": "What Italians really exclaim: ‹boh›, ‹dai›, ‹magari›, ‹mamma mia›"
     },
     {
       "name": "Top words",

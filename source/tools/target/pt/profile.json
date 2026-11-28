@@ -189,7 +189,7 @@
     {
       "name": "Sounds and spelling",
       "group": "First steps",
-      "desc": "Words that show each sound rule: nasal vowels, lh and nh, final l, t and d before i, r and rr"
+      "desc": "Words that show each sound rule: nasal vowels, ‹lh› and ‹nh›, final ‹l›, ‹t› and ‹d› before ‹i›, ‹r› and ‹rr›"
     },
     {
       "name": "Greetings and courtesy",
@@ -209,7 +209,7 @@
     {
       "name": "Numbers, time and prices",
       "group": "Everyday words",
-      "desc": "Numbers to 1,000, telling the time, prices in reais and dollars"
+      "desc": "Numbers to 1,000, telling the time, prices in ‹reais› and dollars"
     },
     {
       "name": "Days, dates and weather",
@@ -219,7 +219,7 @@
     {
       "name": "Food and drink",
       "group": "Everyday words",
-      "desc": "Ordering at a café, a restaurant or a por-quilo buffet; everyday food and drinks"
+      "desc": "Ordering at a café, a restaurant or a ‹por-quilo› buffet; everyday food and drinks"
     },
     {
       "name": "Shopping and clothes",
@@ -254,7 +254,7 @@
     {
       "name": "Feelings and states",
       "group": "Conversation",
-      "desc": "How you feel, with estar and estar com"
+      "desc": "How you feel, with ‹estar› and ‹estar com›"
     },
     {
       "name": "Likes and free time",
@@ -274,7 +274,7 @@
     {
       "name": "Spoken Brazilian Portuguese",
       "group": "Watch out",
-      "desc": "Everyday spoken forms you will hear: tô, tá, pra, a gente, né, and pronouns before the verb"
+      "desc": "Everyday spoken forms you will hear: ‹tô›, ‹tá›, ‹pra›, ‹a gente›, ‹né›, and pronouns before the verb"
     },
     {
       "name": "Compliments",
@@ -289,12 +289,12 @@
     {
       "name": "Top nouns",
       "group": "Core words",
-      "desc": "The most-used nouns, with o or a"
+      "desc": "The most-used nouns, with ‹o› or ‹a›"
     },
     {
       "name": "Top verbs",
       "group": "Core words",
-      "desc": "The most-used verbs, with the eu form and irregulars flagged"
+      "desc": "The most-used verbs, with the ‹eu› form and irregulars flagged"
     },
     {
       "name": "Top adjectives",
@@ -309,22 +309,22 @@
     {
       "name": "Top pronouns",
       "group": "Core words",
-      "desc": "I, you, mine, this, who, someone: the whole useful set, with você and o senhor"
+      "desc": "I, you, mine, this, who, someone: the whole useful set, with ‹você› and ‹o senhor›"
     },
     {
       "name": "Top prepositions",
       "group": "Core words",
-      "desc": "de, em, para, por, com and the rest, with the contractions no, na, do, da, pelo"
+      "desc": "‹de›, ‹em›, ‹para›, ‹por›, ‹com› and the rest, with the contractions ‹no›, ‹na›, ‹do›, ‹da›, ‹pelo›"
     },
     {
       "name": "Top conjunctions",
       "group": "Core words",
-      "desc": "Joining words beyond e, mas, ou, porque: that, if, while, so, than"
+      "desc": "Joining words beyond ‹e›, ‹mas›, ‹ou›, ‹porque›: that, if, while, so, than"
     },
     {
       "name": "Top interjections",
       "group": "Core words",
-      "desc": "What Brazilians really exclaim: Nossa!, Ai!, Eita!, Ué!"
+      "desc": "What Brazilians really exclaim: ‹Nossa!›, ‹Ai!›, ‹Eita!›, ‹Ué!›"
     },
     {
       "name": "Top words",

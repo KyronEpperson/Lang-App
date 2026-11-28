@@ -1,6 +1,6 @@
 # Target-text tags: the course says which words are the language being taught
 
-**Status (2026-11-28, 2.142.0):** live on en-es (Spanish for English speakers): 3,058 tagged runs in 1,479 fields, 4,069 marks with the positional ones; a script draft, then five Opus readers on every line (667 fields corrected). Other courses are untouched until the owner says to roll it out.
+**Status (2026-11-28, 2.143.0):** live on en-es (2.142.0: 3,058 tagged runs) and on en-fr, en-de, en-pt, en-it (2.143.0: 3,726 / 3,345 / 3,028 / 2,848 runs). Each course: a script draft, then Opus readers on every line. Next in the owner's order: the English-for-X and X-to-English courses (need a marks mechanism in `tools/content/` first), Vietnamese, id, tl, ceb, hmn, en-espr / en-esdo.
 
 ## 1. The problem
 
@@ -52,5 +52,7 @@ Positions that are target text by themselves need no tag: card fronts, dialogue 
 1. `tags.js propose <t>` with the target still untagged, then set `tagged: true` in `tools/halves/targets/<t>.js` and `tags.js apply`.
 2. Opus judges read every line against §3 (one reader per 50k characters; sheets by `tags.js sheet`) and return corrected rows; `apply` proves each is tag-only.
 3. `lint` 0, export, proof 0 differences, validate 0 errors, `node tools/tests/tags.js`. The app needs no switch: it highlights any course whose text carries tags (`tlOn`).
-4. Names and loan words an English sentence keeps go in `proseOk` / `names` of the target file, never in `homographs` (that list also classifies quiz options).
+4. Names, loan words and English look-alikes (`in`, `so`, `no`) an English sentence keeps go in `proseOk` / `names` of the target file, never in `homographs` (that list also classifies quiz options). After the judges, whatever the lint still reports is that list. The lint then no longer catches those words when they are meant as the target language.
+4a. After the judges: `tags.js bodyfix <t> <draft>.orig.jsonl <out>` and `apply` it (taught terms back to `<b>`, English bold to `<strong>`); read its `strong:` lines, target words the lexicon does not know land there and must go back to `<b>`. Compare `tools/sections/dump.js en-<t> --json` before and after.
+4b. Never tag deck names, group names or labels (they are keys), nor translations and glosses.
 5. Script-mode targets (Korean, Chinese, Japanese, Thai, Arabic …) already tell target text by script; tags there are optional and only buy the tap-to-hear highlight for Latin-script learners' notes.

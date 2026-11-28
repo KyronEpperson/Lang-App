@@ -6,12 +6,12 @@ module.exports = [
     blurb: "Describe your day, from waking up to getting dressed, and say what you and others are called.",
     deck: "Home and routine",
     body: `
-<p>English says "I get up", "I wash", "I get dressed" and leaves out the "myself". Italian says it every time: <b>mi alzo</b> is literally "I get myself up". Verbs that work like this are called <b>reflexive verbs</b>, and the small word in front is the <b>reflexive pronoun</b>.</p>
+<p>English says "I get up", "I wash", "I get dressed" and leaves out the "myself". Italian says it every time: <b>mi alzo</b> is literally "I get myself up". Verbs that work like this are called <strong>reflexive verbs</strong>, and the small word in front is the <strong>reflexive pronoun</strong>.</p>
 <h3>Spotting them</h3>
 <p>In the dictionary a reflexive verb ends in <b>-si</b>: <b>alzarsi</b> (to get up), <b>svegliarsi</b> (to wake up), <b>lavarsi</b> (to wash), <b>vestirsi</b> (to get dressed), <b>chiamarsi</b> (to be called). Drop the <b>-si</b> and you have an ordinary verb with the usual endings.</p>
 <h3>Two things match the subject</h3>
 <p>The pronoun changes with the person, and so does the verb ending. Both have to match the subject.</p>
-<div class="tbl"><table><tr><th>Who</th><th>alzarsi</th><th>English</th></tr><tr><td class="k">io</td><td class="k">mi alzo</td><td>I get up</td></tr><tr><td class="k">tu</td><td class="k">ti alzi</td><td>you get up</td></tr><tr><td class="k">lui, lei, Lei</td><td class="k">si alza</td><td>he, she gets up; you get up (formal)</td></tr><tr><td class="k">noi</td><td class="k">ci alziamo</td><td>we get up</td></tr><tr><td class="k">voi</td><td class="k">vi alzate</td><td>you all get up</td></tr><tr><td class="k">loro</td><td class="k">si alzano</td><td>they get up</td></tr></table></div>
+<div class="tbl"><table><tr><th>Who</th><th>‹alzarsi›</th><th>English</th></tr><tr><td class="k">io</td><td class="k">mi alzo</td><td>I get up</td></tr><tr><td class="k">tu</td><td class="k">ti alzi</td><td>you get up</td></tr><tr><td class="k">lui, lei, Lei</td><td class="k">si alza</td><td>he, she gets up; you get up (formal)</td></tr><tr><td class="k">noi</td><td class="k">ci alziamo</td><td>we get up</td></tr><tr><td class="k">voi</td><td class="k">vi alzate</td><td>you all get up</td></tr><tr><td class="k">loro</td><td class="k">si alzano</td><td>they get up</td></tr></table></div>
 {{ex:Mi alzo alle sette.|mee AHL-tsoh AHL-leh SEHT-teh|I get up at seven.}}
 {{ex:A che ora ti svegli?|ah keh OH-rah tee ZVEH-lyee|What time do you wake up?}}
 {{ex:Vi alzate alle otto?|vee ahl-TSAH-teh AHL-leh OHT-toh|Do you all get up at eight?}}
@@ -28,37 +28,37 @@ module.exports = [
 <p><b>Mi faccio la doccia</b> is the usual way to say "I take a shower". <b>Ci vediamo!</b> ("we see each other") means "See you!", and you can add a time: <b>Ci vediamo domani!</b></p>
 {{ex:Mi faccio la doccia e mi vesto.|mee FAHT-choh lah DOHT-chah eh mee VEHS-toh|I take a shower and get dressed.}}
 {{ex:Ci vediamo domani!|chee veh-DYAH-moh doh-MAH-nee|See you tomorrow!}}
-<div class="tip"><b>Most common mistake:</b> leaving out the pronoun, as in English. <b>Alzo alle sette</b> → <b>Mi alzo alle sette</b>. And remember: <b>Chiamo Emma</b> (I'm calling Emma) → <b>Mi chiamo Emma</b> (My name is Emma).</div>
+<div class="tip"><strong>Most common mistake:</strong> leaving out the pronoun, as in English. <b>Alzo alle sette</b> → <b>Mi alzo alle sette</b>. And remember: <b>Chiamo Emma</b> (I'm calling Emma) → <b>Mi chiamo Emma</b> (My name is Emma).</div>
 `,
     check: [
-      ["\"My name is Emma\" is…", ["Mi chiamo Emma.", "Chiamo Emma.", "Io chiamo Emma.", "Mi chiama Emma."], 0, "chiamarsi is reflexive: mi chiamo. Chiamo Emma means I'm calling Emma."],
-      ["\"We get up at seven\" is…", ["Ci alzo alle sette.", "Si alziamo alle sette.", "Ci alziamo alle sette.", "Alziamo alle sette."], 2, "With noi, both parts match: ci and the -iamo ending."],
-      ["\"I have to get up at six\" is…", ["Devo alzare alle sei.", "Devo alzarmi alle sei.", "Devo mi alzare alle sei.", "Devo alzarsi alle sei."], 1, "The pronoun joins the infinitive and matches io: alzarmi. Mi devo alzare is also right."]
+      ["\"My name is Emma\" is…",["Mi chiamo Emma.","Chiamo Emma.","Io chiamo Emma.","Mi chiama Emma."],0,"‹chiamarsi› is reflexive: ‹mi chiamo›. ‹Chiamo Emma› means I'm calling Emma."],
+      ["\"We get up at seven\" is…",["Ci alzo alle sette.","Si alziamo alle sette.","Ci alziamo alle sette.","Alziamo alle sette."],2,"With ‹noi›, both parts match: ‹ci› and the ‹-iamo› ending."],
+      ["\"I have to get up at six\" is…",["Devo alzare alle sei.","Devo alzarmi alle sei.","Devo mi alzare alle sei.","Devo alzarsi alle sei."],1,"The pronoun joins the infinitive and matches ‹io›: ‹alzarmi›. ‹Mi devo alzare› is also right."]
     ],
     practice: [
-      ["mc", "\"I wake up at seven\" =", "Mi sveglio alle sette.", "Sveglio alle sette.", "Io sveglio alle sette.", "Si sveglio alle sette.", "svegliarsi is reflexive, and with io the pronoun is mi."],
-      ["mc", "\"What's your sister's name?\" (to a friend) =", "Come si chiama tua sorella?", "Come ti chiama tua sorella?", "Come chiama tua sorella?", "Come si chiamano tua sorella?", "Your sister is she, so si chiama."],
-      ["mc", "\"See you tomorrow!\" =", "Ci vediamo domani!", "Si vediamo domani!", "Ci vedo domani!", "Mi vediamo domani!", "Ci vediamo: we see each other, so ci with the noi form."],
-      ["mc", "\"I have to get up at six\" =", "Devo alzarmi alle sei.", "Devo alzare alle sei.", "Devo alzarsi alle sei.", "Devo mi alzare alle sei.", "The pronoun joins the infinitive and matches io: alzarmi."],
-      ["mc", "\"My name is Jack\" =", "Mi chiamo Jack.", "Chiamo Jack.", "Io chiamo Jack.", "Mi chiama Jack.", "Without mi, chiamo Jack means I'm calling Jack."],
-      ["or", "We wash our hands", "Ci laviamo le mani", "si lavano", "Ci laviamo: the noi form, so the pronoun and the verb ending match the subject."],
-      ["or", "Her name is Chiara", "Si chiama Chiara", "mi chiamo", "For she, use the lui/lei form: si chiama."],
-      ["or", "I want to wash my hands", "Voglio lavarmi le mani", "lavarsi", "lavarmi: mi matches the io form voglio, joined to the infinitive."],
-      ["fi", "Come ti __?", "What's your name? (to a friend)", "chiami", "chiamo|chiama|chiamate", "ti goes with the tu form, which ends in -i: ti chiami."],
-      ["fi", "Mia madre si __ alle sei.", "My mother gets up at six.", "alza", "alzo|alzi|alzano", "My mother is she: si alza."],
-      ["fi", "Ragazzi, a che ora __ alzate?", "Guys, what time do you get up?", "vi", "ci|si|ti", "alzate is the voi form, so the pronoun is vi."],
-      ["ty", "We get up at seven", "Ci alziamo alle sette|Noi ci alziamo alle sette|Alle sette ci alziamo|Alle sette noi ci alziamo", "alzarsi · alle sette", "alzano si", "The noi form: ci alziamo. The verb ending matches the subject."],
-      ["ty", "What's your name? (to a friend)", "Come ti chiami?|Tu come ti chiami?|Come ti chiami tu?", "chiamarsi · come", "chiama si", "The tu form: ti chiami, ending in -i."],
-      ["ty", "My name is Megan (use chiamarsi)", "Mi chiamo Megan|Io mi chiamo Megan", "chiamarsi · don't forget the pronoun", "chiama", "Chiamo Megan alone means I'm calling Megan; mi chiamo means my name is."]
+      ["mc","\"I wake up at seven\" =","Mi sveglio alle sette.","Sveglio alle sette.","Io sveglio alle sette.","Si sveglio alle sette.","‹svegliarsi› is reflexive, and with ‹io› the pronoun is ‹mi›."],
+      ["mc","\"What's your sister's name?\" (to a friend) =","Come si chiama tua sorella?","Come ti chiama tua sorella?","Come chiama tua sorella?","Come si chiamano tua sorella?","Your sister is she, so ‹si chiama›."],
+      ["mc","\"See you tomorrow!\" =","Ci vediamo domani!","Si vediamo domani!","Ci vedo domani!","Mi vediamo domani!","‹Ci vediamo›: we see each other, so ‹ci› with the ‹noi› form."],
+      ["mc","\"I have to get up at six\" =","Devo alzarmi alle sei.","Devo alzare alle sei.","Devo alzarsi alle sei.","Devo mi alzare alle sei.","The pronoun joins the infinitive and matches ‹io›: ‹alzarmi›."],
+      ["mc","\"My name is Jack\" =","Mi chiamo Jack.","Chiamo Jack.","Io chiamo Jack.","Mi chiama Jack.","Without ‹mi›, ‹chiamo Jack› means I'm calling Jack."],
+      ["or","We wash our hands","Ci laviamo le mani","si lavano","‹Ci laviamo›: the ‹noi› form, so the pronoun and the verb ending match the subject."],
+      ["or","Her name is Chiara","Si chiama Chiara","mi chiamo","For she, use the ‹lui›/‹lei› form: ‹si chiama›."],
+      ["or","I want to wash my hands","Voglio lavarmi le mani","lavarsi","‹lavarmi›: ‹mi› matches the ‹io› form ‹voglio›, joined to the infinitive."],
+      ["fi","Come ti __?","What's your name? (to a friend)","chiami","chiamo|chiama|chiamate","‹ti› goes with the ‹tu› form, which ends in ‹-i›: ‹ti chiami›."],
+      ["fi","Mia madre si __ alle sei.","My mother gets up at six.","alza","alzo|alzi|alzano","My mother is she: ‹si alza›."],
+      ["fi","Ragazzi, a che ora __ alzate?","Guys, what time do you get up?","vi","ci|si|ti","‹alzate› is the ‹voi› form, so the pronoun is ‹vi›."],
+      ["ty","We get up at seven","Ci alziamo alle sette|Noi ci alziamo alle sette|Alle sette ci alziamo|Alle sette noi ci alziamo","‹alzarsi› · ‹alle sette›","alzano si","The ‹noi› form: ‹ci alziamo›. The verb ending matches the subject."],
+      ["ty","What's your name? (to a friend)","Come ti chiami?|Tu come ti chiami?|Come ti chiami tu?","‹chiamarsi› · ‹come›","chiama si","The ‹tu› form: ‹ti chiami›, ending in ‹-i›."],
+      ["ty","My name is Megan (use ‹chiamarsi›)","Mi chiamo Megan|Io mi chiamo Megan","‹chiamarsi› · don't forget the pronoun","chiama","‹Chiamo Megan› alone means I'm calling Megan; ‹mi chiamo› means my name is."]
     ]
   },
   {
     id: "lo-la",
-    title: "Object pronouns: lo, la, li, le",
-    blurb: "Say \"it\", \"them\", \"him\" and \"her\" without repeating the noun: Lo prendo, Posso provarla?",
+    title: "Object pronouns: ‹lo›, ‹la›, ‹li›, ‹le›",
+    blurb: "Say \"it\", \"them\", \"him\" and \"her\" without repeating the noun: ‹Lo prendo›, ‹Posso provarla?›",
     deck: "Shopping and clothes",
     body: `
-<p>In a shop, English says "I'll take it" and puts "it" after the verb. Italian uses <b>lo, la, li, le</b> and puts them before the verb: <b>Lo prendo</b>. These are <b>direct object pronouns</b>. Two things are new, so take them one at a time.</p>
+<p>In a shop, English says "I'll take it" and puts "it" after the verb. Italian uses <b>lo</b>, <b>la</b>, <b>li</b>, <b>le</b> and puts them before the verb: <b>Lo prendo</b>. These are <strong>direct object pronouns</strong>. Two things are new, so take them one at a time.</p>
 <h3>Four words for "it" and "them"</h3>
 <p>Italian has no neutral "it". The pronoun agrees in gender and number with the noun it replaces, just as an article does. The same words also mean "him", "her" and "them" for people.</p>
 <div class="tbl"><table><tr><th>The noun</th><th>The pronoun</th><th>English</th></tr><tr><td class="k">il maglione, Marco</td><td class="k">lo</td><td>it, him</td></tr><tr><td class="k">la giacca, Giulia</td><td class="k">la</td><td>it, her</td></tr><tr><td class="k">i pantaloni</td><td class="k">li</td><td>them</td></tr><tr><td class="k">le scarpe</td><td class="k">le</td><td>them (all feminine)</td></tr></table></div>
@@ -73,98 +73,98 @@ module.exports = [
 <h3>People</h3>
 <p>For a person, use the same words: <b>lo</b> for a man, <b>la</b> for a woman.</p>
 {{ex:Chiami Marco? Sì, lo chiamo domani.|KYAH-mee MAHR-koh see loh KYAH-moh doh-MAH-nee|Are you calling Marco? Yes, I'll call him tomorrow.}}
-<h3>Before a vowel: l'</h3>
-<p>Before a verb that starts with a vowel or h, <b>lo</b> and <b>la</b> often lose their vowel: <b>l'aspetto</b>. <b>Lo aspetto</b> is also correct. <b>Li</b> and <b>le</b> never do this.</p>
+<h3>Before a vowel: ‹l'›</h3>
+<p>Before a verb that starts with a vowel or ‹h›, <b>lo</b> and <b>la</b> often lose their vowel: <b>l'aspetto</b>. <b>Lo aspetto</b> is also correct. <b>Li</b> and <b>le</b> never do this.</p>
 {{ex:Giulia? L'aspetto al bar.|JOO-lyah lahs-PEHT-toh ahl bahr|Giulia? I'll wait for her at the café.}}
 <h3>With an infinitive: two places</h3>
 <p>After <b>posso</b>, <b>devo</b> or <b>voglio</b>, the pronoun can join the end of the infinitive, like <b>mi</b> in <b>alzarmi</b>. It can also go before the conjugated verb. Both are right.</p>
 {{ex:Posso provarla?|POHS-soh proh-VAHR-lah|Can I try it on?}}
 {{ex:La posso provare?|lah POHS-soh proh-VAH-reh|Can I try it on?}}
-<div class="tip"><b>Most common mistake:</b> putting the pronoun after the verb, as in English: <b>Prendo lo</b> → <b>Lo prendo</b>. The next one is using lo for everything: <b>La borsa? Lo prendo</b> → <b>La borsa? La prendo</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> putting the pronoun after the verb, as in English: <b>Prendo lo</b> → <b>Lo prendo</b>. The next one is using ‹lo› for everything: <b>La borsa? Lo prendo</b> → <b>La borsa? La prendo</b>.</div>
 `,
     check: [
-      ["\"La borsa? ___ prendo.\" Which word fits?", ["Lo", "La", "Li", "Le"], 1, "borsa is feminine and singular, so la."],
-      ["\"The shoes? I'll take them.\" is…", ["Le scarpe? Prendo le.", "Le scarpe? Li prendo.", "Le scarpe? Le prendo.", "Le scarpe? Lo prendo."], 2, "scarpe is feminine plural, so le, and it goes before the verb."],
-      ["\"Can I try it on?\" (il maglione) is…", ["Posso provarlo?", "Posso provarla?", "Posso lo provare?", "Posso provare lo?"], 0, "maglione is masculine, so lo, joined to the infinitive. Lo posso provare? is also right."]
+      ["\"‹La borsa?› ___ ‹prendo›.\" Which word fits?",["Lo","La","Li","Le"],1,"‹borsa› is feminine and singular, so ‹la›."],
+      ["\"The shoes? I'll take them.\" is…",["Le scarpe? Prendo le.","Le scarpe? Li prendo.","Le scarpe? Le prendo.","Le scarpe? Lo prendo."],2,"‹scarpe› is feminine plural, so ‹le›, and it goes before the verb."],
+      ["\"Can I try it on?\" (‹il maglione›) is…",["Posso provarlo?","Posso provarla?","Posso lo provare?","Posso provare lo?"],0,"‹maglione› is masculine, so ‹lo›, joined to the infinitive. ‹Lo posso provare?› is also right."]
     ],
     practice: [
-      ["mc", "\"The sweater? I'll take it.\" =", "Il maglione? Lo prendo.", "Il maglione? La prendo.", "Il maglione? Prendo lo.", "Il maglione? Prendo il.", "il maglione becomes lo, placed before the verb."],
-      ["mc", "\"The pants? I'll buy them.\" =", "I pantaloni? Li compro.", "I pantaloni? Le compro.", "I pantaloni? Lo compro.", "I pantaloni? Compro li.", "pantaloni is masculine plural, so li, before the verb."],
-      ["mc", "\"Marco? I'll call him tomorrow.\" =", "Marco? Lo chiamo domani.", "Marco? La chiamo domani.", "Marco? Chiamo lo domani.", "Marco? Li chiamo domani.", "Him is lo, and it goes before the verb."],
-      ["mc", "\"The keys? I don't have them.\" =", "Le chiavi? Non le ho.", "Le chiavi? Non li ho.", "Le chiavi? Le non ho.", "Le chiavi? Non ho le.", "non first, then the pronoun, then the verb; chiavi takes le."],
-      ["mc", "\"Can I try it on?\" (la giacca) =", "Posso provarla?", "Posso provarlo?", "Posso la provare?", "Posso provare la?", "la joins the end of the infinitive: provarla."],
-      ["or", "The white shirt? I'll take it", "La prendo", "Lo Li", "camicia is feminine, so the pronoun is la."],
-      ["or", "The shoes? I'm not buying them", "Non le compro", "li lo", "scarpe is feminine plural, so the pronoun agrees: le."],
-      ["or", "The sweater? I don't want it", "Non lo voglio", "la li", "maglione is masculine, so the pronoun agrees: lo."],
-      ["fi", "I biglietti? __ compro io.", "The tickets? I'll buy them.", "Li", "Lo|La|Le", "biglietti is masculine plural, so li."],
-      ["fi", "La borsa? Non __ prendo.", "The bag? I'm not taking it.", "la", "lo|le|li", "la borsa becomes la."],
-      ["fi", "Le scarpe? Posso __?", "The shoes? Can I try them on?", "provarle", "provarli|provarla|provare le", "scarpe is feminine plural, so le, joined to the infinitive."],
-      ["ty", "I'll take it (la giacca)", "La prendo|Io la prendo", "prendere · la giacca", "Lo", "giacca is feminine, so the pronoun is la."],
-      ["ty", "Can I try them on? (i pantaloni)", "Posso provarli?|Li posso provare?", "potere · provare · i pantaloni", "provarle", "pantaloni is masculine plural, so the pronoun agrees: li."],
-      ["ty", "We're not buying it (il maglione)", "Non lo compriamo|Noi non lo compriamo", "comprare · non · il maglione", "la comprano", "lo agrees with maglione (masculine), and compriamo is the noi form."]
+      ["mc","\"The sweater? I'll take it.\" =","Il maglione? Lo prendo.","Il maglione? La prendo.","Il maglione? Prendo lo.","Il maglione? Prendo il.","‹il maglione› becomes ‹lo›, placed before the verb."],
+      ["mc","\"The pants? I'll buy them.\" =","I pantaloni? Li compro.","I pantaloni? Le compro.","I pantaloni? Lo compro.","I pantaloni? Compro li.","‹pantaloni› is masculine plural, so ‹li›, before the verb."],
+      ["mc","\"Marco? I'll call him tomorrow.\" =","Marco? Lo chiamo domani.","Marco? La chiamo domani.","Marco? Chiamo lo domani.","Marco? Li chiamo domani.","Him is ‹lo›, and it goes before the verb."],
+      ["mc","\"The keys? I don't have them.\" =","Le chiavi? Non le ho.","Le chiavi? Non li ho.","Le chiavi? Le non ho.","Le chiavi? Non ho le.","‹non› first, then the pronoun, then the verb; ‹chiavi› takes ‹le›."],
+      ["mc","\"Can I try it on?\" (‹la giacca›) =","Posso provarla?","Posso provarlo?","Posso la provare?","Posso provare la?","‹la› joins the end of the infinitive: ‹provarla›."],
+      ["or","The white shirt? I'll take it","La prendo","Lo Li","‹camicia› is feminine, so the pronoun is ‹la›."],
+      ["or","The shoes? I'm not buying them","Non le compro","li lo","‹scarpe› is feminine plural, so the pronoun agrees: ‹le›."],
+      ["or","The sweater? I don't want it","Non lo voglio","la li","‹maglione› is masculine, so the pronoun agrees: ‹lo›."],
+      ["fi","I biglietti? __ compro io.","The tickets? I'll buy them.","Li","Lo|La|Le","‹biglietti› is masculine plural, so ‹li›."],
+      ["fi","La borsa? Non __ prendo.","The bag? I'm not taking it.","la","lo|le|li","‹la borsa› becomes ‹la›."],
+      ["fi","Le scarpe? Posso __?","The shoes? Can I try them on?","provarle","provarli|provarla|provare le","‹scarpe› is feminine plural, so ‹le›, joined to the infinitive."],
+      ["ty","I'll take it (‹la giacca›)","La prendo|Io la prendo","‹prendere› · ‹la giacca›","Lo","‹giacca› is feminine, so the pronoun is ‹la›."],
+      ["ty","Can I try them on? (‹i pantaloni›)","Posso provarli?|Li posso provare?","‹potere› · ‹provare› · ‹i pantaloni›","provarle","‹pantaloni› is masculine plural, so the pronoun agrees: ‹li›."],
+      ["ty","We're not buying it (‹il maglione›)","Non lo compriamo|Noi non lo compriamo","‹comprare› · ‹non› · ‹il maglione›","la comprano","‹lo› agrees with ‹maglione› (masculine), and ‹compriamo› is the ‹noi› form."]
     ]
   },
   {
     id: "imperative",
-    title: "Imperative and vorrei: ordering and asking",
-    blurb: "Order politely with vorrei, tell a friend what to do (or not to do), and understand what staff and strangers tell you.",
+    title: "Imperative and ‹vorrei›: ordering and asking",
+    blurb: "Order politely with ‹vorrei›, tell a friend what to do (or not to do), and understand what staff and strangers tell you.",
     deck: "Café and menu Italian",
     body: `
-<p>In English, "I want a coffee" sounds abrupt to a waiter, so you say "I'd like". Italian works the same way, and it also has short command forms, called the <b>imperative</b>, for telling people what to do.</p>
-<h3>Ordering: vorrei</h3>
+<p>In English, "I want a coffee" sounds abrupt to a waiter, so you say "I'd like". Italian works the same way, and it also has short command forms, called the <strong>imperative</strong>, for telling people what to do.</p>
+<h3>Ordering: ‹vorrei›</h3>
 <p><b>Vorrei</b> means "I would like". It is the polite way to order or ask for anything. <b>Voglio</b> (I want) to a waiter sounds like a demand. <b>Vorrei</b> works with a noun or with an infinitive.</p>
 <p>Add <b>per favore</b> at the end, say <b>grazie</b> when your order arrives, and you will sound perfectly polite. In a busy café you can even just name the thing you want and add <b>per favore</b>.</p>
 {{ex:Vorrei un cappuccino, per favore.|vohr-RAY oon kahp-poot-CHEE-noh pehr fah-VOH-reh|I'd like a cappuccino, please.}}
 {{ex:Vorrei pagare.|vohr-RAY pah-GAH-reh|I'd like to pay.}}
-<h3>Telling a friend: the tu imperative</h3>
-<p>For <b>-are</b> verbs, the command ends in <b>-a</b>: <b>guarda!</b> (look!), <b>scusa!</b> (sorry!), <b>aspetta!</b> (wait!). For <b>-ere</b> and <b>-ire</b> verbs it ends in <b>-i</b>, the same as the tu form: <b>prendi</b> (take), <b>senti</b> (listen).</p>
+<h3>Telling a friend: the ‹tu› imperative</h3>
+<p>For <b>-are</b> verbs, the command ends in <b>-a</b>: <b>guarda!</b> (look!), <b>scusa!</b> (sorry!), <b>aspetta!</b> (wait!). For <b>-ere</b> and <b>-ire</b> verbs it ends in <b>-i</b>, the same as the ‹tu› form: <b>prendi</b> (take), <b>senti</b> (listen).</p>
 {{ex:Aspetta un momento!|ahs-PEHT-tah oon moh-MEHN-toh|Wait a moment!}}
 {{ex:Prendi un cornetto!|PREHN-dee oon kohr-NEHT-toh|Have a croissant!}}
 <p>English adds "don't" for a negative command. For one friend, Italian uses <b>non</b> plus the infinitive: <b>non toccare</b> (don't touch), never <b>non tocca</b>.</p>
 {{ex:Non toccare il mio gelato!|nohn tohk-KAH-reh eel MEE-oh jeh-LAH-toh|Don't touch my ice cream!}}
-<h3>Let's…: the noi form</h3>
-<p>English says "let's go". Italian simply uses the noi form of the present, with no extra word.</p>
+<h3>Let's…: the ‹noi› form</h3>
+<p>English says "let's go". Italian simply uses the ‹noi› form of the present, with no extra word.</p>
 {{ex:Andiamo al bar!|ahn-DYAH-moh ahl bahr|Let's go to the café!}}
-<h3>What you will hear: the Lei imperative</h3>
+<h3>What you will hear: the ‹Lei› imperative</h3>
 <p>Waiters, shop assistants and strangers giving directions speak to you with <b>Lei</b>, and its command endings are swapped: <b>-are</b> verbs end in <b>-i</b> (<b>giri</b>, turn; <b>scusi</b>, excuse me) and <b>-ere</b> and <b>-ire</b> verbs end in <b>-a</b> (<b>prenda</b>, take; <b>senta</b>, listen). You mostly need to understand these for now.</p>
-<div class="tbl"><table><tr><th></th><th>To a friend (tu)</th><th>To a stranger (Lei)</th></tr><tr><td>Excuse me!</td><td class="k">Scusa!</td><td class="k">Mi scusi!</td></tr><tr><td>Look!</td><td class="k">Guarda!</td><td class="k">Guardi!</td></tr><tr><td>Take…</td><td class="k">Prendi…</td><td class="k">Prenda…</td></tr><tr><td>Listen!</td><td class="k">Senti!</td><td class="k">Senta!</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>To a friend (‹tu›)</th><th>To a stranger (‹Lei›)</th></tr><tr><td>Excuse me!</td><td class="k">Scusa!</td><td class="k">Mi scusi!</td></tr><tr><td>Look!</td><td class="k">Guarda!</td><td class="k">Guardi!</td></tr><tr><td>Take…</td><td class="k">Prendi…</td><td class="k">Prenda…</td></tr><tr><td>Listen!</td><td class="k">Senti!</td><td class="k">Senta!</td></tr></table></div>
 {{ex:Prego, si accomodi.|PREH-goh see ahk-KOH-moh-dee|Please, have a seat.}}
 {{ex:Giri a sinistra.|JEE-ree ah see-NEES-trah|Turn left.}}
 <p><b>Prego</b> is everywhere: "you're welcome", "go ahead", "please come in" and, from a waiter, "what can I get you?".</p>
-<div class="tip"><b>Most common mistakes:</b> ordering with voglio: <b>Voglio un caffè</b> → <b>Vorrei un caffè</b>. And a negative command with the wrong form: <b>Non tocca!</b> → <b>Non toccare!</b></div>
+<div class="tip"><strong>Most common mistakes:</strong> ordering with ‹voglio›: <b>Voglio un caffè</b> → <b>Vorrei un caffè</b>. And a negative command with the wrong form: <b>Non tocca!</b> → <b>Non toccare!</b></div>
 `,
     check: [
-      ["Which is the polite way to order a coffee?", ["Vorrei un caffè.", "Voglio un caffè.", "Io voglio caffè.", "Vorrei uno caffè."], 0, "vorrei (I would like) is polite; voglio sounds like a demand."],
-      ["\"Don't touch!\" (to a friend) is…", ["Non tocca!", "Non toccare!", "Tocca non!", "Non tocco!"], 1, "A negative command to one friend is non + infinitive."],
-      ["A waiter says \"Prego, si accomodi.\" He means…", ["Please pay at the register.", "What would you like?", "You're welcome, goodbye.", "Please, have a seat."], 3, "si accomodi is the Lei imperative: make yourself comfortable, have a seat."]
+      ["Which is the polite way to order a coffee?",["Vorrei un caffè.","Voglio un caffè.","Io voglio caffè.","Vorrei uno caffè."],0,"‹vorrei› (I would like) is polite; ‹voglio› sounds like a demand."],
+      ["\"Don't touch!\" (to a friend) is…",["Non tocca!","Non toccare!","Tocca non!","Non tocco!"],1,"A negative command to one friend is ‹non› + infinitive."],
+      ["A waiter says \"‹Prego, si accomodi›.\" He means…",["Please pay at the register.","What would you like?","You're welcome, goodbye.","Please, have a seat."],3,"‹si accomodi› is the ‹Lei› imperative: make yourself comfortable, have a seat."]
     ],
     practice: [
-      ["mc", "\"I'd like a cappuccino\" (politely, to a waiter) =", "Vorrei un cappuccino.", "Voglio un cappuccino.", "Vorrei uno cappuccino.", "Vorrei una cappuccino.", "vorrei is the polite way to order, and cappuccino takes un."],
-      ["mc", "\"Look!\" (to a friend) =", "Guarda!", "Guardi!", "Guardare!", "Guardo!", "guardare is an -are verb, so the tu imperative ends in -a. Guardi is for a stranger."],
-      ["mc", "\"Don't eat my ice cream!\" (to a friend) =", "Non mangiare il mio gelato!", "Non mangia il mio gelato!", "Mangiare non il mio gelato!", "Non mangio il mio gelato!", "To one friend, a negative command is non + infinitive."],
-      ["mc", "\"Let's go!\" =", "Andiamo!", "Andate!", "Vado!", "Andare!", "Let's uses the noi form: andiamo."],
-      ["mc", "A man giving you directions says \"Giri a destra.\" He means…", "Turn right.", "Turn left.", "Go straight ahead.", "Turn around.", "giri is the Lei imperative of girare, and a destra means to the right."],
-      ["or", "Excuse me, where is the station? (to a stranger, start with Mi scusi)","Mi scusi dov'è la stazione", "scusa il", "Mi scusi is for a stranger, and stazione is feminine: la stazione."],
-      ["or", "Let's have a pizza", "Prendiamo una pizza", "prendo un", "Let's is the noi form: prendiamo. pizza is feminine, so una."],
-      ["or", "I'd like a beer", "Vorrei una birra", "un", "birra is feminine, so una. vorrei is the polite way to order."],
-      ["fi", "__ un momento, arrivo!", "Wait a moment, I'm coming! (to a friend)", "Aspetta", "Aspetti|Aspettare|Aspetto", "aspettare is an -are verb: the tu imperative ends in -a."],
-      ["fi", "Non __ il telefono!", "Don't touch the phone! (to a friend)", "toccare", "tocca|tocchi|tocco", "A negative command to a friend is non + infinitive."],
-      ["fi", "__ un caffè, per favore.", "I'd like an espresso, please.", "Vorrei", "Voglio|Vuoi|Vuole", "vorrei means I would like: the polite way to order."],
-      ["ty", "I'd like a glass of water", "Vorrei un bicchiere d'acqua|Vorrei un bicchiere di acqua", "vorrei · il bicchiere · l'acqua", "una", "bicchiere is masculine, so un bicchiere; vorrei is the polite way to order."],
-      ["ty", "Let's eat a pizza!", "Mangiamo una pizza", "mangiare · la pizza · let's = the noi form", "mangio un", "Let's is the noi form, mangiamo, and pizza is feminine: una."],
-      ["ty", "Don't touch the phone! (to a friend)", "Non toccare il telefono", "toccare · non · il telefono", "tocca", "A negative command to a friend is non + the infinitive: non toccare."]
+      ["mc","\"I'd like a cappuccino\" (politely, to a waiter) =","Vorrei un cappuccino.","Voglio un cappuccino.","Vorrei uno cappuccino.","Vorrei una cappuccino.","‹vorrei› is the polite way to order, and ‹cappuccino› takes ‹un›."],
+      ["mc","\"Look!\" (to a friend) =","Guarda!","Guardi!","Guardare!","Guardo!","‹guardare› is an ‹-are› verb, so the ‹tu› imperative ends in ‹-a›. ‹Guardi› is for a stranger."],
+      ["mc","\"Don't eat my ice cream!\" (to a friend) =","Non mangiare il mio gelato!","Non mangia il mio gelato!","Mangiare non il mio gelato!","Non mangio il mio gelato!","To one friend, a negative command is ‹non› + infinitive."],
+      ["mc","\"Let's go!\" =","Andiamo!","Andate!","Vado!","Andare!","Let's uses the ‹noi› form: ‹andiamo›."],
+      ["mc","A man giving you directions says \"‹Giri a destra.›\" He means…","Turn right.","Turn left.","Go straight ahead.","Turn around.","‹giri› is the ‹Lei› imperative of ‹girare›, and ‹a destra› means to the right."],
+      ["or","Excuse me, where is the station? (to a stranger, start with ‹Mi scusi›)","Mi scusi dov'è la stazione","scusa il","‹Mi scusi› is for a stranger, and ‹stazione› is feminine: ‹la stazione›."],
+      ["or","Let's have a pizza","Prendiamo una pizza","prendo un","Let's is the ‹noi› form: ‹prendiamo›. ‹pizza› is feminine, so ‹una›."],
+      ["or","I'd like a beer","Vorrei una birra","un","‹birra› is feminine, so ‹una›. ‹vorrei› is the polite way to order."],
+      ["fi","__ un momento, arrivo!","Wait a moment, I'm coming! (to a friend)","Aspetta","Aspetti|Aspettare|Aspetto","‹aspettare› is an ‹-are› verb: the ‹tu› imperative ends in ‹-a›."],
+      ["fi","Non __ il telefono!","Don't touch the phone! (to a friend)","toccare","tocca|tocchi|tocco","A negative command to a friend is ‹non› + infinitive."],
+      ["fi","__ un caffè, per favore.","I'd like an espresso, please.","Vorrei","Voglio|Vuoi|Vuole","‹vorrei› means I would like: the polite way to order."],
+      ["ty","I'd like a glass of water","Vorrei un bicchiere d'acqua|Vorrei un bicchiere di acqua","‹vorrei› · ‹il bicchiere› · ‹l'acqua›","una","‹bicchiere› is masculine, so ‹un bicchiere›; ‹vorrei› is the polite way to order."],
+      ["ty","Let's eat a pizza!","Mangiamo una pizza","‹mangiare› · ‹la pizza› · let's = the ‹noi› form","mangio un","Let's is the ‹noi› form, ‹mangiamo›, and ‹pizza› is feminine: ‹una›."],
+      ["ty","Don't touch the phone! (to a friend)","Non toccare il telefono","‹toccare› · ‹non› · ‹il telefono›","tocca","A negative command to a friend is ‹non› + the infinitive: ‹non toccare›."]
     ]
   },
   {
     id: "passato",
-    title: "Passato prossimo with avere",
-    blurb: "Say what you did yesterday, last week or two years ago: ho mangiato, hai visto, abbiamo fatto.",
+    title: "‹Passato prossimo› with ‹avere›",
+    blurb: "Say what you did yesterday, last week or two years ago: ‹ho mangiato›, ‹hai visto›, ‹abbiamo fatto›.",
     deck: "Likes and free time",
     body: `
 <p>English has several ways to talk about the past: "I ate", "I have eaten", "I did eat". For finished actions, everyday Italian uses one: the <b>passato prossimo</b>. <b>Ho mangiato</b> covers all three.</p>
-<h3>Two parts: avere + past participle</h3>
-<p>The passato prossimo is built like "I have eaten": the present of <b>avere</b> as the <b>auxiliary</b>, then the <b>past participle</b>. The form of <b>avere</b> matches the subject. The participle stays the same.</p>
-<div class="tbl"><table><tr><th>Who</th><th>mangiare</th><th>English</th></tr><tr><td class="k">io</td><td class="k">ho mangiato</td><td>I ate</td></tr><tr><td class="k">tu</td><td class="k">hai mangiato</td><td>you ate</td></tr><tr><td class="k">lui, lei, Lei</td><td class="k">ha mangiato</td><td>he, she ate; you ate (formal)</td></tr><tr><td class="k">noi</td><td class="k">abbiamo mangiato</td><td>we ate</td></tr><tr><td class="k">voi</td><td class="k">avete mangiato</td><td>you all ate</td></tr><tr><td class="k">loro</td><td class="k">hanno mangiato</td><td>they ate</td></tr></table></div>
+<h3>Two parts: ‹avere› + past participle</h3>
+<p>The ‹passato prossimo› is built like "I have eaten": the present of <b>avere</b> as the <strong>auxiliary</strong>, then the <strong>past participle</strong>. The form of <b>avere</b> matches the subject. The participle stays the same.</p>
+<div class="tbl"><table><tr><th>Who</th><th>‹mangiare›</th><th>English</th></tr><tr><td class="k">io</td><td class="k">ho mangiato</td><td>I ate</td></tr><tr><td class="k">tu</td><td class="k">hai mangiato</td><td>you ate</td></tr><tr><td class="k">lui, lei, Lei</td><td class="k">ha mangiato</td><td>he, she ate; you ate (formal)</td></tr><tr><td class="k">noi</td><td class="k">abbiamo mangiato</td><td>we ate</td></tr><tr><td class="k">voi</td><td class="k">avete mangiato</td><td>you all ate</td></tr><tr><td class="k">loro</td><td class="k">hanno mangiato</td><td>they ate</td></tr></table></div>
 <h3>Making the participle</h3>
 <p>Swap the infinitive ending: <b>-are</b> becomes <b>-ato</b>, <b>-ere</b> becomes <b>-uto</b>, <b>-ire</b> becomes <b>-ito</b>: <b>parlato</b>, <b>venduto</b>, <b>dormito</b>.</p>
 <p>With <b>avere</b>, the participle never changes, whoever the subject is: one woman or a group of friends, it is still <b>mangiato</b>. Only <b>avere</b> changes, and its form already tells you who did it, so you can drop the subject pronoun just as you do in the present.</p>
@@ -172,53 +172,53 @@ module.exports = [
 {{ex:Hai dormito bene?|ai dohr-MEE-toh BEH-neh|Did you sleep well?}}
 {{ex:I miei genitori hanno venduto la macchina.|ee myay jeh-nee-TOH-ree AHN-noh vehn-DOO-toh lah MAHK-kee-nah|My parents sold the car.}}
 <h3>Six common irregular participles</h3>
-<p>Many <b>-ere</b> verbs have their own participle. Learn these six first: <b>fatto</b> (fare), <b>visto</b> (vedere), <b>preso</b> (prendere), <b>letto</b> (leggere), <b>scritto</b> (scrivere), <b>detto</b> (dire).</p>
+<p>Many <b>-ere</b> verbs have their own participle. Learn these six first: <b>fatto</b> (‹fare›), <b>visto</b> (‹vedere›), <b>preso</b> (‹prendere›), <b>letto</b> (‹leggere›), <b>scritto</b> (‹scrivere›), <b>detto</b> (‹dire›).</p>
 {{ex:Che cosa hai fatto sabato?|keh KOH-sah ai FAHT-toh SAH-bah-toh|What did you do on Saturday?}}
 {{ex:Abbiamo visto un film.|ahb-BYAH-moh VEES-toh oon feelm|We saw a movie.}}
 {{ex:Marco ha preso il treno.|MAHR-koh ah PREH-soh eel TREH-noh|Marco took the train.}}
-<h3>"I visited" is passato prossimo</h3>
-<p>Don't keep the present for a finished event, and don't hunt for a different tense for "I visited". In speech, Italian uses the passato prossimo even for things that happened long ago.</p>
+<h3>"I visited" is ‹passato prossimo›</h3>
+<p>Don't keep the present for a finished event, and don't hunt for a different tense for "I visited". In speech, Italian uses the ‹passato prossimo› even for things that happened long ago.</p>
 {{ex:Abbiamo visitato Firenze due anni fa.|ahb-BYAH-moh vee-see-TAH-toh fee-REHN-tseh DOO-eh AHN-nee fah|We visited Florence two years ago.}}
-<h3>Time words and non</h3>
+<h3>Time words and ‹non›</h3>
 <p>Questions need no extra word. English adds "did" ("Did you sleep well?"), but Italian just uses the statement with a rising voice, as in the present tense.</p>
 <p>Useful words: <b>ieri</b> (yesterday), <b>ieri sera</b> (last night), <b>due anni fa</b> (two years ago), <b>la settimana scorsa</b> and <b>l'anno scorso</b>. <b>Scorso</b> agrees with its noun. <b>Non</b> goes before <b>avere</b>.</p>
 {{ex:Non ho capito.|nohn oh kah-PEE-toh|I didn't understand.}}
-<div class="tip"><b>Most common mistake:</b> keeping the present for the past: <b>Ieri mangio una pizza</b> → <b>Ieri ho mangiato una pizza</b>. And with avere the participle does not change: <b>Giulia ha mangiata</b> → <b>Giulia ha mangiato</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> keeping the present for the past: <b>Ieri mangio una pizza</b> → <b>Ieri ho mangiato una pizza</b>. And with ‹avere› the participle does not change: <b>Giulia ha mangiata</b> → <b>Giulia ha mangiato</b>.</div>
 `,
     check: [
-      ["\"I visited Rome two years ago\" is…", ["Visito Roma due anni fa.", "Ho visitato Roma due anni fa.", "Sono visitato Roma due anni fa.", "Ho visitata Roma due anni fa."], 1, "A finished visit takes the passato prossimo: ho visitato."],
-      ["\"What did you do on Saturday?\" (to a friend) is…", ["Che cosa fai sabato?", "Che cosa ha fatto sabato?", "Che cosa hai fatta sabato?", "Che cosa hai fatto sabato?"], 3, "hai for tu, and fare has the irregular participle fatto."],
-      ["\"Ho preso\" comes from which verb?", ["prendere", "perdere", "pregare", "provare"], 0, "prendere has the irregular participle preso."]
+      ["\"I visited Rome two years ago\" is…",["Visito Roma due anni fa.","Ho visitato Roma due anni fa.","Sono visitato Roma due anni fa.","Ho visitata Roma due anni fa."],1,"A finished visit takes the ‹passato prossimo›: ‹ho visitato›."],
+      ["\"What did you do on Saturday?\" (to a friend) is…",["Che cosa fai sabato?","Che cosa ha fatto sabato?","Che cosa hai fatta sabato?","Che cosa hai fatto sabato?"],3,"‹hai› for ‹tu›, and ‹fare› has the irregular participle ‹fatto›."],
+      ["\"‹Ho preso›\" comes from which verb?",["prendere","perdere","pregare","provare"],0,"‹prendere› has the irregular participle ‹preso›."]
     ],
     practice: [
-      ["mc", "\"I ate a pizza\" =", "Ho mangiato una pizza.", "Ho mangiata una pizza.", "Sono mangiato una pizza.", "Mangiato una pizza.", "mangiare takes avere, and the participle stays mangiato."],
-      ["mc", "\"We saw a movie\" =", "Abbiamo visto un film.", "Abbiamo vedato un film.", "Hanno visto un film.", "Siamo visto un film.", "vedere has the irregular participle visto, and we is abbiamo."],
-      ["mc", "\"Did you read the book?\" (to a friend) =", "Hai letto il libro?", "Hai leggiuto il libro?", "Ha letto il libro?", "Hai leggere il libro?", "leggere has the irregular participle letto; to a friend, hai."],
-      ["mc", "\"I visited Florence last year\" =", "Ho visitato Firenze l'anno scorso.", "Visito Firenze l'anno scorso.", "Ho visitato Firenze l'anno prossimo.", "Sono visitato Firenze l'anno scorso.", "A finished visit takes the passato prossimo; scorso means last, prossimo means next."],
-      ["mc", "\"What did they do yesterday?\" =", "Che cosa hanno fatto ieri?", "Che cosa ha fatto ieri?", "Che cosa hanno fatti ieri?", "Che cosa hanno faciuto ieri?", "They is hanno, and fatto does not change with avere."],
-      ["or", "We bought the tickets", "Abbiamo comprato i biglietti", "hanno gli", "abbiamo is the noi form of avere, and biglietti takes the plural article i."],
-      ["or", "Did you take the train? (to a friend)", "Hai preso il treno", "ha prendito", "hai is the tu form of avere; prendere has the participle preso."],
-      ["or", "I didn't understand", "Non ho capito", "capiuto", "non goes before avere, and capire gives capito."],
-      ["fi", "Ieri sera Giulia __ cucinato la pasta.", "Last night Giulia cooked the pasta.", "ha", "ho|hanno|hai", "Giulia is she, so ha."],
-      ["fi", "Ho __ una lettera a mia nonna.", "I wrote a letter to my grandmother.", "scritto", "scrivuto|scrivato|scrivito", "scrivere has the irregular participle scritto."],
-      ["fi", "La settimana __ abbiamo visitato Napoli.", "Last week we visited Naples.", "scorsa", "scorso|scorse|scorsi", "settimana is feminine singular, so scorsa."],
-      ["ty", "We saw a movie", "Abbiamo visto un film|Noi abbiamo visto un film|Abbiamo guardato un film|Noi abbiamo guardato un film", "vedere · il film", "hanno", "abbiamo is the noi form: avere carries the verb ending."],
-      ["ty", "Did you eat? (to a friend)", "Hai mangiato?|Tu hai mangiato?", "mangiare", "ha", "hai is the tu form of avere."],
-      ["ty", "I visited Rome last year", "Ho visitato Roma l'anno scorso|L'anno scorso ho visitato Roma|Io ho visitato Roma l'anno scorso|L'anno scorso io ho visitato Roma", "visitare · Roma · l'anno scorso", "visito", "A finished visit takes the passato prossimo, even if it was long ago: ho visitato."]
+      ["mc","\"I ate a pizza\" =","Ho mangiato una pizza.","Ho mangiata una pizza.","Sono mangiato una pizza.","Mangiato una pizza.","‹mangiare› takes ‹avere›, and the participle stays ‹mangiato›."],
+      ["mc","\"We saw a movie\" =","Abbiamo visto un film.","Abbiamo vedato un film.","Hanno visto un film.","Siamo visto un film.","‹vedere› has the irregular participle ‹visto›, and we is ‹abbiamo›."],
+      ["mc","\"Did you read the book?\" (to a friend) =","Hai letto il libro?","Hai leggiuto il libro?","Ha letto il libro?","Hai leggere il libro?","‹leggere› has the irregular participle ‹letto›; to a friend, ‹hai›."],
+      ["mc","\"I visited Florence last year\" =","Ho visitato Firenze l'anno scorso.","Visito Firenze l'anno scorso.","Ho visitato Firenze l'anno prossimo.","Sono visitato Firenze l'anno scorso.","A finished visit takes the ‹passato prossimo›; ‹scorso› means last, ‹prossimo› means next."],
+      ["mc","\"What did they do yesterday?\" =","Che cosa hanno fatto ieri?","Che cosa ha fatto ieri?","Che cosa hanno fatti ieri?","Che cosa hanno faciuto ieri?","They is ‹hanno›, and ‹fatto› does not change with ‹avere›."],
+      ["or","We bought the tickets","Abbiamo comprato i biglietti","hanno gli","‹abbiamo› is the ‹noi› form of ‹avere›, and ‹biglietti› takes the plural article ‹i›."],
+      ["or","Did you take the train? (to a friend)","Hai preso il treno","ha prendito","‹hai› is the ‹tu› form of ‹avere›; ‹prendere› has the participle ‹preso›."],
+      ["or","I didn't understand","Non ho capito","capiuto","‹non› goes before ‹avere›, and ‹capire› gives ‹capito›."],
+      ["fi","Ieri sera Giulia __ cucinato la pasta.","Last night Giulia cooked the pasta.","ha","ho|hanno|hai","Giulia is she, so ‹ha›."],
+      ["fi","Ho __ una lettera a mia nonna.","I wrote a letter to my grandmother.","scritto","scrivuto|scrivato|scrivito","‹scrivere› has the irregular participle ‹scritto›."],
+      ["fi","La settimana __ abbiamo visitato Napoli.","Last week we visited Naples.","scorsa","scorso|scorse|scorsi","‹settimana› is feminine singular, so ‹scorsa›."],
+      ["ty","We saw a movie","Abbiamo visto un film|Noi abbiamo visto un film|Abbiamo guardato un film|Noi abbiamo guardato un film","‹vedere› · ‹il film›","hanno","‹abbiamo› is the ‹noi› form: ‹avere› carries the verb ending."],
+      ["ty","Did you eat? (to a friend)","Hai mangiato?|Tu hai mangiato?","‹mangiare›","ha","‹hai› is the ‹tu› form of ‹avere›."],
+      ["ty","I visited Rome last year","Ho visitato Roma l'anno scorso|L'anno scorso ho visitato Roma|Io ho visitato Roma l'anno scorso|L'anno scorso io ho visitato Roma","‹visitare› · ‹Roma› · ‹l'anno scorso›","visito","A finished visit takes the ‹passato prossimo›, even if it was long ago: ‹ho visitato›."]
     ]
   },
   {
     id: "passato-essere",
-    title: "Passato prossimo with essere: sono andato, sono andata",
-    blurb: "Tell a trip story with sono andato, siamo arrivati and mi sono alzata, making the past participle agree.",
+    title: "‹Passato prossimo› with ‹essere›: ‹sono andato›, ‹sono andata›",
+    blurb: "Tell a trip story with ‹sono andato›, ‹siamo arrivati› and ‹mi sono alzata›, making the past participle agree.",
     deck: "Travel and transport",
     body: `
-<p>In the last lesson the passato prossimo used <b>avere</b>: <b>ho mangiato</b>. A small group of very common verbs, mostly about going, coming and changing, use <b>essere</b> as the auxiliary instead. English has no model for this, so learn the list.</p>
-<h3>The essere verbs</h3>
-<p>For now, these ten: <b>andare</b> (go), <b>venire</b> (come), <b>arrivare</b> (arrive), <b>partire</b> (leave), <b>tornare</b> (come back), <b>uscire</b> (go out), <b>entrare</b> (go in), <b>stare</b> (stay, be), <b>essere</b> (be) and <b>nascere</b> (be born). Their participles: <b>andato</b>, <b>venuto</b>, <b>arrivato</b>, <b>partito</b>, <b>tornato</b>, <b>uscito</b>, <b>entrato</b>, <b>stato</b> (for both stare and essere) and <b>nato</b>.</p>
+<p>In the last lesson the ‹passato prossimo› used <b>avere</b>: <b>ho mangiato</b>. A small group of very common verbs, mostly about going, coming and changing, use <b>essere</b> as the auxiliary instead. English has no model for this, so learn the list.</p>
+<h3>The ‹essere› verbs</h3>
+<p>For now, these ten: <b>andare</b> (go), <b>venire</b> (come), <b>arrivare</b> (arrive), <b>partire</b> (leave), <b>tornare</b> (come back), <b>uscire</b> (go out), <b>entrare</b> (go in), <b>stare</b> (stay, be), <b>essere</b> (be) and <b>nascere</b> (be born). Their participles: <b>andato</b>, <b>venuto</b>, <b>arrivato</b>, <b>partito</b>, <b>tornato</b>, <b>uscito</b>, <b>entrato</b>, <b>stato</b> (for both ‹stare› and ‹essere›) and <b>nato</b>.</p>
 <h3>The participle agrees like an adjective</h3>
-<p>With <b>essere</b>, the past participle behaves like an adjective: it agrees with the subject in gender and number, just like <b>stanco, stanca, stanchi, stanche</b>.</p>
-<p>You already do this after <b>sono</b> with adjectives. If the speaker is a woman, the adjective and the participle both end in <b>-a</b>; for a group of women, both end in <b>-e</b>. With avere verbs nothing changes, so this agreement is the extra step that comes with essere.</p>
+<p>With <b>essere</b>, the past participle behaves like an adjective: it agrees with the subject in gender and number, just like <b>stanco</b>, <b>stanca</b>, <b>stanchi</b>, <b>stanche</b>.</p>
+<p>You already do this after <b>sono</b> with adjectives. If the speaker is a woman, the adjective and the participle both end in <b>-a</b>; for a group of women, both end in <b>-e</b>. With ‹avere› verbs nothing changes, so this agreement is the extra step that comes with ‹essere›.</p>
 <div class="tbl"><table><tr><th>Who</th><th>A man, men or a mixed group</th><th>A woman or women</th></tr><tr><td class="k">io</td><td class="k">sono andato</td><td class="k">sono andata</td></tr><tr><td class="k">tu</td><td class="k">sei andato</td><td class="k">sei andata</td></tr><tr><td class="k">lui, lei</td><td class="k">è andato</td><td class="k">è andata</td></tr><tr><td class="k">noi</td><td class="k">siamo andati</td><td class="k">siamo andate</td></tr><tr><td class="k">voi</td><td class="k">siete andati</td><td class="k">siete andate</td></tr><tr><td class="k">loro</td><td class="k">sono andati</td><td class="k">sono andate</td></tr></table></div>
 {{ex:Sono andato a Roma in treno.|SOH-noh ahn-DAH-toh ah ROH-mah een TREH-noh|I went to Rome by train. (a man speaking)}}
 {{ex:Giulia è arrivata ieri.|JOO-lyah eh ahr-ree-VAH-tah YEH-ree|Giulia arrived yesterday.}}
@@ -226,58 +226,58 @@ module.exports = [
 {{ex:Le mie amiche sono uscite ieri sera.|leh MEE-eh ah-MEE-keh SOH-noh oo-SHEE-teh YEH-ree SEH-rah|My friends went out last night. (all women)}}
 <p>A group of men and women takes the masculine plural, <b>-i</b>.</p>
 <h3>Born, been</h3>
-<p>English "was born" is passive; Italian simply uses <b>nascere</b> with essere. <b>Sono stato</b> or <b>sono stata</b> means "I was" or "I've been", as in a place you visited.</p>
+<p>English "was born" is passive; Italian simply uses <b>nascere</b> with ‹essere›. <b>Sono stato</b> or <b>sono stata</b> means "I was" or "I've been", as in a place you visited.</p>
 {{ex:Mia nonna è nata a Napoli.|MEE-ah NOHN-nah eh NAH-tah ah NAH-poh-lee|My grandmother was born in Naples.}}
 {{ex:Sei stata a Venezia?|say STAH-tah ah veh-NEH-tsyah|Have you been to Venice? (to a woman)}}
-<h3>Reflexive verbs take essere too</h3>
-<p>Every reflexive verb uses essere in the passato prossimo. The pronoun goes first, then <b>essere</b>, and the participle agrees.</p>
+<h3>Reflexive verbs take ‹essere› too</h3>
+<p>Every reflexive verb uses ‹essere› in the ‹passato prossimo›. The pronoun goes first, then <b>essere</b>, and the participle agrees.</p>
 {{ex:Ieri mi sono alzata alle sei.|YEH-ree mee SOH-noh ahl-TSAH-tah AHL-leh say|Yesterday I got up at six. (a woman speaking)}}
-<h3>avere or essere?</h3>
-<p>A quick test: if the verb has a direct object (something you eat, see, buy or take), it uses <b>avere</b>. The ten verbs above never have one. The test only works one way: many verbs with no object still take avere, such as <b>ho dormito</b>. So one story can mix both auxiliaries.</p>
+<h3>‹avere› or ‹essere›?</h3>
+<p>A quick test: if the verb has a direct object (something you eat, see, buy or take), it uses <b>avere</b>. The ten verbs above never have one. The test only works one way: many verbs with no object still take ‹avere›, such as <b>ho dormito</b>. So one story can mix both auxiliaries.</p>
 {{ex:Ho comprato il biglietto e sono partito.|oh kohm-PRAH-toh eel bee-LYEHT-toh eh SOH-noh pahr-TEE-toh|I bought the ticket and left. (a man speaking)}}
-<div class="tip"><b>Most common mistakes:</b> using avere with a movement verb: <b>Ho andato</b> → <b>Sono andato</b>. And forgetting the agreement: <b>Giulia è andato</b> → <b>Giulia è andata</b>.</div>
+<div class="tip"><strong>Most common mistakes:</strong> using ‹avere› with a movement verb: <b>Ho andato</b> → <b>Sono andato</b>. And forgetting the agreement: <b>Giulia è andato</b> → <b>Giulia è andata</b>.</div>
 `,
     check: [
-      ["\"I went to Florence\" (a man speaking) is…", ["Ho andato a Firenze.", "Sono andato a Firenze.", "Sono andata a Firenze.", "Sono andati a Firenze."], 1, "andare takes essere, and a man says andato."],
-      ["\"Giulia arrived yesterday\" is…", ["Giulia ha arrivato ieri.", "Giulia è arrivato ieri.", "Giulia è arrivata ieri.", "Giulia ha arrivata ieri."], 2, "arrivare takes essere, and the participle agrees with Giulia: arrivata."],
-      ["Which verb takes avere in the passato prossimo?", ["mangiare", "andare", "partire", "tornare"], 0, "mangiare takes avere; andare, partire and tornare take essere."]
+      ["\"I went to Florence\" (a man speaking) is…",["Ho andato a Firenze.","Sono andato a Firenze.","Sono andata a Firenze.","Sono andati a Firenze."],1,"‹andare› takes ‹essere›, and a man says ‹andato›."],
+      ["\"Giulia arrived yesterday\" is…",["Giulia ha arrivato ieri.","Giulia è arrivato ieri.","Giulia è arrivata ieri.","Giulia ha arrivata ieri."],2,"‹arrivare› takes ‹essere›, and the participle agrees with Giulia: ‹arrivata›."],
+      ["Which verb takes ‹avere› in the ‹passato prossimo›?",["mangiare","andare","partire","tornare"],0,"‹mangiare› takes ‹avere›; ‹andare›, ‹partire› and ‹tornare› take ‹essere›."]
     ],
     practice: [
-      ["mc", "\"I left at eight\" (a woman speaking) =", "Sono partita alle otto.", "Sono partito alle otto.", "Ho partito alle otto.", "Ho partita alle otto.", "partire takes essere, and a woman says partita."],
-      ["mc", "\"My parents came to Rome\" =", "I miei genitori sono venuti a Roma.", "I miei genitori sono venute a Roma.", "I miei genitori hanno venuto a Roma.", "I miei genitori è venuto a Roma.", "venire takes essere; genitori is masculine plural, so venuti."],
-      ["mc", "\"We came back on Sunday\" (two women) =", "Siamo tornate domenica.", "Siamo tornati domenica.", "Abbiamo tornato domenica.", "Siamo tornata domenica.", "tornare takes essere; two women, so tornate."],
-      ["mc", "\"Marco went out\" =", "Marco è uscito.", "Marco ha uscito.", "Marco è uscita.", "Marco è usciuto.", "uscire takes essere, and Marco is masculine: uscito."],
-      ["mc", "\"I got up at seven\" (a man speaking) =", "Mi sono alzato alle sette.", "Mi ho alzato alle sette.", "Ho alzato alle sette.", "Mi sono alzata alle sette.", "Reflexive verbs take essere: mi sono alzato."],
-      ["or", "I arrived in Rome (a woman speaking)", "Sono arrivata a Roma", "arrivato ho", "With essere the participle agrees with the subject: a woman says arrivata."],
-      ["or", "We went to the beach (a man and a woman)", "Siamo andati al mare", "andate abbiamo", "A mixed group takes the masculine plural: andati."],
-      ["or", "Did you go out? (to a woman friend)", "Sei uscita", "uscito hai", "sei is the tu form, and uscita agrees with a woman (feminine)."],
-      ["fi", "Le ragazze sono __ alle nove.", "The girls left at nine.", "partite", "partiti|partita|partito", "ragazze is feminine plural, so partite."],
-      ["fi", "Mio fratello __ tornato ieri.", "My brother came back yesterday.", "è", "ha|sono|e", "tornare takes essere: è, with the accent. e without it means and.", "!strict"],
-      ["fi", "Ieri sera __ uscito con Luca.", "Last night I went out with Luca. (a man speaking)", "sono", "ho|è|sei", "uscire takes essere, and I is sono."],
-      ["ty", "I went to Rome (a woman speaking)", "Sono andata a Roma|Io sono andata a Roma", "andare · Roma · a woman speaking", "andato ho", "With essere the participle agrees with the subject: andata for a woman."],
-      ["ty", "We arrived in Milan (two men)", "Siamo arrivati a Milano|Noi siamo arrivati a Milano", "arrivare · Milano", "arrivate abbiamo", "Two men: the masculine plural, arrivati, with siamo."],
-      ["ty", "My grandmother was born in Naples", "Mia nonna è nata a Napoli", "nascere · nato · Napoli", "nato ha", "nonna is feminine, so the participle agrees: nata.", "!strict"]
+      ["mc","\"I left at eight\" (a woman speaking) =","Sono partita alle otto.","Sono partito alle otto.","Ho partito alle otto.","Ho partita alle otto.","‹partire› takes ‹essere›, and a woman says ‹partita›."],
+      ["mc","\"My parents came to Rome\" =","I miei genitori sono venuti a Roma.","I miei genitori sono venute a Roma.","I miei genitori hanno venuto a Roma.","I miei genitori è venuto a Roma.","‹venire› takes ‹essere›; ‹genitori› is masculine plural, so ‹venuti›."],
+      ["mc","\"We came back on Sunday\" (two women) =","Siamo tornate domenica.","Siamo tornati domenica.","Abbiamo tornato domenica.","Siamo tornata domenica.","‹tornare› takes ‹essere›; two women, so ‹tornate›."],
+      ["mc","\"Marco went out\" =","Marco è uscito.","Marco ha uscito.","Marco è uscita.","Marco è usciuto.","‹uscire› takes ‹essere›, and Marco is masculine: ‹uscito›."],
+      ["mc","\"I got up at seven\" (a man speaking) =","Mi sono alzato alle sette.","Mi ho alzato alle sette.","Ho alzato alle sette.","Mi sono alzata alle sette.","Reflexive verbs take ‹essere›: ‹mi sono alzato›."],
+      ["or","I arrived in Rome (a woman speaking)","Sono arrivata a Roma","arrivato ho","With ‹essere› the participle agrees with the subject: a woman says ‹arrivata›."],
+      ["or","We went to the beach (a man and a woman)","Siamo andati al mare","andate abbiamo","A mixed group takes the masculine plural: ‹andati›."],
+      ["or","Did you go out? (to a woman friend)","Sei uscita","uscito hai","‹sei› is the ‹tu› form, and ‹uscita› agrees with a woman (feminine)."],
+      ["fi","Le ragazze sono __ alle nove.","The girls left at nine.","partite","partiti|partita|partito","‹ragazze› is feminine plural, so ‹partite›."],
+      ["fi","Mio fratello __ tornato ieri.","My brother came back yesterday.","è","ha|sono|e","‹tornare› takes ‹essere›: ‹è›, with the accent. ‹e› without it means and.","!strict"],
+      ["fi","Ieri sera __ uscito con Luca.","Last night I went out with Luca. (a man speaking)","sono","ho|è|sei","‹uscire› takes ‹essere›, and I is ‹sono›."],
+      ["ty","I went to Rome (a woman speaking)","Sono andata a Roma|Io sono andata a Roma","‹andare› · ‹Roma› · a woman speaking","andato ho","With ‹essere› the participle agrees with the subject: ‹andata› for a woman."],
+      ["ty","We arrived in Milan (two men)","Siamo arrivati a Milano|Noi siamo arrivati a Milano","‹arrivare› · ‹Milano›","arrivate abbiamo","Two men: the masculine plural, ‹arrivati›, with ‹siamo›."],
+      ["ty","My grandmother was born in Naples","Mia nonna è nata a Napoli","‹nascere› · ‹nato› · ‹Napoli›","nato ha","‹nonna› is feminine, so the participle agrees: ‹nata›.","!strict"]
     ]
   },
   {
     id: "adverbs",
     title: "Adverbs: time, place and quantity",
-    blurb: "Say how often, where and how much: sempre, non… mai, già, qui, lì, molto and troppo.",
+    blurb: "Say how often, where and how much: ‹sempre›, ‹non›… ‹mai›, ‹già›, ‹qui›, ‹lì›, ‹molto› and ‹troppo›.",
     deck: "Days, dates and weather",
     body: `
 <p>Adverbs are the small words that say when, where and how much. Most of them never change. The one to watch is <b>molto</b>, which sometimes agrees and sometimes doesn't.</p>
-<h3>When: sempre, mai, già, ancora</h3>
+<h3>When: ‹sempre›, ‹mai›, ‹già›, ‹ancora›</h3>
 <p><b>Sempre</b> means "always". For "never", English needs one word; Italian needs two: <b>non</b> before the verb and <b>mai</b> after it.</p>
 {{ex:Non bevo mai il caffè la sera.|nohn BEH-voh mai eel kahf-FEH lah SEH-rah|I never drink coffee in the evening.}}
-<p><b>Già</b> means "already" or "yet" in a question, and <b>non… ancora</b> means "not yet". In the passato prossimo they sit between the auxiliary and the participle.</p>
+<p><b>Già</b> means "already" or "yet" in a question, and <b>non… ancora</b> means "not yet". In the ‹passato prossimo› they sit between the auxiliary and the participle.</p>
 {{ex:Hai già mangiato? No, non ancora.|ai jah mahn-JAH-toh noh nohn ahn-KOH-rah|Have you eaten yet? No, not yet.}}
 <p><b>Ora</b> and <b>adesso</b> both mean "now". <b>Presto</b> means "early" or "soon", and <b>tardi</b> means "late".</p>
 <p>In a question, <b>mai</b> without <b>non</b> means "ever": it asks whether something has happened at any time. Word order differs from English here: "I always drink" puts "always" before the verb, but Italian puts <b>sempre</b> and <b>mai</b> right after it (<b>bevo sempre</b>). <b>Ora</b> and <b>adesso</b> can also start the sentence.</p>
 {{ex:Adesso sono a casa.|ah-DEHS-soh SOH-noh ah KAH-sah|I'm at home now.}}
-<h3>Where: qui, lì, vicino, lontano</h3>
+<h3>Where: ‹qui›, ‹lì›, ‹vicino›, ‹lontano›</h3>
 <p><b>Qui</b> (or <b>qua</b>) means "here". <b>Lì</b> (or <b>là</b>) means "there". The accent mark matters: <b>la</b> is "the" and <b>li</b> is "them", but <b>là</b> and <b>lì</b> mean "there". <b>Qui vicino</b> is "near here", and <b>È lontano?</b> asks "Is it far?".</p>
 {{ex:Il bagno è lì, a destra.|eel BAH-nyoh eh lee ah DEHS-trah|The bathroom is there, on the right.}}
-<h3>How much: molto, poco, troppo</h3>
+<h3>How much: ‹molto›, ‹poco›, ‹troppo›</h3>
 <p>English uses different words: "very tall", "a lot of friends", "too much traffic". Italian uses <b>molto</b> (very, a lot), <b>poco</b> (not very, little) and <b>troppo</b> (too, too much) for all of them, with one rule:</p>
 <ul><li>Before an adjective, or after a verb, they never change: <b>molto bella</b>, <b>troppo caro</b>, <b>lavoro molto</b>.</li><li>Before a noun, they agree with it like an adjective: <b>molti amici</b>, <b>molta acqua</b>, <b>troppe persone</b>.</li></ul>
 <p>So ask yourself one question: is the next word a noun? If it is, make the ending agree with it. If it is an adjective, or nothing follows, leave the word as it is.</p>
@@ -285,105 +285,105 @@ module.exports = [
 {{ex:Ho molti amici a Roma.|oh MOHL-tee ah-MEE-chee ah ROH-mah|I have a lot of friends in Rome.}}
 {{ex:C'è troppa gente.|cheh TROHP-pah JEHN-teh|There are too many people.}}
 <p>In the last one, <b>gente</b> (people) is a feminine singular noun in Italian, so <b>troppa</b> and <b>c'è</b>.</p>
-<div class="tip"><b>Most common mistakes:</b> leaving <b>molto</b> unchanged before a noun: <b>Ho molto amici</b> → <b>Ho molti amici</b>. Making it agree before an adjective: <b>È molta bella</b> → <b>È molto bella</b>. And forgetting <b>non</b>: <b>Bevo mai il latte</b> → <b>Non bevo mai il latte</b>.</div>
+<div class="tip"><strong>Most common mistakes:</strong> leaving <b>molto</b> unchanged before a noun: <b>Ho molto amici</b> → <b>Ho molti amici</b>. Making it agree before an adjective: <b>È molta bella</b> → <b>È molto bella</b>. And forgetting <b>non</b>: <b>Bevo mai il latte</b> → <b>Non bevo mai il latte</b>.</div>
 `,
     check: [
-      ["\"She is very tall\" is…", ["È molto alta.", "È molta alta.", "È molte alta.", "È alta molta."], 0, "Before an adjective, molto never changes; alta agrees with lei."],
-      ["\"I have a lot of friends\" is…", ["Ho molto amici.", "Ho molti amici.", "Ho molte amici.", "Ho molta amici."], 1, "Before a noun, molto agrees: amici is masculine plural, so molti."],
-      ["\"I never drink milk\" is…", ["Bevo mai il latte.", "Mai non bevo il latte.", "Non bevo mai il latte.", "Non mai bevo il latte."], 2, "non goes before the verb and mai after it."]
+      ["\"She is very tall\" is…",["È molto alta.","È molta alta.","È molte alta.","È alta molta."],0,"Before an adjective, ‹molto› never changes; ‹alta› agrees with ‹lei›."],
+      ["\"I have a lot of friends\" is…",["Ho molto amici.","Ho molti amici.","Ho molte amici.","Ho molta amici."],1,"Before a noun, ‹molto› agrees: ‹amici› is masculine plural, so ‹molti›."],
+      ["\"I never drink milk\" is…",["Bevo mai il latte.","Mai non bevo il latte.","Non bevo mai il latte.","Non mai bevo il latte."],2,"‹non› goes before the verb and ‹mai› after it."]
     ],
     practice: [
-      ["mc", "\"Have you already eaten?\" (to a friend) =", "Hai già mangiato?", "Hai ancora mangiato?", "Hai mai mangiato?", "Già mangiato hai?", "già means already; it goes between hai and the participle."],
-      ["mc", "\"I never work on Sunday\" =", "Non lavoro mai la domenica.", "Lavoro mai la domenica.", "Non lavoro sempre la domenica.", "Non mai lavoro la domenica.", "never is non before the verb and mai after it."],
-      ["mc", "\"The bathroom is there\" =", "Il bagno è lì.", "Il bagno è li.", "Il bagno è la.", "Il bagno e lì.", "lì with an accent means there; li means them, and e means and.", "!strict"],
-      ["mc", "\"There are too many people\" =", "C'è troppa gente.", "C'è troppo gente.", "Ci sono troppa gente.", "C'è troppe gente.", "gente is feminine singular: troppa gente, with c'è."],
-      ["mc", "\"The pizza is very good\" =", "La pizza è molto buona.", "La pizza è molta buona.", "La pizza è molto buono.", "La pizza è molta buono.", "molto never changes before an adjective; buona agrees with pizza."],
-      ["or", "I have a lot of friends", "Ho molti amici", "molto", "molti agrees with amici (masculine plural)."],
-      ["or", "It's very beautiful (la città)", "È molto bella", "molta bello", "molto never changes before an adjective, and bella agrees with città (feminine)."],
-      ["or", "I never eat meat", "Non mangio mai carne", "sempre", "mai needs non before the verb."],
-      ["fi", "Ho __ amiche a Milano.", "I have a lot of friends in Milan. (all women)", "molte", "molti|molto|molta", "amiche is feminine plural, so molte."],
-      ["fi", "Il caffè è __ caldo.", "The coffee is too hot.", "troppo", "troppa|troppi|troppe", "troppo never changes before an adjective."],
-      ["fi", "Le chiavi sono __, sul tavolo.", "The keys are there, on the table.", "lì|là", "li|la|le", "lì and là, with the accent, mean there.", "!strict"],
-      ["ty", "I have a lot of friends", "Ho molti amici|Io ho molti amici", "avere · molto · l'amico", "molto", "molti agrees with amici, a masculine plural noun."],
-      ["ty", "She is very tall", "È molto alta|Lei è molto alta", "essere · molto · alto", "alto molta", "molto never changes before an adjective; alta agrees with lei (feminine).", "!strict"],
-      ["ty", "I never drink coffee", "Non bevo mai il caffè|Non bevo mai caffè|Io non bevo mai il caffè|Io non bevo mai caffè", "bere · mai · il caffè", "sempre", "mai needs non before the verb."]
+      ["mc","\"Have you already eaten?\" (to a friend) =","Hai già mangiato?","Hai ancora mangiato?","Hai mai mangiato?","Già mangiato hai?","‹già› means already; it goes between ‹hai› and the participle."],
+      ["mc","\"I never work on Sunday\" =","Non lavoro mai la domenica.","Lavoro mai la domenica.","Non lavoro sempre la domenica.","Non mai lavoro la domenica.","never is ‹non› before the verb and ‹mai› after it."],
+      ["mc","\"The bathroom is there\" =","Il bagno è lì.","Il bagno è li.","Il bagno è la.","Il bagno e lì.","‹lì› with an accent means there; ‹li› means them, and ‹e› means and.","!strict"],
+      ["mc","\"There are too many people\" =","C'è troppa gente.","C'è troppo gente.","Ci sono troppa gente.","C'è troppe gente.","‹gente› is feminine singular: ‹troppa gente›, with ‹c'è›."],
+      ["mc","\"The pizza is very good\" =","La pizza è molto buona.","La pizza è molta buona.","La pizza è molto buono.","La pizza è molta buono.","‹molto› never changes before an adjective; ‹buona› agrees with ‹pizza›."],
+      ["or","I have a lot of friends","Ho molti amici","molto","‹molti› agrees with ‹amici› (masculine plural)."],
+      ["or","It's very beautiful (‹la città›)","È molto bella","molta bello","‹molto› never changes before an adjective, and ‹bella› agrees with ‹città› (feminine)."],
+      ["or","I never eat meat","Non mangio mai carne","sempre","‹mai› needs ‹non› before the verb."],
+      ["fi","Ho __ amiche a Milano.","I have a lot of friends in Milan. (all women)","molte","molti|molto|molta","‹amiche› is feminine plural, so ‹molte›."],
+      ["fi","Il caffè è __ caldo.","The coffee is too hot.","troppo","troppa|troppi|troppe","‹troppo› never changes before an adjective."],
+      ["fi","Le chiavi sono __, sul tavolo.","The keys are there, on the table.","lì|là","li|la|le","‹lì› and ‹là›, with the accent, mean there.","!strict"],
+      ["ty","I have a lot of friends","Ho molti amici|Io ho molti amici","‹avere› · ‹molto› · ‹l'amico›","molto","‹molti› agrees with ‹amici›, a masculine plural noun."],
+      ["ty","She is very tall","È molto alta|Lei è molto alta","‹essere› · ‹molto› · ‹alto›","alto molta","‹molto› never changes before an adjective; ‹alta› agrees with ‹lei› (feminine).","!strict"],
+      ["ty","I never drink coffee","Non bevo mai il caffè|Non bevo mai caffè|Io non bevo mai il caffè|Io non bevo mai caffè","‹bere› · ‹mai› · ‹il caffè›","sempre","‹mai› needs ‹non› before the verb."]
     ]
   },
   {
     id: "connectors",
-    title: "e, ma, perché, quando, se",
+    title: "‹e›, ‹ma›, ‹perché›, ‹quando›, ‹se›",
     blurb: "Join your sentences with and, but, because, when, if and so, and say \"me too\" and \"me neither\".",
     deck: "Questions and connectors",
     body: `
 <p>So far most of your sentences have been short and simple. Small joining words let you say more in one breath, and most of them work just like their English partners.</p>
-<h3>e, o, ma</h3>
+<h3>‹e›, ‹o›, ‹ma›</h3>
 <p><b>E</b> is "and", <b>o</b> is "or", <b>ma</b> is "but". Before a word that starts with <b>e</b>, you will often see <b>ed</b>, which is easier to say: <b>Marco ed Elena</b>.</p>
 <p>These little words never change for gender or number; only the words around them do. Put a comma before <b>ma</b>, as in English, when the sentence is long.</p>
 {{ex:Sono stanca ma contenta.|SOH-noh STAHN-kah mah kohn-TEHN-tah|I'm tired but happy. (a woman speaking)}}
 {{ex:Vuoi un tè o un caffè?|vwoy oon teh oh oon kahf-FEH|Do you want tea or coffee?}}
-<h3>perché: why and because</h3>
+<h3>‹perché›: why and because</h3>
 <p>English has two words, "why" and "because". Italian has one: <b>perché</b>. So a question with <b>perché</b> is often answered with <b>perché</b>. Write it with an accent that leans right: <b>é</b>.</p>
 {{ex:Perché studi l'italiano? Perché mi piace.|pehr-KEH STOO-dee lee-tah-LYAH-noh pehr-KEH mee PYAH-cheh|Why are you studying Italian? Because I like it.}}
-<h3>quando and se</h3>
+<h3>‹quando› and ‹se›</h3>
 <p><b>Quando</b> means "when", both in questions and in the middle of a sentence. <b>Se</b> means "if". Don't confuse three short words: <b>se</b> (if), <b>sì</b> (yes, with an accent) and <b>si</b> (the reflexive pronoun, as in <b>si chiama</b>).</p>
 {{ex:Quando sono stanco, vado a letto.|KWAHN-doh SOH-noh STAHN-koh VAH-doh ah LEHT-toh|When I'm tired, I go to bed. (a man speaking)}}
 {{ex:Se vuoi, andiamo al cinema.|seh vwoy ahn-DYAH-moh ahl CHEE-neh-mah|If you want, let's go to the movies.}}
-<h3>allora: so, then</h3>
+<h3>‹allora›: so, then</h3>
 <p><b>Allora</b> introduces a result, like "so". It is also the word Italians say while they think, like "well…".</p>
 {{ex:Piove, allora prendo l'autobus.|PYOH-veh ahl-LOH-rah PREHN-doh LOW-toh-boos|It's raining, so I'll take the bus.}}
-<h3>anche and neanche</h3>
+<h3>‹anche› and ‹neanche›</h3>
 <p><b>Anche</b> means "also" or "too". "Me too" is <b>anch'io</b> (also written <b>anche io</b>). For a negative, use <b>neanche</b>: "me neither" is <b>neanch'io</b>. With <b>piacere</b>, the thing liked is the subject, so "me too" is <b>anche a me</b>.</p>
 {{ex:Ho fame. Anch'io!|oh FAH-meh ahn-KEE-oh|I'm hungry. Me too!}}
 {{ex:Mi piace il gelato. Anche a me!|mee PYAH-cheh eel jeh-LAH-toh AHN-keh ah meh|I like ice cream. Me too!}}
 <h3>Putting it together</h3>
 <p>A connector never changes the verbs around it: each verb still matches its own subject. Here one sentence has two subjects and two verb forms. As in English, a sentence can also start with <b>quando</b> or <b>se</b>, followed by a comma.</p>
 {{ex:Io lavoro, ma mio fratello studia.|EE-oh lah-VOH-roh mah MEE-oh frah-TEHL-loh STOO-dyah|I work, but my brother studies.}}
-<div class="tip"><b>Most common mistake:</b> writing yes without its accent, which turns it into another word: <b>Si, vengo</b> → <b>Sì, vengo</b>. And with piacere: <b>Mi piace il gelato. Anch'io!</b> → <b>Anche a me!</b></div>
+<div class="tip"><strong>Most common mistake:</strong> writing yes without its accent, which turns it into another word: <b>Si, vengo</b> → <b>Sì, vengo</b>. And with ‹piacere›: <b>Mi piace il gelato. Anch'io!</b> → <b>Anche a me!</b></div>
 `,
     check: [
-      ["\"___ studi l'italiano? ___ mi piace.\" (Why…? Because…) Which word fills both blanks?", ["Quando", "Se", "Perché", "Allora"], 2, "perché means both why and because."],
-      ["\"Me too\" is…", ["Anch'io.", "Anche me.", "Io anche.", "Neanch'io."], 0, "Me too is anch'io; neanch'io means me neither."],
-      ["Which is the correct spelling of \"Yes, I'm coming\"?", ["Si, vengo.", "Sì, vengo.", "Se, vengo.", "Sé, vengo."], 1, "Yes is sì, with an accent; se means if, and si is a pronoun."]
+      ["\"___ ‹studi l'italiano?› ___ ‹mi piace›.\" (Why…? Because…) Which word fills both blanks?",["Quando","Se","Perché","Allora"],2,"‹perché› means both why and because."],
+      ["\"Me too\" is…",["Anch'io.","Anche me.","Io anche.","Neanch'io."],0,"Me too is ‹anch'io›; ‹neanch'io› means me neither."],
+      ["Which is the correct spelling of \"Yes, I'm coming\"?",["Si, vengo.","Sì, vengo.","Se, vengo.","Sé, vengo."],1,"Yes is ‹sì›, with an accent; ‹se› means if, and ‹si› is a pronoun."]
     ],
     practice: [
-      ["mc", "\"I'm tired but happy\" (a man speaking) =", "Sono stanco ma contento.", "Sono stanco ma contenta.", "Sono stanco perché contento.", "Sono stanco se contento.", "ma is but, and a man says stanco and contento."],
-      ["mc", "\"If you want, let's go to the movies\" =", "Se vuoi, andiamo al cinema.", "Sì vuoi, andiamo al cinema.", "Si vuoi, andiamo al cinema.", "Perché vuoi, andiamo al cinema.", "If is se; sì means yes and si is a pronoun.", "!strict"],
-      ["mc", "\"Me neither\" =", "Neanch'io.", "Anch'io.", "Neanche me.", "Anche non io.", "For a negative, use neanche: neanch'io."],
-      ["mc", "\"Why aren't you coming? Because I'm tired.\" =", "Perché non vieni? Perché sono stanco.", "Perché non vieni? Allora sono stanco.", "Perché non vieni? Se sono stanco.", "Perché non vieni? Quando sono stanco.", "perché asks why and also answers because."],
-      ["mc", "\"It's raining, so I'll take the bus\" =", "Piove, allora prendo l'autobus.", "Piove, o prendo l'autobus.", "Piove, se prendo l'autobus.", "Piove, perché prendo l'autobus.", "allora introduces a result, like so."],
-      ["or", "I'm tired but happy (a woman speaking)", "Sono stanca ma contenta", "contento stanco", "A woman speaking: stanca and contenta agree (feminine)."],
-      ["or", "We study Italian because we like it", "Studiamo l'italiano perché ci piace", "studiano mi", "studiamo is the noi form: the verb ending matches the subject."],
-      ["or", "Yes, me too", "Sì anch'io", "Si", "sì with an accent means yes; anch'io means me too.", "!strict"],
-      ["fi", "Vado al mare __ fa bel tempo.", "I'm going to the beach if the weather is nice.", "se", "sì|si|perché", "If is se, with no accent.", "!strict"],
-      ["fi", "Anna è stanca __ lavora troppo.", "Anna is tired because she works too much.", "perché", "o|allora|anche", "Because is perché."],
-      ["fi", "Mi piace il gelato. __ a me!", "I like ice cream. Me too!", "Anche", "Anch'io|Neanche|Ma", "With piacere, me too is anche a me."],
-      ["ty", "We're tired because we work a lot (two men)", "Siamo stanchi perché lavoriamo molto|Noi siamo stanchi perché lavoriamo molto", "essere · stanco · perché · lavorare · molto", "lavorano", "lavoriamo is the noi form, and stanchi agrees with noi (masculine plural)."],
-      ["ty", "If you want, we'll eat at home (to a friend)", "Se vuoi, mangiamo a casa|Mangiamo a casa se vuoi|Se tu vuoi, mangiamo a casa|Mangiamo a casa se tu vuoi", "se · volere · mangiare · a casa", "vuole", "vuoi is the tu form; se means if."],
-      ["ty", "Yes, me too", "Sì, anch'io|Sì, anche io", "sì · anche · io", "si", "sì with an accent means yes.", "!strict"]
+      ["mc","\"I'm tired but happy\" (a man speaking) =","Sono stanco ma contento.","Sono stanco ma contenta.","Sono stanco perché contento.","Sono stanco se contento.","‹ma› is but, and a man says ‹stanco› and ‹contento›."],
+      ["mc","\"If you want, let's go to the movies\" =","Se vuoi, andiamo al cinema.","Sì vuoi, andiamo al cinema.","Si vuoi, andiamo al cinema.","Perché vuoi, andiamo al cinema.","If is ‹se›; ‹sì› means yes and ‹si› is a pronoun.","!strict"],
+      ["mc","\"Me neither\" =","Neanch'io.","Anch'io.","Neanche me.","Anche non io.","For a negative, use ‹neanche›: ‹neanch'io›."],
+      ["mc","\"Why aren't you coming? Because I'm tired.\" =","Perché non vieni? Perché sono stanco.","Perché non vieni? Allora sono stanco.","Perché non vieni? Se sono stanco.","Perché non vieni? Quando sono stanco.","‹perché› asks why and also answers because."],
+      ["mc","\"It's raining, so I'll take the bus\" =","Piove, allora prendo l'autobus.","Piove, o prendo l'autobus.","Piove, se prendo l'autobus.","Piove, perché prendo l'autobus.","‹allora› introduces a result, like so."],
+      ["or","I'm tired but happy (a woman speaking)","Sono stanca ma contenta","contento stanco","A woman speaking: ‹stanca› and ‹contenta› agree (feminine)."],
+      ["or","We study Italian because we like it","Studiamo l'italiano perché ci piace","studiano mi","‹studiamo› is the ‹noi› form: the verb ending matches the subject."],
+      ["or","Yes, me too","Sì anch'io","Si","‹sì› with an accent means yes; ‹anch'io› means me too.","!strict"],
+      ["fi","Vado al mare __ fa bel tempo.","I'm going to the beach if the weather is nice.","se","sì|si|perché","If is ‹se›, with no accent.","!strict"],
+      ["fi","Anna è stanca __ lavora troppo.","Anna is tired because she works too much.","perché","o|allora|anche","Because is ‹perché›."],
+      ["fi","Mi piace il gelato. __ a me!","I like ice cream. Me too!","Anche","Anch'io|Neanche|Ma","With ‹piacere›, me too is ‹anche a me›."],
+      ["ty","We're tired because we work a lot (two men)","Siamo stanchi perché lavoriamo molto|Noi siamo stanchi perché lavoriamo molto","‹essere› · ‹stanco› · ‹perché› · ‹lavorare› · ‹molto›","lavorano","‹lavoriamo› is the ‹noi› form, and ‹stanchi› agrees with ‹noi› (masculine plural)."],
+      ["ty","If you want, we'll eat at home (to a friend)","Se vuoi, mangiamo a casa|Mangiamo a casa se vuoi|Se tu vuoi, mangiamo a casa|Mangiamo a casa se tu vuoi","‹se› · ‹volere› · ‹mangiare› · ‹a casa›","vuole","‹vuoi› is the ‹tu› form; ‹se› means if."],
+      ["ty","Yes, me too","Sì, anch'io|Sì, anche io","‹sì› · ‹anche› · ‹io›","si","‹sì› with an accent means yes.","!strict"]
     ]
   },
   {
     id: "sapere-conoscere",
-    title: "sapere and conoscere: two ways to know",
+    title: "‹sapere› and ‹conoscere›: two ways to know",
     blurb: "Choose the right \"know\" for facts, skills, people and places, and avoid the false friends that trip up English speakers.",
     deck: "Traps for English speakers",
     body: `
 <p>English has one verb, "know". Italian splits it in two verbs: <b>sapere</b> and <b>conoscere</b>. The choice depends on what comes right after it in the sentence.</p>
 <p>A quick test: if English could say "know that", "know where" or "know how to", use <b>sapere</b>. If it could say "be familiar with" or "have met", use <b>conoscere</b>.</p>
-<h3>sapere: facts and skills</h3>
+<h3>‹sapere›: facts and skills</h3>
 <p>Use <b>sapere</b> for a fact, often followed by <b>dove</b>, <b>come</b>, <b>che</b> or <b>se</b>, and for something you know how to do, followed by an infinitive. It is irregular:</p>
-<div class="tbl"><table><tr><th>Who</th><th>sapere</th><th>conoscere</th></tr><tr><td class="k">io</td><td class="k">so</td><td class="k">conosco</td></tr><tr><td class="k">tu</td><td class="k">sai</td><td class="k">conosci</td></tr><tr><td class="k">lui, lei, Lei</td><td class="k">sa</td><td class="k">conosce</td></tr><tr><td class="k">noi</td><td class="k">sappiamo</td><td class="k">conosciamo</td></tr><tr><td class="k">voi</td><td class="k">sapete</td><td class="k">conoscete</td></tr><tr><td class="k">loro</td><td class="k">sanno</td><td class="k">conoscono</td></tr></table></div>
+<div class="tbl"><table><tr><th>Who</th><th>‹sapere›</th><th>‹conoscere›</th></tr><tr><td class="k">io</td><td class="k">so</td><td class="k">conosco</td></tr><tr><td class="k">tu</td><td class="k">sai</td><td class="k">conosci</td></tr><tr><td class="k">lui, lei, Lei</td><td class="k">sa</td><td class="k">conosce</td></tr><tr><td class="k">noi</td><td class="k">sappiamo</td><td class="k">conosciamo</td></tr><tr><td class="k">voi</td><td class="k">sapete</td><td class="k">conoscete</td></tr><tr><td class="k">loro</td><td class="k">sanno</td><td class="k">conoscono</td></tr></table></div>
 {{ex:So dov'è la stazione.|soh doh-VEH lah stah-TSYOH-neh|I know where the station is.}}
 {{ex:Non so come si chiama.|nohn soh KOH-meh see KYAH-mah|I don't know what his name is.}}
 {{ex:Sai nuotare?|sai nwoh-TAH-reh|Can you swim?}}
 <p>For a skill, English says "can". Italian says <b>sapere</b>: <b>So nuotare</b> means "I can swim" (I know how). <b>Posso</b> means you are able or allowed right now.</p>
-<h3>conoscere: people and places</h3>
+<h3>‹conoscere›: people and places</h3>
 <p>Use <b>conoscere</b> for a person or a place you are familiar with. Notice the sound change: <b>conosco</b> and <b>conoscono</b> have a hard <i>sk</i>, the others a soft <i>sh</i>.</p>
 {{ex:Conosci Marco?|koh-NOH-shee MAHR-koh|Do you know Marco?}}
 {{ex:Conosco bene Roma.|koh-NOHS-koh BEH-neh ROH-mah|I know Rome well.}}
-<p>To a stranger, both take the lui / lei form: <b>Sa dov'è la farmacia?</b></p>
+<p>To a stranger, both take the ‹lui› / ‹lei› form: <b>Sa dov'è la farmacia?</b></p>
 {{ex:Scusi, sa dov'è la farmacia?|SKOO-see sah doh-VEH lah fahr-mah-CHEE-ah|Excuse me, do you know where the pharmacy is?}}
-<h3>Lo so, non lo so</h3>
+<h3>‹Lo so›, ‹non lo so›</h3>
 <p>On its own, "I know" is usually <b>Lo so</b>, with <b>lo</b> (it) before the verb, just like the object pronouns you learned. For "I don't know" you will hear both <b>Non lo so</b> and <b>Non so</b>.</p>
 {{ex:Dov'è Marco? Non lo so.|doh-VEH MAHR-koh nohn loh soh|Where is Marco? I don't know.}}
 <h3>False friends</h3>
@@ -392,28 +392,28 @@ module.exports = [
 <p>This lesson's deck has more of these traps, including words that look friendly but mean something else entirely, so review it before you rely on a lookalike.</p>
 {{ex:I miei parenti abitano a Napoli.|ee myay pah-REHN-tee AH-bee-tah-noh ah NAH-poh-lee|My relatives live in Naples.}}
 {{ex:Studio in biblioteca.|STOO-dyoh een bee-blyoh-TEH-kah|I study at the library.}}
-<div class="tip"><b>Most common mistakes:</b> sapere for a person: <b>Sai Giovanni?</b> → <b>Conosci Giovanni?</b> And conoscere for a fact: <b>Non conosco dov'è</b> → <b>Non so dov'è</b>.</div>
+<div class="tip"><strong>Most common mistakes:</strong> ‹sapere› for a person: <b>Sai Giovanni?</b> → <b>Conosci Giovanni?</b> And ‹conoscere› for a fact: <b>Non conosco dov'è</b> → <b>Non so dov'è</b>.</div>
 `,
     check: [
-      ["\"Do you know Giulia?\" (to a friend) is…", ["Sai Giulia?", "Conosci Giulia?", "Conosce Giulia?", "Sapete Giulia?"], 1, "People take conoscere, and conosci is the tu form."],
-      ["\"I can swim\" (I know how) is…", ["So nuotare.", "Conosco nuotare.", "Sono nuotare.", "Conosco a nuotare."], 0, "A skill takes sapere + infinitive."],
-      ["\"i parenti\" means…", ["parents", "grandparents", "relatives", "children"], 2, "i parenti are relatives; parents are i genitori."]
+      ["\"Do you know Giulia?\" (to a friend) is…",["Sai Giulia?","Conosci Giulia?","Conosce Giulia?","Sapete Giulia?"],1,"People take ‹conoscere›, and ‹conosci› is the ‹tu› form."],
+      ["\"I can swim\" (I know how) is…",["So nuotare.","Conosco nuotare.","Sono nuotare.","Conosco a nuotare."],0,"A skill takes ‹sapere› + infinitive."],
+      ["\"‹i parenti›\" means…",["parents","grandparents","relatives","children"],2,"‹i parenti› are relatives; parents are ‹i genitori›."]
     ],
     practice: [
-      ["mc", "\"I don't know where the hotel is\" =", "Non so dov'è l'albergo.", "Non conosco dov'è l'albergo.", "Non sa dov'è l'albergo.", "Non so dove l'albergo.", "A fact with dove takes sapere; I is so."],
-      ["mc", "\"Do you know Rome?\" (to a friend) =", "Conosci Roma?", "Sai Roma?", "Conosce Roma?", "Sei Roma?", "A place takes conoscere; to a friend, conosci."],
-      ["mc", "\"Luisa can play the piano\" (she knows how) =", "Luisa sa suonare il piano.", "Luisa conosce suonare il piano.", "Luisa sai suonare il piano.", "Luisa conosce il piano suonare.", "A skill takes sapere + infinitive: sa suonare."],
-      ["mc", "\"My parents live in Rome\" =", "I miei genitori abitano a Roma.", "I miei parenti abitano a Roma.", "I miei padri abitano a Roma.", "Le mie genitori abitano a Roma.", "Parents are i genitori; i parenti are relatives."],
-      ["mc", "\"I'm going to the library\" =", "Vado in biblioteca.", "Vado in libreria.", "Vado in libraria.", "Vado in bibliotheca.", "A library is la biblioteca; la libreria is a bookstore."],
-      ["or", "Do you know Marco? (to a friend)", "Conosci Marco", "Conosce Sai", "People take conoscere, and conosci is the tu form."],
-      ["or", "Do you know where the station is? (to a stranger)", "Sa dov'è la stazione", "sai il", "Lei takes the lui/lei form: sa. stazione is feminine: la."],
-      ["or", "They don't know my parents", "Non conoscono i miei genitori", "conosce parenti", "conoscono is the loro form; i genitori are parents, i parenti relatives."],
-      ["fi", "Tu __ dov'è il bagno?", "Do you know where the bathroom is?", "sai", "conosci|sa|so", "A fact takes sapere; with tu, sai."],
-      ["fi", "Non __ la sorella di Marco.", "I don't know Marco's sister.", "conosco", "so|conosce|sa", "A person takes conoscere; I is conosco."],
-      ["fi", "Mia nonna non __ usare il cellulare.", "My grandmother doesn't know how to use the cell phone.", "sa", "conosce|sai|sanno", "Know how to takes sapere; my grandmother is she, so sa."],
-      ["ty", "Do you know where the station is? (to a stranger)", "Sa dov'è la stazione?|Lei sa dov'è la stazione?|Sa dove è la stazione?|Lei sa dove è la stazione?", "sapere · dov'è · la stazione", "sai", "Lei takes the lui/lei form: sa."],
-      ["ty", "I know Giulia", "Conosco Giulia|Io conosco Giulia", "conoscere · Giulia", "So conosce", "People take conoscere; the io form is conosco."],
-      ["ty", "My relatives live in Naples", "I miei parenti abitano a Napoli|I miei parenti vivono a Napoli", "il parente · abitare · Napoli", "genitori abita", "Relatives are i parenti, and the verb agrees with a plural subject: abitano."]
+      ["mc","\"I don't know where the hotel is\" =","Non so dov'è l'albergo.","Non conosco dov'è l'albergo.","Non sa dov'è l'albergo.","Non so dove l'albergo.","A fact with ‹dove› takes ‹sapere›; I is ‹so›."],
+      ["mc","\"Do you know Rome?\" (to a friend) =","Conosci Roma?","Sai Roma?","Conosce Roma?","Sei Roma?","A place takes ‹conoscere›; to a friend, ‹conosci›."],
+      ["mc","\"Luisa can play the piano\" (she knows how) =","Luisa sa suonare il piano.","Luisa conosce suonare il piano.","Luisa sai suonare il piano.","Luisa conosce il piano suonare.","A skill takes ‹sapere› + infinitive: ‹sa suonare›."],
+      ["mc","\"My parents live in Rome\" =","I miei genitori abitano a Roma.","I miei parenti abitano a Roma.","I miei padri abitano a Roma.","Le mie genitori abitano a Roma.","Parents are ‹i genitori›; ‹i parenti› are relatives."],
+      ["mc","\"I'm going to the library\" =","Vado in biblioteca.","Vado in libreria.","Vado in libraria.","Vado in bibliotheca.","A library is ‹la biblioteca›; ‹la libreria› is a bookstore."],
+      ["or","Do you know Marco? (to a friend)","Conosci Marco","Conosce Sai","People take ‹conoscere›, and ‹conosci› is the ‹tu› form."],
+      ["or","Do you know where the station is? (to a stranger)","Sa dov'è la stazione","sai il","‹Lei› takes the ‹lui›/‹lei› form: ‹sa›. ‹stazione› is feminine: ‹la›."],
+      ["or","They don't know my parents","Non conoscono i miei genitori","conosce parenti","‹conoscono› is the ‹loro› form; ‹i genitori› are parents, ‹i parenti› relatives."],
+      ["fi","Tu __ dov'è il bagno?","Do you know where the bathroom is?","sai","conosci|sa|so","A fact takes ‹sapere›; with ‹tu›, ‹sai›."],
+      ["fi","Non __ la sorella di Marco.","I don't know Marco's sister.","conosco","so|conosce|sa","A person takes ‹conoscere›; I is ‹conosco›."],
+      ["fi","Mia nonna non __ usare il cellulare.","My grandmother doesn't know how to use the cell phone.","sa","conosce|sai|sanno","Know how to takes ‹sapere›; my grandmother is she, so ‹sa›."],
+      ["ty","Do you know where the station is? (to a stranger)","Sa dov'è la stazione?|Lei sa dov'è la stazione?|Sa dove è la stazione?|Lei sa dove è la stazione?","‹sapere› · ‹dov'è› · ‹la stazione›","sai","‹Lei› takes the ‹lui›/‹lei› form: ‹sa›."],
+      ["ty","I know Giulia","Conosco Giulia|Io conosco Giulia","‹conoscere› · ‹Giulia›","So conosce","People take ‹conoscere›; the ‹io› form is ‹conosco›."],
+      ["ty","My relatives live in Naples","I miei parenti abitano a Napoli|I miei parenti vivono a Napoli","‹il parente› · ‹abitare› · ‹Napoli›","genitori abita","Relatives are ‹i parenti›, and the verb agrees with a plural subject: ‹abitano›."]
     ]
   }
 ];

@@ -9,28 +9,28 @@ module.exports = {
     Está de parabéns! | ees-TAH jee pah-rah-BAYNGS | You deserve congratulations! | Warm praise for a job well done.
     Mandou bem! | mahn-DOH bayng | Nailed it! | Informal, very common.
     Você arrasou! | voh-SAY ah-hah-ZOH | You rocked it! | Informal; after a show, a talk or a test.
-    Você é muito bom nisso. | voh-SAY eh MOOYN-too bohng NEE-soo | You're really good at this. | To a woman: muito boa.
+    Você é muito bom nisso. | voh-SAY eh MOOYN-too bohng NEE-soo | You're really good at this. | To a woman: ‹muito boa›.
     Ótima ideia! | AW-chee-muh ee-DAY-uh | Great idea! | Everyday.
     Ficou lindo! | fee-KOH LEEN-doo | It turned out beautiful! | A finished job: a room, a cake, a haircut.
     Que capricho! | kee kah-PREE-shoo | What care you put into it! | Very Brazilian praise for neat, careful work.
     Você é muito gentil. | voh-SAY eh MOOYN-too zhayn-CHEEW | You're very kind. | Same for men and women.
-    Você é muito engraçado. | voh-SAY eh MOOYN-too ayn-grah-SAH-doo | You're really funny. | To a woman: engraçada.
-    Você é muito esforçado. | voh-SAY eh MOOYN-too ees-fohr-SAH-doo | You really put in the effort. | To a woman: esforçada. Brazilian praise for hard work.
+    Você é muito engraçado. | voh-SAY eh MOOYN-too ayn-grah-SAH-doo | You're really funny. | To a woman: ‹engraçada›.
+    Você é muito esforçado. | voh-SAY eh MOOYN-too ees-fohr-SAH-doo | You really put in the effort. | To a woman: ‹esforçada›. Brazilian praise for hard work.
     Você é um amor! | voh-SAY eh oong ah-MOHR | You're a sweetheart! | Friendly, very common, not flirty.
     Você está muito bem! | voh-SAY ees-TAH MOOYN-too bayng | You look great! | Friendly.
     Ficou ótimo em você. | fee-KOH AW-chee-moo ayng voh-SAY | That looks great on you. | Clothes, a haircut.
-    Adorei a sua roupa. | ah-doh-RAY ah SOO-uh HOH-puh | I love your outfit. | Friendly; the past adorei = I love it (just seen).
+    Adorei a sua roupa. | ah-doh-RAY ah SOO-uh HOH-puh | I love your outfit. | Friendly; the past ‹adorei› = I love it (just seen).
     Sua casa é linda! | SOO-uh KAH-zuh eh LEEN-duh | Your home is beautiful! | On arrival.
     Que foto linda! | kee FAW-too LEEN-duh | What a beautiful photo! | Photos and posts.
     Que gracinha! | kee grah-SEE-nyuh | How cute! | Babies, kids, pets: very Brazilian.
     Você fala muito bem português! | voh-SAY FAH-luh MOOYN-too bayng pohr-too-GAYS | You speak Portuguese really well! | You will hear this.
-    Nem parece que é estrangeiro! | nayng pah-RAY-see kee eh ees-trahn-ZHAY-roo | You'd never know you're a foreigner! | To a woman: estrangeira.
+    Nem parece que é estrangeiro! | nayng pah-RAY-see kee eh ees-trahn-ZHAY-roo | You'd never know you're a foreigner! | To a woman: ‹estrangeira›.
     Que nada! | kee NAH-duh | Oh, not at all! | The typical modest brush-off.
     Bondade sua! | bohn-DAH-jee SOO-uh | That's kind of you! | A warm, common reply.
     Você acha? | voh-SAY AH-shuh | You think so? | Light doubt; a modest reply.
     Ainda estou aprendendo. | ah-EEN-duh ees-TOH ah-prayn-DAYN-doo | I'm still learning. | The expected modest reply about your Portuguese.
     Você também! | voh-SAY tahm-BAYNG | You too! | Returning a compliment.
     Adorei! | ah-doh-RAY | I loved it! | About a gift, a meal or a show.
-    Obrigada pelo elogio. | oh-bree-GAH-duh PAY-loo eh-loh-ZHEE-oo | Thanks for the compliment. | A woman speaking; a man: Obrigado.
+    Obrigada pelo elogio. | oh-bree-GAH-duh PAY-loo eh-loh-ZHEE-oo | Thanks for the compliment. | A woman speaking; a man: ‹Obrigado›.
 `
 };

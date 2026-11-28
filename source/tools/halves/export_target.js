@@ -233,7 +233,11 @@ const marks = [], unmarkedRows = [];
 const XFILE = process.env.HALVES_MARKS_EXTRA || path.join(L.ROOT, 'tools', 'target', TG, 'marks.extra.jsonl'), /* the env override is for selftest.js */ xKey = (f, id, k) => f + '\u0001' + id + '\u0001' + k;
 const extraIx = new Map(), xUsed = new Set(), xStale = [], xDump = []; /* HALVES_MARKS_DUMP=<file>: every scanned field with its marked ranges, for marks_propose.js */
 if (BYMARKS) L.readJSONL(XFILE).forEach(r => { const k = xKey(r.f, r.id, r.k); if (extraIx.has(k)) throw new Error('marks.extra.jsonl: two rows for ' + r.f + ':' + r.id + '.' + r.k); extraIx.set(k, r); });
-const markField = (kind, f, id, k, v, own) => { const key = xKey(f, id, k), x = extraIx.get(key); if (x) xUsed.add(key);
+/* tagged targets: a translation of a target line (dialogue, example, lesson sentence, pattern) keeps names and loan words as its own language does;
+   a tag in it is still a mark, but its bare words are not linted (docs/briefs/target-text-tags.md §3.6) */
+const TR_FIELD = { 'dialog.tr': 1, 'examples.tr': 1, 'sentences.gloss': 1, 'patterns.tr': 1, 'decks.label': 1, 'groups.name': 1, 'labels.text': 1 }; /* deck and group names are keys of saved progress: never tagged */
+const markField = (kind, f, id, k, v, own) => { const key = xKey(f, id, k); let x = extraIx.get(key); if (x) xUsed.add(key);
+  if (TC.tagged && TR_FIELD[f + '.' + k]) { x = Object.assign({}, x || {}, { lintOff: true }); own = []; }
   const m = TC.marks(kind, v, own, x); (m.extraMissing || []).forEach(sp => xStale.push(f + ':' + id + '.' + k + ' «' + sp + '» not found'));
   const lost = m.spans.length ? L.missingSpans(v, m.spans) : []; if (lost.length) throw new Error('marks: the English field ' + f + ':' + id + '.' + k + ' does not hold its own spans ' + lost.map(z => '«' + z + '»').join(' '));
   if (process.env.HALVES_MARKS_DUMP) xDump.push({ f, id, k, kind, text: v, taken: m.taken || [], unmarked: m.unmarked, ranges: m.ranges || [], lint: m.lint || [] });

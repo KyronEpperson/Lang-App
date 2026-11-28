@@ -1,4 +1,4 @@
-{"id":"it.d.sounds-and-spelling","label":"Sounds and spelling","desc":"Words that show each spelling rule: c and g before e and i, ch, gn, gli, sc, z and double consonants"}
+{"id":"it.d.sounds-and-spelling","label":"Sounds and spelling","desc":"Words that show each spelling rule: ‹c› and ‹g› before ‹e› and ‹i›, ‹ch›, ‹gn›, ‹gli›, ‹sc›, ‹z› and double consonants"}
 {"id":"it.d.greetings-and-courtesy","label":"Greetings and courtesy","desc":"Hello, goodbye, please, thanks and polite openers for strangers"}
 {"id":"it.d.about-me","label":"About me","desc":"Name, where you are from, age, languages and what you do"}
 {"id":"it.d.people-and-family","label":"People and family","desc":"Family members, friends and words to describe people"}
@@ -11,19 +11,19 @@
 {"id":"it.d.travel-and-transport","label":"Travel and transport","desc":"Tickets, stations, airports, getting around and hotel basics"}
 {"id":"it.d.health-and-emergencies","label":"Health and emergencies","desc":"Saying what hurts, the pharmacy, and asking for help"}
 {"id":"it.d.work-and-study","label":"Work and study","desc":"Jobs, the workplace, classes and everyday work verbs"}
-{"id":"it.d.feelings-and-states","label":"Feelings and states","desc":"How you feel, with essere, avere and stare"}
+{"id":"it.d.feelings-and-states","label":"Feelings and states","desc":"How you feel, with ‹essere›, ‹avere› and ‹stare›"}
 {"id":"it.d.likes-and-free-time","label":"Likes and free time","desc":"Hobbies, sports, likes and dislikes, and what you did at the weekend"}
 {"id":"it.d.questions-and-connectors","label":"Questions and connectors","desc":"Question words and the small words that join sentences"}
 {"id":"it.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"False friends, calques and know vs know"}
 {"id":"it.d.cafe-and-menu-italian","label":"Café and menu Italian","desc":"Menu words Americans already say differently, and ordering politely"}
 {"id":"it.d.compliments","label":"Compliments","desc":"Praising food, work, skills, homes and effort, and how Italians answer a compliment"}
 {"id":"it.d.flirting","label":"Flirting","desc":"Words people flirt with, the phrases built on them, asking someone out, and kind ways to say yes or no"}
-{"id":"it.d.top-nouns","label":"Top nouns","desc":"The most-used nouns, with il, la, lo or l'"}
-{"id":"it.d.top-verbs","label":"Top verbs","desc":"The most-used verbs, with the io form and irregulars flagged"}
+{"id":"it.d.top-nouns","label":"Top nouns","desc":"The most-used nouns, with ‹il›, ‹la›, ‹lo› or ‹l'›"}
+{"id":"it.d.top-verbs","label":"Top verbs","desc":"The most-used verbs, with the ‹io› form and irregulars flagged"}
 {"id":"it.d.top-adjectives","label":"Top adjectives","desc":"The most-used adjectives, with the feminine form"}
-{"id":"it.d.top-adverbs","label":"Top adverbs","desc":"When, where, how and how much: già, sempre, qui, molto"}
+{"id":"it.d.top-adverbs","label":"Top adverbs","desc":"When, where, how and how much: ‹già›, ‹sempre›, ‹qui›, ‹molto›"}
 {"id":"it.d.top-pronouns","label":"Top pronouns","desc":"Subject, object, possessive, demonstrative, question and indefinite pronouns"}
-{"id":"it.d.top-prepositions","label":"Top prepositions","desc":"di, a, da, in, con, per and the rest, with the contracted forms"}
-{"id":"it.d.top-conjunctions","label":"Top conjunctions","desc":"The small words that join ideas: che, se, però, quindi, mentre"}
-{"id":"it.d.top-interjections","label":"Top interjections","desc":"What Italians really exclaim: boh, dai, magari, mamma mia"}
+{"id":"it.d.top-prepositions","label":"Top prepositions","desc":"‹di›, ‹a›, ‹da›, ‹in›, ‹con›, ‹per› and the rest, with the contracted forms"}
+{"id":"it.d.top-conjunctions","label":"Top conjunctions","desc":"The small words that join ideas: ‹che›, ‹se›, ‹però›, ‹quindi›, ‹mentre›"}
+{"id":"it.d.top-interjections","label":"Top interjections","desc":"What Italians really exclaim: ‹boh›, ‹dai›, ‹magari›, ‹mamma mia›"}
 {"id":"it.d.top-words","label":"Top words","desc":"Articles, yes and no, question words, numbers to twenty, days and months"}

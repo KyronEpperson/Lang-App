@@ -1,5 +1,5 @@
-{"id":"de.d.sounds-and-spelling","label":"Sounds and spelling","desc":"Words that show each sound rule: ch, r, z, w / v, ei / ie, umlauts, ß and final b d g"}
-{"id":"de.d.greetings-and-courtesy","label":"Greetings and courtesy","desc":"Hello, goodbye, please, thanks, and Sie or du with the people you meet"}
+{"id":"de.d.sounds-and-spelling","label":"Sounds and spelling","desc":"Words that show each sound rule: ‹ch›, ‹r›, ‹z›, ‹w› / ‹v›, ‹ei› / ‹ie›, umlauts, ‹ß› and final ‹b› ‹d› ‹g›"}
+{"id":"de.d.greetings-and-courtesy","label":"Greetings and courtesy","desc":"Hello, goodbye, please, thanks, and ‹Sie› or ‹du› with the people you meet"}
 {"id":"de.d.about-me","label":"About me","desc":"Name, where you are from, where you live, your job, age and languages"}
 {"id":"de.d.people-and-family","label":"People and family","desc":"Family members, friends and the articles that go with them"}
 {"id":"de.d.numbers-time-and-prices","label":"Numbers, time and prices","desc":"Numbers to 1,000, telling the time, and prices in euros"}
@@ -7,23 +7,23 @@
 {"id":"de.d.food-and-drink","label":"Food and drink","desc":"Bakery, café and restaurant: ordering, everyday food and drinks, paying"}
 {"id":"de.d.shopping-and-clothes","label":"Shopping and clothes","desc":"Clothes, colors, sizes, prices and paying"}
 {"id":"de.d.home-and-routine","label":"Home and routine","desc":"Rooms and things at home, and a daily routine with separable verbs"}
-{"id":"de.d.around-town-and-directions","label":"Around town and directions","desc":"Places in town, asking the way, and getting around with mit and zu"}
+{"id":"de.d.around-town-and-directions","label":"Around town and directions","desc":"Places in town, asking the way, and getting around with ‹mit› and ‹zu›"}
 {"id":"de.d.travel-and-transport","label":"Travel and transport","desc":"Trains, tickets, stations, airports and hotel basics"}
 {"id":"de.d.health-and-emergencies","label":"Health and emergencies","desc":"Saying what hurts, the doctor and the pharmacy, and asking for help"}
 {"id":"de.d.work-and-study","label":"Work and study","desc":"Jobs, the office, classes, and everyday work verbs"}
-{"id":"de.d.feelings-and-states","label":"Feelings and states","desc":"How you feel and how you are, with sein, haben and mir"}
+{"id":"de.d.feelings-and-states","label":"Feelings and states","desc":"How you feel and how you are, with ‹sein›, ‹haben› and ‹mir›"}
 {"id":"de.d.likes-and-free-time","label":"Likes and free time","desc":"Hobbies, sports, likes and dislikes, and what you did at the weekend"}
 {"id":"de.d.questions-and-connectors","label":"Questions and connectors","desc":"Question words and the small words that join sentences"}
 {"id":"de.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"False friends and word-for-word copies from English"}
 {"id":"de.d.life-in-germany","label":"Life in Germany","desc":"Appointments, registration, cash, deposits and Sundays: words for living in Germany"}
 {"id":"de.d.compliments","label":"Compliments","desc":"Praise food, work, effort and someone's home, and answer a compliment the German way"}
 {"id":"de.d.flirting","label":"Flirting","desc":"Flirty words, the phrases built from them, asking someone out, and kind ways to say yes or no"}
-{"id":"de.d.top-nouns","label":"Top nouns","desc":"The most-used nouns, with der, die or das and the plural"}
-{"id":"de.d.top-verbs","label":"Top verbs","desc":"The most-used verbs: infinitive, the ich-form, and strong or separable flags"}
+{"id":"de.d.top-nouns","label":"Top nouns","desc":"The most-used nouns, with ‹der›, ‹die› or ‹das› and the plural"}
+{"id":"de.d.top-verbs","label":"Top verbs","desc":"The most-used verbs: infinitive, the ‹ich›-form, and strong or separable flags"}
 {"id":"de.d.top-adjectives","label":"Top adjectives","desc":"The most-used adjectives, with the comparative or the form that changes"}
-{"id":"de.d.top-adverbs","label":"Top adverbs","desc":"Time, place, manner and degree: schon, noch, immer, hier, sehr …"}
-{"id":"de.d.top-pronouns","label":"Top pronouns","desc":"Personal pronouns in every case, Sie and du, question and indefinite pronouns"}
+{"id":"de.d.top-adverbs","label":"Top adverbs","desc":"Time, place, manner and degree: ‹schon›, ‹noch›, ‹immer›, ‹hier›, ‹sehr› …"}
+{"id":"de.d.top-pronouns","label":"Top pronouns","desc":"Personal pronouns in every case, ‹Sie› and ‹du›, question and indefinite pronouns"}
 {"id":"de.d.top-prepositions","label":"Top prepositions","desc":"The most-used prepositions and contractions, with the case each one takes"}
 {"id":"de.d.top-conjunctions","label":"Top conjunctions","desc":"More words that join sentences, and where each one sends the verb"}
-{"id":"de.d.top-interjections","label":"Top interjections","desc":"What Germans really exclaim: Ach so!, Na ja, Aua!, Mist!, Krass! …"}
+{"id":"de.d.top-interjections","label":"Top interjections","desc":"What Germans really exclaim: ‹Ach so!›, ‹Na ja›, ‹Aua!›, ‹Mist!›, ‹Krass!› …"}
 {"id":"de.d.top-words","label":"Top words","desc":"Articles, determiners, possessives, question words, numbers and days"}

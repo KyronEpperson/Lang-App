@@ -1,4 +1,4 @@
-{"id":"fr.d.sounds-and-spelling","label":"Sounds and spelling","desc":"Words that show silent letters, u and ou, nasal vowels and liaison"}
+{"id":"fr.d.sounds-and-spelling","label":"Sounds and spelling","desc":"Words that show silent letters, ‹u› and ‹ou›, nasal vowels and liaison"}
 {"id":"fr.d.greetings-and-courtesy","label":"Greetings and courtesy","desc":"Hello, goodbye, please, thank you, and polite openers for strangers"}
 {"id":"fr.d.about-me","label":"About me","desc":"Your name, where you are from and where you live, and the languages you speak"}
 {"id":"fr.d.people-and-family","label":"People and family","desc":"Family members, friends, and words to describe and compare people"}
@@ -11,19 +11,19 @@
 {"id":"fr.d.travel-and-transport","label":"Travel and transport","desc":"Tickets, stations, airports, countries and getting around"}
 {"id":"fr.d.health-and-emergencies","label":"Health and emergencies","desc":"Saying what hurts, the pharmacy, and asking for help"}
 {"id":"fr.d.work-and-school","label":"Work and school","desc":"Jobs, the workplace, studies and plans"}
-{"id":"fr.d.feelings-and-states","label":"Feelings and states","desc":"How you feel, with être and avoir, and saying what you are not"}
+{"id":"fr.d.feelings-and-states","label":"Feelings and states","desc":"How you feel, with ‹être› and ‹avoir›, and saying what you are not"}
 {"id":"fr.d.likes-and-free-time","label":"Likes and free time","desc":"Hobbies, sports, likes and dislikes, and what you did"}
 {"id":"fr.d.questions-and-connectors","label":"Questions and connectors","desc":"Question words and the small words that join sentences"}
-{"id":"fr.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"False friends, calques and avoir where English says \"be\""}
-{"id":"fr.d.spoken-french","label":"Spoken French","desc":"What you will hear: ne dropped, on for \"we\", and everyday informal words"}
+{"id":"fr.d.traps-for-english-speakers","label":"Traps for English speakers","desc":"False friends, calques and ‹avoir› where English says \"be\""}
+{"id":"fr.d.spoken-french","label":"Spoken French","desc":"What you will hear: ‹ne› dropped, ‹on› for \"we\", and everyday informal words"}
 {"id":"fr.d.top-nouns","label":"Top nouns","desc":"The most-used nouns, each with an article that shows its gender"}
-{"id":"fr.d.top-verbs","label":"Top verbs","desc":"The most-used verbs in the infinitive, with the je form and irregular ones flagged"}
+{"id":"fr.d.top-verbs","label":"Top verbs","desc":"The most-used verbs in the infinitive, with the ‹je› form and irregular ones flagged"}
 {"id":"fr.d.top-adjectives","label":"Top adjectives","desc":"The most-used adjectives, with the feminine form and whether it sounds different"}
-{"id":"fr.d.top-adverbs","label":"Top adverbs","desc":"Time, place, manner and degree: très, déjà, ici, souvent, ne … pas"}
+{"id":"fr.d.top-adverbs","label":"Top adverbs","desc":"Time, place, manner and degree: ‹très›, ‹déjà›, ‹ici›, ‹souvent›, ‹ne› … ‹pas›"}
 {"id":"fr.d.top-pronouns","label":"Top pronouns","desc":"Subject, stress, object, demonstrative, possessive, question and indefinite pronouns"}
-{"id":"fr.d.top-prepositions","label":"Top prepositions","desc":"à, de, en, dans, chez and the rest, with the contractions au, aux, du"}
-{"id":"fr.d.top-conjunctions","label":"Top conjunctions","desc":"The words that join ideas: que, si, comme, pendant que, même si"}
-{"id":"fr.d.top-interjections","label":"Top interjections","desc":"What people really exclaim: Oh là là, Ouf, Mince, Tant pis"}
+{"id":"fr.d.top-prepositions","label":"Top prepositions","desc":"‹à›, ‹de›, ‹en›, ‹dans›, ‹chez› and the rest, with the contractions ‹au›, ‹aux›, ‹du›"}
+{"id":"fr.d.top-conjunctions","label":"Top conjunctions","desc":"The words that join ideas: ‹que›, ‹si›, ‹comme›, ‹pendant que›, ‹même si›"}
+{"id":"fr.d.top-interjections","label":"Top interjections","desc":"What people really exclaim: ‹Oh là là›, ‹Ouf›, ‹Mince›, ‹Tant pis›"}
 {"id":"fr.d.top-words","label":"Top words","desc":"Articles, determiners, possessives, yes and no, numbers, days, months and times of day"}
 {"id":"fr.d.compliments","label":"Compliments","desc":"Everyday praise for food, work, skills, homes and effort, and how French people answer it"}
 {"id":"fr.d.flirting","label":"Flirting","desc":"Words people flirt with, the phrases built from them, asking someone out, and kind ways to say no"}

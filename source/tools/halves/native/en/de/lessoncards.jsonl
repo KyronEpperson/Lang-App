@@ -1,30 +1,30 @@
-{"id":"de.lc0001","meaning":"ei: sounds like eye","note":"der Wein (dayr vain), wine"}
-{"id":"de.lc0002","meaning":"ie: sounds like ee in see","note":"Wien (veen), Vienna. Wein, with ei, is wine."}
-{"id":"de.lc0003","meaning":"eu: sounds like oy in boy","note":"neu (noy), new"}
-{"id":"de.lc0004","meaning":"äu: the same oy as eu","note":"die Häuser (dee HOY-zuh), houses"}
-{"id":"de.lc0005","meaning":"au: sounds like ow in how","note":"das Haus (dahs hows), house"}
-{"id":"de.lc0006","meaning":"long a: the h is silent","note":"die Bahn (dee bahn), the railway"}
-{"id":"de.lc0007","meaning":"long e: the h is silent","note":"sehr (zayr), very"}
-{"id":"de.lc0008","meaning":"long i: the h is silent","note":"ihn (een), him"}
-{"id":"de.lc0009","meaning":"long o: the h is silent","note":"der Sohn (dayr zohn), son"}
-{"id":"de.lc0010","meaning":"long u: the h is silent","note":"die Uhr (dee oor), clock"}
-{"id":"de.lc0011","meaning":"long a, written double","note":"das Haar (dahs hahr), hair"}
-{"id":"de.lc0012","meaning":"long e, written double","note":"der Tee (dayr tay), tea"}
-{"id":"de.lc0013","meaning":"long o, written double","note":"das Boot (dahs boht), boat"}
-{"id":"de.lc0014","meaning":"the mirror","note":"sp at the start is shp; ie is ee; the ending -el is uhl. Stress on the first syllable."}
-{"id":"de.lc0015","meaning":"the beach","note":"st at the start is sht; the final d sounds t. One syllable."}
-{"id":"de.lc0016","meaning":"the zoo","note":"z is ts; the doubled o is a long oh. One syllable."}
-{"id":"de.lc0017","meaning":"the sausage","note":"w is v; the u before two consonants is short. One syllable."}
-{"id":"de.lc0018","meaning":"the onion","note":"z is ts and w is v, so zw is tsv; ie is ee; the ending -el is uhl. Stress on the first syllable."}
-{"id":"de.lc0019","meaning":"the church","note":"ch after r is the soft hh; the final e is said, uh. Stress on Kir."}
-{"id":"de.lc0020","meaning":"the glasses (for your eyes)","note":"i before a doubled l is short; the final e is said. Stress on the first syllable."}
-{"id":"de.lc0021","meaning":"the shoe","note":"sch is sh; the h after u is silent and makes it long. One syllable."}
-{"id":"de.lc0022","meaning":"the ice; ice cream","note":"ei is ai, as in eye. One syllable."}
-{"id":"de.lc0023","meaning":"the bakery","note":"ä is eh, ck is k, ei is ai. The ending -ei is always stressed: behk-uh-RAI."}
-{"id":"de.lc0024","meaning":"soccer; the soccer ball","note":"Fuß + Ball (foot + ball). ß after the long u is s; a is short before ll. Stress on the first part."}
-{"id":"de.lc0025","meaning":"the train station","note":"Bahn + Hof (railway + yard). The h after a is silent and makes it long. Stress on Bahn."}
-{"id":"de.lc0026","meaning":"the bicycle","note":"Fahr + Rad (ride + wheel). The h makes the a long; the final d sounds t. Stress on Fahr."}
-{"id":"de.lc0027","meaning":"the glove","note":"Hand + Schuh (hand + shoe). The d ends the first part, so it sounds t; sch is sh. Stress on Hand."}
-{"id":"de.lc0028","meaning":"the airplane","note":"Flug + Zeug (flight + thing). The g ending each part sounds k; z is ts; eu is oy. Stress on Flug."}
-{"id":"de.lc0029","meaning":"the streetcar, the tram","note":"Straßen + Bahn (streets + railway). st at the start is sht; ß is s. Stress on the first part."}
-{"id":"de.lc0030","meaning":"the homework","note":"Haus + Aufgabe (home + task). au is ow, twice; the final e is said. Stress on Haus."}
+{"id":"de.lc0001","meaning":"‹ei›: sounds like eye","note":"‹der Wein› (dayr vain), wine"}
+{"id":"de.lc0002","meaning":"‹ie›: sounds like ee in see","note":"‹Wien› (veen), Vienna. ‹Wein›, with ‹ei›, is wine."}
+{"id":"de.lc0003","meaning":"‹eu›: sounds like oy in boy","note":"‹neu› (noy), new"}
+{"id":"de.lc0004","meaning":"‹äu›: the same oy as ‹eu›","note":"‹die Häuser› (dee HOY-zuh), houses"}
+{"id":"de.lc0005","meaning":"‹au›: sounds like ow in how","note":"‹das Haus› (dahs hows), house"}
+{"id":"de.lc0006","meaning":"long a: the ‹h› is silent","note":"‹die Bahn› (dee bahn), the railway"}
+{"id":"de.lc0007","meaning":"long e: the ‹h› is silent","note":"‹sehr› (zayr), very"}
+{"id":"de.lc0008","meaning":"long i: the ‹h› is silent","note":"‹ihn› (een), him"}
+{"id":"de.lc0009","meaning":"long o: the ‹h› is silent","note":"‹der Sohn› (dayr zohn), son"}
+{"id":"de.lc0010","meaning":"long u: the ‹h› is silent","note":"‹die Uhr› (dee oor), clock"}
+{"id":"de.lc0011","meaning":"long a, written double","note":"‹das Haar› (dahs hahr), hair"}
+{"id":"de.lc0012","meaning":"long e, written double","note":"‹der Tee› (dayr tay), tea"}
+{"id":"de.lc0013","meaning":"long o, written double","note":"‹das Boot› (dahs boht), boat"}
+{"id":"de.lc0014","meaning":"the mirror","note":"‹sp› at the start is shp; ‹ie› is ee; the ending ‹-el› is uhl. Stress on the first syllable."}
+{"id":"de.lc0015","meaning":"the beach","note":"‹st› at the start is sht; the final ‹d› sounds t. One syllable."}
+{"id":"de.lc0016","meaning":"the zoo","note":"‹z› is ts; the doubled ‹o› is a long oh. One syllable."}
+{"id":"de.lc0017","meaning":"the sausage","note":"‹w› is v; the ‹u› before two consonants is short. One syllable."}
+{"id":"de.lc0018","meaning":"the onion","note":"‹z› is ts and ‹w› is v, so ‹zw› is tsv; ‹ie› is ee; the ending ‹-el› is uhl. Stress on the first syllable."}
+{"id":"de.lc0019","meaning":"the church","note":"‹ch› after ‹r› is the soft hh; the final ‹e› is said, uh. Stress on ‹Kir›."}
+{"id":"de.lc0020","meaning":"the glasses (for your eyes)","note":"‹i› before a doubled ‹l› is short; the final ‹e› is said. Stress on the first syllable."}
+{"id":"de.lc0021","meaning":"the shoe","note":"‹sch› is sh; the ‹h› after ‹u› is silent and makes it long. One syllable."}
+{"id":"de.lc0022","meaning":"the ice; ice cream","note":"‹ei› is ai, as in eye. One syllable."}
+{"id":"de.lc0023","meaning":"the bakery","note":"‹ä› is eh, ‹ck› is k, ‹ei› is ai. The ending ‹-ei› is always stressed: behk-uh-RAI."}
+{"id":"de.lc0024","meaning":"soccer; the soccer ball","note":"‹Fuß› + ‹Ball› (foot + ball). ‹ß› after the long ‹u› is s; ‹a› is short before ‹ll›. Stress on the first part."}
+{"id":"de.lc0025","meaning":"the train station","note":"‹Bahn› + ‹Hof› (railway + yard). The ‹h› after ‹a› is silent and makes it long. Stress on ‹Bahn›."}
+{"id":"de.lc0026","meaning":"the bicycle","note":"‹Fahr› + ‹Rad› (ride + wheel). The ‹h› makes the ‹a› long; the final ‹d› sounds t. Stress on ‹Fahr›."}
+{"id":"de.lc0027","meaning":"the glove","note":"‹Hand› + ‹Schuh› (hand + shoe). The ‹d› ends the first part, so it sounds t; ‹sch› is sh. Stress on ‹Hand›."}
+{"id":"de.lc0028","meaning":"the airplane","note":"‹Flug› + ‹Zeug› (flight + thing). The ‹g› ending each part sounds k; ‹z› is ts; ‹eu› is oy. Stress on ‹Flug›."}
+{"id":"de.lc0029","meaning":"the streetcar, the tram","note":"‹Straßen› + ‹Bahn› (streets + railway). ‹st› at the start is sht; ‹ß› is s. Stress on the first part."}
+{"id":"de.lc0030","meaning":"the homework","note":"‹Haus› + ‹Aufgabe› (home + task). ‹au› is ow, twice; the final ‹e› is said. Stress on ‹Haus›."}

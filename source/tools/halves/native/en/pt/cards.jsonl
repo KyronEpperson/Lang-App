@@ -1,326 +1,326 @@
-{"id":"pt.c0001","meaning":"the bread","note":"Nasal ão. Compare pau (stick), with no nasal."}
-{"id":"pt.c0002","meaning":"the mother; mom","note":"ãe is nasal: say it through the nose. Mommy is mamãe."}
-{"id":"pt.c0003","meaning":"the hand","note":"Nasal ão, like pão. Feminine, even though it ends in -o."}
-{"id":"pt.c0004","meaning":"the heart","note":"ç always sounds like s, and ão is nasal."}
-{"id":"pt.c0005","meaning":"the work; the job","note":"lh sounds like the lli in million."}
-{"id":"pt.c0006","meaning":"the wine","note":"nh sounds like the ny in canyon."}
-{"id":"pt.c0007","meaning":"the car","note":"rr, and r at the start of a word, sound like English h. caro (expensive) has a light tap."}
-{"id":"pt.c0008","meaning":"the street","note":"r at the start of a word sounds like English h."}
-{"id":"pt.c0009","meaning":"the city","note":"t and d before an i sound turn into ch and j: the final de sounds jee."}
-{"id":"pt.c0010","meaning":"the night","note":"The final te sounds chee, not tay."}
-{"id":"pt.c0011","meaning":"the day","note":"d before i sounds like j. Masculine, even though it ends in -a."}
-{"id":"pt.c0012","meaning":"the milk","note":"ei sounds like ay, and the final te sounds chee."}
-{"id":"pt.c0013","meaning":"Brazil","note":"A final l sounds like w. The country takes the article: o Brasil."}
-{"id":"pt.c0014","meaning":"the house; home","note":"s between two vowels sounds like z."}
-{"id":"pt.c0015","meaning":"the key","note":"ch sounds like English sh."}
-{"id":"pt.c0016","meaning":"the cheese","note":"qu before e or i sounds like k; j sounds like the s in measure."}
-{"id":"pt.c0017","meaning":"the man","note":"h is always silent, and the final em is nasal, with no m sound."}
+{"id":"pt.c0001","meaning":"the bread","note":"Nasal ‹ão›. Compare ‹pau› (stick), with no nasal."}
+{"id":"pt.c0002","meaning":"the mother; mom","note":"‹ãe› is nasal: say it through the nose. Mommy is ‹mamãe›."}
+{"id":"pt.c0003","meaning":"the hand","note":"Nasal ‹ão›, like ‹pão›. Feminine, even though it ends in ‹-o›."}
+{"id":"pt.c0004","meaning":"the heart","note":"‹ç› always sounds like s, and ‹ão› is nasal."}
+{"id":"pt.c0005","meaning":"the work; the job","note":"‹lh› sounds like the lli in million."}
+{"id":"pt.c0006","meaning":"the wine","note":"‹nh› sounds like the ny in canyon."}
+{"id":"pt.c0007","meaning":"the car","note":"‹rr›, and ‹r› at the start of a word, sound like English h. ‹caro› (expensive) has a light tap."}
+{"id":"pt.c0008","meaning":"the street","note":"‹r› at the start of a word sounds like English h."}
+{"id":"pt.c0009","meaning":"the city","note":"‹t› and ‹d› before an i sound turn into ch and j: the final ‹de› sounds jee."}
+{"id":"pt.c0010","meaning":"the night","note":"The final ‹te› sounds chee, not tay."}
+{"id":"pt.c0011","meaning":"the day","note":"‹d› before ‹i› sounds like j. Masculine, even though it ends in ‹-a›."}
+{"id":"pt.c0012","meaning":"the milk","note":"‹ei› sounds like ay, and the final ‹te› sounds chee."}
+{"id":"pt.c0013","meaning":"Brazil","note":"A final ‹l› sounds like w. The country takes the article: ‹o Brasil›."}
+{"id":"pt.c0014","meaning":"the house; home","note":"‹s› between two vowels sounds like z."}
+{"id":"pt.c0015","meaning":"the key","note":"‹ch› sounds like English sh."}
+{"id":"pt.c0016","meaning":"the cheese","note":"‹qu› before ‹e› or ‹i› sounds like k; ‹j› sounds like the s in measure."}
+{"id":"pt.c0017","meaning":"the man","note":"‹h› is always silent, and the final ‹em› is nasal, with no m sound."}
 {"id":"pt.c0018","meaning":"the coffee","note":"The accent mark shows the stressed syllable: the last one here."}
-{"id":"pt.c0019","meaning":"Hi!","note":"The everyday hello. Olá is a little more formal."}
-{"id":"pt.c0020","meaning":"Good morning.","note":"Until about noon. After that: boa tarde."}
-{"id":"pt.c0021","meaning":"Good afternoon.","note":"boa is feminine, like tarde: never bom tarde."}
+{"id":"pt.c0019","meaning":"Hi!","note":"The everyday hello. ‹Olá› is a little more formal."}
+{"id":"pt.c0020","meaning":"Good morning.","note":"Until about noon. After that: ‹boa tarde›."}
+{"id":"pt.c0021","meaning":"Good afternoon.","note":"‹boa› is feminine, like ‹tarde›: never ‹bom tarde›."}
 {"id":"pt.c0022","meaning":"Good evening; good night.","note":"After dark, both to say hello and to say goodbye."}
-{"id":"pt.c0023","meaning":"How are you?","note":"Literally: all good? The answer is the same: Tudo bem!"}
-{"id":"pt.c0024","meaning":"Fine, and you?","note":"e (and) has no accent mark; é with one means is."}
-{"id":"pt.c0025","meaning":"Thank you.","note":"A man says obrigado, a woman says obrigada: it agrees with the speaker."}
+{"id":"pt.c0023","meaning":"How are you?","note":"Literally: all good? The answer is the same: ‹Tudo bem!›"}
+{"id":"pt.c0024","meaning":"Fine, and you?","note":"‹e› (and) has no accent mark; ‹é› with one means is."}
+{"id":"pt.c0025","meaning":"Thank you.","note":"A man says ‹obrigado›, a woman says ‹obrigada›: it agrees with the speaker."}
 {"id":"pt.c0026","meaning":"Thank you (said by a woman).","note":"It agrees with the speaker, not with the person you thank."}
-{"id":"pt.c0027","meaning":"Thank you very much.","note":"A woman says muito obrigada. muito stays the same."}
+{"id":"pt.c0027","meaning":"Thank you very much.","note":"A woman says ‹muito obrigada›. ‹muito› stays the same."}
 {"id":"pt.c0028","meaning":"You're welcome.","note":""}
 {"id":"pt.c0029","meaning":"Please.","note":""}
 {"id":"pt.c0030","meaning":"Excuse me.","note":"To get past someone or to interrupt politely."}
-{"id":"pt.c0031","meaning":"Sorry.","note":"For a small slip. Desculpe is a little more formal."}
-{"id":"pt.c0032","meaning":"Nice to meet you.","note":"Short for muito prazer."}
+{"id":"pt.c0031","meaning":"Sorry.","note":"For a small slip. ‹Desculpe› is a little more formal."}
+{"id":"pt.c0032","meaning":"Nice to meet you.","note":"Short for ‹muito prazer›."}
 {"id":"pt.c0033","meaning":"Bye!","note":"The everyday goodbye, among friends and in shops."}
 {"id":"pt.c0034","meaning":"See you later.","note":""}
-{"id":"pt.c0035","meaning":"How are you? (to an older man)","note":"o senhor takes the ele form: vai. To an older woman: Como vai a senhora?"}
-{"id":"pt.c0036","meaning":"Would you like a coffee? (to an older woman)","note":"A polite offer. aceita is the ele form, as with você."}
-{"id":"pt.c0037","meaning":"My name is Ana.","note":"Also: Meu nome é Ana."}
-{"id":"pt.c0038","meaning":"My name's Lucas.","note":"In Brazil the article is optional here: O meu nome é Lucas is fine too."}
-{"id":"pt.c0039","meaning":"What's your name?","note":"Also common: Qual é o seu nome?"}
-{"id":"pt.c0040","meaning":"Where are you from?","note":"Keep você: é alone could also mean he or she."}
-{"id":"pt.c0041","meaning":"I'm from Orlando.","note":"ser de + a city, with no article."}
-{"id":"pt.c0042","meaning":"I'm from the United States.","note":"dos = de + os: the country name is plural."}
-{"id":"pt.c0043","meaning":"I'm American.","note":"A woman says americana. Nationalities are lowercase."}
+{"id":"pt.c0035","meaning":"How are you? (to an older man)","note":"‹o senhor› takes the ‹ele› form: ‹vai›. To an older woman: ‹Como vai a senhora?›"}
+{"id":"pt.c0036","meaning":"Would you like a coffee? (to an older woman)","note":"A polite offer. ‹aceita› is the ‹ele› form, as with ‹você›."}
+{"id":"pt.c0037","meaning":"My name is Ana.","note":"Also: ‹Meu nome é Ana›."}
+{"id":"pt.c0038","meaning":"My name's Lucas.","note":"In Brazil the article is optional here: ‹O meu nome é Lucas› is fine too."}
+{"id":"pt.c0039","meaning":"What's your name?","note":"Also common: ‹Qual é o seu nome?›"}
+{"id":"pt.c0040","meaning":"Where are you from?","note":"Keep ‹você›: ‹é› alone could also mean he or she."}
+{"id":"pt.c0041","meaning":"I'm from Orlando.","note":"‹ser de› + a city, with no article."}
+{"id":"pt.c0042","meaning":"I'm from the United States.","note":"‹dos› = ‹de› + ‹os›: the country name is plural."}
+{"id":"pt.c0043","meaning":"I'm American.","note":"A woman says ‹americana›. Nationalities are lowercase."}
 {"id":"pt.c0044","meaning":"Where do you live?","note":""}
-{"id":"pt.c0045","meaning":"I live in Boston.","note":"em + a city, with no article."}
-{"id":"pt.c0046","meaning":"I'm thirty-two.","note":"Age uses ter (have), never ser: literally, I have thirty-two years."}
+{"id":"pt.c0045","meaning":"I live in Boston.","note":"‹em› + a city, with no article."}
+{"id":"pt.c0046","meaning":"I'm thirty-two.","note":"Age uses ‹ter› (have), never ‹ser›: literally, I have thirty-two years."}
 {"id":"pt.c0047","meaning":"What do you do (for work)?","note":"Literally: what do you do? It usually means your job."}
-{"id":"pt.c0048","meaning":"I'm a nurse.","note":"No um / uma before a job. A man says enfermeiro."}
-{"id":"pt.c0049","meaning":"I'm a student.","note":"estudante is the same for a man or a woman."}
-{"id":"pt.c0050","meaning":"I'm married.","note":"A woman says casada. You will also hear estou casado."}
-{"id":"pt.c0051","meaning":"I speak a little Portuguese.","note":"Language names are lowercase: português, inglês."}
+{"id":"pt.c0048","meaning":"I'm a nurse.","note":"No ‹um› / ‹uma› before a job. A man says ‹enfermeiro›."}
+{"id":"pt.c0049","meaning":"I'm a student.","note":"‹estudante› is the same for a man or a woman."}
+{"id":"pt.c0050","meaning":"I'm married.","note":"A woman says ‹casada›. You will also hear ‹estou casado›."}
+{"id":"pt.c0051","meaning":"I speak a little Portuguese.","note":"Language names are lowercase: ‹português›, ‹inglês›."}
 {"id":"pt.c0052","meaning":"Do you speak English?","note":"Same word order as a statement: only your voice rises."}
-{"id":"pt.c0053","meaning":"I don't understand.","note":"não goes right before the verb."}
-{"id":"pt.c0054","meaning":"Can you speak more slowly?","note":"pode is the você form of poder; in a request, você is usually left out."}
-{"id":"pt.c0055","meaning":"my sister","note":"In Brazil the article before minha is optional: minha irmã is fine too."}
-{"id":"pt.c0056","meaning":"my brother","note":"meu with a masculine noun, minha with a feminine one."}
-{"id":"pt.c0057","meaning":"Do you have any brothers or sisters?","note":"irmãos covers brothers, or brothers and sisters together."}
-{"id":"pt.c0058","meaning":"my parents","note":"pais = parents. parentes = relatives."}
-{"id":"pt.c0059","meaning":"my dad; my father","note":"pai has no nasal sound; mãe does."}
-{"id":"pt.c0060","meaning":"my grandma","note":"Grandpa: o meu avô. Both together: os meus avós."}
-{"id":"pt.c0061","meaning":"the grandparents","note":"avô (grandfather) has a closed o, avó (grandmother) an open o."}
-{"id":"pt.c0062","meaning":"I have two kids.","note":"filhos = sons, or sons and daughters together. Two daughters: duas filhas."}
-{"id":"pt.c0063","meaning":"her son","note":"dela = de + ela, after the noun. His son: o filho dele."}
-{"id":"pt.c0064","meaning":"This is my husband.","note":"Wife: a minha esposa (also heard: a minha mulher)."}
-{"id":"pt.c0065","meaning":"the boyfriend","note":"Girlfriend: a namorada."}
-{"id":"pt.c0066","meaning":"my best friend (female)","note":"A male best friend: o meu melhor amigo."}
-{"id":"pt.c0067","meaning":"my uncle","note":"Aunt: a minha tia. Aunts and uncles together: os meus tios."}
-{"id":"pt.c0068","meaning":"My cousins are from Salvador.","note":"A female cousin: a minha prima."}
-{"id":"pt.c0069","meaning":"My family is big.","note":"grande is the same for masculine and feminine."}
-{"id":"pt.c0070","meaning":"She's very nice.","note":"simpática agrees with ela. About a man: simpático."}
-{"id":"pt.c0071","meaning":"He's tall and dark-haired.","note":"moreno = dark-haired, or with brown skin. About a woman: alta e morena."}
+{"id":"pt.c0053","meaning":"I don't understand.","note":"‹não› goes right before the verb."}
+{"id":"pt.c0054","meaning":"Can you speak more slowly?","note":"‹pode› is the ‹você› form of ‹poder›; in a request, ‹você› is usually left out."}
+{"id":"pt.c0055","meaning":"my sister","note":"In Brazil the article before ‹minha› is optional: ‹minha irmã› is fine too."}
+{"id":"pt.c0056","meaning":"my brother","note":"‹meu› with a masculine noun, ‹minha› with a feminine one."}
+{"id":"pt.c0057","meaning":"Do you have any brothers or sisters?","note":"‹irmãos› covers brothers, or brothers and sisters together."}
+{"id":"pt.c0058","meaning":"my parents","note":"‹pais› = parents. ‹parentes› = relatives."}
+{"id":"pt.c0059","meaning":"my dad; my father","note":"‹pai› has no nasal sound; ‹mãe› does."}
+{"id":"pt.c0060","meaning":"my grandma","note":"Grandpa: ‹o meu avô›. Both together: ‹os meus avós›."}
+{"id":"pt.c0061","meaning":"the grandparents","note":"‹avô› (grandfather) has a closed o, ‹avó› (grandmother) an open o."}
+{"id":"pt.c0062","meaning":"I have two kids.","note":"‹filhos› = sons, or sons and daughters together. Two daughters: ‹duas filhas›."}
+{"id":"pt.c0063","meaning":"her son","note":"‹dela› = ‹de› + ‹ela›, after the noun. His son: ‹o filho dele›."}
+{"id":"pt.c0064","meaning":"This is my husband.","note":"Wife: ‹a minha esposa› (also heard: ‹a minha mulher›)."}
+{"id":"pt.c0065","meaning":"the boyfriend","note":"Girlfriend: ‹a namorada›."}
+{"id":"pt.c0066","meaning":"my best friend (female)","note":"A male best friend: ‹o meu melhor amigo›."}
+{"id":"pt.c0067","meaning":"my uncle","note":"Aunt: ‹a minha tia›. Aunts and uncles together: ‹os meus tios›."}
+{"id":"pt.c0068","meaning":"My cousins are from Salvador.","note":"A female cousin: ‹a minha prima›."}
+{"id":"pt.c0069","meaning":"My family is big.","note":"‹grande› is the same for masculine and feminine."}
+{"id":"pt.c0070","meaning":"She's very nice.","note":"‹simpática› agrees with ‹ela›. About a man: ‹simpático›."}
+{"id":"pt.c0071","meaning":"He's tall and dark-haired.","note":"‹moreno› = dark-haired, or with brown skin. About a woman: ‹alta e morena›."}
 {"id":"pt.c0072","meaning":"the child","note":"Always feminine, even for a boy."}
-{"id":"pt.c0073","meaning":"twenty-five","note":"Tens and units are joined by e."}
-{"id":"pt.c0074","meaning":"sixteen","note":"One word: dez + e + seis. Seventeen: dezessete."}
-{"id":"pt.c0075","meaning":"two people","note":"dois becomes duas before a feminine noun: duas pessoas, dois homens."}
-{"id":"pt.c0076","meaning":"a hundred","note":"Exactly 100. From 101 on: cento (cento e um)."}
-{"id":"pt.c0077","meaning":"a hundred and fifty","note":"Never um cento. e joins each part."}
-{"id":"pt.c0078","meaning":"two hundred reais","note":"Before a feminine noun: duzentas pessoas."}
-{"id":"pt.c0079","meaning":"a thousand","note":"No um before mil: mil reais, dois mil reais."}
+{"id":"pt.c0073","meaning":"twenty-five","note":"Tens and units are joined by ‹e›."}
+{"id":"pt.c0074","meaning":"sixteen","note":"One word: ‹dez› + ‹e› + ‹seis›. Seventeen: ‹dezessete›."}
+{"id":"pt.c0075","meaning":"two people","note":"‹dois› becomes ‹duas› before a feminine noun: ‹duas pessoas›, ‹dois homens›."}
+{"id":"pt.c0076","meaning":"a hundred","note":"Exactly 100. From 101 on: ‹cento› (‹cento e um›)."}
+{"id":"pt.c0077","meaning":"a hundred and fifty","note":"Never ‹um cento›. ‹e› joins each part."}
+{"id":"pt.c0078","meaning":"two hundred reais","note":"Before a feminine noun: ‹duzentas pessoas›."}
+{"id":"pt.c0079","meaning":"a thousand","note":"No ‹um› before ‹mil›: ‹mil reais›, ‹dois mil reais›."}
 {"id":"pt.c0080","meaning":"What time is it?","note":""}
-{"id":"pt.c0081","meaning":"It's one o'clock.","note":"Only one o'clock is singular: é uma hora. All other hours take são."}
-{"id":"pt.c0082","meaning":"It's two o'clock.","note":"duas, not dois: hora is feminine."}
-{"id":"pt.c0083","meaning":"It's half past three.","note":"meia (hora) is feminine. One o'clock: É uma hora."}
-{"id":"pt.c0084","meaning":"It's noon.","note":"Midnight: meia-noite."}
-{"id":"pt.c0085","meaning":"at eight in the morning","note":"às = a + as (horas). In the afternoon: da tarde. At night: da noite."}
-{"id":"pt.c0086","meaning":"What time does it open?","note":"abre is the ele form: you are asking about the store."}
-{"id":"pt.c0087","meaning":"How much is it?","note":"For more than one thing: Quanto custam?"}
+{"id":"pt.c0081","meaning":"It's one o'clock.","note":"Only one o'clock is singular: ‹é uma hora›. All other hours take ‹são›."}
+{"id":"pt.c0082","meaning":"It's two o'clock.","note":"‹duas›, not ‹dois›: ‹hora› is feminine."}
+{"id":"pt.c0083","meaning":"It's half past three.","note":"‹meia› (‹hora›) is feminine. One o'clock: ‹É uma hora›."}
+{"id":"pt.c0084","meaning":"It's noon.","note":"Midnight: ‹meia-noite›."}
+{"id":"pt.c0085","meaning":"at eight in the morning","note":"‹às› = ‹a› + ‹as› (‹horas›). In the afternoon: ‹da tarde›. At night: ‹da noite›."}
+{"id":"pt.c0086","meaning":"What time does it open?","note":"‹abre› is the ‹ele› form: you are asking about the store."}
+{"id":"pt.c0087","meaning":"How much is it?","note":"For more than one thing: ‹Quanto custam?›"}
 {"id":"pt.c0088","meaning":"What's the total?","note":"Literally: how much did it come to? Heard at the register."}
-{"id":"pt.c0089","meaning":"fifty reais","note":"One real, two reais: Brazil's money. R$ 50 is read cinquenta reais."}
-{"id":"pt.c0090","meaning":"ten dollars","note":"dólar ends in r, so the plural adds -es: um dólar, dez dólares."}
-{"id":"pt.c0091","meaning":"Monday","note":"Days are numbered from Sunday. In speech, often just segunda."}
-{"id":"pt.c0092","meaning":"on Friday","note":"na = em + a, because feira is feminine. In speech: na sexta."}
-{"id":"pt.c0093","meaning":"What day is it today?","note":"Also asks the date: Hoje é dia dez."}
-{"id":"pt.c0094","meaning":"Today is Tuesday.","note":"Short for terça-feira. Days of the week are lowercase."}
+{"id":"pt.c0089","meaning":"fifty reais","note":"One ‹real›, two ‹reais›: Brazil's money. R$ 50 is read ‹cinquenta reais›."}
+{"id":"pt.c0090","meaning":"ten dollars","note":"‹dólar› ends in ‹r›, so the plural adds ‹-es›: ‹um dólar›, ‹dez dólares›."}
+{"id":"pt.c0091","meaning":"Monday","note":"Days are numbered from Sunday. In speech, often just ‹segunda›."}
+{"id":"pt.c0092","meaning":"on Friday","note":"‹na› = ‹em› + ‹a›, because ‹feira› is feminine. In speech: ‹na sexta›."}
+{"id":"pt.c0093","meaning":"What day is it today?","note":"Also asks the date: ‹Hoje é dia dez›."}
+{"id":"pt.c0094","meaning":"Today is Tuesday.","note":"Short for ‹terça-feira›. Days of the week are lowercase."}
 {"id":"pt.c0095","meaning":"yesterday","note":""}
-{"id":"pt.c0096","meaning":"tomorrow","note":"A nasal ã at the end. De manhã = in the morning."}
-{"id":"pt.c0097","meaning":"next week","note":"Also: a próxima semana."}
+{"id":"pt.c0096","meaning":"tomorrow","note":"A nasal ‹ã› at the end. ‹De manhã› = in the morning."}
+{"id":"pt.c0097","meaning":"next week","note":"Also: ‹a próxima semana›."}
 {"id":"pt.c0098","meaning":"September 15","note":"Day before month; months are lowercase."}
-{"id":"pt.c0099","meaning":"in January","note":"Months take em with no article."}
-{"id":"pt.c0100","meaning":"My birthday is March 8.","note":"dia + number + de + month."}
-{"id":"pt.c0101","meaning":"What's the weather like?","note":"o tempo = the weather, and also time."}
-{"id":"pt.c0102","meaning":"It's hot today.","note":"Also heard: Está fazendo calor."}
-{"id":"pt.c0103","meaning":"It's cold.","note":"Also heard: Está fazendo frio."}
+{"id":"pt.c0099","meaning":"in January","note":"Months take ‹em› with no article."}
+{"id":"pt.c0100","meaning":"My birthday is March 8.","note":"‹dia› + number + ‹de› + month."}
+{"id":"pt.c0101","meaning":"What's the weather like?","note":"‹o tempo› = the weather, and also time."}
+{"id":"pt.c0102","meaning":"It's hot today.","note":"Also heard: ‹Está fazendo calor›."}
+{"id":"pt.c0103","meaning":"It's cold.","note":"Also heard: ‹Está fazendo frio›."}
 {"id":"pt.c0104","meaning":"It's raining.","note":""}
 {"id":"pt.c0105","meaning":"It's cloudy.","note":""}
 {"id":"pt.c0106","meaning":"It's thirty degrees.","note":"Brazil uses Celsius: thirty degrees is about 86 degrees Fahrenheit."}
 {"id":"pt.c0107","meaning":"the summer","note":"In most of Brazil, summer runs from December to March."}
-{"id":"pt.c0108","meaning":"It's going to rain tomorrow.","note":"vai + infinitive, with no word in between."}
+{"id":"pt.c0108","meaning":"It's going to rain tomorrow.","note":"‹vai› + infinitive, with no word in between."}
 {"id":"pt.c0109","meaning":"a small coffee","note":"The little black coffee offered everywhere in Brazil."}
 {"id":"pt.c0110","meaning":"a cheese bread","note":"A ball of cheese bread, first from Minas Gerais."}
-{"id":"pt.c0111","meaning":"breakfast","note":"In Portugal: o pequeno-almoço."}
+{"id":"pt.c0111","meaning":"breakfast","note":"In Portugal: ‹o pequeno-almoço›."}
 {"id":"pt.c0112","meaning":"lunch","note":"For many Brazilians, lunch is the big meal of the day."}
-{"id":"pt.c0113","meaning":"the menu","note":"Also: o menu. In Portugal: a ementa."}
+{"id":"pt.c0113","meaning":"the menu","note":"Also: ‹o menu›. In Portugal: ‹a ementa›."}
 {"id":"pt.c0114","meaning":"a table for two","note":""}
-{"id":"pt.c0115","meaning":"What do you recommend?","note":"recomenda is the você form. Servers are usually called você."}
-{"id":"pt.c0116","meaning":"I'll have the feijoada.","note":"A common way to order. Feijoada is a black bean and pork stew."}
-{"id":"pt.c0117","meaning":"I'd like an orange juice.","note":"queria (literally: I wanted) is the polite way to order."}
-{"id":"pt.c0118","meaning":"a still water","note":"Sparkling water: água com gás."}
-{"id":"pt.c0119","meaning":"a really cold beer","note":"gelada agrees with cerveja, which is feminine. bem = really, here."}
-{"id":"pt.c0120","meaning":"the chicken croquette","note":"A fried, teardrop-shaped snack sold at every padaria (bakery)."}
+{"id":"pt.c0115","meaning":"What do you recommend?","note":"‹recomenda› is the ‹você› form. Servers are usually called ‹você›."}
+{"id":"pt.c0116","meaning":"I'll have the feijoada.","note":"A common way to order. ‹Feijoada› is a black bean and pork stew."}
+{"id":"pt.c0117","meaning":"I'd like an orange juice.","note":"‹queria› (literally: I wanted) is the polite way to order."}
+{"id":"pt.c0118","meaning":"a still water","note":"Sparkling water: ‹água com gás›."}
+{"id":"pt.c0119","meaning":"a really cold beer","note":"‹gelada› agrees with ‹cerveja›, which is feminine. ‹bem› = really, here."}
+{"id":"pt.c0120","meaning":"the chicken croquette","note":"A fried, teardrop-shaped snack sold at every ‹padaria› (bakery)."}
 {"id":"pt.c0121","meaning":"rice and beans","note":"The everyday Brazilian plate, at home and at lunch counters."}
 {"id":"pt.c0122","meaning":"the pay-by-weight restaurant","note":"You serve yourself at a buffet and pay for what your plate weighs."}
-{"id":"pt.c0123","meaning":"No onion, please.","note":"sem = without. With: com."}
-{"id":"pt.c0124","meaning":"the dessert","note":"A classic: brigadeiro, a chocolate fudge ball."}
+{"id":"pt.c0123","meaning":"No onion, please.","note":"‹sem› = without. With: ‹com›."}
+{"id":"pt.c0124","meaning":"the dessert","note":"A classic: ‹brigadeiro›, a chocolate fudge ball."}
 {"id":"pt.c0125","meaning":"It's delicious!","note":"Literally: it's a delight."}
 {"id":"pt.c0126","meaning":"The check, please.","note":""}
-{"id":"pt.c0127","meaning":"the white shirt","note":"Color after the noun, and it agrees: camisa branca, sapatos brancos."}
+{"id":"pt.c0127","meaning":"the white shirt","note":"Color after the noun, and it agrees: ‹camisa branca›, ‹sapatos brancos›."}
 {"id":"pt.c0128","meaning":"the black shoes","note":""}
-{"id":"pt.c0129","meaning":"the blue pants","note":"One pair of pants is singular: a calça. azul is the same for both genders."}
-{"id":"pt.c0130","meaning":"the red dress","note":"With a feminine noun: a bolsa vermelha."}
-{"id":"pt.c0131","meaning":"the brown purse","note":"marrom is the same for both genders."}
-{"id":"pt.c0132","meaning":"the sneakers","note":"One form for one pair or more: o tênis, os tênis."}
+{"id":"pt.c0129","meaning":"the blue pants","note":"One pair of pants is singular: ‹a calça›. ‹azul› is the same for both genders."}
+{"id":"pt.c0130","meaning":"the red dress","note":"With a feminine noun: ‹a bolsa vermelha›."}
+{"id":"pt.c0131","meaning":"the brown purse","note":"‹marrom› is the same for both genders."}
+{"id":"pt.c0132","meaning":"the sneakers","note":"One form for one pair or more: ‹o tênis›, ‹os tênis›."}
 {"id":"pt.c0133","meaning":"the mall","note":"Brazilian Portuguese borrowed the English word for a shopping mall."}
-{"id":"pt.c0134","meaning":"I'm just looking.","note":"Literally: I'm just taking a look. The answer to Posso ajudar?"}
+{"id":"pt.c0134","meaning":"I'm just looking.","note":"Literally: I'm just taking a look. The answer to ‹Posso ajudar?›"}
 {"id":"pt.c0135","meaning":"Can I try it on?","note":""}
-{"id":"pt.c0136","meaning":"Where's the fitting room?","note":"ficar for where places and fixed things are."}
-{"id":"pt.c0137","meaning":"Do you have a bigger size?","note":"Sizes are often P, M and G: pequeno, médio, grande."}
-{"id":"pt.c0138","meaning":"Do you have it in black?","note":"In shops, tem with no você is the usual question."}
-{"id":"pt.c0139","meaning":"It's too big on me.","note":"ficar for how clothes fit. Ficou bom? = Does it look good?"}
-{"id":"pt.c0140","meaning":"It's too expensive.","note":"caro agrees: A bolsa está muito cara."}
+{"id":"pt.c0136","meaning":"Where's the fitting room?","note":"‹ficar› for where places and fixed things are."}
+{"id":"pt.c0137","meaning":"Do you have a bigger size?","note":"Sizes are often ‹P›, ‹M› and ‹G›: ‹pequeno›, ‹médio›, ‹grande›."}
+{"id":"pt.c0138","meaning":"Do you have it in black?","note":"In shops, ‹tem› with no ‹você› is the usual question."}
+{"id":"pt.c0139","meaning":"It's too big on me.","note":"‹ficar› for how clothes fit. ‹Ficou bom?› = Does it look good?"}
+{"id":"pt.c0140","meaning":"It's too expensive.","note":"‹caro› agrees: ‹A bolsa está muito cara›."}
 {"id":"pt.c0141","meaning":"I'll take it.","note":"In speech the \"it\" is usually left out."}
-{"id":"pt.c0142","meaning":"Do you take cards?","note":"To the shop assistant: the você form, with no pronoun."}
-{"id":"pt.c0143","meaning":"Debit or credit?","note":"What the cashier asks. no = em + o."}
-{"id":"pt.c0144","meaning":"I'll pay in cash.","note":"dinheiro = money, or cash."}
+{"id":"pt.c0142","meaning":"Do you take cards?","note":"To the shop assistant: the ‹você› form, with no pronoun."}
+{"id":"pt.c0143","meaning":"Debit or credit?","note":"What the cashier asks. ‹no› = ‹em› + ‹o›."}
+{"id":"pt.c0144","meaning":"I'll pay in cash.","note":"‹dinheiro› = money, or cash."}
 {"id":"pt.c0145","meaning":"the kitchen","note":""}
-{"id":"pt.c0146","meaning":"the living room","note":"Also: a sala de estar."}
+{"id":"pt.c0146","meaning":"the living room","note":"Also: ‹a sala de estar›."}
 {"id":"pt.c0147","meaning":"the bathroom","note":""}
-{"id":"pt.c0148","meaning":"the fridge","note":"In Portugal: o frigorífico."}
-{"id":"pt.c0149","meaning":"There are two bedrooms.","note":"tem = there is / there are, in everyday speech."}
-{"id":"pt.c0150","meaning":"I live in an apartment.","note":"num = em + um. In a house: numa casa."}
-{"id":"pt.c0151","meaning":"The key is on the table.","note":"em cima de + a mesa = em cima da mesa."}
-{"id":"pt.c0152","meaning":"The cat is under the bed.","note":"embaixo de + a cama = embaixo da cama."}
-{"id":"pt.c0153","meaning":"next to the sofa","note":"ao lado de + o sofá = ao lado do sofá."}
-{"id":"pt.c0154","meaning":"I wake up at seven.","note":"às = a + as (horas)."}
-{"id":"pt.c0155","meaning":"I get up at seven thirty.","note":"In speech the me is often dropped: Eu levanto às sete e meia."}
-{"id":"pt.c0156","meaning":"Do you get up early?","note":"se goes with você, before the verb."}
-{"id":"pt.c0157","meaning":"I shower in the morning.","note":"tomar banho = take a shower (or a bath). Not pegar banho."}
-{"id":"pt.c0158","meaning":"I brush my teeth.","note":"os dentes, not meus dentes: whose teeth is clear."}
-{"id":"pt.c0159","meaning":"I leave home early.","note":"sair: the eu form is saio. de casa, with no article."}
-{"id":"pt.c0160","meaning":"I get home at six.","note":"Brazilians say chegar em casa; grammar books prefer chegar a."}
-{"id":"pt.c0161","meaning":"I do the dishes.","note":"a louça = the dishes."}
+{"id":"pt.c0148","meaning":"the fridge","note":"In Portugal: ‹o frigorífico›."}
+{"id":"pt.c0149","meaning":"There are two bedrooms.","note":"‹tem› = there is / there are, in everyday speech."}
+{"id":"pt.c0150","meaning":"I live in an apartment.","note":"‹num› = ‹em› + ‹um›. In a house: ‹numa casa›."}
+{"id":"pt.c0151","meaning":"The key is on the table.","note":"‹em cima de› + ‹a mesa› = ‹em cima da mesa›."}
+{"id":"pt.c0152","meaning":"The cat is under the bed.","note":"‹embaixo de› + ‹a cama› = ‹embaixo da cama›."}
+{"id":"pt.c0153","meaning":"next to the sofa","note":"‹ao lado de› + ‹o sofá› = ‹ao lado do sofá›."}
+{"id":"pt.c0154","meaning":"I wake up at seven.","note":"‹às› = ‹a› + ‹as› (‹horas›)."}
+{"id":"pt.c0155","meaning":"I get up at seven thirty.","note":"In speech the ‹me› is often dropped: ‹Eu levanto às sete e meia›."}
+{"id":"pt.c0156","meaning":"Do you get up early?","note":"‹se› goes with ‹você›, before the verb."}
+{"id":"pt.c0157","meaning":"I shower in the morning.","note":"‹tomar banho› = take a shower (or a bath). Not ‹pegar banho›."}
+{"id":"pt.c0158","meaning":"I brush my teeth.","note":"‹os dentes›, not ‹meus dentes›: whose teeth is clear."}
+{"id":"pt.c0159","meaning":"I leave home early.","note":"‹sair›: the ‹eu› form is ‹saio›. ‹de casa›, with no article."}
+{"id":"pt.c0160","meaning":"I get home at six.","note":"Brazilians say ‹chegar em casa›; grammar books prefer ‹chegar a›."}
+{"id":"pt.c0161","meaning":"I do the dishes.","note":"‹a louça› = the dishes."}
 {"id":"pt.c0162","meaning":"I go to bed at eleven.","note":"Literally: I go to sleep at eleven."}
-{"id":"pt.c0163","meaning":"Where is the bathroom?","note":"ficar for where places and fixed things are."}
-{"id":"pt.c0164","meaning":"on the right","note":"à = a + a. On the left: à esquerda."}
+{"id":"pt.c0163","meaning":"Where is the bathroom?","note":"‹ficar› for where places and fixed things are."}
+{"id":"pt.c0164","meaning":"on the right","note":"‹à› = ‹a› + ‹a›. On the left: ‹à esquerda›."}
 {"id":"pt.c0165","meaning":"Go straight ahead.","note":"What a stranger will tell you."}
 {"id":"pt.c0166","meaning":"the bus stop","note":""}
-{"id":"pt.c0167","meaning":"It's near here.","note":"daqui = de + aqui. Far: longe."}
-{"id":"pt.c0168","meaning":"on the left","note":"esquerda is feminine, like direita: à esquerda."}
-{"id":"pt.c0169","meaning":"Turn right at the corner.","note":"na = em + a: a esquina is feminine."}
-{"id":"pt.c0170","meaning":"Excuse me, where is the bank?","note":"The polite opener, then onde fica."}
-{"id":"pt.c0171","meaning":"Is there a market near here?","note":"tem = there is, in everyday speech."}
-{"id":"pt.c0172","meaning":"It's in front of the church.","note":"da = de + a: a igreja is feminine."}
-{"id":"pt.c0173","meaning":"next to the bank","note":"do = de + o. Never de o."}
-{"id":"pt.c0174","meaning":"I'm lost.","note":"A woman says perdida. A state right now: estar."}
+{"id":"pt.c0167","meaning":"It's near here.","note":"‹daqui› = ‹de› + ‹aqui›. Far: ‹longe›."}
+{"id":"pt.c0168","meaning":"on the left","note":"‹esquerda› is feminine, like ‹direita›: ‹à esquerda›."}
+{"id":"pt.c0169","meaning":"Turn right at the corner.","note":"‹na› = ‹em› + ‹a›: ‹a esquina› is feminine."}
+{"id":"pt.c0170","meaning":"Excuse me, where is the bank?","note":"The polite opener, then ‹onde fica›."}
+{"id":"pt.c0171","meaning":"Is there a market near here?","note":"‹tem› = there is, in everyday speech."}
+{"id":"pt.c0172","meaning":"It's in front of the church.","note":"‹da› = ‹de› + ‹a›: ‹a igreja› is feminine."}
+{"id":"pt.c0173","meaning":"next to the bank","note":"‹do› = ‹de› + ‹o›. Never ‹de o›."}
+{"id":"pt.c0174","meaning":"I'm lost.","note":"A woman says ‹perdida›. A state right now: ‹estar›."}
 {"id":"pt.c0175","meaning":"Is it far from here?","note":""}
-{"id":"pt.c0176","meaning":"Cross the street.","note":"A command a stranger will use, from atravessar."}
+{"id":"pt.c0176","meaning":"Cross the street.","note":"A command a stranger will use, from ‹atravessar›."}
 {"id":"pt.c0177","meaning":"the square","note":"Most Brazilian towns are built around one."}
-{"id":"pt.c0178","meaning":"downtown","note":"Vou ao centro = I'm going downtown. ao = a + o."}
-{"id":"pt.c0179","meaning":"What's the address?","note":"o endereço: street name first, then the number."}
-{"id":"pt.c0180","meaning":"Turn left at the light.","note":"o sinal = the traffic light; in São Paulo also o farol."}
+{"id":"pt.c0178","meaning":"downtown","note":"‹Vou ao centro› = I'm going downtown. ‹ao› = ‹a› + ‹o›."}
+{"id":"pt.c0179","meaning":"What's the address?","note":"‹o endereço›: street name first, then the number."}
+{"id":"pt.c0180","meaning":"Turn left at the light.","note":"‹o sinal› = the traffic light; in São Paulo also ‹o farol›."}
 {"id":"pt.c0181","meaning":"the ticket","note":"For buses, planes and long trips."}
-{"id":"pt.c0182","meaning":"I'm going by bus.","note":"de + vehicle: de carro, de metrô. But a pé = on foot."}
+{"id":"pt.c0182","meaning":"I'm going by bus.","note":"‹de› + vehicle: ‹de carro›, ‹de metrô›. But ‹a pé› = on foot."}
 {"id":"pt.c0183","meaning":"the airport","note":""}
 {"id":"pt.c0184","meaning":"What time does the flight leave?","note":""}
-{"id":"pt.c0185","meaning":"in Brazil","note":"no = em + o: Brazil takes the article o."}
+{"id":"pt.c0185","meaning":"in Brazil","note":"‹no› = ‹em› + ‹o›: Brazil takes the article ‹o›."}
 {"id":"pt.c0186","meaning":"the bus station","note":"For long-distance buses between cities."}
-{"id":"pt.c0187","meaning":"the subway","note":"In Portugal: o metro, with no accent."}
-{"id":"pt.c0188","meaning":"A round-trip ticket, please.","note":"One way: só de ida."}
-{"id":"pt.c0189","meaning":"I'm going to get an Uber.","note":"pegar = take, catch: pegar o ônibus, pegar um táxi. In Portugal: apanhar."}
-{"id":"pt.c0190","meaning":"I have a reservation.","note":"a reserva is feminine: uma reserva."}
+{"id":"pt.c0187","meaning":"the subway","note":"In Portugal: ‹o metro›, with no accent."}
+{"id":"pt.c0188","meaning":"A round-trip ticket, please.","note":"One way: ‹só de ida›."}
+{"id":"pt.c0189","meaning":"I'm going to get an Uber.","note":"‹pegar› = take, catch: ‹pegar o ônibus›, ‹pegar um táxi›. In Portugal: ‹apanhar›."}
+{"id":"pt.c0190","meaning":"I have a reservation.","note":"‹a reserva› is feminine: ‹uma reserva›."}
 {"id":"pt.c0191","meaning":"the passport","note":""}
-{"id":"pt.c0192","meaning":"Do you need help with your suitcase? (to an older man)","note":"o senhor takes the ele form: precisa. a mala = the suitcase."}
-{"id":"pt.c0193","meaning":"Is this seat free?","note":"o lugar = seat or place. livre is the same for both genders."}
-{"id":"pt.c0194","meaning":"Is breakfast included?","note":"incluído agrees with o café da manhã."}
-{"id":"pt.c0195","meaning":"in São Paulo","note":"Most cities take no article: em São Paulo, but no Rio."}
-{"id":"pt.c0196","meaning":"Which bus goes downtown?","note":"qual = which. In speech you will hear pro centro (para + o)."}
-{"id":"pt.c0197","meaning":"I'm on vacation.","note":"as férias is always plural."}
-{"id":"pt.c0198","meaning":"from Rio to São Paulo","note":"do = de + o: o Rio takes the article."}
-{"id":"pt.c0199","meaning":"I have a headache.","note":"estar com + noun for how you feel now."}
+{"id":"pt.c0192","meaning":"Do you need help with your suitcase? (to an older man)","note":"‹o senhor› takes the ‹ele› form: ‹precisa›. ‹a mala› = the suitcase."}
+{"id":"pt.c0193","meaning":"Is this seat free?","note":"‹o lugar› = seat or place. ‹livre› is the same for both genders."}
+{"id":"pt.c0194","meaning":"Is breakfast included?","note":"‹incluído› agrees with ‹o café da manhã›."}
+{"id":"pt.c0195","meaning":"in São Paulo","note":"Most cities take no article: ‹em São Paulo›, but ‹no Rio›."}
+{"id":"pt.c0196","meaning":"Which bus goes downtown?","note":"‹qual› = which. In speech you will hear ‹pro centro› (‹para› + ‹o›)."}
+{"id":"pt.c0197","meaning":"I'm on vacation.","note":"‹as férias› is always plural."}
+{"id":"pt.c0198","meaning":"from Rio to São Paulo","note":"‹do› = ‹de› + ‹o›: ‹o Rio› takes the article."}
+{"id":"pt.c0199","meaning":"I have a headache.","note":"‹estar com› + noun for how you feel now."}
 {"id":"pt.c0200","meaning":"I'm sick.","note":""}
-{"id":"pt.c0201","meaning":"Help!","note":"For emergencies. To ask a favor: Pode me ajudar?"}
-{"id":"pt.c0202","meaning":"Can you call an ambulance?","note":"pode: the você form of poder."}
+{"id":"pt.c0201","meaning":"Help!","note":"For emergencies. To ask a favor: ‹Pode me ajudar?›"}
+{"id":"pt.c0202","meaning":"Can you call an ambulance?","note":"‹pode›: the ‹você› form of ‹poder›."}
 {"id":"pt.c0203","meaning":"the pharmacy","note":""}
-{"id":"pt.c0204","meaning":"I need a doctor.","note":"precisar takes de before a noun (but preciso ir). A woman doctor: uma médica."}
-{"id":"pt.c0205","meaning":"I have a fever.","note":"a febre: estar com + noun again."}
-{"id":"pt.c0206","meaning":"I have a stomachache.","note":"a barriga = belly. At the doctor: dor de estômago."}
+{"id":"pt.c0204","meaning":"I need a doctor.","note":"‹precisar› takes ‹de› before a noun (but ‹preciso ir›). A woman doctor: ‹uma médica›."}
+{"id":"pt.c0205","meaning":"I have a fever.","note":"‹a febre›: ‹estar com› + noun again."}
+{"id":"pt.c0206","meaning":"I have a stomachache.","note":"‹a barriga› = belly. At the doctor: ‹dor de estômago›."}
 {"id":"pt.c0207","meaning":"It hurts here.","note":""}
-{"id":"pt.c0208","meaning":"My back hurts.","note":"nas = em + as: as costas is feminine plural."}
-{"id":"pt.c0209","meaning":"I'm allergic to penicillin.","note":"A woman says alérgica. à = a + a."}
+{"id":"pt.c0208","meaning":"My back hurts.","note":"‹nas› = ‹em› + ‹as›: ‹as costas› is feminine plural."}
+{"id":"pt.c0209","meaning":"I'm allergic to penicillin.","note":"A woman says ‹alérgica›. ‹à› = ‹a› + ‹a›."}
 {"id":"pt.c0210","meaning":"Call the police!","note":"A command, for an emergency."}
-{"id":"pt.c0211","meaning":"the hospital","note":"The final l sounds like w."}
-{"id":"pt.c0212","meaning":"Are you OK? (to an older man)","note":"o senhor takes the ele form: está."}
-{"id":"pt.c0213","meaning":"Do you need help? (to an older woman)","note":"a senhora takes the ele form: precisa."}
-{"id":"pt.c0214","meaning":"Take this medicine twice a day.","note":"o remédio = medicine. duas agrees with vezes, which is feminine."}
-{"id":"pt.c0215","meaning":"I have health insurance.","note":"Private health insurance in Brazil is o plano de saúde."}
-{"id":"pt.c0216","meaning":"I have a cold.","note":"A woman says resfriada."}
-{"id":"pt.c0217","meaning":"I work in an office.","note":"num = em + um."}
+{"id":"pt.c0211","meaning":"the hospital","note":"The final ‹l› sounds like w."}
+{"id":"pt.c0212","meaning":"Are you OK? (to an older man)","note":"‹o senhor› takes the ‹ele› form: ‹está›."}
+{"id":"pt.c0213","meaning":"Do you need help? (to an older woman)","note":"‹a senhora› takes the ‹ele› form: ‹precisa›."}
+{"id":"pt.c0214","meaning":"Take this medicine twice a day.","note":"‹o remédio› = medicine. ‹duas› agrees with ‹vezes›, which is feminine."}
+{"id":"pt.c0215","meaning":"I have health insurance.","note":"Private health insurance in Brazil is ‹o plano de saúde›."}
+{"id":"pt.c0216","meaning":"I have a cold.","note":"A woman says ‹resfriada›."}
+{"id":"pt.c0217","meaning":"I work in an office.","note":"‹num› = ‹em› + ‹um›."}
 {"id":"pt.c0218","meaning":"the meeting","note":""}
-{"id":"pt.c0219","meaning":"I'm studying Portuguese.","note":"estar + -ndo for right now."}
-{"id":"pt.c0220","meaning":"My boss is from Rio.","note":"chefe is the same word for a man or a woman; the article shows which."}
-{"id":"pt.c0221","meaning":"college; university","note":"colégio is a school, not a college."}
-{"id":"pt.c0222","meaning":"Where do you work?","note":"você takes the ele form: trabalha."}
+{"id":"pt.c0219","meaning":"I'm studying Portuguese.","note":"‹estar› + ‹-ndo› for right now."}
+{"id":"pt.c0220","meaning":"My boss is from Rio.","note":"‹chefe› is the same word for a man or a woman; the article shows which."}
+{"id":"pt.c0221","meaning":"college; university","note":"‹colégio› is a school, not a college."}
+{"id":"pt.c0222","meaning":"Where do you work?","note":"‹você› takes the ‹ele› form: ‹trabalha›."}
 {"id":"pt.c0223","meaning":"I work from home.","note":"You will also hear the English home office."}
-{"id":"pt.c0224","meaning":"I have a meeting at ten.","note":"às = a + as (horas)."}
-{"id":"pt.c0225","meaning":"the coworker","note":"A woman: a colega de trabalho. The article shows which."}
-{"id":"pt.c0226","meaning":"She's working right now.","note":"estar + -ndo: está trabalhando."}
-{"id":"pt.c0227","meaning":"I study at night.","note":"à noite = at night, in the evening; de manhã = in the morning."}
+{"id":"pt.c0224","meaning":"I have a meeting at ten.","note":"‹às› = ‹a› + ‹as› (‹horas›)."}
+{"id":"pt.c0225","meaning":"the coworker","note":"A woman: ‹a colega de trabalho›. The article shows which."}
+{"id":"pt.c0226","meaning":"She's working right now.","note":"‹estar› + ‹-ndo›: ‹está trabalhando›."}
+{"id":"pt.c0227","meaning":"I study at night.","note":"‹à noite› = at night, in the evening; ‹de manhã› = in the morning."}
 {"id":"pt.c0228","meaning":"the test; the exam","note":""}
 {"id":"pt.c0229","meaning":"How do you say this in Portuguese?","note":""}
-{"id":"pt.c0230","meaning":"the homework","note":"Also: o dever de casa."}
-{"id":"pt.c0231","meaning":"I'm looking for a job.","note":"o emprego = a job, employment."}
+{"id":"pt.c0230","meaning":"the homework","note":"Also: ‹o dever de casa›."}
+{"id":"pt.c0231","meaning":"I'm looking for a job.","note":"‹o emprego› = a job, employment."}
 {"id":"pt.c0232","meaning":"the salary; pay","note":""}
-{"id":"pt.c0233","meaning":"We work together.","note":"The nós form ends in -amos. Two women say juntas."}
-{"id":"pt.c0234","meaning":"I'm tired.","note":"A woman says cansada."}
+{"id":"pt.c0233","meaning":"We work together.","note":"The ‹nós› form ends in ‹-amos›. Two women say ‹juntas›."}
+{"id":"pt.c0234","meaning":"I'm tired.","note":"A woman says ‹cansada›."}
 {"id":"pt.c0235","meaning":"I'm hungry.","note":"Literally: I am with hunger."}
-{"id":"pt.c0236","meaning":"I'm happy.","note":"feliz is the same for men and women."}
-{"id":"pt.c0237","meaning":"I miss you; I miss it.","note":"saudade = missing someone or something."}
-{"id":"pt.c0238","meaning":"I'm worried.","note":"Said by a woman; a man says preocupado."}
-{"id":"pt.c0239","meaning":"I'm thirsty.","note":"a sede = thirst."}
-{"id":"pt.c0240","meaning":"I'm cold.","note":"Hot: estou com calor."}
-{"id":"pt.c0241","meaning":"I'm sleepy.","note":"o sono = sleep."}
-{"id":"pt.c0242","meaning":"I'm scared.","note":"o medo = fear. Afraid of: com medo de."}
-{"id":"pt.c0243","meaning":"I'm nervous.","note":"A woman says nervosa."}
-{"id":"pt.c0244","meaning":"It made me sad.","note":"ficar = become: fiquei = I got, I became."}
-{"id":"pt.c0245","meaning":"I'm in a hurry.","note":"a pressa = hurry."}
-{"id":"pt.c0246","meaning":"She's angry.","note":"brava agrees with ela. About a man: bravo."}
-{"id":"pt.c0247","meaning":"I'm bored.","note":"A woman says entediada."}
+{"id":"pt.c0236","meaning":"I'm happy.","note":"‹feliz› is the same for men and women."}
+{"id":"pt.c0237","meaning":"I miss you; I miss it.","note":"‹saudade› = missing someone or something."}
+{"id":"pt.c0238","meaning":"I'm worried.","note":"Said by a woman; a man says ‹preocupado›."}
+{"id":"pt.c0239","meaning":"I'm thirsty.","note":"‹a sede› = thirst."}
+{"id":"pt.c0240","meaning":"I'm cold.","note":"Hot: ‹estou com calor›."}
+{"id":"pt.c0241","meaning":"I'm sleepy.","note":"‹o sono› = sleep."}
+{"id":"pt.c0242","meaning":"I'm scared.","note":"‹o medo› = fear. Afraid of: ‹com medo de›."}
+{"id":"pt.c0243","meaning":"I'm nervous.","note":"A woman says ‹nervosa›."}
+{"id":"pt.c0244","meaning":"It made me sad.","note":"‹ficar› = become: ‹fiquei› = I got, I became."}
+{"id":"pt.c0245","meaning":"I'm in a hurry.","note":"‹a pressa› = hurry."}
+{"id":"pt.c0246","meaning":"She's angry.","note":"‹brava› agrees with ‹ela›. About a man: ‹bravo›."}
+{"id":"pt.c0247","meaning":"I'm bored.","note":"A woman says ‹entediada›."}
 {"id":"pt.c0248","meaning":"That's great!","note":"To react to good news."}
 {"id":"pt.c0249","meaning":"What a shame.","note":""}
-{"id":"pt.c0250","meaning":"Are you OK?","note":"To an older person: O senhor está bem? / A senhora está bem?"}
-{"id":"pt.c0251","meaning":"He's married.","note":"You will also hear está casado: both are normal."}
-{"id":"pt.c0252","meaning":"I like soccer.","note":"gostar always takes de: never gosto futebol."}
+{"id":"pt.c0250","meaning":"Are you OK?","note":"To an older person: ‹O senhor está bem?› / ‹A senhora está bem?›"}
+{"id":"pt.c0251","meaning":"He's married.","note":"You will also hear ‹está casado›: both are normal."}
+{"id":"pt.c0252","meaning":"I like soccer.","note":"‹gostar› always takes ‹de›: never ‹gosto futebol›."}
 {"id":"pt.c0253","meaning":"Do you like to dance?","note":""}
 {"id":"pt.c0254","meaning":"the weekend","note":""}
-{"id":"pt.c0255","meaning":"I went to the beach.","note":"fui = I went. à = a + a."}
-{"id":"pt.c0256","meaning":"I love Brazilian music.","note":"adorar takes no de."}
-{"id":"pt.c0257","meaning":"I like the beach.","note":"da = de + a: a praia is feminine."}
-{"id":"pt.c0258","meaning":"I don't like waking up early.","note":"gostar de + infinitive."}
+{"id":"pt.c0255","meaning":"I went to the beach.","note":"‹fui› = I went. ‹à› = ‹a› + ‹a›."}
+{"id":"pt.c0256","meaning":"I love Brazilian music.","note":"‹adorar› takes no ‹de›."}
+{"id":"pt.c0257","meaning":"I like the beach.","note":"‹da› = ‹de› + ‹a›: ‹a praia› is feminine."}
+{"id":"pt.c0258","meaning":"I don't like waking up early.","note":"‹gostar de› + infinitive."}
 {"id":"pt.c0259","meaning":"Me too.","note":""}
-{"id":"pt.c0260","meaning":"Me neither.","note":"Also heard: eu também não."}
-{"id":"pt.c0261","meaning":"What did you do on the weekend?","note":"fez: the você form of fazer, in the past."}
-{"id":"pt.c0262","meaning":"I watched a movie.","note":"vi = I saw. For a movie, ver and assistir both work."}
-{"id":"pt.c0263","meaning":"I play the guitar.","note":"tocar for instruments; jogar for sports and games."}
-{"id":"pt.c0264","meaning":"We play soccer on Saturdays.","note":"aos = a + os."}
-{"id":"pt.c0265","meaning":"Shall we go to the movies?","note":"ao = a + o."}
-{"id":"pt.c0266","meaning":"Yesterday I went out with some friends.","note":"saí = I went out. uns agrees with amigos."}
+{"id":"pt.c0260","meaning":"Me neither.","note":"Also heard: ‹eu também não›."}
+{"id":"pt.c0261","meaning":"What did you do on the weekend?","note":"‹fez›: the ‹você› form of ‹fazer›, in the past."}
+{"id":"pt.c0262","meaning":"I watched a movie.","note":"‹vi› = I saw. For a movie, ‹ver› and ‹assistir› both work."}
+{"id":"pt.c0263","meaning":"I play the guitar.","note":"‹tocar› for instruments; ‹jogar› for sports and games."}
+{"id":"pt.c0264","meaning":"We play soccer on Saturdays.","note":"‹aos› = ‹a› + ‹os›."}
+{"id":"pt.c0265","meaning":"Shall we go to the movies?","note":"‹ao› = ‹a› + ‹o›."}
+{"id":"pt.c0266","meaning":"Yesterday I went out with some friends.","note":"‹saí› = I went out. ‹uns› agrees with ‹amigos›."}
 {"id":"pt.c0267","meaning":"What do you like to do?","note":""}
-{"id":"pt.c0268","meaning":"I'd rather stay home.","note":"preferir: eu prefiro, você prefere."}
-{"id":"pt.c0269","meaning":"It was great!","note":"foi = it was."}
-{"id":"pt.c0270","meaning":"Why?","note":"At the end of a sentence, quê has a circumflex. Because = porque."}
+{"id":"pt.c0268","meaning":"I'd rather stay home.","note":"‹preferir›: ‹eu prefiro›, ‹você prefere›."}
+{"id":"pt.c0269","meaning":"It was great!","note":"‹foi› = it was."}
+{"id":"pt.c0270","meaning":"Why?","note":"At the end of a sentence, ‹quê› has a circumflex. Because = ‹porque›."}
 {"id":"pt.c0271","meaning":"When?","note":""}
 {"id":"pt.c0272","meaning":"How old are you?","note":"Literally: how many years do you have?"}
-{"id":"pt.c0273","meaning":"but","note":"mais (more) sounds almost the same in much of Brazil."}
-{"id":"pt.c0274","meaning":"also; too","note":"Not either: that is também não."}
-{"id":"pt.c0275","meaning":"What's that?","note":"isso = this or that, for a thing you don't name."}
+{"id":"pt.c0273","meaning":"but","note":"‹mais› (more) sounds almost the same in much of Brazil."}
+{"id":"pt.c0274","meaning":"also; too","note":"Not either: that is ‹também não›."}
+{"id":"pt.c0275","meaning":"What's that?","note":"‹isso› = this or that, for a thing you don't name."}
 {"id":"pt.c0276","meaning":"Who is he?","note":""}
-{"id":"pt.c0277","meaning":"Sorry, what?","note":"Como? on its own asks someone to repeat."}
-{"id":"pt.c0278","meaning":"Which one do you prefer?","note":"qual = which; for more than one: quais."}
-{"id":"pt.c0279","meaning":"How many people?","note":"quantas agrees with pessoas, which is feminine."}
-{"id":"pt.c0280","meaning":"because","note":"One word, no accent. The question is Por quê?"}
+{"id":"pt.c0277","meaning":"Sorry, what?","note":"‹Como?› on its own asks someone to repeat."}
+{"id":"pt.c0278","meaning":"Which one do you prefer?","note":"‹qual› = which; for more than one: ‹quais›."}
+{"id":"pt.c0279","meaning":"How many people?","note":"‹quantas› agrees with ‹pessoas›, which is feminine."}
+{"id":"pt.c0280","meaning":"because","note":"One word, no accent. The question is ‹Por quê?›"}
 {"id":"pt.c0281","meaning":"or","note":""}
-{"id":"pt.c0282","meaning":"and","note":"With no accent. é (with an accent) means is."}
+{"id":"pt.c0282","meaning":"and","note":"With no accent. ‹é› (with an accent) means is."}
 {"id":"pt.c0283","meaning":"so; then","note":""}
 {"id":"pt.c0284","meaning":"Do you live here?","note":"No do: a yes/no question is the statement with a rising voice."}
-{"id":"pt.c0285","meaning":"How do you get to work?","note":"como = how."}
-{"id":"pt.c0286","meaning":"I study and work.","note":"Both verbs agree with eu."}
-{"id":"pt.c0287","meaning":"more","note":"mas (but) sounds almost the same in much of Brazil."}
-{"id":"pt.c0288","meaning":"the relatives","note":"Not parents. Parents = os pais."}
-{"id":"pt.c0289","meaning":"to pull","note":"Not push. Push = empurrar. Check the sign on the door."}
-{"id":"pt.c0290","meaning":"to intend","note":"Not pretend. Pretend = fingir."}
-{"id":"pt.c0291","meaning":"the bookstore","note":"Library = a biblioteca."}
-{"id":"pt.c0292","meaning":"I'm twenty.","note":"Age uses ter (have): never sou vinte."}
-{"id":"pt.c0293","meaning":"the factory","note":"Not fabric. Fabric = o tecido."}
-{"id":"pt.c0294","meaning":"the school","note":"Not college. College = a faculdade."}
-{"id":"pt.c0295","meaning":"to watch","note":"Not assist. Assist = ajudar. Careful speech: assistir a um filme, assistir à TV; in everyday speech the a is often dropped."}
-{"id":"pt.c0296","meaning":"the piece of news","note":"Not a notice. A notice = um aviso."}
-{"id":"pt.c0297","meaning":"the flu","note":"Not a complaint. Estou gripado = I have the flu."}
-{"id":"pt.c0298","meaning":"I'm excited.","note":"Never excitado: it can sound sexual. A woman says animada."}
-{"id":"pt.c0299","meaning":"the habit; the custom","note":"Not a costume. A costume = a fantasia."}
-{"id":"pt.c0300","meaning":"I'm going to take a shower.","note":"tomar banho, never pegar banho."}
-{"id":"pt.c0301","meaning":"I need to make a decision.","note":"You take a decision: tomar, not fazer."}
-{"id":"pt.c0302","meaning":"I've already seen this movie.","note":"Not tenho visto: use the pretérito perfeito, often with já."}
-{"id":"pt.c0303","meaning":"very good","note":"Very = muito. Not muy, which is Spanish."}
-{"id":"pt.c0304","meaning":"I'm going to travel.","note":"Nothing between vou and the infinitive: never vou a viajar."}
-{"id":"pt.c0305","meaning":"Have fun!","note":"Not tenha um bom tempo, a word-for-word copy from English."}
-{"id":"pt.c0306","meaning":"I'm tired.","note":"Spoken short form of estou. Write estou in typed answers."}
-{"id":"pt.c0307","meaning":"OK; fine","note":"tá = está. The everyday way to say OK."}
-{"id":"pt.c0308","meaning":"we","note":"a gente takes the ele / ela form: a gente vai."}
-{"id":"pt.c0309","meaning":"I saw him yesterday.","note":"Everyday Brazilian speech. In formal writing: Eu o vi ontem."}
+{"id":"pt.c0285","meaning":"How do you get to work?","note":"‹como› = how."}
+{"id":"pt.c0286","meaning":"I study and work.","note":"Both verbs agree with ‹eu›."}
+{"id":"pt.c0287","meaning":"more","note":"‹mas› (but) sounds almost the same in much of Brazil."}
+{"id":"pt.c0288","meaning":"the relatives","note":"Not parents. Parents = ‹os pais›."}
+{"id":"pt.c0289","meaning":"to pull","note":"Not push. Push = ‹empurrar›. Check the sign on the door."}
+{"id":"pt.c0290","meaning":"to intend","note":"Not pretend. Pretend = ‹fingir›."}
+{"id":"pt.c0291","meaning":"the bookstore","note":"Library = ‹a biblioteca›."}
+{"id":"pt.c0292","meaning":"I'm twenty.","note":"Age uses ‹ter› (have): never ‹sou vinte›."}
+{"id":"pt.c0293","meaning":"the factory","note":"Not fabric. Fabric = ‹o tecido›."}
+{"id":"pt.c0294","meaning":"the school","note":"Not college. College = ‹a faculdade›."}
+{"id":"pt.c0295","meaning":"to watch","note":"Not assist. Assist = ‹ajudar›. Careful speech: ‹assistir a um filme›, ‹assistir à TV›; in everyday speech the ‹a› is often dropped."}
+{"id":"pt.c0296","meaning":"the piece of news","note":"Not a notice. A notice = ‹um aviso›."}
+{"id":"pt.c0297","meaning":"the flu","note":"Not a complaint. ‹Estou gripado› = I have the flu."}
+{"id":"pt.c0298","meaning":"I'm excited.","note":"Never ‹excitado›: it can sound sexual. A woman says ‹animada›."}
+{"id":"pt.c0299","meaning":"the habit; the custom","note":"Not a costume. A costume = ‹a fantasia›."}
+{"id":"pt.c0300","meaning":"I'm going to take a shower.","note":"‹tomar banho›, never ‹pegar banho›."}
+{"id":"pt.c0301","meaning":"I need to make a decision.","note":"You take a decision: ‹tomar›, not ‹fazer›."}
+{"id":"pt.c0302","meaning":"I've already seen this movie.","note":"Not ‹tenho visto›: use the ‹pretérito perfeito›, often with ‹já›."}
+{"id":"pt.c0303","meaning":"very good","note":"Very = ‹muito›. Not muy, which is Spanish."}
+{"id":"pt.c0304","meaning":"I'm going to travel.","note":"Nothing between ‹vou› and the infinitive: never ‹vou a viajar›."}
+{"id":"pt.c0305","meaning":"Have fun!","note":"Not ‹tenha um bom tempo›, a word-for-word copy from English."}
+{"id":"pt.c0306","meaning":"I'm tired.","note":"Spoken short form of ‹estou›. Write ‹estou› in typed answers."}
+{"id":"pt.c0307","meaning":"OK; fine","note":"‹tá› = ‹está›. The everyday way to say OK."}
+{"id":"pt.c0308","meaning":"we","note":"‹a gente› takes the ‹ele› / ‹ela› form: ‹a gente vai›."}
+{"id":"pt.c0309","meaning":"I saw him yesterday.","note":"Everyday Brazilian speech. In formal writing: ‹Eu o vi ontem›."}
 {"id":"pt.c0310","meaning":"Can you help me?","note":"Pronoun first is normal in Brazilian speech."}
-{"id":"pt.c0311","meaning":"You OK?","note":"cê = você, tá = está. Write Você está bem? in typed answers."}
-{"id":"pt.c0312","meaning":"I'm going home.","note":"pra = para. pra is accepted wherever para is."}
-{"id":"pt.c0313","meaning":"See you around.","note":"Literally: we see each other. a gente + the ele form."}
-{"id":"pt.c0314","meaning":"Cool! Nice!","note":"Informal. In Portugal: fixe."}
-{"id":"pt.c0315","meaning":"It's hot, isn't it?","note":"né = não é: it asks the listener to agree. Write Está calor in typed answers."}
-{"id":"pt.c0316","meaning":"Where's my phone?","note":"cadê = where is, in speech only. Write Onde está in typed answers."}
-{"id":"pt.c0317","meaning":"I love you.","note":"Pronoun before the verb, as always in Brazil. In Portugal: amo-te."}
-{"id":"pt.c0318","meaning":"Thanks!","note":"A very informal thank-you between friends. The standard form: obrigado / obrigada."}
-{"id":"pt.c0319","meaning":"All good?","note":"An informal hello; the answer is the same: Beleza! The standard form: Tudo bem?"}
-{"id":"pt.c0320","meaning":"Like, I don't know.","note":"tipo is a filler, like English like."}
-{"id":"pt.c0321","meaning":"Hang on!","note":"aí softens the command. In writing: Espere aí."}
-{"id":"pt.c0322","meaning":"I'm almost there.","note":"Literally: I'm arriving. Write Estou chegando in typed answers."}
-{"id":"pt.c0323","meaning":"Call me.","note":"Pronoun first, as in all Brazilian speech. More formal: Me ligue."}
+{"id":"pt.c0311","meaning":"You OK?","note":"‹cê› = ‹você›, ‹tá› = ‹está›. Write ‹Você está bem?› in typed answers."}
+{"id":"pt.c0312","meaning":"I'm going home.","note":"‹pra› = ‹para›. ‹pra› is accepted wherever ‹para› is."}
+{"id":"pt.c0313","meaning":"See you around.","note":"Literally: we see each other. ‹a gente› + the ‹ele› form."}
+{"id":"pt.c0314","meaning":"Cool! Nice!","note":"Informal. In Portugal: ‹fixe›."}
+{"id":"pt.c0315","meaning":"It's hot, isn't it?","note":"‹né› = ‹não é›: it asks the listener to agree. Write ‹Está calor› in typed answers."}
+{"id":"pt.c0316","meaning":"Where's my phone?","note":"‹cadê› = where is, in speech only. Write ‹Onde está› in typed answers."}
+{"id":"pt.c0317","meaning":"I love you.","note":"Pronoun before the verb, as always in Brazil. In Portugal: ‹amo-te›."}
+{"id":"pt.c0318","meaning":"Thanks!","note":"A very informal thank-you between friends. The standard form: ‹obrigado› / ‹obrigada›."}
+{"id":"pt.c0319","meaning":"All good?","note":"An informal hello; the answer is the same: ‹Beleza!› The standard form: ‹Tudo bem?›"}
+{"id":"pt.c0320","meaning":"Like, I don't know.","note":"‹tipo› is a filler, like English like."}
+{"id":"pt.c0321","meaning":"Hang on!","note":"‹aí› softens the command. In writing: ‹Espere aí›."}
+{"id":"pt.c0322","meaning":"I'm almost there.","note":"Literally: I'm arriving. Write ‹Estou chegando› in typed answers."}
+{"id":"pt.c0323","meaning":"Call me.","note":"Pronoun first, as in all Brazilian speech. More formal: ‹Me ligue›."}
 {"id":"pt.c0324","meaning":"Everything was delicious.","note":"After a meal, to the host."}
 {"id":"pt.c0325","meaning":"You're a really good cook.","note":"To a host."}
 {"id":"pt.c0326","meaning":"That smells so good!","note":"Kitchen, bakery."}
@@ -329,68 +329,68 @@
 {"id":"pt.c0329","meaning":"You deserve congratulations!","note":"Warm praise for a job well done."}
 {"id":"pt.c0330","meaning":"Nailed it!","note":"Informal, very common."}
 {"id":"pt.c0331","meaning":"You rocked it!","note":"Informal; after a show, a talk or a test."}
-{"id":"pt.c0332","meaning":"You're really good at this.","note":"To a woman: muito boa."}
+{"id":"pt.c0332","meaning":"You're really good at this.","note":"To a woman: ‹muito boa›."}
 {"id":"pt.c0333","meaning":"Great idea!","note":"Everyday."}
 {"id":"pt.c0334","meaning":"It turned out beautiful!","note":"A finished job: a room, a cake, a haircut."}
 {"id":"pt.c0335","meaning":"What care you put into it!","note":"Very Brazilian praise for neat, careful work."}
 {"id":"pt.c0336","meaning":"You're very kind.","note":"Same for men and women."}
-{"id":"pt.c0337","meaning":"You're really funny.","note":"To a woman: engraçada."}
-{"id":"pt.c0338","meaning":"You really put in the effort.","note":"To a woman: esforçada. Brazilian praise for hard work."}
+{"id":"pt.c0337","meaning":"You're really funny.","note":"To a woman: ‹engraçada›."}
+{"id":"pt.c0338","meaning":"You really put in the effort.","note":"To a woman: ‹esforçada›. Brazilian praise for hard work."}
 {"id":"pt.c0339","meaning":"You're a sweetheart!","note":"Friendly, very common, not flirty."}
 {"id":"pt.c0340","meaning":"You look great!","note":"Friendly."}
 {"id":"pt.c0341","meaning":"That looks great on you.","note":"Clothes, a haircut."}
-{"id":"pt.c0342","meaning":"I love your outfit.","note":"Friendly; the past adorei = I love it (just seen)."}
+{"id":"pt.c0342","meaning":"I love your outfit.","note":"Friendly; the past ‹adorei› = I love it (just seen)."}
 {"id":"pt.c0343","meaning":"Your home is beautiful!","note":"On arrival."}
 {"id":"pt.c0344","meaning":"What a beautiful photo!","note":"Photos and posts."}
 {"id":"pt.c0345","meaning":"How cute!","note":"Babies, kids, pets: very Brazilian."}
 {"id":"pt.c0346","meaning":"You speak Portuguese really well!","note":"You will hear this."}
-{"id":"pt.c0347","meaning":"You'd never know you're a foreigner!","note":"To a woman: estrangeira."}
+{"id":"pt.c0347","meaning":"You'd never know you're a foreigner!","note":"To a woman: ‹estrangeira›."}
 {"id":"pt.c0348","meaning":"Oh, not at all!","note":"The typical modest brush-off."}
 {"id":"pt.c0349","meaning":"That's kind of you!","note":"A warm, common reply."}
 {"id":"pt.c0350","meaning":"You think so?","note":"Light doubt; a modest reply."}
 {"id":"pt.c0351","meaning":"I'm still learning.","note":"The expected modest reply about your Portuguese."}
 {"id":"pt.c0352","meaning":"You too!","note":"Returning a compliment."}
 {"id":"pt.c0353","meaning":"I loved it!","note":"About a gift, a meal or a show."}
-{"id":"pt.c0354","meaning":"Thanks for the compliment.","note":"A woman speaking; a man: Obrigado."}
-{"id":"pt.c0355","meaning":"beautiful; gorgeous (the everyday word)","note":"To a man; to a woman: linda. Warm; also used for kind people."}
-{"id":"pt.c0356","meaning":"pretty; good-looking","note":"To a man; to a woman: bonita. Mild."}
-{"id":"pt.c0357","meaning":"wonderful","note":"To a man; to a woman: maravilhosa. Warm."}
-{"id":"pt.c0358","meaning":"charming","note":"To a man; to a woman: charmosa. Warm."}
-{"id":"pt.c0359","meaning":"cute; sweet (sweet-natured)","note":"To a man; to a woman: fofa. Mild, playful."}
-{"id":"pt.c0360","meaning":"dear; lovely (as a person)","note":"To a man; to a woman: querida. Mild; also a friendly address."}
+{"id":"pt.c0354","meaning":"Thanks for the compliment.","note":"A woman speaking; a man: ‹Obrigado›."}
+{"id":"pt.c0355","meaning":"beautiful; gorgeous (the everyday word)","note":"To a man; to a woman: ‹linda›. Warm; also used for kind people."}
+{"id":"pt.c0356","meaning":"pretty; good-looking","note":"To a man; to a woman: ‹bonita›. Mild."}
+{"id":"pt.c0357","meaning":"wonderful","note":"To a man; to a woman: ‹maravilhosa›. Warm."}
+{"id":"pt.c0358","meaning":"charming","note":"To a man; to a woman: ‹charmosa›. Warm."}
+{"id":"pt.c0359","meaning":"cute; sweet (sweet-natured)","note":"To a man; to a woman: ‹fofa›. Mild, playful."}
+{"id":"pt.c0360","meaning":"dear; lovely (as a person)","note":"To a man; to a woman: ‹querida›. Mild; also a friendly address."}
 {"id":"pt.c0361","meaning":"smart; clever","note":"Same for both. Mild."}
-{"id":"pt.c0362","meaning":"affectionate","note":"To a man; to a woman: carinhosa. Warm."}
-{"id":"pt.c0363","meaning":"nice-smelling","note":"To a man; to a woman: cheirosa. Warm; a very Brazilian compliment."}
+{"id":"pt.c0362","meaning":"affectionate","note":"To a man; to a woman: ‹carinhosa›. Warm."}
+{"id":"pt.c0363","meaning":"nice-smelling","note":"To a man; to a woman: ‹cheirosa›. Warm; a very Brazilian compliment."}
 {"id":"pt.c0364","meaning":"stylish; elegant","note":"Same for both. Mild."}
 {"id":"pt.c0365","meaning":"attractive","note":"Same for both. Bold if said to the person."}
-{"id":"pt.c0366","meaning":"friendly; easy to like","note":"To a man; to a woman: simpática. Mild."}
+{"id":"pt.c0366","meaning":"friendly; easy to like","note":"To a man; to a woman: ‹simpática›. Mild."}
 {"id":"pt.c0367","meaning":"the smile","note":"The safest thing to praise."}
-{"id":"pt.c0368","meaning":"the eyes","note":"One eye: o olho."}
-{"id":"pt.c0369","meaning":"the hair","note":"Singular in Portuguese: o seu cabelo."}
-{"id":"pt.c0370","meaning":"the laugh","note":"Brazilian everyday word; also o riso."}
-{"id":"pt.c0371","meaning":"the charm","note":"ter charme = to be charming."}
-{"id":"pt.c0372","meaning":"the date (romantic); the meeting","note":"um encontro = a date. Speech also: sair com alguém."}
-{"id":"pt.c0373","meaning":"to flirt (with)","note":"eu paquero. No preposition: paquerar alguém."}
-{"id":"pt.c0374","meaning":"to date; to be in a relationship","note":"eu namoro. Namorar is serious: going steady."}
-{"id":"pt.c0375","meaning":"the kiss","note":"Um beijo! also ends texts to friends."}
-{"id":"pt.c0376","meaning":"the hug","note":"Um abraço! ends texts too; friendly, not romantic."}
-{"id":"pt.c0377","meaning":"You're beautiful.","note":"To a man: Você é lindo. Warm; common in Brazil."}
-{"id":"pt.c0378","meaning":"You look beautiful today.","note":"To a man: lindo. Estar = how you look right now. Warm."}
+{"id":"pt.c0368","meaning":"the eyes","note":"One eye: ‹o olho›."}
+{"id":"pt.c0369","meaning":"the hair","note":"Singular in Portuguese: ‹o seu cabelo›."}
+{"id":"pt.c0370","meaning":"the laugh","note":"Brazilian everyday word; also ‹o riso›."}
+{"id":"pt.c0371","meaning":"the charm","note":"‹ter charme› = to be charming."}
+{"id":"pt.c0372","meaning":"the date (romantic); the meeting","note":"‹um encontro› = a date. Speech also: ‹sair com alguém›."}
+{"id":"pt.c0373","meaning":"to flirt (with)","note":"‹eu paquero›. No preposition: ‹paquerar alguém›."}
+{"id":"pt.c0374","meaning":"to date; to be in a relationship","note":"‹eu namoro›. ‹Namorar› is serious: going steady."}
+{"id":"pt.c0375","meaning":"the kiss","note":"‹Um beijo!› also ends texts to friends."}
+{"id":"pt.c0376","meaning":"the hug","note":"‹Um abraço!› ends texts too; friendly, not romantic."}
+{"id":"pt.c0377","meaning":"You're beautiful.","note":"To a man: ‹Você é lindo›. Warm; common in Brazil."}
+{"id":"pt.c0378","meaning":"You look beautiful today.","note":"To a man: ‹lindo›. ‹Estar› = how you look right now. Warm."}
 {"id":"pt.c0379","meaning":"What a beautiful smile!","note":"To anyone. Mild, a safe opener."}
 {"id":"pt.c0380","meaning":"You have a beautiful smile.","note":"To anyone. Mild to warm."}
-{"id":"pt.c0381","meaning":"You look really good.","note":"To a man; to a woman: bonita. Mild."}
+{"id":"pt.c0381","meaning":"You look really good.","note":"To a man; to a woman: ‹bonita›. Mild."}
 {"id":"pt.c0382","meaning":"What a pretty name!","note":"To anyone, after hearing a name. Mild."}
-{"id":"pt.c0383","meaning":"You're wonderful.","note":"To a woman; to a man: maravilhoso. Warm to bold."}
-{"id":"pt.c0384","meaning":"You're very charming.","note":"To a man; to a woman: charmosa. Warm."}
+{"id":"pt.c0383","meaning":"You're wonderful.","note":"To a woman; to a man: ‹maravilhoso›. Warm to bold."}
+{"id":"pt.c0384","meaning":"You're very charming.","note":"To a man; to a woman: ‹charmosa›. Warm."}
 {"id":"pt.c0385","meaning":"How sweet!","note":"To or about anyone. Mild; also for gifts and gestures."}
-{"id":"pt.c0386","meaning":"You're a sweetheart.","note":"To a man; to a woman: uma fofa. Warm, playful."}
+{"id":"pt.c0386","meaning":"You're a sweetheart.","note":"To a man; to a woman: ‹uma fofa›. Warm, playful."}
 {"id":"pt.c0387","meaning":"You're really smart.","note":"To anyone. Mild."}
-{"id":"pt.c0388","meaning":"You're so affectionate.","note":"To a man; to a woman: carinhosa. Warm, when you know each other."}
-{"id":"pt.c0389","meaning":"You smell nice.","note":"To a woman; to a man: cheiroso. Warm, Brazilian."}
+{"id":"pt.c0388","meaning":"You're so affectionate.","note":"To a man; to a woman: ‹carinhosa›. Warm, when you know each other."}
+{"id":"pt.c0389","meaning":"You smell nice.","note":"To a woman; to a man: ‹cheiroso›. Warm, Brazilian."}
 {"id":"pt.c0390","meaning":"What beautiful eyes!","note":"To anyone. Warm."}
 {"id":"pt.c0391","meaning":"I love your eyes.","note":"To anyone. Bold."}
 {"id":"pt.c0392","meaning":"I love your laugh.","note":"To anyone. Warm."}
-{"id":"pt.c0393","meaning":"I like your hair.","note":"To anyone; the past gostei = I like it (new). Mild."}
+{"id":"pt.c0393","meaning":"I like your hair.","note":"To anyone; the past ‹gostei› = I like it (new). Mild."}
 {"id":"pt.c0394","meaning":"You're really charming.","note":"To anyone. Warm."}
 {"id":"pt.c0395","meaning":"You make me laugh.","note":"To anyone. Warm."}
 {"id":"pt.c0396","meaning":"I love talking with you.","note":"To anyone. Warm, friendly."}
@@ -407,420 +407,420 @@
 {"id":"pt.c0407","meaning":"I missed you.","note":"Warm."}
 {"id":"pt.c0408","meaning":"I'd love to!","note":"A warm yes."}
 {"id":"pt.c0409","meaning":"Sure, let's go!","note":"A happy yes."}
-{"id":"pt.c0410","meaning":"Stop, you're making me blush!","note":"Playful deflection; sem graça = embarrassed."}
+{"id":"pt.c0410","meaning":"Stop, you're making me blush!","note":"Playful deflection; ‹sem graça› = embarrassed."}
 {"id":"pt.c0411","meaning":"Do you say that to everyone?","note":"Playful, a bit teasing."}
 {"id":"pt.c0412","meaning":"Let's just be friends.","note":"A kind, clear no; same for any speaker."}
-{"id":"pt.c0413","meaning":"Thanks, but I have a boyfriend.","note":"A woman speaking; a man: Obrigado... namorada."}
-{"id":"pt.c0414","meaning":"Thanks, but I'm not interested.","note":"A woman speaking; a man: Obrigado... interessado. Clear and polite."}
-{"id":"pt.c0415","meaning":"Not today, but thanks for the invitation.","note":"A woman speaking; a man: obrigado. A soft no."}
-{"id":"pt.c0416","meaning":"the thing","note":"Uma coisa de cada vez = one thing at a time."}
-{"id":"pt.c0417","meaning":"the time (in general); the weather","note":"Não tenho tempo. / Como está o tempo?"}
-{"id":"pt.c0418","meaning":"the year","note":"Tenho trinta anos = I'm thirty. Ano que vem = next year."}
-{"id":"pt.c0419","meaning":"the person","note":"Always feminine, even for a man: Ele é uma boa pessoa."}
-{"id":"pt.c0420","meaning":"the time (one occasion)","note":"uma vez = once; às vezes = sometimes. Plural: vezes."}
-{"id":"pt.c0421","meaning":"the life","note":"Assim é a vida!"}
-{"id":"pt.c0422","meaning":"the truth","note":"É verdade? = Is that true?"}
-{"id":"pt.c0423","meaning":"the money","note":"Dinheiro is singular: O dinheiro está na mesa."}
-{"id":"pt.c0424","meaning":"the woman; the wife","note":"minha mulher = my wife (casual); esposa is more formal."}
-{"id":"pt.c0425","meaning":"the name","note":"Qual é o seu nome?"}
-{"id":"pt.c0426","meaning":"the world","note":"todo mundo = everybody, not the whole world."}
-{"id":"pt.c0427","meaning":"the friend (male, or a mixed group)","note":"For a woman: a amiga. A group: os amigos."}
-{"id":"pt.c0428","meaning":"the problem","note":"Masculine, even though it ends in -a. Sem problema!"}
-{"id":"pt.c0429","meaning":"the side","note":"ao lado de = next to; do outro lado = on the other side."}
-{"id":"pt.c0430","meaning":"the part","note":"em toda parte = everywhere."}
-{"id":"pt.c0431","meaning":"the place; the seat","note":"Este lugar está livre?"}
-{"id":"pt.c0432","meaning":"the family","note":"Singular verb: A minha família mora em Recife."}
-{"id":"pt.c0433","meaning":"the reason","note":"ter razão = to be right: Você tem razão."}
-{"id":"pt.c0434","meaning":"the idea","note":"Boa ideia! No accent mark in today's spelling."}
-{"id":"pt.c0435","meaning":"the hour; the time (on the clock)","note":"Que horas são? = What time is it?"}
-{"id":"pt.c0436","meaning":"the police","note":"Singular in Portuguese: A polícia chegou."}
-{"id":"pt.c0437","meaning":"the love","note":"meu amor = my love, also to children."}
-{"id":"pt.c0438","meaning":"the head","note":"Estou com dor de cabeça."}
-{"id":"pt.c0439","meaning":"the moment","note":"Um momento, por favor."}
-{"id":"pt.c0440","meaning":"the story; the history","note":"Que história é essa?"}
-{"id":"pt.c0441","meaning":"the door","note":"Fecha a porta, por favor."}
-{"id":"pt.c0442","meaning":"the way (route); the path","note":"no caminho = on the way."}
-{"id":"pt.c0443","meaning":"the luck","note":"Boa sorte! = Good luck!"}
-{"id":"pt.c0444","meaning":"the daughter","note":"Son: o filho."}
-{"id":"pt.c0445","meaning":"the bedroom; the room","note":"Also a quarter: um quarto."}
-{"id":"pt.c0446","meaning":"the morning","note":"de manhã = in the morning. amanhã alone = tomorrow."}
-{"id":"pt.c0447","meaning":"the water","note":"uma água = a bottle or glass of water."}
-{"id":"pt.c0448","meaning":"the week","note":"no fim de semana = on the weekend."}
-{"id":"pt.c0449","meaning":"the body","note":"o corpo humano."}
-{"id":"pt.c0450","meaning":"the game; the match","note":"um jogo de futebol."}
-{"id":"pt.c0451","meaning":"the school","note":"na escola = at school."}
-{"id":"pt.c0452","meaning":"the end","note":"no fim = in the end; o fim de semana = the weekend."}
-{"id":"pt.c0453","meaning":"the number","note":"Qual é o seu número?"}
-{"id":"pt.c0454","meaning":"the party","note":"uma festa de aniversário."}
-{"id":"pt.c0455","meaning":"the way (of doing); the knack","note":"Very Brazilian: de qualquer jeito = anyway; dar um jeito = find a way."}
-{"id":"pt.c0456","meaning":"the question","note":"fazer uma pergunta = to ask a question."}
-{"id":"pt.c0457","meaning":"the phone (landline or in general)","note":"Everyday for a mobile: o celular."}
-{"id":"pt.c0458","meaning":"the guy (informal)","note":"Masculine. a cara = the face."}
-{"id":"pt.c0459","meaning":"the girl","note":"Boy: o menino."}
-{"id":"pt.c0460","meaning":"the bed","note":"ir para a cama = to go to bed."}
-{"id":"pt.c0461","meaning":"the food","note":"A comida baiana é muito boa."}
-{"id":"pt.c0462","meaning":"the word","note":"Como se escreve essa palavra?"}
-{"id":"pt.c0463","meaning":"the doctor","note":"A woman: a médica."}
-{"id":"pt.c0464","meaning":"the country (nation)","note":"Stress on í: pa-ÍS."}
-{"id":"pt.c0465","meaning":"the book","note":"a livraria = the bookstore, not the library."}
-{"id":"pt.c0466","meaning":"the bus","note":"Same in the plural: os ônibus. Portugal: o autocarro."}
-{"id":"pt.c0467","meaning":"the cell phone","note":"Portugal: o telemóvel."}
-{"id":"pt.c0468","meaning":"the minute","note":"Só um minuto!"}
-{"id":"pt.c0469","meaning":"the movie","note":"ver um filme = to watch a movie."}
-{"id":"pt.c0470","meaning":"the music; the song","note":"uma música = a song."}
-{"id":"pt.c0471","meaning":"the foot","note":"a pé = on foot."}
-{"id":"pt.c0472","meaning":"the kind; the type","note":"Que tipo de música você gosta?"}
-{"id":"pt.c0473","meaning":"the beach","note":"ir à praia = to go to the beach."}
-{"id":"pt.c0474","meaning":"the trip","note":"Boa viagem! = Have a good trip!"}
-{"id":"pt.c0475","meaning":"the table","note":"pôr a mesa = to set the table."}
-{"id":"pt.c0476","meaning":"the job (position)","note":"Use trabalho for the work itself."}
-{"id":"pt.c0477","meaning":"the dog","note":"A female dog: a cachorra. Portugal: o cão."}
-{"id":"pt.c0478","meaning":"the answer","note":"a resposta certa."}
-{"id":"pt.c0479","meaning":"the plane","note":"de avião = by plane."}
-{"id":"pt.c0480","meaning":"the sun","note":"Está fazendo sol = It's sunny."}
-{"id":"pt.c0481","meaning":"the hotel","note":"Plural: os hotéis."}
-{"id":"pt.c0482","meaning":"the present (gift); the present (time)","note":"um presente de aniversário."}
-{"id":"pt.c0483","meaning":"the store","note":"a loja de roupas."}
-{"id":"pt.c0484","meaning":"the clothes","note":"Usually singular: Vou lavar a roupa."}
-{"id":"pt.c0485","meaning":"the teacher (male)","note":"A woman: a professora."}
-{"id":"pt.c0486","meaning":"the bank; the bench","note":"no banco = at the bank."}
-{"id":"pt.c0487","meaning":"the month","note":"mês que vem = next month. Plural: meses."}
-{"id":"pt.c0488","meaning":"the company","note":"Ela trabalha numa empresa grande."}
-{"id":"pt.c0489","meaning":"the young man","note":"Common, a bit formal; casual: o cara."}
-{"id":"pt.c0490","meaning":"the birthday","note":"Feliz aniversário! = Happy birthday!"}
-{"id":"pt.c0491","meaning":"the church","note":"a igreja do bairro."}
-{"id":"pt.c0492","meaning":"the meat","note":"Carne usually means beef."}
-{"id":"pt.c0493","meaning":"the sea","note":"o mar = the ocean too."}
-{"id":"pt.c0494","meaning":"the window","note":"Abre a janela, por favor."}
-{"id":"pt.c0495","meaning":"the boy","note":"Girl: a menina."}
-{"id":"pt.c0496","meaning":"the photo","note":"tirar uma foto = to take a photo."}
-{"id":"pt.c0497","meaning":"the young woman","note":"Polite way to call a waitress: Moça!"}
-{"id":"pt.c0498","meaning":"the baby","note":"Stress on the last syllable: be-BÊ."}
-{"id":"pt.c0499","meaning":"the fact","note":"de fato = in fact. Portugal writes facto."}
-{"id":"pt.c0500","meaning":"the price","note":"Qual é o preço?"}
-{"id":"pt.c0501","meaning":"the suitcase","note":"fazer a mala = to pack."}
-{"id":"pt.c0502","meaning":"the vacation","note":"Always plural: as férias."}
+{"id":"pt.c0413","meaning":"Thanks, but I have a boyfriend.","note":"A woman speaking; a man: ‹Obrigado... namorada›."}
+{"id":"pt.c0414","meaning":"Thanks, but I'm not interested.","note":"A woman speaking; a man: ‹Obrigado... interessado›. Clear and polite."}
+{"id":"pt.c0415","meaning":"Not today, but thanks for the invitation.","note":"A woman speaking; a man: ‹obrigado›. A soft no."}
+{"id":"pt.c0416","meaning":"the thing","note":"‹Uma coisa de cada vez› = one thing at a time."}
+{"id":"pt.c0417","meaning":"the time (in general); the weather","note":"‹Não tenho tempo›. / ‹Como está o tempo?›"}
+{"id":"pt.c0418","meaning":"the year","note":"‹Tenho trinta anos› = I'm thirty. ‹Ano que vem› = next year."}
+{"id":"pt.c0419","meaning":"the person","note":"Always feminine, even for a man: ‹Ele é uma boa pessoa›."}
+{"id":"pt.c0420","meaning":"the time (one occasion)","note":"‹uma vez› = once; ‹às vezes› = sometimes. Plural: ‹vezes›."}
+{"id":"pt.c0421","meaning":"the life","note":"‹Assim é a vida!›"}
+{"id":"pt.c0422","meaning":"the truth","note":"‹É verdade?› = Is that true?"}
+{"id":"pt.c0423","meaning":"the money","note":"‹Dinheiro› is singular: ‹O dinheiro está na mesa›."}
+{"id":"pt.c0424","meaning":"the woman; the wife","note":"‹minha mulher› = my wife (casual); ‹esposa› is more formal."}
+{"id":"pt.c0425","meaning":"the name","note":"‹Qual é o seu nome?›"}
+{"id":"pt.c0426","meaning":"the world","note":"‹todo mundo› = everybody, not the whole world."}
+{"id":"pt.c0427","meaning":"the friend (male, or a mixed group)","note":"For a woman: ‹a amiga›. A group: ‹os amigos›."}
+{"id":"pt.c0428","meaning":"the problem","note":"Masculine, even though it ends in ‹-a›. ‹Sem problema!›"}
+{"id":"pt.c0429","meaning":"the side","note":"‹ao lado de› = next to; ‹do outro lado› = on the other side."}
+{"id":"pt.c0430","meaning":"the part","note":"‹em toda parte› = everywhere."}
+{"id":"pt.c0431","meaning":"the place; the seat","note":"‹Este lugar está livre?›"}
+{"id":"pt.c0432","meaning":"the family","note":"Singular verb: ‹A minha família mora em Recife›."}
+{"id":"pt.c0433","meaning":"the reason","note":"‹ter razão› = to be right: ‹Você tem razão›."}
+{"id":"pt.c0434","meaning":"the idea","note":"‹Boa ideia!› No accent mark in today's spelling."}
+{"id":"pt.c0435","meaning":"the hour; the time (on the clock)","note":"‹Que horas são?› = What time is it?"}
+{"id":"pt.c0436","meaning":"the police","note":"Singular in Portuguese: ‹A polícia chegou›."}
+{"id":"pt.c0437","meaning":"the love","note":"‹meu amor› = my love, also to children."}
+{"id":"pt.c0438","meaning":"the head","note":"‹Estou com dor de cabeça›."}
+{"id":"pt.c0439","meaning":"the moment","note":"‹Um momento, por favor›."}
+{"id":"pt.c0440","meaning":"the story; the history","note":"‹Que história é essa?›"}
+{"id":"pt.c0441","meaning":"the door","note":"‹Fecha a porta, por favor›."}
+{"id":"pt.c0442","meaning":"the way (route); the path","note":"‹no caminho› = on the way."}
+{"id":"pt.c0443","meaning":"the luck","note":"‹Boa sorte!› = Good luck!"}
+{"id":"pt.c0444","meaning":"the daughter","note":"Son: ‹o filho›."}
+{"id":"pt.c0445","meaning":"the bedroom; the room","note":"Also a quarter: ‹um quarto›."}
+{"id":"pt.c0446","meaning":"the morning","note":"‹de manhã› = in the morning. ‹amanhã› alone = tomorrow."}
+{"id":"pt.c0447","meaning":"the water","note":"‹uma água› = a bottle or glass of water."}
+{"id":"pt.c0448","meaning":"the week","note":"‹no fim de semana› = on the weekend."}
+{"id":"pt.c0449","meaning":"the body","note":"‹o corpo humano›."}
+{"id":"pt.c0450","meaning":"the game; the match","note":"‹um jogo de futebol›."}
+{"id":"pt.c0451","meaning":"the school","note":"‹na escola› = at school."}
+{"id":"pt.c0452","meaning":"the end","note":"‹no fim› = in the end; ‹o fim de semana› = the weekend."}
+{"id":"pt.c0453","meaning":"the number","note":"‹Qual é o seu número?›"}
+{"id":"pt.c0454","meaning":"the party","note":"‹uma festa de aniversário›."}
+{"id":"pt.c0455","meaning":"the way (of doing); the knack","note":"Very Brazilian: ‹de qualquer jeito› = anyway; ‹dar um jeito› = find a way."}
+{"id":"pt.c0456","meaning":"the question","note":"‹fazer uma pergunta› = to ask a question."}
+{"id":"pt.c0457","meaning":"the phone (landline or in general)","note":"Everyday for a mobile: ‹o celular›."}
+{"id":"pt.c0458","meaning":"the guy (informal)","note":"Masculine. ‹a cara› = the face."}
+{"id":"pt.c0459","meaning":"the girl","note":"Boy: ‹o menino›."}
+{"id":"pt.c0460","meaning":"the bed","note":"‹ir para a cama› = to go to bed."}
+{"id":"pt.c0461","meaning":"the food","note":"‹A comida baiana é muito boa›."}
+{"id":"pt.c0462","meaning":"the word","note":"‹Como se escreve essa palavra?›"}
+{"id":"pt.c0463","meaning":"the doctor","note":"A woman: ‹a médica›."}
+{"id":"pt.c0464","meaning":"the country (nation)","note":"Stress on ‹í›: ‹pa-ÍS›."}
+{"id":"pt.c0465","meaning":"the book","note":"‹a livraria› = the bookstore, not the library."}
+{"id":"pt.c0466","meaning":"the bus","note":"Same in the plural: ‹os ônibus›. Portugal: ‹o autocarro›."}
+{"id":"pt.c0467","meaning":"the cell phone","note":"Portugal: ‹o telemóvel›."}
+{"id":"pt.c0468","meaning":"the minute","note":"‹Só um minuto!›"}
+{"id":"pt.c0469","meaning":"the movie","note":"‹ver um filme› = to watch a movie."}
+{"id":"pt.c0470","meaning":"the music; the song","note":"‹uma música› = a song."}
+{"id":"pt.c0471","meaning":"the foot","note":"‹a pé› = on foot."}
+{"id":"pt.c0472","meaning":"the kind; the type","note":"‹Que tipo de música você gosta?›"}
+{"id":"pt.c0473","meaning":"the beach","note":"‹ir à praia› = to go to the beach."}
+{"id":"pt.c0474","meaning":"the trip","note":"‹Boa viagem!› = Have a good trip!"}
+{"id":"pt.c0475","meaning":"the table","note":"‹pôr a mesa› = to set the table."}
+{"id":"pt.c0476","meaning":"the job (position)","note":"Use ‹trabalho› for the work itself."}
+{"id":"pt.c0477","meaning":"the dog","note":"A female dog: ‹a cachorra›. Portugal: ‹o cão›."}
+{"id":"pt.c0478","meaning":"the answer","note":"‹a resposta certa›."}
+{"id":"pt.c0479","meaning":"the plane","note":"‹de avião› = by plane."}
+{"id":"pt.c0480","meaning":"the sun","note":"‹Está fazendo sol› = It's sunny."}
+{"id":"pt.c0481","meaning":"the hotel","note":"Plural: ‹os hotéis›."}
+{"id":"pt.c0482","meaning":"the present (gift); the present (time)","note":"‹um presente de aniversário›."}
+{"id":"pt.c0483","meaning":"the store","note":"‹a loja de roupas›."}
+{"id":"pt.c0484","meaning":"the clothes","note":"Usually singular: ‹Vou lavar a roupa›."}
+{"id":"pt.c0485","meaning":"the teacher (male)","note":"A woman: ‹a professora›."}
+{"id":"pt.c0486","meaning":"the bank; the bench","note":"‹no banco› = at the bank."}
+{"id":"pt.c0487","meaning":"the month","note":"‹mês que vem› = next month. Plural: ‹meses›."}
+{"id":"pt.c0488","meaning":"the company","note":"‹Ela trabalha numa empresa grande›."}
+{"id":"pt.c0489","meaning":"the young man","note":"Common, a bit formal; casual: ‹o cara›."}
+{"id":"pt.c0490","meaning":"the birthday","note":"‹Feliz aniversário!› = Happy birthday!"}
+{"id":"pt.c0491","meaning":"the church","note":"‹a igreja do bairro›."}
+{"id":"pt.c0492","meaning":"the meat","note":"‹Carne› usually means beef."}
+{"id":"pt.c0493","meaning":"the sea","note":"‹o mar› = the ocean too."}
+{"id":"pt.c0494","meaning":"the window","note":"‹Abre a janela, por favor›."}
+{"id":"pt.c0495","meaning":"the boy","note":"Girl: ‹a menina›."}
+{"id":"pt.c0496","meaning":"the photo","note":"‹tirar uma foto› = to take a photo."}
+{"id":"pt.c0497","meaning":"the young woman","note":"Polite way to call a waitress: ‹Moça!›"}
+{"id":"pt.c0498","meaning":"the baby","note":"Stress on the last syllable: ‹be-BÊ›."}
+{"id":"pt.c0499","meaning":"the fact","note":"‹de fato› = in fact. Portugal writes ‹facto›."}
+{"id":"pt.c0500","meaning":"the price","note":"‹Qual é o preço?›"}
+{"id":"pt.c0501","meaning":"the suitcase","note":"‹fazer a mala› = to pack."}
+{"id":"pt.c0502","meaning":"the vacation","note":"Always plural: ‹as férias›."}
 {"id":"pt.c0503","meaning":"the fish","note":"Live or on a plate."}
-{"id":"pt.c0504","meaning":"the cat","note":"A female cat: a gata."}
-{"id":"pt.c0505","meaning":"the language; the tongue","note":"Also: o idioma (language)."}
-{"id":"pt.c0506","meaning":"the class (lesson)","note":"a aula de português."}
-{"id":"pt.c0507","meaning":"the market; the supermarket","note":"Also: o supermercado."}
-{"id":"pt.c0508","meaning":"the train","note":"de trem = by train. Portugal: o comboio."}
-{"id":"pt.c0509","meaning":"the rain","note":"Vai chover = It's going to rain."}
-{"id":"pt.c0510","meaning":"the chicken (as food)","note":"frango com arroz."}
-{"id":"pt.c0511","meaning":"the address","note":"Qual é o seu endereço?"}
-{"id":"pt.c0512","meaning":"the egg","note":"The plural os ovos has an open o."}
-{"id":"pt.c0513","meaning":"the fruit","note":"uma fruta = a piece of fruit."}
-{"id":"pt.c0514","meaning":"to be (what someone or something is)","note":"Irregular: eu sou, você é."}
-{"id":"pt.c0515","meaning":"to be (where, or how right now)","note":"Irregular: eu estou (tô in speech)."}
-{"id":"pt.c0516","meaning":"to have; there is","note":"Irregular: eu tenho. Tem = there is."}
-{"id":"pt.c0517","meaning":"to go","note":"Irregular: eu vou."}
-{"id":"pt.c0518","meaning":"can; to be able to","note":"Irregular: eu posso."}
-{"id":"pt.c0519","meaning":"to want","note":"eu quero. Irregular in the past (quis)."}
-{"id":"pt.c0520","meaning":"to know (a fact, how to)","note":"Irregular: eu sei."}
-{"id":"pt.c0521","meaning":"to do; to make","note":"Irregular: eu faço."}
-{"id":"pt.c0522","meaning":"to give","note":"Irregular: eu dou."}
-{"id":"pt.c0523","meaning":"to say; to tell","note":"Irregular: eu digo."}
-{"id":"pt.c0524","meaning":"to see; to watch","note":"Irregular: eu vejo."}
-{"id":"pt.c0525","meaning":"to speak; to talk","note":"eu falo. Regular -ar."}
-{"id":"pt.c0526","meaning":"to think (have an opinion); to find","note":"eu acho. Acho que sim = I think so."}
-{"id":"pt.c0527","meaning":"to come","note":"Irregular: eu venho."}
-{"id":"pt.c0528","meaning":"to like","note":"eu gosto. Always gostar de: Gosto de café."}
-{"id":"pt.c0529","meaning":"to need","note":"eu preciso. Takes de before a noun: preciso de ajuda."}
-{"id":"pt.c0530","meaning":"to stay; to be located; to become","note":"eu fico. Regular -ar."}
-{"id":"pt.c0531","meaning":"to try","note":"eu tento. Regular -ar."}
-{"id":"pt.c0532","meaning":"to leave; to go out","note":"Irregular: eu saio, você sai."}
-{"id":"pt.c0533","meaning":"to think","note":"eu penso. pensar em = to think about."}
-{"id":"pt.c0534","meaning":"to come back; to go back","note":"eu volto."}
-{"id":"pt.c0535","meaning":"to help","note":"eu ajudo."}
-{"id":"pt.c0536","meaning":"to find; to meet","note":"eu encontro."}
-{"id":"pt.c0537","meaning":"to pass; to spend (time)","note":"eu passo."}
-{"id":"pt.c0538","meaning":"to leave (something); to let","note":"eu deixo."}
-{"id":"pt.c0539","meaning":"to go in; to come in","note":"eu entro. Entra! = Come in!"}
-{"id":"pt.c0540","meaning":"to arrive","note":"eu chego. chegar em casa = to get home."}
-{"id":"pt.c0541","meaning":"to work","note":"eu trabalho."}
-{"id":"pt.c0542","meaning":"to die","note":"eu morro."}
-{"id":"pt.c0543","meaning":"to understand","note":"eu entendo."}
-{"id":"pt.c0544","meaning":"to hear; to listen","note":"Irregular: eu ouço."}
-{"id":"pt.c0545","meaning":"to happen","note":"Mostly o que aconteceu? = what happened?"}
-{"id":"pt.c0546","meaning":"to take (somewhere); to carry","note":"eu levo. Vou levar = I'll take it."}
-{"id":"pt.c0547","meaning":"to know (a person or place); to meet","note":"eu conheço (c becomes ç)."}
-{"id":"pt.c0548","meaning":"to start; to begin","note":"eu começo (c becomes ç)."}
-{"id":"pt.c0549","meaning":"to use; to wear","note":"eu uso."}
-{"id":"pt.c0550","meaning":"to eat","note":"eu como. Regular -er."}
-{"id":"pt.c0551","meaning":"to sleep","note":"Irregular: eu durmo."}
-{"id":"pt.c0552","meaning":"to live (be alive; live a life)","note":"eu vivo. For where you live: morar."}
-{"id":"pt.c0553","meaning":"to take; to catch; to grab","note":"eu pego. pegar o ônibus = to catch the bus."}
-{"id":"pt.c0554","meaning":"to walk; to ride","note":"eu ando. andar de bicicleta = to ride a bike."}
-{"id":"pt.c0555","meaning":"to lose; to miss (a bus)","note":"Irregular: eu perco."}
-{"id":"pt.c0556","meaning":"to wait; to hope","note":"eu espero."}
-{"id":"pt.c0557","meaning":"to finish; to run out","note":"eu acabo. Acabou! = It's over!"}
-{"id":"pt.c0558","meaning":"to look","note":"eu olho. olhar para = to look at."}
-{"id":"pt.c0559","meaning":"to ask for; to order (food)","note":"Irregular: eu peço."}
-{"id":"pt.c0560","meaning":"to manage to; to get","note":"Irregular: eu consigo."}
-{"id":"pt.c0561","meaning":"to take; to drink","note":"eu tomo. tomar café = to have coffee."}
-{"id":"pt.c0562","meaning":"to have dinner","note":"eu janto. o jantar = dinner."}
-{"id":"pt.c0563","meaning":"to remember","note":"eu lembro (or me lembro)."}
-{"id":"pt.c0564","meaning":"to run","note":"eu corro."}
-{"id":"pt.c0565","meaning":"to change; to move (house)","note":"eu mudo."}
-{"id":"pt.c0566","meaning":"to feel","note":"Irregular: eu sinto. Sinto muito = I'm sorry."}
-{"id":"pt.c0567","meaning":"to pay","note":"eu pago."}
-{"id":"pt.c0568","meaning":"to believe","note":"eu acredito. acreditar em = to believe in."}
-{"id":"pt.c0569","meaning":"to keep on; to continue","note":"eu continuo."}
-{"id":"pt.c0570","meaning":"to call (phone); to turn on","note":"eu ligo. Me liga! = Call me!"}
-{"id":"pt.c0571","meaning":"to put","note":"Irregular: eu ponho."}
-{"id":"pt.c0572","meaning":"to drink","note":"eu bebo."}
-{"id":"pt.c0573","meaning":"to win; to earn; to get (a gift)","note":"eu ganho."}
-{"id":"pt.c0574","meaning":"to buy","note":"eu compro."}
-{"id":"pt.c0575","meaning":"to play (a game or sport); to throw","note":"eu jogo. jogar futebol."}
-{"id":"pt.c0576","meaning":"to put; to place","note":"eu coloco. Everyday in Brazil."}
-{"id":"pt.c0577","meaning":"to live (somewhere)","note":"eu moro. Moro em São Paulo."}
-{"id":"pt.c0578","meaning":"to ask (a question)","note":"eu pergunto."}
-{"id":"pt.c0579","meaning":"to call; to name","note":"eu chamo. me chamo = my name is."}
-{"id":"pt.c0580","meaning":"to look for","note":"eu procuro."}
-{"id":"pt.c0581","meaning":"to read","note":"Irregular: eu leio."}
-{"id":"pt.c0582","meaning":"to open","note":"eu abro."}
-{"id":"pt.c0583","meaning":"to show","note":"eu mostro."}
-{"id":"pt.c0584","meaning":"to marry; to get married","note":"eu caso. casar com = to marry someone."}
-{"id":"pt.c0585","meaning":"to bring","note":"Irregular: eu trago."}
-{"id":"pt.c0586","meaning":"to touch; to play (music)","note":"eu toco. tocar violão."}
-{"id":"pt.c0587","meaning":"to chat; to have a talk","note":"eu converso."}
-{"id":"pt.c0588","meaning":"to fall","note":"Irregular: eu caio, você cai."}
-{"id":"pt.c0589","meaning":"to write","note":"eu escrevo."}
-{"id":"pt.c0590","meaning":"to take long","note":"Very Brazilian: Vai demorar? = Will it take long?"}
-{"id":"pt.c0591","meaning":"to receive; to get","note":"eu recebo."}
-{"id":"pt.c0592","meaning":"to learn","note":"eu aprendo."}
-{"id":"pt.c0593","meaning":"to seem; to look like","note":"eu pareço. Parece bom = It looks good."}
-{"id":"pt.c0594","meaning":"to sell","note":"eu vendo."}
-{"id":"pt.c0595","meaning":"to forget","note":"eu esqueço."}
-{"id":"pt.c0596","meaning":"to send; to order","note":"eu mando. Me manda uma mensagem."}
-{"id":"pt.c0597","meaning":"to dance","note":"eu danço."}
-{"id":"pt.c0598","meaning":"to prefer","note":"Irregular: eu prefiro."}
-{"id":"pt.c0599","meaning":"to love (a thing); to adore","note":"eu adoro. No de: Adoro música."}
-{"id":"pt.c0600","meaning":"to go up; to get on (a bus)","note":"Irregular: eu subo, você sobe."}
-{"id":"pt.c0601","meaning":"to answer; to reply","note":"eu respondo."}
-{"id":"pt.c0602","meaning":"to sing","note":"eu canto."}
-{"id":"pt.c0603","meaning":"to close","note":"eu fecho."}
-{"id":"pt.c0604","meaning":"to rest","note":"eu descanso."}
-{"id":"pt.c0605","meaning":"to wake up","note":"eu acordo."}
-{"id":"pt.c0606","meaning":"to laugh","note":"Irregular: eu rio, você ri."}
-{"id":"pt.c0607","meaning":"to decide","note":"eu decido."}
-{"id":"pt.c0608","meaning":"to go down; to get off (a bus)","note":"eu desço (c becomes ç)."}
-{"id":"pt.c0609","meaning":"to lift; to raise","note":"eu levanto. levantar-se = to get up."}
-{"id":"pt.c0610","meaning":"to study","note":"eu estudo."}
-{"id":"pt.c0611","meaning":"to travel","note":"eu viajo."}
-{"id":"pt.c0612","meaning":"to love (a person)","note":"eu amo. Strong: for people you really love."}
-{"id":"pt.c0613","meaning":"to wash","note":"eu lavo."}
-{"id":"pt.c0614","meaning":"to teach","note":"eu ensino."}
-{"id":"pt.c0615","meaning":"to sit","note":"eu sento. Senta aí! = Have a seat!"}
-{"id":"pt.c0616","meaning":"to cook","note":"eu cozinho."}
-{"id":"pt.c0617","meaning":"to be born","note":"Mostly in the past: Eu nasci em..."}
-{"id":"pt.c0618","meaning":"to have lunch","note":"eu almoço."}
-{"id":"pt.c0619","meaning":"to dream","note":"eu sonho. sonhar com = to dream about."}
-{"id":"pt.c0620","meaning":"to be worth","note":"Vale a pena = It's worth it."}
-{"id":"pt.c0621","meaning":"to rain","note":"Only ele form: chove, choveu."}
-{"id":"pt.c0622","meaning":"to cost","note":"Quanto custa?"}
-{"id":"pt.c0623","meaning":"good","note":"Woman or feminine noun: boa. Bom dia!"}
-{"id":"pt.c0624","meaning":"better; best","note":"Same for both genders. o melhor = the best."}
-{"id":"pt.c0625","meaning":"right; correct","note":"Feminine: certa. Tá certo = OK, fine."}
+{"id":"pt.c0504","meaning":"the cat","note":"A female cat: ‹a gata›."}
+{"id":"pt.c0505","meaning":"the language; the tongue","note":"Also: ‹o idioma› (language)."}
+{"id":"pt.c0506","meaning":"the class (lesson)","note":"a ‹aula de português›."}
+{"id":"pt.c0507","meaning":"the market; the supermarket","note":"Also: ‹o supermercado›."}
+{"id":"pt.c0508","meaning":"the train","note":"‹de trem› = by train. Portugal: ‹o comboio›."}
+{"id":"pt.c0509","meaning":"the rain","note":"‹Vai chover› = It's going to rain."}
+{"id":"pt.c0510","meaning":"the chicken (as food)","note":"‹frango com arroz›."}
+{"id":"pt.c0511","meaning":"the address","note":"‹Qual é o seu endereço?›"}
+{"id":"pt.c0512","meaning":"the egg","note":"The plural ‹os ovos› has an open o."}
+{"id":"pt.c0513","meaning":"the fruit","note":"‹uma fruta› = a piece of fruit."}
+{"id":"pt.c0514","meaning":"to be (what someone or something is)","note":"Irregular: ‹eu sou›, ‹você é›."}
+{"id":"pt.c0515","meaning":"to be (where, or how right now)","note":"Irregular: ‹eu estou› (‹tô› in speech)."}
+{"id":"pt.c0516","meaning":"to have; there is","note":"Irregular: ‹eu tenho›. ‹Tem› = there is."}
+{"id":"pt.c0517","meaning":"to go","note":"Irregular: ‹eu vou›."}
+{"id":"pt.c0518","meaning":"can; to be able to","note":"Irregular: ‹eu posso›."}
+{"id":"pt.c0519","meaning":"to want","note":"‹eu quero›. Irregular in the past (‹quis›)."}
+{"id":"pt.c0520","meaning":"to know (a fact, how to)","note":"Irregular: ‹eu sei›."}
+{"id":"pt.c0521","meaning":"to do; to make","note":"Irregular: ‹eu faço›."}
+{"id":"pt.c0522","meaning":"to give","note":"Irregular: ‹eu dou›."}
+{"id":"pt.c0523","meaning":"to say; to tell","note":"Irregular: ‹eu digo›."}
+{"id":"pt.c0524","meaning":"to see; to watch","note":"Irregular: ‹eu vejo›."}
+{"id":"pt.c0525","meaning":"to speak; to talk","note":"‹eu falo›. Regular ‹-ar›."}
+{"id":"pt.c0526","meaning":"to think (have an opinion); to find","note":"‹eu acho›. ‹Acho que sim› = I think so."}
+{"id":"pt.c0527","meaning":"to come","note":"Irregular: ‹eu venho›."}
+{"id":"pt.c0528","meaning":"to like","note":"‹eu gosto›. Always ‹gostar de›: ‹Gosto de café›."}
+{"id":"pt.c0529","meaning":"to need","note":"‹eu preciso›. Takes ‹de› before a noun: ‹preciso de ajuda›."}
+{"id":"pt.c0530","meaning":"to stay; to be located; to become","note":"‹eu fico›. Regular ‹-ar›."}
+{"id":"pt.c0531","meaning":"to try","note":"‹eu tento›. Regular ‹-ar›."}
+{"id":"pt.c0532","meaning":"to leave; to go out","note":"Irregular: ‹eu saio›, ‹você sai›."}
+{"id":"pt.c0533","meaning":"to think","note":"‹eu penso›. ‹pensar em› = to think about."}
+{"id":"pt.c0534","meaning":"to come back; to go back","note":"‹eu volto›."}
+{"id":"pt.c0535","meaning":"to help","note":"‹eu ajudo›."}
+{"id":"pt.c0536","meaning":"to find; to meet","note":"‹eu encontro›."}
+{"id":"pt.c0537","meaning":"to pass; to spend (time)","note":"‹eu passo›."}
+{"id":"pt.c0538","meaning":"to leave (something); to let","note":"‹eu deixo›."}
+{"id":"pt.c0539","meaning":"to go in; to come in","note":"‹eu entro›. ‹Entra!› = Come in!"}
+{"id":"pt.c0540","meaning":"to arrive","note":"‹eu chego›. ‹chegar em casa› = to get home."}
+{"id":"pt.c0541","meaning":"to work","note":"‹eu trabalho›."}
+{"id":"pt.c0542","meaning":"to die","note":"‹eu morro›."}
+{"id":"pt.c0543","meaning":"to understand","note":"‹eu entendo›."}
+{"id":"pt.c0544","meaning":"to hear; to listen","note":"Irregular: ‹eu ouço›."}
+{"id":"pt.c0545","meaning":"to happen","note":"Mostly ‹o que aconteceu?› = what happened?"}
+{"id":"pt.c0546","meaning":"to take (somewhere); to carry","note":"‹eu levo›. ‹Vou levar› = I'll take it."}
+{"id":"pt.c0547","meaning":"to know (a person or place); to meet","note":"‹eu conheço› (‹c› becomes ‹ç›)."}
+{"id":"pt.c0548","meaning":"to start; to begin","note":"‹eu começo› (‹c› becomes ‹ç›)."}
+{"id":"pt.c0549","meaning":"to use; to wear","note":"‹eu uso›."}
+{"id":"pt.c0550","meaning":"to eat","note":"‹eu como›. Regular ‹-er›."}
+{"id":"pt.c0551","meaning":"to sleep","note":"Irregular: ‹eu durmo›."}
+{"id":"pt.c0552","meaning":"to live (be alive; live a life)","note":"‹eu vivo›. For where you live: ‹morar›."}
+{"id":"pt.c0553","meaning":"to take; to catch; to grab","note":"‹eu pego›. ‹pegar o ônibus› = to catch the bus."}
+{"id":"pt.c0554","meaning":"to walk; to ride","note":"‹eu ando›. ‹andar de bicicleta› = to ride a bike."}
+{"id":"pt.c0555","meaning":"to lose; to miss (a bus)","note":"Irregular: ‹eu perco›."}
+{"id":"pt.c0556","meaning":"to wait; to hope","note":"‹eu espero›."}
+{"id":"pt.c0557","meaning":"to finish; to run out","note":"‹eu acabo›. ‹Acabou!› = It's over!"}
+{"id":"pt.c0558","meaning":"to look","note":"‹eu olho›. ‹olhar para› = to look at."}
+{"id":"pt.c0559","meaning":"to ask for; to order (food)","note":"Irregular: ‹eu peço›."}
+{"id":"pt.c0560","meaning":"to manage to; to get","note":"Irregular: ‹eu consigo›."}
+{"id":"pt.c0561","meaning":"to take; to drink","note":"‹eu tomo›. ‹tomar café› = to have coffee."}
+{"id":"pt.c0562","meaning":"to have dinner","note":"‹eu janto›. ‹o jantar› = dinner."}
+{"id":"pt.c0563","meaning":"to remember","note":"‹eu lembro› (or ‹me lembro›)."}
+{"id":"pt.c0564","meaning":"to run","note":"‹eu corro›."}
+{"id":"pt.c0565","meaning":"to change; to move (house)","note":"‹eu mudo›."}
+{"id":"pt.c0566","meaning":"to feel","note":"Irregular: ‹eu sinto›. ‹Sinto muito› = I'm sorry."}
+{"id":"pt.c0567","meaning":"to pay","note":"‹eu pago›."}
+{"id":"pt.c0568","meaning":"to believe","note":"‹eu acredito›. ‹acreditar em› = to believe in."}
+{"id":"pt.c0569","meaning":"to keep on; to continue","note":"‹eu continuo›."}
+{"id":"pt.c0570","meaning":"to call (phone); to turn on","note":"‹eu ligo›. ‹Me liga!› = Call me!"}
+{"id":"pt.c0571","meaning":"to put","note":"Irregular: ‹eu ponho›."}
+{"id":"pt.c0572","meaning":"to drink","note":"‹eu bebo›."}
+{"id":"pt.c0573","meaning":"to win; to earn; to get (a gift)","note":"‹eu ganho›."}
+{"id":"pt.c0574","meaning":"to buy","note":"‹eu compro›."}
+{"id":"pt.c0575","meaning":"to play (a game or sport); to throw","note":"‹eu jogo›. ‹jogar futebol›."}
+{"id":"pt.c0576","meaning":"to put; to place","note":"‹eu coloco›. Everyday in Brazil."}
+{"id":"pt.c0577","meaning":"to live (somewhere)","note":"‹eu moro›. ‹Moro em São Paulo›."}
+{"id":"pt.c0578","meaning":"to ask (a question)","note":"‹eu pergunto›."}
+{"id":"pt.c0579","meaning":"to call; to name","note":"‹eu chamo›. ‹me chamo› = my name is."}
+{"id":"pt.c0580","meaning":"to look for","note":"‹eu procuro›."}
+{"id":"pt.c0581","meaning":"to read","note":"Irregular: ‹eu leio›."}
+{"id":"pt.c0582","meaning":"to open","note":"‹eu abro›."}
+{"id":"pt.c0583","meaning":"to show","note":"‹eu mostro›."}
+{"id":"pt.c0584","meaning":"to marry; to get married","note":"‹eu caso›. ‹casar com› = to marry someone."}
+{"id":"pt.c0585","meaning":"to bring","note":"Irregular: ‹eu trago›."}
+{"id":"pt.c0586","meaning":"to touch; to play (music)","note":"‹eu toco›. ‹tocar violão›."}
+{"id":"pt.c0587","meaning":"to chat; to have a talk","note":"‹eu converso›."}
+{"id":"pt.c0588","meaning":"to fall","note":"Irregular: ‹eu caio›, ‹você cai›."}
+{"id":"pt.c0589","meaning":"to write","note":"‹eu escrevo›."}
+{"id":"pt.c0590","meaning":"to take long","note":"Very Brazilian: ‹Vai demorar?› = Will it take long?"}
+{"id":"pt.c0591","meaning":"to receive; to get","note":"‹eu recebo›."}
+{"id":"pt.c0592","meaning":"to learn","note":"‹eu aprendo›."}
+{"id":"pt.c0593","meaning":"to seem; to look like","note":"‹eu pareço›. ‹Parece bom› = It looks good."}
+{"id":"pt.c0594","meaning":"to sell","note":"‹eu vendo›."}
+{"id":"pt.c0595","meaning":"to forget","note":"‹eu esqueço›."}
+{"id":"pt.c0596","meaning":"to send; to order","note":"‹eu mando›. ‹Me manda uma mensagem›."}
+{"id":"pt.c0597","meaning":"to dance","note":"‹eu danço›."}
+{"id":"pt.c0598","meaning":"to prefer","note":"Irregular: ‹eu prefiro›."}
+{"id":"pt.c0599","meaning":"to love (a thing); to adore","note":"‹eu adoro›. No ‹de›: ‹Adoro música›."}
+{"id":"pt.c0600","meaning":"to go up; to get on (a bus)","note":"Irregular: ‹eu subo›, ‹você sobe›."}
+{"id":"pt.c0601","meaning":"to answer; to reply","note":"‹eu respondo›."}
+{"id":"pt.c0602","meaning":"to sing","note":"‹eu canto›."}
+{"id":"pt.c0603","meaning":"to close","note":"‹eu fecho›."}
+{"id":"pt.c0604","meaning":"to rest","note":"‹eu descanso›."}
+{"id":"pt.c0605","meaning":"to wake up","note":"‹eu acordo›."}
+{"id":"pt.c0606","meaning":"to laugh","note":"Irregular: ‹eu rio›, ‹você ri›."}
+{"id":"pt.c0607","meaning":"to decide","note":"‹eu decido›."}
+{"id":"pt.c0608","meaning":"to go down; to get off (a bus)","note":"‹eu desço› (‹c› becomes ‹ç›)."}
+{"id":"pt.c0609","meaning":"to lift; to raise","note":"‹eu levanto›. ‹levantar-se› = to get up."}
+{"id":"pt.c0610","meaning":"to study","note":"‹eu estudo›."}
+{"id":"pt.c0611","meaning":"to travel","note":"‹eu viajo›."}
+{"id":"pt.c0612","meaning":"to love (a person)","note":"‹eu amo›. Strong: for people you really love."}
+{"id":"pt.c0613","meaning":"to wash","note":"‹eu lavo›."}
+{"id":"pt.c0614","meaning":"to teach","note":"‹eu ensino›."}
+{"id":"pt.c0615","meaning":"to sit","note":"‹eu sento›. ‹Senta aí!› = Have a seat!"}
+{"id":"pt.c0616","meaning":"to cook","note":"‹eu cozinho›."}
+{"id":"pt.c0617","meaning":"to be born","note":"Mostly in the past: ‹Eu nasci em›..."}
+{"id":"pt.c0618","meaning":"to have lunch","note":"‹eu almoço›."}
+{"id":"pt.c0619","meaning":"to dream","note":"‹eu sonho›. ‹sonhar com› = to dream about."}
+{"id":"pt.c0620","meaning":"to be worth","note":"‹Vale a pena› = It's worth it."}
+{"id":"pt.c0621","meaning":"to rain","note":"Only ‹ele› form: ‹chove›, ‹choveu›."}
+{"id":"pt.c0622","meaning":"to cost","note":"‹Quanto custa?›"}
+{"id":"pt.c0623","meaning":"good","note":"Woman or feminine noun: ‹boa›. ‹Bom dia!›"}
+{"id":"pt.c0624","meaning":"better; best","note":"Same for both genders. ‹o melhor› = the best."}
+{"id":"pt.c0625","meaning":"right; correct","note":"Feminine: ‹certa›. ‹Tá certo› = OK, fine."}
 {"id":"pt.c0626","meaning":"big; great","note":"Same for both genders."}
-{"id":"pt.c0627","meaning":"new; young","note":"Feminine: nova."}
-{"id":"pt.c0628","meaning":"first","note":"Feminine: primeira."}
-{"id":"pt.c0629","meaning":"ready","note":"Feminine: pronta."}
-{"id":"pt.c0630","meaning":"happy","note":"Same for both genders. Plural: felizes."}
-{"id":"pt.c0631","meaning":"difficult; hard","note":"Same for both genders. Plural: difíceis."}
+{"id":"pt.c0627","meaning":"new; young","note":"Feminine: ‹nova›."}
+{"id":"pt.c0628","meaning":"first","note":"Feminine: ‹primeira›."}
+{"id":"pt.c0629","meaning":"ready","note":"Feminine: ‹pronta›."}
+{"id":"pt.c0630","meaning":"happy","note":"Same for both genders. Plural: ‹felizes›."}
+{"id":"pt.c0631","meaning":"difficult; hard","note":"Same for both genders. Plural: ‹difíceis›."}
 {"id":"pt.c0632","meaning":"important","note":"Same for both genders."}
 {"id":"pt.c0633","meaning":"bad","note":"Same for both genders. Very common in Brazil."}
-{"id":"pt.c0634","meaning":"short (height); low","note":"Feminine: baixa."}
-{"id":"pt.c0635","meaning":"fast; quick","note":"Feminine: rápida."}
+{"id":"pt.c0634","meaning":"short (height); low","note":"Feminine: ‹baixa›."}
+{"id":"pt.c0635","meaning":"fast; quick","note":"Feminine: ‹rápida›."}
 {"id":"pt.c0636","meaning":"possible","note":"Same for both genders."}
-{"id":"pt.c0637","meaning":"strange; weird","note":"Feminine: estranha."}
-{"id":"pt.c0638","meaning":"easy","note":"Same for both genders. Plural: fáceis."}
-{"id":"pt.c0639","meaning":"old","note":"Feminine: velha. For people, idoso is more polite."}
-{"id":"pt.c0640","meaning":"small; little","note":"Feminine: pequena."}
-{"id":"pt.c0641","meaning":"wrong","note":"Feminine: errada."}
-{"id":"pt.c0642","meaning":"alone; on your own","note":"Feminine: sozinha."}
+{"id":"pt.c0637","meaning":"strange; weird","note":"Feminine: ‹estranha›."}
+{"id":"pt.c0638","meaning":"easy","note":"Same for both genders. Plural: ‹fáceis›."}
+{"id":"pt.c0639","meaning":"old","note":"Feminine: ‹velha›. For people, ‹idoso› is more polite."}
+{"id":"pt.c0640","meaning":"small; little","note":"Feminine: ‹pequena›."}
+{"id":"pt.c0641","meaning":"wrong","note":"Feminine: ‹errada›."}
+{"id":"pt.c0642","meaning":"alone; on your own","note":"Feminine: ‹sozinha›."}
 {"id":"pt.c0643","meaning":"different","note":"Same for both genders."}
 {"id":"pt.c0644","meaning":"worse; worst","note":"Same for both genders."}
 {"id":"pt.c0645","meaning":"strong","note":"Same for both genders."}
-{"id":"pt.c0646","meaning":"special","note":"Same for both genders. Plural: especiais."}
-{"id":"pt.c0647","meaning":"last","note":"Feminine: última."}
-{"id":"pt.c0648","meaning":"young (person)","note":"Same for both genders. Plural: jovens."}
-{"id":"pt.c0649","meaning":"safe; sure","note":"Feminine: segura."}
-{"id":"pt.c0650","meaning":"next","note":"Feminine: próxima. A próxima vez = next time."}
-{"id":"pt.c0651","meaning":"free (not busy); vacant","note":"Same for both genders. Free of charge: grátis."}
-{"id":"pt.c0652","meaning":"tall; high; loud","note":"Feminine: alta."}
-{"id":"pt.c0653","meaning":"perfect","note":"Feminine: perfeita."}
-{"id":"pt.c0654","meaning":"normal","note":"Same for both genders. Plural: normais."}
+{"id":"pt.c0646","meaning":"special","note":"Same for both genders. Plural: ‹especiais›."}
+{"id":"pt.c0647","meaning":"last","note":"Feminine: ‹última›."}
+{"id":"pt.c0648","meaning":"young (person)","note":"Same for both genders. Plural: ‹jovens›."}
+{"id":"pt.c0649","meaning":"safe; sure","note":"Feminine: ‹segura›."}
+{"id":"pt.c0650","meaning":"next","note":"Feminine: ‹próxima›. ‹A próxima vez› = next time."}
+{"id":"pt.c0651","meaning":"free (not busy); vacant","note":"Same for both genders. Free of charge: ‹grátis›."}
+{"id":"pt.c0652","meaning":"tall; high; loud","note":"Feminine: ‹alta›."}
+{"id":"pt.c0653","meaning":"perfect","note":"Feminine: ‹perfeita›."}
+{"id":"pt.c0654","meaning":"normal","note":"Same for both genders. Plural: ‹normais›."}
 {"id":"pt.c0655","meaning":"simple","note":"Same in every form."}
 {"id":"pt.c0656","meaning":"sick; ill","note":"Same for both genders."}
 {"id":"pt.c0657","meaning":"amazing; incredible","note":"Same for both genders."}
-{"id":"pt.c0658","meaning":"calm; quiet; no problem","note":"Feminine: tranquila. Tranquilo! = No worries!"}
-{"id":"pt.c0659","meaning":"Brazilian","note":"Feminine: brasileira. Lowercase, like all nationalities."}
-{"id":"pt.c0660","meaning":"great; excellent","note":"Feminine: ótima."}
-{"id":"pt.c0661","meaning":"full; fed up","note":"Feminine: cheia."}
+{"id":"pt.c0658","meaning":"calm; quiet; no problem","note":"Feminine: ‹tranquila›. ‹Tranquilo!› = No worries!"}
+{"id":"pt.c0659","meaning":"Brazilian","note":"Feminine: ‹brasileira›. Lowercase, like all nationalities."}
+{"id":"pt.c0660","meaning":"great; excellent","note":"Feminine: ‹ótima›."}
+{"id":"pt.c0661","meaning":"full; fed up","note":"Feminine: ‹cheia›."}
 {"id":"pt.c0662","meaning":"hot; warm","note":"Same for both genders."}
-{"id":"pt.c0663","meaning":"cold","note":"Feminine: fria."}
+{"id":"pt.c0663","meaning":"cold","note":"Feminine: ‹fria›."}
 {"id":"pt.c0664","meaning":"sad","note":"Same for both genders."}
-{"id":"pt.c0665","meaning":"white","note":"Feminine: branca."}
+{"id":"pt.c0665","meaning":"white","note":"Feminine: ‹branca›."}
 {"id":"pt.c0666","meaning":"poor","note":"Same for both genders."}
-{"id":"pt.c0667","meaning":"together","note":"Feminine: junta. Usually plural: juntos."}
-{"id":"pt.c0668","meaning":"blue","note":"Same for both genders. Plural: azuis."}
-{"id":"pt.c0669","meaning":"busy; taken (seat)","note":"Feminine: ocupada."}
+{"id":"pt.c0667","meaning":"together","note":"Feminine: ‹junta›. Usually plural: ‹juntos›."}
+{"id":"pt.c0668","meaning":"blue","note":"Same for both genders. Plural: ‹azuis›."}
+{"id":"pt.c0669","meaning":"busy; taken (seat)","note":"Feminine: ‹ocupada›."}
 {"id":"pt.c0670","meaning":"the same; equal","note":"Same for both genders."}
-{"id":"pt.c0671","meaning":"red","note":"Feminine: vermelha."}
-{"id":"pt.c0672","meaning":"clean","note":"Feminine: limpa."}
-{"id":"pt.c0673","meaning":"black","note":"Feminine: preta."}
+{"id":"pt.c0671","meaning":"red","note":"Feminine: ‹vermelha›."}
+{"id":"pt.c0672","meaning":"clean","note":"Feminine: ‹limpa›."}
+{"id":"pt.c0673","meaning":"black","note":"Feminine: ‹preta›."}
 {"id":"pt.c0674","meaning":"green","note":"Same for both genders."}
-{"id":"pt.c0675","meaning":"tired","note":"Feminine: cansada."}
-{"id":"pt.c0676","meaning":"rich","note":"Feminine: rica."}
-{"id":"pt.c0677","meaning":"expensive; dear","note":"Feminine: cara."}
-{"id":"pt.c0678","meaning":"empty","note":"Feminine: vazia."}
-{"id":"pt.c0679","meaning":"famous","note":"Feminine: famosa."}
-{"id":"pt.c0680","meaning":"closed","note":"Feminine: fechada."}
-{"id":"pt.c0681","meaning":"kind","note":"Same for both genders. Plural: gentis."}
-{"id":"pt.c0682","meaning":"dirty","note":"Feminine: suja."}
-{"id":"pt.c0683","meaning":"short (length)","note":"Feminine: curta."}
-{"id":"pt.c0684","meaning":"cheap","note":"Feminine: barata."}
-{"id":"pt.c0685","meaning":"yellow","note":"Feminine: amarela."}
-{"id":"pt.c0686","meaning":"slow","note":"Feminine: lenta."}
-{"id":"pt.c0687","meaning":"long (length)","note":"Feminine: comprida."}
-{"id":"pt.c0688","meaning":"well; very","note":"Tudo bem? Bem bonito = really pretty."}
-{"id":"pt.c0689","meaning":"here","note":"Aqui perto = near here."}
-{"id":"pt.c0690","meaning":"very; a lot","note":"As a determiner it agrees: muita gente, muitos amigos."}
-{"id":"pt.c0691","meaning":"already; right away","note":"Já vou! = Coming!"}
-{"id":"pt.c0692","meaning":"only; just","note":"Also alone: Ele mora só."}
-{"id":"pt.c0693","meaning":"now","note":"agora mesmo = right now."}
-{"id":"pt.c0694","meaning":"there (over there)","note":"lá fora = outside."}
-{"id":"pt.c0695","meaning":"never","note":"Before the verb: Nunca como carne."}
-{"id":"pt.c0696","meaning":"like this; like that","note":"Assim não! = Not like that!"}
-{"id":"pt.c0697","meaning":"still; yet","note":"ainda não = not yet."}
-{"id":"pt.c0698","meaning":"afterward; later","note":"depois de = after."}
-{"id":"pt.c0699","meaning":"so (so big, so good)","note":"Tão bonito!"}
-{"id":"pt.c0700","meaning":"maybe","note":"Talvez amanhã."}
-{"id":"pt.c0701","meaning":"always","note":"Sempre tomo café de manhã."}
-{"id":"pt.c0702","meaning":"before; earlier","note":"antes de = before (something)."}
-{"id":"pt.c0703","meaning":"only; just (more formal than só)","note":"Apenas um café."}
-{"id":"pt.c0704","meaning":"there (near you)","note":"Speech: then, so: E aí? = What's up?"}
-{"id":"pt.c0705","meaning":"a little; not much","note":"um pouco = a little. Agrees as a determiner: poucas pessoas."}
-{"id":"pt.c0706","meaning":"today","note":"hoje à noite = tonight."}
-{"id":"pt.c0707","meaning":"outside; out","note":"lá fora = out there."}
-{"id":"pt.c0708","meaning":"badly","note":"Opposite of bem."}
-{"id":"pt.c0709","meaning":"less","note":"mais ou menos = so-so."}
-{"id":"pt.c0710","meaning":"inside","note":"lá dentro = in there."}
-{"id":"pt.c0711","meaning":"over there (nearby, visible)","note":"Ali = there, closer than lá."}
-{"id":"pt.c0712","meaning":"behind; ago","note":"dois anos atrás = two years ago."}
-{"id":"pt.c0713","meaning":"late","note":"a tarde = the afternoon. Está tarde = It's late."}
-{"id":"pt.c0714","meaning":"almost","note":"quase nunca = hardly ever."}
-{"id":"pt.c0715","meaning":"again","note":"Fala de novo? = Can you say it again?"}
-{"id":"pt.c0716","meaning":"really; truly","note":"More formal; speech says mesmo."}
-{"id":"pt.c0717","meaning":"soon; right away","note":"Até logo!"}
-{"id":"pt.c0718","meaning":"sometimes","note":"Às vezes eu vou a pé."}
-{"id":"pt.c0719","meaning":"quite; a lot","note":"bastante caro = quite expensive."}
-{"id":"pt.c0720","meaning":"too much; really (speech)","note":"É bom demais! = It's so good!"}
-{"id":"pt.c0721","meaning":"early","note":"Acordo cedo."}
-{"id":"pt.c0722","meaning":"finally; at last","note":"Finalmente chegou! = It's finally here!"}
-{"id":"pt.c0723","meaning":"suddenly","note":"Speech also: maybe (De repente eu vou)."}
-{"id":"pt.c0724","meaning":"slowly","note":"Mais devagar, por favor."}
-{"id":"pt.c0725","meaning":"usually; normally","note":"Normalmente eu almoço ao meio-dia."}
-{"id":"pt.c0726","meaning":"generally; usually","note":"Same idea as normalmente."}
-{"id":"pt.c0727","meaning":"upstairs; on top","note":"em cima de = on top of."}
-{"id":"pt.c0728","meaning":"downstairs; underneath","note":"embaixo de = under. Portugal: debaixo."}
-{"id":"pt.c0729","meaning":"I","note":"Often dropped: (Eu) falo inglês."}
-{"id":"pt.c0730","meaning":"you (one person)","note":"Everyday you. Its verb is the ele form: você fala."}
-{"id":"pt.c0731","meaning":"he; him (in speech)","note":"Brazil uses ele as object in speech: Eu vi ele."}
-{"id":"pt.c0732","meaning":"that (thing); this","note":"In speech isso covers both this and that."}
-{"id":"pt.c0733","meaning":"my; mine","note":"Feminine: minha. Plural: meus, minhas."}
-{"id":"pt.c0734","meaning":"me; to me; myself","note":"Before the verb in Brazil: Me ajuda?"}
-{"id":"pt.c0735","meaning":"she; her","note":"Same word for her in speech: Eu vi ela."}
-{"id":"pt.c0736","meaning":"everything; all","note":"Tudo bem? = How are you?"}
-{"id":"pt.c0737","meaning":"you; to you (object)","note":"Used with você in speech: Te ligo amanhã."}
-{"id":"pt.c0738","meaning":"who","note":"Quem é? = Who is it?"}
-{"id":"pt.c0739","meaning":"nothing; anything (after não)","note":"Não quero nada."}
-{"id":"pt.c0740","meaning":"your; his; her (formal)","note":"Feminine: sua. In Brazil mostly your (você)."}
-{"id":"pt.c0741","meaning":"they; them (men or mixed)","note":"Women only: elas."}
-{"id":"pt.c0742","meaning":"we; us (formal)","note":"In speech often a gente. Verb: nós falamos."}
-{"id":"pt.c0743","meaning":"us; to us","note":"Also em + os = nos (in the)."}
-{"id":"pt.c0744","meaning":"me (after a preposition)","note":"para mim = for me. With com: comigo."}
-{"id":"pt.c0745","meaning":"this (near me)","note":"Feminine: esta. Speech often uses esse."}
-{"id":"pt.c0746","meaning":"someone; anyone","note":"Tem alguém aí?"}
-{"id":"pt.c0747","meaning":"his (his own)","note":"de + ele. After the noun: o carro dele."}
-{"id":"pt.c0748","meaning":"something","note":"Speech prefers alguma coisa."}
-{"id":"pt.c0749","meaning":"you (more than one)","note":"Its verb is the eles form: vocês falam."}
-{"id":"pt.c0750","meaning":"nobody; anyone (after não)","note":"Não tem ninguém aqui."}
-{"id":"pt.c0751","meaning":"with me","note":"Never com mim."}
-{"id":"pt.c0752","meaning":"that; this (in speech)","note":"Feminine: essa."}
-{"id":"pt.c0753","meaning":"you (to an older man)","note":"Woman: a senhora. Verb: ele form."}
-{"id":"pt.c0754","meaning":"which; what (which one)","note":"Qual é o seu nome? Plural: quais."}
-{"id":"pt.c0755","meaning":"her; hers","note":"de + ela. After the noun: a casa dela."}
-{"id":"pt.c0756","meaning":"our; ours","note":"Feminine: nossa. Nossa! is also wow."}
-{"id":"pt.c0757","meaning":"this (thing)","note":"More formal; speech says isso."}
-{"id":"pt.c0758","meaning":"everybody","note":"Singular verb: Todo mundo sabe."}
-{"id":"pt.c0759","meaning":"something (everyday)","note":"Quer alguma coisa?"}
-{"id":"pt.c0760","meaning":"that (over there)","note":"Feminine: aquela. a + aquele = àquele."}
-{"id":"pt.c0761","meaning":"that (thing over there)","note":"O que é aquilo?"}
-{"id":"pt.c0762","meaning":"their; theirs (men or mixed)","note":"Women only: delas."}
-{"id":"pt.c0763","meaning":"you (to an older woman)","note":"Man: o senhor. Verb: ele form."}
-{"id":"pt.c0764","meaning":"they; them (women only)","note":"Mixed group: eles."}
-{"id":"pt.c0765","meaning":"to you; to him; to her (formal)","note":"Formal or written; speech uses te, para você, para ele."}
-{"id":"pt.c0766","meaning":"with you (informal)","note":"Heard in Brazil; everyday is com você."}
-{"id":"pt.c0767","meaning":"of; from","note":"de + o = do, de + a = da (dos, das); also dele, dela, daqui."}
-{"id":"pt.c0768","meaning":"for; to; in order to","note":"Speech: pra; para + o = pro."}
-{"id":"pt.c0769","meaning":"with","note":"com + mim = comigo; com + você stays."}
-{"id":"pt.c0770","meaning":"by; through; for (per)","note":"por + o = pelo, por + a = pela (pelos, pelas)."}
-{"id":"pt.c0771","meaning":"in; on; at","note":"em + o = no, em + a = na (nos, nas); em + um = num, numa."}
-{"id":"pt.c0772","meaning":"to; at","note":"a + o = ao, a + a = à (aos, às): à direita, às oito."}
-{"id":"pt.c0773","meaning":"to; for (spoken para)","note":"Spoken and in texts: Vou pra casa. pra + o = pro."}
-{"id":"pt.c0774","meaning":"until; up to; even","note":"Até amanhã! = See you tomorrow!"}
-{"id":"pt.c0775","meaning":"about; on (on top of)","note":"um livro sobre o Brasil."}
-{"id":"pt.c0776","meaning":"without","note":"sem gelo = no ice."}
-{"id":"pt.c0777","meaning":"between; among","note":"entre nós = between us."}
-{"id":"pt.c0778","meaning":"since; from","note":"desde ontem = since yesterday."}
-{"id":"pt.c0779","meaning":"during","note":"durante a semana."}
-{"id":"pt.c0780","meaning":"against","note":"o Brasil contra a Argentina."}
-{"id":"pt.c0781","meaning":"near","note":"perto de + o = perto do."}
-{"id":"pt.c0782","meaning":"far from","note":"É longe do centro."}
-{"id":"pt.c0783","meaning":"before","note":"Before a verb, the infinitive: antes de sair."}
-{"id":"pt.c0784","meaning":"after","note":"depois de comer = after eating."}
-{"id":"pt.c0785","meaning":"inside (of); in (time)","note":"dentro de uma hora = within an hour."}
-{"id":"pt.c0786","meaning":"because of","note":"por causa da chuva."}
-{"id":"pt.c0787","meaning":"outside (of)","note":"fora de casa."}
-{"id":"pt.c0788","meaning":"behind","note":"atrás da porta."}
-{"id":"pt.c0789","meaning":"instead of","note":"em vez de café, um suco."}
+{"id":"pt.c0675","meaning":"tired","note":"Feminine: ‹cansada›."}
+{"id":"pt.c0676","meaning":"rich","note":"Feminine: ‹rica›."}
+{"id":"pt.c0677","meaning":"expensive; dear","note":"Feminine: ‹cara›."}
+{"id":"pt.c0678","meaning":"empty","note":"Feminine: ‹vazia›."}
+{"id":"pt.c0679","meaning":"famous","note":"Feminine: ‹famosa›."}
+{"id":"pt.c0680","meaning":"closed","note":"Feminine: ‹fechada›."}
+{"id":"pt.c0681","meaning":"kind","note":"Same for both genders. Plural: ‹gentis›."}
+{"id":"pt.c0682","meaning":"dirty","note":"Feminine: ‹suja›."}
+{"id":"pt.c0683","meaning":"short (length)","note":"Feminine: ‹curta›."}
+{"id":"pt.c0684","meaning":"cheap","note":"Feminine: ‹barata›."}
+{"id":"pt.c0685","meaning":"yellow","note":"Feminine: ‹amarela›."}
+{"id":"pt.c0686","meaning":"slow","note":"Feminine: ‹lenta›."}
+{"id":"pt.c0687","meaning":"long (length)","note":"Feminine: ‹comprida›."}
+{"id":"pt.c0688","meaning":"well; very","note":"‹Tudo bem?› ‹Bem bonito› = really pretty."}
+{"id":"pt.c0689","meaning":"here","note":"‹Aqui perto› = near here."}
+{"id":"pt.c0690","meaning":"very; a lot","note":"As a determiner it agrees: ‹muita gente›, ‹muitos amigos›."}
+{"id":"pt.c0691","meaning":"already; right away","note":"‹Já vou!› = Coming!"}
+{"id":"pt.c0692","meaning":"only; just","note":"Also alone: ‹Ele mora só›."}
+{"id":"pt.c0693","meaning":"now","note":"‹agora mesmo› = right now."}
+{"id":"pt.c0694","meaning":"there (over there)","note":"‹lá fora› = outside."}
+{"id":"pt.c0695","meaning":"never","note":"Before the verb: ‹Nunca como carne›."}
+{"id":"pt.c0696","meaning":"like this; like that","note":"‹Assim não!› = Not like that!"}
+{"id":"pt.c0697","meaning":"still; yet","note":"‹ainda não› = not yet."}
+{"id":"pt.c0698","meaning":"afterward; later","note":"‹depois de› = after."}
+{"id":"pt.c0699","meaning":"so (so big, so good)","note":"‹Tão bonito!›"}
+{"id":"pt.c0700","meaning":"maybe","note":"‹Talvez amanhã›."}
+{"id":"pt.c0701","meaning":"always","note":"‹Sempre tomo café de manhã›."}
+{"id":"pt.c0702","meaning":"before; earlier","note":"‹antes de› = before (something)."}
+{"id":"pt.c0703","meaning":"only; just (more formal than ‹só›)","note":"‹Apenas um café›."}
+{"id":"pt.c0704","meaning":"there (near you)","note":"Speech: then, so: ‹E aí?› = What's up?"}
+{"id":"pt.c0705","meaning":"a little; not much","note":"‹um pouco› = a little. Agrees as a determiner: ‹poucas pessoas›."}
+{"id":"pt.c0706","meaning":"today","note":"‹hoje à noite› = tonight."}
+{"id":"pt.c0707","meaning":"outside; out","note":"‹lá fora› = out there."}
+{"id":"pt.c0708","meaning":"badly","note":"Opposite of ‹bem›."}
+{"id":"pt.c0709","meaning":"less","note":"‹mais ou menos› = so-so."}
+{"id":"pt.c0710","meaning":"inside","note":"‹lá dentro› = in there."}
+{"id":"pt.c0711","meaning":"over there (nearby, visible)","note":"‹Ali› = there, closer than ‹lá›."}
+{"id":"pt.c0712","meaning":"behind; ago","note":"‹dois anos atrás› = two years ago."}
+{"id":"pt.c0713","meaning":"late","note":"‹a tarde› = the afternoon. ‹Está tarde› = It's late."}
+{"id":"pt.c0714","meaning":"almost","note":"‹quase nunca› = hardly ever."}
+{"id":"pt.c0715","meaning":"again","note":"‹Fala de novo?› = Can you say it again?"}
+{"id":"pt.c0716","meaning":"really; truly","note":"More formal; speech says ‹mesmo›."}
+{"id":"pt.c0717","meaning":"soon; right away","note":"‹Até logo!›"}
+{"id":"pt.c0718","meaning":"sometimes","note":"‹Às vezes eu vou a pé›."}
+{"id":"pt.c0719","meaning":"quite; a lot","note":"‹bastante caro› = quite expensive."}
+{"id":"pt.c0720","meaning":"too much; really (speech)","note":"‹É bom demais!› = It's so good!"}
+{"id":"pt.c0721","meaning":"early","note":"‹Acordo cedo›."}
+{"id":"pt.c0722","meaning":"finally; at last","note":"‹Finalmente chegou!› = It's finally here!"}
+{"id":"pt.c0723","meaning":"suddenly","note":"Speech also: maybe (‹De repente eu vou›)."}
+{"id":"pt.c0724","meaning":"slowly","note":"‹Mais devagar, por favor›."}
+{"id":"pt.c0725","meaning":"usually; normally","note":"‹Normalmente eu almoço ao meio-dia›."}
+{"id":"pt.c0726","meaning":"generally; usually","note":"Same idea as ‹normalmente›."}
+{"id":"pt.c0727","meaning":"upstairs; on top","note":"‹em cima de› = on top of."}
+{"id":"pt.c0728","meaning":"downstairs; underneath","note":"‹embaixo de› = under. Portugal: ‹debaixo›."}
+{"id":"pt.c0729","meaning":"I","note":"Often dropped: ‹(Eu) falo inglês›."}
+{"id":"pt.c0730","meaning":"you (one person)","note":"Everyday you. Its verb is the ‹ele› form: ‹você fala›."}
+{"id":"pt.c0731","meaning":"he; him (in speech)","note":"Brazil uses ‹ele› as object in speech: ‹Eu vi ele›."}
+{"id":"pt.c0732","meaning":"that (thing); this","note":"In speech ‹isso› covers both this and that."}
+{"id":"pt.c0733","meaning":"my; mine","note":"Feminine: ‹minha›. Plural: ‹meus›, ‹minhas›."}
+{"id":"pt.c0734","meaning":"me; to me; myself","note":"Before the verb in Brazil: ‹Me ajuda?›"}
+{"id":"pt.c0735","meaning":"she; her","note":"Same word for her in speech: ‹Eu vi ela›."}
+{"id":"pt.c0736","meaning":"everything; all","note":"‹Tudo bem?› = How are you?"}
+{"id":"pt.c0737","meaning":"you; to you (object)","note":"Used with ‹você› in speech: ‹Te ligo amanhã›."}
+{"id":"pt.c0738","meaning":"who","note":"‹Quem é?› = Who is it?"}
+{"id":"pt.c0739","meaning":"nothing; anything (after ‹não›)","note":"‹Não quero nada›."}
+{"id":"pt.c0740","meaning":"your; his; her (formal)","note":"Feminine: ‹sua›. In Brazil mostly your (‹você›)."}
+{"id":"pt.c0741","meaning":"they; them (men or mixed)","note":"Women only: ‹elas›."}
+{"id":"pt.c0742","meaning":"we; us (formal)","note":"In speech often ‹a gente›. Verb: ‹nós falamos›."}
+{"id":"pt.c0743","meaning":"us; to us","note":"Also ‹em› + ‹os› = ‹nos› (in the)."}
+{"id":"pt.c0744","meaning":"me (after a preposition)","note":"‹para mim› = for me. With ‹com›: ‹comigo›."}
+{"id":"pt.c0745","meaning":"this (near me)","note":"Feminine: ‹esta›. Speech often uses ‹esse›."}
+{"id":"pt.c0746","meaning":"someone; anyone","note":"‹Tem alguém aí?›"}
+{"id":"pt.c0747","meaning":"his (his own)","note":"‹de› + ‹ele›. After the noun: ‹o carro dele›."}
+{"id":"pt.c0748","meaning":"something","note":"Speech prefers ‹alguma coisa›."}
+{"id":"pt.c0749","meaning":"you (more than one)","note":"Its verb is the ‹eles› form: ‹vocês falam›."}
+{"id":"pt.c0750","meaning":"nobody; anyone (after ‹não›)","note":"‹Não tem ninguém aqui›."}
+{"id":"pt.c0751","meaning":"with me","note":"Never ‹com mim›."}
+{"id":"pt.c0752","meaning":"that; this (in speech)","note":"Feminine: ‹essa›."}
+{"id":"pt.c0753","meaning":"you (to an older man)","note":"Woman: ‹a senhora›. Verb: ‹ele› form."}
+{"id":"pt.c0754","meaning":"which; what (which one)","note":"‹Qual é o seu nome?› Plural: ‹quais›."}
+{"id":"pt.c0755","meaning":"her; hers","note":"‹de› + ‹ela›. After the noun: ‹a casa dela›."}
+{"id":"pt.c0756","meaning":"our; ours","note":"Feminine: ‹nossa›. ‹Nossa!› is also wow."}
+{"id":"pt.c0757","meaning":"this (thing)","note":"More formal; speech says ‹isso›."}
+{"id":"pt.c0758","meaning":"everybody","note":"Singular verb: ‹Todo mundo sabe›."}
+{"id":"pt.c0759","meaning":"something (everyday)","note":"‹Quer alguma coisa?›"}
+{"id":"pt.c0760","meaning":"that (over there)","note":"Feminine: ‹aquela›. ‹a› + ‹aquele› = ‹àquele›."}
+{"id":"pt.c0761","meaning":"that (thing over there)","note":"‹O que é aquilo?›"}
+{"id":"pt.c0762","meaning":"their; theirs (men or mixed)","note":"Women only: ‹delas›."}
+{"id":"pt.c0763","meaning":"you (to an older woman)","note":"Man: ‹o senhor›. Verb: ‹ele› form."}
+{"id":"pt.c0764","meaning":"they; them (women only)","note":"Mixed group: ‹eles›."}
+{"id":"pt.c0765","meaning":"to you; to him; to her (formal)","note":"Formal or written; speech uses ‹te›, ‹para você›, ‹para ele›."}
+{"id":"pt.c0766","meaning":"with you (informal)","note":"Heard in Brazil; everyday is ‹com você›."}
+{"id":"pt.c0767","meaning":"of; from","note":"‹de› + ‹o› = ‹do›, ‹de› + ‹a› = ‹da› (‹dos›, ‹das›); also ‹dele›, ‹dela›, ‹daqui›."}
+{"id":"pt.c0768","meaning":"for; to; in order to","note":"Speech: ‹pra›; ‹para› + ‹o› = ‹pro›."}
+{"id":"pt.c0769","meaning":"with","note":"‹com› + ‹mim› = ‹comigo›; ‹com› + ‹você› stays."}
+{"id":"pt.c0770","meaning":"by; through; for (per)","note":"‹por› + ‹o› = ‹pelo›, ‹por› + ‹a› = ‹pela› (‹pelos›, ‹pelas›)."}
+{"id":"pt.c0771","meaning":"in; on; at","note":"‹em› + ‹o› = ‹no›, ‹em› + ‹a› = ‹na› (‹nos›, ‹nas›); ‹em› + ‹um› = ‹num›, ‹numa›."}
+{"id":"pt.c0772","meaning":"to; at","note":"‹a› + ‹o› = ‹ao›, ‹a› + ‹a› = ‹à› (‹aos›, ‹às›): ‹à direita›, ‹às oito›."}
+{"id":"pt.c0773","meaning":"to; for (spoken ‹para›)","note":"Spoken and in texts: ‹Vou pra casa›. ‹pra› + ‹o› = ‹pro›."}
+{"id":"pt.c0774","meaning":"until; up to; even","note":"‹Até amanhã!› = See you tomorrow!"}
+{"id":"pt.c0775","meaning":"about; on (on top of)","note":"‹um livro sobre o Brasil›."}
+{"id":"pt.c0776","meaning":"without","note":"‹sem gelo› = no ice."}
+{"id":"pt.c0777","meaning":"between; among","note":"‹entre nós› = between us."}
+{"id":"pt.c0778","meaning":"since; from","note":"‹desde ontem› = since yesterday."}
+{"id":"pt.c0779","meaning":"during","note":"‹durante a semana›."}
+{"id":"pt.c0780","meaning":"against","note":"‹o Brasil contra a Argentina›."}
+{"id":"pt.c0781","meaning":"near","note":"‹perto de› + ‹o› = ‹perto do›."}
+{"id":"pt.c0782","meaning":"far from","note":"‹É longe do centro›."}
+{"id":"pt.c0783","meaning":"before","note":"Before a verb, the infinitive: ‹antes de sair›."}
+{"id":"pt.c0784","meaning":"after","note":"‹depois de comer› = after eating."}
+{"id":"pt.c0785","meaning":"inside (of); in (time)","note":"‹dentro de uma hora› = within an hour."}
+{"id":"pt.c0786","meaning":"because of","note":"‹por causa da chuva›."}
+{"id":"pt.c0787","meaning":"outside (of)","note":"‹fora de casa›."}
+{"id":"pt.c0788","meaning":"behind","note":"‹atrás da porta›."}
+{"id":"pt.c0789","meaning":"instead of","note":"‹em vez de café, um suco›."}
 {"id":"pt.c0790","meaning":"through; by means of","note":"More formal."}
-{"id":"pt.c0791","meaning":"from (a time on); starting","note":"a partir de segunda = from Monday on."}
-{"id":"pt.c0792","meaning":"that; than","note":"Never dropped: Acho que sim. Also what: O que você quer?"}
-{"id":"pt.c0793","meaning":"if; whether","note":"Se chover, eu fico em casa. Also the pronoun se (oneself)."}
-{"id":"pt.c0794","meaning":"nor; not even","note":"nem... nem = neither... nor."}
-{"id":"pt.c0795","meaning":"although","note":"Speech: ir embora = to leave."}
-{"id":"pt.c0796","meaning":"while","note":"Present tense: enquanto você come."}
+{"id":"pt.c0791","meaning":"from (a time on); starting","note":"‹a partir de segunda› = from Monday on."}
+{"id":"pt.c0792","meaning":"that; than","note":"Never dropped: ‹Acho que sim›. Also what: ‹O que você quer?›"}
+{"id":"pt.c0793","meaning":"if; whether","note":"‹Se chover, eu fico em casa›. Also the pronoun ‹se› (oneself)."}
+{"id":"pt.c0794","meaning":"nor; not even","note":"‹nem... nem› = neither... nor."}
+{"id":"pt.c0795","meaning":"although","note":"Speech: ‹ir embora› = to leave."}
+{"id":"pt.c0796","meaning":"while","note":"Present tense: ‹enquanto você come›."}
 {"id":"pt.c0797","meaning":"so; that's why","note":"Very common in Brazil."}
-{"id":"pt.c0798","meaning":"than","note":"mais alto do que eu = taller than me."}
-{"id":"pt.c0799","meaning":"therefore","note":"More formal than então or por isso."}
-{"id":"pt.c0800","meaning":"but; except that","note":"Speech: Eu ia, só que choveu."}
-{"id":"pt.c0801","meaning":"since; because","note":"Speech: Pois é = Exactly; yeah."}
-{"id":"pt.c0802","meaning":"since (because)","note":"Já que você está aqui..."}
+{"id":"pt.c0798","meaning":"than","note":"‹mais alto do que eu› = taller than me."}
+{"id":"pt.c0799","meaning":"therefore","note":"More formal than ‹então› or ‹por isso›."}
+{"id":"pt.c0800","meaning":"but; except that","note":"Speech: ‹Eu ia, só que choveu›."}
+{"id":"pt.c0801","meaning":"since; because","note":"Speech: ‹Pois é› = Exactly; yeah."}
+{"id":"pt.c0802","meaning":"since (because)","note":"‹Já que você está aqui›..."}
 {"id":"pt.c0803","meaning":"in other words; that is","note":"Explains what came before."}
-{"id":"pt.c0804","meaning":"in case; if","note":"Followed by the subjunctive: caso chova."}
-{"id":"pt.c0805","meaning":"so that","note":"Followed by the subjunctive: para que você entenda."}
-{"id":"pt.c0806","meaning":"as soon as","note":"Assim que eu chegar, te ligo."}
-{"id":"pt.c0807","meaning":"otherwise; or else","note":"Corre, senão você perde o ônibus."}
-{"id":"pt.c0808","meaning":"after (followed by a clause)","note":"depois que ele saiu."}
-{"id":"pt.c0809","meaning":"even if","note":"Followed by the subjunctive: mesmo que chova."}
-{"id":"pt.c0810","meaning":"until (followed by a clause)","note":"Before a noun: até (até amanhã)."}
+{"id":"pt.c0804","meaning":"in case; if","note":"Followed by the subjunctive: ‹caso chova›."}
+{"id":"pt.c0805","meaning":"so that","note":"Followed by the subjunctive: ‹para que você entenda›."}
+{"id":"pt.c0806","meaning":"as soon as","note":"‹Assim que eu chegar, te ligo›."}
+{"id":"pt.c0807","meaning":"otherwise; or else","note":"‹Corre, senão você perde o ônibus›."}
+{"id":"pt.c0808","meaning":"after (followed by a clause)","note":"‹depois que ele saiu›."}
+{"id":"pt.c0809","meaning":"even if","note":"Followed by the subjunctive: ‹mesmo que chova›."}
+{"id":"pt.c0810","meaning":"until (followed by a clause)","note":"Before a noun: ‹até› (‹até amanhã›)."}
 {"id":"pt.c0811","meaning":"as long as; since","note":"as long as takes the subjunctive."}
 {"id":"pt.c0812","meaning":"before (followed by a clause)","note":"Subjunctive after it."}
-{"id":"pt.c0813","meaning":"however","note":"Written; speech says mas."}
-{"id":"pt.c0814","meaning":"Wow! (surprise, good or bad)","note":"The Brazilian wow; short for Nossa Senhora."}
-{"id":"pt.c0815","meaning":"Of course! Sure!","note":"Claro que sim! = Of course!"}
-{"id":"pt.c0816","meaning":"Ouch! Oh no!","note":"Pain, or worry: Ai, meu Deus!"}
-{"id":"pt.c0817","meaning":"Ah! Oh! (understanding, letdown)","note":"Ah, entendi = Oh, I get it."}
+{"id":"pt.c0813","meaning":"however","note":"Written; speech says ‹mas›."}
+{"id":"pt.c0814","meaning":"Wow! (surprise, good or bad)","note":"The Brazilian wow; short for ‹Nossa Senhora›."}
+{"id":"pt.c0815","meaning":"Of course! Sure!","note":"‹Claro que sim!› = Of course!"}
+{"id":"pt.c0816","meaning":"Ouch! Oh no!","note":"Pain, or worry: ‹Ai, meu Deus!›"}
+{"id":"pt.c0817","meaning":"Ah! Oh! (understanding, letdown)","note":"‹Ah, entendi› = Oh, I get it."}
 {"id":"pt.c0818","meaning":"Oh my God!","note":"Common and not rude in Brazil."}
-{"id":"pt.c0819","meaning":"Hey! (to get attention)","note":"Friendly; to a stranger: Com licença."}
+{"id":"pt.c0819","meaning":"Hey! (to get attention)","note":"Friendly; to a stranger: ‹Com licença›."}
 {"id":"pt.c0820","meaning":"Yeah, exactly! I know!","note":"Agreeing, often with a sigh."}
 {"id":"pt.c0821","meaning":"Really? Seriously?","note":"Surprise or doubt."}
 {"id":"pt.c0822","meaning":"Come on! No way!","note":"Also a modest reply to thanks or praise."}
-{"id":"pt.c0823","meaning":"Careful! Watch out!","note":"Cuidado com o carro!"}
+{"id":"pt.c0823","meaning":"Careful! Watch out!","note":"‹Cuidado com o carro!›"}
 {"id":"pt.c0824","meaning":"Wow! Gosh!","note":"Mild; fine in front of anyone."}
 {"id":"pt.c0825","meaning":"Gee! Oh, man!","note":"Surprise or sympathy."}
 {"id":"pt.c0826","meaning":"Whoa! Yikes!","note":"Very common in the Northeast."}
@@ -830,70 +830,70 @@
 {"id":"pt.c0830","meaning":"Oh, I see!","note":"Speech; can sound sarcastic with a flat tone."}
 {"id":"pt.c0831","meaning":"Thank God!","note":"Relief."}
 {"id":"pt.c0832","meaning":"Bless you! Cheers!","note":"After a sneeze, and for a toast."}
-{"id":"pt.c0833","meaning":"I hope so! Let's hope!","note":"Tomara que sim!"}
+{"id":"pt.c0833","meaning":"I hope so! Let's hope!","note":"‹Tomara que sim!›"}
 {"id":"pt.c0834","meaning":"Phew!","note":"Relief after stress or effort."}
 {"id":"pt.c0835","meaning":"Ugh, what a drag!","note":"Informal annoyance; fine with friends."}
-{"id":"pt.c0836","meaning":"Poor thing!","note":"About a man; a woman: Coitada!"}
+{"id":"pt.c0836","meaning":"Poor thing!","note":"About a man; a woman: ‹Coitada!›"}
 {"id":"pt.c0837","meaning":"Don't mention it! Not at all!","note":"Reply to thanks or an apology."}
 {"id":"pt.c0838","meaning":"Yay!","note":"Happy news."}
-{"id":"pt.c0839","meaning":"Wow! (impressed)","note":"Nossa! is more common."}
+{"id":"pt.c0839","meaning":"Wow! (impressed)","note":"‹Nossa!› is more common."}
 {"id":"pt.c0840","meaning":"Hmm…","note":"Thinking, or tasting something good."}
 {"id":"pt.c0841","meaning":"Psst! Shh!","note":"To call someone quietly, or ask for quiet."}
-{"id":"pt.c0842","meaning":"Hooray!","note":"Viva o Brasil!"}
+{"id":"pt.c0842","meaning":"Hooray!","note":"‹Viva o Brasil!›"}
 {"id":"pt.c0843","meaning":"Uh-oh!","note":"Something went wrong."}
-{"id":"pt.c0844","meaning":"the (masculine)","note":"Feminine a; plural os, as. Joins em, de, por, a: no, do, pelo, ao."}
-{"id":"pt.c0845","meaning":"no; not","note":"Before the verb: Não sei. Speech often adds one at the end: Não sei, não."}
-{"id":"pt.c0846","meaning":"a; one (masculine)","note":"Feminine: uma. Plural: uns, umas."}
-{"id":"pt.c0847","meaning":"yes","note":"Brazilians often answer with the verb: Quer? Quero!"}
-{"id":"pt.c0848","meaning":"where","note":"Onde você mora?"}
-{"id":"pt.c0849","meaning":"same; really; even","note":"o mesmo = the same; Mesmo? = Really? Feminine: mesma."}
-{"id":"pt.c0850","meaning":"other; another","note":"Never um outro for another: outro café. Feminine: outra."}
-{"id":"pt.c0851","meaning":"all; every; whole","note":"todo dia = every day; todo o dia = all day. Feminine: toda."}
-{"id":"pt.c0852","meaning":"how much","note":"quantos, quantas = how many. Quanto custa?"}
-{"id":"pt.c0853","meaning":"some; any","note":"Feminine: alguma. algum dia = someday."}
-{"id":"pt.c0854","meaning":"some; a few (masculine)","note":"Feminine: umas. uns amigos."}
-{"id":"pt.c0855","meaning":"no; not any","note":"Feminine: nenhuma. Não tenho nenhum."}
-{"id":"pt.c0856","meaning":"so much","note":"Plural: tantos = so many."}
-{"id":"pt.c0857","meaning":"each; every","note":"Never changes: cada dia, cada pessoa."}
-{"id":"pt.c0858","meaning":"where (to)","note":"With verbs of going: Aonde você vai?"}
-{"id":"pt.c0859","meaning":"where is; where are","note":"Very Brazilian, speech: Cadê a chave?"}
-{"id":"pt.c0860","meaning":"right? isn't it?","note":"Short for não é. Tag at the end: Tá calor, né?"}
-{"id":"pt.c0861","meaning":"several","note":"Feminine: várias."}
-{"id":"pt.c0862","meaning":"half (an hour); six (in phone numbers)","note":"três e meia = 3:30. Phone numbers: meia = six."}
-{"id":"pt.c0863","meaning":"zero","note":"Phone numbers: zero."}
-{"id":"pt.c0864","meaning":"two","note":"Feminine: duas."}
+{"id":"pt.c0844","meaning":"the (masculine)","note":"Feminine ‹a›; plural ‹os›, ‹as›. Joins ‹em›, ‹de›, ‹por›, ‹a›: ‹no›, ‹do›, ‹pelo›, ‹ao›."}
+{"id":"pt.c0845","meaning":"no; not","note":"Before the verb: ‹Não sei›. Speech often adds one at the end: ‹Não sei, não›."}
+{"id":"pt.c0846","meaning":"a; one (masculine)","note":"Feminine: ‹uma›. Plural: ‹uns›, ‹umas›."}
+{"id":"pt.c0847","meaning":"yes","note":"Brazilians often answer with the verb: ‹Quer?› ‹Quero!›"}
+{"id":"pt.c0848","meaning":"where","note":"‹Onde você mora?›"}
+{"id":"pt.c0849","meaning":"same; really; even","note":"‹o mesmo› = the same; ‹Mesmo?› = Really? Feminine: ‹mesma›."}
+{"id":"pt.c0850","meaning":"other; another","note":"Never ‹um outro› for another: ‹outro café›. Feminine: ‹outra›."}
+{"id":"pt.c0851","meaning":"all; every; whole","note":"‹todo dia› = every day; ‹todo o dia› = all day. Feminine: ‹toda›."}
+{"id":"pt.c0852","meaning":"how much","note":"‹quantos›, ‹quantas› = how many. ‹Quanto custa?›"}
+{"id":"pt.c0853","meaning":"some; any","note":"Feminine: ‹alguma›. ‹algum dia› = someday."}
+{"id":"pt.c0854","meaning":"some; a few (masculine)","note":"Feminine: ‹umas›. ‹uns amigos›."}
+{"id":"pt.c0855","meaning":"no; not any","note":"Feminine: ‹nenhuma›. ‹Não tenho nenhum›."}
+{"id":"pt.c0856","meaning":"so much","note":"Plural: ‹tantos› = so many."}
+{"id":"pt.c0857","meaning":"each; every","note":"Never changes: ‹cada dia›, ‹cada pessoa›."}
+{"id":"pt.c0858","meaning":"where (to)","note":"With verbs of going: ‹Aonde você vai?›"}
+{"id":"pt.c0859","meaning":"where is; where are","note":"Very Brazilian, speech: ‹Cadê a chave?›"}
+{"id":"pt.c0860","meaning":"right? isn't it?","note":"Short for ‹não é›. Tag at the end: ‹Tá calor, né?›"}
+{"id":"pt.c0861","meaning":"several","note":"Feminine: ‹várias›."}
+{"id":"pt.c0862","meaning":"half (an hour); six (in phone numbers)","note":"‹três e meia› = 3:30. Phone numbers: ‹meia› = six."}
+{"id":"pt.c0863","meaning":"zero","note":"Phone numbers: ‹zero›."}
+{"id":"pt.c0864","meaning":"two","note":"Feminine: ‹duas›."}
 {"id":"pt.c0865","meaning":"three","note":"Never changes for gender."}
 {"id":"pt.c0866","meaning":"four","note":"Never changes for gender."}
-{"id":"pt.c0867","meaning":"five","note":"cinco reais = five reais."}
-{"id":"pt.c0868","meaning":"six","note":"In phone numbers people say meia."}
-{"id":"pt.c0869","meaning":"seven","note":"Open e, as in é."}
-{"id":"pt.c0870","meaning":"eight","note":"às oito = at eight."}
-{"id":"pt.c0871","meaning":"nine","note":"Open o, as in ó."}
-{"id":"pt.c0872","meaning":"ten","note":"Open e. dez reais."}
-{"id":"pt.c0873","meaning":"eleven","note":"11 to 15 end in -ze."}
-{"id":"pt.c0874","meaning":"twelve","note":"meio-dia = 12 noon."}
+{"id":"pt.c0867","meaning":"five","note":"‹cinco reais› = five reais."}
+{"id":"pt.c0868","meaning":"six","note":"In phone numbers people say ‹meia›."}
+{"id":"pt.c0869","meaning":"seven","note":"Open e, as in ‹é›."}
+{"id":"pt.c0870","meaning":"eight","note":"‹às oito› = at eight."}
+{"id":"pt.c0871","meaning":"nine","note":"Open o, as in ‹ó›."}
+{"id":"pt.c0872","meaning":"ten","note":"Open e. ‹dez reais›."}
+{"id":"pt.c0873","meaning":"eleven","note":"11 to 15 end in ‹-ze›."}
+{"id":"pt.c0874","meaning":"twelve","note":"‹meio-dia› = 12 noon."}
 {"id":"pt.c0875","meaning":"thirteen","note":"Closed e."}
-{"id":"pt.c0876","meaning":"fourteen","note":"Also spelled quatorze."}
-{"id":"pt.c0877","meaning":"fifteen","note":"quinze dias = two weeks."}
-{"id":"pt.c0878","meaning":"seventeen","note":"Portugal: dezassete."}
-{"id":"pt.c0879","meaning":"eighteen","note":"dez + oito, one word."}
-{"id":"pt.c0880","meaning":"nineteen","note":"Portugal: dezanove."}
-{"id":"pt.c0881","meaning":"twenty","note":"vinte e um = 21."}
-{"id":"pt.c0882","meaning":"Tuesday","note":"Speech: terça."}
-{"id":"pt.c0883","meaning":"Wednesday","note":"Speech: quarta."}
-{"id":"pt.c0884","meaning":"Thursday","note":"Speech: quinta."}
-{"id":"pt.c0885","meaning":"Friday","note":"Speech: sexta. Sextou! = It's Friday!"}
-{"id":"pt.c0886","meaning":"Saturday","note":"no sábado = on Saturday."}
-{"id":"pt.c0887","meaning":"Sunday","note":"aos domingos = on Sundays."}
+{"id":"pt.c0876","meaning":"fourteen","note":"Also spelled ‹quatorze›."}
+{"id":"pt.c0877","meaning":"fifteen","note":"‹quinze dias› = two weeks."}
+{"id":"pt.c0878","meaning":"seventeen","note":"Portugal: ‹dezassete›."}
+{"id":"pt.c0879","meaning":"eighteen","note":"‹dez› + ‹oito›, one word."}
+{"id":"pt.c0880","meaning":"nineteen","note":"Portugal: ‹dezanove›."}
+{"id":"pt.c0881","meaning":"twenty","note":"‹vinte e um› = 21."}
+{"id":"pt.c0882","meaning":"Tuesday","note":"Speech: ‹terça›."}
+{"id":"pt.c0883","meaning":"Wednesday","note":"Speech: ‹quarta›."}
+{"id":"pt.c0884","meaning":"Thursday","note":"Speech: ‹quinta›."}
+{"id":"pt.c0885","meaning":"Friday","note":"Speech: ‹sexta›. ‹Sextou!› = It's Friday!"}
+{"id":"pt.c0886","meaning":"Saturday","note":"‹no sábado› = on Saturday."}
+{"id":"pt.c0887","meaning":"Sunday","note":"‹aos domingos› = on Sundays."}
 {"id":"pt.c0888","meaning":"January","note":"Months are lowercase."}
 {"id":"pt.c0889","meaning":"February","note":"Carnival is usually in February."}
-{"id":"pt.c0890","meaning":"March","note":"Months take em: em março."}
-{"id":"pt.c0891","meaning":"April","note":"Final l sounds like w."}
-{"id":"pt.c0892","meaning":"May","note":"Dates: o primeiro de maio."}
-{"id":"pt.c0893","meaning":"June","note":"Festas juninas in June."}
+{"id":"pt.c0890","meaning":"March","note":"Months take ‹em›: ‹em março›."}
+{"id":"pt.c0891","meaning":"April","note":"Final ‹l› sounds like w."}
+{"id":"pt.c0892","meaning":"May","note":"Dates: ‹o primeiro de maio›."}
+{"id":"pt.c0893","meaning":"June","note":"‹Festas juninas› in June."}
 {"id":"pt.c0894","meaning":"July","note":"Winter vacation in Brazil."}
 {"id":"pt.c0895","meaning":"August","note":"Winter in Brazil."}
-{"id":"pt.c0896","meaning":"September","note":"Dates: o dia sete de setembro."}
-{"id":"pt.c0897","meaning":"October","note":"o Dia das Crianças is in October."}
+{"id":"pt.c0896","meaning":"September","note":"Dates: ‹o dia sete de setembro›."}
+{"id":"pt.c0897","meaning":"October","note":"‹o Dia das Crianças› is in October."}
 {"id":"pt.c0898","meaning":"November","note":"Spring in Brazil."}
 {"id":"pt.c0899","meaning":"December","note":"Summer begins in Brazil."}

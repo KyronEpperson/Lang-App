@@ -2,8 +2,8 @@
 module.exports = [
   {
     id: "imperative",
-    title: "Imperative and il faut",
-    blurb: "Give and follow instructions (Tourne, Tournez, Allons-y) and say what has to be done with il faut.",
+    title: "Imperative and ‹il faut›",
+    blurb: "Give and follow instructions (‹Tourne›, ‹Tournez›, ‹Allons-y›) and say what has to be done with ‹il faut›.",
     deck: "Around town and directions",
     body: `
 <p>English gives an order by dropping "you": "Turn left." French does the same thing. Take the present tense form for <b>tu</b>, <b>nous</b> or <b>vous</b>, and leave out the subject pronoun.</p>
@@ -13,7 +13,7 @@ module.exports = [
 {{ex:Tournez à gauche.|toor-nay ah gohsh|Turn left.}}
 {{ex:Continuez tout droit.|kohN-tee-new-ay too drwah|Keep going straight ahead.}}
 <p>Directions from a stranger, and signs, use the <b>vous</b> form, so that is the one you will hear most in the street. People also give directions with a plain statement, <b>Vous tournez à gauche</b>, "you turn left": that is fine in speech, but it is not a command form, and signs never use it.</p>
-<h3>No -s on -er verbs</h3>
+<h3>No ‹-s› on ‹-er› verbs</h3>
 <p>With a friend, <b>tu regardes</b> loses its <b>-s</b> in a command: <b>Regarde!</b> The same goes for every <b>-er</b> verb, and for <b>aller</b>: <b>tu vas</b> becomes <b>Va!</b> Other verbs keep the <b>-s</b>: <b>Prends</b>, <b>Fais</b>, <b>Viens</b>.</p>
 {{ex:Regarde!|ruh-gahrd|Look!}}
 {{ex:Prends le métro.|prahN luh may-troh|Take the subway.}}
@@ -24,52 +24,52 @@ module.exports = [
 <h3>Don't</h3>
 <p>To say "don't", put <b>ne … pas</b> around the verb, as usual.</p>
 {{ex:Ne traversez pas ici.|nuh trah-vehr-say pah ee-see|Don't cross here.}}
-<h3>il faut: you have to</h3>
+<h3>‹il faut›: you have to</h3>
 <p><b>Il faut</b> + infinitive says that something is necessary, without naming who. Depending on the situation it means "you have to", "we need to" or "it's necessary to". The <b>il</b> here is not "he": it is the same empty "it" as in <b>il pleut</b>. With <b>ne … pas</b>, it means "you must not".</p>
 {{ex:Il faut réserver.|eel foh ray-zehr-vay|You have to book.}}
 {{ex:Il ne faut pas fumer ici.|eel nuh foh pah few-may ee-see|You must not smoke here.}}
 <p>A bare command can sound abrupt to a stranger. Add <b>s'il vous plaît</b>, or ask with <b>Vous pourriez…?</b></p>
-<div class="tip"><b>Most common mistake:</b> keeping the <b>-s</b> of the <b>tu</b> form on an <b>-er</b> verb. <b>Regardes!</b> → <b>Regarde!</b>, and <b>Vas à la gare!</b> → <b>Va à la gare!</b></div>
+<div class="tip"><strong>Most common mistake:</strong> keeping the <b>-s</b> of the <b>tu</b> form on an <b>-er</b> verb. <b>Regardes!</b> → <b>Regarde!</b>, and <b>Vas à la gare!</b> → <b>Va à la gare!</b></div>
 `,
     check: [
-      ["A stranger asks you the way. How do you tell them 'Turn right'?",["Tourne à droite.","Tournez à droite.","Tu tournes à droite.","Tournes à droite."],1,"A stranger gets the vous form: Tournez à droite."],
-      ["How do you say 'Look!' to a friend?",["Regardes!","Tu regardes!","Regarde!","Regardez-tu!"],2,"-er verbs drop the -s in a tu command: Regarde!"],
-      ["What does Il faut partir mean?",["We have to go.","He has to go, but nobody else does.","He left.","Don't go."],0,"il faut + infinitive says something is necessary; this il is not 'he'."]
+      ["A stranger asks you the way. How do you tell them 'Turn right'?",["Tourne à droite.","Tournez à droite.","Tu tournes à droite.","Tournes à droite."],1,"A stranger gets the ‹vous› form: ‹Tournez à droite›."],
+      ["How do you say 'Look!' to a friend?",["Regardes!","Tu regardes!","Regarde!","Regardez-tu!"],2,"‹-er› verbs drop the ‹-s› in a ‹tu› command: ‹Regarde!›"],
+      ["What does ‹Il faut partir› mean?",["We have to go.","He has to go, but nobody else does.","He left.","Don't go."],0,"‹il faut› + infinitive says something is necessary; this ‹il› is not 'he'."]
     ],
     practice: [
-      ["mc","'Turn left' (to a stranger) =","Tournez à gauche.","Tourne à gauche.","Tournes à gauche.","Tournons à gauche.","To a stranger, use the vous form: Tournez."],
-      ["mc","'Let's go!' =","Allons-y!","Allez-y!","Va!","Vas-y!","The nous form, with no nous, means let's: Allons-y!"],
-      ["mc","'Look!' (to a friend) =","Regarde!","Regardes!","Tu regardes!","Regardons!","-er verbs drop the -s in a tu command: Regarde!"],
-      ["mc","'Take the subway' (to a friend) =","Prends le métro.","Prend le métro.","Prends la métro.","Prenons le métro.","prendre keeps its -s in a tu command: Prends le métro."],
-      ["mc","'You have to book' =","Il faut réserver.","Il faut réserve.","Il faut de réserver.","Il est faut réserver.","il faut is followed directly by the infinitive: Il faut réserver."],
-      ["or","Turn left (to a stranger)","Tournez à gauche","Tourne","To a stranger, use the vous form: the verb ending is -ez, Tournez."],
-      ["or","Let's go to the park","Allons au parc","Allez","Let's is the nous form, allons, and à + le contracts to au."],
-      ["or","Don't cross the street (to a stranger)","Ne traversez pas la rue","le","rue is feminine, so it's la rue; ne … pas goes around the verb."],
-      ["fi","__ tout droit.","Keep going straight ahead (to a stranger).","Continuez","Continue|Continues|Continuons","To a stranger, use the vous form: Continuez."],
-      ["fi","Va __ gare.","Go to the train station.","à la","au|aux|à le","gare is feminine, so à stays separate: à la gare."],
-      ["fi","Il __ réserver une table.","You need to book a table.","faut","fait|va|est","il faut + infinitive: you need to, we need to."],
-      ["ty","Let's take the subway. (use the nous command)","Prenons le métro.","prendre · le métro","Prends Prenez","Let's is the nous form: the verb ending is -ons, Prenons."],
-      ["ty","Turn right. (to a stranger)","Tournez à droite.","tourner · à droite","Tourne","To a stranger, use the vous form: Tournez, with the verb ending -ez."],
-      ["ty","Go to the museum. (to a friend)","Va au musée.","aller · le musée · tu command","Vas à","aller drops its -s in a tu command, and à + le contracts to au: Va au musée."]
+      ["mc","'Turn left' (to a stranger) =","Tournez à gauche.","Tourne à gauche.","Tournes à gauche.","Tournons à gauche.","To a stranger, use the ‹vous› form: ‹Tournez›."],
+      ["mc","'Let's go!' =","Allons-y!","Allez-y!","Va!","Vas-y!","The ‹nous› form, with no ‹nous›, means let's: ‹Allons-y!›"],
+      ["mc","'Look!' (to a friend) =","Regarde!","Regardes!","Tu regardes!","Regardons!","‹-er› verbs drop the ‹-s› in a ‹tu› command: ‹Regarde!›"],
+      ["mc","'Take the subway' (to a friend) =","Prends le métro.","Prend le métro.","Prends la métro.","Prenons le métro.","‹prendre› keeps its ‹-s› in a ‹tu› command: ‹Prends le métro›."],
+      ["mc","'You have to book' =","Il faut réserver.","Il faut réserve.","Il faut de réserver.","Il est faut réserver.","‹il faut› is followed directly by the infinitive: ‹Il faut réserver›."],
+      ["or","Turn left (to a stranger)","Tournez à gauche","Tourne","To a stranger, use the ‹vous› form: the verb ending is ‹-ez›, ‹Tournez›."],
+      ["or","Let's go to the park","Allons au parc","Allez","Let's is the ‹nous› form, ‹allons›, and ‹à› + ‹le› contracts to ‹au›."],
+      ["or","Don't cross the street (to a stranger)","Ne traversez pas la rue","le","‹rue› is feminine, so it's ‹la rue›; ‹ne› … ‹pas› goes around the verb."],
+      ["fi","__ tout droit.","Keep going straight ahead (to a stranger).","Continuez","Continue|Continues|Continuons","To a stranger, use the ‹vous› form: ‹Continuez›."],
+      ["fi","Va __ gare.","Go to the train station.","à la","au|aux|à le","‹gare› is feminine, so ‹à› stays separate: ‹à la gare›."],
+      ["fi","Il __ réserver une table.","You need to book a table.","faut","fait|va|est","‹il faut› + infinitive: you need to, we need to."],
+      ["ty","Let's take the subway. (use the ‹nous› command)","Prenons le métro.","‹prendre› · ‹le métro›","Prends Prenez","Let's is the ‹nous› form: the verb ending is ‹-ons›, ‹Prenons›."],
+      ["ty","Turn right. (to a stranger)","Tournez à droite.","‹tourner› · ‹à droite›","Tourne","To a stranger, use the ‹vous› form: ‹Tournez›, with the verb ending ‹-ez›."],
+      ["ty","Go to the museum. (to a friend)","Va au musée.","‹aller› · ‹le musée› · ‹tu› command","Vas à","‹aller› drops its ‹-s› in a ‹tu› command, and ‹à› + ‹le› contracts to ‹au›: ‹Va au musée›."]
     ]
   },
   {
     id: "passe-compose",
-    title: "Passé composé with avoir and être",
-    blurb: "Say what you did: j'ai mangé, je suis allé(e), with the right helper verb and agreement.",
+    title: "‹Passé composé› with ‹avoir› and ‹être›",
+    blurb: "Say what you did: ‹j'ai mangé›, ‹je suis allé(e)›, with the right helper verb and agreement.",
     deck: "Likes and free time",
     body: `
 <p>English has "I ate" and "I have eaten". For a finished action, French uses one form for both, the <b>passé composé</b>: <b>j'ai mangé</b>. It has two parts, like "have eaten": a helper verb (also called an auxiliary), conjugated for the subject, and a past participle that carries the meaning.</p>
 <h3>The past participle</h3>
 <p>For <b>-er</b> verbs, replace <b>-er</b> with <b>-é</b>: <b>parler</b> → <b>parlé</b>, <b>manger</b> → <b>mangé</b>. It sounds the same as the infinitive, but the accent is not optional: <b>parle</b> is "speak", <b>parlé</b> is "spoken". A few common verbs have their own participle: <b>faire</b> → <b>fait</b>, <b>prendre</b> → <b>pris</b>, <b>voir</b> → <b>vu</b>, <b>avoir</b> → <b>eu</b>, <b>être</b> → <b>été</b>, <b>finir</b> → <b>fini</b>. Think of the participle as the English "-ed" word: "spoken", "eaten", "seen". Once you know it, the rest is a verb you already know.</p>
-<h3>Most verbs: avoir</h3>
+<h3>Most verbs: ‹avoir›</h3>
 <p>Conjugate <b>avoir</b> in the present and add the participle. The participle does not change.</p>
 {{ex:Hier, j'ai mangé une crêpe.|yehr zhay mahN-zhay ewn krehp|Yesterday I ate a crêpe.}}
 {{ex:Nous avons vu un film.|noo zah-vohN vew uhN feelm|We saw a movie.}}
 {{ex:Tu as fait du vélo?|tew ah feh dew vay-loh|Did you go biking?}}
-<h3>Coming and going: être</h3>
-<p>A small group of verbs, mostly about moving or changing state, use <b>être</b> instead: <b>aller, venir, arriver, partir, entrer, sortir, rester, rentrer, tomber, naître, mourir</b>. Reflexive verbs use <b>être</b> too (<b>je me suis levé</b>). English never says "I am gone to Paris" for "I went", so this has to be learned. A handy way to remember the group: most of these verbs come in pairs of opposites, like going and coming, arriving and leaving, going in and going out, being born and dying.</p>
-<h3>With être, the participle agrees</h3>
+<h3>Coming and going: ‹être›</h3>
+<p>A small group of verbs, mostly about moving or changing state, use <b>être</b> instead: <b>aller</b>, <b>venir</b>, <b>arriver</b>, <b>partir</b>, <b>entrer</b>, <b>sortir</b>, <b>rester</b>, <b>rentrer</b>, <b>tomber</b>, <b>naître</b>, <b>mourir</b>. Reflexive verbs use <b>être</b> too (<b>je me suis levé</b>). English never says "I am gone to Paris" for "I went", so this has to be learned. A handy way to remember the group: most of these verbs come in pairs of opposites, like going and coming, arriving and leaving, going in and going out, being born and dying.</p>
+<h3>With ‹être›, the participle agrees</h3>
 <p>With <b>être</b>, the participle agrees with the subject like an adjective: add <b>-e</b> for a feminine subject, <b>-s</b> for a plural one. You usually can't hear it, so it only shows in writing.</p>
 <div class="tbl"><table><tr><th></th><th>One</th><th>More than one</th></tr><tr><td>masculine</td><td class="k">il est allé</td><td class="k">ils sont allés</td></tr><tr><td>feminine</td><td class="k">elle est allée</td><td class="k">elles sont allées</td></tr></table></div>
 {{ex:Elle est allée au musée.|ehl eh ah-lay oh mew-zay|She went to the museum.}}
@@ -78,34 +78,34 @@ module.exports = [
 <p><b>Ne … pas</b> goes around the helper verb, not around the participle. English does something similar with "not": "I have not finished". In French, the two halves of the negative wrap around the helper.</p>
 {{ex:Je n'ai pas fini.|zhuh nay pah fee-nee|I haven't finished.}}
 {{ex:Je ne suis pas sorti.|zhuh nuh swee pah sohr-tee|I didn't go out.}}
-<div class="tip"><b>Most common mistake:</b> using <b>avoir</b> with a verb of movement. <b>J'ai allé au cinéma</b> → <b>Je suis allé au cinéma</b> (a woman writes <b>allée</b>).</div>
+<div class="tip"><strong>Most common mistake:</strong> using <b>avoir</b> with a verb of movement. <b>J'ai allé au cinéma</b> → <b>Je suis allé au cinéma</b> (a woman writes <b>allée</b>).</div>
 `,
     check: [
-      ["Which is correct for 'I went to Paris'?",["J'ai allé à Paris.","Je suis allé à Paris.","Je vais allé à Paris.","Je suis aller à Paris."],1,"aller takes être in the passé composé: je suis allé."],
-      ["Léa went out last night. Which is right?",["Léa est sorti hier soir.","Léa a sortie hier soir.","Léa est sortie hier soir.","Léa sortie hier soir."],2,"sortir takes être, and the participle agrees with Léa: sortie."],
-      ["Where does ne … pas go in the passé composé?",["Around the helper verb: Je n'ai pas mangé.","Around the participle: J'ai ne mangé pas.","Before everything: Ne j'ai pas mangé.","After the participle: J'ai mangé ne pas."],0,"ne … pas wraps the helper verb, the part that is conjugated."]
+      ["Which is correct for 'I went to Paris'?",["J'ai allé à Paris.","Je suis allé à Paris.","Je vais allé à Paris.","Je suis aller à Paris."],1,"‹aller› takes ‹être› in the ‹passé composé›: ‹je suis allé›."],
+      ["Léa went out last night. Which is right?",["Léa est sorti hier soir.","Léa a sortie hier soir.","Léa est sortie hier soir.","Léa sortie hier soir."],2,"‹sortir› takes ‹être›, and the participle agrees with Léa: ‹sortie›."],
+      ["Where does ‹ne› … ‹pas› go in the ‹passé composé›?",["Around the helper verb: ‹Je n'ai pas mangé›.","Around the participle: ‹J'ai ne mangé pas›.","Before everything: ‹Ne j'ai pas mangé›.","After the participle: ‹J'ai mangé ne pas›."],0,"‹ne› … ‹pas› wraps the helper verb, the part that is conjugated."]
     ],
     practice: [
-      ["mc","'I ate' =","J'ai mangé","Je mange","Je suis mangé","J'ai manger","avoir + past participle, and -er verbs end in -é: j'ai mangé."],
-      ["mc","'She went' =","Elle est allée","Elle a allé","Elle est allé","Elle a allée","aller takes être, and the participle agrees with elle: allée."],
-      ["mc","Which verb takes être in the passé composé?","arriver","manger","regarder","faire","Verbs of coming and going, like arriver, take être."],
-      ["mc","'We saw a movie' =","Nous avons vu un film.","Nous avons voir un film.","Nous sommes vus un film.","Nous avons vus un film.","voir has the participle vu, and with avoir it does not change."],
-      ["mc","'I spoke with Léa' =","J'ai parlé avec Léa.","J'ai parle avec Léa.","Je parle avec Léa.","Je suis parlé avec Léa.","The past participle needs its accent: parlé, not parle.","!strict"],
-      ["or","She arrived in Lyon","Elle est arrivée à Lyon","arrivé","With être, the participle agrees with the subject: elle est arrivée."],
-      ["or","We watched a movie","Nous avons regardé un film","ont","nous takes the nous form of avoir: avons."],
-      ["or","They went to the park (all women)","Elles sont allées au parc","allés","With être, the participle agrees with elles: the feminine plural allées."],
-      ["fi","Hier, j'ai __ avec Hugo.","Yesterday I spoke with Hugo.","parlé","parle|parler|parlez","After avoir, use the past participle, with its accent: parlé.","!strict"],
-      ["fi","Nous __ partis à huit heures.","We left at eight.","sommes","avons|sont|êtes","partir takes être, and nous takes sommes."],
-      ["fi","Je n'ai __ fini.","I haven't finished.","pas","non|ne|pas de","ne … pas goes around the helper verb: Je n'ai pas fini."],
-      ["ty","I went to the movies. (said by a woman)","Je suis allée au cinéma.","aller · le cinéma","allé","aller takes être, and the participle agrees with je, a woman: allée."],
-      ["ty","We arrived. (use nous; men or a mixed group)","Nous sommes arrivés.","arriver · être","avons arrivé","arriver takes être, so the participle takes the plural form: arrivés."],
-      ["ty","Did you see the movie? (to a friend)","Tu as vu le film?|Est-ce que tu as vu le film?|As-tu vu le film?","voir (vu) · le film","a voir","tu takes the tu form of avoir, as, and voir has the participle vu."]
+      ["mc","'I ate' =","J'ai mangé","Je mange","Je suis mangé","J'ai manger","‹avoir› + past participle, and ‹-er› verbs end in ‹-é›: ‹j'ai mangé›."],
+      ["mc","'She went' =","Elle est allée","Elle a allé","Elle est allé","Elle a allée","‹aller› takes ‹être›, and the participle agrees with ‹elle›: ‹allée›."],
+      ["mc","Which verb takes ‹être› in the ‹passé composé›?","arriver","manger","regarder","faire","Verbs of coming and going, like ‹arriver›, take ‹être›."],
+      ["mc","'We saw a movie' =","Nous avons vu un film.","Nous avons voir un film.","Nous sommes vus un film.","Nous avons vus un film.","‹voir› has the participle ‹vu›, and with ‹avoir› it does not change."],
+      ["mc","'I spoke with Léa' =","J'ai parlé avec Léa.","J'ai parle avec Léa.","Je parle avec Léa.","Je suis parlé avec Léa.","The past participle needs its accent: ‹parlé›, not ‹parle›.","!strict"],
+      ["or","She arrived in Lyon","Elle est arrivée à Lyon","arrivé","With ‹être›, the participle agrees with the subject: ‹elle est arrivée›."],
+      ["or","We watched a movie","Nous avons regardé un film","ont","‹nous› takes the ‹nous› form of ‹avoir›: ‹avons›."],
+      ["or","They went to the park (all women)","Elles sont allées au parc","allés","With ‹être›, the participle agrees with ‹elles›: the feminine plural ‹allées›."],
+      ["fi","Hier, j'ai __ avec Hugo.","Yesterday I spoke with Hugo.","parlé","parle|parler|parlez","After ‹avoir›, use the past participle, with its accent: ‹parlé›.","!strict"],
+      ["fi","Nous __ partis à huit heures.","We left at eight.","sommes","avons|sont|êtes","‹partir› takes ‹être›, and ‹nous› takes ‹sommes›."],
+      ["fi","Je n'ai __ fini.","I haven't finished.","pas","non|ne|pas de","‹ne› … ‹pas› goes around the helper verb: ‹Je n'ai pas fini›."],
+      ["ty","I went to the movies. (said by a woman)","Je suis allée au cinéma.","‹aller› · ‹le cinéma›","allé","‹aller› takes ‹être›, and the participle agrees with ‹je›, a woman: ‹allée›."],
+      ["ty","We arrived. (use ‹nous›; men or a mixed group)","Nous sommes arrivés.","‹arriver› · ‹être›","avons arrivé","‹arriver› takes ‹être›, so the participle takes the plural form: ‹arrivés›."],
+      ["ty","Did you see the movie? (to a friend)","Tu as vu le film?|Est-ce que tu as vu le film?|As-tu vu le film?","‹voir› (‹vu›) · ‹le film›","a voir","‹tu› takes the ‹tu› form of ‹avoir›, ‹as›, and ‹voir› has the participle ‹vu›."]
     ]
   },
   {
     id: "connectors",
-    title: "et, ou, mais, alors",
-    blurb: "Join your sentences with and, or, but, so, because, then and when, and never mix up ou and où.",
+    title: "‹et›, ‹ou›, ‹mais›, ‹alors›",
+    blurb: "Join your sentences with and, or, but, so, because, then and when, and never mix up ‹ou› and ‹où›.",
     deck: "Questions and connectors",
     body: `
 <p>Short sentences get you understood; small joining words make you sound natural. Most of them work just like their English partners and sit in the same place in the sentence, so this lesson is mostly about meaning, plus two traps: a sound and an accent.</p>
@@ -114,57 +114,57 @@ module.exports = [
 {{ex:Un café et un croissant, s'il vous plaît.|uhN kah-fay ay uhN krwah-sahN seel voo pleh|A coffee and a croissant, please.}}
 {{ex:Tu veux du thé ou du café?|tew vuh dew tay oo dew kah-fay|Do you want tea or coffee?}}
 {{ex:Je suis fatiguée mais contente.|zhuh swee fah-tee-gay meh kohN-tahNt|I'm tired but happy.}}
-<h3>ou and où</h3>
+<h3>‹ou› and ‹où›</h3>
 <p>They sound exactly the same. <b>ou</b> with no accent is "or"; <b>où</b> with a grave accent is "where". The accent is the only difference, so type it. A quick test: if you could say "or else" in English, you need <b>ou</b>; if the sentence asks about a place, you need <b>où</b>.</p>
 <h3>so, because</h3>
 <p><b>alors</b> and <b>donc</b> both mean "so" and introduce a result. <b>parce que</b> means "because" and gives the reason; it answers <b>pourquoi</b> ("why"). Before a vowel, <b>que</b> becomes <b>qu'</b>: <b>parce qu'il pleut</b>. Keep them apart: <b>alors</b> looks forward to the result, <b>parce que</b> looks back at the cause.</p>
 {{ex:Il pleut, alors je reste à la maison.|eel pluh ah-lohr zhuh rehst ah lah meh-zohN|It's raining, so I'm staying home.}}
 {{ex:Je reste à la maison parce qu'il pleut.|zhuh rehst ah lah meh-zohN pahrs keel pluh|I'm staying home because it's raining.}}
 <h3>first, then</h3>
-<p>To tell things in order, use <b>d'abord</b> (first), then <b>puis</b> or <b>ensuite</b> (then, next). They work with any tense, including the passé composé.</p>
+<p>To tell things in order, use <b>d'abord</b> (first), then <b>puis</b> or <b>ensuite</b> (then, next). They work with any tense, including the ‹passé composé›.</p>
 {{ex:D'abord, j'ai mangé, ensuite je suis parti.|dah-bohr zhay mahN-zhay ahN-sweet zhuh swee pahr-tee|First I ate, then I left.}}
 <h3>too, also</h3>
 <p><b>aussi</b> means "too" or "also". It goes after the verb, not before it: <b>Je parle aussi espagnol</b>. After a stress pronoun it means "me too", "you too".</p>
 {{ex:Moi aussi.|mwah oh-see|Me too.}}
 <h3>when</h3>
-<p><b>quand</b> is "when", both in questions and to join two sentences. As in English, the part that starts with <b>quand</b> can come first or second: <b>Je fais du vélo quand il fait beau</b> means the same thing. Listen for the linking sound: before a vowel, the <b>d</b> of <b>quand</b> is said as a <b>t</b>.</p>
+<p><b>quand</b> is "when", both in questions and to join two sentences. As in English, the part that starts with <b>quand</b> can come first or second: <b>Je fais du vélo quand il fait beau</b> means the same thing. Listen for the linking sound: before a vowel, the <b>d</b> of <b>quand</b> is said as a t.</p>
 {{ex:Quand il fait beau, je fais du vélo.|kahN teel feh boh zhuh feh dew vay-loh|When the weather's nice, I go biking.}}
-<div class="tip"><b>Most common mistake:</b> typing <b>où</b> without its accent when you mean "where". <b>Ou est la gare?</b> → <b>Où est la gare?</b> Without the accent, it says "or".</div>
+<div class="tip"><strong>Most common mistake:</strong> typing <b>où</b> without its accent when you mean "where". <b>Ou est la gare?</b> → <b>Où est la gare?</b> Without the accent, it says "or".</div>
 `,
     check: [
-      ["Which word means 'or'?",["où","et","mais","ou"],3,"ou with no accent is or; où with an accent is where."],
-      ["Your friend asks Pourquoi? How does your answer start?",["Alors…","Mais…","Parce que…","Pourquoi…"],2,"parce que gives the reason that answers pourquoi."],
-      ["In et un café, is the t of et pronounced?",["Yes, it links like the s in les amis","No, never: et and un stay apart","Only in careful speech","Only before a feminine noun"],1,"The t of et is never pronounced, even before a vowel."]
+      ["Which word means 'or'?",["où","et","mais","ou"],3,"‹ou› with no accent is or; ‹où› with an accent is where."],
+      ["Your friend asks ‹Pourquoi?› How does your answer start?",["Alors…","Mais…","Parce que…","Pourquoi…"],2,"‹parce que› gives the reason that answers ‹pourquoi›."],
+      ["In ‹et un café›, is the ‹t› of ‹et› pronounced?",["Yes, it links like the ‹s› in ‹les amis›","No, never: ‹et› and ‹un› stay apart","Only in careful speech","Only before a feminine noun"],1,"The ‹t› of ‹et› is never pronounced, even before a vowel."]
     ],
     practice: [
-      ["mc","'Coffee or tea?' =","Café ou thé?","Café où thé?","Café et thé?","Café mais thé?","ou with no accent means or; où means where.","!strict"],
-      ["mc","'I'm tired but happy' (said by a woman) =","Je suis fatiguée mais contente.","Je suis fatiguée et contente.","Je suis fatigué mais content.","Je suis fatiguée alors contente.","mais means but, and a woman uses the feminine forms fatiguée and contente."],
-      ["mc","'because' =","parce que","pourquoi","alors","quand","parce que gives a reason; pourquoi asks why."],
-      ["mc","'It's raining, so I'm staying home.' =","Il pleut, alors je reste à la maison.","Il pleut, parce que je reste à la maison.","Il pleut, mais je reste à la maison.","Il pleut, ou je reste à la maison.","alors means so: it introduces the result."],
-      ["mc","'Me too.' =","Moi aussi.","Je aussi.","Moi alors.","Aussi moi.","aussi goes after the stress pronoun: moi aussi."],
-      ["or","I'm tired but happy (said by a woman)","Je suis fatiguée mais contente","fatigué","A woman uses the feminine form fatiguée, and contente agrees too."],
-      ["or","We're late, so we're leaving","Nous sommes en retard alors nous partons","partent","nous takes the nous form: partons, with the verb ending -ons."],
-      ["or","I like tea but not coffee","J'aime le thé mais pas le café","du","Things you like in general take le: le thé, le café."],
-      ["fi","Tu viens __ tu restes?","Are you coming or staying?","ou","où|et|mais","ou with no accent means or.","!strict"],
-      ["fi","Je ne viens pas __ je suis malade.","I'm not coming because I'm sick.","parce que","pourquoi|alors|mais","parce que gives the reason."],
-      ["fi","__ il fait beau, on va au parc.","When the weather's nice, we go to the park.","Quand","Pourquoi|Parce que|Ou","quand means when and can start the sentence."],
-      ["ty","My sister is tall and blond.","Ma sœur est grande et blonde.|Ma soeur est grande et blonde.","sœur · grand · blond","grand blond","sœur is feminine, so both adjectives agree: grande et blonde."],
-      ["ty","We're late, so we're leaving. (use nous)","Nous sommes en retard, alors nous partons.|Nous sommes en retard, donc nous partons.","être en retard · alors · partir (nous partons)","partent","nous takes the nous form of both verbs: sommes, partons."],
-      ["ty","Where are you? (to a friend)","Où es-tu?|Tu es où?|Où est-ce que tu es?","où · être","Ou","où with an accent asks where; ou means or.","!strict"]
+      ["mc","'Coffee or tea?' =","Café ou thé?","Café où thé?","Café et thé?","Café mais thé?","‹ou› with no accent means or; ‹où› means where.","!strict"],
+      ["mc","'I'm tired but happy' (said by a woman) =","Je suis fatiguée mais contente.","Je suis fatiguée et contente.","Je suis fatigué mais content.","Je suis fatiguée alors contente.","‹mais› means but, and a woman uses the feminine forms ‹fatiguée› and ‹contente›."],
+      ["mc","'because' =","parce que","pourquoi","alors","quand","‹parce que› gives a reason; ‹pourquoi› asks why."],
+      ["mc","'It's raining, so I'm staying home.' =","Il pleut, alors je reste à la maison.","Il pleut, parce que je reste à la maison.","Il pleut, mais je reste à la maison.","Il pleut, ou je reste à la maison.","‹alors› means so: it introduces the result."],
+      ["mc","'Me too.' =","Moi aussi.","Je aussi.","Moi alors.","Aussi moi.","‹aussi› goes after the stress pronoun: ‹moi aussi›."],
+      ["or","I'm tired but happy (said by a woman)","Je suis fatiguée mais contente","fatigué","A woman uses the feminine form ‹fatiguée›, and ‹contente› agrees too."],
+      ["or","We're late, so we're leaving","Nous sommes en retard alors nous partons","partent","‹nous› takes the ‹nous› form: ‹partons›, with the verb ending ‹-ons›."],
+      ["or","I like tea but not coffee","J'aime le thé mais pas le café","du","Things you like in general take ‹le›: ‹le thé›, ‹le café›."],
+      ["fi","Tu viens __ tu restes?","Are you coming or staying?","ou","où|et|mais","‹ou› with no accent means or.","!strict"],
+      ["fi","Je ne viens pas __ je suis malade.","I'm not coming because I'm sick.","parce que","pourquoi|alors|mais","‹parce que› gives the reason."],
+      ["fi","__ il fait beau, on va au parc.","When the weather's nice, we go to the park.","Quand","Pourquoi|Parce que|Ou","‹quand› means when and can start the sentence."],
+      ["ty","My sister is tall and blond.","Ma sœur est grande et blonde.|Ma soeur est grande et blonde.","‹sœur› · ‹grand› · ‹blond›","grand blond","‹sœur› is feminine, so both adjectives agree: ‹grande et blonde›."],
+      ["ty","We're late, so we're leaving. (use ‹nous›)","Nous sommes en retard, alors nous partons.|Nous sommes en retard, donc nous partons.","‹être en retard› · ‹alors› · ‹partir› (‹nous partons›)","partent","‹nous› takes the ‹nous› form of both verbs: ‹sommes›, ‹partons›."],
+      ["ty","Where are you? (to a friend)","Où es-tu?|Tu es où?|Où est-ce que tu es?","‹où› · ‹être›","Ou","‹où› with an accent asks where; ‹ou› means or.","!strict"]
     ]
   },
   {
     id: "spoken",
     title: "Spoken French: what you'll hear",
-    blurb: "Recognize everyday spoken French: ne dropped, on for 'we', t'as, y a and questions with no question word.",
+    blurb: "Recognize everyday spoken French: ‹ne› dropped, ‹on› for 'we', ‹t'as›, ‹y a› and questions with no question word.",
     deck: "Spoken French",
     body: `
 <p>The French you have learned so far is correct everywhere, and it is what you should write. But French people talking to friends drop and squeeze sounds, just as English speakers say "gonna" and "dunno". This lesson is about recognizing those sentences when you hear them. You don't have to speak this way.</p>
-<h3>ne disappears</h3>
+<h3>‹ne› disappears</h3>
 <p>In relaxed everyday speech, the <b>ne</b> of <b>ne … pas</b> is very often dropped. The <b>pas</b> stays, so the sentence is still negative. In writing, keep the <b>ne</b>. This is one of the most common differences between textbook French and the French you hear among friends, so expect it in many of the negative sentences you hear; in careful or formal speech the <b>ne</b> comes back.</p>
 {{ex:Je sais pas.|zhuh seh pah|I don't know.}}
 {{ex:C'est pas grave.|seh pah grahv|It's no big deal.}}
-<h3>on means "we"</h3>
+<h3>‹on› means "we"</h3>
 <p>In conversation, <b>on</b> replaces <b>nous</b> most of the time. It takes the <b>il</b> form of the verb: <b>on va</b>, <b>on est</b>, never <b>on allons</b>. An adjective after it still agrees with the real people: a group of friends says <b>On est fatigués</b>.</p>
 {{ex:On y va?|ohN nee vah|Shall we go?}}
 {{ex:On est fatigués.|ohN neh fah-tee-gay|We're tired.}}
@@ -179,182 +179,182 @@ module.exports = [
 <p><b>ouais</b> is a relaxed "yeah", <b>ça marche</b> is "sounds good", and <b>d'accord</b> is "okay". Use <b>ouais</b> with friends, not in a job interview.</p>
 {{ex:Ouais, ça marche.|weh sah mahrsh|Yeah, sounds good.}}
 <p>In this course, typed answers always accept the standard written form. The spoken form is accepted only when the prompt says "(spoken)".</p>
-<div class="tip"><b>Most common mistake:</b> putting the <b>nous</b> ending on <b>on</b>. <b>On allons au cinéma?</b> → <b>On va au cinéma?</b></div>
+<div class="tip"><strong>Most common mistake:</strong> putting the <b>nous</b> ending on <b>on</b>. <b>On allons au cinéma?</b> → <b>On va au cinéma?</b></div>
 `,
     check: [
-      ["You hear Je sais pas. What does it mean?",["I know.","I don't know.","I knew.","Do I know?"],1,"Spoken French drops ne; pas still makes it negative."],
-      ["Which verb form goes with on?",["the nous form: on allons","the ils form: on vont","the il form: on va","the vous form: on allez"],2,"on takes the il form, even when it means we."],
-      ["A friend says On va au cinéma? What do they mean?",["Shall we go to the movies?","One must go to the movies.","They went to the movies.","Go to the movies!"],0,"on is the everyday we, and a rising voice makes it a question."]
+      ["You hear ‹Je sais pas›. What does it mean?",["I know.","I don't know.","I knew.","Do I know?"],1,"Spoken French drops ‹ne›; ‹pas› still makes it negative."],
+      ["Which verb form goes with ‹on›?",["the ‹nous› form: ‹on allons›","the ‹ils› form: ‹on vont›","the ‹il› form: ‹on va›","the ‹vous› form: ‹on allez›"],2,"‹on› takes the ‹il› form, even when it means we."],
+      ["A friend says ‹On va au cinéma?› What do they mean?",["Shall we go to the movies?","One must go to the movies.","They went to the movies.","Go to the movies!"],0,"‹on› is the everyday we, and a rising voice makes it a question."]
     ],
     practice: [
-      ["mc","You hear C'est pas grave. The written form is…","Ce n'est pas grave.","C'est ne pas grave.","Ce pas n'est grave.","C'est grave.","Spoken French drops ne; written French keeps it around the verb."],
-      ["mc","On est en retard means…","We're late.","We were late.","Are you late?","Don't be late.","on is the everyday we, with the il form est."],
-      ["mc","T'as faim? is short for…","Tu as faim?","Tu es faim?","T'es faim?","Tu avais faim?","t'as is spoken tu as, and hunger uses avoir."],
-      ["mc","Y a un problème? is short for…","Il y a un problème?","Il a un problème?","Tu as un problème?","Il est un problème?","y a is spoken il y a: there is."],
-      ["mc","Your friend asks On mange ensemble? You agree:","Ouais, ça marche.","Je sais pas.","C'est pas grave.","Pas de quoi.","Ouais, ça marche means yeah, sounds good."],
-      ["or","We're tired (use on; a group of men)","On est fatigués","sommes","on takes the il form: est, not sommes."],
-      ["or","Shall we go to the movies? (use on)","On va au cinéma","allons","on takes the il form, va, and à + le contracts to au."],
-      ["or","I don't know (spoken)","Je sais pas","suis","Spoken French drops ne and keeps pas: je sais pas."],
-      ["fi","On __ fatigués.","We're tired.","est","sommes|es|sont","on takes the il form: on est."],
-      ["fi","C'est __ grave.","It's no big deal. (spoken)","pas","ne|n'|non","In speech ne drops, but pas stays."],
-      ["fi","__ a pas de problème.","There's no problem. (spoken)","Y|Il y","Il|Elle|On","y a is spoken il y a: there is."],
-      ["ty","We're going to the park. (use on)","On va au parc.","aller · le parc","allons","on takes the il form: on va, not on allons."],
-      ["ty","We're tired. (use on; you are all women)","On est fatiguées.","être · fatigué","sommes fatigués","on takes the il form, est, but the adjective agrees with the real group: fatiguées."],
-      ["ty","I don't know. (spoken)","Je sais pas.|Je ne sais pas.|J'sais pas.","savoir · pas","suis","Spoken French drops ne; the written Je ne sais pas is right too."]
+      ["mc","You hear ‹C'est pas grave›. The written form is…","Ce n'est pas grave.","C'est ne pas grave.","Ce pas n'est grave.","C'est grave.","Spoken French drops ‹ne›; written French keeps it around the verb."],
+      ["mc","‹On est en retard› means…","We're late.","We were late.","Are you late?","Don't be late.","‹on› is the everyday we, with the ‹il› form ‹est›."],
+      ["mc","‹T'as faim?› is short for…","Tu as faim?","Tu es faim?","T'es faim?","Tu avais faim?","‹t'as› is spoken ‹tu as›, and hunger uses ‹avoir›."],
+      ["mc","‹Y a un problème?› is short for…","Il y a un problème?","Il a un problème?","Tu as un problème?","Il est un problème?","‹y a› is spoken ‹il y a›: there is."],
+      ["mc","Your friend asks ‹On mange ensemble?› You agree:","Ouais, ça marche.","Je sais pas.","C'est pas grave.","Pas de quoi.","‹Ouais, ça marche› means yeah, sounds good."],
+      ["or","We're tired (use ‹on›; a group of men)","On est fatigués","sommes","‹on› takes the ‹il› form: ‹est›, not ‹sommes›."],
+      ["or","Shall we go to the movies? (use ‹on›)","On va au cinéma","allons","‹on› takes the ‹il› form, ‹va›, and ‹à› + ‹le› contracts to ‹au›."],
+      ["or","I don't know (spoken)","Je sais pas","suis","Spoken French drops ‹ne› and keeps ‹pas›: ‹je sais pas›."],
+      ["fi","On __ fatigués.","We're tired.","est","sommes|es|sont","‹on› takes the ‹il› form: ‹on est›."],
+      ["fi","C'est __ grave.","It's no big deal. (spoken)","pas","ne|n'|non","In speech ‹ne› drops, but ‹pas› stays."],
+      ["fi","__ a pas de problème.","There's no problem. (spoken)","Y|Il y","Il|Elle|On","‹y a› is spoken ‹il y a›: there is."],
+      ["ty","We're going to the park. (use ‹on›)","On va au parc.","‹aller› · ‹le parc›","allons","‹on› takes the ‹il› form: ‹on va›, not ‹on allons›."],
+      ["ty","We're tired. (use ‹on›; you are all women)","On est fatiguées.","‹être› · ‹fatigué›","sommes fatigués","‹on› takes the ‹il› form, ‹est›, but the adjective agrees with the real group: ‹fatiguées›."],
+      ["ty","I don't know. (spoken)","Je sais pas.|Je ne sais pas.|J'sais pas.","‹savoir› · ‹pas›","suis","Spoken French drops ‹ne›; the written ‹Je ne sais pas› is right too."]
     ]
   },
   {
     id: "imparfait",
-    title: "Imparfait vs passé composé",
+    title: "‹Imparfait› vs ‹passé composé›",
     blurb: "Describe the past (the weather, how things were, what you used to do) and set it against what happened.",
     deck: "Days, dates and weather",
     body: `
-<p>The passé composé tells what happened: one finished event. French has a second past, the <b>imparfait</b>, for the background: what was going on, what things were like, and what used to happen again and again. English spreads this over "was raining", "used to play" and plain "was".</p>
+<p>The ‹passé composé› tells what happened: one finished event. French has a second past, the <b>imparfait</b>, for the background: what was going on, what things were like, and what used to happen again and again. English spreads this over "was raining", "used to play" and plain "was".</p>
 <h3>Building it</h3>
 <p>Take the <b>nous</b> form of the present, remove <b>-ons</b>, and add the endings below. This works for almost every verb, even irregular ones: <b>nous faisons</b> → <b>je faisais</b>, <b>nous prenons</b> → <b>je prenais</b>. The one exception is <b>être</b>, whose stem is <b>ét-</b>.</p>
-<div class="tbl"><table><tr><th></th><th>parler (nous parlons)</th><th>être</th></tr><tr><td>je</td><td class="k">parlais</td><td class="k">étais</td></tr><tr><td>tu</td><td class="k">parlais</td><td class="k">étais</td></tr><tr><td>il, elle, on</td><td class="k">parlait</td><td class="k">était</td></tr><tr><td>nous</td><td class="k">parlions</td><td class="k">étions</td></tr><tr><td>vous</td><td class="k">parliez</td><td class="k">étiez</td></tr><tr><td>ils, elles</td><td class="k">parlaient</td><td class="k">étaient</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>‹parler› (‹nous parlons›)</th><th>‹être›</th></tr><tr><td>‹je›</td><td class="k">parlais</td><td class="k">étais</td></tr><tr><td>‹tu›</td><td class="k">parlais</td><td class="k">étais</td></tr><tr><td>‹il›, ‹elle›, ‹on›</td><td class="k">parlait</td><td class="k">était</td></tr><tr><td>‹nous›</td><td class="k">parlions</td><td class="k">étions</td></tr><tr><td>‹vous›</td><td class="k">parliez</td><td class="k">étiez</td></tr><tr><td>‹ils›, ‹elles›</td><td class="k">parlaient</td><td class="k">étaient</td></tr></table></div>
 <p>Four of the six forms sound exactly the same. Only the spelling shows who is talking.</p>
 <h3>Background and description</h3>
-<p>Weather, time, feelings and what a place was like go in the imparfait. Three phrases you will use constantly: <b>c'était</b> (it was), <b>il y avait</b> (there was, there were), <b>il faisait</b> (the weather was).</p>
+<p>Weather, time, feelings and what a place was like go in the ‹imparfait›. Three phrases you will use constantly: <b>c'était</b> (it was), <b>il y avait</b> (there was, there were), <b>il faisait</b> (the weather was).</p>
 {{ex:Il faisait beau.|eel fuh-zeh boh|The weather was nice.}}
 {{ex:C'était super.|say-teh sew-pehr|It was great.}}
 {{ex:Il y avait du monde.|eel ee ah-veh dew mohNd|It was crowded.}}
-<p>The same goes for the <b>avoir</b> expressions from earlier lessons. English says "I was hungry"; French keeps <b>avoir</b> and puts it in the imparfait.</p>
+<p>The same goes for the <b>avoir</b> expressions from earlier lessons. English says "I was hungry"; French keeps <b>avoir</b> and puts it in the ‹imparfait›.</p>
 {{ex:J'avais froid.|zhah-veh frwah|I was cold.}}
 <h3>Habits</h3>
-<p>Where English says "used to" or "would" for a repeated action, French uses the imparfait. Words like <b>souvent</b> (often), <b>tous les jours</b> (every day) and <b>le samedi</b> (on Saturdays) are good signs that you need it.</p>
+<p>Where English says "used to" or "would" for a repeated action, French uses the ‹imparfait›. Words like <b>souvent</b> (often), <b>tous les jours</b> (every day) and <b>le samedi</b> (on Saturdays) are good signs that you need it.</p>
 {{ex:Quand j'étais petit, je jouais au foot.|kahN zhay-teh puh-tee zhuh zhweh oh foot|When I was little, I used to play soccer.}}
 {{ex:J'habitais à Lyon.|zhah-bee-teh ah lyohN|I lived in Lyon.}}
 <h3>The two together</h3>
-<p>In a story, the imparfait sets the scene and the passé composé moves the action forward. Ask yourself: is it a single event that happened, or the situation around it? A useful picture: the imparfait is the film running in the background, and the passé composé is the moment something happens on screen.</p>
+<p>In a story, the ‹imparfait› sets the scene and the ‹passé composé› moves the action forward. Ask yourself: is it a single event that happened, or the situation around it? A useful picture: the ‹imparfait› is the film running in the background, and the ‹passé composé› is the moment something happens on screen.</p>
 {{ex:Il pleuvait quand je suis arrivé.|eel pluh-veh kahN zhuh swee zah-ree-vay|It was raining when I arrived.}}
-<div class="tip"><b>Most common mistake:</b> using the passé composé for a description because English says "was". <b>Quand j'ai été petit…</b> → <b>Quand j'étais petit…</b></div>
+<div class="tip"><strong>Most common mistake:</strong> using the ‹passé composé› for a description because English says "was". <b>Quand j'ai été petit…</b> → <b>Quand j'étais petit…</b></div>
 `,
     check: [
-      ["Which ending goes with ils in the imparfait?",["-ait","-aient","-ions","-iez"],1,"ils takes -aient: ils parlaient. It sounds like -ais and -ait."],
-      ["Il pleuvait quand je suis arrivé. Why is pleuvait in the imparfait?",["It's the background: what was going on","It happened once and was over","It's about the future","pleuvoir has no passé composé"],0,"The rain is the scene; the arrival is the event, in the passé composé."],
-      ["How do you say 'When I was little'?",["Quand j'ai été petit","Quand je suis petit","Quand je vais être petit","Quand j'étais petit"],3,"A description of how things were takes the imparfait: j'étais."]
+      ["Which ending goes with ‹ils› in the ‹imparfait›?",["-ait","-aient","-ions","-iez"],1,"‹ils› takes ‹-aient›: ‹ils parlaient›. It sounds like ‹-ais› and ‹-ait›."],
+      ["‹Il pleuvait quand je suis arrivé›. Why is ‹pleuvait› in the ‹imparfait›?",["It's the background: what was going on","It happened once and was over","It's about the future","‹pleuvoir› has no ‹passé composé›"],0,"The rain is the scene; the arrival is the event, in the ‹passé composé›."],
+      ["How do you say 'When I was little'?",["Quand j'ai été petit","Quand je suis petit","Quand je vais être petit","Quand j'étais petit"],3,"A description of how things were takes the ‹imparfait›: ‹j'étais›."]
     ],
     practice: [
-      ["mc","'It was raining.' =","Il pleuvait.","Il pleut.","Il va pleuvoir.","Il pleuvais.","Something that was going on takes the imparfait: il pleuvait."],
-      ["mc","'The weather was nice.' =","Il faisait beau.","Il était beau.","Il avait beau.","Il fait beau.","Weather uses faire, and a past description takes the imparfait: il faisait beau."],
-      ["mc","'We lived in Lyon.' (for years) =","Nous habitions à Lyon.","Nous habitons à Lyon.","Nous habitaient à Lyon.","Nous habitais à Lyon.","The nous form of the imparfait ends in -ions: habitions."],
-      ["mc","'On Saturdays, I used to go biking.' =","Le samedi, je faisais du vélo.","Samedi, j'ai fait du vélo.","Samedi, je vais faire du vélo.","Le samedi, je fais du vélo.","A past habit takes the imparfait, and le samedi means every Saturday."],
-      ["mc","'It was great!' =","C'était super!","C'étais super!","Ce était super!","C'est super!","c'est becomes c'était, from the stem ét-."],
-      ["or","We were tired (use nous; men or a mixed group)","Nous étions fatigués","étaient","nous takes the nous form, étions, and fatigués is a plural adjective."],
-      ["or","It was raining when I arrived (said by a woman; start with Il)","Il pleuvait quand je suis arrivée","arrivé","arriver takes être, so the participle agrees with je: a woman writes arrivée."],
-      ["or","My grandmother lived in Nice","Ma grand-mère habitait à Nice","habitaient","ma grand-mère is one person, so the verb takes the il form: habitait."],
-      ["fi","Quand j'étais petit, je __ au foot.","When I was little, I used to play soccer.","jouais","jouait|joue|jouons","A past habit takes the imparfait; the je form ends in -ais."],
-      ["fi","Il y __ du monde.","It was crowded.","avait","était|avaient|est","il y a becomes il y avait in the imparfait."],
-      ["fi","Il __ quand je suis sorti.","It was raining when I went out.","pleuvait","pleut|pleuvais|pleuvoir","The background, what was going on, takes the imparfait: il pleuvait."],
-      ["ty","We were at home. (use nous)","Nous étions à la maison.|Nous étions chez nous.","être · la maison","étaient","nous takes the nous form of the imparfait: étions."],
-      ["ty","They used to live in Paris. (men or a mixed group)","Ils habitaient à Paris.|Ils habitaient Paris.","habiter · Paris","habitait","ils takes the ils form, habitaient, with the silent verb ending -aient."],
-      ["ty","The weather was nice.","Il faisait beau.","faire · beau","était","Weather uses faire: in the past, il faisait beau."]
+      ["mc","'It was raining.' =","Il pleuvait.","Il pleut.","Il va pleuvoir.","Il pleuvais.","Something that was going on takes the ‹imparfait›: ‹il pleuvait›."],
+      ["mc","'The weather was nice.' =","Il faisait beau.","Il était beau.","Il avait beau.","Il fait beau.","Weather uses ‹faire›, and a past description takes the ‹imparfait›: ‹il faisait beau›."],
+      ["mc","'We lived in Lyon.' (for years) =","Nous habitions à Lyon.","Nous habitons à Lyon.","Nous habitaient à Lyon.","Nous habitais à Lyon.","The ‹nous› form of the ‹imparfait› ends in ‹-ions›: ‹habitions›."],
+      ["mc","'On Saturdays, I used to go biking.' =","Le samedi, je faisais du vélo.","Samedi, j'ai fait du vélo.","Samedi, je vais faire du vélo.","Le samedi, je fais du vélo.","A past habit takes the ‹imparfait›, and ‹le samedi› means every Saturday."],
+      ["mc","'It was great!' =","C'était super!","C'étais super!","Ce était super!","C'est super!","‹c'est› becomes ‹c'était›, from the stem ‹ét-›."],
+      ["or","We were tired (use ‹nous›; men or a mixed group)","Nous étions fatigués","étaient","‹nous› takes the ‹nous› form, ‹étions›, and ‹fatigués› is a plural adjective."],
+      ["or","It was raining when I arrived (said by a woman; start with ‹Il›)","Il pleuvait quand je suis arrivée","arrivé","‹arriver› takes ‹être›, so the participle agrees with ‹je›: a woman writes ‹arrivée›."],
+      ["or","My grandmother lived in Nice","Ma grand-mère habitait à Nice","habitaient","‹ma grand-mère› is one person, so the verb takes the ‹il› form: ‹habitait›."],
+      ["fi","Quand j'étais petit, je __ au foot.","When I was little, I used to play soccer.","jouais","jouait|joue|jouons","A past habit takes the ‹imparfait›; the ‹je› form ends in ‹-ais›."],
+      ["fi","Il y __ du monde.","It was crowded.","avait","était|avaient|est","‹il y a› becomes ‹il y avait› in the ‹imparfait›."],
+      ["fi","Il __ quand je suis sorti.","It was raining when I went out.","pleuvait","pleut|pleuvais|pleuvoir","The background, what was going on, takes the ‹imparfait›: ‹il pleuvait›."],
+      ["ty","We were at home. (use ‹nous›)","Nous étions à la maison.|Nous étions chez nous.","‹être› · ‹la maison›","étaient","‹nous› takes the ‹nous› form of the ‹imparfait›: ‹étions›."],
+      ["ty","They used to live in Paris. (men or a mixed group)","Ils habitaient à Paris.|Ils habitaient Paris.","‹habiter› · ‹Paris›","habitait","‹ils› takes the ‹ils› form, ‹habitaient›, with the silent verb ending ‹-aient›."],
+      ["ty","The weather was nice.","Il faisait beau.","‹faire› · ‹beau›","était","Weather uses ‹faire›: in the past, ‹il faisait beau›."]
     ]
   },
   {
     id: "futur",
-    title: "Futur simple",
-    blurb: "Talk about the future in one word (je travaillerai, je serai) and use the future after quand.",
+    title: "‹Futur simple›",
+    blurb: "Talk about the future in one word (‹je travaillerai›, ‹je serai›) and use the future after ‹quand›.",
     deck: "Work and school",
     body: `
-<p>You already know one way to talk about the future: <b>je vais travailler</b>, "I'm going to work". French has a second one, the <b>futur simple</b>, which English translates with "will": <b>je travaillerai</b>, "I'll work". In conversation, <b>je vais</b> + verb is very common for plans. The futur simple is common too, especially for things further ahead, for predictions and promises, and in writing.</p>
+<p>You already know one way to talk about the future: <b>je vais travailler</b>, "I'm going to work". French has a second one, the <b>futur simple</b>, which English translates with "will": <b>je travaillerai</b>, "I'll work". In conversation, <b>je vais</b> + verb is very common for plans. The ‹futur simple› is common too, especially for things further ahead, for predictions and promises, and in writing.</p>
 <h3>Building it</h3>
-<p>Start from the infinitive and add endings that look like the present of <b>avoir</b>: <b>-ai, -as, -a, -ons, -ez, -ont</b>. Verbs in <b>-re</b> drop their final <b>e</b> first: <b>prendre</b> → <b>je prendrai</b>. Because the endings go on the whole infinitive, you hear an <b>r</b> before the ending in every form: that <b>r</b> is the sign of the future.</p>
-<div class="tbl"><table><tr><th></th><th>travailler</th><th>prendre</th></tr><tr><td>je</td><td class="k">travaillerai</td><td class="k">prendrai</td></tr><tr><td>tu</td><td class="k">travailleras</td><td class="k">prendras</td></tr><tr><td>il, elle, on</td><td class="k">travaillera</td><td class="k">prendra</td></tr><tr><td>nous</td><td class="k">travaillerons</td><td class="k">prendrons</td></tr><tr><td>vous</td><td class="k">travaillerez</td><td class="k">prendrez</td></tr><tr><td>ils, elles</td><td class="k">travailleront</td><td class="k">prendront</td></tr></table></div>
+<p>Start from the infinitive and add endings that look like the present of <b>avoir</b>: <b>-ai</b>, <b>-as</b>, <b>-a</b>, <b>-ons</b>, <b>-ez</b>, <b>-ont</b>. Verbs in <b>-re</b> drop their final <b>e</b> first: <b>prendre</b> → <b>je prendrai</b>. Because the endings go on the whole infinitive, you hear an <b>r</b> before the ending in every form: that <b>r</b> is the sign of the future.</p>
+<div class="tbl"><table><tr><th></th><th>‹travailler›</th><th>‹prendre›</th></tr><tr><td>‹je›</td><td class="k">travaillerai</td><td class="k">prendrai</td></tr><tr><td>‹tu›</td><td class="k">travailleras</td><td class="k">prendras</td></tr><tr><td>‹il›, ‹elle›, ‹on›</td><td class="k">travaillera</td><td class="k">prendra</td></tr><tr><td>‹nous›</td><td class="k">travaillerons</td><td class="k">prendrons</td></tr><tr><td>‹vous›</td><td class="k">travaillerez</td><td class="k">prendrez</td></tr><tr><td>‹ils›, ‹elles›</td><td class="k">travailleront</td><td class="k">prendront</td></tr></table></div>
 {{ex:Je travaillerai à Lyon.|zhuh trah-vahy-ray ah lyohN|I'll work in Lyon.}}
 <h3>Irregular stems</h3>
-<p>A few very common verbs change the stem, but the endings stay the same. Learn these six: <b>être</b> → <b>ser-</b>, <b>avoir</b> → <b>aur-</b>, <b>aller</b> → <b>ir-</b>, <b>faire</b> → <b>fer-</b>, <b>pouvoir</b> → <b>pourr-</b>, <b>venir</b> → <b>viendr-</b>. Verbs not on this list follow the regular pattern, so the futur simple has far fewer surprises than the present tense.</p>
+<p>A few very common verbs change the stem, but the endings stay the same. Learn these six: <b>être</b> → <b>ser-</b>, <b>avoir</b> → <b>aur-</b>, <b>aller</b> → <b>ir-</b>, <b>faire</b> → <b>fer-</b>, <b>pouvoir</b> → <b>pourr-</b>, <b>venir</b> → <b>viendr-</b>. Verbs not on this list follow the regular pattern, so the ‹futur simple› has far fewer surprises than the present tense.</p>
 {{ex:Je serai en retard.|zhuh suh-ray ahN ruh-tahr|I'll be late.}}
 {{ex:Ils auront une réunion lundi.|eel zoh-rohN ewn ray-ew-nyohN luhN-dee|They'll have a meeting on Monday.}}
 {{ex:Demain, il fera beau.|duh-maN eel fuh-rah boh|Tomorrow the weather will be nice.}}
 {{ex:On ira au cinéma.|ohN nee-rah oh see-nay-mah|We'll go to the movies.}}
 <p>Because <b>avoir</b> becomes <b>aur-</b>, "there will be" is <b>il y aura</b>, just as "there was" was <b>il y avait</b>.</p>
 {{ex:Il y aura du monde.|eel ee oh-rah dew mohNd|There will be a lot of people.}}
-<h3>quand + future</h3>
+<h3>‹quand› + future</h3>
 <p>English says "When I'm in Paris, I'll visit the Louvre", with the present after "when". French is more logical: if the time is in the future, both verbs are in the future. If you forget, people will still understand you, but it is one of the clearest signs of an English speaker.</p>
 {{ex:Quand je serai à Paris, je visiterai le Louvre.|kahN zhuh suh-ray ah pah-ree zhuh vee-zeet-ray luh loovr|When I'm in Paris, I'll visit the Louvre.}}
-<h3>-ai, not -ais</h3>
+<h3>‹-ai›, not ‹-ais›</h3>
 <p>The <b>je</b> form ends in <b>-ai</b>. Don't add an <b>s</b>: <b>je voudrais</b> (I'd like) is a different form, the one you use to order politely. In speech the two can sound alike, so the spelling is what you need to watch.</p>
-<div class="tip"><b>Most common mistake:</b> the present after <b>quand</b>, as in English. <b>Quand je suis à Paris, je visiterai le Louvre</b> → <b>Quand je serai à Paris, je visiterai le Louvre</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> the present after <b>quand</b>, as in English. <b>Quand je suis à Paris, je visiterai le Louvre</b> → <b>Quand je serai à Paris, je visiterai le Louvre</b>.</div>
 `,
     check: [
-      ["How do you say 'I'll work'?",["Je travailleré","Je travaillerai","Je travailler","Je travaillerons"],1,"Infinitive + -ai for je: je travaillerai."],
-      ["'When I'm in Paris, I'll visit the Louvre.' Which is right?",["Quand je suis à Paris, je visiterai le Louvre.","Quand j'étais à Paris, je visiterai le Louvre.","Quand je serai à Paris, je visite le Louvre.","Quand je serai à Paris, je visiterai le Louvre."],3,"After quand, French uses the future when the time is in the future: je serai."],
-      ["What is the future stem of être?",["ser-","êtr-","ét-","aur-"],0,"être has the future stem ser-: je serai, tu seras."]
+      ["How do you say 'I'll work'?",["Je travailleré","Je travaillerai","Je travailler","Je travaillerons"],1,"Infinitive + ‹-ai› for ‹je›: ‹je travaillerai›."],
+      ["'When I'm in Paris, I'll visit the Louvre.' Which is right?",["Quand je suis à Paris, je visiterai le Louvre.","Quand j'étais à Paris, je visiterai le Louvre.","Quand je serai à Paris, je visite le Louvre.","Quand je serai à Paris, je visiterai le Louvre."],3,"After ‹quand›, French uses the future when the time is in the future: ‹je serai›."],
+      ["What is the future stem of ‹être›?",["ser-","êtr-","ét-","aur-"],0,"‹être› has the future stem ‹ser-›: ‹je serai›, ‹tu seras›."]
     ],
     practice: [
-      ["mc","'I'll be late.' =","Je serai en retard.","J'étais en retard.","Je suis en retard.","J'aurai en retard.","être has the future stem ser-: je serai."],
-      ["mc","'Tomorrow the weather will be nice.' =","Demain, il fera beau.","Demain, il faisait beau.","Demain, il sera beau.","Demain, il a fait beau.","Weather uses faire, whose future stem is fer-: il fera."],
-      ["mc","'We'll go to the movies.' (use nous) =","Nous irons au cinéma.","Nous allerons au cinéma.","Nous irez au cinéma.","Nous allions au cinéma.","aller has the future stem ir-, and the nous ending is -ons."],
-      ["mc","'They'll have a meeting.' =","Ils auront une réunion.","Ils avront une réunion.","Ils auront un réunion.","Ils aurons une réunion.","avoir has the future stem aur-, ils takes -ont, and réunion is feminine."],
-      ["mc","'When I'm in Paris next year, …' =","Quand je serai à Paris l'année prochaine, …","Quand je suis à Paris l'année prochaine, …","Quand j'étais à Paris l'année prochaine, …","Quand je serais à Paris l'année prochaine, …","After quand, French uses the future when the time is in the future."],
-      ["or","We'll be in Lyon (use nous)","Nous serons à Lyon","seront","nous takes the nous form of the future: serons, verb ending -ons."],
-      ["or","They'll have a meeting","Ils auront une réunion","un","réunion is feminine, so the article is une."],
-      ["or","I'll visit the Louvre","Je visiterai le Louvre","visitera","The je form of the future ends in -ai: visiterai."],
-      ["fi","Demain, nous __ le train.","Tomorrow we'll take the train. (futur simple)","prendrons","prendront|prendrez|prendre","prendre drops its final e, and nous takes -ons: prendrons."],
-      ["fi","Quand tu __ à Paris, tu visiteras le Louvre.","When you're in Paris, you'll visit the Louvre.","seras","es|étais|serai","After quand, with a future time, use the future: tu seras."],
-      ["fi","Je __ te voir demain.","I'll be able to see you tomorrow.","pourrai","pourra|pouvrai|pourront","pouvoir has the future stem pourr-; the je form ends in -ai."],
-      ["ty","We'll be at home. (use nous; futur simple)","Nous serons à la maison.|Nous serons chez nous.","être · la maison","seront","nous takes the nous form of the future: serons."],
-      ["ty","They'll have a meeting on Monday. (men or a mixed group; futur simple)","Ils auront une réunion lundi.|Lundi, ils auront une réunion.","avoir · une réunion · lundi","aura un","ils takes the ils form, auront, and réunion is feminine: une réunion."],
-      ["ty","Tomorrow the weather will be nice. (futur simple)","Demain, il fera beau.|Il fera beau demain.","faire · beau · demain","faire","faire has the future stem fer-: il fera beau."]
+      ["mc","'I'll be late.' =","Je serai en retard.","J'étais en retard.","Je suis en retard.","J'aurai en retard.","‹être› has the future stem ‹ser-›: ‹je serai›."],
+      ["mc","'Tomorrow the weather will be nice.' =","Demain, il fera beau.","Demain, il faisait beau.","Demain, il sera beau.","Demain, il a fait beau.","Weather uses ‹faire›, whose future stem is ‹fer-›: ‹il fera›."],
+      ["mc","'We'll go to the movies.' (use ‹nous›) =","Nous irons au cinéma.","Nous allerons au cinéma.","Nous irez au cinéma.","Nous allions au cinéma.","‹aller› has the future stem ‹ir-›, and the ‹nous› ending is ‹-ons›."],
+      ["mc","'They'll have a meeting.' =","Ils auront une réunion.","Ils avront une réunion.","Ils auront un réunion.","Ils aurons une réunion.","‹avoir› has the future stem ‹aur-›, ‹ils› takes ‹-ont›, and ‹réunion› is feminine."],
+      ["mc","'When I'm in Paris next year, …' =","Quand je serai à Paris l'année prochaine, …","Quand je suis à Paris l'année prochaine, …","Quand j'étais à Paris l'année prochaine, …","Quand je serais à Paris l'année prochaine, …","After ‹quand›, French uses the future when the time is in the future."],
+      ["or","We'll be in Lyon (use ‹nous›)","Nous serons à Lyon","seront","‹nous› takes the ‹nous› form of the future: ‹serons›, verb ending ‹-ons›."],
+      ["or","They'll have a meeting","Ils auront une réunion","un","‹réunion› is feminine, so the article is ‹une›."],
+      ["or","I'll visit the Louvre","Je visiterai le Louvre","visitera","The ‹je› form of the future ends in ‹-ai›: ‹visiterai›."],
+      ["fi","Demain, nous __ le train.","Tomorrow we'll take the train. (‹futur simple›)","prendrons","prendront|prendrez|prendre","‹prendre› drops its final ‹e›, and ‹nous› takes ‹-ons›: ‹prendrons›."],
+      ["fi","Quand tu __ à Paris, tu visiteras le Louvre.","When you're in Paris, you'll visit the Louvre.","seras","es|étais|serai","After ‹quand›, with a future time, use the future: ‹tu seras›."],
+      ["fi","Je __ te voir demain.","I'll be able to see you tomorrow.","pourrai","pourra|pouvrai|pourront","‹pouvoir› has the future stem ‹pourr-›; the ‹je› form ends in ‹-ai›."],
+      ["ty","We'll be at home. (use ‹nous›; ‹futur simple›)","Nous serons à la maison.|Nous serons chez nous.","‹être› · ‹la maison›","seront","‹nous› takes the ‹nous› form of the future: ‹serons›."],
+      ["ty","They'll have a meeting on Monday. (men or a mixed group; ‹futur simple›)","Ils auront une réunion lundi.|Lundi, ils auront une réunion.","‹avoir› · ‹une réunion› · ‹lundi›","aura un","‹ils› takes the ‹ils› form, ‹auront›, and ‹réunion› is feminine: ‹une réunion›."],
+      ["ty","Tomorrow the weather will be nice. (‹futur simple›)","Demain, il fera beau.|Il fera beau demain.","‹faire› · ‹beau› · ‹demain›","faire","‹faire› has the future stem ‹fer-›: ‹il fera beau›."]
     ]
   },
   {
     id: "object-pronouns",
-    title: "Pronouns le, lui, en, y",
+    title: "Pronouns ‹le›, ‹lui›, ‹en›, ‹y›",
     blurb: "Say 'I'll take it', 'I'm calling her', 'I'd like two' and 'I'm going there' with the pronoun in the right place.",
     deck: "Shopping and clothes",
     body: `
-<p>English puts "it", "them" and "her" after the verb: "I'll take it." French puts these small pronouns <b>before</b> the conjugated verb: <b>Je la prends</b>, literally "I it take". This is the main habit to build. The pronouns themselves are short and easy; what takes practice is putting them in the French position without thinking.</p>
-<h3>it, them: le, la, les</h3>
+<p>English puts "it", "them" and "her" after the verb: "I'll take it." French puts these small pronouns <strong>before</strong> the conjugated verb: <b>Je la prends</b>, literally "I it take". This is the main habit to build. The pronouns themselves are short and easy; what takes practice is putting them in the French position without thinking.</p>
+<h3>it, them: ‹le›, ‹la›, ‹les›</h3>
 <p>For "it" or "him" or "her" as the object, French uses <b>le</b> or <b>la</b>, and the choice agrees with the gender of the thing or person you mean, not with the English word "it". For "them", use <b>les</b>. Before a vowel, <b>le</b> and <b>la</b> become <b>l'</b>. So to French grammar a shirt is "her": <b>la chemise</b>, <b>je la prends</b>. Getting the gender right matters as much as getting the place right.</p>
 <div class="tbl"><table><tr><th>The thing</th><th>I'll take it / them</th></tr><tr><td class="k">le pull</td><td class="k">Je le prends.</td></tr><tr><td class="k">la veste</td><td class="k">Je la prends.</td></tr><tr><td class="k">les chaussures</td><td class="k">Je les prends.</td></tr></table></div>
 {{ex:Je la prends.|zhuh lah prahN|I'll take it.}}
 {{ex:Je les prends.|zhuh lay prahN|I'll take them.}}
-<h3>to him, to her, to them: lui, leur</h3>
+<h3>to him, to her, to them: ‹lui›, ‹leur›</h3>
 <p>Verbs used with <b>à</b>, such as <b>parler à</b>, <b>téléphoner à</b> and <b>donner à</b>, take <b>lui</b> (to him or to her: one word for both) and <b>leur</b> (to them). These two do not show gender, and this <b>leur</b> never takes an <b>-s</b>.</p>
 {{ex:Je lui parle.|zhuh lwee pahrl|I'm talking to him. I'm talking to her.}}
 {{ex:Je leur téléphone.|zhuh luhr tay-lay-fohn|I'm calling them.}}
-<h3>some, of it: en</h3>
-<p><b>en</b> replaces a noun with <b>du, de la, des</b>, or a noun after a number. English can just say "I'd like two"; French needs <b>en</b>.</p>
+<h3>some, of it: ‹en›</h3>
+<p><b>en</b> replaces a noun with <b>du</b>, <b>de la</b>, <b>des</b>, or a noun after a number. English can just say "I'd like two"; French needs <b>en</b>.</p>
 {{ex:J'en voudrais deux.|zhahN voo-dreh duh|I'd like two.}}
-<h3>there: y</h3>
+<h3>there: ‹y›</h3>
 <p><b>y</b> replaces <b>à</b> + a place. English can leave "there" out ("I'm going"); French cannot. You will hear it all the time in <b>On y va?</b>, "Shall we go?"</p>
 {{ex:J'y vais.|zhee veh|I'm going.}}
-<h3>Infinitives and ne … pas</h3>
+<h3>Infinitives and ‹ne … pas›</h3>
 <p>With a verb + infinitive, the pronoun goes right before the infinitive it belongs to. With <b>ne … pas</b>, it stays glued to the verb, inside the <b>ne</b>.</p>
 {{ex:Je vais le prendre.|zhuh veh luh prahNdr|I'm going to take it.}}
 {{ex:Je ne la prends pas.|zhuh nuh lah prahN pah|I'm not taking it.}}
-<p>In the passé composé, the conjugated verb is the helper, so the pronoun goes before <b>avoir</b> or <b>être</b>.</p>
+<p>In the ‹passé composé›, the conjugated verb is the helper, so the pronoun goes before <b>avoir</b> or <b>être</b>.</p>
 {{ex:Le film? Je l'ai vu.|luh feelm zhuh lay vew|The movie? I saw it.}}
-<div class="tip"><b>Most common mistake:</b> the English order. <b>Je prends le</b> → <b>Je le prends</b>, and for a feminine thing, <b>Je le prends</b> (la veste) → <b>Je la prends</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> the English order. <b>Je prends le</b> → <b>Je le prends</b>, and for a feminine thing, <b>Je le prends</b> (‹la veste›) → <b>Je la prends</b>.</div>
 `,
     check: [
-      ["You're holding a jacket (la veste). 'I'll take it' =",["Je le prends.","Je prends la.","Je la prends.","Je prends le."],2,"veste is feminine, so it's la, and it goes before the verb."],
-      ["Which pronoun means 'to her'?",["la","lui","elle","leur"],1,"Verbs with à take lui for to him or to her."],
-      ["A server asks Vous voulez du café? How do you say 'Yes, I'd like some'?",["Oui, j'en voudrais.","Oui, je le voudrais.","Oui, j'y voudrais.","Oui, je voudrais en."],0,"en replaces du + noun and goes before the verb: j'en voudrais."]
+      ["You're holding a jacket (‹la veste›). 'I'll take it' =",["Je le prends.","Je prends la.","Je la prends.","Je prends le."],2,"‹veste› is feminine, so it's ‹la›, and it goes before the verb."],
+      ["Which pronoun means 'to her'?",["la","lui","elle","leur"],1,"Verbs with ‹à› take ‹lui› for to him or to her."],
+      ["A server asks ‹Vous voulez du café?› How do you say 'Yes, I'd like some'?",["Oui, j'en voudrais.","Oui, je le voudrais.","Oui, j'y voudrais.","Oui, je voudrais en."],0,"‹en› replaces ‹du› + noun and goes before the verb: ‹j'en voudrais›."]
     ],
     practice: [
-      ["mc","Le pull? 'I'll take it.' =","Je le prends.","Je la prends.","Je prends le.","Je lui prends.","pull is masculine, so it's le, before the verb."],
-      ["mc","Les chaussures? 'I'll take them.' =","Je les prends.","Je le prends.","Je prends les.","Je leur prends.","les stands for a plural thing and goes before the verb."],
-      ["mc","'I'm calling her.' =","Je lui téléphone.","Je la téléphone.","Je téléphone lui.","Je elle téléphone.","téléphoner takes à, so to her is lui, before the verb."],
-      ["mc","Tu vas à la gare? 'Yes, I'm going.' =","Oui, j'y vais.","Oui, je vais.","Oui, j'en vais.","Oui, je vais y.","y replaces à + a place and goes before the verb."],
-      ["mc","Vous voulez des pommes? 'I'd like three.' =","J'en voudrais trois.","Je voudrais trois.","Je les voudrais trois.","J'y voudrais trois.","With a number and no noun, French adds en: j'en voudrais trois."],
-      ["or","I'll take it (the jacket, la veste)","Je la prends","le","veste is feminine, so the pronoun is la."],
-      ["or","I'm going to take them (the shoes)","Je vais les prendre","le","chaussures is plural, so the pronoun takes the plural form les, before the infinitive."],
-      ["or","I'm not taking it (the sweater, le pull)","Je ne le prends pas","la","pull is masculine: le, inside ne … pas."],
-      ["fi","La robe? Je __achète.","The dress? I'll buy it.","l'","le|la|lui","la becomes l' before a vowel: je l'achète."],
-      ["fi","Tu parles à Léa? Oui, je __ parle.","Are you talking to Léa? Yes, I'm talking to her.","lui","la|le|leur","parler à takes lui: to her."],
-      ["fi","Il y a du pain? Oui, il y __ a.","Is there any bread? Yes, there is.","en","le|y|lui","en replaces du + noun: il y en a."],
-      ["ty","I'll take it. (la chemise)","Je la prends.|Je vais la prendre.","prendre · la chemise","le","chemise is feminine, so the pronoun agrees: la."],
-      ["ty","We're going to buy them. (les chaussures; use nous)","Nous allons les acheter.","aller · acheter · les chaussures","allez le","nous takes the nous form, allons, and les is the plural form for chaussures."],
-      ["ty","I'm calling them. (mes parents; use téléphoner)","Je leur téléphone.","téléphoner à · mes parents","les","téléphoner takes à, so to them is leur."]
+      ["mc","‹Le pull?› 'I'll take it.' =","Je le prends.","Je la prends.","Je prends le.","Je lui prends.","‹pull› is masculine, so it's ‹le›, before the verb."],
+      ["mc","‹Les chaussures?› 'I'll take them.' =","Je les prends.","Je le prends.","Je prends les.","Je leur prends.","‹les› stands for a plural thing and goes before the verb."],
+      ["mc","'I'm calling her.' =","Je lui téléphone.","Je la téléphone.","Je téléphone lui.","Je elle téléphone.","‹téléphoner› takes ‹à›, so to her is ‹lui›, before the verb."],
+      ["mc","‹Tu vas à la gare?› 'Yes, I'm going.' =","Oui, j'y vais.","Oui, je vais.","Oui, j'en vais.","Oui, je vais y.","‹y› replaces ‹à› + a place and goes before the verb."],
+      ["mc","‹Vous voulez des pommes?› 'I'd like three.' =","J'en voudrais trois.","Je voudrais trois.","Je les voudrais trois.","J'y voudrais trois.","With a number and no noun, French adds ‹en›: ‹j'en voudrais trois›."],
+      ["or","I'll take it (the jacket, ‹la veste›)","Je la prends","le","‹veste› is feminine, so the pronoun is ‹la›."],
+      ["or","I'm going to take them (the shoes)","Je vais les prendre","le","‹chaussures› is plural, so the pronoun takes the plural form ‹les›, before the infinitive."],
+      ["or","I'm not taking it (the sweater, ‹le pull›)","Je ne le prends pas","la","‹pull› is masculine: ‹le›, inside ‹ne› … ‹pas›."],
+      ["fi","La robe? Je __achète.","The dress? I'll buy it.","l'","le|la|lui","‹la› becomes ‹l'› before a vowel: ‹je l'achète›."],
+      ["fi","Tu parles à Léa? Oui, je __ parle.","Are you talking to Léa? Yes, I'm talking to her.","lui","la|le|leur","‹parler à› takes ‹lui›: to her."],
+      ["fi","Il y a du pain? Oui, il y __ a.","Is there any bread? Yes, there is.","en","le|y|lui","‹en› replaces ‹du› + noun: ‹il y en a›."],
+      ["ty","I'll take it. (‹la chemise›)","Je la prends.|Je vais la prendre.","‹prendre› · ‹la chemise›","le","‹chemise› is feminine, so the pronoun agrees: ‹la›."],
+      ["ty","We're going to buy them. (‹les chaussures›; use ‹nous›)","Nous allons les acheter.","‹aller› · ‹acheter› · ‹les chaussures›","allez le","‹nous› takes the ‹nous› form, ‹allons›, and ‹les› is the plural form for ‹chaussures›."],
+      ["ty","I'm calling them. (‹mes parents›; use ‹téléphoner›)","Je leur téléphone.","‹téléphoner à› · ‹mes parents›","les","‹téléphoner› takes ‹à›, so to them is ‹leur›."]
     ]
   },
   {
     id: "compare",
-    title: "Comparing: plus, moins, le plus",
+    title: "Comparing: ‹plus›, ‹moins›, ‹le plus›",
     blurb: "Compare people and things (taller than, as nice as, the best) with the adjective still agreeing.",
     deck: "People and family",
     body: `
@@ -365,88 +365,88 @@ module.exports = [
 {{ex:Ma sœur est plus grande que moi.|mah suhr eh plew grahNd kuh mwah|My sister is taller than me.}}
 {{ex:Mon frère est moins grand que mon père.|mohN frehr eh mwaN grahN kuh mohN pehr|My brother is shorter than my dad.}}
 {{ex:Léa est aussi sympa que Camille.|lay-ah eh toh-see saN-pah kuh kah-meey|Léa is as nice as Camille.}}
-<h3>better: meilleur and mieux</h3>
-<p>English "better" is two words in French. <b>bon</b> (good) becomes <b>meilleur</b>, an adjective that agrees: <b>meilleur, meilleure, meilleurs, meilleures</b>. <b>bien</b> (well) becomes <b>mieux</b>, which goes with a verb and never changes. Never say <b>plus bon</b>. The test: if you could say "good" in the sentence, use <b>meilleur</b>; if you could say "well", use <b>mieux</b>.</p>
+<h3>better: ‹meilleur› and ‹mieux›</h3>
+<p>English "better" is two words in French. <b>bon</b> (good) becomes <b>meilleur</b>, an adjective that agrees: <b>meilleur</b>, <b>meilleure</b>, <b>meilleurs</b>, <b>meilleures</b>. <b>bien</b> (well) becomes <b>mieux</b>, which goes with a verb and never changes. Never say <b>plus bon</b>. The test: if you could say "good" in the sentence, use <b>meilleur</b>; if you could say "well", use <b>mieux</b>.</p>
 {{ex:Ce café est meilleur.|suh kah-fay eh meh-yuhr|This coffee is better.}}
 {{ex:Il chante mieux que moi.|eel shahNt myuh kuh mwah|He sings better than me.}}
 <h3>more of something</h3>
 <p>To compare amounts of a thing rather than a quality, put <b>de</b> between <b>plus</b> or <b>moins</b> and the noun, with no article: <b>plus de temps</b>, "more time"; <b>moins de travail</b>, "less work". It is the same <b>de</b> that follows <b>beaucoup</b>.</p>
 {{ex:Il a plus de temps que moi.|eel ah plews duh tahN kuh mwah|He has more time than me.}}
-<h3>the most: le plus</h3>
+<h3>the most: ‹le plus›</h3>
 <p>For "the tallest" or "the most beautiful", add the article: <b>le plus</b>, <b>la plus</b>, <b>les plus</b>, agreeing with the noun. "The best" is <b>le meilleur</b> or <b>la meilleure</b>. The article agrees too, so a woman is <b>la plus grande</b> and a group is <b>les plus grands</b>. Where English says "in" after a superlative, French says <b>de</b>.</p>
 {{ex:Thomas est le plus jeune.|toh-mah eh luh plew zhuhn|Thomas is the youngest.}}
 {{ex:C'est la plus belle ville de France.|seh lah plew behl veel duh frahNs|It's the most beautiful city in France.}}
 <p>Adjectives that normally follow the noun keep that place, and the article appears twice: <b>le film le plus intéressant</b>, "the most interesting movie".</p>
-<div class="tip"><b>Most common mistake:</b> forgetting that the adjective still agrees. <b>Ma sœur est plus grand que moi</b> → <b>Ma sœur est plus grande que moi</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> forgetting that the adjective still agrees. <b>Ma sœur est plus grand que moi</b> → <b>Ma sœur est plus grande que moi</b>.</div>
 `,
     check: [
-      ["'My sister is taller than me.' Which is right?",["Ma sœur est plus grand que moi.","Ma sœur est plus grande que je.","Ma sœur est plus grande que moi.","Ma sœur est grande plus que moi."],2,"plus … que, grande agrees with sœur, and moi follows que."],
-      ["'This bread is better.' =",["Ce pain est plus bon.","Ce pain est meilleur.","Ce pain est plus meilleur.","Ce pain est bon plus."],1,"bon becomes meilleur; never plus bon."],
-      ["Which word goes with a verb: 'She sings better'?",["mieux","meilleur","meilleure","plus bon"],0,"With a verb, better is mieux: Elle chante mieux."]
+      ["'My sister is taller than me.' Which is right?",["Ma sœur est plus grand que moi.","Ma sœur est plus grande que je.","Ma sœur est plus grande que moi.","Ma sœur est grande plus que moi."],2,"‹plus› … ‹que›, ‹grande› agrees with ‹sœur›, and ‹moi› follows ‹que›."],
+      ["'This bread is better.' =",["Ce pain est plus bon.","Ce pain est meilleur.","Ce pain est plus meilleur.","Ce pain est bon plus."],1,"‹bon› becomes ‹meilleur›; never ‹plus bon›."],
+      ["Which word goes with a verb: 'She sings better'?",["mieux","meilleur","meilleure","plus bon"],0,"With a verb, better is ‹mieux›: ‹Elle chante mieux›."]
     ],
     practice: [
-      ["mc","'Léa is taller than Thomas.' =","Léa est plus grande que Thomas.","Léa est plus grand que Thomas.","Léa est plus grande de Thomas.","Léa est grande plus que Thomas.","plus … que, and grande agrees with Léa."],
-      ["mc","'This croissant is better.' =","Ce croissant est meilleur.","Ce croissant est plus bon.","Ce croissant est plus meilleur.","Ce croissant est meilleure.","bon becomes meilleur, and croissant is masculine."],
-      ["mc","'He sings better than me.' =","Il chante mieux que moi.","Il chante meilleur que moi.","Il chante plus bien que moi.","Il chante mieux que je.","With a verb, better is mieux; after que, use the stress pronoun moi."],
-      ["mc","'as … as' =","aussi … que","plus … que","moins … que","aussi … comme","aussi … que means as … as."],
-      ["mc","'Chloé is the youngest.' =","Chloé est la plus jeune.","Chloé est le plus jeune.","Chloé est plus jeune.","Chloé est la plus jeune que.","The superlative takes the article: la plus, for Chloé."],
-      ["or","My sister is taller than me","Ma sœur est plus grande que moi","grand","sœur is feminine, so the adjective agrees: grande."],
-      ["or","My brothers are shorter than my dad (use moins)","Mes frères sont moins grands que mon père","grand","frères is plural, so the plural adjective is grands."],
-      ["or","It's the best bakery in Paris","C'est la meilleure boulangerie de Paris","meilleur","boulangerie is feminine, so it's la meilleure."],
-      ["fi","Cette crêpe est __ que l'autre.","This crêpe is better than the other one.","meilleure","meilleur|mieux|plus bonne","crêpe is feminine, so better is meilleure."],
-      ["fi","Lucas parle __ vite que moi.","Lucas talks faster than me.","plus","meilleur|mieux|le plus","plus … que compares: plus vite que moi."],
-      ["fi","Elle est aussi grande __ sa mère.","She's as tall as her mother.","que","comme|de|qu'","aussi … que: the second word is always que."],
-      ["ty","My sister is older than me. (âgé = old)","Ma sœur est plus âgée que moi.|Ma soeur est plus âgée que moi.|Ma sœur est plus vieille que moi.|Ma soeur est plus vieille que moi.","sœur · âgé · plus … que","âgé je","sœur is feminine, so the adjective agrees: âgée."],
-      ["ty","Léa and Chloé are taller than Thomas.","Léa et Chloé sont plus grandes que Thomas.","grand · plus … que","est grands","Two women: the verb ending matches the subject, sont, and grandes is feminine plural."],
-      ["ty","He sings better than me.","Il chante mieux que moi.","chanter · mieux","meilleur","With a verb, better is mieux, not meilleur."]
+      ["mc","'Léa is taller than Thomas.' =","Léa est plus grande que Thomas.","Léa est plus grand que Thomas.","Léa est plus grande de Thomas.","Léa est grande plus que Thomas.","‹plus› … ‹que›, and ‹grande› agrees with Léa."],
+      ["mc","'This croissant is better.' =","Ce croissant est meilleur.","Ce croissant est plus bon.","Ce croissant est plus meilleur.","Ce croissant est meilleure.","‹bon› becomes ‹meilleur›, and ‹croissant› is masculine."],
+      ["mc","'He sings better than me.' =","Il chante mieux que moi.","Il chante meilleur que moi.","Il chante plus bien que moi.","Il chante mieux que je.","With a verb, better is ‹mieux›; after ‹que›, use the stress pronoun ‹moi›."],
+      ["mc","'as … as' =","aussi … que","plus … que","moins … que","aussi … comme","‹aussi› … ‹que› means as … as."],
+      ["mc","'Chloé is the youngest.' =","Chloé est la plus jeune.","Chloé est le plus jeune.","Chloé est plus jeune.","Chloé est la plus jeune que.","The superlative takes the article: ‹la plus›, for Chloé."],
+      ["or","My sister is taller than me","Ma sœur est plus grande que moi","grand","‹sœur› is feminine, so the adjective agrees: ‹grande›."],
+      ["or","My brothers are shorter than my dad (use ‹moins›)","Mes frères sont moins grands que mon père","grand","‹frères› is plural, so the plural adjective is ‹grands›."],
+      ["or","It's the best bakery in Paris","C'est la meilleure boulangerie de Paris","meilleur","‹boulangerie› is feminine, so it's ‹la meilleure›."],
+      ["fi","Cette crêpe est __ que l'autre.","This crêpe is better than the other one.","meilleure","meilleur|mieux|plus bonne","‹crêpe› is feminine, so better is ‹meilleure›."],
+      ["fi","Lucas parle __ vite que moi.","Lucas talks faster than me.","plus","meilleur|mieux|le plus","‹plus› … ‹que› compares: ‹plus vite que moi›."],
+      ["fi","Elle est aussi grande __ sa mère.","She's as tall as her mother.","que","comme|de|qu'","‹aussi› … ‹que›: the second word is always ‹que›."],
+      ["ty","My sister is older than me. (‹âgé› = old)","Ma sœur est plus âgée que moi.|Ma soeur est plus âgée que moi.|Ma sœur est plus vieille que moi.|Ma soeur est plus vieille que moi.","‹sœur› · ‹âgé› · ‹plus› … ‹que›","âgé je","‹sœur› is feminine, so the adjective agrees: ‹âgée›."],
+      ["ty","Léa and Chloé are taller than Thomas.","Léa et Chloé sont plus grandes que Thomas.","‹grand› · ‹plus› … ‹que›","est grands","Two women: the verb ending matches the subject, ‹sont›, and ‹grandes› is feminine plural."],
+      ["ty","He sings better than me.","Il chante mieux que moi.","‹chanter› · ‹mieux›","meilleur","With a verb, better is ‹mieux›, not ‹meilleur›."]
     ]
   },
   {
     id: "relatives",
-    title: "qui, que, où",
+    title: "‹qui›, ‹que›, ‹où›",
     blurb: "Build longer descriptions (the friend who lives in Lyon, the movie I saw, the town where I live) without dropping a word.",
     deck: "Likes and free time",
     body: `
-<p>English joins a description to a noun with "who", "that", "which" or "where", and often drops the word completely: "the movie I saw". French has three words for this job, <b>qui</b>, <b>que</b> and <b>où</b>, and never drops them. Choosing between <b>qui</b> and <b>que</b> depends on one thing only: what comes right after.</p>
-<h3>qui: the next word is a verb</h3>
+<p>English joins a description to a noun with "who", "that", "which" or "where", and often drops the word completely: "the movie I saw". French has three words for this job, <b>qui</b>, <b>que</b> and <b>où</b>, and never drops them. Choosing between <b>qui</b> and <b>que</b> depends ‹on› one thing only: what comes right after.</p>
+<h3>‹qui›: the next word is a verb</h3>
 <p>Use <b>qui</b> when it is the subject of the next verb: the person or thing that does the action. It means "who", "that" or "which", for people and things alike. <b>qui</b> never shortens before a vowel. Think of <b>qui</b> as standing in for the noun before it, in the subject slot of the next verb.</p>
 {{ex:J'ai un ami qui habite à Lyon.|zhay uhN nah-mee kee ah-beet ah lyohN|I have a friend who lives in Lyon.}}
 {{ex:C'est le train qui part à huit heures.|seh luh traN kee pahr ah weet uhr|That's the train that leaves at eight.}}
 <p>The verb after <b>qui</b> agrees with the noun that <b>qui</b> stands for: <b>les amis qui parlent français</b>.</p>
-<h3>que: the next word is a subject</h3>
+<h3>‹que›: the next word is a subject</h3>
 <p>Use <b>que</b> when the next verb already has its own subject (<b>je</b>, <b>tu</b>, <b>Léa</b>…). It is where English can leave out "that", and it works for people as well as things: when English says "who" or "whom" with a new subject after it, French still says <b>que</b>. Before a vowel, <b>que</b> becomes <b>qu'</b>.</p>
 {{ex:C'est le film que j'ai vu hier.|seh luh feelm kuh zhay vew yehr|That's the movie I saw yesterday.}}
 {{ex:Voilà le pain qu'il achète.|vwah-lah luh paN keel ah-sheht|Here's the bread he buys.}}
 <p>A quick test: look at the word right after the gap. A verb means <b>qui</b>; a subject means <b>que</b>.</p>
-<h3>où: where, and when</h3>
+<h3>‹où›: where, and when</h3>
 <p><b>où</b> joins a place, like "where". After a time word such as <b>le jour</b> or <b>l'année</b>, French also uses <b>où</b> where English says "when" or nothing at all. Keep the accent: <b>ou</b> without it means "or".</p>
 {{ex:C'est la ville où j'habite.|seh lah veel oo zhah-beet|It's the town where I live.}}
 {{ex:Le jour où je suis arrivé, il pleuvait.|luh zhoor oo zhuh swee zah-ree-vay eel pluh-veh|The day I arrived, it was raining.}}
 <h3>In the middle of a sentence</h3>
 <p>The description can also sit between a subject and its verb, exactly as in English. Find the main verb at the end, and the sentence falls into place.</p>
 {{ex:Le film que j'ai vu hier était super.|luh feelm kuh zhay vew yehr ay-teh sew-pehr|The movie I saw yesterday was great.}}
-<div class="tip"><b>Most common mistake:</b> dropping the word, as English does. <b>le film j'ai vu</b> → <b>le film que j'ai vu</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> dropping the word, as English does. <b>le film j'ai vu</b> → <b>le film que j'ai vu</b>.</div>
 `,
     check: [
-      ["How do you say 'the movie I saw'?",["le film j'ai vu","le film qui j'ai vu","le film que j'ai vu","le film où j'ai vu"],2,"j' is the subject of the next verb, so que, and French never drops it."],
-      ["Which word goes in: un ami ___ habite à Lyon?",["que","qui","où","qu'"],1,"The next word is a verb, habite, so qui."],
-      ["la ville ___ j'habite =",["où","que","qui","ou"],0,"A place, where: où, with its accent."]
+      ["How do you say 'the movie I saw'?",["le film j'ai vu","le film qui j'ai vu","le film que j'ai vu","le film où j'ai vu"],2,"‹j'› is the subject of the next verb, so ‹que›, and French never drops it."],
+      ["Which word goes in: ‹un ami› ___ ‹habite à Lyon›?",["que","qui","où","qu'"],1,"The next word is a verb, ‹habite›, so ‹qui›."],
+      ["‹la ville› ___ ‹j'habite› =",["où","que","qui","ou"],0,"A place, where: ‹où›, with its accent."]
     ],
     practice: [
-      ["mc","'a friend who speaks French' =","un ami qui parle français","un ami que parle français","un ami parle français","un ami où parle français","The next word is a verb, so use qui."],
-      ["mc","'the cake you made' =","le gâteau que tu as fait","le gâteau qui tu as fait","le gâteau tu as fait","le gâteau où tu as fait","The next word is a subject, tu, so use que; French never drops it."],
-      ["mc","'the café where we eat' =","le café où nous mangeons","le café ou nous mangeons","le café que nous mangeons","le café qui nous mangeons","où with an accent means where; ou means or.","!strict"],
-      ["mc","'the bread he buys' =","le pain qu'il achète","le pain que il achète","le pain qui il achète","le pain il achète","que becomes qu' before a vowel: qu'il."],
-      ["mc","'the day I arrived' =","le jour où je suis arrivé","le jour qui je suis arrivé","le jour quand je suis arrivé","le jour je suis arrivé","After a time word like le jour, French uses où."],
-      ["or","the girls who live in Lyon","les filles qui habitent à Lyon","habite","qui stands for les filles, so the verb ending is plural: the ils form habitent."],
-      ["or","the movie we saw (use nous)","le film que nous avons vu","ont","que is followed by the subject nous, which takes the nous form: avons."],
-      ["or","the town where I live","la ville où j'habite","le","ville is feminine, so it's la ville; où means where."],
-      ["fi","C'est une amie __ habite à Paris.","She's a friend who lives in Paris.","qui","que|qu'|où","The next word is a verb, habite, so qui."],
-      ["fi","C'est l'ami __ j'ai vu hier.","That's the friend I saw yesterday.","que","qui|où|quand","j' is the subject of ai vu, so que, even for a person; English who does not mean qui here."],
-      ["fi","C'est le café __ on mange le samedi.","It's the café where we eat on Saturdays.","où","ou|que|qui","A place, where: où, with its accent.","!strict"],
-      ["ty","my friends who speak French (men or a mixed group)","mes amis qui parlent français|mes amis qui parlent le français","mon ami · parler · français","parle mon","qui stands for mes amis, so the verb takes the ils form: parlent."],
-      ["ty","the movie we watched (use nous)","le film que nous avons regardé","le film · regarder · nous","ont qui","nous takes the nous form, avons, and French never drops que."],
-      ["ty","the train that leaves at eight","le train qui part à huit heures","le train · partir · huit heures","que","The next word is a verb, part, so use qui."]
+      ["mc","'a friend who speaks French' =","un ami qui parle français","un ami que parle français","un ami parle français","un ami où parle français","The next word is a verb, so use ‹qui›."],
+      ["mc","'the cake you made' =","le gâteau que tu as fait","le gâteau qui tu as fait","le gâteau tu as fait","le gâteau où tu as fait","The next word is a subject, ‹tu›, so use ‹que›; French never drops it."],
+      ["mc","'the café where we eat' =","le café où nous mangeons","le café ou nous mangeons","le café que nous mangeons","le café qui nous mangeons","‹où› with an accent means where; ‹ou› means or.","!strict"],
+      ["mc","'the bread he buys' =","le pain qu'il achète","le pain que il achète","le pain qui il achète","le pain il achète","‹que› becomes ‹qu'› before a vowel: ‹qu'il›."],
+      ["mc","'the day I arrived' =","le jour où je suis arrivé","le jour qui je suis arrivé","le jour quand je suis arrivé","le jour je suis arrivé","After a time word like ‹le jour›, French uses ‹où›."],
+      ["or","the girls who live in Lyon","les filles qui habitent à Lyon","habite","‹qui› stands for ‹les filles›, so the verb ending is plural: the ‹ils› form ‹habitent›."],
+      ["or","the movie we saw (use ‹nous›)","le film que nous avons vu","ont","‹que› is followed by the subject ‹nous›, which takes the ‹nous› form: ‹avons›."],
+      ["or","the town where I live","la ville où j'habite","le","‹ville› is feminine, so it's ‹la ville›; ‹où› means where."],
+      ["fi","C'est une amie __ habite à Paris.","She's a friend who lives in Paris.","qui","que|qu'|où","The next word is a verb, ‹habite›, so ‹qui›."],
+      ["fi","C'est l'ami __ j'ai vu hier.","That's the friend I saw yesterday.","que","qui|où|quand","‹j'› is the subject of ‹ai vu›, so ‹que›, even for a person; English who does not mean ‹qui› here."],
+      ["fi","C'est le café __ on mange le samedi.","It's the café where we eat on Saturdays.","où","ou|que|qui","A place, where: ‹où›, with its accent.","!strict"],
+      ["ty","my friends who speak French (men or a mixed group)","mes amis qui parlent français|mes amis qui parlent le français","‹mon ami› · ‹parler› · ‹français›","parle mon","‹qui› stands for ‹mes amis›, so the verb takes the ‹ils› form: ‹parlent›."],
+      ["ty","the movie we watched (use ‹nous›)","le film que nous avons regardé","‹le film› · ‹regarder› · ‹nous›","ont qui","‹nous› takes the ‹nous› form, ‹avons›, and French never drops ‹que›."],
+      ["ty","the train that leaves at eight","le train qui part à huit heures","‹le train› · ‹partir› · ‹huit heures›","que","The next word is a verb, ‹part›, so use ‹qui›."]
     ]
   }
 ];

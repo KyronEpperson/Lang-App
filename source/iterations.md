@@ -1768,3 +1768,11 @@ Ask (owner): "are the cards being taught in the best way possible. maybe there i
 Answer built: the course text itself says which words are Spanish (`‹…›`), the app shows and plays them, the engine reads the same tags. Details: `docs/briefs/target-text-tags.md`, HANDOFF 2.142.0.
 Agents: five Opus judges, brief `/home/work-tags/BRIEF.md` (rule doc + sheet only; output rows checked by `tags.js apply --dry`). Tokens 87k / 105k / 105k / 106k / 108k. Rows changed 79 / 17 bodies (65 edits) / 210 / 165 / 196. No reader needed a file outside its list.
 Dispatcher's own decisions: bold stays the mark of a taught term in bodies (section decks unchanged), English bold became `<strong>`; `hos-pi-TAL` is tagged but not spoken; names inside a quoted Spanish sentence stay in the run.
+
+## TL-2 (2.143.0, 2026-11-28): target-text tags on en-fr, en-de, en-pt, en-it
+
+Ask (owner, decision card): roll the marking out, "Yes, most-used languages first".
+Done: `tags.js propose` draft per course, then 20 Opus judges (per course: cards-1, cards-2, practice, other, bodies), briefs `/home/work-tags/<t>/BRIEF.md` (rule doc + brief + sheet; rows checked by `tags.js apply --dry`). Tokens 90k to 137k each, 2 to 4 minutes. Rows changed: fr 379 / 354 / 334 / 192 / 28 bodies; de 307 / 282 / 257 / 124 / 25; pt 239 / 259 / 261 / 140 / 25; it 292 / 273 / 298 / 133 / 24.
+What the draft got wrong most: English look-alikes tagged (`in`, `so`, `an`, `or`, `do`, `no`, `me`, `also`, `will`), article or pronoun left outside the run, `?` and `!` outside a quoted sentence, endings and letters named as spelling left bare.
+Lessons for the next batch: give every judge its own scratch folder (they shared one and overwrote each other's helper scripts; outputs were not harmed, every row is re-checked by `apply`); `bodyfix` turns bold the lexicon does not know into `<strong>`, so read its "strong:" list (French endings and stems had to be put back to `<b>` by hand); never tag `decks.label` / `groups.name` / `labels.text`.
+Dispatcher's own decisions: residual English look-alikes go in `proseOk` of each target file, not `homographs`; names stay tagged inside hints (they are pieces of the answer) and bare in English prompts.

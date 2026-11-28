@@ -1,84 +1,84 @@
-{"id":"sounds.k1","q":"How is the -er at the end of parler said?","o":["Like ay","Like the er in English her","Like air","It is silent"],"why":"Final -er sounds ay in French: parler sounds like pahr-lay."}
-{"id":"sounds.k2","q":"Which final letter is usually SOUNDED in French?","why":"c, r, f and l (careful) are usually sounded; most other final consonants are silent."}
+{"id":"sounds.k1","q":"How is the ‹-er› at the end of ‹parler› said?","o":["Like ay","Like the er in English her","Like air","It is silent"],"why":"Final ‹-er› sounds ay in French: ‹parler› sounds like pahr-lay."}
+{"id":"sounds.k2","q":"Which final letter is usually SOUNDED in French?","why":"‹c›, ‹r›, ‹f› and ‹l› (careful) are usually sounded; most other final consonants are silent."}
 {"id":"sounds.k3","q":"What does a capital N mean in the pronunciation line?","o":["Say a strong n","The word is a noun","Say the vowel through the nose, without the n","The letter n is doubled"],"why":"N marks a nasal vowel: the n itself is not pronounced."}
-{"id":"greetings.k1","q":"Who do you call vous?","o":["A shop assistant you don't know","Your little brother","Your best friend","Your cat"],"why":"vous is for strangers, staff and anyone older, and for more than one person."}
-{"id":"greetings.k2","q":"Why is it bonne in Bonne journée?","o":["bonne is the polite form","journée is feminine, so good takes its feminine form","bonne is used only at night","bonne means very good"],"why":"journée is a feminine word, and bon changes to bonne to agree with it."}
-{"id":"greetings.k3","q":"How do you say please to a friend?","why":"With tu people (friends, family), please is s'il te plaît."}
-{"id":"articles.k1","q":"What is the best way to remember if a noun is masculine or feminine?","o":["Guess from what the thing is","Learn every noun with its article","All nouns ending in -e are feminine","Use le when you are not sure"],"why":"The gender of most nouns can't be guessed, so learn each one with le, la, un or une."}
-{"id":"articles.k2","q":"appartement is masculine. How do you say the apartment?","why":"Before a vowel, le becomes l': l'appartement."}
-{"id":"articles.k3","q":"How do you usually hear that a French noun is plural?","o":["From the -s at the end","From the article in front, like les or des","From a longer last vowel","You can't hear it at all"],"why":"The plural -s is silent, so the article (les, des) tells you."}
-{"id":"etre-avoir.k1","q":"I'm twenty-five =","why":"Age uses avoir plus ans: I have twenty-five years."}
-{"id":"etre-avoir.k2","q":"Which subject goes with sont?","why":"sont is the they form of être: ils sont, elles sont."}
-{"id":"etre-avoir.k3","q":"Why is it j'ai and not je ai?","o":["j'ai is spoken French only","je drops its e before a vowel","ai is feminine","je ai means something else"],"why":"Elision: je becomes j' before a vowel."}
-{"id":"pronouns.k1","q":"Who's hungry? Me! In French, Me! is:","why":"A pronoun standing alone is a stress pronoun: moi."}
-{"id":"pronouns.k2","q":"What does on est usually mean in conversation?","o":["they are","I am","we are","you are"],"why":"on is the everyday we, with the il form of the verb: on est."}
-{"id":"pronouns.k3","q":"with them (two women) =","why":"After avec, use a stress pronoun; for women it is elles."}
-{"id":"adjectives.k1","q":"Where does a color go in French?","o":["After the noun","Before the noun","Either place, it doesn't matter","At the end of the sentence"],"why":"Colors go after the noun: une robe rouge."}
-{"id":"adjectives.k2","q":"Why is it une robe blanche but un pull blanc?","o":["blanche is more polite","robe is feminine, so the adjective takes its feminine form","blanche means a lighter white","pull is plural"],"why":"The adjective agrees with the noun: robe is feminine, pull is masculine."}
-{"id":"adjectives.k3","q":"Which adjective goes BEFORE the noun?","why":"petit is one of the short group (petit, grand, bon, beau, nouveau, jeune, vieux) that go first."}
-{"id":"present.k1","q":"Which three endings sound exactly the same?","why":"-e, -es and -ent are silent, so parle, parles and parlent sound alike."}
-{"id":"present.k2","q":"I'm speaking =","why":"The French present covers -ing: je parle."}
-{"id":"present.k3","q":"nous + manger =","why":"manger keeps its e before -ons to keep the soft g: mangeons."}
-{"id":"negation.k1","q":"Where do ne and pas go?","o":["Both before the verb","ne before the verb, pas after it","Both at the end of the sentence","pas before the verb, ne after it"],"why":"ne … pas wraps the conjugated verb: je ne parle pas."}
-{"id":"negation.k2","q":"I don't have a cat =","why":"After a negative verb, un becomes de: pas de chat."}
-{"id":"negation.k3","q":"Je ne suis jamais en retard means:","o":["I'm never late.","I'm not late anymore.","I'm not late yet.","I'm always late."],"why":"ne … jamais = never."}
-{"id":"questions.k1","q":"How do you turn Tu parles français into a question with est-ce que?","why":"est-ce que goes at the very start; the rest of the sentence stays the same."}
-{"id":"questions.k2","q":"ville (town) is feminine. Which town? =","why":"quel agrees with its noun: ville is feminine singular, so quelle."}
-{"id":"questions.k3","q":"Which word means where?","why":"où with an accent means where; ou without it means or."}
-{"id":"cest.k1","q":"He's a teacher (professeur) =","why":"After il est, a job takes no article."}
-{"id":"cest.k2","q":"il y a means:","o":["he has","it is","there is or there are","he is there"],"why":"il y a = there is and there are, for one thing or many."}
-{"id":"cest.k3","q":"Which sentence is correct?","why":"c'est goes with a noun and its article: c'est un musée."}
-{"id":"possessives.k1","q":"How do you say his mother (Lucas's mother)?","why":"The possessive agrees with mère, which is feminine: sa mère, even though Lucas is a man."}
-{"id":"possessives.k2","q":"Why is it mon amie and not ma amie?","o":["Before a vowel sound, ma becomes mon","amie is a masculine noun","mon is the polite form","Both are correct"],"why":"French avoids two vowels side by side, so ma becomes mon before a vowel, even with a feminine noun."}
-{"id":"possessives.k3","q":"Which word goes before hôtel (masculine, silent h)?","why":"Before a masculine noun starting with a vowel or a silent h, ce becomes cet: cet hôtel."}
-{"id":"numbers.k1","q":"How do you say 75?","why":"75 is sixty plus fifteen: soixante-quinze."}
-{"id":"numbers.k2","q":"What does Il est vingt heures mean?","o":["It's 8 p.m.","It's twenty past.","It's two o'clock.","It lasts twenty hours."],"why":"Schedules use the 24-hour clock: vingt heures is 8 p.m."}
-{"id":"numbers.k3","q":"How do you say May 1?","why":"Day before month, and the first is le premier."}
-{"id":"partitive.k1","q":"How do you say I'd like some water?","why":"eau starts with a vowel, so some is de l': de l'eau."}
-{"id":"partitive.k2","q":"Which sentence is about coffee in general?","why":"After aimer, French uses le for the thing in general: j'aime le café."}
-{"id":"partitive.k3","q":"What does du become after ne … pas?","o":["It stays du","de","le","It disappears"],"why":"After a negative, the partitive becomes de: il n'y a pas de pain."}
-{"id":"polite.k1","q":"Why is je voudrais better than je veux with a server?","o":["je veux is bad grammar","je voudrais is softer; je veux sounds blunt","je voudrais is only for food","je veux is the vous form"],"why":"Both are correct French, but je voudrais (I'd like) is the polite way to ask."}
-{"id":"polite.k2","q":"What should you say before asking anything in a shop?","o":["Merci","Salut","Bonjour (madame or monsieur)","Pardon"],"why":"In France you always say bonjour before a request; salut is only for friends."}
-{"id":"polite.k3","q":"How do you begin Could you…? to a stranger?","why":"To a stranger use vous, and its ending is -iez: vous pourriez."}
-{"id":"prepositions.k1","q":"Which is right for a city?","why":"Cities take plain à: à Paris."}
-{"id":"prepositions.k2","q":"What does à + le become?","why":"à + le always contracts to au."}
-{"id":"prepositions.k3","q":"How do you say in Japan (le Japon is masculine)?","why":"A masculine country takes au: au Japon."}
-{"id":"irregular.k1","q":"How do you say The weather's nice?","why":"Weather uses faire: il fait beau."}
-{"id":"irregular.k2","q":"Which is the ils form of aller?","why":"aller is irregular: ils vont."}
-{"id":"irregular.k3","q":"What does Je viens de Boston mean?","o":["I'm going to Boston.","I'm from Boston.","I live in Boston.","I like Boston."],"why":"venir de + a city says where you come from."}
-{"id":"modals.k1","q":"Which is right?","why":"After vouloir, the second verb stays in the infinitive, with nothing in between."}
-{"id":"modals.k2","q":"I can swim, meaning I know how to:","why":"A skill you've learned uses savoir: je sais nager."}
-{"id":"modals.k3","q":"What is the vous form of pouvoir?","why":"pouvoir with vous is pouvez."}
-{"id":"futur-proche.k1","q":"How do you say I'm going to eat?","why":"aller + the infinitive, with nothing in between."}
-{"id":"futur-proche.k2","q":"Where does ne … pas go in the futur proche?","o":["Around vais: Je ne vais pas partir.","Around partir: Je vais ne partir pas.","Before je: Ne pas je vais partir.","At the end: Je vais partir ne pas."],"why":"ne … pas wraps around the conjugated verb, aller."}
-{"id":"futur-proche.k3","q":"What does Il va pleuvoir mean?","o":["It's raining.","It rained.","It's going to rain.","It has to rain."],"why":"va + pleuvoir: the near future, it's going to rain."}
-{"id":"pronominal.k1","q":"Which is right?","why":"se lever needs its pronoun, and with je it is me."}
-{"id":"pronominal.k2","q":"Which reflexive pronoun goes with nous?","why":"With nous, the reflexive pronoun is nous too: nous nous levons."}
-{"id":"pronominal.k3","q":"How do you say I'm going to go to bed?","why":"The pronoun goes before the infinitive and matches je: je vais me coucher."}
-{"id":"imperative.k1","q":"A stranger asks you the way. How do you tell them 'Turn right'?","why":"A stranger gets the vous form: Tournez à droite."}
-{"id":"imperative.k2","q":"How do you say 'Look!' to a friend?","why":"-er verbs drop the -s in a tu command: Regarde!"}
-{"id":"imperative.k3","q":"What does Il faut partir mean?","o":["We have to go.","He has to go, but nobody else does.","He left.","Don't go."],"why":"il faut + infinitive says something is necessary; this il is not 'he'."}
-{"id":"passe-compose.k1","q":"Which is correct for 'I went to Paris'?","why":"aller takes être in the passé composé: je suis allé."}
-{"id":"passe-compose.k2","q":"Léa went out last night. Which is right?","why":"sortir takes être, and the participle agrees with Léa: sortie."}
-{"id":"passe-compose.k3","q":"Where does ne … pas go in the passé composé?","o":["Around the helper verb: Je n'ai pas mangé.","Around the participle: J'ai ne mangé pas.","Before everything: Ne j'ai pas mangé.","After the participle: J'ai mangé ne pas."],"why":"ne … pas wraps the helper verb, the part that is conjugated."}
-{"id":"connectors.k1","q":"Which word means 'or'?","why":"ou with no accent is or; où with an accent is where."}
-{"id":"connectors.k2","q":"Your friend asks Pourquoi? How does your answer start?","why":"parce que gives the reason that answers pourquoi."}
-{"id":"connectors.k3","q":"In et un café, is the t of et pronounced?","o":["Yes, it links like the s in les amis","No, never: et and un stay apart","Only in careful speech","Only before a feminine noun"],"why":"The t of et is never pronounced, even before a vowel."}
-{"id":"spoken.k1","q":"You hear Je sais pas. What does it mean?","o":["I know.","I don't know.","I knew.","Do I know?"],"why":"Spoken French drops ne; pas still makes it negative."}
-{"id":"spoken.k2","q":"Which verb form goes with on?","o":["the nous form: on allons","the ils form: on vont","the il form: on va","the vous form: on allez"],"why":"on takes the il form, even when it means we."}
-{"id":"spoken.k3","q":"A friend says On va au cinéma? What do they mean?","o":["Shall we go to the movies?","One must go to the movies.","They went to the movies.","Go to the movies!"],"why":"on is the everyday we, and a rising voice makes it a question."}
-{"id":"imparfait.k1","q":"Which ending goes with ils in the imparfait?","why":"ils takes -aient: ils parlaient. It sounds like -ais and -ait."}
-{"id":"imparfait.k2","q":"Il pleuvait quand je suis arrivé. Why is pleuvait in the imparfait?","o":["It's the background: what was going on","It happened once and was over","It's about the future","pleuvoir has no passé composé"],"why":"The rain is the scene; the arrival is the event, in the passé composé."}
-{"id":"imparfait.k3","q":"How do you say 'When I was little'?","why":"A description of how things were takes the imparfait: j'étais."}
-{"id":"futur.k1","q":"How do you say 'I'll work'?","why":"Infinitive + -ai for je: je travaillerai."}
-{"id":"futur.k2","q":"'When I'm in Paris, I'll visit the Louvre.' Which is right?","why":"After quand, French uses the future when the time is in the future: je serai."}
-{"id":"futur.k3","q":"What is the future stem of être?","why":"être has the future stem ser-: je serai, tu seras."}
-{"id":"object-pronouns.k1","q":"You're holding a jacket (la veste). 'I'll take it' =","why":"veste is feminine, so it's la, and it goes before the verb."}
-{"id":"object-pronouns.k2","q":"Which pronoun means 'to her'?","why":"Verbs with à take lui for to him or to her."}
-{"id":"object-pronouns.k3","q":"A server asks Vous voulez du café? How do you say 'Yes, I'd like some'?","why":"en replaces du + noun and goes before the verb: j'en voudrais."}
-{"id":"compare.k1","q":"'My sister is taller than me.' Which is right?","why":"plus … que, grande agrees with sœur, and moi follows que."}
-{"id":"compare.k2","q":"'This bread is better.' =","why":"bon becomes meilleur; never plus bon."}
-{"id":"compare.k3","q":"Which word goes with a verb: 'She sings better'?","why":"With a verb, better is mieux: Elle chante mieux."}
-{"id":"relatives.k1","q":"How do you say 'the movie I saw'?","why":"j' is the subject of the next verb, so que, and French never drops it."}
-{"id":"relatives.k2","q":"Which word goes in: un ami ___ habite à Lyon?","why":"The next word is a verb, habite, so qui."}
-{"id":"relatives.k3","q":"la ville ___ j'habite =","why":"A place, where: où, with its accent."}
+{"id":"greetings.k1","q":"Who do you call ‹vous›?","o":["A shop assistant you don't know","Your little brother","Your best friend","Your cat"],"why":"‹vous› is for strangers, staff and anyone older, and for more than one person."}
+{"id":"greetings.k2","q":"Why is it ‹bonne› in ‹Bonne journée›?","o":["‹bonne› is the polite form","‹journée› is feminine, so good takes its feminine form","‹bonne› is used only at night","‹bonne› means very good"],"why":"‹journée› is a feminine word, and ‹bon› changes to ‹bonne› to agree with it."}
+{"id":"greetings.k3","q":"How do you say please to a friend?","why":"With ‹tu› people (friends, family), please is ‹s'il te plaît›."}
+{"id":"articles.k1","q":"What is the best way to remember if a noun is masculine or feminine?","o":["Guess from what the thing is","Learn every noun with its article","All nouns ending in ‹-e› are feminine","Use ‹le› when you are not sure"],"why":"The gender of most nouns can't be guessed, so learn each one with ‹le›, ‹la›, ‹un› or ‹une›."}
+{"id":"articles.k2","q":"‹appartement› is masculine. How do you say the apartment?","why":"Before a vowel, ‹le› becomes ‹l'›: ‹l'appartement›."}
+{"id":"articles.k3","q":"How do you usually hear that a French noun is plural?","o":["From the ‹-s› at the end","From the article in front, like ‹les› or ‹des›","From a longer last vowel","You can't hear it at all"],"why":"The plural ‹-s› is silent, so the article (‹les›, ‹des›) tells you."}
+{"id":"etre-avoir.k1","q":"I'm twenty-five =","why":"Age uses ‹avoir› plus ‹ans›: I have twenty-five years."}
+{"id":"etre-avoir.k2","q":"Which subject goes with ‹sont›?","why":"‹sont› is the they form of ‹être›: ‹ils sont›, ‹elles sont›."}
+{"id":"etre-avoir.k3","q":"Why is it ‹j'ai› and not ‹je ai›?","o":["‹j'ai› is spoken French only","‹je› drops its ‹e› before a vowel","‹ai› is feminine","‹je ai› means something else"],"why":"Elision: ‹je› becomes ‹j'› before a vowel."}
+{"id":"pronouns.k1","q":"Who's hungry? Me! In French, Me! is:","why":"A pronoun standing alone is a stress pronoun: ‹moi›."}
+{"id":"pronouns.k2","q":"What does ‹on est› usually mean in conversation?","o":["they are","I am","we are","you are"],"why":"‹on› is the everyday we, with the ‹il› form of the verb: ‹on est›."}
+{"id":"pronouns.k3","q":"with them (two women) =","why":"After ‹avec›, use a stress pronoun; for women it is ‹elles›."}
+{"id":"adjectives.k1","q":"Where does a color go in French?","o":["After the noun","Before the noun","Either place, it doesn't matter","At the end of the sentence"],"why":"Colors go after the noun: ‹une robe rouge›."}
+{"id":"adjectives.k2","q":"Why is it ‹une robe blanche› but ‹un pull blanc›?","o":["‹blanche› is more polite","‹robe› is feminine, so the adjective takes its feminine form","‹blanche› means a lighter white","‹pull› is plural"],"why":"The adjective agrees with the noun: ‹robe› is feminine, ‹pull› is masculine."}
+{"id":"adjectives.k3","q":"Which adjective goes BEFORE the noun?","why":"‹petit› is one of the short group (‹petit›, ‹grand›, ‹bon›, ‹beau›, ‹nouveau›, ‹jeune›, ‹vieux›) that go first."}
+{"id":"present.k1","q":"Which three endings sound exactly the same?","why":"‹-e›, ‹-es› and ‹-ent› are silent, so ‹parle›, ‹parles› and ‹parlent› sound alike."}
+{"id":"present.k2","q":"I'm speaking =","why":"The French present covers -ing: ‹je parle›."}
+{"id":"present.k3","q":"‹nous› + ‹manger› =","why":"‹manger› keeps its ‹e› before ‹-ons› to keep the soft ‹g›: ‹mangeons›."}
+{"id":"negation.k1","q":"Where do ‹ne› and ‹pas› go?","o":["Both before the verb","‹ne› before the verb, ‹pas› after it","Both at the end of the sentence","‹pas› before the verb, ‹ne› after it"],"why":"‹ne› … ‹pas› wraps the conjugated verb: ‹je ne parle pas›."}
+{"id":"negation.k2","q":"I don't have a cat =","why":"After a negative verb, ‹un› becomes ‹de›: ‹pas de chat›."}
+{"id":"negation.k3","q":"‹Je ne suis jamais en retard› means:","o":["I'm never late.","I'm not late anymore.","I'm not late yet.","I'm always late."],"why":"‹ne› … ‹jamais› = never."}
+{"id":"questions.k1","q":"How do you turn ‹Tu parles français› into a question with ‹est-ce que›?","why":"‹est-ce que› goes at the very start; the rest of the sentence stays the same."}
+{"id":"questions.k2","q":"‹ville› (town) is feminine. Which town? =","why":"‹quel› agrees with its noun: ‹ville› is feminine singular, so ‹quelle›."}
+{"id":"questions.k3","q":"Which word means where?","why":"‹où› with an accent means where; ‹ou› without it means or."}
+{"id":"cest.k1","q":"He's a teacher (‹professeur›) =","why":"After ‹il est›, a job takes no article."}
+{"id":"cest.k2","q":"‹il y a› means:","o":["he has","it is","there is or there are","he is there"],"why":"‹il y a› = there is and there are, for one thing or many."}
+{"id":"cest.k3","q":"Which sentence is correct?","why":"‹c'est› goes with a noun and its article: ‹c'est un musée›."}
+{"id":"possessives.k1","q":"How do you say his mother (Lucas's mother)?","why":"The possessive agrees with ‹mère›, which is feminine: ‹sa mère›, even though Lucas is a man."}
+{"id":"possessives.k2","q":"Why is it ‹mon amie› and not ‹ma amie›?","o":["Before a vowel sound, ‹ma› becomes ‹mon›","‹amie› is a masculine noun","‹mon› is the polite form","Both are correct"],"why":"French avoids two vowels side by side, so ‹ma› becomes ‹mon› before a vowel, even with a feminine noun."}
+{"id":"possessives.k3","q":"Which word goes before ‹hôtel› (masculine, silent ‹h›)?","why":"Before a masculine noun starting with a vowel or a silent ‹h›, ‹ce› becomes ‹cet›: ‹cet hôtel›."}
+{"id":"numbers.k1","q":"How do you say 75?","why":"75 is sixty plus fifteen: ‹soixante-quinze›."}
+{"id":"numbers.k2","q":"What does ‹Il est vingt heures› mean?","o":["It's 8 p.m.","It's twenty past.","It's two o'clock.","It lasts twenty hours."],"why":"Schedules use the 24-hour clock: ‹vingt heures› is 8 p.m."}
+{"id":"numbers.k3","q":"How do you say May 1?","why":"Day before month, and the first is ‹le premier›."}
+{"id":"partitive.k1","q":"How do you say I'd like some water?","why":"‹eau› starts with a vowel, so some is ‹de l'›: ‹de l'eau›."}
+{"id":"partitive.k2","q":"Which sentence is about coffee in general?","why":"After ‹aimer›, French uses ‹le› for the thing in general: ‹j'aime le café›."}
+{"id":"partitive.k3","q":"What does ‹du› become after ‹ne› … ‹pas›?","o":["It stays ‹du›","‹de›","‹le›","It disappears"],"why":"After a negative, the partitive becomes ‹de›: ‹il n'y a pas de pain›."}
+{"id":"polite.k1","q":"Why is ‹je voudrais› better than ‹je veux› with a server?","o":["‹je veux› is bad grammar","‹je voudrais› is softer; ‹je veux› sounds blunt","‹je voudrais› is only for food","‹je veux› is the ‹vous› form"],"why":"Both are correct French, but ‹je voudrais› (I'd like) is the polite way to ask."}
+{"id":"polite.k2","q":"What should you say before asking anything in a shop?","o":["‹Merci›","‹Salut›","‹Bonjour› (‹madame› or ‹monsieur›)","‹Pardon›"],"why":"In France you always say ‹bonjour› before a request; ‹salut› is only for friends."}
+{"id":"polite.k3","q":"How do you begin Could you…? to a stranger?","why":"To a stranger use ‹vous›, and its ending is ‹-iez›: ‹vous pourriez›."}
+{"id":"prepositions.k1","q":"Which is right for a city?","why":"Cities take plain ‹à›: ‹à Paris›."}
+{"id":"prepositions.k2","q":"What does ‹à› + ‹le› become?","why":"‹à› + ‹le› always contracts to ‹au›."}
+{"id":"prepositions.k3","q":"How do you say in Japan (‹le Japon› is masculine)?","why":"A masculine country takes ‹au›: ‹au Japon›."}
+{"id":"irregular.k1","q":"How do you say The weather's nice?","why":"Weather uses ‹faire›: ‹il fait beau›."}
+{"id":"irregular.k2","q":"Which is the ‹ils› form of ‹aller›?","why":"‹aller› is irregular: ‹ils vont›."}
+{"id":"irregular.k3","q":"What does ‹Je viens de Boston› mean?","o":["I'm going to Boston.","I'm from Boston.","I live in Boston.","I like Boston."],"why":"‹venir de› + a city says where you come from."}
+{"id":"modals.k1","q":"Which is right?","why":"After ‹vouloir›, the second verb stays in the infinitive, with nothing in between."}
+{"id":"modals.k2","q":"I can swim, meaning I know how to:","why":"A skill you've learned uses ‹savoir›: ‹je sais nager›."}
+{"id":"modals.k3","q":"What is the ‹vous› form of ‹pouvoir›?","why":"‹pouvoir› with ‹vous› is ‹pouvez›."}
+{"id":"futur-proche.k1","q":"How do you say I'm going to eat?","why":"‹aller› + the infinitive, with nothing in between."}
+{"id":"futur-proche.k2","q":"Where does ‹ne› … ‹pas› go in the ‹futur proche›?","o":["Around ‹vais›: ‹Je ne vais pas partir›.","Around ‹partir›: ‹Je vais ne partir pas›.","Before ‹je›: ‹Ne pas je vais partir›.","At the end: ‹Je vais partir ne pas›."],"why":"‹ne› … ‹pas› wraps around the conjugated verb, ‹aller›."}
+{"id":"futur-proche.k3","q":"What does ‹Il va pleuvoir› mean?","o":["It's raining.","It rained.","It's going to rain.","It has to rain."],"why":"‹va› + ‹pleuvoir›: the near future, it's going to rain."}
+{"id":"pronominal.k1","q":"Which is right?","why":"‹se lever› needs its pronoun, and with ‹je› it is ‹me›."}
+{"id":"pronominal.k2","q":"Which reflexive pronoun goes with ‹nous›?","why":"With ‹nous›, the reflexive pronoun is ‹nous› too: ‹nous nous levons›."}
+{"id":"pronominal.k3","q":"How do you say I'm going to go to bed?","why":"The pronoun goes before the infinitive and matches ‹je›: ‹je vais me coucher›."}
+{"id":"imperative.k1","q":"A stranger asks you the way. How do you tell them 'Turn right'?","why":"A stranger gets the ‹vous› form: ‹Tournez à droite›."}
+{"id":"imperative.k2","q":"How do you say 'Look!' to a friend?","why":"‹-er› verbs drop the ‹-s› in a ‹tu› command: ‹Regarde!›"}
+{"id":"imperative.k3","q":"What does ‹Il faut partir› mean?","o":["We have to go.","He has to go, but nobody else does.","He left.","Don't go."],"why":"‹il faut› + infinitive says something is necessary; this ‹il› is not 'he'."}
+{"id":"passe-compose.k1","q":"Which is correct for 'I went to Paris'?","why":"‹aller› takes ‹être› in the ‹passé composé›: ‹je suis allé›."}
+{"id":"passe-compose.k2","q":"Léa went out last night. Which is right?","why":"‹sortir› takes ‹être›, and the participle agrees with Léa: ‹sortie›."}
+{"id":"passe-compose.k3","q":"Where does ‹ne› … ‹pas› go in the ‹passé composé›?","o":["Around the helper verb: ‹Je n'ai pas mangé›.","Around the participle: ‹J'ai ne mangé pas›.","Before everything: ‹Ne j'ai pas mangé›.","After the participle: ‹J'ai mangé ne pas›."],"why":"‹ne› … ‹pas› wraps the helper verb, the part that is conjugated."}
+{"id":"connectors.k1","q":"Which word means 'or'?","why":"‹ou› with no accent is or; ‹où› with an accent is where."}
+{"id":"connectors.k2","q":"Your friend asks ‹Pourquoi?› How does your answer start?","why":"‹parce que› gives the reason that answers ‹pourquoi›."}
+{"id":"connectors.k3","q":"In ‹et un café›, is the ‹t› of ‹et› pronounced?","o":["Yes, it links like the ‹s› in ‹les amis›","No, never: ‹et› and ‹un› stay apart","Only in careful speech","Only before a feminine noun"],"why":"The ‹t› of ‹et› is never pronounced, even before a vowel."}
+{"id":"spoken.k1","q":"You hear ‹Je sais pas›. What does it mean?","o":["I know.","I don't know.","I knew.","Do I know?"],"why":"Spoken French drops ‹ne›; ‹pas› still makes it negative."}
+{"id":"spoken.k2","q":"Which verb form goes with ‹on›?","o":["the ‹nous› form: ‹on allons›","the ‹ils› form: ‹on vont›","the ‹il› form: ‹on va›","the ‹vous› form: ‹on allez›"],"why":"‹on› takes the ‹il› form, even when it means we."}
+{"id":"spoken.k3","q":"A friend says ‹On va au cinéma?› What do they mean?","o":["Shall we go to the movies?","One must go to the movies.","They went to the movies.","Go to the movies!"],"why":"‹on› is the everyday we, and a rising voice makes it a question."}
+{"id":"imparfait.k1","q":"Which ending goes with ‹ils› in the ‹imparfait›?","why":"‹ils› takes ‹-aient›: ‹ils parlaient›. It sounds like ‹-ais› and ‹-ait›."}
+{"id":"imparfait.k2","q":"‹Il pleuvait quand je suis arrivé›. Why is ‹pleuvait› in the ‹imparfait›?","o":["It's the background: what was going on","It happened once and was over","It's about the future","‹pleuvoir› has no ‹passé composé›"],"why":"The rain is the scene; the arrival is the event, in the ‹passé composé›."}
+{"id":"imparfait.k3","q":"How do you say 'When I was little'?","why":"A description of how things were takes the ‹imparfait›: ‹j'étais›."}
+{"id":"futur.k1","q":"How do you say 'I'll work'?","why":"Infinitive + ‹-ai› for ‹je›: ‹je travaillerai›."}
+{"id":"futur.k2","q":"'When I'm in Paris, I'll visit the Louvre.' Which is right?","why":"After ‹quand›, French uses the future when the time is in the future: ‹je serai›."}
+{"id":"futur.k3","q":"What is the future stem of ‹être›?","why":"‹être› has the future stem ‹ser-›: ‹je serai›, ‹tu seras›."}
+{"id":"object-pronouns.k1","q":"You're holding a jacket (‹la veste›). 'I'll take it' =","why":"‹veste› is feminine, so it's ‹la›, and it goes before the verb."}
+{"id":"object-pronouns.k2","q":"Which pronoun means 'to her'?","why":"Verbs with ‹à› take ‹lui› for to him or to her."}
+{"id":"object-pronouns.k3","q":"A server asks ‹Vous voulez du café?› How do you say 'Yes, I'd like some'?","why":"‹en› replaces ‹du› + noun and goes before the verb: ‹j'en voudrais›."}
+{"id":"compare.k1","q":"'My sister is taller than me.' Which is right?","why":"‹plus› … ‹que›, ‹grande› agrees with ‹sœur›, and ‹moi› follows ‹que›."}
+{"id":"compare.k2","q":"'This bread is better.' =","why":"‹bon› becomes ‹meilleur›; never ‹plus bon›."}
+{"id":"compare.k3","q":"Which word goes with a verb: 'She sings better'?","why":"With a verb, better is ‹mieux›: ‹Elle chante mieux›."}
+{"id":"relatives.k1","q":"How do you say 'the movie I saw'?","why":"‹j'› is the subject of the next verb, so ‹que›, and French never drops it."}
+{"id":"relatives.k2","q":"Which word goes in: ‹un ami› ___ ‹habite à Lyon›?","why":"The next word is a verb, ‹habite›, so ‹qui›."}
+{"id":"relatives.k3","q":"‹la ville› ___ ‹j'habite› =","why":"A place, where: ‹où›, with its accent."}

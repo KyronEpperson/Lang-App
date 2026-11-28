@@ -207,7 +207,7 @@
     {
       "name": "Sounds and spelling",
       "group": "First steps",
-      "desc": "Words that show silent letters, u and ou, nasal vowels and liaison"
+      "desc": "Words that show silent letters, ‹u› and ‹ou›, nasal vowels and liaison"
     },
     {
       "name": "Greetings and courtesy",
@@ -272,7 +272,7 @@
     {
       "name": "Feelings and states",
       "group": "Conversation",
-      "desc": "How you feel, with être and avoir, and saying what you are not"
+      "desc": "How you feel, with ‹être› and ‹avoir›, and saying what you are not"
     },
     {
       "name": "Likes and free time",
@@ -287,12 +287,12 @@
     {
       "name": "Traps for English speakers",
       "group": "Watch out",
-      "desc": "False friends, calques and avoir where English says \"be\""
+      "desc": "False friends, calques and ‹avoir› where English says \"be\""
     },
     {
       "name": "Spoken French",
       "group": "Watch out",
-      "desc": "What you will hear: ne dropped, on for \"we\", and everyday informal words"
+      "desc": "What you will hear: ‹ne› dropped, ‹on› for \"we\", and everyday informal words"
     },
     {
       "name": "Top nouns",
@@ -302,7 +302,7 @@
     {
       "name": "Top verbs",
       "group": "Core words",
-      "desc": "The most-used verbs in the infinitive, with the je form and irregular ones flagged"
+      "desc": "The most-used verbs in the infinitive, with the ‹je› form and irregular ones flagged"
     },
     {
       "name": "Top adjectives",
@@ -312,7 +312,7 @@
     {
       "name": "Top adverbs",
       "group": "Core words",
-      "desc": "Time, place, manner and degree: très, déjà, ici, souvent, ne … pas"
+      "desc": "Time, place, manner and degree: ‹très›, ‹déjà›, ‹ici›, ‹souvent›, ‹ne› … ‹pas›"
     },
     {
       "name": "Top pronouns",
@@ -322,17 +322,17 @@
     {
       "name": "Top prepositions",
       "group": "Core words",
-      "desc": "à, de, en, dans, chez and the rest, with the contractions au, aux, du"
+      "desc": "‹à›, ‹de›, ‹en›, ‹dans›, ‹chez› and the rest, with the contractions ‹au›, ‹aux›, ‹du›"
     },
     {
       "name": "Top conjunctions",
       "group": "Core words",
-      "desc": "The words that join ideas: que, si, comme, pendant que, même si"
+      "desc": "The words that join ideas: ‹que›, ‹si›, ‹comme›, ‹pendant que›, ‹même si›"
     },
     {
       "name": "Top interjections",
       "group": "Core words",
-      "desc": "What people really exclaim: Oh là là, Ouf, Mince, Tant pis"
+      "desc": "What people really exclaim: ‹Oh là là›, ‹Ouf›, ‹Mince›, ‹Tant pis›"
     },
     {
       "name": "Top words",

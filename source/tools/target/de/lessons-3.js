@@ -2,65 +2,65 @@
 module.exports = [
   {
     id: "pronouns",
-    title: "Pronouns: ich, mich, mir",
-    blurb: "Say me, you, him and her in the right case, and talk about how you feel with mir and dir.",
+    title: "Pronouns: ‹ich›, ‹mich›, ‹mir›",
+    blurb: "Say me, you, him and her in the right case, and talk about how you feel with ‹mir› and ‹dir›.",
     deck: "Feelings and states",
     body: `
 <p>English has two forms for most pronouns: <i>I</i> and <i>me</i>, <i>he</i> and <i>him</i>. German has three, one for each case you know: the nominative for the subject, the accusative for the direct object, and the dative for the indirect object and after dative prepositions.</p>
 <h3>The three forms</h3>
 <div class="tbl"><table><tr><th>Nominative</th><th>Accusative</th><th>Dative</th><th>English</th></tr><tr><td class="k">ich</td><td class="k">mich</td><td class="k">mir</td><td>I, me</td></tr><tr><td class="k">du</td><td class="k">dich</td><td class="k">dir</td><td>you (a friend)</td></tr><tr><td class="k">er</td><td class="k">ihn</td><td class="k">ihm</td><td>he, him</td></tr><tr><td class="k">sie</td><td class="k">sie</td><td class="k">ihr</td><td>she, her</td></tr><tr><td class="k">es</td><td class="k">es</td><td class="k">ihm</td><td>it</td></tr><tr><td class="k">wir</td><td class="k">uns</td><td class="k">uns</td><td>we, us</td></tr><tr><td class="k">ihr</td><td class="k">euch</td><td class="k">euch</td><td>you (friends)</td></tr><tr><td class="k">sie / Sie</td><td class="k">sie / Sie</td><td class="k">ihnen / Ihnen</td><td>they, them / you (formal)</td></tr></table></div>
 <p>Two forms need care. <b>sie</b> can mean she or they, and with a capital, <b>Sie</b> is the formal you; the verb ending tells you which. And <b>ihr</b> is both "you" to friends and "to her" in the dative: <b>Ich helfe ihr</b> means "I'm helping her".</p>
-<h3>Accusative: the direct object, and after für</h3>
+<h3>Accusative: the direct object, and after ‹für›</h3>
 <p>Use the accusative form for the person the verb acts on, and after <b>für</b> (for) and <b>ohne</b> (without).</p>
 {{ex:Ich sehe dich morgen.|ihh ZAY-uh dihh MAWR-guhn|I'll see you tomorrow. (to a friend)}}
 {{ex:Das ist für dich.|dahs ist fewr dihh|That's for you. (to a friend)}}
-<h3>Dative: after mit, and with a few verbs</h3>
-<p>After <b>mit, bei, zu, von, aus</b> and <b>nach</b>, use the dative form, just as with articles. A few common verbs also take the dative where English uses a plain object. The most useful is <b>helfen</b> (to help).</p>
+<h3>Dative: after ‹mit›, and with a few verbs</h3>
+<p>After <b>mit</b>, <b>bei</b>, <b>zu</b>, <b>von</b>, <b>aus</b> and <b>nach</b>, use the dative form, just as with articles. A few common verbs also take the dative where English uses a plain object. The most useful is <b>helfen</b> (to help).</p>
 {{ex:Ich fahre mit ihm nach Hamburg.|ihh FAH-ruh mit eem nahkh HAHM-boork|I'm going to Hamburg with him.}}
 {{ex:Kannst du mir helfen?|kahnst doo meer HEHL-fuhn|Can you help me? (to a friend)}}
 <p>When you give or show something to someone, the person is the indirect object, so it is dative too.</p>
 {{ex:Ich gebe dir das Buch.|ihh GAY-buh deer dahs bookh|I'm giving you the book. (to a friend)}}
-<h3>How you feel: mir and dir</h3>
+<h3>How you feel: ‹mir› and ‹dir›</h3>
 <p>English says "I am cold". German says "to me it is cold": <b>Mir ist kalt</b>. The same pattern asks how someone is: literally, "how does it go for you?"</p>
 {{ex:Mir ist kalt.|meer ist kahlt|I'm cold.}}
 {{ex:Wie geht es Ihnen?|vee gayt ehs EE-nuhn|How are you? (formal)}}
 {{ex:Es tut mir leid.|ehs toot meer lait|I'm sorry.}}
-<h3>Liking with gefallen</h3>
+<h3>Liking with ‹gefallen›</h3>
 <p><b>Das gefällt mir</b> means "I like that", but word for word it says "that pleases me". The thing you like is the subject, and you are in the dative.</p>
 {{ex:Das gefällt mir.|dahs guh-FEHLT meer|I like that.}}
-<div class="tip"><b>Most common mistake:</b> copying English "I am cold". <b>Ich bin kalt</b> → <b>Mir ist kalt</b>. <b>Ich bin kalt</b> describes your personality, not how you feel.</div>
+<div class="tip"><strong>Most common mistake:</strong> copying English "I am cold". <b>Ich bin kalt</b> → <b>Mir ist kalt</b>. <b>Ich bin kalt</b> describes your personality, not how you feel.</div>
 `,
     check: [
-      ["How do you say I'm cold (you feel cold)?", ["Ich bin kalt.", "Mir ist kalt.", "Ich habe kalt.", "Mich ist kalt."], 1, "Feeling cold uses the dative: Mir ist kalt. Ich bin kalt describes your personality."],
-      ["That's for you. (to a friend)", ["Das ist für dir.", "Das ist für du.", "Das ist für dich.", "Das ist für dein."], 2, "für always takes the accusative, and the accusative of du is dich."],
-      ["Can you help me? (to a friend)", ["Kannst du mir helfen?", "Kannst du mich helfen?", "Kannst du ich helfen?", "Kannst du helfen mir?"], 0, "helfen takes the dative, mir, and the infinitive goes to the end."]
+      ["How do you say I'm cold (you feel cold)?",["Ich bin kalt.","Mir ist kalt.","Ich habe kalt.","Mich ist kalt."],1,"Feeling cold uses the dative: ‹Mir ist kalt›. ‹Ich bin kalt› describes your personality."],
+      ["That's for you. (to a friend)",["Das ist für dir.","Das ist für du.","Das ist für dich.","Das ist für dein."],2,"‹für› always takes the accusative, and the accusative of ‹du› is ‹dich›."],
+      ["Can you help me? (to a friend)",["Kannst du mir helfen?","Kannst du mich helfen?","Kannst du ich helfen?","Kannst du helfen mir?"],0,"‹helfen› takes the dative, ‹mir›, and the infinitive goes to the end."]
     ],
     practice: [
-      ["mc", "I'm cold. =", "Mir ist kalt.", "Ich bin kalt.", "Mich ist kalt.", "Ich habe kalt.", "How you feel takes mir: Mir ist kalt. Ich bin kalt describes your personality."],
-      ["mc", "That's for you. (to a friend) =", "Das ist für dich.", "Das ist für dir.", "Das ist für du.", "Das ist für dein.", "für always takes the accusative: dich."],
-      ["mc", "How are you? (formal) =", "Wie geht es Ihnen?", "Wie geht es Sie?", "Wie geht es dir?", "Wie gehen Sie?", "Wie geht es takes the dative, and the dative of Sie is Ihnen."],
-      ["mc", "I like that. =", "Das gefällt mir.", "Das gefällt mich.", "Ich gefalle das.", "Das gefällt ich.", "With gefallen the thing you like is the subject and you are in the dative: mir."],
-      ["mc", "Can you help me? (formal) =", "Können Sie mir helfen?", "Können Sie mich helfen?", "Können Sie ich helfen?", "Können Sie helfen mir?", "helfen takes the dative, mir, and helfen goes to the end."],
-      ["or", "Can you help me? (to a friend)", "Kannst du mir helfen", "mich", "helfen takes the dative: mir. In a yes/no question the verb comes first."],
-      ["or", "How are you? (to a friend)", "Wie geht es dir", "dich", "Wie geht es takes the dative: dir, not dich."],
-      ["or", "Is that for me?", "Ist das für mich", "mir", "für takes the accusative: mich. In a yes/no question the verb comes first."],
-      ["fi", "Es tut __ leid.", "I'm sorry.", "mir", "mich|ich|mein", "Es tut mir leid: the person who is sorry is in the dative, mir."],
-      ["fi", "Ich habe ein Geschenk für __.", "I have a present for you. (to a friend)", "dich", "dir|du|dein", "für takes the accusative: dich."],
-      ["fi", "Ich fahre mit __ nach Hamburg.", "I'm going to Hamburg with him.", "ihm", "ihn|er|sein", "mit takes the dative, and the dative of er is ihm."],
-      ["ty", "I'm cold.", "Mir ist kalt.", "kalt · how you feel: to me it is cold", "mich ich", "How you feel takes the dative: mir, not ich."],
-      ["ty", "Can you help me? (to a friend)", "Kannst du mir helfen?|Kannst du mir bitte helfen?", "können · du · helfen · helfen takes the dative", "mich", "helfen takes the dative: mir, not mich."],
-      ["ty", "How are you? (formal)", "Wie geht es Ihnen?|Wie geht's Ihnen?|Wie gehts Ihnen?", "gehen · es · Sie in the dative", "Sie", "Ihnen is the dative of Sie."]
+      ["mc","I'm cold. =","Mir ist kalt.","Ich bin kalt.","Mich ist kalt.","Ich habe kalt.","How you feel takes ‹mir›: ‹Mir ist kalt›. ‹Ich bin kalt› describes your personality."],
+      ["mc","That's for you. (to a friend) =","Das ist für dich.","Das ist für dir.","Das ist für du.","Das ist für dein.","‹für› always takes the accusative: ‹dich›."],
+      ["mc","How are you? (formal) =","Wie geht es Ihnen?","Wie geht es Sie?","Wie geht es dir?","Wie gehen Sie?","‹Wie geht es› takes the dative, and the dative of ‹Sie› is ‹Ihnen›."],
+      ["mc","I like that. =","Das gefällt mir.","Das gefällt mich.","Ich gefalle das.","Das gefällt ich.","With ‹gefallen› the thing you like is the subject and you are in the dative: ‹mir›."],
+      ["mc","Can you help me? (formal) =","Können Sie mir helfen?","Können Sie mich helfen?","Können Sie ich helfen?","Können Sie helfen mir?","‹helfen› takes the dative, ‹mir›, and ‹helfen› goes to the end."],
+      ["or","Can you help me? (to a friend)","Kannst du mir helfen","mich","‹helfen› takes the dative: ‹mir›. In a yes/no question the verb comes first."],
+      ["or","How are you? (to a friend)","Wie geht es dir","dich","‹Wie geht es› takes the dative: ‹dir›, not ‹dich›."],
+      ["or","Is that for me?","Ist das für mich","mir","‹für› takes the accusative: ‹mich›. In a yes/no question the verb comes first."],
+      ["fi","Es tut __ leid.","I'm sorry.","mir","mich|ich|mein","‹Es tut mir leid›: the person who is sorry is in the dative, ‹mir›."],
+      ["fi","Ich habe ein Geschenk für __.","I have a present for you. (to a friend)","dich","dir|du|dein","‹für› takes the accusative: ‹dich›."],
+      ["fi","Ich fahre mit __ nach Hamburg.","I'm going to Hamburg with him.","ihm","ihn|er|sein","‹mit› takes the dative, and the dative of ‹er› is ‹ihm›."],
+      ["ty","I'm cold.","Mir ist kalt.","‹kalt› · how you feel: to me it is cold","mich ich","How you feel takes the dative: ‹mir›, not ‹ich›."],
+      ["ty","Can you help me? (to a friend)","Kannst du mir helfen?|Kannst du mir bitte helfen?","‹können› · ‹du› · ‹helfen› · ‹helfen› takes the dative","mich","‹helfen› takes the dative: ‹mir›, not ‹mich›."],
+      ["ty","How are you? (formal)","Wie geht es Ihnen?|Wie geht's Ihnen?|Wie gehts Ihnen?","‹gehen› · ‹es› · ‹Sie› in the dative","Sie","‹Ihnen› is the dative of ‹Sie›."]
     ]
   },
   {
     id: "prepositions",
     title: "Prepositions of place and time",
-    blurb: "Say where something is and where you are going, and use am, im and um for times.",
+    blurb: "Say where something is and where you are going, and use ‹am›, ‹im› and ‹um› for times.",
     deck: "Around town and directions",
     body: `
 <p>English uses two words for place: <i>in</i> for where something is, and <i>into</i> for where something goes. German uses the same preposition for both and changes the case of the article instead.</p>
 <h3>Where? The dative</h3>
-<p>Nine prepositions work this way: <b>in, an, auf, neben, vor, hinter, über, unter, zwischen</b> (in, at, on, next to, in front of, behind, above, under, between). They are called two-way prepositions. When something simply is somewhere, they take the dative.</p>
+<p>Nine prepositions work this way: <b>in</b>, <b>an</b>, <b>auf</b>, <b>neben</b>, <b>vor</b>, <b>hinter</b>, <b>über</b>, <b>unter</b>, <b>zwischen</b> (in, at, on, next to, in front of, behind, above, under, between). They are called two-way prepositions. When something simply is somewhere, they take the dative.</p>
 {{ex:Ich bin im Kino.|ihh bin im KEE-noh|I'm at the movies.}}
 {{ex:Die Bank ist neben dem Bahnhof.|dee bahnk ist NAY-buhn daym BAHN-hohf|The bank is next to the train station.}}
 {{ex:Das Handy ist auf dem Tisch.|dahs HEHN-dee ist owf daym tish|The cell phone is on the table.}}
@@ -71,100 +71,100 @@ module.exports = [
 <p>You do not have to build these forms yet. Learn the short ones as chunks:</p>
 <div class="tbl"><table><tr><th>Short form</th><th>Long form</th><th>Question</th></tr><tr><td class="k">im</td><td class="k">in dem</td><td>Where?</td></tr><tr><td class="k">ins</td><td class="k">in das</td><td>Where to?</td></tr><tr><td class="k">am</td><td class="k">an dem</td><td>Where?</td></tr><tr><td class="k">ans</td><td class="k">an das</td><td>Where to?</td></tr></table></div>
 <h3>Going to a place in town</h3>
-<p>For "to" a shop, an office or a person, use <b>zu</b>, which always takes the dative: <b>zum</b> (zu dem) for masculine and neuter places, <b>zur</b> (zu der) for feminine ones. <b>nach</b> is only for cities, countries and <b>nach Hause</b>.</p>
+<p>For "to" a shop, an office or a person, use <b>zu</b>, which always takes the dative: <b>zum</b> (‹zu dem›) for masculine and neuter places, <b>zur</b> (‹zu der›) for feminine ones. <b>nach</b> is only for cities, countries and <b>nach Hause</b>.</p>
 {{ex:Ich gehe zum Supermarkt.|ihh GAY-uh tsoom ZOO-puh-mahrkt|I'm going to the supermarket.}}
-<h3>Time: am, im, um</h3>
+<h3>Time: ‹am›, ‹im›, ‹um›</h3>
 <p>English says <i>on</i> Monday, <i>in</i> July, <i>at</i> eight. German says <b>am</b> for days and parts of the day, <b>im</b> for months and seasons, and <b>um</b> for clock times.</p>
 {{ex:Der Film beginnt um acht Uhr.|dayr film buh-GINT oom ahkht oor|The movie starts at eight.}}
-<h3>seit and vor</h3>
+<h3>‹seit› and ‹vor›</h3>
 <p>For something that started in the past and is still going on, German uses <b>seit</b> with the present tense, where English says "have been" or "have lived".</p>
 {{ex:Ich wohne seit zwei Jahren in Berlin.|ihh VOH-nuh zait tsvai YAH-ruhn in behr-LEEN|I've lived in Berlin for two years.}}
 <p><b>vor</b> with a time means "ago": <b>vor einer Woche</b>, a week ago. You will use it with the past tenses in the next lessons.</p>
 <h3>Waiting for something</h3>
 <p>Some verbs come with their own preposition. You wait <b>auf</b> something, not <b>für</b> it.</p>
 {{ex:Ich warte auf den Bus.|ihh VAHR-tuh owf dayn boos|I'm waiting for the bus.}}
-<div class="tip"><b>Most common mistake:</b> translating "for" word for word. <b>Ich warte für den Bus</b> → <b>Ich warte auf den Bus</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> translating "for" word for word. <b>Ich warte für den Bus</b> → <b>Ich warte auf den Bus</b>.</div>
 `,
     check: [
-      ["I'm going to the movies.", ["Ich gehe ins Kino.", "Ich gehe im Kino.", "Ich gehe nach Kino.", "Ich gehe zu Kino."], 0, "Where to? in takes the accusative: ins Kino (in das Kino)."],
-      ["on Monday", ["in Montag", "am Montag", "auf Montag", "um Montag"], 1, "Days take am: am Montag."],
-      ["I've lived in Berlin for two years (and still do).", ["Ich wohne für zwei Jahre in Berlin.", "Ich wohne vor zwei Jahren in Berlin.", "Ich bin seit zwei Jahren in Berlin wohnen.", "Ich wohne seit zwei Jahren in Berlin."], 3, "seit with the present tense: the living started two years ago and is still going on."]
+      ["I'm going to the movies.",["Ich gehe ins Kino.","Ich gehe im Kino.","Ich gehe nach Kino.","Ich gehe zu Kino."],0,"Where to? ‹in› takes the accusative: ‹ins Kino› (‹in das Kino›)."],
+      ["on Monday",["in Montag","am Montag","auf Montag","um Montag"],1,"Days take ‹am›: ‹am Montag›."],
+      ["I've lived in Berlin for two years (and still do).",["Ich wohne für zwei Jahre in Berlin.","Ich wohne vor zwei Jahren in Berlin.","Ich bin seit zwei Jahren in Berlin wohnen.","Ich wohne seit zwei Jahren in Berlin."],3,"‹seit› with the present tense: the living started two years ago and is still going on."]
     ],
     practice: [
-      ["mc", "I'm at the movies. =", "Ich bin im Kino.", "Ich bin ins Kino.", "Ich bin nach Kino.", "Ich bin zu Kino.", "Where? in takes the dative: im Kino."],
-      ["mc", "I'm going to the movies. =", "Ich gehe ins Kino.", "Ich gehe im Kino.", "Ich gehe nach Kino.", "Ich gehe zu Kino.", "Where to? in takes the accusative: ins Kino."],
-      ["mc", "I'm going to the supermarket. =", "Ich gehe zum Supermarkt.", "Ich gehe nach den Supermarkt.", "Ich gehe nach Supermarkt.", "Ich gehe zu den Supermarkt.", "For a shop use zu with the dative: zum Supermarkt. nach is for cities and countries."],
-      ["mc", "I'm waiting for the bus. =", "Ich warte auf den Bus.", "Ich warte für den Bus.", "Ich warte den Bus.", "Ich warte zum Bus.", "You wait auf something: Ich warte auf den Bus."],
-      ["mc", "The cell phone is on the table. =", "Das Handy ist auf dem Tisch.", "Das Handy ist auf den Tisch.", "Das Handy ist auf der Tisch.", "Das Handy ist auf die Tisch.", "Where? auf takes the dative, and der Tisch becomes dem Tisch."],
-      ["or", "The bank is next to the train station. (start with die Bank)", "Die Bank ist neben dem Bahnhof", "den", "Where? neben takes the dative: der Bahnhof becomes dem Bahnhof."],
-      ["or", "On Saturday I'm going to the movies. (start with am Samstag)", "Am Samstag gehe ich ins Kino", "geht im", "Verb second: am Samstag first, then gehe, then ich. Where to? ins Kino."],
-      ["or", "Are you waiting for the train? (to a friend)", "Wartest du auf den Zug", "dem", "warten auf takes the accusative: den Zug. In a yes/no question the verb comes first."],
-      ["fi", "Heute Abend gehen wir __ Kino.", "We're going to the movies tonight.", "ins", "im|in|am", "Where to? ins Kino, the short form of in das Kino."],
-      ["fi", "Ich arbeite __ Montag.", "I work on Monday.", "am", "im|in|um", "Days take am: am Montag."],
-      ["fi", "Ich gehe __ Post.", "I'm going to the post office.", "zur", "zum|nach|ins", "die Post is feminine, so zu der becomes zur."],
-      ["ty", "I'm at home.", "Ich bin zu Hause.|Ich bin daheim.", "sein · at home = zu Hause", "nach bist", "The ich form of sein is bin, and at home is zu Hause."],
-      ["ty", "I'm going home.", "Ich gehe nach Hause.|Ich fahre nach Hause.", "gehen · going home = nach Hause", "zu geht", "Going home is nach Hause, and the ich form ends in -e: gehe."],
-      ["ty", "On Sunday we're going to the movies. (start with am Sonntag)", "Am Sonntag gehen wir ins Kino.|Am Sonntag fahren wir ins Kino.", "am Sonntag · gehen · wir · ins Kino", "gehe im", "Verb second: am Sonntag first, then gehen, then wir."]
+      ["mc","I'm at the movies. =","Ich bin im Kino.","Ich bin ins Kino.","Ich bin nach Kino.","Ich bin zu Kino.","Where? ‹in› takes the dative: ‹im Kino›."],
+      ["mc","I'm going to the movies. =","Ich gehe ins Kino.","Ich gehe im Kino.","Ich gehe nach Kino.","Ich gehe zu Kino.","Where to? ‹in› takes the accusative: ‹ins Kino›."],
+      ["mc","I'm going to the supermarket. =","Ich gehe zum Supermarkt.","Ich gehe nach den Supermarkt.","Ich gehe nach Supermarkt.","Ich gehe zu den Supermarkt.","For a shop use ‹zu› with the dative: ‹zum Supermarkt›. ‹nach› is for cities and countries."],
+      ["mc","I'm waiting for the bus. =","Ich warte auf den Bus.","Ich warte für den Bus.","Ich warte den Bus.","Ich warte zum Bus.","You wait ‹auf› something: ‹Ich warte auf den Bus›."],
+      ["mc","The cell phone is on the table. =","Das Handy ist auf dem Tisch.","Das Handy ist auf den Tisch.","Das Handy ist auf der Tisch.","Das Handy ist auf die Tisch.","Where? ‹auf› takes the dative, and ‹der Tisch› becomes ‹dem Tisch›."],
+      ["or","The bank is next to the train station. (start with ‹die Bank›)","Die Bank ist neben dem Bahnhof","den","Where? ‹neben› takes the dative: ‹der Bahnhof› becomes ‹dem Bahnhof›."],
+      ["or","On Saturday I'm going to the movies. (start with ‹am Samstag›)","Am Samstag gehe ich ins Kino","geht im","Verb second: ‹am Samstag› first, then ‹gehe›, then ‹ich›. Where to? ‹ins Kino›."],
+      ["or","Are you waiting for the train? (to a friend)","Wartest du auf den Zug","dem","‹warten auf› takes the accusative: ‹den Zug›. In a yes/no question the verb comes first."],
+      ["fi","Heute Abend gehen wir __ Kino.","We're going to the movies tonight.","ins","im|in|am","Where to? ‹ins Kino›, the short form of ‹in das Kino›."],
+      ["fi","Ich arbeite __ Montag.","I work on Monday.","am","im|in|um","Days take ‹am›: ‹am Montag›."],
+      ["fi","Ich gehe __ Post.","I'm going to the post office.","zur","zum|nach|ins","‹die Post› is feminine, so ‹zu der› becomes ‹zur›."],
+      ["ty","I'm at home.","Ich bin zu Hause.|Ich bin daheim.","‹sein› · at home = ‹zu Hause›","nach bist","The ‹ich› form of ‹sein› is ‹bin›, and at home is ‹zu Hause›."],
+      ["ty","I'm going home.","Ich gehe nach Hause.|Ich fahre nach Hause.","‹gehen› · going home = ‹nach Hause›","zu geht","Going home is ‹nach Hause›, and the ‹ich› form ends in ‹-e›: ‹gehe›."],
+      ["ty","On Sunday we're going to the movies. (start with ‹am Sonntag›)","Am Sonntag gehen wir ins Kino.|Am Sonntag fahren wir ins Kino.","‹am Sonntag› · ‹gehen› · ‹wir› · ‹ins Kino›","gehe im","Verb second: ‹am Sonntag› first, then ‹gehen›, then ‹wir›."]
     ]
   },
   {
     id: "imperative",
-    title: "Imperative: du, ihr, Sie",
+    title: "Imperative: ‹du›, ‹ihr›, ‹Sie›",
     blurb: "Tell someone what to do, politely to a stranger and simply to a friend.",
     deck: "Health and emergencies",
     body: `
 <p>English has one form for orders and requests: "Come in!", "Take a pill." It works for everyone. German has three, one for each "you": <b>Sie</b>, <b>du</b> and <b>ihr</b>.</p>
-<h3>Sie: the verb first, then Sie</h3>
+<h3>‹Sie›: the verb first, then ‹Sie›</h3>
 <p>To a stranger, a doctor or anyone you call <b>Sie</b>, put the infinitive first and <b>Sie</b> right after it. Never leave out <b>Sie</b>: without it, the request sounds wrong.</p>
 {{ex:Nehmen Sie eine Tablette.|NAY-muhn zee AI-nuh tah-BLEHT-uh|Take a pill. (formal)}}
 {{ex:Rufen Sie einen Krankenwagen!|ROO-fuhn zee AI-nuhn KRAHN-kuhn-vah-guhn|Call an ambulance!}}
 {{ex:Gehen Sie geradeaus.|GAY-uhn zee guh-rah-duh-OWS|Go straight ahead. (formal)}}
-<h3>du: the du form without -st and without du</h3>
-<p>To a friend, start from the du form and take off <b>-st</b> and the word <b>du</b>: <b>du kommst</b> → <b>Komm!</b> Verbs that change e to i or ie keep the change: <b>du nimmst</b> → <b>Nimm!</b>, <b>du sprichst</b> → <b>Sprich!</b> When the stem ends in s, only the t goes: <b>du liest</b> → <b>Lies!</b> You will sometimes see an extra -e (<b>Bleibe!</b>); that is correct too, just a little more formal.</p>
+<h3>‹du›: the ‹du› form without ‹-st› and without ‹du›</h3>
+<p>To a friend, start from the ‹du› form and take off <b>-st</b> and the word <b>du</b>: <b>du kommst</b> → <b>Komm!</b> Verbs that change ‹e› to ‹i› or ‹ie› keep the change: <b>du nimmst</b> → <b>Nimm!</b>, <b>du sprichst</b> → <b>Sprich!</b> When the stem ends in ‹s›, only the ‹t› goes: <b>du liest</b> → <b>Lies!</b> You will sometimes see an extra ‹-e› (<b>Bleibe!</b>); that is correct too, just a little more formal.</p>
 {{ex:Trink viel Wasser!|trink feel VAHS-uh|Drink lots of water! (to a friend)}}
 {{ex:Bleib im Bett!|blaip im beht|Stay in bed! (to a friend)}}
-<h3>One exception: a → ä</h3>
-<p>Verbs that add an umlaut in the du form (<b>du fährst</b>, <b>du schläfst</b>) drop it again in the imperative.</p>
+<h3>One exception: ‹a› → ‹ä›</h3>
+<p>Verbs that add an umlaut in the ‹du› form (<b>du fährst</b>, <b>du schläfst</b>) drop it again in the imperative.</p>
 {{ex:Fahr bitte langsam!|fahr BIT-uh LAHNG-zahm|Please drive slowly! (to a friend)}}
-<div class="tbl"><table><tr><th>du form</th><th>Imperative</th></tr><tr><td class="k">du kommst</td><td class="k">Komm!</td></tr><tr><td class="k">du nimmst</td><td class="k">Nimm!</td></tr><tr><td class="k">du fährst</td><td class="k">Fahr!</td></tr><tr><td class="k">du schläfst</td><td class="k">Schlaf!</td></tr></table></div>
-<h3>ihr: the ihr form without ihr</h3>
-<p>To a group of friends, use the ihr form and leave out <b>ihr</b>.</p>
+<div class="tbl"><table><tr><th>‹du› form</th><th>Imperative</th></tr><tr><td class="k">du kommst</td><td class="k">Komm!</td></tr><tr><td class="k">du nimmst</td><td class="k">Nimm!</td></tr><tr><td class="k">du fährst</td><td class="k">Fahr!</td></tr><tr><td class="k">du schläfst</td><td class="k">Schlaf!</td></tr></table></div>
+<h3>‹ihr›: the ‹ihr› form without ‹ihr›</h3>
+<p>To a group of friends, use the ‹ihr› form and leave out <b>ihr</b>.</p>
 {{ex:Wartet hier!|VAHR-tuht heer|Wait here! (to friends)}}
-<h3>sein</h3>
+<h3>‹sein›</h3>
 <p>"Be careful!" needs the verb <b>sein</b>, which has its own forms: <b>Sei</b> to a friend, <b>Seid</b> to friends, and <b>Seien Sie</b> to a stranger.</p>
 {{ex:Sei vorsichtig!|zai FOHR-zihh-tihh|Be careful! (to a friend)}}
-<h3>bitte and separable verbs</h3>
+<h3>‹bitte› and separable verbs</h3>
 <p><b>bitte</b> makes any request softer; put it after the verb or at the end. A separable prefix goes to the end, as in a statement.</p>
 {{ex:Ruf mich morgen an!|roof mihh MAWR-guhn ahn|Call me tomorrow! (to a friend)}}
-<p>With staff, a doctor or a stranger, the Sie form plus <b>bitte</b> is the normal polite way to ask for something. Between friends, a du imperative without <b>bitte</b> is common; add <b>bitte</b> when you are asking a favor.</p>
-<div class="tip"><b>Most common mistake:</b> putting du in front of the verb. <b>Du komm!</b> → <b>Komm!</b>, but to a stranger: <b>Kommen Sie!</b></div>
+<p>With staff, a doctor or a stranger, the ‹Sie› form plus <b>bitte</b> is the normal polite way to ask for something. Between friends, a ‹du› imperative without <b>bitte</b> is common; add <b>bitte</b> when you are asking a favor.</p>
+<div class="tip"><strong>Most common mistake:</strong> putting ‹du› in front of the verb. <b>Du komm!</b> → <b>Komm!</b>, but to a stranger: <b>Kommen Sie!</b></div>
 `,
     check: [
-      ["Call me, please! (formal)", ["Rufen Sie mich bitte an!", "Rufen mich bitte an!", "Ruf Sie mich bitte an!", "Anrufen Sie mich bitte!"], 0, "Sie imperative: the infinitive first, then Sie; the separable prefix an goes to the end."],
-      ["Take a pill! (to a friend)", ["Nimmst eine Tablette!", "Du nimm eine Tablette!", "Nimm eine Tablette!", "Nehmst eine Tablette!"], 2, "du nimmst without -st and without du: Nimm!"],
-      ["Drive carefully! (to a friend)", ["Fähr vorsichtig!", "Fahr vorsichtig!", "Fahrst vorsichtig!", "Du fahr vorsichtig!"], 1, "du fährst drops the umlaut in the imperative: Fahr!"]
+      ["Call me, please! (formal)",["Rufen Sie mich bitte an!","Rufen mich bitte an!","Ruf Sie mich bitte an!","Anrufen Sie mich bitte!"],0,"‹Sie› imperative: the infinitive first, then ‹Sie›; the separable prefix ‹an› goes to the end."],
+      ["Take a pill! (to a friend)",["Nimmst eine Tablette!","Du nimm eine Tablette!","Nimm eine Tablette!","Nehmst eine Tablette!"],2,"‹du nimmst› without ‹-st› and without ‹du›: ‹Nimm!›"],
+      ["Drive carefully! (to a friend)",["Fähr vorsichtig!","Fahr vorsichtig!","Fahrst vorsichtig!","Du fahr vorsichtig!"],1,"‹du fährst› drops the umlaut in the imperative: ‹Fahr!›"]
     ],
     practice: [
-      ["mc", "Take a pill. (formal) =", "Nehmen Sie eine Tablette.", "Nehmen eine Tablette.", "Nimm Sie eine Tablette.", "Nehmt Sie eine Tablette.", "To a stranger: the infinitive first, then Sie."],
-      ["mc", "Come! (to a friend) =", "Komm!", "Kommst!", "Du komm!", "Kommen du!", "du kommst without -st and without du: Komm!"],
-      ["mc", "Sleep well! (to a friend) =", "Schlaf gut!", "Schläf gut!", "Schläfst gut!", "Schlafst gut!", "du schläfst drops the umlaut in the imperative: Schlaf gut!", "!strict"],
-      ["mc", "Wait here! (to friends) =", "Wartet hier!", "Warte hier!", "Wartest hier!", "Warten hier!", "To several friends: the ihr form without ihr, wartet. Warte! is for one friend."],
-      ["mc", "Call me! (to a friend) =", "Ruf mich an!", "Anruf mich!", "Ruf an mich!", "Rufst mich an!", "anrufen is separable, so an goes at the end: Ruf mich an!"],
-      ["or", "Call an ambulance! (formal)", "Rufen Sie einen Krankenwagen", "Ruf einem", "Sie imperative: the verb comes first, then Sie. der Krankenwagen is the direct object: einen Krankenwagen."],
-      ["or", "Call me tomorrow! (to a friend)", "Ruf mich morgen an", "mir rufst", "anrufen is separable: an goes to the end, and the direct object is mich."],
-      ["or", "Wait for me! (to friends)", "Wartet auf mich", "mir wartest", "The ihr imperative is the ihr form without ihr: wartet. auf takes the accusative here: mich."],
-      ["fi", "__ Sie bitte langsam!", "Please speak slowly! (formal)", "Sprechen", "Sprich|Sprecht|Sprechst", "To a stranger: the infinitive, then Sie."],
-      ["fi", "__ viel Wasser!", "Drink lots of water! (to a friend)", "Trink|Trinke", "Trinkst|Trinkt|Trinken", "du trinkst without -st and without du: Trink!"],
-      ["fi", "__ bitte nicht so schnell!", "Please don't drive so fast! (to a friend)", "Fahr|Fahre", "Fähr|Fährst|Fahrt", "du fährst drops the umlaut in the imperative: Fahr!", "!strict"],
-      ["ty", "Take a pill! (formal)", "Nehmen Sie eine Tablette!", "nehmen · Sie · die Tablette", "Nimm einer", "Sie imperative: the verb comes first, then Sie."],
-      ["ty", "Stay in bed! (to a friend)", "Bleib im Bett!|Bleibe im Bett!", "bleiben · im Bett · no -st, no du", "Bleibst", "The du imperative is the du form without -st and without du: Bleib!"],
-      ["ty", "Call me! (formal)", "Rufen Sie mich an!|Rufen Sie mich bitte an!", "anrufen · Sie · ich → mich", "mir Ruf", "anrufen is separable: an goes to the end, and the Sie imperative puts the verb first."]
+      ["mc","Take a pill. (formal) =","Nehmen Sie eine Tablette.","Nehmen eine Tablette.","Nimm Sie eine Tablette.","Nehmt Sie eine Tablette.","To a stranger: the infinitive first, then ‹Sie›."],
+      ["mc","Come! (to a friend) =","Komm!","Kommst!","Du komm!","Kommen du!","‹du kommst› without ‹-st› and without ‹du›: ‹Komm!›"],
+      ["mc","Sleep well! (to a friend) =","Schlaf gut!","Schläf gut!","Schläfst gut!","Schlafst gut!","‹du schläfst› drops the umlaut in the imperative: ‹Schlaf gut!›","!strict"],
+      ["mc","Wait here! (to friends) =","Wartet hier!","Warte hier!","Wartest hier!","Warten hier!","To several friends: the ‹ihr› form without ‹ihr›, ‹wartet›. ‹Warte!› is for one friend."],
+      ["mc","Call me! (to a friend) =","Ruf mich an!","Anruf mich!","Ruf an mich!","Rufst mich an!","‹anrufen› is separable, so ‹an› goes at the end: ‹Ruf mich an!›"],
+      ["or","Call an ambulance! (formal)","Rufen Sie einen Krankenwagen","Ruf einem","‹Sie› imperative: the verb comes first, then ‹Sie›. ‹der Krankenwagen› is the direct object: ‹einen Krankenwagen›."],
+      ["or","Call me tomorrow! (to a friend)","Ruf mich morgen an","mir rufst","‹anrufen› is separable: ‹an› goes to the end, and the direct object is ‹mich›."],
+      ["or","Wait for me! (to friends)","Wartet auf mich","mir wartest","The ‹ihr› imperative is the ‹ihr› form without ‹ihr›: ‹wartet›. ‹auf› takes the accusative here: ‹mich›."],
+      ["fi","__ Sie bitte langsam!","Please speak slowly! (formal)","Sprechen","Sprich|Sprecht|Sprechst","To a stranger: the infinitive, then ‹Sie›."],
+      ["fi","__ viel Wasser!","Drink lots of water! (to a friend)","Trink|Trinke","Trinkst|Trinkt|Trinken","‹du trinkst› without ‹-st› and without ‹du›: ‹Trink!›"],
+      ["fi","__ bitte nicht so schnell!","Please don't drive so fast! (to a friend)","Fahr|Fahre","Fähr|Fährst|Fahrt","‹du fährst› drops the umlaut in the imperative: ‹Fahr!›","!strict"],
+      ["ty","Take a pill! (formal)","Nehmen Sie eine Tablette!","‹nehmen› · ‹Sie› · ‹die Tablette›","Nimm einer","‹Sie› imperative: the verb comes first, then ‹Sie›."],
+      ["ty","Stay in bed! (to a friend)","Bleib im Bett!|Bleibe im Bett!","‹bleiben› · ‹im Bett› · no ‹-st›, no ‹du›","Bleibst","The ‹du› imperative is the ‹du› form without ‹-st› and without ‹du›: ‹Bleib!›"],
+      ["ty","Call me! (formal)","Rufen Sie mich an!|Rufen Sie mich bitte an!","‹anrufen› · ‹Sie› · ‹ich› → ‹mich›","mir Ruf","‹anrufen› is separable: ‹an› goes to the end, and the ‹Sie› imperative puts the verb first."]
     ]
   },
   {
     id: "perfekt",
     title: "Perfekt: what happened",
-    blurb: "Say what you did yesterday or last weekend with haben or sein and a past participle.",
+    blurb: "Say what you did yesterday or last weekend with ‹haben› or ‹sein› and a past participle.",
     deck: "Likes and free time",
     body: `
 <p>English has several past forms: "I ate", "I have eaten", "I did eat". In conversation German mostly uses one, the Perfekt (the past you use in conversation): <b>haben</b> or <b>sein</b> as a helping verb, plus a past participle.</p>
@@ -177,56 +177,56 @@ module.exports = [
 <h3>Making the past participle</h3>
 <p>Regular verbs take <b>ge-</b> and <b>-t</b>: <b>machen</b> → <b>gemacht</b>, <b>kaufen</b> → <b>gekauft</b>, <b>arbeiten</b> → <b>gearbeitet</b>. Irregular verbs (also called strong verbs) take <b>ge-</b> and <b>-en</b>, often with a new vowel. Learn them one by one.</p>
 <div class="tbl"><table><tr><th>Infinitive</th><th>Past participle</th></tr><tr><td class="k">essen</td><td class="k">gegessen</td></tr><tr><td class="k">lesen</td><td class="k">gelesen</td></tr><tr><td class="k">trinken</td><td class="k">getrunken</td></tr><tr><td class="k">fahren</td><td class="k">gefahren</td></tr><tr><td class="k">gehen</td><td class="k">gegangen</td></tr><tr><td class="k">bleiben</td><td class="k">geblieben</td></tr></table></div>
-<p>Two groups take no <b>ge-</b>: verbs with an inseparable prefix (<b>be-, ver-, er-, ent-, ge-</b>) and verbs ending in <b>-ieren</b>. Separable verbs put <b>ge</b> between the prefix and the stem.</p>
+<p>Two groups take no <b>ge-</b>: verbs with an inseparable prefix (<b>be-</b>, <b>ver-</b>, <b>er-</b>, <b>ent-</b>, <b>ge-</b>) and verbs ending in <b>-ieren</b>. Separable verbs put <b>ge</b> between the prefix and the stem.</p>
 <p>The participle never changes with the person: <b>ich habe gemacht</b>, <b>wir haben gemacht</b>. Only the helping verb takes the ending, so get <b>haben</b> or <b>sein</b> right and the rest follows.</p>
 {{ex:Ich habe das nicht verstanden.|ihh HAH-buh dahs nihht fehr-SHTAHN-duhn|I didn't understand that.}}
 {{ex:Ich habe mit Anna telefoniert.|ihh HAH-buh mit AHN-ah tay-lay-foh-NEERT|I talked to Anna on the phone.}}
 {{ex:Ich habe heute eingekauft.|ihh HAH-buh HOY-tuh AIN-guh-kowft|I went grocery shopping today.}}
-<h3>haben or sein?</h3>
-<p>Most verbs take <b>haben</b>. Take <b>sein</b> when the verb means moving from one place to another (<b>gehen, fahren, kommen, fliegen</b>), a change of state (<b>aufstehen, einschlafen</b>), and with <b>bleiben</b>. When in doubt, ask: did someone go from one place to another, or turn into something new? If so, use <b>sein</b>.</p>
+<h3>‹haben› or ‹sein›?</h3>
+<p>Most verbs take <b>haben</b>. Take <b>sein</b> when the verb means moving from one place to another (<b>gehen</b>, <b>fahren</b>, <b>kommen</b>, <b>fliegen</b>), a change of state (<b>aufstehen</b>, <b>einschlafen</b>), and with <b>bleiben</b>. When in doubt, ask: did someone go from one place to another, or turn into something new? If so, use <b>sein</b>.</p>
 {{ex:Ich bin nach Hamburg gefahren.|ihh bin nahkh HAHM-boork guh-FAH-ruhn|I went to Hamburg.}}
 {{ex:Sie ist zu Hause geblieben.|zee ist tsoo HOW-zuh guh-BLEE-buhn|She stayed home.}}
 {{ex:Wir haben am Samstag gegrillt.|veer HAH-buhn ahm ZAHMS-tahk guh-GRILT|We had a barbecue on Saturday.}}
 <p>One Perfekt covers all the English forms: <b>Ich habe gegessen</b> is "I ate", "I have eaten" and "I did eat". To ask a yes/no question, put the helping verb first; the participle still goes to the end.</p>
 {{ex:Hast du gut geschlafen?|hahst doo goot guh-SHLAH-fuhn|Did you sleep well? (to a friend)}}
-<div class="tip"><b>Most common mistake:</b> using haben for every verb. <b>Ich habe nach Berlin gefahren</b> → <b>Ich bin nach Berlin gefahren</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> using ‹haben› for every verb. <b>Ich habe nach Berlin gefahren</b> → <b>Ich bin nach Berlin gefahren</b>.</div>
 `,
     check: [
-      ["I went to Berlin (by train).", ["Ich habe nach Berlin gefahren.", "Ich bin nach Berlin gefahren.", "Ich bin gefahren nach Berlin.", "Ich habe nach Berlin gefahrt."], 1, "Moving from A to B takes sein, and the participle gefahren goes to the end."],
-      ["Which is the past participle of verstehen?", ["verstanden", "geverstanden", "verstehen", "geversteht"], 0, "Verbs with the inseparable prefix ver- take no ge-: verstanden."],
-      ["I ate pizza.", ["Ich habe gegessen Pizza.", "Ich bin Pizza gegessen.", "Ich habe Pizza gegesst.", "Ich habe Pizza gegessen."], 3, "essen takes haben, and the participle gegessen goes to the end."]
+      ["I went to Berlin (by train).",["Ich habe nach Berlin gefahren.","Ich bin nach Berlin gefahren.","Ich bin gefahren nach Berlin.","Ich habe nach Berlin gefahrt."],1,"Moving from A to B takes ‹sein›, and the participle ‹gefahren› goes to the end."],
+      ["Which is the past participle of ‹verstehen›?",["verstanden","geverstanden","verstehen","geversteht"],0,"Verbs with the inseparable prefix ‹ver-› take no ‹ge-›: ‹verstanden›."],
+      ["I ate pizza.",["Ich habe gegessen Pizza.","Ich bin Pizza gegessen.","Ich habe Pizza gegesst.","Ich habe Pizza gegessen."],3,"‹essen› takes ‹haben›, and the participle ‹gegessen› goes to the end."]
     ],
     practice: [
-      ["mc", "I went to Hamburg (by car). =", "Ich bin nach Hamburg gefahren.", "Ich habe nach Hamburg gefahren.", "Ich bin nach Hamburg gefahrt.", "Ich bin gefahren nach Hamburg.", "Moving from A to B takes sein: ich bin … gefahren."],
-      ["mc", "I bought a jacket. =", "Ich habe eine Jacke gekauft.", "Ich bin eine Jacke gekauft.", "Ich habe eine Jacke gekaufen.", "Ich habe gekauft eine Jacke.", "kaufen is regular: haben + gekauft, at the end."],
-      ["mc", "Which past participle has no ge-?", "verstanden", "gegessen", "gemacht", "gefahren", "verstehen has the inseparable prefix ver-, so no ge-: verstanden."],
-      ["mc", "She stayed home. =", "Sie ist zu Hause geblieben.", "Sie hat zu Hause geblieben.", "Sie ist zu Hause gebleibt.", "Sie ist zu Hause bleiben.", "bleiben takes sein, and its participle is geblieben."],
-      ["mc", "I went grocery shopping. =", "Ich habe eingekauft.", "Ich habe geeinkauft.", "Ich habe eingekaufen.", "Ich bin eingekauft.", "Separable verbs put ge between the prefix and the stem: eingekauft."],
-      ["or", "I read a book. (start with ich)", "Ich habe ein Buch gelesen", "hat", "Sentence bracket: habe in second place, the participle gelesen at the end."],
-      ["or", "Yesterday I went to Berlin. (start with gestern)", "Gestern bin ich nach Berlin gefahren", "habe", "Verb second: gestern first, then bin; fahren to a place takes sein, and gefahren goes to the end."],
-      ["or", "What did you do on the weekend? (to a friend)", "Was hast du am Wochenende gemacht", "hat", "hast is the du form, and gemacht goes to the end."],
-      ["fi", "Ich __ nach Köln gefahren.", "I went to Cologne.", "bin", "habe|hat|ist", "fahren to a place takes sein, and with ich it is bin."],
-      ["fi", "Wir haben gestern Pizza __.", "We ate pizza yesterday.", "gegessen", "gegesst|geessen|essen", "essen is irregular: gegessen."],
-      ["fi", "Hast du das __?", "Did you understand that? (to a friend)", "verstanden", "geverstanden|versteht|verstehen", "verstehen has the inseparable prefix ver-, so no ge-: verstanden."],
-      ["ty", "I bought a sweater.", "Ich habe einen Pullover gekauft.|Einen Pullover habe ich gekauft.", "haben · der Pullover · kaufen → gekauft", "ein hat", "Pullover is masculine and the direct object: einen Pullover, and gekauft goes to the end."],
-      ["ty", "We went to Munich. (use fahren)", "Wir sind nach München gefahren.", "sein · fahren → gefahren · München", "haben seid", "Moving from A to B takes sein: wir sind, and gefahren goes to the end."],
-      ["ty", "What did you do yesterday? (to a friend)", "Was hast du gestern gemacht?|Was hast du gestern getan?", "machen → gemacht · gestern · du", "hat habe", "hast is the du form, and gemacht goes to the end."]
+      ["mc","I went to Hamburg (by car). =","Ich bin nach Hamburg gefahren.","Ich habe nach Hamburg gefahren.","Ich bin nach Hamburg gefahrt.","Ich bin gefahren nach Hamburg.","Moving from A to B takes ‹sein›: ‹ich bin› … ‹gefahren›."],
+      ["mc","I bought a jacket. =","Ich habe eine Jacke gekauft.","Ich bin eine Jacke gekauft.","Ich habe eine Jacke gekaufen.","Ich habe gekauft eine Jacke.","‹kaufen› is regular: ‹haben› + ‹gekauft›, at the end."],
+      ["mc","Which past participle has no ‹ge-›?","verstanden","gegessen","gemacht","gefahren","‹verstehen› has the inseparable prefix ‹ver-›, so no ‹ge-›: ‹verstanden›."],
+      ["mc","She stayed home. =","Sie ist zu Hause geblieben.","Sie hat zu Hause geblieben.","Sie ist zu Hause gebleibt.","Sie ist zu Hause bleiben.","‹bleiben› takes ‹sein›, and its participle is ‹geblieben›."],
+      ["mc","I went grocery shopping. =","Ich habe eingekauft.","Ich habe geeinkauft.","Ich habe eingekaufen.","Ich bin eingekauft.","Separable verbs put ‹ge› between the prefix and the stem: ‹eingekauft›."],
+      ["or","I read a book. (start with ‹ich›)","Ich habe ein Buch gelesen","hat","Sentence bracket: ‹habe› in second place, the participle ‹gelesen› at the end."],
+      ["or","Yesterday I went to Berlin. (start with ‹gestern›)","Gestern bin ich nach Berlin gefahren","habe","Verb second: ‹gestern› first, then ‹bin›; ‹fahren› to a place takes ‹sein›, and ‹gefahren› goes to the end."],
+      ["or","What did you do on the weekend? (to a friend)","Was hast du am Wochenende gemacht","hat","‹hast› is the ‹du› form, and ‹gemacht› goes to the end."],
+      ["fi","Ich __ nach Köln gefahren.","I went to Cologne.","bin","habe|hat|ist","‹fahren› to a place takes ‹sein›, and with ‹ich› it is ‹bin›."],
+      ["fi","Wir haben gestern Pizza __.","We ate pizza yesterday.","gegessen","gegesst|geessen|essen","‹essen› is irregular: ‹gegessen›."],
+      ["fi","Hast du das __?","Did you understand that? (to a friend)","verstanden","geverstanden|versteht|verstehen","‹verstehen› has the inseparable prefix ‹ver-›, so no ‹ge-›: ‹verstanden›."],
+      ["ty","I bought a sweater.","Ich habe einen Pullover gekauft.|Einen Pullover habe ich gekauft.","‹haben› · ‹der Pullover› · ‹kaufen› → ‹gekauft›","ein hat","‹Pullover› is masculine and the direct object: ‹einen Pullover›, and ‹gekauft› goes to the end."],
+      ["ty","We went to Munich. (use ‹fahren›)","Wir sind nach München gefahren.","‹sein› · ‹fahren› → ‹gefahren› · ‹München›","haben seid","Moving from A to B takes ‹sein›: ‹wir sind›, and ‹gefahren› goes to the end."],
+      ["ty","What did you do yesterday? (to a friend)","Was hast du gestern gemacht?|Was hast du gestern getan?","‹machen› → ‹gemacht› · ‹gestern› · ‹du›","hat habe","‹hast› is the ‹du› form, and ‹gemacht› goes to the end."]
     ]
   },
   {
     id: "war-hatte",
-    title: "war and hatte",
-    blurb: "Say where you were and what you had with war and hatte, and recognize konnte and musste.",
+    title: "‹war› and ‹hatte›",
+    blurb: "Say where you were and what you had with ‹war› and ‹hatte›, and recognize ‹konnte› and ‹musste›.",
     deck: "Days, dates and weather",
     body: `
 <p>The Perfekt is the everyday past for most verbs. Two verbs are different: <b>sein</b> and <b>haben</b>. In speech, Germans usually use their simple past, <b>war</b> (was) and <b>hatte</b> (had), because it is shorter.</p>
-<h3>war: was, were</h3>
-<p>English has two forms, <i>was</i> and <i>were</i>. German has a form for each person, but the endings are the ones you know. The ich form and the er form are the same, with no ending.</p>
-<div class="tbl"><table><tr><th></th><th>sein</th><th>haben</th></tr><tr><td class="k">ich</td><td class="k">war</td><td class="k">hatte</td></tr><tr><td class="k">du</td><td class="k">warst</td><td class="k">hattest</td></tr><tr><td class="k">er / sie / es</td><td class="k">war</td><td class="k">hatte</td></tr><tr><td class="k">wir</td><td class="k">waren</td><td class="k">hatten</td></tr><tr><td class="k">ihr</td><td class="k">wart</td><td class="k">hattet</td></tr><tr><td class="k">sie / Sie</td><td class="k">waren</td><td class="k">hatten</td></tr></table></div>
+<h3>‹war›: was, were</h3>
+<p>English has two forms, <i>was</i> and <i>were</i>. German has a form for each person, but the endings are the ones you know. The ‹ich› form and the ‹er› form are the same, with no ending.</p>
+<div class="tbl"><table><tr><th></th><th>‹sein›</th><th>‹haben›</th></tr><tr><td class="k">ich</td><td class="k">war</td><td class="k">hatte</td></tr><tr><td class="k">du</td><td class="k">warst</td><td class="k">hattest</td></tr><tr><td class="k">er / sie / es</td><td class="k">war</td><td class="k">hatte</td></tr><tr><td class="k">wir</td><td class="k">waren</td><td class="k">hatten</td></tr><tr><td class="k">ihr</td><td class="k">wart</td><td class="k">hattet</td></tr><tr><td class="k">sie / Sie</td><td class="k">waren</td><td class="k">hatten</td></tr></table></div>
 {{ex:Gestern war es warm.|GEHS-tuhn vahr ehs vahrm|It was warm yesterday.}}
 {{ex:Ich war letzte Woche in Hamburg.|ihh vahr LEHTS-tuh VAWKH-uh in HAHM-boork|I was in Hamburg last week.}}
 {{ex:Wo warst du gestern?|voh vahrst doo GEHS-tuhn|Where were you yesterday? (to a friend)}}
-<h3>hatte: had</h3>
+<h3>‹hatte›: had</h3>
 <p><b>hatte</b> works the same way. Use it for anything you had: time, a cold, a meeting, a good day.</p>
 {{ex:Wir hatten keine Zeit.|veer HAHT-uhn KAI-nuh tsait|We didn't have time.}}
 {{ex:Hattest du Fieber?|HAHT-uhst doo FEE-buh|Did you have a fever? (to a friend)}}
@@ -240,30 +240,30 @@ module.exports = [
 <h3>Telling a short story</h3>
 <p>A story about yesterday usually mixes both: <b>war</b> and <b>hatte</b> for how things were, the Perfekt for what happened. Questions work as usual: the verb comes first in a yes/no question and second after a question word.</p>
 {{ex:Gestern war ich müde, aber ich habe viel gearbeitet.|GEHS-tuhn vahr ihh MEW-duh AH-buh ihh HAH-buh feel guh-AHR-bai-tuht|I was tired yesterday, but I worked a lot.}}
-<h3>war or wahr?</h3>
-<p><b>war</b> (was) and <b>wahr</b> (true) sound the same. The h is only in the spelling: <b>Das ist wahr</b> means "That's true".</p>
-<div class="tip"><b>Most common mistake:</b> doubling the past, as if hatte needed a participle. <b>Ich hatte keine Zeit gehabt</b> → <b>Ich hatte keine Zeit</b>.</div>
+<h3>‹war› or ‹wahr›?</h3>
+<p><b>war</b> (was) and <b>wahr</b> (true) sound the same. The ‹h› is only in the spelling: <b>Das ist wahr</b> means "That's true".</p>
+<div class="tip"><strong>Most common mistake:</strong> doubling the past, as if ‹hatte› needed a participle. <b>Ich hatte keine Zeit gehabt</b> → <b>Ich hatte keine Zeit</b>.</div>
 `,
     check: [
-      ["Where were you? (to a friend)", ["Wo warst du?", "Wo war du?", "Wo wart du?", "Wo waren du?"], 0, "The du form of war ends in -st: warst."],
-      ["We had no time.", ["Wir hatte keine Zeit.", "Wir hatten keine Zeit.", "Wir hatten keine Zeit gehabt.", "Wir hattet keine Zeit."], 1, "The wir form is hatten. Adding gehabt makes it we had had time."],
-      ["That's true.", ["Das ist war.", "Das ist waar.", "Das ist wahr.", "Das ist wahar."], 2, "true is wahr, with an h; war means was."]
+      ["Where were you? (to a friend)",["Wo warst du?","Wo war du?","Wo wart du?","Wo waren du?"],0,"The ‹du› form of ‹war› ends in ‹-st›: ‹warst›."],
+      ["We had no time.",["Wir hatte keine Zeit.","Wir hatten keine Zeit.","Wir hatten keine Zeit gehabt.","Wir hattet keine Zeit."],1,"The ‹wir› form is ‹hatten›. Adding ‹gehabt› makes it we had had time."],
+      ["That's true.",["Das ist war.","Das ist waar.","Das ist wahr.","Das ist wahar."],2,"true is ‹wahr›, with an ‹h›; ‹war› means was."]
     ],
     practice: [
-      ["mc", "I was tired. =", "Ich war müde.", "Ich warst müde.", "Ich waren müde.", "Ich wart müde.", "The ich form of war has no ending: ich war."],
-      ["mc", "Did you have time? (to a friend) =", "Hattest du Zeit?", "Hattet du Zeit?", "Hatte du Zeit?", "Hatten du Zeit?", "The du form of hatte ends in -st: hattest."],
-      ["mc", "Ich konnte nicht kommen. =", "I couldn't come.", "I can't come.", "I didn't want to come.", "I don't have to come.", "konnte is the simple past of können: could."],
-      ["mc", "Ich musste arbeiten. =", "I had to work.", "I must work.", "I wanted to work.", "I could work.", "musste is the simple past of müssen: had to."],
-      ["mc", "That's true. =", "Das ist wahr.", "Das ist war.", "Das ist waren.", "Das war.", "wahr means true; war means was."],
-      ["or", "Yesterday I was sick. (start with gestern)", "Gestern war ich krank", "warst", "Verb second: gestern first, then war, then ich."],
-      ["or", "Were you at home? (formal)", "Waren Sie zu Hause", "warst", "In a yes/no question the verb comes first, and the Sie form is waren."],
-      ["or", "Last week we had no time. (start with letzte Woche)", "Letzte Woche hatten wir keine Zeit", "hatte", "Verb second: letzte Woche is one element, then hatten, then wir."],
-      ["fi", "Wo __ du am Wochenende?", "Where were you on the weekend? (to a friend)", "warst", "war|wart|waren", "The du form of war ends in -st: warst."],
-      ["fi", "Wir __ gestern keine Zeit.", "We didn't have time yesterday.", "hatten", "hatte|hattet|hattest", "The wir form of hatte ends in -en: hatten. With an umlaut, hätten means would have.", "!strict"],
-      ["fi", "Am Montag __ es sehr kalt.", "It was very cold on Monday.", "war", "waren|warst|wahr", "es takes war; wahr means true."],
-      ["ty", "I was in Berlin. (use war)", "Ich war in Berlin.", "sein → war · in Berlin", "warst", "The ich form of war has no ending: ich war."],
-      ["ty", "We had no time. (use hatten)", "Wir hatten keine Zeit.", "haben → hatten · die Zeit", "hatte", "The wir form of hatte ends in -en: wir hatten.", "!strict"],
-      ["ty", "Yesterday I went to the movies. (start with gestern)", "Gestern bin ich ins Kino gegangen.|Gestern war ich im Kino.", "gestern · gehen → gegangen · ins Kino", "habe", "Verb second: gestern first, then bin; gehen takes sein in the Perfekt."]
+      ["mc","I was tired. =","Ich war müde.","Ich warst müde.","Ich waren müde.","Ich wart müde.","The ‹ich› form of ‹war› has no ending: ‹ich war›."],
+      ["mc","Did you have time? (to a friend) =","Hattest du Zeit?","Hattet du Zeit?","Hatte du Zeit?","Hatten du Zeit?","The ‹du› form of ‹hatte› ends in ‹-st›: ‹hattest›."],
+      ["mc","‹Ich konnte nicht kommen›. =","I couldn't come.","I can't come.","I didn't want to come.","I don't have to come.","‹konnte› is the simple past of ‹können›: could."],
+      ["mc","‹Ich musste arbeiten›. =","I had to work.","I must work.","I wanted to work.","I could work.","‹musste› is the simple past of ‹müssen›: had to."],
+      ["mc","That's true. =","Das ist wahr.","Das ist war.","Das ist waren.","Das war.","‹wahr› means true; ‹war› means was."],
+      ["or","Yesterday I was sick. (start with ‹gestern›)","Gestern war ich krank","warst","Verb second: ‹gestern› first, then ‹war›, then ‹ich›."],
+      ["or","Were you at home? (formal)","Waren Sie zu Hause","warst","In a yes/no question the verb comes first, and the ‹Sie› form is ‹waren›."],
+      ["or","Last week we had no time. (start with ‹letzte Woche›)","Letzte Woche hatten wir keine Zeit","hatte","Verb second: ‹letzte Woche› is one element, then ‹hatten›, then ‹wir›."],
+      ["fi","Wo __ du am Wochenende?","Where were you on the weekend? (to a friend)","warst","war|wart|waren","The ‹du› form of ‹war› ends in ‹-st›: ‹warst›."],
+      ["fi","Wir __ gestern keine Zeit.","We didn't have time yesterday.","hatten","hatte|hattet|hattest","The ‹wir› form of ‹hatte› ends in ‹-en›: ‹hatten›. With an umlaut, ‹hätten› means would have.","!strict"],
+      ["fi","Am Montag __ es sehr kalt.","It was very cold on Monday.","war","waren|warst|wahr","‹es› takes ‹war›; ‹wahr› means true."],
+      ["ty","I was in Berlin. (use ‹war›)","Ich war in Berlin.","‹sein› → ‹war› · ‹in Berlin›","warst","The ‹ich› form of ‹war› has no ending: ‹ich war›."],
+      ["ty","We had no time. (use ‹hatten›)","Wir hatten keine Zeit.","‹haben› → ‹hatten› · ‹die Zeit›","hatte","The ‹wir› form of ‹hatte› ends in ‹-en›: ‹wir hatten›.","!strict"],
+      ["ty","Yesterday I went to the movies. (start with ‹gestern›)","Gestern bin ich ins Kino gegangen.|Gestern war ich im Kino.","‹gestern› · ‹gehen› → ‹gegangen› · ‹ins Kino›","habe","Verb second: ‹gestern› first, then ‹bin›; ‹gehen› takes ‹sein› in the Perfekt."]
     ]
   },
   {
@@ -273,7 +273,7 @@ module.exports = [
     deck: "Shopping and clothes",
     body: `
 <p>English adjectives never change: a red jacket, the jacket is red. German adjectives change in one place only: in front of a noun. After <b>sein</b> they stay bare.</p>
-<h3>After sein: no ending</h3>
+<h3>After ‹sein›: no ending</h3>
 <p>When the adjective comes after <b>ist</b> or <b>sind</b>, use it exactly as it is in the dictionary.</p>
 {{ex:Der Pullover ist teuer.|dayr pool-OH-vuh ist TOY-uh|The sweater is expensive.}}
 {{ex:Das ist zu teuer.|dahs ist tsoo TOY-uh|That's too expensive.}}
@@ -283,7 +283,7 @@ module.exports = [
 {{ex:Ich suche einen schwarzen Pullover.|ihh ZOOKH-uh AI-nuhn SHVAHR-tsuhn pool-OH-vuh|I'm looking for a black sweater.}}
 {{ex:Ich brauche ein neues Handy.|ihh BROWKH-uh ain NOY-uhs HEHN-dee|I need a new cell phone.}}
 <p>Colors work like any other adjective. After <b>sein</b> they stay bare (<b>Die Jacke ist rot</b>); in front of a noun they take the ending from the chunk. To ask for a color, say <b>Welche Farbe?</b> (Which color?).</p>
-<h3>Comparing: -er and als</h3>
+<h3>Comparing: ‹-er› and ‹als›</h3>
 <p>English says "cheaper than" or "more expensive than". German always adds <b>-er</b>, even to long words, and "than" is <b>als</b>. Do not build it with <b>mehr</b>. In everyday speech in some regions you will hear <b>wie</b> instead of <b>als</b>, but standard German uses <b>als</b>.</p>
 {{ex:Die Jacke ist billiger als der Mantel.|dee YAHK-uh ist BIL-ih-guh ahls dayr MAHN-tuhl|The jacket is cheaper than the coat.}}
 <p>Many short words also add an umlaut: <b>alt</b> → <b>älter</b>, <b>groß</b> → <b>größer</b>, <b>warm</b> → <b>wärmer</b>.</p>
@@ -291,101 +291,101 @@ module.exports = [
 <p>The comparative after <b>sein</b> takes no ending either: <b>Der Mantel ist wärmer</b>. The thing after <b>als</b> is usually in the nominative, like the subject it is compared with: <b>als ich</b>, <b>als der Mantel</b>.</p>
 <p>In a clothing store, a comparative asks for the next size: literally, "Do you have that one number bigger?"</p>
 {{ex:Haben Sie das eine Nummer größer?|HAH-buhn zee dahs AI-nuh NOOM-uh GRUR-suh|Do you have this a size bigger?}}
-<h3>The most: am -sten</h3>
-<div class="tbl"><table><tr><th></th><th>-er</th><th>am -sten</th></tr><tr><td class="k">billig</td><td class="k">billiger</td><td class="k">am billigsten</td></tr><tr><td class="k">teuer</td><td class="k">teurer</td><td class="k">am teuersten</td></tr><tr><td class="k">gut</td><td class="k">besser</td><td class="k">am besten</td></tr><tr><td class="k">gern</td><td class="k">lieber</td><td class="k">am liebsten</td></tr></table></div>
+<h3>The most: ‹am -sten›</h3>
+<div class="tbl"><table><tr><th></th><th>‹-er›</th><th>‹am -sten›</th></tr><tr><td class="k">billig</td><td class="k">billiger</td><td class="k">am billigsten</td></tr><tr><td class="k">teuer</td><td class="k">teurer</td><td class="k">am teuersten</td></tr><tr><td class="k">gut</td><td class="k">besser</td><td class="k">am besten</td></tr><tr><td class="k">gern</td><td class="k">lieber</td><td class="k">am liebsten</td></tr></table></div>
 <p><b>gut</b> and <b>gern</b> are irregular, just like English good, better, best.</p>
 {{ex:Das blaue Kleid gefällt mir am besten.|dahs BLOW-uh klait guh-FEHLT meer ahm BEHS-tuhn|I like the blue dress best.}}
-<div class="tip"><b>Most common mistake:</b> comparing with "more" as in English. <b>mehr teuer</b> → <b>teurer</b>, and <b>mehr billig</b> → <b>billiger</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> comparing with "more" as in English. <b>mehr teuer</b> → <b>teurer</b>, and <b>mehr billig</b> → <b>billiger</b>.</div>
 `,
     check: [
-      ["The sweater is expensive.", ["Der Pullover ist teuere.", "Der Pullover ist teuer.", "Der Pullover ist teurer.", "Der Pullover teuer ist."], 1, "After sein the adjective has no ending; teurer would mean more expensive."],
-      ["cheaper than", ["billiger als", "mehr billig als", "billiger dass", "billigerer als"], 0, "Add -er to the adjective, and than is als."],
-      ["My brother is older than me.", ["Mein Bruder ist alter als ich.", "Mein Bruder ist mehr alt als ich.", "Mein Bruder ist älter als ich.", "Mein Bruder ist älter von mir."], 2, "alt adds an umlaut in the comparative: älter als."]
+      ["The sweater is expensive.",["Der Pullover ist teuere.","Der Pullover ist teuer.","Der Pullover ist teurer.","Der Pullover teuer ist."],1,"After ‹sein› the adjective has no ending; ‹teurer› would mean more expensive."],
+      ["cheaper than",["billiger als","mehr billig als","billiger dass","billigerer als"],0,"Add ‹-er› to the adjective, and than is ‹als›."],
+      ["My brother is older than me.",["Mein Bruder ist alter als ich.","Mein Bruder ist mehr alt als ich.","Mein Bruder ist älter als ich.","Mein Bruder ist älter von mir."],2,"‹alt› adds an umlaut in the comparative: ‹älter als›."]
     ],
     practice: [
-      ["mc", "That's too expensive. =", "Das ist zu teuer.", "Das ist zu teure.", "Das ist zu teures.", "Das zu teuer ist.", "After sein the adjective takes no ending."],
-      ["mc", "cheaper =", "billiger", "mehr billig", "billigerer", "am billig", "German adds -er; it does not build the comparative with mehr."],
-      ["mc", "bigger =", "größer", "großer", "mehr groß", "am groß", "groß adds an umlaut in the comparative: größer.", "!strict"],
-      ["mc", "I'm looking for a black sweater. =", "Ich suche einen schwarzen Pullover.", "Ich suche ein schwarz Pullover.", "Ich suche einen schwarz Pullover.", "Ich suche einen Pullover schwarz.", "Before a noun the adjective takes an ending: einen schwarzen Pullover."],
-      ["mc", "I like the blue dress best. =", "Das blaue Kleid gefällt mir am besten.", "Das blaue Kleid gefällt mir am gutesten.", "Das blaue Kleid gefällt mir besser.", "Das blaue Kleid gefällt mir mehr gut.", "gut is irregular: besser, am besten."],
-      ["or", "The jacket is cheaper than the coat. (start with die Jacke)", "Die Jacke ist billiger als der Mantel", "den", "After als the noun stays in the nominative, like the subject: der Mantel."],
-      ["or", "I need a new cell phone. (start with ich)", "Ich brauche ein neues Handy", "einen", "Handy is neuter, so it is ein neues Handy, also as the direct object."],
-      ["or", "Do you have a white shirt? (formal)", "Haben Sie ein weißes Hemd", "hast einen", "In a yes/no question the verb comes first. Hemd is neuter: ein weißes Hemd."],
-      ["fi", "Der Mantel ist __ als die Jacke.", "The coat is warmer than the jacket.", "wärmer", "warmer|wärmste|mehr warm", "warm adds an umlaut in the comparative: wärmer.", "!strict"],
-      ["fi", "Mein Bruder ist älter __ ich.", "My brother is older than me.", "als", "dann|von|dass", "than after a comparative is als."],
-      ["fi", "Ich trinke __ Tee als Kaffee.", "I'd rather drink tea than coffee.", "lieber", "gerner|mehr gern|besser", "gern is irregular: lieber, am liebsten."],
-      ["ty", "I'm looking for a black sweater.", "Ich suche einen schwarzen Pullover.", "suchen · der Pullover · schwarz → schwarzen", "ein schwarz", "Pullover is masculine and the direct object: einen schwarzen Pullover."],
-      ["ty", "The red jacket is too expensive.", "Die rote Jacke ist zu teuer.", "die rote Jacke · sein · zu teuer", "der teure", "Jacke is feminine: die rote Jacke. After sein, teuer takes no ending."],
-      ["ty", "My sister is older than me.", "Meine Schwester ist älter als ich.", "die Schwester · alt → älter · als", "Mein alter", "Schwester is feminine, so meine; the comparative of alt is älter, with an umlaut.", "!strict"]
+      ["mc","That's too expensive. =","Das ist zu teuer.","Das ist zu teure.","Das ist zu teures.","Das zu teuer ist.","After ‹sein› the adjective takes no ending."],
+      ["mc","cheaper =","billiger","mehr billig","billigerer","am billig","German adds ‹-er›; it does not build the comparative with ‹mehr›."],
+      ["mc","bigger =","größer","großer","mehr groß","am groß","‹groß› adds an umlaut in the comparative: ‹größer›.","!strict"],
+      ["mc","I'm looking for a black sweater. =","Ich suche einen schwarzen Pullover.","Ich suche ein schwarz Pullover.","Ich suche einen schwarz Pullover.","Ich suche einen Pullover schwarz.","Before a noun the adjective takes an ending: ‹einen schwarzen Pullover›."],
+      ["mc","I like the blue dress best. =","Das blaue Kleid gefällt mir am besten.","Das blaue Kleid gefällt mir am gutesten.","Das blaue Kleid gefällt mir besser.","Das blaue Kleid gefällt mir mehr gut.","‹gut› is irregular: ‹besser›, ‹am besten›."],
+      ["or","The jacket is cheaper than the coat. (start with ‹die Jacke›)","Die Jacke ist billiger als der Mantel","den","After ‹als› the noun stays in the nominative, like the subject: ‹der Mantel›."],
+      ["or","I need a new cell phone. (start with ‹ich›)","Ich brauche ein neues Handy","einen","‹Handy› is neuter, so it is ‹ein neues Handy›, also as the direct object."],
+      ["or","Do you have a white shirt? (formal)","Haben Sie ein weißes Hemd","hast einen","In a yes/no question the verb comes first. ‹Hemd› is neuter: ‹ein weißes Hemd›."],
+      ["fi","Der Mantel ist __ als die Jacke.","The coat is warmer than the jacket.","wärmer","warmer|wärmste|mehr warm","‹warm› adds an umlaut in the comparative: ‹wärmer›.","!strict"],
+      ["fi","Mein Bruder ist älter __ ich.","My brother is older than me.","als","dann|von|dass","than after a comparative is ‹als›."],
+      ["fi","Ich trinke __ Tee als Kaffee.","I'd rather drink tea than coffee.","lieber","gerner|mehr gern|besser","‹gern› is irregular: ‹lieber›, ‹am liebsten›."],
+      ["ty","I'm looking for a black sweater.","Ich suche einen schwarzen Pullover.","‹suchen› · ‹der Pullover› · ‹schwarz› → ‹schwarzen›","ein schwarz","‹Pullover› is masculine and the direct object: ‹einen schwarzen Pullover›."],
+      ["ty","The red jacket is too expensive.","Die rote Jacke ist zu teuer.","‹die rote Jacke› · ‹sein› · ‹zu teuer›","der teure","‹Jacke› is feminine: ‹die rote Jacke›. After ‹sein›, ‹teuer› takes no ending."],
+      ["ty","My sister is older than me.","Meine Schwester ist älter als ich.","‹die Schwester› · ‹alt› → ‹älter› · ‹als›","Mein alter","‹Schwester› is feminine, so ‹meine›; the comparative of ‹alt› is ‹älter›, with an umlaut.","!strict"]
     ]
   },
   {
     id: "connectors",
-    title: "und, oder, aber, denn, wenn",
+    title: "‹und›, ‹oder›, ‹aber›, ‹denn›, ‹wenn›",
     blurb: "Join two sentences with and, or, but, because and if, with the verb in the right place.",
     deck: "Questions and connectors",
     body: `
 <p>English joins sentences without changing the word order: "I'm tired, but I'm coming". German has two kinds of joining words. One kind leaves the order alone. The other sends the verb to the end.</p>
-<h3>und, oder, aber, denn: no change</h3>
+<h3>‹und›, ‹oder›, ‹aber›, ‹denn›: no change</h3>
 <p>These four do not count as the first element. After them, the sentence starts again as usual: subject, then the verb in second place.</p>
 {{ex:Ich trinke Kaffee und Anna trinkt Tee.|ihh TRIN-kuh KAHF-ay oont AHN-ah trinkt tay|I drink coffee and Anna drinks tea.}}
 {{ex:Kommst du heute oder morgen?|kawmst doo HOY-tuh OH-duh MAWR-guhn|Are you coming today or tomorrow? (to a friend)}}
 {{ex:Ich bin müde, aber ich komme mit.|ihh bin MEW-duh AH-buh ihh KAWM-uh mit|I'm tired, but I'm coming along.}}
 {{ex:Ich bleibe zu Hause, denn ich bin krank.|ihh BLAI-buh tsoo HOW-zuh dehn ihh bin krahnk|I'm staying home because I'm sick.}}
 <p>As in English, you can drop a repeated subject after <b>und</b>, <b>oder</b> and <b>aber</b>: <b>Ich bin müde und gehe nach Hause</b>. After <b>denn</b>, always say the subject again. In speech, many people prefer <b>weil</b> to <b>denn</b>; you will meet it below.</p>
-<h3>wenn: the verb goes to the end</h3>
+<h3>‹wenn›: the verb goes to the end</h3>
 <p><b>wenn</b> means "if" and also "when" for things that happen again and again. After <b>wenn</b>, the conjugated verb goes to the very end of its part of the sentence.</p>
 {{ex:Ich komme, wenn ich Zeit habe.|ihh KAWM-uh vehn ihh tsait HAH-buh|I'll come if I have time.}}
 <p>The verb that moves is the one with the ending. A separable verb joins up again at the end: <b>wenn ich früh aufstehe</b>, and a modal goes after its infinitive: <b>wenn ich arbeiten muss</b>.</p>
-<h3>A wenn part at the start</h3>
+<h3>A ‹wenn› part at the start</h3>
 <p>A whole <b>wenn</b> part can come first. Then it counts as the first element, so the main verb comes right after the comma, and the subject follows it. English says "If I have time, I'll come"; German says "If I time have, come I".</p>
 {{ex:Wenn ich Zeit habe, komme ich.|vehn ihh tsait HAH-buh KAWM-uh ihh|If I have time, I'll come.}}
 <div class="tbl"><table><tr><th>Word</th><th>Meaning</th><th>Verb</th></tr><tr><td class="k">und, oder, aber</td><td>and, or, but</td><td>second, as usual</td></tr><tr><td class="k">denn</td><td>because</td><td>second, as usual</td></tr><tr><td class="k">wenn</td><td>if, when</td><td>at the end</td></tr><tr><td class="k">weil, dass</td><td>because, that</td><td>at the end</td></tr></table></div>
-<h3>weil and dass</h3>
+<h3>‹weil› and ‹dass›</h3>
 <p>You will often hear <b>weil</b>, another word for "because", and <b>dass</b>, "that". Both send the verb to the end, like <b>wenn</b>. For now, just recognize them.</p>
 {{ex:Ich bleibe zu Hause, weil ich krank bin.|ihh BLAI-buh tsoo HOW-zuh vail ihh krahnk bin|I'm staying home because I'm sick.}}
 {{ex:Ich glaube, dass er kommt.|ihh GLOW-buh dahs ayr kawmt|I think he's coming.}}
-<p>German writes a comma before <b>aber, denn, wenn, weil</b> and <b>dass</b>, but not before <b>und</b> and <b>oder</b>.</p>
-<div class="tip"><b>Most common mistake:</b> keeping English order after wenn. <b>wenn ich habe Zeit</b> → <b>wenn ich Zeit habe</b>, and <b>Wenn ich Zeit habe, ich komme</b> → <b>Wenn ich Zeit habe, komme ich</b>.</div>
+<p>German writes a comma before <b>aber</b>, <b>denn</b>, <b>wenn</b>, <b>weil</b> and <b>dass</b>, but not before <b>und</b> and <b>oder</b>.</p>
+<div class="tip"><strong>Most common mistake:</strong> keeping English order after ‹wenn›. <b>wenn ich habe Zeit</b> → <b>wenn ich Zeit habe</b>, and <b>Wenn ich Zeit habe, ich komme</b> → <b>Wenn ich Zeit habe, komme ich</b>.</div>
 `,
     check: [
-      ["If I have time, I'll come.", ["Wenn ich habe Zeit, komme ich.", "Wenn ich Zeit habe, ich komme.", "Wenn ich Zeit habe, komme ich.", "Wenn habe ich Zeit, komme ich."], 2, "After wenn the verb goes to the end, and the main verb comes right after the comma."],
-      ["I'm staying home because I'm sick. (use denn)", ["Ich bleibe zu Hause, denn ich krank bin.", "Ich bleibe zu Hause, denn ich bin krank.", "Ich bleibe zu Hause, denn bin ich krank.", "Ich bleibe zu Hause denn krank."], 1, "denn does not change the order: ich bin krank."],
-      ["Which word sends the verb to the end?", ["wenn", "aber", "oder", "denn"], 0, "wenn sends the verb to the end; aber, oder and denn leave the order alone."]
+      ["If I have time, I'll come.",["Wenn ich habe Zeit, komme ich.","Wenn ich Zeit habe, ich komme.","Wenn ich Zeit habe, komme ich.","Wenn habe ich Zeit, komme ich."],2,"After ‹wenn› the verb goes to the end, and the main verb comes right after the comma."],
+      ["I'm staying home because I'm sick. (use ‹denn›)",["Ich bleibe zu Hause, denn ich krank bin.","Ich bleibe zu Hause, denn ich bin krank.","Ich bleibe zu Hause, denn bin ich krank.","Ich bleibe zu Hause denn krank."],1,"‹denn› does not change the order: ‹ich bin krank›."],
+      ["Which word sends the verb to the end?",["wenn","aber","oder","denn"],0,"‹wenn› sends the verb to the end; ‹aber›, ‹oder› and ‹denn› leave the order alone."]
     ],
     practice: [
-      ["mc", "I'm tired, but I'm coming along. =", "Ich bin müde, aber ich komme mit.", "Ich bin müde, aber komme ich mit.", "Ich bin müde, aber ich mit komme.", "Ich bin müde, aber ich mitkomme.", "aber does not change the order: ich komme mit."],
-      ["mc", "if I have time =", "wenn ich Zeit habe", "wenn ich habe Zeit", "wenn habe ich Zeit", "wenn Zeit ich habe", "After wenn, habe goes at the very end."],
-      ["mc", "Coffee or tea? =", "Kaffee oder Tee?", "Kaffee aber Tee?", "Kaffee denn Tee?", "Kaffee wenn Tee?", "The word for or is oder: Kaffee oder Tee?"],
-      ["mc", "Ich bleibe zu Hause, weil ich krank bin. =", "I'm staying home because I'm sick.", "I'm staying home if I'm sick.", "I'm staying home, but I'm sick.", "I'm staying home when I'm sick.", "weil means because, like denn, but it puts the verb at the end."],
-      ["mc", "Which sentence is correct?", "Ich komme nicht, denn ich habe keine Zeit.", "Ich komme nicht, denn ich keine Zeit habe.", "Ich komme nicht, denn habe ich keine Zeit.", "Ich komme nicht, denn keine Zeit ich habe.", "denn leaves the order alone: ich habe keine Zeit."],
-      ["or", "If it rains, I'll stay home. (start with wenn)", "Wenn | es | regnet | bleibe | ich | zu Hause", "bleibt", "After wenn the verb goes to the end; the wenn part is the first element, so bleibe comes next."],
-      ["or", "Anna is coming if she has time. (start with Anna)", "Anna kommt wenn sie Zeit hat", "habt", "After wenn the verb goes to the end: wenn sie Zeit hat."],
-      ["or", "Lena isn't coming, because she's tired. (use denn)", "Lena kommt nicht denn sie ist müde", "bist", "denn does not count, so the verb stays in second place: sie ist müde."],
-      ["fi", "Ich komme, wenn ich Zeit __.", "I'll come if I have time.", "habe", "hat|hast|haben", "After wenn the verb goes at the end, and with ich it is habe."],
-      ["fi", "__ es regnet, bleiben wir zu Hause.", "If it rains, we'll stay home.", "Wenn", "Aber|Denn|Und", "Only wenn sends regnet to the end and puts bleiben right after the comma."],
-      ["fi", "Ich gehe nicht ins Kino, __ ich habe kein Geld.", "I'm not going to the movies, because I have no money.", "denn", "wenn|dass|oder", "denn keeps ich habe in the usual order; wenn or dass would send habe to the end."],
-      ["ty", "If I have time, I'll come. (start with wenn)", "Wenn ich Zeit habe, komme ich.|Wenn ich Zeit habe, dann komme ich.", "wenn · Zeit haben · kommen", "hat", "After wenn the verb goes to the end, and the main verb comes next: komme ich."],
-      ["ty", "I'm staying home because I'm sick. (use denn)", "Ich bleibe zu Hause, denn ich bin krank.|Ich bleibe daheim, denn ich bin krank.", "bleiben · zu Hause · denn · krank", "bist", "denn does not count, so the verb stays in second place: ich bin krank."],
-      ["ty", "Are you coming along if it rains? (to a friend)", "Kommst du mit, wenn es regnet?|Wenn es regnet, kommst du mit?", "mitkommen · du · wenn · regnen", "Kommt", "In a yes/no question the verb comes first, and after wenn the verb goes to the end."]
+      ["mc","I'm tired, but I'm coming along. =","Ich bin müde, aber ich komme mit.","Ich bin müde, aber komme ich mit.","Ich bin müde, aber ich mit komme.","Ich bin müde, aber ich mitkomme.","‹aber› does not change the order: ‹ich komme mit›."],
+      ["mc","if I have time =","wenn ich Zeit habe","wenn ich habe Zeit","wenn habe ich Zeit","wenn Zeit ich habe","After ‹wenn›, ‹habe› goes at the very end."],
+      ["mc","Coffee or tea? =","Kaffee oder Tee?","Kaffee aber Tee?","Kaffee denn Tee?","Kaffee wenn Tee?","The word for or is ‹oder›: ‹Kaffee oder Tee?›"],
+      ["mc","‹Ich bleibe zu Hause, weil ich krank bin›. =","I'm staying home because I'm sick.","I'm staying home if I'm sick.","I'm staying home, but I'm sick.","I'm staying home when I'm sick.","‹weil› means because, like ‹denn›, but it puts the verb at the end."],
+      ["mc","Which sentence is correct?","Ich komme nicht, denn ich habe keine Zeit.","Ich komme nicht, denn ich keine Zeit habe.","Ich komme nicht, denn habe ich keine Zeit.","Ich komme nicht, denn keine Zeit ich habe.","‹denn› leaves the order alone: ‹ich habe keine Zeit›."],
+      ["or","If it rains, I'll stay home. (start with ‹wenn›)","Wenn | es | regnet | bleibe | ich | zu Hause","bleibt","After ‹wenn› the verb goes to the end; the ‹wenn› part is the first element, so ‹bleibe› comes next."],
+      ["or","Anna is coming if she has time. (start with Anna)","Anna kommt wenn sie Zeit hat","habt","After ‹wenn› the verb goes to the end: ‹wenn sie Zeit hat›."],
+      ["or","Lena isn't coming, because she's tired. (use ‹denn›)","Lena kommt nicht denn sie ist müde","bist","‹denn› does not count, so the verb stays in second place: ‹sie ist müde›."],
+      ["fi","Ich komme, wenn ich Zeit __.","I'll come if I have time.","habe","hat|hast|haben","After ‹wenn› the verb goes at the end, and with ‹ich› it is ‹habe›."],
+      ["fi","__ es regnet, bleiben wir zu Hause.","If it rains, we'll stay home.","Wenn","Aber|Denn|Und","Only ‹wenn› sends ‹regnet› to the end and puts ‹bleiben› right after the comma."],
+      ["fi","Ich gehe nicht ins Kino, __ ich habe kein Geld.","I'm not going to the movies, because I have no money.","denn","wenn|dass|oder","‹denn› keeps ‹ich habe› in the usual order; ‹wenn› or ‹dass› would send ‹habe› to the end."],
+      ["ty","If I have time, I'll come. (start with ‹wenn›)","Wenn ich Zeit habe, komme ich.|Wenn ich Zeit habe, dann komme ich.","‹wenn› · ‹Zeit haben› · ‹kommen›","hat","After ‹wenn› the verb goes to the end, and the main verb comes next: ‹komme ich›."],
+      ["ty","I'm staying home because I'm sick. (use ‹denn›)","Ich bleibe zu Hause, denn ich bin krank.|Ich bleibe daheim, denn ich bin krank.","‹bleiben› · ‹zu Hause› · ‹denn› · ‹krank›","bist","‹denn› does not count, so the verb stays in second place: ‹ich bin krank›."],
+      ["ty","Are you coming along if it rains? (to a friend)","Kommst du mit, wenn es regnet?|Wenn es regnet, kommst du mit?","‹mitkommen› · ‹du› · ‹wenn› · ‹regnen›","Kommt","In a yes/no question the verb comes first, and after ‹wenn› the verb goes to the end."]
     ]
   },
   {
     id: "traps",
-    title: "False friends: Gift, Chef, will",
+    title: "False friends: ‹Gift›, ‹Chef›, ‹will›",
     blurb: "Avoid the German words that look English but mean something else, and say I'm hot, hungry or right the German way.",
     deck: "Traps for English speakers",
     body: `
 <p>German and English are related, so many words look alike. Most of them mean the same thing: <b>das Haus</b>, <b>der Hund</b>, <b>gut</b>. A few are false friends (false cognates): they look English but mean something else. These are the ones that cause real misunderstandings.</p>
-<h3>will is want</h3>
+<h3>‹will› is want</h3>
 <p><b>Ich will</b> means "I want", not "I will". It is the modal verb <b>wollen</b>. For the future, German usually just uses the present tense with a time word. To order politely, say <b>Ich möchte</b>.</p>
 {{ex:Ich will einen Kaffee.|ihh vil AI-nuhn KAHF-ay|I want a coffee.}}
-<h3>bekommen is get, not become</h3>
+<h3>‹bekommen› is get, not become</h3>
 <p><b>bekommen</b> means "to get" or "to receive". "To become" is <b>werden</b>: <b>Er wird Arzt</b>, "He's becoming a doctor". So in a restaurant, <b>Ich bekomme ein Steak</b> is a normal way to order.</p>
 {{ex:Ich bekomme ein neues Handy.|ihh buh-KAWM-uh ain NOY-uhs HEHN-dee|I'm getting a new cell phone.}}
 {{ex:Er wird Arzt.|ayr virt ahrtst|He's becoming a doctor.}}
 <h3>Words for people and things</h3>
-<div class="tbl"><table><tr><th>German</th><th>Means</th><th>Not</th></tr><tr><td class="k">das Gift</td><td>poison</td><td>gift (das Geschenk)</td></tr><tr><td class="k">der Chef</td><td>boss</td><td>chef (der Koch)</td></tr><tr><td class="k">das Handy</td><td>cell phone</td><td>handy (praktisch)</td></tr><tr><td class="k">das Rezept</td><td>recipe; prescription</td><td>receipt (die Quittung)</td></tr><tr><td class="k">das Kind</td><td>child</td><td>kind (nett)</td></tr></table></div>
+<div class="tbl"><table><tr><th>German</th><th>Means</th><th>Not</th></tr><tr><td class="k">das Gift</td><td>poison</td><td>gift (‹das Geschenk›)</td></tr><tr><td class="k">der Chef</td><td>boss</td><td>chef (‹der Koch›)</td></tr><tr><td class="k">das Handy</td><td>cell phone</td><td>handy (‹praktisch›)</td></tr><tr><td class="k">das Rezept</td><td>recipe; prescription</td><td>receipt (‹die Quittung›)</td></tr><tr><td class="k">das Kind</td><td>child</td><td>kind (‹nett›)</td></tr></table></div>
 {{ex:Das ist ein Geschenk für dich.|dahs ist ain guh-SHEHNK fewr dihh|That's a present for you. (to a friend)}}
 {{ex:Mein Chef ist sehr nett.|main shehf ist zayr neht|My boss is very nice.}}
 <h3>Small words</h3>
@@ -398,28 +398,28 @@ module.exports = [
 <p>Some English sentences cannot be copied word for word (a calque). German says "I have hunger" and "to me it is hot": <b>Ich habe Hunger</b>, <b>Mir ist heiß</b>. <b>Ich bin heiß</b> means something else, so avoid it. German also says "I have right": <b>Ich habe recht</b>. Age is the good news: <b>Ich bin dreißig</b>, just like English.</p>
 {{ex:Mir ist heiß.|meer ist hais|I'm hot.}}
 {{ex:Ich habe recht.|ihh HAH-buh rehht|I'm right.}}
-<div class="tip"><b>Most common mistake:</b> using <b>will</b> for the future. "I will come tomorrow": <b>Ich will morgen kommen</b> (I want to come tomorrow) → <b>Ich komme morgen</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> using <b>will</b> for the future. "I will come tomorrow": <b>Ich will morgen kommen</b> (I want to come tomorrow) → <b>Ich komme morgen</b>.</div>
 `,
     check: [
-      ["What does Ich bekomme ein Geschenk mean?", ["I'm becoming a present.", "I'm getting a present.", "I'm getting poison.", "I'm becoming poison."], 1, "bekommen means get, and a present is ein Geschenk; das Gift is poison."],
-      ["Your friend says: Ich will nach Hause. What does she mean?", ["I want to go home.", "I will go home later.", "I went home.", "I'm at home."], 0, "will is a form of wollen, so it means want."],
-      ["I'm hot. (how you feel)", ["Ich bin heiß.", "Ich habe heiß.", "Mich ist heiß.", "Mir ist heiß."], 3, "How you feel takes mir: Mir ist heiß. Ich bin heiß means something else."]
+      ["What does ‹Ich bekomme ein Geschenk› mean?",["I'm becoming a present.","I'm getting a present.","I'm getting poison.","I'm becoming poison."],1,"‹bekommen› means get, and a present is ‹ein Geschenk›; ‹das Gift› is poison."],
+      ["Your friend says: ‹Ich will nach Hause›. What does she mean?",["I want to go home.","I will go home later.","I went home.","I'm at home."],0,"‹will› is a form of ‹wollen›, ‹so› it means want."],
+      ["I'm hot. (how you feel)",["Ich bin heiß.","Ich habe heiß.","Mich ist heiß.","Mir ist heiß."],3,"How you feel takes ‹mir›: ‹Mir ist heiß›. ‹Ich bin heiß› means something else."]
     ],
     practice: [
-      ["mc", "das Gift =", "poison", "gift", "present", "recipe", "das Gift is poison. A gift is ein Geschenk."],
-      ["mc", "Der Chef ist nett. =", "The boss is nice.", "The chef is nice.", "The boss is a child.", "The cook is nice.", "der Chef is the boss. A chef is ein Koch."],
-      ["mc", "Es ist fast acht Uhr. =", "It's almost eight o'clock.", "It's quickly eight o'clock.", "It's past eight o'clock.", "It's exactly eight o'clock.", "fast means almost. Fast (quick) is schnell."],
-      ["mc", "I need a receipt. =", "Ich brauche eine Quittung.", "Ich brauche ein Rezept.", "Ich brauche einen Quittung.", "Ich brauche eine Rezept.", "A receipt is die Quittung; das Rezept is a recipe or a prescription."],
-      ["mc", "I'm coming too. =", "Ich komme auch.", "Ich komme also.", "Ich auch komme.", "Ich komme fast.", "also means so; too is auch."],
-      ["or", "I want a coffee. (start with ich)", "Ich will einen Kaffee", "ein", "Kaffee is masculine: einen in the accusative."],
-      ["or", "I'm getting a present. (start with ich)", "Ich bekomme ein Geschenk", "bekommt", "The ich form ends in -e: bekomme. bekommen means get, not become."],
-      ["or", "Tomorrow I'm getting my new cell phone. (start with morgen)", "Morgen bekomme ich mein neues Handy", "bekommt meinen", "Verb second: morgen first, then bekomme. Handy is neuter: mein neues Handy."],
-      ["fi", "Ich __ Hunger.", "I'm hungry.", "habe", "bin|hat|habt", "German says I have hunger: Ich habe Hunger."],
-      ["fi", "__ ist kalt.", "I'm cold.", "Mir", "Ich|Mich|Mein", "How you feel takes mir: Mir ist kalt."],
-      ["fi", "Ich komme __.", "I'm coming too.", "auch", "also|fast|schnell", "too is auch; also means so."],
-      ["ty", "My boss is nice.", "Mein Chef ist nett.|Meine Chefin ist nett.", "mein · der Chef · nett", "Meine", "Chef is masculine: mein, not meine."],
-      ["ty", "I'm getting a new cell phone.", "Ich bekomme ein neues Handy.|Ich kriege ein neues Handy.", "bekommen · das Handy · neu → neues", "bekommt", "The ich form ends in -e: bekomme."],
-      ["ty", "I'm thirsty.", "Ich habe Durst.|Ich bin durstig.", "haben · der Durst", "hat", "German says have thirst, and the ich form is habe."]
+      ["mc","‹das Gift› =","poison","gift","present","recipe","‹das Gift› is poison. A gift is ‹ein Geschenk›."],
+      ["mc","‹Der Chef ist nett›. =","The boss is nice.","The chef is nice.","The boss is a child.","The cook is nice.","‹der Chef› is the boss. A chef is ‹ein Koch›."],
+      ["mc","‹Es ist fast acht Uhr›. =","It's almost eight o'clock.","It's quickly eight o'clock.","It's past eight o'clock.","It's exactly eight o'clock.","‹fast› means almost. Fast (quick) is ‹schnell›."],
+      ["mc","I need a receipt. =","Ich brauche eine Quittung.","Ich brauche ein Rezept.","Ich brauche einen Quittung.","Ich brauche eine Rezept.","A receipt is ‹die Quittung›; ‹das Rezept› is a recipe or a prescription."],
+      ["mc","I'm coming too. =","Ich komme auch.","Ich komme also.","Ich auch komme.","Ich komme fast.","‹also› means so; too is ‹auch›."],
+      ["or","I want a coffee. (start with ‹ich›)","Ich will einen Kaffee","ein","‹Kaffee› is masculine: ‹einen› in the accusative."],
+      ["or","I'm getting a present. (start with ‹ich›)","Ich bekomme ein Geschenk","bekommt","The ‹ich› form ends in ‹-e›: ‹bekomme›. ‹bekommen› means get, not become."],
+      ["or","Tomorrow I'm getting my new cell phone. (start with ‹morgen›)","Morgen bekomme ich mein neues Handy","bekommt meinen","Verb second: ‹morgen› first, then ‹bekomme›. ‹Handy› is neuter: ‹mein neues Handy›."],
+      ["fi","Ich __ Hunger.","I'm hungry.","habe","bin|hat|habt","German says I have hunger: ‹Ich habe Hunger›."],
+      ["fi","__ ist kalt.","I'm cold.","Mir","Ich|Mich|Mein","How you feel takes ‹mir›: ‹Mir ist kalt›."],
+      ["fi","Ich komme __.","I'm coming too.","auch","also|fast|schnell","too is ‹auch›; ‹also› means so."],
+      ["ty","My boss is nice.","Mein Chef ist nett.|Meine Chefin ist nett.","‹mein› · ‹der Chef› · ‹nett›","Meine","‹Chef› is masculine: ‹mein›, not ‹meine›."],
+      ["ty","I'm getting a new cell phone.","Ich bekomme ein neues Handy.|Ich kriege ein neues Handy.","‹bekommen› · ‹das Handy› · ‹neu› → ‹neues›","bekommt","The ‹ich› form ends in ‹-e›: ‹bekomme›."],
+      ["ty","I'm thirsty.","Ich habe Durst.|Ich bin durstig.","‹haben› · ‹der Durst›","hat","German says have thirst, and the ‹ich› form is ‹habe›."]
     ]
   }
 ];

@@ -1,24 +1,24 @@
-{"id":"sounds","title":"1 · Sounds, spelling and stress","blurb":"Read Italian words aloud: pure vowels, soft and hard c and g, double consonants and stress."}
-{"id":"greetings","title":"2 · Greetings: tu and Lei","blurb":"Greet people at any time of day, say your name, and choose between tu and Lei."}
+{"id":"sounds","title":"1 · Sounds, spelling and stress","blurb":"Read Italian words aloud: pure vowels, soft and hard ‹c› and ‹g›, double consonants and stress."}
+{"id":"greetings","title":"2 · Greetings: ‹tu› and ‹Lei›","blurb":"Greet people at any time of day, say your name, and choose between ‹tu› and ‹Lei›."}
 {"id":"gender","title":"3 · Gender and number of nouns","blurb":"Tell masculine from feminine nouns, learn the common exceptions, and make nouns plural."}
-{"id":"articles","title":"4 · Articles: il, lo, la, l', i, gli, le","blurb":"Pick the right word for the and a by gender, number and the first sound of the noun."}
-{"id":"pronouns","title":"5 · Subject pronouns: io, tu, Lei, voi","blurb":"Know the words for I, you, he, she, we and they, when to use Lei and voi, and when to leave them out."}
-{"id":"essere-avere","title":"6 · essere and avere: I am, I have","blurb":"Say who you are, where you're from, how old you are and how you feel, with essere and avere."}
+{"id":"articles","title":"4 · Articles: ‹il›, ‹lo›, ‹la›, ‹l'›, ‹i›, ‹gli›, ‹le›","blurb":"Pick the right word for the and a by gender, number and the first sound of the noun."}
+{"id":"pronouns","title":"5 · Subject pronouns: ‹io›, ‹tu›, ‹Lei›, ‹voi›","blurb":"Know the words for I, you, he, she, we and they, when to use ‹Lei› and ‹voi›, and when to leave them out."}
+{"id":"essere-avere","title":"6 · ‹essere› and ‹avere›: I am, I have","blurb":"Say who you are, where you're from, how old you are and how you feel, with ‹essere› and ‹avere›."}
 {"id":"adjectives","title":"7 · Adjectives: agreement and position","blurb":"Describe clothes and people with adjectives that come after the noun and agree with it."}
-{"id":"present","title":"8 · Present tense: -are, -ere, -ire","blurb":"Conjugate regular verbs for every subject, including Lei and voi, and talk about work and study."}
+{"id":"present","title":"8 · Present tense: ‹-are›, ‹-ere›, ‹-ire›","blurb":"Conjugate regular verbs for every subject, including ‹Lei› and ‹voi›, and talk about work and study."}
 {"id":"questions","title":"9 · Questions and question words","blurb":"Ask yes / no questions without any extra word, and use the question words for who, what, where, when, why, how and how many."}
-{"id":"ce","title":"10 · c'è and ci sono: there is, there are","blurb":"Say what there is in town with c'è and ci sono, ask whether there is a pharmacy nearby, and tell c'è from è."}
+{"id":"ce","title":"10 · ‹c'è› and ‹ci sono›: there is, there are","blurb":"Say what there is in town with ‹c'è› and ‹ci sono›, ask whether there is a pharmacy nearby, and tell ‹c'è› from ‹è›."}
 {"id":"numbers","title":"11 · Numbers, time and dates","blurb":"Count to a thousand, tell the time, give a date and ask what something costs in euros."}
 {"id":"possessives","title":"12 · Possessives and demonstratives","blurb":"Talk about your family and your things with my, your, his and her, and point at people with this and that."}
-{"id":"prepositions","title":"13 · Prepositions: a, di, da, in, and al, del, nel","blurb":"Say where you live, where you are going and how, whose things they are, and join a, di, da, in and su with the article."}
-{"id":"irregular","title":"14 · andare, fare, venire, stare","blurb":"Use andare, venire, fare and stare in every person to say where you go, where you come from, what the weather is like and how you feel."}
-{"id":"modals","title":"15 · potere, dovere, volere","blurb":"Say what you can, must and want to do, ask a stranger for help, and ask politely with vorrei."}
-{"id":"piacere","title":"16 · piacere: mi piace, mi piacciono","blurb":"Say what you and others like and don't like with mi piace and mi piacciono, and answer me too and me neither."}
+{"id":"prepositions","title":"13 · Prepositions: ‹a›, ‹di›, ‹da›, ‹in›, and ‹al›, ‹del›, ‹nel›","blurb":"Say where you live, where you are going and how, whose things they are, and join ‹a›, ‹di›, ‹da›, ‹in› and ‹su› with the article."}
+{"id":"irregular","title":"14 · ‹andare›, ‹fare›, ‹venire›, ‹stare›","blurb":"Use ‹andare›, ‹venire›, ‹fare› and ‹stare› in every person to say where you go, where you come from, what the weather is like and how you feel."}
+{"id":"modals","title":"15 · ‹potere›, ‹dovere›, ‹volere›","blurb":"Say what you can, must and want to do, ask a stranger for help, and ask politely with ‹vorrei›."}
+{"id":"piacere","title":"16 · ‹piacere›: ‹mi piace›, ‹mi piacciono›","blurb":"Say what you and others like and don't like with ‹mi piace› and ‹mi piacciono›, and answer me too and me neither."}
 {"id":"reflexive","title":"17 · Reflexive verbs and daily routine","blurb":"Describe your day, from waking up to getting dressed, and say what you and others are called."}
-{"id":"lo-la","title":"18 · Object pronouns: lo, la, li, le","blurb":"Say \"it\", \"them\", \"him\" and \"her\" without repeating the noun: Lo prendo, Posso provarla?"}
-{"id":"imperative","title":"19 · Imperative and vorrei: ordering and asking","blurb":"Order politely with vorrei, tell a friend what to do (or not to do), and understand what staff and strangers tell you."}
-{"id":"passato","title":"20 · Passato prossimo with avere","blurb":"Say what you did yesterday, last week or two years ago: ho mangiato, hai visto, abbiamo fatto."}
-{"id":"passato-essere","title":"21 · Passato prossimo with essere: sono andato, sono andata","blurb":"Tell a trip story with sono andato, siamo arrivati and mi sono alzata, making the past participle agree."}
-{"id":"adverbs","title":"22 · Adverbs: time, place and quantity","blurb":"Say how often, where and how much: sempre, non… mai, già, qui, lì, molto and troppo."}
-{"id":"connectors","title":"23 · e, ma, perché, quando, se","blurb":"Join your sentences with and, but, because, when, if and so, and say \"me too\" and \"me neither\"."}
-{"id":"sapere-conoscere","title":"24 · sapere and conoscere: two ways to know","blurb":"Choose the right \"know\" for facts, skills, people and places, and avoid the false friends that trip up English speakers."}
+{"id":"lo-la","title":"18 · Object pronouns: ‹lo›, ‹la›, ‹li›, ‹le›","blurb":"Say \"it\", \"them\", \"him\" and \"her\" without repeating the noun: ‹Lo prendo›, ‹Posso provarla?›"}
+{"id":"imperative","title":"19 · Imperative and ‹vorrei›: ordering and asking","blurb":"Order politely with ‹vorrei›, tell a friend what to do (or not to do), and understand what staff and strangers tell you."}
+{"id":"passato","title":"20 · ‹Passato prossimo› with ‹avere›","blurb":"Say what you did yesterday, last week or two years ago: ‹ho mangiato›, ‹hai visto›, ‹abbiamo fatto›."}
+{"id":"passato-essere","title":"21 · ‹Passato prossimo› with ‹essere›: ‹sono andato›, ‹sono andata›","blurb":"Tell a trip story with ‹sono andato›, ‹siamo arrivati› and ‹mi sono alzata›, making the past participle agree."}
+{"id":"adverbs","title":"22 · Adverbs: time, place and quantity","blurb":"Say how often, where and how much: ‹sempre›, ‹non›… ‹mai›, ‹già›, ‹qui›, ‹lì›, ‹molto› and ‹troppo›."}
+{"id":"connectors","title":"23 · ‹e›, ‹ma›, ‹perché›, ‹quando›, ‹se›","blurb":"Join your sentences with and, but, because, when, if and so, and say \"me too\" and \"me neither\"."}
+{"id":"sapere-conoscere","title":"24 · ‹sapere› and ‹conoscere›: two ways to know","blurb":"Choose the right \"know\" for facts, skills, people and places, and avoid the false friends that trip up English speakers."}

@@ -5,13 +5,13 @@ module.exports = [
     title: "Sounds, silent letters and liaison",
     blurb: "Read French words aloud: the vowels, the nasal sounds, the silent letters, and the links between words.",
     deck: "Sounds and spelling",
-    sections: [null, {"name": "Accents and marks", "cards": [["é", "ay", "e with an acute accent", "Always ay: été (ay-tay), summer."], ["è", "eh", "e with a grave accent", "Always eh: mère (mehr), mother."], ["ê", "eh", "e with a circumflex", "Said eh, like è: forêt (foh-reh), forest."], ["ë", "eh", "e with two dots", "Say this e on its own, apart from the vowel before it: Noël (noh-ehl), Christmas."], ["à", "ah", "a with a grave accent", "Same sound as a; it tells words apart: à (ah), to, at; a (ah), has."], ["â", "ah", "a with a circumflex", "Said ah: gâteau (gah-toh), cake."], ["î", "ee", "i with a circumflex", "Said ee: île (eel), island."], ["ï", "ee", "i with two dots", "Say this i on its own, apart from the vowel before it: naïf (nah-eef), naive."], ["ô", "oh", "o with a circumflex", "Said oh: tôt (toh), early."], ["û", "ew", "u with a circumflex", "Said ew, like u: sûr (sewr), sure."], ["ù", "oo", "u with a grave accent", "Only in où (oo), where. ou without the accent means or."], ["œ", "uh", "o and e joined", "Usually in œu, said uh: cœur (kuhr), heart."]]}, [{"deck": "Sounds and spelling", "n": [0, 6]}, {"name": "Vowel spellings", "cards": [["ou", "oo", "oo, as in food", "nous (noo), we"], ["u", "ew", "ee said with rounded lips", "tu (tew), you"], ["eu", "uh", "uh said with rounded lips", "bleu (bluh), blue"], ["au", "oh", "a pure oh, no w at the end", "aussi (oh-see), also"], ["eau", "oh", "the same oh, three letters", "beau (boh), beautiful"], ["oi", "wah", "wah, as in the start of wander", "moi (mwah), me"], ["ai", "eh", "eh, as in bed", "lait (leh), milk. The t is silent."], ["ei", "eh", "eh, the same sound as ai", "neige (nehzh), snow"]]}], [{"deck": "Sounds and spelling", "n": [6, 10]}, {"name": "Nasal spellings", "cards": [["an", "ahN", "nasal ah, the n not said", "dans (dahN), in"], ["en", "ahN", "the same sound as an", "temps (tahN), time; weather. The p and s are silent."], ["on", "ohN", "nasal oh", "bon (bohN), good"], ["in", "aN", "nasal a, as in bag", "jardin (zhahr-daN), garden"], ["ain", "aN", "the same sound as in", "main (maN), hand"], ["un", "uhN", "nasal uh", "un (uhN), one; a"]]}], {"deck": "Sounds and spelling", "n": [10, 14]}, {"deck": "Sounds and spelling", "n": [14, 18]}, null, null, {"name": "Read whole words", "cards": [["bonjour", "bohN-zhoor", "hello; good morning", "on is nasal ohN, j is zh, ou is oo. The final r is said."], ["merci", "mehr-see", "thank you", "c before i is s."], ["beaucoup", "boh-koo", "a lot, very much", "eau is oh, ou is oo. The final p is silent."], ["trois", "trwah", "three", "oi is wah. The final s is silent."], ["maison", "meh-zohN", "house", "ai is eh; one s between two vowels is z; on is nasal."], ["pain", "paN", "bread", "ain is nasal aN: no n sound."], ["lundi", "luhN-dee", "Monday", "un is nasal uhN, then di."], ["fille", "feey", "girl; daughter", "ill is y. The final e is silent."], ["montagne", "mohN-tahny", "mountain", "on is nasal, gn is ny. The final e is silent."], ["château", "shah-toh", "castle", "ch is sh, â is ah, eau is oh."], ["garçon", "gahr-sohN", "boy", "ç is s, even before o; on is nasal."], ["français", "frahN-seh", "French (the language)", "an is nasal, ç is s, ai is eh. The final s is silent."], ["hôtel", "oh-tehl", "hotel", "h is silent, ô is oh. The final l is said (careful)."], ["fromage", "froh-mahzh", "cheese", "g before e is zh. The final e is silent."], ["deux", "duh", "two", "eu is uh. The final x is silent."], ["sœur", "suhr", "sister", "œu is uh. The final r is said."], ["quatre", "kahtr", "four", "qu is k. The final e is silent, so one syllable."], ["les enfants", "lay zahN-fahN", "the children", "Liaison: the silent s of les is said z before a vowel. en and an are both ahN; the t and s of enfants are silent."]]}, null],
+    sections: [null, {"name": "Accents and marks", "cards": [["é", "ay", "‹e› with an acute accent", "Always ay: ‹été› (ay-tay), summer."], ["è", "eh", "‹e› with a grave accent", "Always eh: ‹mère› (mehr), mother."], ["ê", "eh", "‹e› with a circumflex", "Said eh, like ‹è›: ‹forêt› (foh-reh), forest."], ["ë", "eh", "‹e› with two dots", "Say this ‹e› on its own, apart from the vowel before it: ‹Noël› (noh-ehl), Christmas."], ["à", "ah", "‹a› with a grave accent", "Same sound as ‹a›; it tells words apart: ‹à› (ah), to, at; ‹a› (ah), has."], ["â", "ah", "‹a› with a circumflex", "Said ah: ‹gâteau› (gah-toh), cake."], ["î", "ee", "‹i› with a circumflex", "Said ee: ‹île› (eel), island."], ["ï", "ee", "‹i› with two dots", "Say this ‹i› on its own, apart from the vowel before it: ‹naïf› (nah-eef), naive."], ["ô", "oh", "‹o› with a circumflex", "Said oh: ‹tôt› (toh), early."], ["û", "ew", "‹u› with a circumflex", "Said ew, like ‹u›: ‹sûr› (sewr), sure."], ["ù", "oo", "‹u› with a grave accent", "Only in ‹où› (oo), where. ‹ou› without the accent means or."], ["œ", "uh", "‹o› and ‹e› joined", "Usually in ‹œu›, said uh: ‹cœur› (kuhr), heart."]]}, [{"deck": "Sounds and spelling", "n": [0, 6]}, {"name": "Vowel spellings", "cards": [["ou", "oo", "oo, as in food", "‹nous› (noo), we"], ["u", "ew", "ee said with rounded lips", "‹tu› (tew), you"], ["eu", "uh", "uh said with rounded lips", "‹bleu› (bluh), blue"], ["au", "oh", "a pure oh, no w at the end", "‹aussi› (oh-see), also"], ["eau", "oh", "the same oh, three letters", "‹beau› (boh), beautiful"], ["oi", "wah", "wah, as in the start of wander", "‹moi› (mwah), me"], ["ai", "eh", "eh, as in bed", "‹lait› (leh), milk. The ‹t› is silent."], ["ei", "eh", "eh, the same sound as ‹ai›", "‹neige› (nehzh), snow"]]}], [{"deck": "Sounds and spelling", "n": [6, 10]}, {"name": "Nasal spellings", "cards": [["an", "ahN", "nasal ah, the ‹n› not said", "‹dans› (dahN), in"], ["en", "ahN", "the same sound as ‹an›", "‹temps› (tahN), time; weather. The ‹p› and ‹s› are silent."], ["on", "ohN", "nasal oh", "‹bon› (bohN), good"], ["in", "aN", "nasal a, as in bag", "‹jardin› (zhahr-daN), garden"], ["ain", "aN", "the same sound as ‹in›", "‹main› (maN), hand"], ["un", "uhN", "nasal uh", "‹un› (uhN), one; a"]]}], {"deck": "Sounds and spelling", "n": [10, 14]}, {"deck": "Sounds and spelling", "n": [14, 18]}, null, null, {"name": "Read whole words", "cards": [["bonjour", "bohN-zhoor", "hello; good morning", "‹on› is nasal ohN, ‹j› is zh, ‹ou› is oo. The final ‹r› is said."], ["merci", "mehr-see", "thank you", "‹c› before ‹i› is s."], ["beaucoup", "boh-koo", "a lot, very much", "‹eau› is oh, ‹ou› is oo. The final ‹p› is silent."], ["trois", "trwah", "three", "‹oi› is wah. The final ‹s› is silent."], ["maison", "meh-zohN", "house", "‹ai› is eh; one ‹s› between two vowels is z; ‹on› is nasal."], ["pain", "paN", "bread", "‹ain› is nasal aN: no n sound."], ["lundi", "luhN-dee", "Monday", "‹un› is nasal uhN, then ‹di›."], ["fille", "feey", "girl; daughter", "‹ill› is y. The final ‹e› is silent."], ["montagne", "mohN-tahny", "mountain", "‹on› is nasal, ‹gn› is ny. The final ‹e› is silent."], ["château", "shah-toh", "castle", "‹ch› is sh, ‹â› is ah, ‹eau› is oh."], ["garçon", "gahr-sohN", "boy", "‹ç› is s, even before ‹o›; ‹on› is nasal."], ["français", "frahN-seh", "French (the language)", "‹an› is nasal, ‹ç› is s, ‹ai› is eh. The final ‹s› is silent."], ["hôtel", "oh-tehl", "hotel", "‹h› is silent, ‹ô› is oh. The final ‹l› is said (careful)."], ["fromage", "froh-mahzh", "cheese", "‹g› before ‹e› is zh. The final ‹e› is silent."], ["deux", "duh", "two", "‹eu› is uh. The final ‹x› is silent."], ["sœur", "suhr", "sister", "‹œu› is uh. The final ‹r› is said."], ["quatre", "kahtr", "four", "‹qu› is k. The final ‹e› is silent, so one syllable."], ["les enfants", "lay zahN-fahN", "the children", "Liaison: the silent ‹s› of ‹les› is said z before a vowel. ‹en› and ‹an› are both ahN; the ‹t› and ‹s› of ‹enfants› are silent."]]}, null],
     body: `
 <h3>How French spelling works</h3>
 <p>Under every French phrase in this course there is a pronunciation line in English letters. Each syllable gets the same weight: French has no strong stressed syllable, only the last one of a group a little longer.</p>
-<p>French uses the same 26 letters as English, plus a few marks on vowels and on c. You already read the letters; what changes is the sound. Many sounds are spelled with two or three letters (<b>ou</b>, <b>eau</b>, <b>ch</b>), and many letters at the end of a word are not said at all. So the pieces to learn are the marks, the letter groups and the silent letters. Once you know them you can read almost any word aloud, even one you have never seen.</p>
+<p>French uses the same 26 letters as English, plus a few marks on vowels and on ‹c›. You already read the letters; what changes is the sound. Many sounds are spelled with two or three letters (<b>ou</b>, <b>eau</b>, <b>ch</b>), and many letters at the end of a word are not said at all. So the pieces to learn are the marks, the letter groups and the silent letters. Once you know them you can read almost any word aloud, even one you have never seen.</p>
 <h3>Accents and marks</h3>
-<p>An accent is part of the spelling, never decoration. On <b>e</b> it changes the sound: <b>é</b> is always <i>ay</i>, <b>è</b> and <b>ê</b> are <i>eh</i>. On the other vowels it does not: <b>à</b> and <b>â</b> are <i>ah</i>, <b>î</b> is <i>ee</i>, <b>ô</b> is <i>oh</i>, <b>û</b> is <i>ew</i>, and <b>ù</b> appears only in <b>où</b> (where). Two dots (<b>ë</b>, <b>ï</b>) mean: say this vowel on its own, not as part of a pair, so <b>naïf</b> is <i>nah-eef</i>. <b>ç</b> is always <i>s</i>, even before a, o and u, where a plain c is <i>k</i>. <b>œ</b> is o and e joined, said <i>uh</i>. Tap a letter to see how it reads.</p>
+<p>An accent is part of the spelling, never decoration. On <b>e</b> it changes the sound: <b>é</b> is always <i>ay</i>, <b>è</b> and <b>ê</b> are <i>eh</i>. On the other vowels it does not: <b>à</b> and <b>â</b> are <i>ah</i>, <b>î</b> is <i>ee</i>, <b>ô</b> is <i>oh</i>, <b>û</b> is <i>ew</i>, and <b>ù</b> appears only in <b>où</b> (where). Two dots (<b>ë</b>, <b>ï</b>) mean: say this vowel on its own, not as part of a pair, so <b>naïf</b> is <i>nah-eef</i>. <b>ç</b> is always <i>s</i>, even before ‹a›, ‹o› and ‹u›, where a plain ‹c› is <i>k</i>. <b>œ</b> is ‹o› and ‹e› joined, said <i>uh</i>. Tap a letter to see how it reads.</p>
 {{tiles:é è ê ë à â î ï ô û ù ç=s œ}}
 <h3>Eight vowel sounds</h3>
 <p>The line always spells a vowel the same way. Two are new for English speakers: <i>ew</i> (say <i>ee</i>, then round your lips as if to whistle) and <i>uh</i> (the <i>a</i> of <i>about</i>, with rounded lips). French <i>ay</i> and <i>oh</i> are pure: no <i>y</i> or <i>w</i> glide at the end.</p>
@@ -28,7 +28,7 @@ module.exports = [
 {{ex:le vent|luh vahN|the wind}}
 {{ex:le pont|luh pohN|the bridge}}
 <h3>Silent final letters</h3>
-<p>Most final consonants are silent. Four are usually sounded: <b>c, r, f, l</b> (think of the word <i>careful</i>). But <b>-er</b> and <b>-ez</b> at the end sound <i>ay</i>, and a final <b>e</b> is silent, except in short words such as <b>le</b> and <b>je</b>.</p>
+<p>Most final consonants are silent. Four are usually sounded: <b>c</b>, <b>r</b>, <b>f</b>, <b>l</b> (think of the word <i>careful</i>). But <b>-er</b> and <b>-ez</b> at the end sound <i>ay</i>, and a final <b>e</b> is silent, except in short words such as <b>le</b> and <b>je</b>.</p>
 {{ex:le chat|luh shah|the cat}}
 {{ex:le sac|luh sahk|the bag}}
 {{ex:parler|pahr-lay|to speak}}
@@ -38,45 +38,45 @@ module.exports = [
 {{ex:l'école|lay-kohl|the school}}
 <h3>Consonants</h3>
 <p>French <b>r</b> is made at the back of the throat, close to a light gargle. <i>zh</i> is the <i>s</i> in <i>measure</i> (French <b>j</b>), <i>ny</i> is the <i>ny</i> in <i>canyon</i> (French <b>gn</b>), and <i>gh</i> is the hard g of <i>get</i>.</p>
-<p>Before <b>e</b> and <b>i</b>, <b>g</b> and <b>c</b> go soft: <b>ge, gi</b> are <i>zh</i>, <b>ce, ci</b> are <i>s</i>. Before a, o and u they stay hard. <b>qu</b> is just <i>k</i>, <b>th</b> is just <i>t</i>, and <b>h</b> is never said. <b>ill</b> is usually <i>y</i>: <b>fille</b> is <i>feey</i> (but <b>ville</b> is <i>veel</i>). One <b>s</b> between two vowels is <i>z</i>: <b>maison</b>, <i>meh-zohN</i>.</p>
+<p>Before <b>e</b> and <b>i</b>, <b>g</b> and <b>c</b> go soft: <b>ge</b>, <b>gi</b> are <i>zh</i>, <b>ce</b>, <b>ci</b> are <i>s</i>. Before ‹a›, ‹o› and ‹u› they stay hard. <b>qu</b> is just <i>k</i>, <b>th</b> is just <i>t</i>, and <b>h</b> is never said. <b>ill</b> is usually <i>y</i>: <b>fille</b> is <i>feey</i> (but <b>ville</b> is <i>veel</i>). One <b>s</b> between two vowels is <i>z</i>: <b>maison</b>, <i>meh-zohN</i>.</p>
 {{tiles:ch=sh gn=ny j=zh ge=zh gi=zh ce=s ci=s qu=k th=t ill=y h=silent r=French_r}}
 <h3>The letter names</h3>
 <p>The letters have French names. You need them to spell your name or an email address, and a few trip English speakers up: <b>E</b> is <i>uh</i>, <b>I</b> is <i>ee</i>, <b>G</b> is <i>zhay</i> and <b>J</b> is <i>zhee</i> (the reverse of English), <b>H</b> is <i>ahsh</i>, <b>U</b> is <i>ew</i>, <b>W</b> is <i>doo-bluh-vay</i> (double v) and <b>Y</b> is <i>ee-grehk</i> (Greek i). Tap a letter to hear its name.</p>
 {{tiles:A=ah B=bay C=say D=day E=uh F=ehf G=zhay H=ahsh I=ee J=zhee K=kah L=ehl M=ehm N=ehn O=oh P=pay Q=kew R=ehr S=ehs T=tay U=ew V=vay W=doobl-vay X=eeks Y=ee-grehk Z=zehd}}
 <h3>Read whole words</h3>
-<p>Now put the pieces together. Read a word left to right in chunks, not letter by letter: find the letter groups, say each as one sound, and drop the silent letters at the end. <b>b + eau + c + ou + p</b> is <b>beaucoup</b>, <i>boh-koo</i>: eau is <i>oh</i>, ou is <i>oo</i>, and the final p is silent. Between words, watch for liaison: <b>les enfants</b> is <i>lay zahN-fahN</i>. Every card below is a common word. Read it aloud before you flip it.</p>
-<h3>le, la, les</h3>
+<p>Now put the pieces together. Read a word left to right in chunks, not letter by letter: find the letter groups, say each as one sound, and drop the silent letters at the end. <b>b</b> + <b>eau</b> + <b>c</b> + <b>ou</b> + <b>p</b> is <b>beaucoup</b>, <i>boh-koo</i>: ‹eau› is <i>oh</i>, ‹ou› is <i>oo</i>, and the final ‹p› is silent. Between words, watch for liaison: <b>les enfants</b> is <i>lay zahN-fahN</i>. Every card below is a common word. Read it aloud before you flip it.</p>
+<h3>‹le›, ‹la›, ‹les›</h3>
 <p>Nouns in this course come with a small word in front that means "the": <b>le</b> or <b>la</b> for one thing, <b>les</b> for more than one. Every noun is masculine or feminine (lesson 3 explains), so learn each noun with its word for "the".</p>
 {{ex:la clé|lah klay|the key}}
 <p>The line is a crutch: listen first, and hide it once the spelling feels natural.</p>
-<div class="tip"><b>Most common mistake:</b> saying every letter you see. <b>Paris</b> with the s sounded → <b>Paris</b> ending on <i>ee</i>.</div>
+<div class="tip"><strong>Most common mistake:</strong> saying every letter you see. <b>Paris</b> with the ‹s› sounded → <b>Paris</b> ending on <i>ee</i>.</div>
 `,
     check: [
-      ["How is the -er at the end of parler said?",["Like ay","Like the er in English her","Like air","It is silent"],0,"Final -er sounds ay in French: parler sounds like pahr-lay."],
-      ["Which final letter is usually SOUNDED in French?",["s","t","c","d"],2,"c, r, f and l (careful) are usually sounded; most other final consonants are silent."],
+      ["How is the ‹-er› at the end of ‹parler› said?",["Like ay","Like the er in English her","Like air","It is silent"],0,"Final ‹-er› sounds ay in French: ‹parler› sounds like pahr-lay."],
+      ["Which final letter is usually SOUNDED in French?",["s","t","c","d"],2,"‹c›, ‹r›, ‹f› and ‹l› (careful) are usually sounded; most other final consonants are silent."],
       ["What does a capital N mean in the pronunciation line?",["Say a strong n","The word is a noun","Say the vowel through the nose, without the n","The letter n is doubled"],2,"N marks a nasal vowel: the n itself is not pronounced."]
     ],
     practice: [
-      ["mc","Which word ends in a sounded consonant?","le sac","le chat","le lit","Paris","c is one of the careful letters, so the c of sac is sounded; the t of chat and lit and the s of Paris are silent."],
-      ["mc","Which word has the vowel of English food?","la roue","la rue","le lit","la clé","ou sounds like the oo in food; u (la rue) is ee said with rounded lips."],
-      ["mc","Which word has a nasal vowel?","le pont","le chat","la rue","le lit","on at the end of a word is a nasal vowel: the n is not pronounced."],
-      ["mc","In les amis, what do you hear between les and amis?","a z sound","an s sound","nothing, a short pause","a t sound","Liaison: the silent s of les is said as z before a vowel."],
-      ["mc","How do you write the water? (eau takes la)","l'eau","la eau","le eau","les eau","Elision: la drops its vowel before a vowel, so it is l'eau."],
-      ["or","the friends","les amis","le","amis is a plural noun, so it takes the plural article les, not le."],
-      ["or","the key","la clé","le","clé is feminine, so its word for the is la."],
-      ["or","the cat","le chat","la","chat is masculine, so its word for the is le."],
-      ["fi","la r__e","the street","u","ou|eu|o","the street is la rue, with u; la roue, with ou, is the wheel."],
-      ["fi","le v__","the wine","in","ent|on|an","the wine is le vin; le vent (with en) is the wind."],
-      ["fi","__ amis","the friends","les","le|la|l'","More than one friend, so the plural les."],
-      ["ty","the keys","les clés|les clefs","clé · add -s for more than one","la","clés is a plural noun, so the article agrees: les clés."],
-      ["ty","the street","la rue","rue · feminine","le","rue is feminine, so the article agrees: la rue."],
-      ["ty","the school","l'école","école · starts with a vowel","la","Elision: la becomes l' before a vowel, so l'école."]
+      ["mc","Which word ends in a sounded consonant?","le sac","le chat","le lit","Paris","‹c› is one of the careful letters, so the ‹c› of ‹sac› is sounded; the ‹t› of ‹chat› and ‹lit› and the ‹s› of ‹Paris› are silent."],
+      ["mc","Which word has the vowel of English food?","la roue","la rue","le lit","la clé","‹ou› sounds like the oo in food; ‹u› (‹la rue›) is ee said with rounded lips."],
+      ["mc","Which word has a nasal vowel?","le pont","le chat","la rue","le lit","‹on› at the end of a word is a nasal vowel: the ‹n› is not pronounced."],
+      ["mc","In ‹les amis›, what do you hear between ‹les› and ‹amis›?","a z sound","an s sound","nothing, a short pause","a t sound","Liaison: the silent ‹s› of ‹les› is said as z before a vowel."],
+      ["mc","How do you write the water? (‹eau› takes ‹la›)","l'eau","la eau","le eau","les eau","Elision: ‹la› drops its vowel before a vowel, so it is ‹l'eau›."],
+      ["or","the friends","les amis","le","‹amis› is a plural noun, so it takes the plural article ‹les›, not ‹le›."],
+      ["or","the key","la clé","le","‹clé› is feminine, so its word for the is ‹la›."],
+      ["or","the cat","le chat","la","‹chat› is masculine, so its word for the is ‹le›."],
+      ["fi","la r__e","the street","u","ou|eu|o","the street is ‹la rue›, with ‹u›; ‹la roue›, with ‹ou›, is the wheel."],
+      ["fi","le v__","the wine","in","ent|on|an","the wine is ‹le vin›; ‹le vent› (with ‹en›) is the wind."],
+      ["fi","__ amis","the friends","les","le|la|l'","More than one friend, so the plural ‹les›."],
+      ["ty","the keys","les clés|les clefs","‹clé› · add ‹-s› for more than one","la","‹clés› is a plural noun, so the article agrees: ‹les clés›."],
+      ["ty","the street","la rue","‹rue› · feminine","le","‹rue› is feminine, so the article agrees: ‹la rue›."],
+      ["ty","the school","l'école","‹école› · starts with a vowel","la","Elision: ‹la› becomes ‹l'› before a vowel, so ‹l'école›."]
     ]
   },
   {
     id: "greetings",
-    title: "Greetings: tu and vous",
-    blurb: "Greet people at any time of day, say please and thank you, and choose between tu and vous.",
+    title: "Greetings: ‹tu› and ‹vous›",
+    blurb: "Greet people at any time of day, say please and thank you, and choose between ‹tu› and ‹vous›.",
     deck: "Greetings and courtesy",
     body: `
 <p>In France, <b>bonjour</b> is not optional. You say it when you walk into a shop, before you ask a stranger anything, and to the driver when you get on a bus. Skipping it sounds rude, even if the rest of your French is perfect.</p>
@@ -89,198 +89,198 @@ module.exports = [
 {{ex:Bonne journée!|bohn zhoor-nay|Have a nice day!}}
 <h3>Two ways to say "you"</h3>
 <p>English has one "you". French has two. Use <b>tu</b> with friends, family, children and classmates. Use <b>vous</b> with strangers, shop and café staff, a friend's parents and anyone clearly older. <b>Vous</b> is also the only way to say "you" to two or more people, even friends. Several phrases change with it:</p>
-<div class="tbl"><table><tr><th></th><th>To a friend (tu)</th><th>To a stranger (vous)</th></tr><tr><td>How are you?</td><td class="k">Comment vas-tu?</td><td class="k">Comment allez-vous?</td></tr><tr><td>Please.</td><td class="k">S'il te plaît.</td><td class="k">S'il vous plaît.</td></tr><tr><td>Excuse me.</td><td class="k">Excuse-moi.</td><td class="k">Excusez-moi.</td></tr><tr><td>And you?</td><td class="k">Et toi?</td><td class="k">Et vous?</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>To a friend (‹tu›)</th><th>To a stranger (‹vous›)</th></tr><tr><td>How are you?</td><td class="k">Comment vas-tu?</td><td class="k">Comment allez-vous?</td></tr><tr><td>Please.</td><td class="k">S'il te plaît.</td><td class="k">S'il vous plaît.</td></tr><tr><td>Excuse me.</td><td class="k">Excuse-moi.</td><td class="k">Excusez-moi.</td></tr><tr><td>And you?</td><td class="k">Et toi?</td><td class="k">Et vous?</td></tr></table></div>
 {{ex:Excusez-moi, monsieur.|ehks-kew-zay mwah muh-syuh|Excuse me, sir.}}
 {{ex:Comment allez-vous?|koh-mahN tah-lay voo|How are you?}}
 <p>When in doubt, use <b>vous</b>. If the other person prefers <b>tu</b>, they will say so. Between friends, the everyday question is simply <b>Ça va?</b> ("Is it going?"), and the answer is <b>Ça va</b> too.</p>
 {{ex:Ça va?|sah vah|How's it going?}}
 <p>In Québec, <b>tu</b> is used much more widely, even with teachers; <b>vous</b> is kept mainly for age and respect.</p>
 <h3>Names</h3>
-<p>To give your name, say <b>Je m'appelle</b> ("I call myself"). When you meet someone, say <b>Enchanté</b>. A woman writes <b>Enchantée</b>, with an extra e. You can't hear it, but it is agreement again.</p>
+<p>To give your name, say <b>Je m'appelle</b> ("I call myself"). When you meet someone, say <b>Enchanté</b>. A woman writes <b>Enchantée</b>, with an extra ‹e›. You can't hear it, but it is agreement again.</p>
 {{ex:Je m'appelle Emma.|zhuh mah-pehl ay-mah|My name is Emma.}}
 {{ex:Enchantée.|ahN-shahN-tay|Nice to meet you.}}
 <h3>Thank you</h3>
 <p><b>Merci</b> is thank you; <b>merci beaucoup</b> is thank you very much. The reply is <b>de rien</b> (you're welcome).</p>
 {{ex:Merci beaucoup.|mehr-see boh-koo|Thank you very much.}}
-<div class="tip"><b>Most common mistake:</b> using tu with a stranger. <b>Excuse-moi, madame</b> → <b>Excusez-moi, madame</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> using ‹tu› with a stranger. <b>Excuse-moi, madame</b> → <b>Excusez-moi, madame</b>.</div>
 `,
     check: [
-      ["Who do you call vous?",["A shop assistant you don't know","Your little brother","Your best friend","Your cat"],0,"vous is for strangers, staff and anyone older, and for more than one person."],
-      ["Why is it bonne in Bonne journée?",["bonne is the polite form","journée is feminine, so good takes its feminine form","bonne is used only at night","bonne means very good"],1,"journée is a feminine word, and bon changes to bonne to agree with it."],
-      ["How do you say please to a friend?",["S'il vous plaît","Merci","S'il te plaît","De rien"],2,"With tu people (friends, family), please is s'il te plaît."]
+      ["Who do you call ‹vous›?",["A shop assistant you don't know","Your little brother","Your best friend","Your cat"],0,"‹vous› is for strangers, staff and anyone older, and for more than one person."],
+      ["Why is it ‹bonne› in ‹Bonne journée›?",["‹bonne› is the polite form","‹journée› is feminine, so good takes its feminine form","‹bonne› is used only at night","‹bonne› means very good"],1,"‹journée› is a feminine word, and ‹bon› changes to ‹bonne› to agree with it."],
+      ["How do you say please to a friend?",["S'il vous plaît","Merci","S'il te plaît","De rien"],2,"With ‹tu› people (friends, family), please is ‹s'il te plaît›."]
     ],
     practice: [
-      ["mc","You walk into a bakery. What do you say first?","Bonjour, madame.","Salut!","Au revoir.","De rien.","Always start with bonjour, plus madame or monsieur, before you ask for anything."],
-      ["mc","Which one do you say to a stranger?","Excusez-moi.","Excuse-moi.","Salut!","Et toi?","Excusez-moi is the vous version, for people you don't know."],
-      ["mc","It's 8 p.m. You meet your neighbor. You say:","Bonsoir.","Bonne nuit.","Bonne soirée.","Au revoir.","Bonsoir is the evening hello; bonne nuit is for bedtime and bonne soirée for when you leave."],
-      ["mc","Thank you very much =","Merci beaucoup.","Merci très.","Très merci.","Beaucoup merci.","beaucoup (a lot) goes after merci; très is never used with merci."],
-      ["mc","How does a woman write Nice to meet you?","Enchantée.","Enchanté.","Enchantez.","Enchantées.","A woman adds -e: enchantée. Enchantées is for several women."],
-      ["or","Have a nice day!","Bonne journée","Bon","journée is feminine, so good agrees with it: bonne, not bon."],
-      ["or","Have a nice evening!","Bonne soirée","Bon","soirée is feminine, so good agrees: bonne soirée."],
-      ["or","How are you? (to a stranger)","Comment allez-vous","vas-tu","To a stranger, use vous, and aller takes the vous form: allez-vous."],
-      ["fi","__ soirée!","Have a nice evening!","Bonne","Bon|Bons|Bonnes","soirée is one feminine thing, so bonne."],
-      ["fi","S'il __ plaît.","Please. (to a stranger)","vous","te|tu|toi","To a stranger, please is s'il vous plaît; s'il te plaît is for friends."],
-      ["fi","Merci __.","Thank you very much.","beaucoup","très|trop|beau","merci beaucoup = thank you very much."],
-      ["ty","Nice to meet you. (said by a woman)","Enchantée|Enchantée de vous rencontrer|Enchantée de te rencontrer","enchanté · add -e for a woman","Enchanté","A woman writes enchantée: the -e agrees with a feminine speaker."],
-      ["ty","How are you? (to a stranger, use comment)","Comment allez-vous|Comment allez vous|Comment vous allez","comment · allez-vous","vas-tu","To a stranger, aller takes the vous form: allez-vous."],
-      ["ty","Excuse me. (to a stranger)","Excusez-moi|Excusez moi|Pardon","excusez · moi","Excuse-moi","Use the polite form with a stranger: excusez-moi."]
+      ["mc","You walk into a bakery. What do you say first?","Bonjour, madame.","Salut!","Au revoir.","De rien.","Always start with ‹bonjour›, plus ‹madame› or ‹monsieur›, before you ask for anything."],
+      ["mc","Which one do you say to a stranger?","Excusez-moi.","Excuse-moi.","Salut!","Et toi?","‹Excusez-moi› is the ‹vous› version, for people you don't know."],
+      ["mc","It's 8 p.m. You meet your neighbor. You say:","Bonsoir.","Bonne nuit.","Bonne soirée.","Au revoir.","‹Bonsoir› is the evening hello; ‹bonne nuit› is for bedtime and ‹bonne soirée› for when you leave."],
+      ["mc","Thank you very much =","Merci beaucoup.","Merci très.","Très merci.","Beaucoup merci.","‹beaucoup› (a lot) goes after ‹merci›; ‹très› is never used with ‹merci›."],
+      ["mc","How does a woman write Nice to meet you?","Enchantée.","Enchanté.","Enchantez.","Enchantées.","A woman adds ‹-e›: ‹enchantée›. ‹Enchantées› is for several women."],
+      ["or","Have a nice day!","Bonne journée","Bon","‹journée› is feminine, so good agrees with it: ‹bonne›, not ‹bon›."],
+      ["or","Have a nice evening!","Bonne soirée","Bon","‹soirée› is feminine, so good agrees: ‹bonne soirée›."],
+      ["or","How are you? (to a stranger)","Comment allez-vous","vas-tu","To a stranger, use ‹vous›, and ‹aller› takes the ‹vous› form: ‹allez-vous›."],
+      ["fi","__ soirée!","Have a nice evening!","Bonne","Bon|Bons|Bonnes","‹soirée› is one feminine thing, so ‹bonne›."],
+      ["fi","S'il __ plaît.","Please. (to a stranger)","vous","te|tu|toi","To a stranger, please is ‹s'il vous plaît›; ‹s'il te plaît› is for friends."],
+      ["fi","Merci __.","Thank you very much.","beaucoup","très|trop|beau","‹merci beaucoup› = thank you very much."],
+      ["ty","Nice to meet you. (said by a woman)","Enchantée|Enchantée de vous rencontrer|Enchantée de te rencontrer","‹enchanté› · add ‹-e› for a woman","Enchanté","A woman writes ‹enchantée›: the ‹-e› agrees with a feminine speaker."],
+      ["ty","How are you? (to a stranger, use ‹comment›)","Comment allez-vous|Comment allez vous|Comment vous allez","‹comment› · ‹allez-vous›","vas-tu","To a stranger, ‹aller› takes the ‹vous› form: ‹allez-vous›."],
+      ["ty","Excuse me. (to a stranger)","Excusez-moi|Excusez moi|Pardon","‹excusez› · ‹moi›","Excuse-moi","Use the polite form with a stranger: ‹excusez-moi›."]
     ]
   },
   {
     id: "articles",
-    title: "Gender and articles: le, la, l', les, un, une, des",
+    title: "Gender and articles: ‹le›, ‹la›, ‹l'›, ‹les›, ‹un›, ‹une›, ‹des›",
     blurb: "Name things around the house with the right word for \"the\" and \"a\", in the singular and the plural.",
     deck: "Home and routine",
     body: `
 <p>English has one word for "the" and two for "a" (<i>a</i>, <i>an</i>). French has more, because every French noun is either masculine or feminine, and the small word in front of it changes to match.</p>
 <h3>Every noun has a gender</h3>
 <p>The gender of a thing has nothing to do with the thing itself: a table is feminine, a bed is masculine. There is no reliable way to guess most of them, so learn every noun together with its article (the small word in front), never alone.</p>
-<h3>"The": le, la, les</h3>
+<h3>"The": ‹le›, ‹la›, ‹les›</h3>
 <p>Use <b>le</b> before a masculine noun and <b>la</b> before a feminine noun. For more than one, both become <b>les</b>.</p>
 <div class="tbl"><table><tr><th></th><th>Masculine</th><th>Feminine</th></tr><tr><td>one</td><td class="k">le lit</td><td class="k">la table</td></tr><tr><td>more than one</td><td class="k">les lits</td><td class="k">les tables</td></tr></table></div>
 {{ex:la maison|lah meh-zohN|the house}}
 {{ex:le lit|luh lee|the bed}}
-<h3>l' before a vowel</h3>
+<h3>‹l'› before a vowel</h3>
 <p>Before a vowel or most words starting with <b>h</b>, <b>le</b> and <b>la</b> both shrink to <b>l'</b>. This is called elision. It makes French flow, but it hides the gender, so learn these nouns with <b>un</b> or <b>une</b> instead (see below).</p>
 {{ex:l'appartement|lah-pahr-tuh-mahN|the apartment}}
 {{ex:l'école|lay-kohl|the school}}
-<h3>"A": un, une</h3>
+<h3>"A": ‹un›, ‹une›</h3>
 <p><b>Un</b> goes with a masculine noun, <b>une</b> with a feminine one. They also mean "one".</p>
 {{ex:un canapé|uhN kah-nah-pay|a couch}}
 {{ex:une chaise|ewn shehz|a chair}}
 {{ex:une école|ewn ay-kohl|a school}}
-<h3>"Some": des</h3>
+<h3>"Some": ‹des›</h3>
 <p>English often puts nothing before a plural: "chairs", "rooms". French can't leave the space empty. The plural of <b>un</b> and <b>une</b> is <b>des</b>, which means "some", or nothing at all in English.</p>
 {{ex:des chaises|day shehz|chairs; some chairs}}
-<h3>You hear the article, not the -s</h3>
+<h3>You hear the article, not the ‹-s›</h3>
 <p>To make a noun plural, add <b>-s</b>, as in English. But that <b>-s</b> is silent: <b>chaise</b> and <b>chaises</b> sound the same. What you hear is the article: <b>la</b> (<i>lah</i>) for one, <b>les</b> (<i>lay</i>) for more than one. In speech, the article does the work that the <b>-s</b> does in English.</p>
 {{ex:les chambres|lay shahNbr|the bedrooms}}
 <p>One small help: nouns ending in <b>-tion</b> are feminine (<b>la question</b>, <b>la nation</b>).</p>
-<div class="tip"><b>Most common mistake:</b> using le for every noun. <b>le chambre</b> → <b>la chambre</b>. When you learn a noun, learn its article with it.</div>
+<div class="tip"><strong>Most common mistake:</strong> using ‹le› for every noun. <b>le chambre</b> → <b>la chambre</b>. When you learn a noun, learn its article with it.</div>
 `,
     check: [
-      ["What is the best way to remember if a noun is masculine or feminine?",["Guess from what the thing is","Learn every noun with its article","All nouns ending in -e are feminine","Use le when you are not sure"],1,"The gender of most nouns can't be guessed, so learn each one with le, la, un or une."],
-      ["appartement is masculine. How do you say the apartment?",["le appartement","la appartement","les appartement","l'appartement"],3,"Before a vowel, le becomes l': l'appartement."],
-      ["How do you usually hear that a French noun is plural?",["From the -s at the end","From the article in front, like les or des","From a longer last vowel","You can't hear it at all"],1,"The plural -s is silent, so the article (les, des) tells you."]
+      ["What is the best way to remember if a noun is masculine or feminine?",["Guess from what the thing is","Learn every noun with its article","All nouns ending in ‹-e› are feminine","Use ‹le› when you are not sure"],1,"The gender of most nouns can't be guessed, so learn each one with ‹le›, ‹la›, ‹un› or ‹une›."],
+      ["‹appartement› is masculine. How do you say the apartment?",["le appartement","la appartement","les appartement","l'appartement"],3,"Before a vowel, ‹le› becomes ‹l'›: ‹l'appartement›."],
+      ["How do you usually hear that a French noun is plural?",["From the ‹-s› at the end","From the article in front, like ‹les› or ‹des›","From a longer last vowel","You can't hear it at all"],1,"The plural ‹-s› is silent, so the article (‹les›, ‹des›) tells you."]
     ],
     practice: [
-      ["mc","table is feminine. the table =","la table","le table","l'table","les table","table is feminine, so it takes la."],
-      ["mc","How do you write the school? (école is feminine)","l'école","la école","le école","les école","Before a vowel, la becomes l': l'école."],
-      ["mc","a bed =","un lit","une lit","des lit","un lits","lit is masculine and singular, so a bed is un lit."],
-      ["mc","some keys =","des clés","une clés","des clé","les clé","More than one key: des, and clé takes -s."],
-      ["mc","Which two sound exactly the same?","chaise and chaises","la and les","un and une","le and les","The plural -s is silent: chaise and chaises sound alike, so listen for the article."],
-      ["or","a bed","un lit","une","lit is masculine, so a bed is un lit, not une."],
-      ["or","chairs (some chairs)","des chaises","une","chaises is a plural noun, so it takes the plural article des."],
-      ["or","the bedroom window","la fenêtre de la chambre","le","fenêtre and chambre are both feminine, so both take la."],
-      ["fi","__ école","a school","une","un|des|le","école is feminine and singular, so a school is une école."],
-      ["fi","__ appartement","the apartment","l'","le|la|les","Before a vowel, le and la become l'."],
-      ["fi","__ maisons","houses (some houses)","des","une|un|la","maisons is a plural noun, so the article is des."],
-      ["ty","the kitchen","la cuisine","cuisine · feminine","le","cuisine is feminine, so the article agrees: la cuisine."],
-      ["ty","a house","une maison","maison · feminine","un","maison is feminine, so a is une: une maison."],
-      ["ty","beds (some beds)","des lits","lit · add -s for more than one","les","lits is a plural noun, so the article is the plural des."]
+      ["mc","‹table› is feminine. the table =","la table","le table","l'table","les table","‹table› is feminine, so it takes ‹la›."],
+      ["mc","How do you write the school? (‹école› is feminine)","l'école","la école","le école","les école","Before a vowel, ‹la› becomes ‹l'›: ‹l'école›."],
+      ["mc","a bed =","un lit","une lit","des lit","un lits","‹lit› is masculine and singular, so a bed is ‹un lit›."],
+      ["mc","some keys =","des clés","une clés","des clé","les clé","More than one key: ‹des›, and ‹clé› takes ‹-s›."],
+      ["mc","Which two sound exactly the same?","‹chaise› and ‹chaises›","‹la› and ‹les›","‹un› and ‹une›","‹le› and ‹les›","The plural ‹-s› is silent: ‹chaise› and ‹chaises› sound alike, so listen for the article."],
+      ["or","a bed","un lit","une","‹lit› is masculine, so a bed is ‹un lit›, not ‹une›."],
+      ["or","chairs (some chairs)","des chaises","une","‹chaises› is a plural noun, so it takes the plural article ‹des›."],
+      ["or","the bedroom window","la fenêtre de la chambre","le","‹fenêtre› and ‹chambre› are both feminine, so both take ‹la›."],
+      ["fi","__ école","a school","une","un|des|le","‹école› is feminine and singular, so a school is ‹une école›."],
+      ["fi","__ appartement","the apartment","l'","le|la|les","Before a vowel, ‹le› and ‹la› become ‹l'›."],
+      ["fi","__ maisons","houses (some houses)","des","une|un|la","‹maisons› is a plural noun, so the article is ‹des›."],
+      ["ty","the kitchen","la cuisine","‹cuisine› · feminine","le","‹cuisine› is feminine, so the article agrees: ‹la cuisine›."],
+      ["ty","a house","une maison","‹maison› · feminine","un","‹maison› is feminine, so a is ‹une›: ‹une maison›."],
+      ["ty","beds (some beds)","des lits","‹lit› · add ‹-s› for more than one","les","‹lits› is a plural noun, so the article is the plural ‹des›."]
     ]
   },
   {
     id: "etre-avoir",
-    title: "être and avoir: I am, I have",
-    blurb: "Say who you are and what you have with être and avoir, and use avoir for age, hunger and feeling cold.",
+    title: "‹être› and ‹avoir›: I am, I have",
+    blurb: "Say who you are and what you have with ‹être› and ‹avoir›, and use ‹avoir› for age, hunger and feeling cold.",
     deck: "Traps for English speakers",
     body: `
 <p>The two most useful French verbs are <b>être</b> (to be) and <b>avoir</b> (to have). Both are irregular, so learn them by heart. Once you know them, you can already say a lot.</p>
 <h3>Who does it: subject pronouns</h3>
 <p>English: I, you, he, she, we, they. French has a few more. <b>Je</b> becomes <b>j'</b> before a vowel. <b>Ils</b> means "they" for men or for a mixed group; <b>elles</b> is only for women. <b>Il</b> and <b>elle</b> also mean "it", following the noun's gender. <b>On</b>, the everyday "we", comes in the next lesson.</p>
-<h3>être: to be</h3>
+<h3>‹être›: to be</h3>
 <p>English changes "be" three ways (am, are, is). French changes it six ways, one for each subject.</p>
-<div class="tbl"><table><tr><th>English</th><th>être</th><th>avoir</th></tr><tr><td>I</td><td class="k">je suis</td><td class="k">j'ai</td></tr><tr><td>you (friend)</td><td class="k">tu es</td><td class="k">tu as</td></tr><tr><td>he, she, it</td><td class="k">il / elle est</td><td class="k">il / elle a</td></tr><tr><td>we</td><td class="k">nous sommes</td><td class="k">nous avons</td></tr><tr><td>you (stranger, or two or more)</td><td class="k">vous êtes</td><td class="k">vous avez</td></tr><tr><td>they</td><td class="k">ils / elles sont</td><td class="k">ils / elles ont</td></tr></table></div>
+<div class="tbl"><table><tr><th>English</th><th>‹être›</th><th>‹avoir›</th></tr><tr><td>I</td><td class="k">je suis</td><td class="k">j'ai</td></tr><tr><td>you (friend)</td><td class="k">tu es</td><td class="k">tu as</td></tr><tr><td>he, she, it</td><td class="k">il / elle est</td><td class="k">il / elle a</td></tr><tr><td>we</td><td class="k">nous sommes</td><td class="k">nous avons</td></tr><tr><td>you (stranger, or two or more)</td><td class="k">vous êtes</td><td class="k">vous avez</td></tr><tr><td>they</td><td class="k">ils / elles sont</td><td class="k">ils / elles ont</td></tr></table></div>
 {{ex:Je suis à Paris.|zhuh swee zah pah-ree|I'm in Paris.}}
 {{ex:Nous sommes à Lyon.|noo sohm zah lyohN|We're in Lyon.}}
 {{ex:Vous êtes en retard.|voo zeht zahN ruh-tahr|You're late.}}
 <p><b>Tu es</b>, <b>il est</b> and <b>elle est</b> sound the same (<i>eh</i>), so the spelling is what shows who it is.</p>
-<h3>avoir: to have</h3>
+<h3>‹avoir›: to have</h3>
 {{ex:J'ai un chat.|zhay uhN shah|I have a cat.}}
 {{ex:Ils ont une maison.|eel zohN ewn meh-zohN|They have a house.}}
 <p>Listen for the difference between <b>ils sont</b> (they are, with an <i>s</i> sound) and <b>ils ont</b> (they have, with a <i>z</i> sound).</p>
-<h3>avoir where English says "be"</h3>
+<h3>‹avoir› where English says "be"</h3>
 <p>Here is the big trap. For age, hunger, thirst and feeling hot or cold, English says "I am", but French says "I have": I have twenty years, I have hunger.</p>
 <div class="tbl"><table><tr><th>English</th><th>French</th></tr><tr><td>I'm twenty.</td><td class="k">J'ai vingt ans.</td></tr><tr><td>I'm hungry.</td><td class="k">J'ai faim.</td></tr><tr><td>I'm thirsty.</td><td class="k">J'ai soif.</td></tr><tr><td>I'm cold. / I'm hot.</td><td class="k">J'ai froid. / J'ai chaud.</td></tr><tr><td>You're right.</td><td class="k">Tu as raison.</td></tr></table></div>
 {{ex:J'ai faim.|zhay faN|I'm hungry.}}
 {{ex:Elle a vingt-cinq ans.|ehl ah vaNt saNk ahN|She's twenty-five.}}
 {{ex:J'ai froid.|zhay frwah|I'm cold.}}
 <p>Always say <b>ans</b> (years) after the number: <b>J'ai vingt ans</b>, never just <b>J'ai vingt</b>.</p>
-<div class="tip"><b>Most common mistake:</b> using être for age. <b>Je suis vingt-cinq</b> → <b>J'ai vingt-cinq ans</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> using ‹être› for age. <b>Je suis vingt-cinq</b> → <b>J'ai vingt-cinq ans</b>.</div>
 `,
     check: [
-      ["I'm twenty-five =",["Je suis vingt-cinq","Je suis vingt-cinq ans","J'ai vingt-cinq ans","J'ai vingt-cinq"],2,"Age uses avoir plus ans: I have twenty-five years."],
-      ["Which subject goes with sont?",["ils","nous","vous","je"],0,"sont is the they form of être: ils sont, elles sont."],
-      ["Why is it j'ai and not je ai?",["j'ai is spoken French only","je drops its e before a vowel","ai is feminine","je ai means something else"],1,"Elision: je becomes j' before a vowel."]
+      ["I'm twenty-five =",["Je suis vingt-cinq","Je suis vingt-cinq ans","J'ai vingt-cinq ans","J'ai vingt-cinq"],2,"Age uses ‹avoir› plus ‹ans›: I have twenty-five years."],
+      ["Which subject goes with ‹sont›?",["ils","nous","vous","je"],0,"‹sont› is the they form of ‹être›: ‹ils sont›, ‹elles sont›."],
+      ["Why is it ‹j'ai› and not ‹je ai›?",["‹j'ai› is spoken French only","‹je› drops its ‹e› before a vowel","‹ai› is feminine","‹je ai› means something else"],1,"Elision: ‹je› becomes ‹j'› before a vowel."]
     ],
     practice: [
-      ["mc","I'm hungry =","J'ai faim.","Je suis faim.","Je ai faim.","Je faim.","Hunger uses avoir: literally, I have hunger."],
-      ["mc","I'm twenty years old =","J'ai vingt ans.","Je suis vingt ans.","Je suis vingt.","J'ai vingt.","Age uses avoir, and you always say ans."],
-      ["mc","nous ___ (être)","sommes","sont","êtes","est","With nous, être is sommes."],
-      ["mc","Which one means you have, to a stranger?","vous avez","vous avons","vous ont","vous as","With vous, avoir is avez."],
-      ["mc","They have a cat =","Ils ont un chat.","Ils sont un chat.","Ils a un chat.","Ils avons un chat.","ont (with a z sound after ils) is have; sont is are."],
-      ["or","We are in Paris (use nous)","Nous sommes à Paris","sont","With nous, use the nous form of être: sommes."],
-      ["or","You have a cat (to a friend)","Tu as un chat","a","With tu, use the tu form of avoir: as, not a."],
-      ["or","She is cold","Elle a froid","est","Feeling cold uses avoir, not être: elle a froid."],
-      ["fi","Vous __ en retard.","You're late.","êtes","es|est|sont","With vous, être is êtes."],
-      ["fi","Il __ vingt-cinq ans.","He's twenty-five.","a","est|as|ont","Age uses avoir; with il it is a."],
-      ["fi","Nous __ une maison à Lyon.","We have a house in Lyon.","avons","avez|ont|sommes","With nous, avoir is avons."],
-      ["ty","I'm hungry.","J'ai faim","avoir · faim (hunger)","suis","Hunger uses avoir, and the je form is ai: j'ai faim."],
-      ["ty","We have a cat. (use nous)","Nous avons un chat","avoir · un chat","ont","The nous form of avoir is avons."],
-      ["ty","You're late. (to a stranger)","Vous êtes en retard","être · en retard","es","To a stranger, être takes the vous form: vous êtes."]
+      ["mc","I'm hungry =","J'ai faim.","Je suis faim.","Je ai faim.","Je faim.","Hunger uses ‹avoir›: literally, I have hunger."],
+      ["mc","I'm twenty years old =","J'ai vingt ans.","Je suis vingt ans.","Je suis vingt.","J'ai vingt.","Age uses ‹avoir›, and you always say ‹ans›."],
+      ["mc","‹nous› ___ (‹être›)","sommes","sont","êtes","est","With ‹nous›, ‹être› is ‹sommes›."],
+      ["mc","Which one means you have, to a stranger?","vous avez","vous avons","vous ont","vous as","With ‹vous›, ‹avoir› is ‹avez›."],
+      ["mc","They have a cat =","Ils ont un chat.","Ils sont un chat.","Ils a un chat.","Ils avons un chat.","‹ont› (with a z sound after ‹ils›) is have; ‹sont› is are."],
+      ["or","We are in Paris (use ‹nous›)","Nous sommes à Paris","sont","With ‹nous›, use the ‹nous› form of ‹être›: ‹sommes›."],
+      ["or","You have a cat (to a friend)","Tu as un chat","a","With ‹tu›, use the ‹tu› form of ‹avoir›: ‹as›, not ‹a›."],
+      ["or","She is cold","Elle a froid","est","Feeling cold uses ‹avoir›, not ‹être›: ‹elle a froid›."],
+      ["fi","Vous __ en retard.","You're late.","êtes","es|est|sont","With ‹vous›, ‹être› is ‹êtes›."],
+      ["fi","Il __ vingt-cinq ans.","He's twenty-five.","a","est|as|ont","Age uses ‹avoir›; with ‹il› it is ‹a›."],
+      ["fi","Nous __ une maison à Lyon.","We have a house in Lyon.","avons","avez|ont|sommes","With ‹nous›, ‹avoir› is ‹avons›."],
+      ["ty","I'm hungry.","J'ai faim","‹avoir› · ‹faim› (hunger)","suis","Hunger uses ‹avoir›, and the ‹je› form is ‹ai›: ‹j'ai faim›."],
+      ["ty","We have a cat. (use ‹nous›)","Nous avons un chat","‹avoir› · ‹un chat›","ont","The ‹nous› form of ‹avoir› is ‹avons›."],
+      ["ty","You're late. (to a stranger)","Vous êtes en retard","‹être› · ‹en retard›","es","To a stranger, ‹être› takes the ‹vous› form: ‹vous êtes›."]
     ]
   },
   {
     id: "pronouns",
-    title: "Subject and stress pronouns: je, moi, on",
-    blurb: "Say \"me\", \"with you\" and \"and you?\" with moi and toi, and use on, the everyday \"we\".",
+    title: "Subject and stress pronouns: ‹je›, ‹moi›, ‹on›",
+    blurb: "Say \"me\", \"with you\" and \"and you?\" with ‹moi› and ‹toi›, and use ‹on›, the everyday \"we\".",
     deck: "About me",
     body: `
 <p>English has two words for the speaker: <i>I</i> and <i>me</i>. French also has two, but it uses its "me" word in places where English says "I".</p>
 <h3>Two sets of pronouns</h3>
-<p>The subject pronouns (<b>je, tu, il</b>…) can only stand right before a verb. In the four places below, French uses a stress pronoun (textbooks also say "disjunctive pronoun"). For "me" or "her" as the object of a verb ("I see her"), French has another set, taught later.</p>
+<p>The subject pronouns (<b>je</b>, <b>tu</b>, <b>il</b>…) can only stand right before a verb. In the four places below, French uses a stress pronoun (textbooks also say "disjunctive pronoun"). For "me" or "her" as the object of a verb ("I see her"), French has another set, taught later.</p>
 <div class="tbl"><table><tr><th>Before a verb</th><th>Stress pronoun</th><th>English</th></tr><tr><td class="k">je</td><td class="k">moi</td><td>me</td></tr><tr><td class="k">tu</td><td class="k">toi</td><td>you (friend)</td></tr><tr><td class="k">il</td><td class="k">lui</td><td>him</td></tr><tr><td class="k">elle</td><td class="k">elle</td><td>her</td></tr><tr><td class="k">nous</td><td class="k">nous</td><td>us</td></tr><tr><td class="k">vous</td><td class="k">vous</td><td>you (stranger, or two or more)</td></tr><tr><td class="k">ils</td><td class="k">eux</td><td>them (men, or a mixed group)</td></tr><tr><td class="k">elles</td><td class="k">elles</td><td>them (women)</td></tr></table></div>
 <h3>Where the stress pronouns go</h3>
-<p><b>Alone</b>, as a short answer. English says "Me!"; French says <b>Moi!</b>, never <b>Je!</b></p>
+<p><strong>Alone</strong>, as a short answer. English says "Me!"; French says <b>Moi!</b>, never <b>Je!</b></p>
 {{ex:Moi!|mwah|Me!}}
-<p><b>After a little word like avec (with), pour (for) or chez (at the home of).</b></p>
+<p><strong>After a little word like <b>avec</b> (with), <b>pour</b> (for) or <b>chez</b> (at the home of).</strong></p>
 {{ex:avec toi|ah-vehk twah|with you}}
 {{ex:pour lui|poor lwee|for him}}
 {{ex:chez moi|shay mwah|at my place}}
-<p><b>After c'est</b> (it is), and in <b>Et toi?</b> (And you?), the friendly way to bounce a question back.</p>
+<p>After <b>c'est</b> (it is), and in <b>Et toi?</b> (And you?), the friendly way to bounce a question back.</p>
 {{ex:C'est moi.|seh mwah|It's me.}}
 {{ex:Et toi?|ay twah|And you?}}
-<p><b>For emphasis</b>, in front of the subject. English stresses the word with the voice ("<i>I'm</i> hungry"); French adds the stress pronoun.</p>
+<p><strong>For emphasis</strong>, in front of the subject. English stresses the word with the voice ("<i>I'm</i> hungry"); French adds the stress pronoun.</p>
 {{ex:Moi, j'ai faim.|mwah zhay faN|I'm hungry. (Me, I'm hungry.)}}
-<h3>on: the everyday "we"</h3>
+<h3>‹on›: the everyday "we"</h3>
 <p>In conversation, French people say <b>on</b> much more often than <b>nous</b> for "we". The trap: <b>on</b> takes the same verb form as <b>il</b> and <b>elle</b>, not the <b>nous</b> form.</p>
 <div class="tbl"><table><tr><th>English</th><th>Written, careful</th><th>Everyday</th></tr><tr><td>we are</td><td class="k">nous sommes</td><td class="k">on est</td></tr><tr><td>we have</td><td class="k">nous avons</td><td class="k">on a</td></tr></table></div>
 {{ex:On est en retard.|ohN neh tahN ruh-tahr|We're late.}}
 {{ex:On a faim.|ohN nah faN|We're hungry.}}
 <p>Both are correct. <b>On</b> can also mean "people" or "you" in general, like English "one". In this course, when a prompt says "we", either one is fine unless it asks for <b>nous</b> or <b>on</b>.</p>
-<div class="tip"><b>Most common mistake:</b> using the subject pronoun after a preposition. <b>avec je</b> → <b>avec moi</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> using the subject pronoun after a preposition. <b>avec je</b> → <b>avec moi</b>.</div>
 `,
     check: [
-      ["Who's hungry? Me! In French, Me! is:",["Je!","Moi!","Me!","Mon!"],1,"A pronoun standing alone is a stress pronoun: moi."],
-      ["What does on est usually mean in conversation?",["they are","I am","we are","you are"],2,"on is the everyday we, with the il form of the verb: on est."],
-      ["with them (two women) =",["avec ils","avec eux","avec leur","avec elles"],3,"After avec, use a stress pronoun; for women it is elles."]
+      ["Who's hungry? Me! In French, Me! is:",["Je!","Moi!","Me!","Mon!"],1,"A pronoun standing alone is a stress pronoun: ‹moi›."],
+      ["What does ‹on est› usually mean in conversation?",["they are","I am","we are","you are"],2,"‹on› is the everyday we, with the ‹il› form of the verb: ‹on est›."],
+      ["with them (two women) =",["avec ils","avec eux","avec leur","avec elles"],3,"After ‹avec›, use a stress pronoun; for women it is ‹elles›."]
     ],
     practice: [
-      ["mc","Who's late? Me! =","Moi!","Je!","Me!","Mon!","A pronoun alone is a stress pronoun: moi."],
-      ["mc","with you (a friend) =","avec toi","avec tu","avec te","avec ton","After avec, use the stress pronoun toi."],
-      ["mc","for him =","pour lui","pour il","pour le","pour eux","After pour, him is lui; eux means them."],
-      ["mc","In conversation, on a faim means:","We're hungry.","They're hungry.","I'm hungry.","She's hungry.","on is the everyday we: on a faim = we're hungry."],
-      ["mc","We have a cat. (use on) =","On a un chat.","On avons un chat.","On ont un chat.","On as un chat.","on takes the same form as il: on a."],
-      ["or","We're at home. (use on)","On est à la maison","sommes","on takes the il form: on est, not on sommes."],
-      ["or","They are with me. (a group of men)","Ils sont avec moi","est je","ils takes the ils form of être, sont; after avec, use moi."],
-      ["or","It's me.","C'est moi","je","After c'est, use the stress pronoun moi."],
-      ["fi","Et __?","And you? (to a friend)","toi","tu|te|ton","Et toi? uses the stress pronoun toi."],
-      ["fi","On __ en retard.","We're late.","est","sommes|sont|es","on takes the il form of être: on est."],
-      ["fi","Je suis avec __.","I'm with them. (a group of men)","eux","ils|elles|leur","After avec, them is eux for men or a mixed group."],
-      ["ty","We're hungry. (use on)","On a faim","avoir · faim","avons","on takes the il form of avoir: on a faim."],
-      ["ty","We're with him. (use nous)","Nous sommes avec lui","être · avec · him","sont il","The nous form of être is sommes; after avec, him is lui."],
-      ["ty","And you? (to a friend)","Et toi","et · you","tu","Et toi? needs the stress pronoun toi, not tu."]
+      ["mc","Who's late? Me! =","Moi!","Je!","Me!","Mon!","A pronoun alone is a stress pronoun: ‹moi›."],
+      ["mc","with you (a friend) =","avec toi","avec tu","avec te","avec ton","After ‹avec›, use the stress pronoun ‹toi›."],
+      ["mc","for him =","pour lui","pour il","pour le","pour eux","After ‹pour›, him is ‹lui›; ‹eux› means them."],
+      ["mc","In conversation, ‹on a faim› means:","We're hungry.","They're hungry.","I'm hungry.","She's hungry.","‹on› is the everyday we: ‹on a faim› = we're hungry."],
+      ["mc","We have a cat. (use ‹on›) =","On a un chat.","On avons un chat.","On ont un chat.","On as un chat.","‹on› takes the same form as ‹il›: ‹on a›."],
+      ["or","We're at home. (use ‹on›)","On est à la maison","sommes","‹on› takes the ‹il› form: ‹on est›, not ‹on sommes›."],
+      ["or","They are with me. (a group of men)","Ils sont avec moi","est je","‹ils› takes the ‹ils› form of ‹être›, ‹sont›; after ‹avec›, use ‹moi›."],
+      ["or","It's me.","C'est moi","je","After ‹c'est›, use the stress pronoun ‹moi›."],
+      ["fi","Et __?","And you? (to a friend)","toi","tu|te|ton","‹Et toi?› uses the stress pronoun ‹toi›."],
+      ["fi","On __ en retard.","We're late.","est","sommes|sont|es","‹on› takes the ‹il› form of ‹être›: ‹on est›."],
+      ["fi","Je suis avec __.","I'm with them. (a group of men)","eux","ils|elles|leur","After ‹avec›, them is ‹eux› for men or a mixed group."],
+      ["ty","We're hungry. (use ‹on›)","On a faim","‹avoir› · ‹faim›","avons","‹on› takes the ‹il› form of ‹avoir›: ‹on a faim›."],
+      ["ty","We're with him. (use ‹nous›)","Nous sommes avec lui","‹être› · ‹avec› · him","sont il","The ‹nous› form of ‹être› is ‹sommes›; after ‹avec›, him is ‹lui›."],
+      ["ty","And you? (to a friend)","Et toi","‹et› · you","tu","‹Et toi?› needs the stress pronoun ‹toi›, not ‹tu›."]
     ]
   },
   {
@@ -301,8 +301,8 @@ module.exports = [
 {{ex:les chaussures noires|lay shoh-sewr nwahr|the black shoes}}
 <p>An adjective that already ends in <b>-e</b>, like <b>rouge</b> or <b>jeune</b>, doesn't add another one: <b>une robe rouge</b>. A few have their own feminine form: <b>blanc</b> becomes <b>blanche</b>, <b>beau</b> becomes <b>belle</b>.</p>
 <h3>Sometimes you hear it, sometimes you don't</h3>
-<p>The plural <b>-s</b> is silent (it is heard only as a liaison <i>z</i> before a vowel). The feminine <b>-e</b> is silent too, but it can wake up the consonant before it. <b>Vert</b> ends in a silent t; in <b>verte</b>, the t is heard. <b>Bleu</b> and <b>bleue</b>, <b>noir</b> and <b>noire</b>, sound exactly the same, so only spelling shows the agreement.</p>
-<h3>After être, too</h3>
+<p>The plural <b>-s</b> is silent (it is heard only as a liaison <i>z</i> before a vowel). The feminine <b>-e</b> is silent too, but it can wake up the consonant before it. <b>Vert</b> ends in a silent ‹t›; in <b>verte</b>, the ‹t› is heard. <b>Bleu</b> and <b>bleue</b>, <b>noir</b> and <b>noire</b>, sound exactly the same, so only spelling shows the agreement.</p>
+<h3>After ‹être›, too</h3>
 <p>The adjective agrees even when it comes after <b>être</b>. A masculine noun and a feminine noun together take the masculine plural.</p>
 {{ex:La robe est noire.|lah rohb eh nwahr|The dress is black.}}
 {{ex:Le pull et la veste sont noirs.|luh pewl ay lah vehst sohN nwahr|The sweater and the jacket are black.}}
@@ -310,40 +310,40 @@ module.exports = [
 <p>A handful of short, common adjectives go in front, as in English: <b>petit</b> (small), <b>grand</b> (big, tall), <b>bon</b> (good), <b>beau</b> (beautiful), <b>nouveau</b> (new), <b>jeune</b> (young), <b>vieux</b> (old). They still agree.</p>
 {{ex:une petite maison|ewn puh-teet meh-zohN|a small house}}
 {{ex:un grand manteau|uhN grahN mahN-toh|a big coat}}
-<div class="tip"><b>Most common mistake:</b> leaving the adjective in its masculine form. <b>la chemise blanc</b> → <b>la chemise blanche</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> leaving the adjective in its masculine form. <b>la chemise blanc</b> → <b>la chemise blanche</b>.</div>
 `,
     check: [
-      ["Where does a color go in French?",["After the noun","Before the noun","Either place, it doesn't matter","At the end of the sentence"],0,"Colors go after the noun: une robe rouge."],
-      ["Why is it une robe blanche but un pull blanc?",["blanche is more polite","robe is feminine, so the adjective takes its feminine form","blanche means a lighter white","pull is plural"],1,"The adjective agrees with the noun: robe is feminine, pull is masculine."],
-      ["Which adjective goes BEFORE the noun?",["rouge","noir","petit","vert"],2,"petit is one of the short group (petit, grand, bon, beau, nouveau, jeune, vieux) that go first."]
+      ["Where does a color go in French?",["After the noun","Before the noun","Either place, it doesn't matter","At the end of the sentence"],0,"Colors go after the noun: ‹une robe rouge›."],
+      ["Why is it ‹une robe blanche› but ‹un pull blanc›?",["‹blanche› is more polite","‹robe› is feminine, so the adjective takes its feminine form","‹blanche› means a lighter white","‹pull› is plural"],1,"The adjective agrees with the noun: ‹robe› is feminine, ‹pull› is masculine."],
+      ["Which adjective goes BEFORE the noun?",["rouge","noir","petit","vert"],2,"‹petit› is one of the short group (‹petit›, ‹grand›, ‹bon›, ‹beau›, ‹nouveau›, ‹jeune›, ‹vieux›) that go first."]
     ],
     practice: [
-      ["mc","the white shirt =","la chemise blanche","la chemise blanc","la blanche chemise","le chemise blanc","chemise is feminine, and the color goes after it in the feminine form."],
-      ["mc","a red dress =","une robe rouge","une rouge robe","un robe rouge","une robe rouges","Colors go after the noun; rouge already ends in -e."],
-      ["mc","a small house =","une petite maison","une petit maison","un petit maison","une petites maison","petit goes before the noun and agrees with maison: petite."],
-      ["mc","Les chaussures sont ___. (black)","noires","noir","noirs","noire","chaussures is feminine plural, so noir takes -es."],
-      ["mc","Which pair sounds different?","vert / verte","bleu / bleue","noir / noire","rouge / rouge","In verte, the t is heard; the other pairs sound the same."],
-      ["or","the white shirt","la chemise blanche","blanc","chemise is feminine, so the adjective agrees: blanche."],
-      ["or","the black shoes","les chaussures noires","noirs","chaussures is feminine plural, so the adjective agrees: noires."],
-      ["or","The jacket is green.","La veste est verte","vert","veste is feminine, so the adjective agrees after être too: verte."],
-      ["fi","une robe __","a white dress","blanche","blanc|blancs|blanches","robe is feminine singular: blanche."],
-      ["fi","un pull __","a green sweater","vert","verte|verts|vertes","pull is masculine singular: vert, with no ending."],
-      ["fi","une __ maison","a small house","petite","petit|petits|petites","maison is feminine singular: petite."],
-      ["ty","the white shirt","la chemise blanche","chemise · blanc","blanc","chemise is feminine, so the adjective agrees: blanche."],
-      ["ty","The shoes are black.","Les chaussures sont noires","chaussures · être · noir","noirs","chaussures is feminine plural, so noir agrees: noires."],
-      ["ty","a small house","une petite maison","petit · maison","petit","maison is feminine, so petit agrees: une petite maison."]
+      ["mc","the white shirt =","la chemise blanche","la chemise blanc","la blanche chemise","le chemise blanc","‹chemise› is feminine, and the color goes after it in the feminine form."],
+      ["mc","a red dress =","une robe rouge","une rouge robe","un robe rouge","une robe rouges","Colors go after the noun; ‹rouge› already ends in ‹-e›."],
+      ["mc","a small house =","une petite maison","une petit maison","un petit maison","une petites maison","‹petit› goes before the noun and agrees with ‹maison›: ‹petite›."],
+      ["mc","‹Les chaussures sont› ___. (black)","noires","noir","noirs","noire","‹chaussures› is feminine plural, so ‹noir› takes ‹-es›."],
+      ["mc","Which pair sounds different?","vert / verte","bleu / bleue","noir / noire","rouge / rouge","In ‹verte›, the ‹t› is heard; the other pairs sound the same."],
+      ["or","the white shirt","la chemise blanche","blanc","‹chemise› is feminine, so the adjective agrees: ‹blanche›."],
+      ["or","the black shoes","les chaussures noires","noirs","‹chaussures› is feminine plural, so the adjective agrees: ‹noires›."],
+      ["or","The jacket is green.","La veste est verte","vert","‹veste› is feminine, so the adjective agrees after ‹être› too: ‹verte›."],
+      ["fi","une robe __","a white dress","blanche","blanc|blancs|blanches","‹robe› is feminine singular: ‹blanche›."],
+      ["fi","un pull __","a green sweater","vert","verte|verts|vertes","‹pull› is masculine singular: ‹vert›, with no ending."],
+      ["fi","une __ maison","a small house","petite","petit|petits|petites","‹maison› is feminine singular: ‹petite›."],
+      ["ty","the white shirt","la chemise blanche","‹chemise› · ‹blanc›","blanc","‹chemise› is feminine, so the adjective agrees: ‹blanche›."],
+      ["ty","The shoes are black.","Les chaussures sont noires","‹chaussures› · ‹être› · ‹noir›","noirs","‹chaussures› is feminine plural, so ‹noir› agrees: ‹noires›."],
+      ["ty","a small house","une petite maison","‹petit› · ‹maison›","petit","‹maison› is feminine, so ‹petit› agrees: ‹une petite maison›."]
     ]
   },
   {
     id: "present",
-    title: "Present tense: -er verbs",
-    blurb: "Talk about work, school and daily life with regular -er verbs, giving each subject its own ending.",
+    title: "Present tense: ‹-er› verbs",
+    blurb: "Talk about work, school and daily life with regular ‹-er› verbs, giving each subject its own ending.",
     deck: "Work and school",
     body: `
 <p>English verbs barely change: I work, she work<i>s</i>. French verbs change for every subject. The good news: most French verbs end in <b>-er</b> (<b>parler</b>, to speak), and almost all of them follow the same pattern.</p>
-<h3>Stem plus ending</h3>
+<h3>Stem ‹plus› ending</h3>
 <p>Take off the <b>-er</b> to get the stem (<b>parl-</b>), then add the ending that matches the subject.</p>
-<div class="tbl"><table><tr><th>Subject</th><th>Ending</th><th>parler</th></tr><tr><td class="k">je</td><td>-e</td><td class="k">je parle</td></tr><tr><td class="k">tu</td><td>-es</td><td class="k">tu parles</td></tr><tr><td class="k">il, elle, on</td><td>-e</td><td class="k">il parle</td></tr><tr><td class="k">nous</td><td>-ons</td><td class="k">nous parlons</td></tr><tr><td class="k">vous</td><td>-ez</td><td class="k">vous parlez</td></tr><tr><td class="k">ils, elles</td><td>-ent</td><td class="k">ils parlent</td></tr></table></div>
+<div class="tbl"><table><tr><th>Subject</th><th>Ending</th><th>‹parler›</th></tr><tr><td class="k">je</td><td>‹-e›</td><td class="k">je parle</td></tr><tr><td class="k">tu</td><td>‹-es›</td><td class="k">tu parles</td></tr><tr><td class="k">il, elle, on</td><td>‹-e›</td><td class="k">il parle</td></tr><tr><td class="k">nous</td><td>‹-ons›</td><td class="k">nous parlons</td></tr><tr><td class="k">vous</td><td>‹-ez›</td><td class="k">vous parlez</td></tr><tr><td class="k">ils, elles</td><td>‹-ent›</td><td class="k">ils parlent</td></tr></table></div>
 {{ex:Je parle anglais.|zhuh pahrl ahN-gleh|I speak English.}}
 {{ex:Nous travaillons à Lyon.|noo trah-vah-yohN ah lyohN|We work in Lyon.}}
 {{ex:Vous parlez français?|voo pahr-lay frahN-seh|Do you speak French?}}
@@ -361,38 +361,38 @@ module.exports = [
 <p>French has no "-ing" tense. <b>Je travaille</b> means "I work", "I'm working" and "I do work". Don't add <b>être</b>.</p>
 <p>With <b>depuis</b> (since, for), the present also covers "I've been doing", for something that is still going on.</p>
 {{ex:J'étudie le français depuis deux ans.|zhay-tew-dee luh frahN-seh duh-pwee duh zahN|I've been studying French for two years.}}
-<div class="tip"><b>Most common mistake:</b> copying "I am working" word for word. <b>Je suis travaille</b> → <b>Je travaille</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> copying "I am working" word for word. <b>Je suis travaille</b> → <b>Je travaille</b>.</div>
 `,
     check: [
-      ["Which three endings sound exactly the same?",["-e, -es, -ent","-ons, -ez, -ent","-e, -ez, -ons","-es, -ons, -ez"],0,"-e, -es and -ent are silent, so parle, parles and parlent sound alike."],
-      ["I'm speaking =",["Je suis parle","Je suis parler","Je parlant","Je parle"],3,"The French present covers -ing: je parle."],
-      ["nous + manger =",["nous mangons","nous mangeons","nous mangez","nous mangent"],1,"manger keeps its e before -ons to keep the soft g: mangeons."]
+      ["Which three endings sound exactly the same?",["-e, -es, -ent","-ons, -ez, -ent","-e, -ez, -ons","-es, -ons, -ez"],0,"‹-e›, ‹-es› and ‹-ent› are silent, so ‹parle›, ‹parles› and ‹parlent› sound alike."],
+      ["I'm speaking =",["Je suis parle","Je suis parler","Je parlant","Je parle"],3,"The French present covers -ing: ‹je parle›."],
+      ["‹nous› + ‹manger› =",["nous mangons","nous mangeons","nous mangez","nous mangent"],1,"‹manger› keeps its ‹e› before ‹-ons› to keep the soft ‹g›: ‹mangeons›."]
     ],
     practice: [
-      ["mc","We speak French. (use nous) =","Nous parlons français.","Nous parle français.","Nous parlez français.","Nous parlent français.","With nous, the ending is -ons: parlons."],
-      ["mc","I'm working. =","Je travaille.","Je suis travaille.","Je suis travailler.","Je travailler.","The French present already means I'm working: no être."],
-      ["mc","Which one sounds different from the other three?","vous parlez","je parle","tu parles","ils parlent","parle, parles and parlent sound the same; the -ez of parlez is heard."],
-      ["mc","nous ___ (manger)","mangeons","mangons","mangez","mange","manger keeps its e before -ons: mangeons."],
-      ["mc","I've been studying French for two years. =","J'étudie le français depuis deux ans.","J'étudie le français pour deux ans.","Je suis étudier le français depuis deux ans.","J'étudies le français depuis deux ans.","For something still going on, French uses the present with depuis."],
-      ["or","They work in Paris. (use ils)","Ils travaillent à Paris","travaille","With ils, the verb ending is -ent: travaillent."],
-      ["or","You speak French. (to a stranger)","Vous parlez français","parles","To a stranger, use vous and the vous form: parlez."],
-      ["or","We're looking for an apartment. (use nous)","Nous cherchons un appartement","cherchez pour","The nous form ends in -ons, and chercher already means look for: no pour."],
-      ["fi","Tu __ à Paris.","You work in Paris.","travailles","travaille|travaillez|travaillent","The tu form ends in -s: tu travailles."],
-      ["fi","Nous __ à huit heures.","We start at eight.","commençons","commence|commencez|commencent","The nous form ends in -ons, with ç: commençons."],
-      ["fi","Elles __ la radio.","They're listening to the radio.","écoutent","écoute|écoutons|écoutez","With elles, the verb ending is -ent: écoutent."],
-      ["ty","We speak French. (use nous)","Nous parlons français","parler · français","parlent","The nous form ends in -ons: nous parlons."],
-      ["ty","They live in Paris. (use ils)","Ils habitent à Paris|Ils habitent Paris","habiter · à Paris","habite","With ils, the verb ending is -ent: ils habitent."],
-      ["ty","I'm working.","Je travaille|Je suis en train de travailler","travailler","suis","No être for -ing: the je form travaille already means I'm working."]
+      ["mc","We speak French. (use ‹nous›) =","Nous parlons français.","Nous parle français.","Nous parlez français.","Nous parlent français.","With ‹nous›, the ending is ‹-ons›: ‹parlons›."],
+      ["mc","I'm working. =","Je travaille.","Je suis travaille.","Je suis travailler.","Je travailler.","The French present already means I'm working: no ‹être›."],
+      ["mc","Which one sounds different from the other three?","vous parlez","je parle","tu parles","ils parlent","‹parle›, ‹parles› and ‹parlent› sound the same; the ‹-ez› of ‹parlez› is heard."],
+      ["mc","‹nous› ___ (‹manger›)","mangeons","mangons","mangez","mange","‹manger› keeps its ‹e› before ‹-ons›: ‹mangeons›."],
+      ["mc","I've been studying French for two years. =","J'étudie le français depuis deux ans.","J'étudie le français pour deux ans.","Je suis étudier le français depuis deux ans.","J'étudies le français depuis deux ans.","For something still going on, French uses the present with ‹depuis›."],
+      ["or","They work in Paris. (use ‹ils›)","Ils travaillent à Paris","travaille","With ‹ils›, the verb ending is ‹-ent›: ‹travaillent›."],
+      ["or","You speak French. (to a stranger)","Vous parlez français","parles","To a stranger, use ‹vous› and the ‹vous› form: ‹parlez›."],
+      ["or","We're looking for an apartment. (use ‹nous›)","Nous cherchons un appartement","cherchez pour","The ‹nous› form ends in ‹-ons›, and ‹chercher› already means look for: no ‹pour›."],
+      ["fi","Tu __ à Paris.","You work in Paris.","travailles","travaille|travaillez|travaillent","The ‹tu› form ends in ‹-s›: ‹tu travailles›."],
+      ["fi","Nous __ à huit heures.","We start at eight.","commençons","commence|commencez|commencent","The ‹nous› form ends in ‹-ons›, with ‹ç›: ‹commençons›."],
+      ["fi","Elles __ la radio.","They're listening to the radio.","écoutent","écoute|écoutons|écoutez","With ‹elles›, the verb ending is ‹-ent›: ‹écoutent›."],
+      ["ty","We speak French. (use ‹nous›)","Nous parlons français","‹parler› · ‹français›","parlent","The ‹nous› form ends in ‹-ons›: ‹nous parlons›."],
+      ["ty","They live in Paris. (use ‹ils›)","Ils habitent à Paris|Ils habitent Paris","‹habiter› · ‹à Paris›","habite","With ‹ils›, the verb ending is ‹-ent›: ‹ils habitent›."],
+      ["ty","I'm working.","Je travaille|Je suis en train de travailler","‹travailler›","suis","No ‹être› for -ing: the ‹je› form ‹travaille› already means I'm working."]
     ]
   },
   {
     id: "negation",
-    title: "ne … pas",
-    blurb: "Say what you are not, don't have and don't do, with ne … pas around the verb and pas de.",
+    title: "‹ne› … ‹pas›",
+    blurb: "Say what you are not, don't have and don't do, with ‹ne› … ‹pas› around the verb and ‹pas de›.",
     deck: "Feelings and states",
     body: `
 <p>English makes a verb negative with "do not": I <i>don't</i> speak German. French has no "do" here. Instead, it wraps the verb in two words: <b>ne</b> before it, <b>pas</b> after it.</p>
-<h3>ne … pas goes around the verb</h3>
+<h3>‹ne … pas› goes around the verb</h3>
 <p>Put <b>ne</b> right after the subject and <b>pas</b> right after the conjugated verb. Everything else stays where it was. There is nothing to add for "do": the verb keeps its usual ending.</p>
 {{ex:Je ne parle pas allemand.|zhuh nuh pahrl pah ahl-mahN|I don't speak German.}}
 {{ex:Nous ne sommes pas fatigués.|noo nuh sohm pah fah-tee-gay|We're not tired.}}
@@ -400,7 +400,7 @@ module.exports = [
 {{ex:Elle n'est pas contente.|ehl neh pah kohN-tahNt|She isn't happy.}}
 {{ex:Je n'ai pas faim.|zhuh nay pah faN|I'm not hungry.}}
 <p>The agreement doesn't change in the negative: <b>contente</b> still matches <b>elle</b>.</p>
-<h3>pas de: not any</h3>
+<h3>‹pas de›: not any</h3>
 <p>After a negative verb, <b>un</b>, <b>une</b> and <b>des</b> all become <b>de</b> (or <b>d'</b> before a vowel). English says "I don't have a car"; French says "I don't have of car".</p>
 <div class="tbl"><table><tr><th>Yes</th><th>No</th></tr><tr><td class="k">J'ai une voiture.</td><td class="k">Je n'ai pas de voiture.</td></tr><tr><td class="k">Il a des enfants.</td><td class="k">Il n'a pas d'enfants.</td></tr></table></div>
 {{ex:Je n'ai pas de voiture.|zhuh nay pah duh vwah-tewr|I don't have a car.}}
@@ -413,44 +413,44 @@ module.exports = [
 {{ex:Je n'ai plus faim.|zhuh nay plew faN|I'm not hungry anymore.}}
 <h3>What you'll hear</h3>
 <p>In relaxed speech, French people often drop the <b>ne</b>: you'll hear <b>Je sais pas</b> for <b>Je ne sais pas</b> (I don't know). A later lesson covers this. In writing, and in this course's typed answers, keep the <b>ne</b>.</p>
-<div class="tip"><b>Most common mistake:</b> putting both words before the verb. <b>Je ne pas parle</b> → <b>Je ne parle pas</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> putting both words before the verb. <b>Je ne pas parle</b> → <b>Je ne parle pas</b>.</div>
 `,
     check: [
-      ["Where do ne and pas go?",["Both before the verb","ne before the verb, pas after it","Both at the end of the sentence","pas before the verb, ne after it"],1,"ne … pas wraps the conjugated verb: je ne parle pas."],
-      ["I don't have a cat =",["Je n'ai pas un chat","Je ne ai pas de chat","Je n'ai pas de chat","Je n'ai de chat pas"],2,"After a negative verb, un becomes de: pas de chat."],
-      ["Je ne suis jamais en retard means:",["I'm never late.","I'm not late anymore.","I'm not late yet.","I'm always late."],0,"ne … jamais = never."]
+      ["Where do ‹ne› and ‹pas› go?",["Both before the verb","‹ne› before the verb, ‹pas› after it","Both at the end of the sentence","‹pas› before the verb, ‹ne› after it"],1,"‹ne› … ‹pas› wraps the conjugated verb: ‹je ne parle pas›."],
+      ["I don't have a cat =",["Je n'ai pas un chat","Je ne ai pas de chat","Je n'ai pas de chat","Je n'ai de chat pas"],2,"After a negative verb, ‹un› becomes ‹de›: ‹pas de chat›."],
+      ["‹Je ne suis jamais en retard› means:",["I'm never late.","I'm not late anymore.","I'm not late yet.","I'm always late."],0,"‹ne› … ‹jamais› = never."]
     ],
     practice: [
-      ["mc","I don't speak German. =","Je ne parle pas allemand.","Je ne pas parle allemand.","Je parle ne pas allemand.","Je pas parle allemand.","ne goes before the verb and pas after it."],
-      ["mc","I don't have a car. =","Je n'ai pas de voiture.","Je n'ai pas une voiture.","Je ne ai pas de voiture.","Je n'ai de pas voiture.","After a negative, une becomes de, and ne becomes n' before ai."],
-      ["mc","Il ne travaille jamais means:","He never works.","He doesn't work anymore.","He doesn't work yet.","He works a lot.","ne … jamais = never; ne … plus would be not anymore."],
-      ["mc","I'm not hungry. =","Je n'ai pas faim.","Je ne suis pas faim.","Je n'ai faim pas.","Je ne pas ai faim.","Hunger uses avoir, and ne … pas wraps ai."],
-      ["mc","She isn't tired. =","Elle n'est pas fatiguée.","Elle n'est pas fatigué.","Elle ne est pas fatiguée.","Elle n'est fatiguée pas.","n' before est, pas right after it, and fatiguée agrees with elle."],
-      ["or","We're not tired. (use nous; a group of men)","Nous ne sommes pas fatigués","fatigué","With nous, the adjective agrees in the plural: fatigués."],
-      ["or","She isn't happy.","Elle n'est pas contente","content","elle is feminine, so the adjective agrees: contente."],
-      ["or","They don't speak English. (use ils)","Ils ne parlent pas anglais","parle","With ils, the verb ending is -ent, inside ne … pas: ne parlent pas."],
-      ["fi","Je n'ai pas __ voiture.","I don't have a car.","de","une|un|la","After a negative verb, une becomes de."],
-      ["fi","Nous ne __ pas malades.","We're not sick.","sommes","sont|êtes|est","With nous, être is sommes; ne … pas goes around it."],
-      ["fi","Je __ travaille pas le lundi.","I don't work on Mondays.","ne","n'|pas|non","Before a consonant, it is ne, not n'."],
-      ["ty","I'm not hungry.","Je n'ai pas faim","avoir · faim · ne … pas","suis","Hunger uses avoir: ne … pas wraps ai, the je form."],
-      ["ty","We don't have a car. (use nous)","Nous n'avons pas de voiture","avoir · voiture · ne … pas","une","The nous form avons goes inside ne … pas, and une becomes de."],
-      ["ty","She isn't tired.","Elle n'est pas fatiguée","être · fatigué · ne … pas","fatigué","elle is feminine, so the adjective agrees: fatiguée."]
+      ["mc","I don't speak German. =","Je ne parle pas allemand.","Je ne pas parle allemand.","Je parle ne pas allemand.","Je pas parle allemand.","‹ne› goes before the verb and ‹pas› after it."],
+      ["mc","I don't have a car. =","Je n'ai pas de voiture.","Je n'ai pas une voiture.","Je ne ai pas de voiture.","Je n'ai de pas voiture.","After a negative, ‹une› becomes ‹de›, and ‹ne› becomes ‹n'› before ‹ai›."],
+      ["mc","‹Il ne travaille jamais› means:","He never works.","He doesn't work anymore.","He doesn't work yet.","He works a lot.","‹ne› … ‹jamais› = never; ‹ne› … ‹plus› would be not anymore."],
+      ["mc","I'm not hungry. =","Je n'ai pas faim.","Je ne suis pas faim.","Je n'ai faim pas.","Je ne pas ai faim.","Hunger uses ‹avoir›, and ‹ne› … ‹pas› wraps ‹ai›."],
+      ["mc","She isn't tired. =","Elle n'est pas fatiguée.","Elle n'est pas fatigué.","Elle ne est pas fatiguée.","Elle n'est fatiguée pas.","‹n'› before ‹est›, ‹pas› right after it, and ‹fatiguée› agrees with ‹elle›."],
+      ["or","We're not tired. (use ‹nous›; a group of men)","Nous ne sommes pas fatigués","fatigué","With ‹nous›, the adjective agrees in the plural: ‹fatigués›."],
+      ["or","She isn't happy.","Elle n'est pas contente","content","‹elle› is feminine, so the adjective agrees: ‹contente›."],
+      ["or","They don't speak English. (use ‹ils›)","Ils ne parlent pas anglais","parle","With ‹ils›, the verb ending is ‹-ent›, inside ‹ne› … ‹pas›: ‹ne parlent pas›."],
+      ["fi","Je n'ai pas __ voiture.","I don't have a car.","de","une|un|la","After a negative verb, ‹une› becomes ‹de›."],
+      ["fi","Nous ne __ pas malades.","We're not sick.","sommes","sont|êtes|est","With ‹nous›, ‹être› is ‹sommes›; ‹ne› … ‹pas› goes around it."],
+      ["fi","Je __ travaille pas le lundi.","I don't work on Mondays.","ne","n'|pas|non","Before a consonant, it is ‹ne›, not ‹n'›."],
+      ["ty","I'm not hungry.","Je n'ai pas faim","‹avoir› · ‹faim› · ‹ne› … ‹pas›","suis","Hunger uses ‹avoir›: ‹ne› … ‹pas› wraps ‹ai›, the ‹je› form."],
+      ["ty","We don't have a car. (use ‹nous›)","Nous n'avons pas de voiture","‹avoir› · ‹voiture› · ‹ne› … ‹pas›","une","The ‹nous› form ‹avons› goes inside ‹ne› … ‹pas›, and ‹une› becomes ‹de›."],
+      ["ty","She isn't tired.","Elle n'est pas fatiguée","‹être› · ‹fatigué› · ‹ne› … ‹pas›","fatigué","‹elle› is feminine, so the adjective agrees: ‹fatiguée›."]
     ]
   },
   {
     id: "questions",
-    title: "Questions: est-ce que, qui, où",
+    title: "Questions: ‹est-ce que›, ‹qui›, ‹où›",
     blurb: "Ask yes/no questions and questions with where, when, why and which, without any word for \"do\".",
     deck: "Questions and connectors",
     body: `
 <p>English builds most questions with "do": <i>Do</i> you speak English? Where <i>do</i> you live? French has no such helper. Leave "do" out completely.</p>
 <h3>Yes/no questions: three ways</h3>
-<p><b>1. Raise your voice at the end.</b> The sentence stays the same; only the tone climbs. This is the most common way in conversation. The answer is <b>oui</b> (yes) or <b>non</b> (no).</p>
+<p><strong>1. Raise your voice at the end.</strong> The sentence stays the same; only the tone climbs. This is the most common way in conversation. The answer is <b>oui</b> (yes) or <b>non</b> (no).</p>
 {{ex:Tu parles anglais?|tew pahrl ahN-gleh|Do you speak English?}}
-<p><b>2. Put est-ce que in front.</b> It means nothing by itself; it just announces "a question is coming". It works with any subject and in any situation. Before a vowel it becomes <b>est-ce qu'</b>.</p>
+<p><strong>2. Put <b>est-ce que</b> in front.</strong> It means nothing by itself; it just announces "a question is coming". It works with any subject and in any situation. Before a vowel it becomes <b>est-ce qu'</b>.</p>
 {{ex:Est-ce que tu parles anglais?|ehs kuh tew pahrl ahN-gleh|Do you speak English?}}
 {{ex:Est-ce qu'elle travaille à Paris?|ehs kehl trah-vahy ah pah-ree|Does she work in Paris?}}
-<p><b>3. Swap the subject and the verb</b>, joined by a hyphen. This is called inversion. It sounds more formal; learn to recognize it in fixed questions.</p>
+<p><strong>3. Swap the subject and the verb</strong>, joined by a hyphen. This is called inversion. It sounds more formal; learn to recognize it in fixed questions.</p>
 {{ex:Parlez-vous anglais?|pahr-lay voo zahN-gleh|Do you speak English?}}
 <h3>Question words</h3>
 <div class="tbl"><table><tr><th>French</th><th>English</th></tr><tr><td class="k">où</td><td>where</td></tr><tr><td class="k">quand</td><td>when</td></tr><tr><td class="k">comment</td><td>how</td></tr><tr><td class="k">pourquoi</td><td>why</td></tr><tr><td class="k">qui</td><td>who</td></tr><tr><td class="k">qu'est-ce que</td><td>what</td></tr><tr><td class="k">combien</td><td>how much, how many</td></tr></table></div>
@@ -459,56 +459,56 @@ module.exports = [
 {{ex:Pourquoi est-ce qu'il est en retard?|poor-kwah ehs keel eh tahN ruh-tahr|Why is he late?}}
 <p>"What" at the start is one block, <b>qu'est-ce que</b>: <b>Qu'est-ce que tu étudies?</b> The short word <b>quoi</b> is used alone (<b>Quoi?</b>) or at the end (<b>Tu étudies quoi?</b>).</p>
 <p><b>Où</b> (where) has an accent. Without it, <b>ou</b> means "or". Type the accent: it changes the word.</p>
-<h3>quel: which, what</h3>
+<h3>‹quel›: which, what</h3>
 <p>"Which" or "what" before a noun is <b>quel</b>, and it agrees with the noun like an adjective. All four forms sound the same (<i>kehl</i>), so only spelling shows the agreement.</p>
 <div class="tbl"><table><tr><th></th><th>Masculine</th><th>Feminine</th></tr><tr><td>one</td><td class="k">quel pull</td><td class="k">quelle robe</td></tr><tr><td>more than one</td><td class="k">quels pulls</td><td class="k">quelles chaussures</td></tr></table></div>
 {{ex:Quelle heure est-il?|kehl uhr eh teel|What time is it?}}
 {{ex:Quel âge as-tu?|kehl ahzh ah tew|How old are you?}}
-<div class="tip"><b>Most common mistake:</b> translating "do". <b>Où tu fais habiter?</b> → <b>Où est-ce que tu habites?</b></div>
+<div class="tip"><strong>Most common mistake:</strong> translating "do". <b>Où tu fais habiter?</b> → <b>Où est-ce que tu habites?</b></div>
 `,
     check: [
-      ["How do you turn Tu parles français into a question with est-ce que?",["Est-ce que tu parles français?","Tu parles français est-ce que?","Tu est-ce que parles français?","Est-ce tu parles français?"],0,"est-ce que goes at the very start; the rest of the sentence stays the same."],
-      ["ville (town) is feminine. Which town? =",["Quel ville?","Quels ville?","Quelles ville?","Quelle ville?"],3,"quel agrees with its noun: ville is feminine singular, so quelle."],
-      ["Which word means where?",["ou","qui","où","quoi"],2,"où with an accent means where; ou without it means or."]
+      ["How do you turn ‹Tu parles français› into a question with ‹est-ce que›?",["Est-ce que tu parles français?","Tu parles français est-ce que?","Tu est-ce que parles français?","Est-ce tu parles français?"],0,"‹est-ce que› goes at the very start; the rest of the sentence stays the same."],
+      ["‹ville› (town) is feminine. Which town? =",["Quel ville?","Quels ville?","Quelles ville?","Quelle ville?"],3,"‹quel› agrees with its noun: ‹ville› is feminine singular, so ‹quelle›."],
+      ["Which word means where?",["ou","qui","où","quoi"],2,"‹où› with an accent means where; ‹ou› without it means or."]
     ],
     practice: [
-      ["mc","Do you speak English? (to a friend, use est-ce que) =","Est-ce que tu parles anglais?","Est-ce que tu parle anglais?","Est-ce tu parles anglais?","Est-ce que tu fais parler anglais?","No word for do: est-ce que + tu parles, with the -s of the tu form."],
-      ["mc","Where do you live? (to a friend) =","Où est-ce que tu habites?","Où est-ce que tu fais habiter?","Où tu fais habiter?","Où est-ce tu habites?","Question word + est-ce que + the normal sentence; no do."],
-      ["mc","___ heure est-il? (heure is feminine)","Quelle","Quel","Quels","Quelles","heure is feminine singular, so quelle."],
-      ["mc","Parlez-vous anglais? means:","Do you speak English?","Speak English!","You speak English.","Are you English?","Inversion (verb, hyphen, subject) makes a question."],
-      ["mc","Which word asks how much or how many?","combien","comment","quand","pourquoi","combien = how much, how many; comment = how."],
-      ["or","Which shoes? (chaussures)","Quelles chaussures","Quel","chaussures is feminine plural, so quel agrees: quelles."],
-      ["or","Where do you work? (to a stranger, use est-ce que)","Où est-ce que vous travaillez","travailles","To a stranger, use vous and the vous form: travaillez."],
-      ["or","Why are they late? (use est-ce que and ils)","Pourquoi est-ce qu'ils sont en retard","est","With ils, être takes the ils form: sont."],
-      ["fi","__ âge as-tu?","How old are you?","Quel","Quelle|Quels|Quelles","âge is masculine singular, so quel."],
-      ["fi","Est-ce __ elle travaille à Paris?","Does she work in Paris?","qu'","que|qui|quoi","Before a vowel, que becomes qu': est-ce qu'elle."],
-      ["fi","__ est-ce que tu habites?","Where do you live?","Où","Ou|Qui|Quoi","Where is où, with an accent; ou means or.","!strict"],
-      ["ty","Do you speak French? (to a stranger, use est-ce que)","Est-ce que vous parlez français|Est ce que vous parlez français","est-ce que · parler · français","parles","To a stranger, parler takes the vous form: vous parlez."],
-      ["ty","Where do you live? (to a friend, use est-ce que)","Où est-ce que tu habites|Où est ce que tu habites","où · est-ce que · habiter","habite","The tu form ends in -s: tu habites."],
-      ["ty","Which dress? (robe)","Quelle robe","quel · robe","Quel","robe is feminine, so quel agrees: quelle robe."]
+      ["mc","Do you speak English? (to a friend, use ‹est-ce que›) =","Est-ce que tu parles anglais?","Est-ce que tu parle anglais?","Est-ce tu parles anglais?","Est-ce que tu fais parler anglais?","No word for do: ‹est-ce que› + ‹tu parles›, with the ‹-s› of the ‹tu› form."],
+      ["mc","Where do you live? (to a friend) =","Où est-ce que tu habites?","Où est-ce que tu fais habiter?","Où tu fais habiter?","Où est-ce tu habites?","Question word + ‹est-ce que› + the normal sentence; no do."],
+      ["mc","___ ‹heure est-il?› (‹heure› is feminine)","Quelle","Quel","Quels","Quelles","‹heure› is feminine singular, so ‹quelle›."],
+      ["mc","‹Parlez-vous anglais?› means:","Do you speak English?","Speak English!","You speak English.","Are you English?","Inversion (verb, hyphen, subject) makes a question."],
+      ["mc","Which word asks how much or how many?","combien","comment","quand","pourquoi","‹combien› = how much, how many; ‹comment› = how."],
+      ["or","Which shoes? (‹chaussures›)","Quelles chaussures","Quel","‹chaussures› is feminine plural, so ‹quel› agrees: ‹quelles›."],
+      ["or","Where do you work? (to a stranger, use ‹est-ce que›)","Où est-ce que vous travaillez","travailles","To a stranger, use ‹vous› and the ‹vous› form: ‹travaillez›."],
+      ["or","Why are they late? (use ‹est-ce que› and ‹ils›)","Pourquoi est-ce qu'ils sont en retard","est","With ‹ils›, ‹être› takes the ‹ils› form: ‹sont›."],
+      ["fi","__ âge as-tu?","How old are you?","Quel","Quelle|Quels|Quelles","‹âge› is masculine singular, so ‹quel›."],
+      ["fi","Est-ce __ elle travaille à Paris?","Does she work in Paris?","qu'","que|qui|quoi","Before a vowel, ‹que› becomes ‹qu'›: ‹est-ce qu'elle›."],
+      ["fi","__ est-ce que tu habites?","Where do you live?","Où","Ou|Qui|Quoi","Where is ‹où›, with an accent; ‹ou› means or.","!strict"],
+      ["ty","Do you speak French? (to a stranger, use ‹est-ce que›)","Est-ce que vous parlez français|Est ce que vous parlez français","‹est-ce que› · ‹parler› · ‹français›","parles","To a stranger, ‹parler› takes the ‹vous› form: ‹vous parlez›."],
+      ["ty","Where do you live? (to a friend, use ‹est-ce que›)","Où est-ce que tu habites|Où est ce que tu habites","‹où› · ‹est-ce que› · ‹habiter›","habite","The ‹tu› form ends in ‹-s›: ‹tu habites›."],
+      ["ty","Which dress? (‹robe›)","Quelle robe","‹quel› · ‹robe›","Quel","‹robe› is feminine, so ‹quel› agrees: ‹quelle robe›."]
     ]
   },
   {
     id: "cest",
-    title: "c'est and il y a",
-    blurb: "Point things out with c'est, describe people with il est and elle est, and say what there is in town with il y a.",
+    title: "‹c'est› and ‹il y a›",
+    blurb: "Point things out with ‹c'est›, describe people with ‹il est› and ‹elle est›, and say what there is in town with ‹il y a›.",
     deck: "Around town and directions",
     body: `
 <p>English uses "it is", "he is" and "she is" freely. French splits them into two patterns, and the choice depends on what comes next.</p>
-<h3>c'est + a noun with its article</h3>
+<h3>‹c'est› + a noun with its article</h3>
 <p>To say what something or someone is, use <b>c'est</b> (it is, this is, that is) with a noun and its article, a name, or a stress pronoun.</p>
 {{ex:C'est un musée.|seh tuhN mew-zay|It's a museum.}}
 {{ex:C'est Léa.|seh lay-ah|This is Léa.}}
 {{ex:C'est moi.|seh mwah|It's me.}}
 <p>The negative is <b>ce n'est pas</b>, and the article stays: <b>pas de</b> is not used after <b>être</b>.</p>
 {{ex:Ce n'est pas un musée.|suh neh pah uhN mew-zay|It's not a museum.}}
-<h3>il est, elle est + an adjective or a job</h3>
+<h3>‹il est›, ‹elle est› + an adjective or a job</h3>
 <p>To describe a person you have already named, use <b>il est</b> or <b>elle est</b> with an adjective. Jobs work the same way, with no article: French says "he is doctor".</p>
 {{ex:Elle est grande.|ehl eh grahNd|She's tall.}}
 {{ex:Il est médecin.|eel eh mayd-saN|He's a doctor.}}
 <p>If you want to keep the article, switch to <b>c'est</b>: <b>C'est un médecin</b> (he's a doctor) is also correct. What doesn't work is mixing the two: <b>il est</b> + <b>un</b>.</p>
 <p>For a general comment on a thing or a situation, French also says <b>c'est</b> + adjective, and the adjective stays masculine: <b>C'est beau!</b> (It's beautiful!)</p>
-<h3>il y a: there is, there are</h3>
+<h3>‹il y a›: there is, there are</h3>
 <p>English has two forms, "there is" and "there are". French has one: <b>il y a</b>, for one thing or many. It is usually followed by <b>un</b>, <b>une</b> or <b>des</b>.</p>
 {{ex:Il y a une boulangerie.|eel ee ah ewn boo-lahNzh-ree|There's a bakery.}}
 {{ex:Il y a deux parcs.|eel ee ah duh pahrk|There are two parks.}}
@@ -517,28 +517,28 @@ module.exports = [
 <p>To ask, put <b>est-ce qu'</b> in front. This is the question to ask a stranger in the street, after <b>bonjour</b>.</p>
 {{ex:Est-ce qu'il y a une pharmacie près d'ici?|ehs keel ee ah ewn fahr-mah-see preh dee-see|Is there a pharmacy near here?}}
 <div class="tbl"><table><tr><th>English</th><th>French</th></tr><tr><td>It's a hotel.</td><td class="k">C'est un hôtel.</td></tr><tr><td>He's nice.</td><td class="k">Il est sympa.</td></tr><tr><td>She's a nurse.</td><td class="k">Elle est infirmière.</td></tr><tr><td>There's a café.</td><td class="k">Il y a un café.</td></tr></table></div>
-<div class="tip"><b>Most common mistake:</b> keeping the English "a" after il est. <b>Il est un médecin</b> → <b>Il est médecin</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> keeping the English "a" after ‹il est›. <b>Il est un médecin</b> → <b>Il est médecin</b>.</div>
 `,
     check: [
-      ["He's a teacher (professeur) =",["Il est un professeur.","Il est professeur.","C'est professeur.","Il a professeur."],1,"After il est, a job takes no article."],
-      ["il y a means:",["he has","it is","there is or there are","he is there"],2,"il y a = there is and there are, for one thing or many."],
-      ["Which sentence is correct?",["C'est un musée.","Il est un musée.","C'est musée.","Il y a musée."],0,"c'est goes with a noun and its article: c'est un musée."]
+      ["He's a teacher (‹professeur›) =",["Il est un professeur.","Il est professeur.","C'est professeur.","Il a professeur."],1,"After ‹il est›, a job takes no article."],
+      ["‹il y a› means:",["he has","it is","there is or there are","he is there"],2,"‹il y a› = there is and there are, for one thing or many."],
+      ["Which sentence is correct?",["C'est un musée.","Il est un musée.","C'est musée.","Il y a musée."],0,"‹c'est› goes with a noun and its article: ‹c'est un musée›."]
     ],
     practice: [
-      ["mc","He's a doctor. =","Il est médecin.","Il est un médecin.","Il a médecin.","Il y a médecin.","After il est, a job takes no article."],
-      ["mc","It's a museum. =","C'est un musée.","Il est un musée.","C'est musée.","Il y a un musée.","c'est + a noun with its article; il y a un musée means there's a museum."],
-      ["mc","Is there a pharmacy near here? =","Est-ce qu'il y a une pharmacie près d'ici?","Est-ce qu'il est une pharmacie près d'ici?","Est-ce qu'il y a pharmacie près d'ici?","Est-ce qu'il a une pharmacie près d'ici?","there is = il y a, and the noun keeps its article."],
-      ["mc","There's no bank. =","Il n'y a pas de banque.","Il n'y a pas une banque.","Il ne y a pas de banque.","Il n'a pas de banque.","After a negative, une becomes de: il n'y a pas de banque."],
-      ["mc","Léa? ___ est sympa. (She's nice.)","Elle","Il","Ça","Lui","To describe a person, use il est or elle est; Léa is a woman, so elle."],
-      ["or","She's a nurse. (use elle)","Elle est infirmière","infirmier","elle is feminine, so the job takes its feminine form: infirmière."],
-      ["or","There are two parks.","Il y a deux parcs","parc","deux needs a plural noun: parcs, with -s."],
-      ["or","It's a bakery.","C'est une boulangerie","un","boulangerie is feminine, so the article is une."],
-      ["fi","__ est médecin.","He's a doctor.","Il","C'|Ce|Ils","A job with no article goes after il est, not c'est."],
-      ["fi","Il y a __ hôtel ici.","There's a hotel here.","un","une|des|le","hôtel is masculine and singular, and il y a takes un, une or des."],
-      ["fi","Il n'y a pas __ toilettes.","There's no restroom.","de","des|les|une","After a negative, des becomes de."],
-      ["ty","It's a museum.","C'est un musée","c'est · musée","Il","musée is masculine, so the article agrees: c'est un musée."],
-      ["ty","There's a pharmacy.","Il y a une pharmacie","il y a · pharmacie","un","pharmacie is feminine, so the article agrees: une pharmacie."],
-      ["ty","She's a doctor. (use elle)","Elle est médecin","être · médecin","une","After elle est, a job takes no article: elle est médecin."]
+      ["mc","He's a doctor. =","Il est médecin.","Il est un médecin.","Il a médecin.","Il y a médecin.","After ‹il est›, a job takes no article."],
+      ["mc","It's a museum. =","C'est un musée.","Il est un musée.","C'est musée.","Il y a un musée.","‹c'est› + a noun with its article; ‹il y a un musée› means there's a museum."],
+      ["mc","Is there a pharmacy near here? =","Est-ce qu'il y a une pharmacie près d'ici?","Est-ce qu'il est une pharmacie près d'ici?","Est-ce qu'il y a pharmacie près d'ici?","Est-ce qu'il a une pharmacie près d'ici?","there is = ‹il y a›, and the noun keeps its article."],
+      ["mc","There's no bank. =","Il n'y a pas de banque.","Il n'y a pas une banque.","Il ne y a pas de banque.","Il n'a pas de banque.","After a negative, ‹une› becomes ‹de›: ‹il n'y a pas de banque›."],
+      ["mc","‹Léa?› ___ ‹est sympa›. (She's nice.)","Elle","Il","Ça","Lui","To describe a person, use ‹il est› or ‹elle est›; Léa is a woman, so ‹elle›."],
+      ["or","She's a nurse. (use ‹elle›)","Elle est infirmière","infirmier","‹elle› is feminine, so the job takes its feminine form: ‹infirmière›."],
+      ["or","There are two parks.","Il y a deux parcs","parc","‹deux› needs a plural noun: ‹parcs›, with ‹-s›."],
+      ["or","It's a bakery.","C'est une boulangerie","un","‹boulangerie› is feminine, so the article is ‹une›."],
+      ["fi","__ est médecin.","He's a doctor.","Il","C'|Ce|Ils","A job with no article goes after ‹il est›, not ‹c'est›."],
+      ["fi","Il y a __ hôtel ici.","There's a hotel here.","un","une|des|le","‹hôtel› is masculine and singular, and ‹il y a› takes ‹un›, ‹une› or ‹des›."],
+      ["fi","Il n'y a pas __ toilettes.","There's no restroom.","de","des|les|une","After a negative, ‹des› becomes ‹de›."],
+      ["ty","It's a museum.","C'est un musée","‹c'est› · ‹musée›","Il","‹musée› is masculine, so the article agrees: ‹c'est un musée›."],
+      ["ty","There's a pharmacy.","Il y a une pharmacie","‹il y a› · ‹pharmacie›","un","‹pharmacie› is feminine, so the article agrees: ‹une pharmacie›."],
+      ["ty","She's a doctor. (use ‹elle›)","Elle est médecin","‹être› · ‹médecin›","une","After ‹elle est›, a job takes no article: ‹elle est médecin›."]
     ]
   },
 ];

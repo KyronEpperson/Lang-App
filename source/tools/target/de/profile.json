@@ -189,12 +189,12 @@
     {
       "name": "Sounds and spelling",
       "group": "First steps",
-      "desc": "Words that show each sound rule: ch, r, z, w / v, ei / ie, umlauts, ß and final b d g"
+      "desc": "Words that show each sound rule: ‹ch›, ‹r›, ‹z›, ‹w› / ‹v›, ‹ei› / ‹ie›, umlauts, ‹ß› and final ‹b› ‹d› ‹g›"
     },
     {
       "name": "Greetings and courtesy",
       "group": "First steps",
-      "desc": "Hello, goodbye, please, thanks, and Sie or du with the people you meet"
+      "desc": "Hello, goodbye, please, thanks, and ‹Sie› or ‹du› with the people you meet"
     },
     {
       "name": "About me",
@@ -234,7 +234,7 @@
     {
       "name": "Around town and directions",
       "group": "Out and about",
-      "desc": "Places in town, asking the way, and getting around with mit and zu"
+      "desc": "Places in town, asking the way, and getting around with ‹mit› and ‹zu›"
     },
     {
       "name": "Travel and transport",
@@ -254,7 +254,7 @@
     {
       "name": "Feelings and states",
       "group": "Conversation",
-      "desc": "How you feel and how you are, with sein, haben and mir"
+      "desc": "How you feel and how you are, with ‹sein›, ‹haben› and ‹mir›"
     },
     {
       "name": "Likes and free time",
@@ -289,12 +289,12 @@
     {
       "name": "Top nouns",
       "group": "Core words",
-      "desc": "The most-used nouns, with der, die or das and the plural"
+      "desc": "The most-used nouns, with ‹der›, ‹die› or ‹das› and the plural"
     },
     {
       "name": "Top verbs",
       "group": "Core words",
-      "desc": "The most-used verbs: infinitive, the ich-form, and strong or separable flags"
+      "desc": "The most-used verbs: infinitive, the ‹ich›-form, and strong or separable flags"
     },
     {
       "name": "Top adjectives",
@@ -304,12 +304,12 @@
     {
       "name": "Top adverbs",
       "group": "Core words",
-      "desc": "Time, place, manner and degree: schon, noch, immer, hier, sehr …"
+      "desc": "Time, place, manner and degree: ‹schon›, ‹noch›, ‹immer›, ‹hier›, ‹sehr› …"
     },
     {
       "name": "Top pronouns",
       "group": "Core words",
-      "desc": "Personal pronouns in every case, Sie and du, question and indefinite pronouns"
+      "desc": "Personal pronouns in every case, ‹Sie› and ‹du›, question and indefinite pronouns"
     },
     {
       "name": "Top prepositions",
@@ -324,7 +324,7 @@
     {
       "name": "Top interjections",
       "group": "Core words",
-      "desc": "What Germans really exclaim: Ach so!, Na ja, Aua!, Mist!, Krass! …"
+      "desc": "What Germans really exclaim: ‹Ach so!›, ‹Na ja›, ‹Aua!›, ‹Mist!›, ‹Krass!› …"
     },
     {
       "name": "Top words",

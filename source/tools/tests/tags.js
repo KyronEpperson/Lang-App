@@ -50,6 +50,16 @@ T('a lone ‹ or › of the interface is left alone',chev.t==='‹ Back · Next 
 // section decks: tagged words still match their cards
 const sec=await p.evaluate(()=>{ let cards=0, secs=0; LESSONS.forEach(l=>{ const pl=lsPlan(l); (pl.parts||pl.secs||[]).forEach(x=>{ secs++; }); cards+=(pl.all||[]).length; }); return {cards,secs}; });
 T('lesson section decks still fill',sec.cards>400,sec);
+// TL-2: the other tagged courses (same checks, course by course)
+for(const t of ['fr','de','pt','it']){ const id='en-'+t;
+  const ok=await p.evaluate(id=>applyCourse(id)!==false&&COURSE.id===id&&tlOn()===true,id); await p.waitForTimeout(300); T(id+' loads with tags on',ok);
+  const s2=await p.evaluate(()=>{ let tagged=0, bad=0; Object.values(DECKS).forEach(d=>d.forEach(c=>{ [c[2],c[3]].forEach(x=>{ if(!x) return; if(x.indexOf('‹')>=0) tagged++; if((x.match(/[‹›]/g)||[]).length!==2*(x.match(/‹[^‹›\s](?:[^‹›]*[^‹›\s])?›/g)||[]).length) bad++; }); if(/[‹›]/.test(c[0]+c[1])) bad++; })); return {tagged,bad}; });
+  T(id+': card notes carry tagged runs, every run well formed, none on a card front',s2.tagged>400&&s2.bad===0,s2);
+  const l2=await p.evaluate(async()=>{ const out={n:0,tl:0,leak:[],b:0}; for(const l of LESSONS){ const d=document.createElement('div'); d.innerHTML=lessonBody(l); document.body.appendChild(d); await new Promise(r=>setTimeout(r,0)); out.n++; out.tl+=d.querySelectorAll('b.tl').length; out.b+=d.querySelectorAll('.lbody b:not(.tl)').length; if(/[‹›]/.test(d.textContent)) out.leak.push(l.id); d.remove(); } return out; });
+  T(id+': no lesson body shows a delimiter, tagged and taught words both present',l2.n>20&&l2.leak.length===0&&l2.tl>100&&l2.b>300,l2);
+  const s3=await p.evaluate(()=>{ let cards=0; LESSONS.forEach(l=>{ const pl=lsPlan(l); cards+=(pl.all||[]).length; }); return cards; });
+  T(id+': lesson section decks still fill',s3>300,s3);
+}
 T('no page errors',errs.length===0,errs.slice(0,3));
 await b.close(); console.log(fail?fail+' FAILED':'tags: all pass'); process.exit(fail?1:0);
 })();

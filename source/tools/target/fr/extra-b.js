@@ -82,8 +82,8 @@ Où est ___? | Where is ___? | Où est la mairie? | Where is the town hall?
 Il y a ___ près d'ici? | Is there ___ near here? | Il y a une boulangerie près d'ici? | Is there a bakery near here?
 Je vais à Marseille en ___. | I'm going to Marseille by ___. | Je vais à Marseille en voiture. | I'm going to Marseille by car.
 J'ai mal à la ___. | My ___ hurts. | J'ai mal à la gorge. | My throat hurts.
-Je suis ___. | I'm a ___. (a job: no un or une) | Je suis professeur. | I'm a teacher.
-J'ai ___. | I'm ___. (hungry, thirsty, cold: avoir) | J'ai soif. | I'm thirsty.
+Je suis ___. | I'm a ___. (a job: no ‹un› or ‹une›) | Je suis professeur. | I'm a teacher.
+J'ai ___. | I'm ___. (hungry, thirsty, cold: ‹avoir›) | J'ai soif. | I'm thirsty.
 Je fais du ___. | I do ___. (a sport or hobby) | Je fais du yoga. | I do yoga.
 Je joue au ___. | I play ___. (a sport or game) | Je joue au tennis. | I play tennis.
 Je ne viens pas parce que ___. | I'm not coming because ___. | Je ne viens pas parce que je suis fatigué. | I'm not coming because I'm tired.

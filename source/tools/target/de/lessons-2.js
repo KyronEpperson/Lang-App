@@ -2,11 +2,11 @@
 module.exports = [
   {
     id: "accusative",
-    title: "Accusative: den, einen",
-    blurb: "Say what you buy, need and have, with den and einen for masculine nouns, and read who does what from the article.",
+    title: "Accusative: ‹den›, ‹einen›",
+    blurb: "Say what you buy, need and have, with ‹den› and ‹einen› for masculine nouns, and read who does what from the article.",
     deck: "Shopping and clothes",
     body: `
-<p>English marks the object only on a few pronouns: <i>he</i> sees, but someone sees <i>him</i>. German marks it on the article too. The subject (who does the verb) is in the nominative, the form you already know. The direct object (the thing or person the verb acts on) is in the accusative (Akkusativ).</p>
+<p>English marks the object only on a few pronouns: <i>he</i> sees, but someone sees <i>him</i>. German marks it on the article too. The subject (who does the verb) is in the nominative, the form you already know. The direct object (the thing or person the verb acts on) is in the accusative (‹Akkusativ›).</p>
 <h3>Only the masculine changes</h3>
 <p>Good news: in the accusative, only masculine nouns change. <b>der</b> becomes <b>den</b>, and <b>ein</b> becomes <b>einen</b>. Feminine, neuter and plural nouns look exactly as before.</p>
 <div class="tbl"><table><tr><th></th><th>Subject (nominative)</th><th>Direct object (accusative)</th></tr><tr><td>masculine</td><td class="k">der Pullover, ein Pullover</td><td class="k">den Pullover, einen Pullover</td></tr><tr><td>feminine</td><td class="k">die Jacke, eine Jacke</td><td class="k">die Jacke, eine Jacke</td></tr><tr><td>neuter</td><td class="k">das Hemd, ein Hemd</td><td class="k">das Hemd, ein Hemd</td></tr><tr><td>plural</td><td class="k">die Schuhe</td><td class="k">die Schuhe</td></tr></table></div>
@@ -14,8 +14,8 @@ module.exports = [
 {{ex:Ich kaufe den Pullover.|ihh KOW-fuh dayn pool-OH-vuh|I'm buying the sweater.}}
 {{ex:Ich suche einen Rock.|ihh ZOOKH-uh AI-nuhn rawk|I'm looking for a skirt.}}
 {{ex:Ich nehme die Jacke und das Hemd.|ihh NAY-muh dee YAHK-uh oont dahs hehmt|I'll take the jacket and the shirt.}}
-<h3>haben and es gibt</h3>
-<p>Many everyday verbs take a direct object: <b>haben, kaufen, suchen, brauchen, nehmen, sehen</b>. So <b>Bruder</b>, a masculine noun, becomes <b>einen Bruder</b> after <b>habe</b>. The phrase <b>es gibt</b> (there is, there are) takes the accusative too.</p>
+<h3>‹haben› and ‹es gibt›</h3>
+<p>Many everyday verbs take a direct object: <b>haben</b>, <b>kaufen</b>, <b>suchen</b>, <b>brauchen</b>, <b>nehmen</b>, <b>sehen</b>. So <b>Bruder</b>, a masculine noun, becomes <b>einen Bruder</b> after <b>habe</b>. The phrase <b>es gibt</b> (there is, there are) takes the accusative too.</p>
 {{ex:Ich habe einen Bruder und eine Schwester.|ihh HAH-buh AI-nuhn BROO-duh oont AI-nuh SHVEHS-tuh|I have a brother and a sister.}}
 {{ex:Gibt es hier einen Supermarkt?|geept ehs heer AI-nuhn ZOO-puh-mahrkt|Is there a supermarket here?}}
 <h3>Read the article, not the position</h3>
@@ -25,38 +25,38 @@ module.exports = [
 <p>Compare <b>Der Mann sucht den Hund</b> with <b>Den Hund sucht der Mann</b>. Both mean "The man is looking for the dog". The nouns swap places, but the articles keep their jobs: <b>der</b> is the subject, <b>den</b> is the direct object.</p>
 {{ex:Den Hund sucht der Mann.|dayn hoont zookht dayr mahn|The man is looking for the dog.}}
 <p>So don't trust the order: look at the article. <b>den</b> or <b>einen</b> marks a masculine direct object wherever it stands. With <b>die</b> and <b>das</b> the article gives no clue, and the meaning decides.</p>
-<div class="tip"><b>Most common mistake:</b> forgetting that a masculine direct object changes. <b>Ich habe ein Bruder</b> → <b>Ich habe einen Bruder</b>. <b>Ich sehe der Mann</b> → <b>Ich sehe den Mann</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> forgetting that a masculine direct object changes. <b>Ich habe ein Bruder</b> → <b>Ich habe einen Bruder</b>. <b>Ich sehe der Mann</b> → <b>Ich sehe den Mann</b>.</div>
 `,
     check: [
-      ["'I'm looking for a sweater' (der Pullover) =", ["Ich suche ein Pullover.", "Ich suche einen Pullover.", "Ich suche eine Pullover.", "Ich suche einem Pullover."], 1, "Pullover is masculine and the direct object, so ein becomes einen."],
-      ["What happens to die Jacke when it is the direct object?", ["die becomes den", "die becomes der", "die becomes das", "Nothing: it stays die Jacke"], 3, "Only masculine articles change in the accusative; feminine die stays die."],
-      ["Den Rock kauft Anna. Who is buying?", ["Anna", "The skirt", "Nobody: the sentence is wrong", "You can't tell"], 0, "den marks Rock as the direct object, so Anna is the subject, even though she comes last."]
+      ["'I'm looking for a sweater' (‹der Pullover›) =",["Ich suche ein Pullover.","Ich suche einen Pullover.","Ich suche eine Pullover.","Ich suche einem Pullover."],1,"‹Pullover› is masculine and the direct object, so ‹ein› becomes ‹einen›."],
+      ["What happens to ‹die Jacke› when it is the direct object?",["‹die› becomes ‹den›","‹die› becomes ‹der›","‹die› becomes ‹das›","Nothing: it stays ‹die Jacke›"],3,"Only masculine articles change in the accusative; feminine ‹die› stays ‹die›."],
+      ["‹Den Rock kauft Anna›. Who is buying?",["Anna","The skirt","Nobody: the sentence is wrong","You can't tell"],0,"‹den› marks ‹Rock› as the direct object, so Anna is the subject, even though she comes last."]
     ],
     practice: [
-      ["mc", "'I need a jacket' (die Jacke) =", "Ich brauche eine Jacke.", "Ich brauche einen Jacke.", "Ich brauche ein Jacke.", "Ich brauche einer Jacke.", "Jacke is feminine, and feminine eine does not change in the accusative."],
-      ["mc", "Which sentence is correct?", "Ich sehe den Mann.", "Ich sehe der Mann.", "Ich sehe dem Mann.", "Ich sehe die Mann.", "Mann is masculine and the direct object: den Mann."],
-      ["mc", "What does Den Kaffee trinkt Lena mean?", "Lena is drinking the coffee.", "The coffee is drinking Lena.", "Lena, drink the coffee!", "Is Lena drinking the coffee?", "den marks Kaffee as the direct object, so Lena is the one drinking."],
-      ["mc", "'Is there a supermarket here?' =", "Gibt es hier einen Supermarkt?", "Gibt es hier ein Supermarkt?", "Gibt es hier der Supermarkt?", "Gibt es hier einem Supermarkt?", "es gibt takes the accusative, and Supermarkt is masculine: einen."],
-      ["mc", "'I'll take the shirt' (das Hemd) =", "Ich nehme das Hemd.", "Ich nehme den Hemd.", "Ich nehme der Hemd.", "Ich nehme dem Hemd.", "Hemd is neuter, and das does not change in the accusative."],
-      ["or", "I'm buying the sweater (start with ich)", "Ich kaufe den Pullover", "der", "Pullover is masculine and the direct object: den Pullover."],
-      ["or", "Anna is buying the skirt (start with den Rock)", "Den Rock kauft Anna", "Der", "Rock is masculine, and den marks it as the direct object even in first place."],
-      ["or", "I have a brother (start with ich)", "Ich habe einen Bruder", "ein", "Bruder is masculine: einen in the accusative."],
-      ["fi", "Ich suche __ Rock.", "I'm looking for a skirt.", "einen", "ein|eine|einem", "Rock is masculine and the direct object: einen Rock."],
-      ["fi", "Ich nehme __ Hose.", "I'll take the pants.", "die", "den|der|das", "Hose is feminine, and die stays die in the accusative."],
-      ["fi", "Es gibt hier __ Café.", "There's a café here.", "ein", "einen|eine|einem", "es gibt takes the accusative, but neuter ein stays ein."],
-      ["ty", "I need a sweater", "Ich brauche einen Pullover.|Einen Pullover brauche ich.", "brauchen · der Pullover · use ein- · masculine nouns change", "ein", "Pullover is masculine and the direct object: einen Pullover."],
-      ["ty", "We're buying the jacket", "Wir kaufen die Jacke.|Die Jacke kaufen wir.", "kaufen · die Jacke", "kauft", "Jacke is feminine, so die stays die, and kaufen matches the subject wir."],
-      ["ty", "Do you have a brother? (to a friend)", "Hast du einen Bruder?", "haben · der Bruder · use ein-", "ein hat", "Bruder is masculine and the direct object: einen Bruder; the du form is hast."]
+      ["mc","'I need a jacket' (‹die Jacke›) =","Ich brauche eine Jacke.","Ich brauche einen Jacke.","Ich brauche ein Jacke.","Ich brauche einer Jacke.","‹Jacke› is feminine, and feminine ‹eine› does not change in the accusative."],
+      ["mc","Which sentence is correct?","Ich sehe den Mann.","Ich sehe der Mann.","Ich sehe dem Mann.","Ich sehe die Mann.","‹Mann› is masculine and the direct object: ‹den Mann›."],
+      ["mc","What does ‹Den Kaffee trinkt Lena› mean?","Lena is drinking the coffee.","The coffee is drinking Lena.","Lena, drink the coffee!","Is Lena drinking the coffee?","‹den› marks ‹Kaffee› as the direct object, so Lena is the one drinking."],
+      ["mc","'Is there a supermarket here?' =","Gibt es hier einen Supermarkt?","Gibt es hier ein Supermarkt?","Gibt es hier der Supermarkt?","Gibt es hier einem Supermarkt?","‹es gibt› takes the accusative, and ‹Supermarkt› is masculine: ‹einen›."],
+      ["mc","'I'll take the shirt' (‹das Hemd›) =","Ich nehme das Hemd.","Ich nehme den Hemd.","Ich nehme der Hemd.","Ich nehme dem Hemd.","‹Hemd› is neuter, and ‹das› does not change in the accusative."],
+      ["or","I'm buying the sweater (start with ‹ich›)","Ich kaufe den Pullover","der","‹Pullover› is masculine and the direct object: ‹den Pullover›."],
+      ["or","Anna is buying the skirt (start with ‹den Rock›)","Den Rock kauft Anna","Der","‹Rock› is masculine, and ‹den› marks it as the direct object even in first place."],
+      ["or","I have a brother (start with ‹ich›)","Ich habe einen Bruder","ein","‹Bruder› is masculine: ‹einen› in the accusative."],
+      ["fi","Ich suche __ Rock.","I'm looking for a skirt.","einen","ein|eine|einem","‹Rock› is masculine and the direct object: ‹einen Rock›."],
+      ["fi","Ich nehme __ Hose.","I'll take the pants.","die","den|der|das","‹Hose› is feminine, and ‹die› stays ‹die› in the accusative."],
+      ["fi","Es gibt hier __ Café.","There's a café here.","ein","einen|eine|einem","‹es gibt› takes the accusative, but neuter ‹ein› stays ‹ein›."],
+      ["ty","I need a sweater","Ich brauche einen Pullover.|Einen Pullover brauche ich.","‹brauchen› · ‹der Pullover› · use ‹ein-› · masculine nouns change","ein","‹Pullover› is masculine and the direct object: ‹einen Pullover›."],
+      ["ty","We're buying the jacket","Wir kaufen die Jacke.|Die Jacke kaufen wir.","‹kaufen› · ‹die Jacke›","kauft","‹Jacke› is feminine, so ‹die› stays ‹die›, and ‹kaufen› matches the subject ‹wir›."],
+      ["ty","Do you have a brother? (to a friend)","Hast du einen Bruder?","‹haben› · ‹der Bruder› · use ‹ein-›","ein hat","‹Bruder› is masculine and the direct object: ‹einen Bruder›; the ‹du› form is ‹hast›."]
     ]
   },
   {
     id: "negation",
-    title: "nicht and kein",
-    blurb: "Say what you don't have and don't do, choosing kein before a noun and putting nicht in the right place.",
+    title: "‹nicht› and ‹kein›",
+    blurb: "Say what you don't have and don't do, choosing ‹kein› before a noun and putting ‹nicht› in the right place.",
     deck: "Life in Germany",
     body: `
 <p>English says "not" for almost everything: <i>not a car</i>, <i>not expensive</i>, <i>not today</i>. German has two words. <b>kein</b> goes before a noun that would have <b>ein</b> or no article, and <b>nicht</b> does everything else.</p>
-<h3>kein: "no", "not a", "not any"</h3>
+<h3>‹kein›: "no", "not a", "not any"</h3>
 <p>Use <b>kein</b> where a noun would otherwise have <b>ein</b> or no article at all. It is the negative article, and it works exactly like <b>ein</b>: <b>keine</b> before a feminine noun, and <b>keinen</b> for a masculine direct object. Unlike <b>ein</b>, it also has a plural form: <b>keine</b>.</p>
 <div class="tbl"><table><tr><th></th><th>Subject</th><th>Direct object</th></tr><tr><td>masculine</td><td class="k">kein Termin</td><td class="k">keinen Termin</td></tr><tr><td>feminine</td><td class="k">keine Zeit</td><td class="k">keine Zeit</td></tr><tr><td>neuter</td><td class="k">kein Auto</td><td class="k">kein Auto</td></tr><tr><td>plural</td><td class="k">keine Kinder</td><td class="k">keine Kinder</td></tr></table></div>
 {{ex:Ich habe keinen Termin.|ihh HAH-buh KAI-nuhn tehr-MEEN|I don't have an appointment.}}
@@ -64,197 +64,197 @@ module.exports = [
 {{ex:Das ist kein Problem.|dahs ist kain proh-BLAYM|That's no problem.}}
 <p>English "I don't drink coffee" becomes <b>Ich trinke keinen Kaffee</b>, literally "I drink no coffee".</p>
 {{ex:Ich trinke keinen Kaffee.|ihh TRIN-kuh KAI-nuhn KAHF-ay|I don't drink coffee.}}
-<h3>nicht: everything else</h3>
+<h3>‹nicht›: everything else</h3>
 <p><b>nicht</b> never changes. Where it goes depends on what it negates:</p>
-<ul><li>A whole simple sentence: <b>nicht</b> comes after the verb and after time words, often at the very end.</li><li>An adjective or a place: <b>nicht</b> goes right before it: <b>nicht teuer</b>, <b>nicht in Berlin</b>.</li><li>A noun with <b>der, die</b> or <b>das</b>: use <b>nicht</b>, not <b>kein</b>.</li></ul>
+<ul><li>A whole simple sentence: <b>nicht</b> comes after the verb and after time words, often at the very end.</li><li>An adjective or a place: <b>nicht</b> goes right before it: <b>nicht teuer</b>, <b>nicht in Berlin</b>.</li><li>A noun with <b>der</b>, <b>die</b> or <b>das</b>: use <b>nicht</b>, not <b>kein</b>.</li></ul>
 {{ex:Ich verstehe nicht.|ihh fehr-SHTAY-uh nihht|I don't understand.}}
 {{ex:Ich komme heute nicht.|ihh KAWM-uh HOY-tuh nihht|I'm not coming today.}}
 {{ex:Die Bank ist nicht weit.|dee bahnk ist nihht vait|The bank isn't far.}}
 {{ex:Ich wohne nicht in Berlin.|ihh VOH-nuh nihht in behr-LEEN|I don't live in Berlin.}}
-<p>With a noun that has <b>der, die</b> or <b>das</b>, a simple sentence usually puts <b>nicht</b> at the end: <b>Ich kaufe den Pullover nicht</b>. With <b>ein</b> or no article, it's <b>kein</b>: <b>Ich kaufe keinen Pullover</b>.</p>
+<p>With a noun that has <b>der</b>, <b>die</b> or <b>das</b>, a simple sentence usually puts <b>nicht</b> at the end: <b>Ich kaufe den Pullover nicht</b>. With <b>ein</b> or no article, it's <b>kein</b>: <b>Ich kaufe keinen Pullover</b>.</p>
 {{ex:Ich kaufe den Pullover nicht.|ihh KOW-fuh dayn pool-OH-vuh nihht|I'm not buying the sweater.}}
 <p>A preview: when a sentence ends in a second verb, <b>nicht</b> goes before it: <b>Ich kann heute nicht kommen</b> (I can't come today). You'll meet <b>kann</b> in the lesson on modal verbs.</p>
 <h3>Two phrases you'll hear every day</h3>
 <p><b>Kein Problem</b> means "no problem". <b>Das geht nicht</b> means "that's not possible" or "that won't work", and you'll hear it at offices and counters.</p>
 {{ex:Das geht nicht.|dahs gayt nihht|That won't work.}}
-<div class="tip"><b>Most common mistake:</b> using nicht in front of ein. <b>Ich habe nicht ein Auto</b> → <b>Ich habe kein Auto</b>. And keep the verb second: <b>Ich nicht verstehe</b> → <b>Ich verstehe nicht</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> using ‹nicht› in front of ‹ein›. <b>Ich habe nicht ein Auto</b> → <b>Ich habe kein Auto</b>. And keep the verb second: <b>Ich nicht verstehe</b> → <b>Ich verstehe nicht</b>.</div>
 `,
     check: [
-      ["'I don't have a car' =", ["Ich habe nicht ein Auto.", "Ich habe kein Auto.", "Ich nicht habe ein Auto.", "Ich habe keinen Auto."], 1, "Before a noun that would take ein, use kein; Auto is neuter, so kein has no ending."],
-      ["How do you say 'That's not expensive'?", ["Das nicht ist teuer.", "Das ist kein teuer.", "Das ist teuer nicht.", "Das ist nicht teuer."], 3, "nicht goes right before an adjective, and kein is only for nouns."],
-      ["'I don't have an appointment' (der Termin) =", ["Ich habe keinen Termin.", "Ich habe kein Termin.", "Ich habe keine Termin.", "Ich habe nicht Termin."], 0, "Termin is masculine and the direct object, so kein becomes keinen."]
+      ["'I don't have a car' =",["Ich habe nicht ein Auto.","Ich habe kein Auto.","Ich nicht habe ein Auto.","Ich habe keinen Auto."],1,"Before a noun that would take ‹ein›, use ‹kein›; ‹Auto› is neuter, so ‹kein› has no ending."],
+      ["How do you say 'That's not expensive'?",["Das nicht ist teuer.","Das ist kein teuer.","Das ist teuer nicht.","Das ist nicht teuer."],3,"‹nicht› goes right before an adjective, and ‹kein› is only for nouns."],
+      ["'I don't have an appointment' (‹der Termin›) =",["Ich habe keinen Termin.","Ich habe kein Termin.","Ich habe keine Termin.","Ich habe nicht Termin."],0,"‹Termin› is masculine and the direct object, so ‹kein› becomes ‹keinen›."]
     ],
     practice: [
-      ["mc", "'I don't understand.' =", "Ich verstehe nicht.", "Ich nicht verstehe.", "Ich verstehe kein.", "Nicht ich verstehe.", "The verb stays second, and nicht comes after it."],
-      ["mc", "'We don't have time.' =", "Wir haben keine Zeit.", "Wir haben kein Zeit.", "Wir haben keinen Zeit.", "Wir nicht haben Zeit.", "Zeit is a feminine noun with no article, so keine."],
-      ["mc", "'It's not far.' =", "Das ist nicht weit.", "Das ist kein weit.", "Das ist weit nicht.", "Das nicht ist weit.", "nicht goes right before an adjective."],
-      ["mc", "'No problem.' =", "Kein Problem.", "Keinen Problem.", "Nicht Problem.", "Keine Problem.", "Problem is neuter: kein, like ein."],
-      ["mc", "'I'm not coming today.' =", "Ich komme heute nicht.", "Ich nicht komme heute.", "Ich komme heute kein.", "Heute ich komme nicht.", "nicht comes after the verb and after a time word like heute."],
-      ["or", "I don't have an appointment (start with ich)", "Ich habe keinen Termin", "kein", "Termin is masculine and the direct object: keinen Termin."],
-      ["or", "Today I'm not working (start with heute)", "Heute arbeite ich nicht", "arbeitet", "Verb second: heute first, then arbeite, then ich, and nicht at the end."],
-      ["or", "That's not a problem (start with das)", "Das ist kein Problem", "keinen", "Problem is neuter, so kein has no ending, like ein."],
-      ["fi", "Ich trinke __ Kaffee.", "I don't drink coffee.", "keinen", "kein|keine|keinem", "Kaffee is masculine and the direct object: keinen."],
-      ["fi", "Das ist __ teuer.", "That's not expensive.", "nicht", "kein|keine|keinen", "teuer is an adjective, not a noun, so nicht."],
-      ["fi", "Wir haben __ Kinder.", "We don't have any children.", "keine", "kein|keinen|keinem", "Kinder is plural, and the plural of kein is keine."],
-      ["ty", "I don't have a car", "Ich habe kein Auto.", "haben · das Auto · kein", "keinen", "Auto is neuter, so kein does not change in the accusative."],
-      ["ty", "We aren't working today", "Wir arbeiten heute nicht.|Heute arbeiten wir nicht.", "arbeiten · heute · nicht", "arbeitet", "The wir form is arbeiten, and nicht comes after heute."],
-      ["ty", "I don't have time", "Ich habe keine Zeit.", "haben · die Zeit · kein", "keinen", "Zeit is feminine: keine Zeit."]
+      ["mc","'I don't understand.' =","Ich verstehe nicht.","Ich nicht verstehe.","Ich verstehe kein.","Nicht ich verstehe.","The verb stays second, and ‹nicht› comes after it."],
+      ["mc","'We don't have time.' =","Wir haben keine Zeit.","Wir haben kein Zeit.","Wir haben keinen Zeit.","Wir nicht haben Zeit.","‹Zeit› is a feminine noun with no article, so ‹keine›."],
+      ["mc","'It's not far.' =","Das ist nicht weit.","Das ist kein weit.","Das ist weit nicht.","Das nicht ist weit.","‹nicht› goes right before an adjective."],
+      ["mc","'No problem.' =","Kein Problem.","Keinen Problem.","Nicht Problem.","Keine Problem.","‹Problem› is neuter: ‹kein›, like ‹ein›."],
+      ["mc","'I'm not coming today.' =","Ich komme heute nicht.","Ich nicht komme heute.","Ich komme heute kein.","Heute ich komme nicht.","‹nicht› comes after the verb and after a time word like ‹heute›."],
+      ["or","I don't have an appointment (start with ‹ich›)","Ich habe keinen Termin","kein","‹Termin› is masculine and the direct object: ‹keinen Termin›."],
+      ["or","Today I'm not working (start with ‹heute›)","Heute arbeite ich nicht","arbeitet","Verb second: ‹heute› first, then ‹arbeite›, then ‹ich›, and ‹nicht› at the end."],
+      ["or","That's not a problem (start with ‹das›)","Das ist kein Problem","keinen","‹Problem› is neuter, so ‹kein› has no ending, like ‹ein›."],
+      ["fi","Ich trinke __ Kaffee.","I don't drink coffee.","keinen","kein|keine|keinem","‹Kaffee› is masculine and the direct object: ‹keinen›."],
+      ["fi","Das ist __ teuer.","That's not expensive.","nicht","kein|keine|keinen","‹teuer› is an adjective, not a noun, so ‹nicht›."],
+      ["fi","Wir haben __ Kinder.","We don't have any children.","keine","kein|keinen|keinem","‹Kinder› is plural, and the plural of ‹kein› is ‹keine›."],
+      ["ty","I don't have a car","Ich habe kein Auto.","‹haben› · ‹das Auto› · ‹kein›","keinen","‹Auto› is neuter, so ‹kein› does not change in the accusative."],
+      ["ty","We aren't working today","Wir arbeiten heute nicht.|Heute arbeiten wir nicht.","‹arbeiten› · ‹heute› · ‹nicht›","arbeitet","The ‹wir› form is ‹arbeiten›, and ‹nicht› comes after ‹heute›."],
+      ["ty","I don't have time","Ich habe keine Zeit.","‹haben› · ‹die Zeit› · ‹kein›","keinen","‹Zeit› is feminine: ‹keine Zeit›."]
     ]
   },
   {
     id: "possessives",
-    title: "mein, dein, sein, ihr",
+    title: "‹mein›, ‹dein›, ‹sein›, ‹ihr›",
     blurb: "Talk about your family and other people's with my, your, his, her, our and their, with the right ending.",
     deck: "People and family",
     body: `
 <p>English has my, your, his, her, its, our and their. German has a matching set, and like every word before a noun, they show gender and case.</p>
 <h3>The set</h3>
 <div class="tbl"><table><tr><th>Owner</th><th>Possessive</th><th>English</th></tr><tr><td class="k">ich</td><td class="k">mein</td><td>my</td></tr><tr><td class="k">du</td><td class="k">dein</td><td>your (to a friend)</td></tr><tr><td class="k">er, es</td><td class="k">sein</td><td>his, its</td></tr><tr><td class="k">sie (she)</td><td class="k">ihr</td><td>her</td></tr><tr><td class="k">wir</td><td class="k">unser</td><td>our</td></tr><tr><td class="k">ihr</td><td class="k">euer</td><td>your (to friends)</td></tr><tr><td class="k">sie (they)</td><td class="k">ihr</td><td>their</td></tr><tr><td class="k">Sie</td><td class="k">Ihr</td><td>your (formal)</td></tr></table></div>
-<p><b>euer</b> drops an e when it gets an ending: <b>eure Eltern</b>.</p>
-<h3>Endings like ein</h3>
-<p>Possessives take the same endings as <b>ein</b> and <b>kein</b> (textbooks call all three "ein-words"): no ending for a masculine or neuter subject, <b>-e</b> for feminine and plural, and <b>-en</b> for a masculine direct object. The ending comes from the noun that follows, never from the speaker: a woman says <b>mein Bruder</b>, and a man says <b>meine Schwester</b>.</p>
+<p><b>euer</b> drops an ‹e› when it gets an ending: <b>eure Eltern</b>.</p>
+<h3>Endings like ‹ein›</h3>
+<p>Possessives take the same endings as <b>ein</b> and <b>kein</b> (textbooks call all three "‹ein›-words"): no ending for a masculine or neuter subject, <b>-e</b> for feminine and plural, and <b>-en</b> for a masculine direct object. The ending comes from the noun that follows, never from the speaker: a woman says <b>mein Bruder</b>, and a man says <b>meine Schwester</b>.</p>
 <div class="tbl"><table><tr><th></th><th>Subject</th><th>Direct object</th></tr><tr><td>masculine</td><td class="k">mein Bruder</td><td class="k">meinen Bruder</td></tr><tr><td>feminine</td><td class="k">meine Schwester</td><td class="k">meine Schwester</td></tr><tr><td>neuter</td><td class="k">mein Kind</td><td class="k">mein Kind</td></tr><tr><td>plural</td><td class="k">meine Eltern</td><td class="k">meine Eltern</td></tr></table></div>
 {{ex:Das ist meine Schwester.|dahs ist MAI-nuh SHVEHS-tuh|This is my sister.}}
 {{ex:Mein Bruder wohnt in Hamburg.|main BROO-duh vohnt in HAHM-boork|My brother lives in Hamburg.}}
 {{ex:Am Sonntag besuche ich meinen Vater.|ahm ZAWN-tahk buh-ZOOKH-uh ihh MAI-nuhn FAH-tuh|On Sunday I'm visiting my father.}}
 {{ex:Unsere Kinder sind zehn und zwölf.|OON-zuh-ruh KIN-duh zint tsayn oont tsvurlf|Our kids are ten and twelve.}}
-<h3>sein or ihr? Look at the owner</h3>
-<p>As in English, the owner decides between <b>sein</b> (his) and <b>ihr</b> (her). Then the thing owned decides the ending. So "his sister" is <b>seine Schwester</b>: the -e comes from Schwester, not from the man.</p>
+<h3>‹sein› or ‹ihr›? Look at the owner</h3>
+<p>As in English, the owner decides between <b>sein</b> (his) and <b>ihr</b> (her). Then the thing owned decides the ending. So "his sister" is <b>seine Schwester</b>: the ‹-e› comes from ‹Schwester›, not from the man.</p>
 {{ex:Lukas besucht seine Mutter.|LOO-kahs buh-ZOOKHT ZAI-nuh MOOT-uh|Lukas is visiting his mother.}}
 {{ex:Anna und ihr Bruder wohnen in Köln.|AHN-ah oont eer BROO-duh VOH-nuhn in kurln|Anna and her brother live in Cologne.}}
 <p>For "their", use <b>ihr</b> as well, with the ending the thing owned needs. So you always ask two questions: who owns it, and what gender and case is the thing owned?</p>
 {{ex:Paul und Lena besuchen ihre Oma.|powl oont LAY-nah buh-ZOOKH-uhn EE-ruh OH-mah|Paul and Lena are visiting their grandma.}}
-<h3>ihr, ihr, Ihr</h3>
-<p><b>ihr</b> means "her" and also "their". With a capital I, <b>Ihr</b> means "your" for someone you call <b>Sie</b>. And <b>ihr</b> on its own is also "you" to several friends. The sentence usually makes it clear; in writing, watch the capital. One trap for English speakers: <b>ihr Bruder</b> is "her brother" or "their brother", never "your brother". To friends, "your brother" is <b>euer Bruder</b>; to one friend, <b>dein Bruder</b>.</p>
+<h3>‹ihr›, ‹ihr›, ‹Ihr›</h3>
+<p><b>ihr</b> means "her" and also "their". With a capital ‹I›, <b>Ihr</b> means "your" for someone you call <b>Sie</b>. And <b>ihr</b> on its own is also "you" to several friends. The sentence usually makes it clear; in writing, watch the capital. One trap for English speakers: <b>ihr Bruder</b> is "her brother" or "their brother", never "your brother". To friends, "your brother" is <b>euer Bruder</b>; to one friend, <b>dein Bruder</b>.</p>
 {{ex:Wie ist Ihr Name?|vee ist eer NAH-muh|What's your name? (formal)}}
 {{ex:Wo wohnen eure Eltern?|voh VOH-nuhn OY-ruh EHL-tuhn|Where do your parents live? (to friends)}}
-<div class="tip"><b>Most common mistake:</b> forgetting the accusative ending. <b>Ich besuche mein Bruder</b> → <b>Ich besuche meinen Bruder</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> forgetting the accusative ending. <b>Ich besuche mein Bruder</b> → <b>Ich besuche meinen Bruder</b>.</div>
 `,
     check: [
-      ["'Anna and her brother' =", ["Anna und sein Bruder", "Anna und ihr Bruder", "Anna und ihre Bruder", "Anna und seine Bruder"], 1, "The owner is Anna, so ihr; Bruder is masculine and the subject, so no ending."],
-      ["'I'm visiting my brother' =", ["Ich besuche mein Bruder.", "Ich besuche meine Bruder.", "Ich besuche meinen Bruder.", "Ich besuche meiner Bruder."], 2, "Bruder is masculine and the direct object, so mein becomes meinen."],
-      ["Who is being asked in Wie ist Ihr Name?", ["Someone you call Sie", "A woman, about her name", "A group of friends", "Two people, about their name"], 0, "Ihr with a capital I means your (formal). With a small i, ihr Name would be her name or their name."]
+      ["'Anna and her brother' =",["Anna und sein Bruder","Anna und ihr Bruder","Anna und ihre Bruder","Anna und seine Bruder"],1,"The owner is Anna, so ‹ihr›; ‹Bruder› is masculine and the subject, so no ending."],
+      ["'I'm visiting my brother' =",["Ich besuche mein Bruder.","Ich besuche meine Bruder.","Ich besuche meinen Bruder.","Ich besuche meiner Bruder."],2,"‹Bruder› is masculine and the direct object, so ‹mein› becomes ‹meinen›."],
+      ["Who is being asked in ‹Wie ist Ihr Name›?",["Someone you call ‹Sie›","A woman, about her name","A group of friends","Two people, about their name"],0,"‹Ihr› with a capital ‹I› means your (formal). With a small ‹i›, ‹ihr Name› would be her name or their name."]
     ],
     practice: [
-      ["mc", "'my mother' =", "meine Mutter", "mein Mutter", "meinen Mutter", "meiner Mutter", "Mutter is feminine, so meine."],
-      ["mc", "'Lukas and his sister' =", "Lukas und seine Schwester", "Lukas und ihre Schwester", "Lukas und sein Schwester", "Lukas und seinen Schwester", "The owner is Lukas, so sein-; Schwester is feminine, so seine."],
-      ["mc", "'Lena and her father' =", "Lena und ihr Vater", "Lena und sein Vater", "Lena und ihre Vater", "Lena und ihren Vater", "The owner is Lena, so ihr; Vater is masculine and the subject, so no ending."],
-      ["mc", "'our children' =", "unsere Kinder", "unser Kinder", "unseren Kinder", "unserer Kinder", "Kinder is plural, so unsere, like meine."],
-      ["mc", "'Where do your parents live?' (to friends) =", "Wo wohnen eure Eltern?", "Wo wohnen euer Eltern?", "Wo wohnt eure Eltern?", "Wo wohnen deine Eltern?", "To several friends, your is euer, and it becomes eure before a plural noun."],
-      ["or", "I'm visiting my father (start with ich)", "Ich besuche meinen Vater", "mein", "Vater is masculine and the direct object: meinen Vater."],
-      ["or", "My sister lives in Cologne (start with my sister)", "Meine Schwester wohnt in Köln", "Mein", "Schwester is feminine: meine; wohnt is the er/sie/es form."],
-      ["or", "Anna is visiting her brother (start with Anna)", "Anna besucht ihren Bruder", "seinen", "The owner is Anna, so ihr-, and Bruder is the direct object: ihren Bruder."],
-      ["fi", "Das ist __ Bruder.", "That's my brother.", "mein", "meinen|meine|meinem", "After ist there is no direct object: mein Bruder, no ending."],
-      ["fi", "Paul besucht __ Mutter.", "Paul is visiting his mother.", "seine", "ihre|sein|seinen", "The owner is Paul, so sein-; Mutter is feminine, so seine."],
-      ["fi", "Wie ist __ Name?", "What's your name? (formal)", "Ihr", "Ihre|Ihren|Ihrem", "Name is masculine and the subject, so Ihr has no ending."],
-      ["ty", "I'm looking for my jacket", "Ich suche meine Jacke.|Meine Jacke suche ich.", "suchen · die Jacke · mein", "mein", "Jacke is feminine: meine Jacke."],
-      ["ty", "Our son is ten", "Unser Sohn ist zehn.|Unser Sohn ist zehn Jahre alt.", "unser · der Sohn · sein", "Unseren", "Sohn is masculine and the subject, in the nominative: unser, no ending."],
-      ["ty", "Are you visiting your mother? (to a friend)", "Besuchst du deine Mutter?", "besuchen · dein · die Mutter", "Besucht deinen", "Yes/no question: the verb comes first, and the du form is besuchst."]
+      ["mc","'my mother' =","meine Mutter","mein Mutter","meinen Mutter","meiner Mutter","‹Mutter› is feminine, so ‹meine›."],
+      ["mc","'Lukas and his sister' =","Lukas und seine Schwester","Lukas und ihre Schwester","Lukas und sein Schwester","Lukas und seinen Schwester","The owner is Lukas, so ‹sein-›; ‹Schwester› is feminine, so ‹seine›."],
+      ["mc","'Lena and her father' =","Lena und ihr Vater","Lena und sein Vater","Lena und ihre Vater","Lena und ihren Vater","The owner is Lena, so ‹ihr›; ‹Vater› is masculine and the subject, so no ending."],
+      ["mc","'our children' =","unsere Kinder","unser Kinder","unseren Kinder","unserer Kinder","‹Kinder› is plural, so ‹unsere›, like ‹meine›."],
+      ["mc","'Where do your parents live?' (to friends) =","Wo wohnen eure Eltern?","Wo wohnen euer Eltern?","Wo wohnt eure Eltern?","Wo wohnen deine Eltern?","To several friends, your is ‹euer›, and it becomes ‹eure› before a plural noun."],
+      ["or","I'm visiting my father (start with ‹ich›)","Ich besuche meinen Vater","mein","‹Vater› is masculine and the direct object: ‹meinen Vater›."],
+      ["or","My sister lives in Cologne (start with my sister)","Meine Schwester wohnt in Köln","Mein","‹Schwester› is feminine: ‹meine›; ‹wohnt› is the ‹er›/‹sie›/‹es› form."],
+      ["or","Anna is visiting her brother (start with Anna)","Anna besucht ihren Bruder","seinen","The owner is Anna, so ‹ihr-›, and ‹Bruder› is the direct object: ‹ihren Bruder›."],
+      ["fi","Das ist __ Bruder.","That's my brother.","mein","meinen|meine|meinem","After ‹ist› there is no direct object: ‹mein Bruder›, no ending."],
+      ["fi","Paul besucht __ Mutter.","Paul is visiting his mother.","seine","ihre|sein|seinen","The owner is Paul, so ‹sein-›; ‹Mutter› is feminine, so ‹seine›."],
+      ["fi","Wie ist __ Name?","What's your name? (formal)","Ihr","Ihre|Ihren|Ihrem","‹Name› is masculine and the subject, so ‹Ihr› has no ending."],
+      ["ty","I'm looking for my jacket","Ich suche meine Jacke.|Meine Jacke suche ich.","‹suchen› · ‹die Jacke› · ‹mein›","mein","‹Jacke› is feminine: ‹meine Jacke›."],
+      ["ty","Our son is ten","Unser Sohn ist zehn.|Unser Sohn ist zehn Jahre alt.","‹unser› · ‹der Sohn› · ‹sein›","Unseren","‹Sohn› is masculine and the subject, in the nominative: ‹unser›, no ending."],
+      ["ty","Are you visiting your mother? (to a friend)","Besuchst du deine Mutter?","‹besuchen› · ‹dein› · ‹die Mutter›","Besucht deinen","Yes/no question: the verb comes first, and the ‹du› form is ‹besuchst›."]
     ]
   },
   {
     id: "gern",
-    title: "Likes: gern, mögen, lieber",
+    title: "Likes: ‹gern›, ‹mögen›, ‹lieber›",
     blurb: "Say what you like doing, what you prefer, and which things and people you like.",
     deck: "Likes and free time",
     body: `
 <p>English uses one verb, <i>like</i>, for activities, things and wishes. German splits it three ways: <b>gern</b>, <b>mögen</b> and <b>möchte</b>.</p>
-<h3>Verb + gern: liking an activity</h3>
+<h3>Verb + ‹gern›: liking an activity</h3>
 <p>To say you like doing something, use the normal verb and add <b>gern</b> ("gladly"). <b>Ich spiele gern Tennis</b> is literally "I play gladly tennis". The verb is still the second element, and <b>gern</b> comes right after it, or after the subject when the subject follows the verb. For "don't like doing", put <b>nicht</b> before <b>gern</b>. You'll also hear <b>gerne</b>: it's the same word. It works with any verb, so you never need a second verb for "like".</p>
 {{ex:Ich spiele gern Tennis.|ihh SHPEE-luh gehrn TEHN-is|I like playing tennis.}}
 {{ex:Kochst du gern?|kawkhst doo gehrn|Do you like to cook? (to a friend)}}
 {{ex:Ich schwimme nicht gern.|ihh SHVIM-uh nihht gehrn|I don't like swimming.}}
 <p>To ask about someone's hobbies, use <b>machen</b> + <b>gern</b>.</p>
 {{ex:Was machst du gern?|vahs mahkhst doo gehrn|What do you like to do? (to a friend)}}
-<h3>lieber and am liebsten</h3>
+<h3>‹lieber› and ‹am liebsten›</h3>
 <p><b>lieber</b> means "rather": <b>Ich trinke lieber Tee</b> (I'd rather have tea, I prefer tea). <b>am liebsten</b> means "most of all". You can put it first; the verb still comes second.</p>
 {{ex:Ich trinke lieber Tee.|ihh TRIN-kuh LEE-buh tay|I prefer tea.}}
 {{ex:Am liebsten lese ich.|ahm LEEPS-tuhn LAY-zuh ihh|Most of all, I like to read.}}
-<h3>mögen + a noun: liking things and people</h3>
+<h3>‹mögen› + a noun: liking things and people</h3>
 <p>For a food, a thing, a person or an animal, use <b>mögen</b>. Its singular forms are irregular:</p>
-<div class="tbl"><table><tr><th>Subject</th><th>mögen</th></tr><tr><td class="k">ich</td><td class="k">mag</td></tr><tr><td class="k">du</td><td class="k">magst</td></tr><tr><td class="k">er, sie, es</td><td class="k">mag</td></tr><tr><td class="k">wir</td><td class="k">mögen</td></tr><tr><td class="k">ihr</td><td class="k">mögt</td></tr><tr><td class="k">sie, Sie</td><td class="k">mögen</td></tr></table></div>
+<div class="tbl"><table><tr><th>Subject</th><th>‹mögen›</th></tr><tr><td class="k">ich</td><td class="k">mag</td></tr><tr><td class="k">du</td><td class="k">magst</td></tr><tr><td class="k">er, sie, es</td><td class="k">mag</td></tr><tr><td class="k">wir</td><td class="k">mögen</td></tr><tr><td class="k">ihr</td><td class="k">mögt</td></tr><tr><td class="k">sie, Sie</td><td class="k">mögen</td></tr></table></div>
 <p>The thing you like is a direct object, so a masculine noun takes <b>den</b> or <b>einen</b>. Keep <b>mögen</b> for nouns; for activities, <b>gern</b> is the everyday choice.</p>
 {{ex:Ich mag Hunde.|ihh mahk HOON-duh|I like dogs.}}
 {{ex:Magst du den Film?|mahkst doo dayn film|Do you like the movie? (to a friend)}}
-<h3>möchte: what you want right now</h3>
+<h3>‹möchte›: what you want right now</h3>
 <p><b>Ich möchte</b> means "I would like": a wish for now, often when you order. <b>Ich mag Kaffee</b> is about your taste in general; <b>Ich möchte einen Kaffee</b> is an order.</p>
 {{ex:Ich möchte einen Kaffee, bitte.|ihh MURHH-tuh AI-nuhn KAHF-ay BIT-uh|I'd like a coffee, please.}}
-<div class="tip"><b>Most common mistake:</b> copying English "like to". <b>Ich mag spielen Tennis</b> → <b>Ich spiele gern Tennis</b>. And keep the verb second: <b>Ich gern spiele</b> → <b>Ich spiele gern</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> copying English "like to". <b>Ich mag spielen Tennis</b> → <b>Ich spiele gern Tennis</b>. And keep the verb second: <b>Ich gern spiele</b> → <b>Ich spiele gern</b>.</div>
 `,
     check: [
-      ["'I like playing tennis' =", ["Ich mag spielen Tennis.", "Ich spiele gern Tennis.", "Ich gern spiele Tennis.", "Ich möchte Tennis spielen."], 1, "For an activity, use the verb + gern, with the verb second."],
-      ["'I like dogs' =", ["Ich möchte Hunde.", "Ich gern Hunde.", "Ich magst Hunde.", "Ich mag Hunde."], 3, "For animals, things and people, use mögen: ich mag. Ich möchte Hunde would mean you want some dogs."],
-      ["What does Am liebsten trinke ich Tee mean?", ["Most of all, I like to drink tea.", "I'd like a tea now.", "I don't like tea.", "I'd rather drink tea."], 0, "am liebsten means most of all; the verb trinke still comes second."]
+      ["'I like playing tennis' =",["Ich mag spielen Tennis.","Ich spiele gern Tennis.","Ich gern spiele Tennis.","Ich möchte Tennis spielen."],1,"For an activity, use the verb + ‹gern›, with the verb second."],
+      ["'I like dogs' =",["Ich möchte Hunde.","Ich gern Hunde.","Ich magst Hunde.","Ich mag Hunde."],3,"For animals, things and people, use ‹mögen›: ‹ich mag›. ‹Ich möchte Hunde› would mean you want some dogs."],
+      ["What does ‹Am liebsten trinke ich Tee› mean?",["Most of all, I like to drink tea.","I'd like a tea now.","I don't like tea.","I'd rather drink tea."],0,"‹am liebsten› means most of all; the verb ‹trinke› still comes second."]
     ],
     practice: [
-      ["mc", "'I like to cook.' =", "Ich koche gern.", "Ich gern koche.", "Ich kochen gern.", "Gern ich koche.", "The verb comes second and gern follows it."],
-      ["mc", "'He likes the movie.' (der Film) =", "Er mag den Film.", "Er mag der Film.", "Er mögt den Film.", "Er magt den Film.", "er mag has no ending, and Film is masculine and the direct object: den Film."],
-      ["mc", "'I'd like a tea.' (ordering) =", "Ich möchte einen Tee.", "Ich möchte ein Tee.", "Ich gern einen Tee.", "Ich möchtest einen Tee.", "To order, use möchte; Tee is masculine, so einen."],
-      ["mc", "'I'd rather drink tea.' =", "Ich trinke lieber Tee.", "Ich lieber trinke Tee.", "Ich trinke gerner Tee.", "Ich mag lieber trinken Tee.", "lieber works like gern: right after the verb."],
-      ["mc", "'Do you like dogs?' (to a friend) =", "Magst du Hunde?", "Mögst du Hunde?", "Magt du Hunde?", "Möchtest du Hunde?", "The du form of mögen is magst. Möchtest du Hunde? would ask if they want some dogs."],
-      ["or", "I like to swim (start with ich)", "Ich schwimme gern", "schwimmt", "Verb second: schwimme comes right after ich, and gern follows the verb."],
-      ["or", "On the weekend I like to cook (start with am Wochenende)", "Am Wochenende koche ich gern", "kochst", "Verb second: am Wochenende first, then koche, then ich and gern."],
-      ["or", "Most of all, I like to read (start with am liebsten)", "Am liebsten lese ich", "liest", "Verb second: am liebsten first, then lese, then ich."],
-      ["fi", "Ich __ Hunde.", "I like dogs.", "mag", "mögt|magst|möchte", "For animals, use mögen; the ich form is mag."],
-      ["fi", "Spielst du __ Fußball?", "Do you like playing soccer? (to a friend)", "gern|gerne", "mag|magst|möchte", "For an activity, add gern after the verb and subject."],
-      ["fi", "Wir __ den Film.", "We like the movie.", "mögen", "mag|mögt|möchten", "With wir, mögen keeps its infinitive form: wir mögen."],
-      ["ty", "Do you like to cook? (to a friend)", "Kochst du gern?|Kochst du gerne?", "kochen · gern", "kocht", "Yes/no question: the verb comes first; the du form is kochst, and gern follows."],
-      ["ty", "I like the dog (use mögen)", "Ich mag den Hund.|Den Hund mag ich.", "mögen · der Hund", "der", "Hund is masculine and the direct object: den Hund."],
-      ["ty", "I don't like swimming", "Ich schwimme nicht gern.|Ich schwimme nicht gerne.", "schwimmen · nicht · gern", "kein", "For an activity you don't like, put nicht right before gern."]
+      ["mc","'I like to cook.' =","Ich koche gern.","Ich gern koche.","Ich kochen gern.","Gern ich koche.","The verb comes second and ‹gern› follows it."],
+      ["mc","'He likes the movie.' (‹der Film›) =","Er mag den Film.","Er mag der Film.","Er mögt den Film.","Er magt den Film.","‹er mag› has no ending, and ‹Film› is masculine and the direct object: ‹den Film›."],
+      ["mc","'I'd like a tea.' (ordering) =","Ich möchte einen Tee.","Ich möchte ein Tee.","Ich gern einen Tee.","Ich möchtest einen Tee.","To order, use ‹möchte›; ‹Tee› is masculine, so ‹einen›."],
+      ["mc","'I'd rather drink tea.' =","Ich trinke lieber Tee.","Ich lieber trinke Tee.","Ich trinke gerner Tee.","Ich mag lieber trinken Tee.","‹lieber› works like ‹gern›: right after the verb."],
+      ["mc","'Do you like dogs?' (to a friend) =","Magst du Hunde?","Mögst du Hunde?","Magt du Hunde?","Möchtest du Hunde?","The ‹du› form of ‹mögen› is ‹magst›. ‹Möchtest du Hunde?› would ask if they want some dogs."],
+      ["or","I like to swim (start with ‹ich›)","Ich schwimme gern","schwimmt","Verb second: ‹schwimme› comes right after ‹ich›, and ‹gern› follows the verb."],
+      ["or","On the weekend I like to cook (start with ‹am Wochenende›)","Am Wochenende koche ich gern","kochst","Verb second: ‹am Wochenende› first, then ‹koche›, then ‹ich› and ‹gern›."],
+      ["or","Most of all, I like to read (start with ‹am liebsten›)","Am liebsten lese ich","liest","Verb second: ‹am liebsten› first, then ‹lese›, then ‹ich›."],
+      ["fi","Ich __ Hunde.","I like dogs.","mag","mögt|magst|möchte","For animals, use ‹mögen›; the ‹ich› form is ‹mag›."],
+      ["fi","Spielst du __ Fußball?","Do you like playing soccer? (to a friend)","gern|gerne","mag|magst|möchte","For an activity, add ‹gern› after the verb and subject."],
+      ["fi","Wir __ den Film.","We like the movie.","mögen","mag|mögt|möchten","With ‹wir›, ‹mögen› keeps its infinitive form: ‹wir mögen›."],
+      ["ty","Do you like to cook? (to a friend)","Kochst du gern?|Kochst du gerne?","‹kochen› · ‹gern›","kocht","Yes/no question: the verb comes first; the ‹du› form is ‹kochst›, and ‹gern› follows."],
+      ["ty","I like the dog (use ‹mögen›)","Ich mag den Hund.|Den Hund mag ich.","‹mögen› · ‹der Hund›","der","‹Hund› is masculine and the direct object: ‹den Hund›."],
+      ["ty","I don't like swimming","Ich schwimme nicht gern.|Ich schwimme nicht gerne.","‹schwimmen› · ‹nicht› · ‹gern›","kein","For an activity you don't like, put ‹nicht› right before ‹gern›."]
     ]
   },
   {
     id: "modals",
-    title: "Modal verbs: können, müssen, wollen, möchten",
+    title: "Modal verbs: ‹können›, ‹müssen›, ‹wollen›, ‹möchten›",
     blurb: "Say what you can, have to, want to and would like to do, with the second verb at the end.",
     deck: "Work and study",
     body: `
 <p>English puts the second verb right after <i>can</i>, <i>must</i> or <i>want to</i>: <i>I can speak German</i>. German modal verbs work the same way, with one big difference: the second verb goes to the very end.</p>
 <h3>The infinitive goes to the end</h3>
-<p>The modal verb is the conjugated verb, so it takes second place. The other verb stays in the infinitive and goes last, with everything else in between. This frame is the sentence bracket (Satzklammer), and you'll use it again and again. Every modal works the same way, so once you know the pattern for one, you know it for all of them.</p>
+<p>The modal verb is the conjugated verb, so it takes second place. The other verb stays in the infinitive and goes last, with everything else in between. This frame is the sentence bracket (‹Satzklammer›), and you'll use it again and again. Every modal works the same way, so once you know the pattern for one, you know it for all of them.</p>
 {{ex:Ich kann Deutsch sprechen.|ihh kahn doych SHPREHH-uhn|I can speak German.}}
 {{ex:Morgen muss ich arbeiten.|MAWR-guhn moos ihh AHR-bai-tuhn|Tomorrow I have to work.}}
 {{ex:Kannst du kochen?|kahnst doo KAWKH-uhn|Can you cook? (to a friend)}}
 <h3>Four modals and their forms</h3>
-<div class="tbl"><table><tr><th></th><th>können (can)</th><th>müssen (must)</th><th>wollen (want)</th><th>möchten (would like)</th></tr><tr><td class="k">ich</td><td class="k">kann</td><td class="k">muss</td><td class="k">will</td><td class="k">möchte</td></tr><tr><td class="k">du</td><td class="k">kannst</td><td class="k">musst</td><td class="k">willst</td><td class="k">möchtest</td></tr><tr><td class="k">er, sie, es</td><td class="k">kann</td><td class="k">muss</td><td class="k">will</td><td class="k">möchte</td></tr><tr><td class="k">wir</td><td class="k">können</td><td class="k">müssen</td><td class="k">wollen</td><td class="k">möchten</td></tr><tr><td class="k">ihr</td><td class="k">könnt</td><td class="k">müsst</td><td class="k">wollt</td><td class="k">möchtet</td></tr><tr><td class="k">sie, Sie</td><td class="k">können</td><td class="k">müssen</td><td class="k">wollen</td><td class="k">möchten</td></tr></table></div>
-<p>The ich and er rows are the same. <b>kann, muss, will</b> have no ending there at all (never <b>er kannt</b>), and <b>möchte</b> ends in -e in both. In the singular, <b>können, müssen</b> and <b>wollen</b> also change their vowel.</p>
+<div class="tbl"><table><tr><th></th><th>‹können› (can)</th><th>‹müssen› (must)</th><th>‹wollen› (want)</th><th>‹möchten› (would like)</th></tr><tr><td class="k">ich</td><td class="k">kann</td><td class="k">muss</td><td class="k">will</td><td class="k">möchte</td></tr><tr><td class="k">du</td><td class="k">kannst</td><td class="k">musst</td><td class="k">willst</td><td class="k">möchtest</td></tr><tr><td class="k">er, sie, es</td><td class="k">kann</td><td class="k">muss</td><td class="k">will</td><td class="k">möchte</td></tr><tr><td class="k">wir</td><td class="k">können</td><td class="k">müssen</td><td class="k">wollen</td><td class="k">möchten</td></tr><tr><td class="k">ihr</td><td class="k">könnt</td><td class="k">müsst</td><td class="k">wollt</td><td class="k">möchtet</td></tr><tr><td class="k">sie, Sie</td><td class="k">können</td><td class="k">müssen</td><td class="k">wollen</td><td class="k">möchten</td></tr></table></div>
+<p>The ‹ich› and ‹er› rows are the same. <b>kann</b>, <b>muss</b>, <b>will</b> have no ending there at all (never <b>er kannt</b>), and <b>möchte</b> ends in ‹-e› in both. In the singular, <b>können</b>, <b>müssen</b> and <b>wollen</b> also change their vowel.</p>
 {{ex:Er muss heute lange arbeiten.|ayr moos HOY-tuh LAHNG-uh AHR-bai-tuhn|He has to work late today.}}
-<h3>will means "want"</h3>
+<h3>‹will› means "want"</h3>
 <p>German <b>will</b> looks like English "will", but it means "want". For the future, German usually uses the present with a time word: <b>Morgen arbeite ich</b>. German does have a future with <b>werden</b> (<b>Ich werde…</b>), but you won't need it yet. When you ask for something, <b>Ich will</b> can sound blunt; <b>Ich möchte</b> is the polite choice in a shop, a café or an office.</p>
 {{ex:Ich will Deutsch lernen.|ihh vil doych LEHR-nuhn|I want to learn German.}}
 {{ex:Ich möchte heute zu Hause arbeiten.|ihh MURHH-tuh HOY-tuh tsoo HOW-zuh AHR-bai-tuhn|I'd like to work from home today.}}
-<h3>muss nicht: "don't have to"</h3>
+<h3>‹muss nicht›: "don't have to"</h3>
 <p><b>Ich muss nicht arbeiten</b> means "I don't have to work", not "I must not work". "Must not" is <b>darf nicht</b>, from <b>dürfen</b> (be allowed to). For now you only need to recognize <b>dürfen</b> and <b>sollen</b> (be supposed to).</p>
 {{ex:Ich muss heute nicht arbeiten.|ihh moos HOY-tuh nihht AHR-bai-tuhn|I don't have to work today.}}
 {{ex:Sie dürfen hier nicht parken.|zee DEWR-fuhn heer nihht PAHR-kuhn|You're not allowed to park here. (formal)}}
-<div class="tip"><b>Most common mistake:</b> keeping the two verbs together as in English. <b>Ich kann sprechen Deutsch</b> → <b>Ich kann Deutsch sprechen</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> keeping the two verbs together as in English. <b>Ich kann sprechen Deutsch</b> → <b>Ich kann Deutsch sprechen</b>.</div>
 `,
     check: [
-      ["'I can speak German' =", ["Ich kann sprechen Deutsch.", "Ich kann Deutsch sprechen.", "Ich kann Deutsch spreche.", "Ich kanne Deutsch sprechen."], 1, "Sentence bracket: kann in second place, the infinitive sprechen at the end."],
-      ["What does Ich will Deutsch lernen mean?", ["I want to learn German.", "I will learn German.", "I must learn German.", "I would like German lessons."], 0, "will is a form of wollen: it means want, not the future."],
-      ["What does Ich muss heute nicht arbeiten mean?", ["I must not work today.", "I can't work today.", "I won't work today.", "I don't have to work today."], 3, "muss nicht means don't have to. Must not is darf nicht."]
+      ["'I can speak German' =",["Ich kann sprechen Deutsch.","Ich kann Deutsch sprechen.","Ich kann Deutsch spreche.","Ich kanne Deutsch sprechen."],1,"Sentence bracket: ‹kann› in second place, the infinitive ‹sprechen› at the end."],
+      ["What does ‹Ich will Deutsch lernen› mean?",["I want to learn German.","I will learn German.","I must learn German.","I would like German lessons."],0,"‹will› is a form of ‹wollen›: it means want, not the future."],
+      ["What does ‹Ich muss heute nicht arbeiten› mean?",["I must not work today.","I can't work today.","I won't work today.","I don't have to work today."],3,"‹muss nicht› means don't have to. Must not is ‹darf nicht›."]
     ],
     practice: [
-      ["mc", "'He can cook.' =", "Er kann kochen.", "Er kannt kochen.", "Er kann kocht.", "Er können kochen.", "er kann has no ending, and the second verb stays in the infinitive."],
-      ["mc", "'I have to work today.' =", "Ich muss heute arbeiten.", "Ich muss arbeiten heute.", "Ich musse heute arbeiten.", "Ich habe heute arbeiten.", "muss comes second and the infinitive arbeiten goes last."],
-      ["mc", "What does Ich will einen Kaffee mean?", "I want a coffee.", "I will have a coffee later.", "I'm going to buy a coffee.", "I wanted a coffee.", "will means want, not will. Ordering politely: Ich möchte einen Kaffee."],
-      ["mc", "'Do you want to come?' (to a friend) =", "Willst du kommen?", "Willst du kommst?", "Will du kommen?", "Wollst du kommen?", "The du form of wollen is willst, and kommen stays in the infinitive."],
-      ["mc", "'I'd like to pay.' =", "Ich möchte zahlen.", "Ich mochte zahlen.", "Ich möchte zahle.", "Ich möchten zahlen.", "möchte needs its umlaut: mochte without it means liked.", "!strict"],
-      ["or", "I can speak German (start with ich)", "Ich kann Deutsch sprechen", "spreche", "Sentence bracket: kann second, sprechen at the end."],
-      ["or", "Tomorrow I have to work (start with morgen)", "Morgen muss ich arbeiten", "musst", "Verb second: morgen first, then muss; arbeiten goes to the end."],
-      ["or", "Can you help? (formal)", "Können Sie helfen", "Kannst", "Yes/no question: the verb comes first, and the Sie form is können."],
-      ["fi", "Er __ heute lange arbeiten.", "He has to work late today.", "muss", "musst|müssen|müsst", "muss has no ending in the er form."],
-      ["fi", "Was __ du trinken?", "What would you like to drink? (to a friend)", "möchtest", "möchte|möchten|möchtet", "The du form is möchtest: du takes -st."],
-      ["fi", "Wir __ Deutsch lernen.", "We want to learn German.", "wollen", "will|wollt|willst", "With wir, the modal has the infinitive form: wollen."],
-      ["ty", "I want to learn German (use wollen)", "Ich will Deutsch lernen.|Deutsch will ich lernen.", "wollen · Deutsch · lernen", "lerne", "Sentence bracket: will second, lernen at the end."],
-      ["ty", "Can you cook? (to a friend)", "Kannst du kochen?", "können · kochen", "kann", "Yes/no question: the verb comes first; the du form is kannst."],
-      ["ty", "I don't have to work today", "Ich muss heute nicht arbeiten.|Heute muss ich nicht arbeiten.", "müssen · heute · nicht · arbeiten", "darf", "muss nicht means don't have to; darf nicht would mean not allowed to."]
+      ["mc","'He can cook.' =","Er kann kochen.","Er kannt kochen.","Er kann kocht.","Er können kochen.","‹er kann› has no ending, and the second verb stays in the infinitive."],
+      ["mc","'I have to work today.' =","Ich muss heute arbeiten.","Ich muss arbeiten heute.","Ich musse heute arbeiten.","Ich habe heute arbeiten.","‹muss› comes second and the infinitive ‹arbeiten› goes last."],
+      ["mc","What does ‹Ich will einen Kaffee› mean?","I want a coffee.","I will have a coffee later.","I'm going to buy a coffee.","I wanted a coffee.","‹will› means want, not will. Ordering politely: ‹Ich möchte einen Kaffee›."],
+      ["mc","'Do you want to come?' (to a friend) =","Willst du kommen?","Willst du kommst?","Will du kommen?","Wollst du kommen?","The ‹du› form of ‹wollen› is ‹willst›, and ‹kommen› stays in the infinitive."],
+      ["mc","'I'd like to pay.' =","Ich möchte zahlen.","Ich mochte zahlen.","Ich möchte zahle.","Ich möchten zahlen.","‹möchte› needs its umlaut: ‹mochte› without it means liked.","!strict"],
+      ["or","I can speak German (start with ‹ich›)","Ich kann Deutsch sprechen","spreche","Sentence bracket: ‹kann› second, ‹sprechen› at the end."],
+      ["or","Tomorrow I have to work (start with ‹morgen›)","Morgen muss ich arbeiten","musst","Verb second: ‹morgen› first, then ‹muss›; ‹arbeiten› goes to the end."],
+      ["or","Can you help? (formal)","Können Sie helfen","Kannst","Yes/no question: the verb comes first, and the ‹Sie› form is ‹können›."],
+      ["fi","Er __ heute lange arbeiten.","He has to work late today.","muss","musst|müssen|müsst","‹muss› has no ending in the ‹er› form."],
+      ["fi","Was __ du trinken?","What would you like to drink? (to a friend)","möchtest","möchte|möchten|möchtet","The ‹du› form is ‹möchtest›: ‹du› takes ‹-st›."],
+      ["fi","Wir __ Deutsch lernen.","We want to learn German.","wollen","will|wollt|willst","With ‹wir›, the modal has the infinitive form: ‹wollen›."],
+      ["ty","I want to learn German (use ‹wollen›)","Ich will Deutsch lernen.|Deutsch will ich lernen.","‹wollen› · ‹Deutsch› · ‹lernen›","lerne","Sentence bracket: ‹will› second, ‹lernen› at the end."],
+      ["ty","Can you cook? (to a friend)","Kannst du kochen?","‹können› · ‹kochen›","kann","Yes/no question: the verb comes first; the ‹du› form is ‹kannst›."],
+      ["ty","I don't have to work today","Ich muss heute nicht arbeiten.|Heute muss ich nicht arbeiten.","‹müssen› · ‹heute› · ‹nicht› · ‹arbeiten›","darf","‹muss nicht› means don't have to; ‹darf nicht› would mean not allowed to."]
     ]
   },
   {
     id: "separable",
-    title: "Separable verbs: aufstehen, anrufen",
-    blurb: "Describe your daily routine with verbs like aufstehen and einkaufen, sending the prefix to the end.",
+    title: "Separable verbs: ‹aufstehen›, ‹anrufen›",
+    blurb: "Describe your daily routine with verbs like ‹aufstehen› and ‹einkaufen›, sending the prefix to the end.",
     deck: "Home and routine",
     body: `
 <p>English has verbs with a small extra word: <i>get up</i>, <i>call up</i>, <i>come along</i>. German has them too, but writes them as one word in the dictionary: <b>aufstehen</b> (get up), <b>anrufen</b> (call), <b>mitkommen</b> (come along), <b>einkaufen</b> (shop for groceries), <b>fernsehen</b> (watch TV).</p>
@@ -275,33 +275,33 @@ module.exports = [
 <p>Questions work the same way: the modal moves forward, and the whole infinitive still waits at the end.</p>
 {{ex:Wann musst du aufstehen?|vahn moost doo OWF-shtay-uhn|When do you have to get up? (to a friend)}}
 <h3>Hear the prefix</h3>
-<p>Separable prefixes are always stressed: <b>aufstehen</b> sounds like AUF-stehen, <b>anrufen</b> like AN-rufen. The common ones are <b>an, auf, aus, ein, mit, zu, zurück</b> and <b>fern</b>. In the pronunciation line, the prefix is the part in capitals.</p>
+<p>Separable prefixes are always stressed: <b>aufstehen</b> sounds like AUF-stehen, <b>anrufen</b> like AN-rufen. The common ones are <b>an</b>, <b>auf</b>, <b>aus</b>, <b>ein</b>, <b>mit</b>, <b>zu</b>, <b>zurück</b> and <b>fern</b>. In the pronunciation line, the prefix is the part in capitals.</p>
 <h3>Prefixes that never separate</h3>
-<p><b>be-, ver-, er-, ent-</b> and <b>ge-</b> stay glued to the verb and are never stressed: <b>besuchen, verstehen, bekommen</b>. If the stress falls after the prefix, don't split the verb.</p>
+<p><b>be-</b>, <b>ver-</b>, <b>er-</b>, <b>ent-</b> and <b>ge-</b> stay glued to the verb and are never stressed: <b>besuchen</b>, <b>verstehen</b>, <b>bekommen</b>. If the stress falls after the prefix, don't split the verb.</p>
 {{ex:Ich verstehe das nicht.|ihh fehr-SHTAY-uh dahs nihht|I don't understand that.}}
 {{ex:Wir besuchen heute Oma.|veer buh-ZOOKH-uhn HOY-tuh OH-mah|We're visiting Grandma today.}}
-<div class="tip"><b>Most common mistake:</b> keeping the verb in one piece. <b>Ich aufstehe um sieben</b> → <b>Ich stehe um sieben auf</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> keeping the verb in one piece. <b>Ich aufstehe um sieben</b> → <b>Ich stehe um sieben auf</b>.</div>
 `,
     check: [
-      ["'I get up at seven' =", ["Ich aufstehe um sieben.", "Ich stehe um sieben auf.", "Ich um sieben aufstehe.", "Ich stehe um sieben aufstehen."], 1, "aufstehen is separable: stehe in second place, auf at the end."],
-      ["Which verb does NOT separate?", ["einkaufen", "anrufen", "verstehen", "aufstehen"], 2, "ver- is an inseparable prefix, so verstehen always stays in one piece."],
-      ["'I have to get up early' =", ["Ich muss früh aufstehen.", "Ich muss früh stehen auf.", "Ich muss aufstehen früh.", "Ich stehe muss früh auf."], 0, "After a modal, the separable verb is the infinitive at the end, in one piece."]
+      ["'I get up at seven' =",["Ich aufstehe um sieben.","Ich stehe um sieben auf.","Ich um sieben aufstehe.","Ich stehe um sieben aufstehen."],1,"‹aufstehen› is separable: ‹stehe› in second place, ‹auf› at the end."],
+      ["Which verb does NOT separate?",["einkaufen","anrufen","verstehen","aufstehen"],2,"‹ver-› is an inseparable prefix, so ‹verstehen› always stays in one piece."],
+      ["'I have to get up early' =",["Ich muss früh aufstehen.","Ich muss früh stehen auf.","Ich muss aufstehen früh.","Ich stehe muss früh auf."],0,"After a modal, the separable verb is the infinitive at the end, in one piece."]
     ],
     practice: [
-      ["mc", "'I'm going grocery shopping today.' =", "Ich kaufe heute ein.", "Ich einkaufe heute.", "Ich kaufe ein heute.", "Ich heute einkaufe.", "einkaufen splits: kaufe second, ein at the very end."],
-      ["mc", "'When do you get up?' (to a friend) =", "Wann stehst du auf?", "Wann aufstehst du?", "Wann stehst auf du?", "Wann du stehst auf?", "The verb part follows wann, and auf goes to the end of the question."],
-      ["mc", "'I understand that.' =", "Ich verstehe das.", "Ich stehe das ver.", "Ich verstehe das ver.", "Ich stehe ver das.", "ver- never separates: verstehen stays in one piece."],
-      ["mc", "'Are you coming along?' (to a friend) =", "Kommst du mit?", "Mitkommst du?", "Kommst mit du?", "Mitkommen du?", "The verb part comes first in a yes/no question, and mit goes to the end."],
-      ["mc", "Which part of anrufen is stressed?", "an", "ru", "fen", "all three equally", "Separable prefixes are always stressed: AN-rufen."],
-      ["or", "I get up at seven (start with ich)", "Ich stehe um sieben auf", "steht", "aufstehen is separable: auf goes to the end, and stehe is in second place."],
-      ["or", "Today I'm calling Frau Becker (start with heute)", "Heute rufe ich Frau Becker an", "ruft", "Verb second: heute first, rufe second, and an goes to the end."],
-      ["or", "Are you coming along? (to a friend)", "Kommst du mit", "kommt", "Yes/no question: the verb comes first, and mit goes to the end."],
-      ["fi", "Ich kaufe am Samstag __.", "I go grocery shopping on Saturday.", "ein", "an|auf|mit", "einkaufen splits, and ein goes to the end."],
-      ["fi", "Er sieht am Abend __.", "He watches TV in the evening.", "fern", "an|aus|mit", "fernsehen splits: sieht, then fern at the end."],
-      ["fi", "Ich muss morgen früh __.", "I have to get up early tomorrow.", "aufstehen", "aufstehe|stehen|aufsteht", "After a modal, the separable verb stays together, in the infinitive."],
-      ["ty", "I get up at six (start with ich)", "Ich stehe um sechs auf.|Ich stehe um sechs Uhr auf.", "aufstehen · um sechs", "steht", "aufstehen is separable: stehe is in second place and auf goes to the end."],
-      ["ty", "When do you get up? (to a friend)", "Wann stehst du auf?", "wann · aufstehen", "steht", "The du form is stehst, in second place after wann; auf goes to the end."],
-      ["ty", "I'm calling Anna today", "Ich rufe heute Anna an.|Heute rufe ich Anna an.|Ich rufe Anna heute an.", "anrufen · heute · Anna", "ruft", "anrufen is separable: rufe is in second place and an goes to the end."]
+      ["mc","'I'm going grocery shopping today.' =","Ich kaufe heute ein.","Ich einkaufe heute.","Ich kaufe ein heute.","Ich heute einkaufe.","‹einkaufen› splits: ‹kaufe› second, ‹ein› at the very end."],
+      ["mc","'When do you get up?' (to a friend) =","Wann stehst du auf?","Wann aufstehst du?","Wann stehst auf du?","Wann du stehst auf?","The verb part follows ‹wann›, and ‹auf› goes to the end of the question."],
+      ["mc","'I understand that.' =","Ich verstehe das.","Ich stehe das ver.","Ich verstehe das ver.","Ich stehe ver das.","‹ver-› never separates: ‹verstehen› stays in one piece."],
+      ["mc","'Are you coming along?' (to a friend) =","Kommst du mit?","Mitkommst du?","Kommst mit du?","Mitkommen du?","The verb part comes first in a yes/no question, and ‹mit› goes to the end."],
+      ["mc","Which part of ‹anrufen› is stressed?","‹an›","‹ru›","‹fen›","all three equally","Separable prefixes are always stressed: ‹AN-rufen›."],
+      ["or","I get up at seven (start with ‹ich›)","Ich stehe um sieben auf","steht","‹aufstehen› is separable: ‹auf› goes to the end, and ‹stehe› is in second place."],
+      ["or","Today I'm calling Frau Becker (start with ‹heute›)","Heute rufe ich Frau Becker an","ruft","Verb second: ‹heute› first, ‹rufe› second, and ‹an› goes to the end."],
+      ["or","Are you coming along? (to a friend)","Kommst du mit","kommt","Yes/no question: the verb comes first, and ‹mit› goes to the end."],
+      ["fi","Ich kaufe am Samstag __.","I go grocery shopping on Saturday.","ein","an|auf|mit","‹einkaufen› splits, and ‹ein› goes to the end."],
+      ["fi","Er sieht am Abend __.","He watches TV in the evening.","fern","an|aus|mit","‹fernsehen› splits: ‹sieht›, then ‹fern› at the end."],
+      ["fi","Ich muss morgen früh __.","I have to get up early tomorrow.","aufstehen","aufstehe|stehen|aufsteht","After a modal, the separable verb stays together, in the infinitive."],
+      ["ty","I get up at six (start with ‹ich›)","Ich stehe um sechs auf.|Ich stehe um sechs Uhr auf.","‹aufstehen› · ‹um sechs›","steht","‹aufstehen› is separable: ‹stehe› is in second place and ‹auf› goes to the end."],
+      ["ty","When do you get up? (to a friend)","Wann stehst du auf?","‹wann› · ‹aufstehen›","steht","The ‹du› form is ‹stehst›, in second place after ‹wann›; ‹auf› goes to the end."],
+      ["ty","I'm calling Anna today","Ich rufe heute Anna an.|Heute rufe ich Anna an.|Ich rufe Anna heute an.","‹anrufen› · ‹heute› · Anna","ruft","‹anrufen› is separable: ‹rufe› is in second place and ‹an› goes to the end."]
     ]
   },
   {
@@ -328,80 +328,80 @@ module.exports = [
 {{ex:Wir wollen morgen nach Hamburg fahren.|veer VAWL-uhn MAWR-guhn nahkh HAHM-boork FAH-ruhn|We want to go to Hamburg tomorrow.}}
 {{ex:Ich muss heute noch ein Hotelzimmer buchen.|ihh moos HOY-tuh nawkh ain hoh-TEHL-tsim-uh BOOKH-uhn|I still have to book a hotel room today.}}
 <p>The Perfekt (the past you use in conversation), coming soon, uses this same frame, so it's worth getting comfortable with now.</p>
-<div class="tip"><b>Most common mistake:</b> closing the bracket too early. <b>Ich möchte fahren nach Berlin</b> → <b>Ich möchte nach Berlin fahren</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> closing the bracket too early. <b>Ich möchte fahren nach Berlin</b> → <b>Ich möchte nach Berlin fahren</b>.</div>
 `,
     check: [
-      ["'I'd like to go to Berlin' =", ["Ich möchte fahren nach Berlin.", "Ich möchte nach Berlin fahren.", "Ich möchte nach Berlin fahre.", "Ich nach Berlin möchte fahren."], 1, "Sentence bracket: möchte second, fahren last, nach Berlin in the middle."],
-      ["'When does the train arrive?' (ankommen) =", ["Wann kommt der Zug an?", "Wann ankommt der Zug?", "Wann kommt an der Zug?", "Wann der Zug kommt an?"], 0, "kommt follows wann, and the prefix an closes the bracket at the end."],
-      ["In the sentence bracket, what goes at the very end?", ["The subject", "The conjugated verb", "The time word", "The second verb part: an infinitive or a separable prefix"], 3, "The conjugated verb is second; the infinitive or the separable prefix comes last."]
+      ["'I'd like to go to Berlin' =",["Ich möchte fahren nach Berlin.","Ich möchte nach Berlin fahren.","Ich möchte nach Berlin fahre.","Ich nach Berlin möchte fahren."],1,"Sentence bracket: ‹möchte› second, ‹fahren› last, ‹nach Berlin› in the middle."],
+      ["'When does the train arrive?' (‹ankommen›) =",["Wann kommt der Zug an?","Wann ankommt der Zug?","Wann kommt an der Zug?","Wann der Zug kommt an?"],0,"‹kommt› follows ‹wann›, and the prefix ‹an› closes the bracket at the end."],
+      ["In the sentence bracket, what goes at the very end?",["The subject","The conjugated verb","The time word","The second verb part: an infinitive or a separable prefix"],3,"The conjugated verb is second; the infinitive or the separable prefix comes last."]
     ],
     practice: [
-      ["mc", "'I have to change trains in Cologne.' =", "Ich muss in Köln umsteigen.", "Ich muss umsteigen in Köln.", "Ich muss in Köln steige um.", "Ich steige muss in Köln um.", "muss second, umsteigen at the end, in one piece after the modal."],
-      ["mc", "'The train leaves at eight.' =", "Der Zug fährt um acht ab.", "Der Zug abfährt um acht.", "Der Zug um acht fährt ab.", "Der Zug fährt um acht abfahren.", "abfahren splits: fährt second, ab at the end."],
-      ["mc", "'Where can I buy a ticket?' =", "Wo kann ich eine Fahrkarte kaufen?", "Wo kann ich kaufen eine Fahrkarte?", "Wo ich kann eine Fahrkarte kaufen?", "Wo kann ich einen Fahrkarte kaufen?", "kann after wo, kaufen at the end; Fahrkarte is feminine: eine."],
-      ["mc", "'We want to book a room.' =", "Wir wollen ein Zimmer buchen.", "Wir wollen buchen ein Zimmer.", "Wir wollen einen Zimmer buchen.", "Wir wollt ein Zimmer buchen.", "wollen second, buchen last; Zimmer is neuter: ein."],
-      ["mc", "'When does the bus leave?' =", "Wann fährt der Bus ab?", "Wann fährt ab der Bus?", "Wann abfährt der Bus?", "Wann fährt der Bus abfahren?", "fährt after wann, and ab closes the bracket."],
-      ["or", "I'd like to go to Hamburg (start with ich)", "Ich möchte nach Hamburg fahren", "möchtest", "Sentence bracket: möchte second, fahren at the end."],
-      ["or", "Tomorrow I have to get up early (start with morgen)", "Morgen muss ich früh aufstehen", "musst", "Verb second: morgen first, muss second, and aufstehen goes to the end."],
-      ["or", "When does the train arrive?", "Wann kommt der Zug an", "den", "Zug is the subject, so der Zug, in the nominative; an goes to the end."],
-      ["fi", "Ich möchte eine Fahrkarte __.", "I'd like to buy a ticket.", "kaufen", "kaufe|kauft|kaufst", "After möchte, the infinitive closes the bracket: kaufen."],
-      ["fi", "Wo muss ich __?", "Where do I have to change trains?", "umsteigen", "umsteige|umsteigt|steigen", "After a modal, the separable verb stays together in the infinitive."],
-      ["fi", "Der Zug fährt um zehn Uhr __.", "The train leaves at ten.", "ab", "mit|zu|fern", "abfahren means leave: ab closes the bracket."],
-      ["ty", "I'd like to go to Berlin (start with ich; use möchte and fahren)", "Ich möchte nach Berlin fahren.", "möchten · nach Berlin · fahren", "fahre", "Sentence bracket: möchte second, fahren at the end."],
-      ["ty", "When does the train leave?", "Wann fährt der Zug ab?|Wann fährt der Zug?|Wann geht der Zug?", "wann · abfahren · der Zug", "den", "Zug is the subject, so der Zug, in the nominative; ab goes to the end."],
-      ["ty", "Can I buy a ticket here?", "Kann ich hier eine Fahrkarte kaufen?|Kann ich eine Fahrkarte hier kaufen?|Kann ich hier ein Ticket kaufen?", "können · hier · die Fahrkarte · kaufen", "kaufe", "Yes/no question: the verb comes first, and kaufen goes to the end."]
+      ["mc","'I have to change trains in Cologne.' =","Ich muss in Köln umsteigen.","Ich muss umsteigen in Köln.","Ich muss in Köln steige um.","Ich steige muss in Köln um.","‹muss› second, ‹umsteigen› at the end, in one piece after the modal."],
+      ["mc","'The train leaves at eight.' =","Der Zug fährt um acht ab.","Der Zug abfährt um acht.","Der Zug um acht fährt ab.","Der Zug fährt um acht abfahren.","‹abfahren› splits: ‹fährt› second, ‹ab› at the end."],
+      ["mc","'Where can I buy a ticket?' =","Wo kann ich eine Fahrkarte kaufen?","Wo kann ich kaufen eine Fahrkarte?","Wo ich kann eine Fahrkarte kaufen?","Wo kann ich einen Fahrkarte kaufen?","‹kann› after ‹wo›, ‹kaufen› at the end; ‹Fahrkarte› is feminine: ‹eine›."],
+      ["mc","'We want to book a room.' =","Wir wollen ein Zimmer buchen.","Wir wollen buchen ein Zimmer.","Wir wollen einen Zimmer buchen.","Wir wollt ein Zimmer buchen.","‹wollen› second, ‹buchen› last; ‹Zimmer› is neuter: ‹ein›."],
+      ["mc","'When does the bus leave?' =","Wann fährt der Bus ab?","Wann fährt ab der Bus?","Wann abfährt der Bus?","Wann fährt der Bus abfahren?","‹fährt› after ‹wann›, and ‹ab› closes the bracket."],
+      ["or","I'd like to go to Hamburg (start with ‹ich›)","Ich möchte nach Hamburg fahren","möchtest","Sentence bracket: ‹möchte› second, ‹fahren› at the end."],
+      ["or","Tomorrow I have to get up early (start with ‹morgen›)","Morgen muss ich früh aufstehen","musst","Verb second: ‹morgen› first, ‹muss› second, and ‹aufstehen› goes to the end."],
+      ["or","When does the train arrive?","Wann kommt der Zug an","den","‹Zug› is the subject, so ‹der Zug›, in the nominative; ‹an› goes to the end."],
+      ["fi","Ich möchte eine Fahrkarte __.","I'd like to buy a ticket.","kaufen","kaufe|kauft|kaufst","After ‹möchte›, the infinitive closes the bracket: ‹kaufen›."],
+      ["fi","Wo muss ich __?","Where do I have to change trains?","umsteigen","umsteige|umsteigt|steigen","After a modal, the separable verb stays together in the infinitive."],
+      ["fi","Der Zug fährt um zehn Uhr __.","The train leaves at ten.","ab","mit|zu|fern","‹abfahren› means leave: ‹ab› closes the bracket."],
+      ["ty","I'd like to go to Berlin (start with ‹ich›; use ‹möchte› and ‹fahren›)","Ich möchte nach Berlin fahren.","‹möchten› · ‹nach Berlin› · ‹fahren›","fahre","Sentence bracket: ‹möchte› second, ‹fahren› at the end."],
+      ["ty","When does the train leave?","Wann fährt der Zug ab?|Wann fährt der Zug?|Wann geht der Zug?","‹wann› · ‹abfahren› · ‹der Zug›","den","‹Zug› is the subject, so ‹der Zug›, in the nominative; ‹ab› goes to the end."],
+      ["ty","Can I buy a ticket here?","Kann ich hier eine Fahrkarte kaufen?|Kann ich eine Fahrkarte hier kaufen?|Kann ich hier ein Ticket kaufen?","‹können› · ‹hier› · ‹die Fahrkarte› · ‹kaufen›","kaufe","Yes/no question: the verb comes first, and ‹kaufen› goes to the end."]
     ]
   },
   {
     id: "dative",
-    title: "Dative: dem, der, mit, bei",
-    blurb: "Get around town with mit, zu, bei, von and nach, using the dative articles dem, der and den.",
+    title: "Dative: ‹dem›, ‹der›, ‹mit›, ‹bei›",
+    blurb: "Get around town with ‹mit›, ‹zu›, ‹bei›, ‹von› and ‹nach›, using the dative articles ‹dem›, ‹der› and ‹den›.",
     deck: "Around town and directions",
     body: `
-<p>English says <i>with the bus</i>, <i>to the station</i>, <i>from the doctor</i>, and "the" never changes. German has a third case, the dative (Dativ), and some small words always take it.</p>
+<p>English says <i>with the bus</i>, <i>to the station</i>, <i>from the doctor</i>, and "the" never changes. German has a third case, the dative (‹Dativ›), and some small words always take it.</p>
 <h3>Prepositions that always take the dative</h3>
 <p><b>mit</b> (with, by), <b>bei</b> (at someone's place), <b>zu</b> (to), <b>von</b> (from), <b>aus</b> (out of, from), <b>nach</b> (to, after) and <b>seit</b> (since, for). After them, the article changes:</p>
 <div class="tbl"><table><tr><th></th><th>Nominative</th><th>Dative</th></tr><tr><td>masculine</td><td class="k">der, ein, mein</td><td class="k">dem, einem, meinem</td></tr><tr><td>feminine</td><td class="k">die, eine, meine</td><td class="k">der, einer, meiner</td></tr><tr><td>neuter</td><td class="k">das, ein, mein</td><td class="k">dem, einem, meinem</td></tr><tr><td>plural</td><td class="k">die, meine</td><td class="k">den, meinen + -n</td></tr></table></div>
 {{ex:Ich fahre mit dem Bus.|ihh FAH-ruh mit daym boos|I'm going by bus.}}
 {{ex:Anna wohnt bei ihrer Schwester.|AHN-ah vohnt bai EE-ruh SHVEHS-tuh|Anna lives with her sister.}}
 {{ex:Wir fahren mit den Kindern nach Hamburg.|veer FAH-ruhn mit dayn KIN-duhn nahkh HAHM-boork|We're going to Hamburg with the kids.}}
-<p>Watch two things. Feminine <b>die</b> becomes <b>der</b>. And in the plural the noun adds -n too, unless it already ends in -n or -s: <b>mit den Kindern</b>, but <b>mit den Eltern</b>.</p>
-<h3>zum, zur, beim, vom</h3>
-<p>Some pairs merge, and the short forms are what people normally say: zu dem → <b>zum</b>, zu der → <b>zur</b>, bei dem → <b>beim</b>, von dem → <b>vom</b>.</p>
+<p>Watch two things. Feminine <b>die</b> becomes <b>der</b>. And in the plural the noun adds ‹-n› too, unless it already ends in ‹-n› or ‹-s›: <b>mit den Kindern</b>, but <b>mit den Eltern</b>.</p>
+<h3>‹zum›, ‹zur›, ‹beim›, ‹vom›</h3>
+<p>Some pairs merge, and the short forms are what people normally say: ‹zu dem› → <b>zum</b>, ‹zu der› → <b>zur</b>, ‹bei dem› → <b>beim</b>, ‹von dem› → <b>vom</b>.</p>
 {{ex:Ich gehe zur Apotheke.|ihh GAY-uh tsoor ah-poh-TAY-kuh|I'm going to the pharmacy.}}
 {{ex:Wie komme ich zum Bahnhof?|vee KAWM-uh ihh tsoom BAHN-hohf|How do I get to the train station?}}
 <h3>Three ways to say "to"</h3>
 <ul><li><b>nach</b> + a city or a country with no article: <b>nach Berlin</b>; and <b>nach Hause</b> (home).</li><li><b>zu</b> + a person, a shop or a building: <b>zu Anna</b>, <b>zum Arzt</b>, <b>zur Bank</b>.</li><li><b>zu Hause</b> means "at home", not "to home".</li></ul>
 <p>So never <b>zu Berlin</b>: for a city, "to" is always <b>nach</b>.</p>
 {{ex:Ich gehe jetzt nach Hause.|ihh GAY-uh yehtst nahkh HOW-zuh|I'm going home now.}}
-<h3>seit: "for" with the present</h3>
+<h3>‹seit›: "for" with the present</h3>
 <p>English says "I have lived here for two years". German uses the present and <b>seit</b>.</p>
 {{ex:Ich wohne seit zwei Jahren in Köln.|ihh VOH-nuh zait tsvai YAH-ruhn in kurln|I've lived in Cologne for two years.}}
 <h3>The person you give something to</h3>
 <p>Verbs like <b>geben</b> (give), <b>zeigen</b> (show) and <b>schenken</b> (give as a present) can have two objects. The thing is the direct object; the person is the indirect object, in the dative. For now you only need to recognize it.</p>
 {{ex:Ich gebe dem Kind einen Apfel.|ihh GAY-buh daym kint AI-nuhn AHP-fuhl|I'm giving the child an apple.}}
-<div class="tip"><b>Most common mistake:</b> keeping the nominative after mit. <b>Ich fahre mit der Bus</b> → <b>Ich fahre mit dem Bus</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> keeping the nominative after ‹mit›. <b>Ich fahre mit der Bus</b> → <b>Ich fahre mit dem Bus</b>.</div>
 `,
     check: [
-      ["'I'm going by bus' (der Bus) =", ["Ich fahre mit der Bus.", "Ich fahre mit den Bus.", "Ich fahre mit dem Bus.", "Ich fahre mit die Bus."], 2, "mit always takes the dative, and masculine der becomes dem."],
-      ["'I'm going to the pharmacy' (die Apotheke) =", ["Ich gehe zum Apotheke.", "Ich gehe zur Apotheke.", "Ich gehe nach der Apotheke.", "Ich gehe zu die Apotheke."], 1, "zu + a shop; feminine die becomes der in the dative, and zu der becomes zur."],
-      ["Which one means 'I'm going home'?", ["Ich gehe nach Hause.", "Ich gehe zu Hause.", "Ich gehe zum Hause.", "Ich gehe in Hause."], 0, "nach Hause means going home; zu Hause means at home."]
+      ["'I'm going by bus' (‹der Bus›) =",["Ich fahre mit der Bus.","Ich fahre mit den Bus.","Ich fahre mit dem Bus.","Ich fahre mit die Bus."],2,"‹mit› always takes the dative, and masculine ‹der› becomes ‹dem›."],
+      ["'I'm going to the pharmacy' (‹die Apotheke›) =",["Ich gehe zum Apotheke.","Ich gehe zur Apotheke.","Ich gehe nach der Apotheke.","Ich gehe zu die Apotheke."],1,"‹zu› + a shop; feminine ‹die› becomes ‹der› in the dative, and ‹zu der› becomes ‹zur›."],
+      ["Which one means 'I'm going home'?",["Ich gehe nach Hause.","Ich gehe zu Hause.","Ich gehe zum Hause.","Ich gehe in Hause."],0,"‹nach Hause› means going home; ‹zu Hause› means at home."]
     ],
     practice: [
-      ["mc", "'with the children' =", "mit den Kindern", "mit die Kinder", "mit den Kinder", "mit dem Kindern", "In the dative plural: den, and the noun adds -n: Kindern."],
-      ["mc", "'to the train station' (der Bahnhof) =", "zum Bahnhof", "zur Bahnhof", "nach dem Bahnhof", "zu der Bahnhof", "Bahnhof is masculine: zu dem, which becomes zum."],
-      ["mc", "'I'm going to Hamburg.' =", "Ich fahre nach Hamburg.", "Ich fahre zu Hamburg.", "Ich fahre zum Hamburg.", "Ich fahre in Hamburg.", "For a city, to is nach."],
-      ["mc", "'from my mother' =", "von meiner Mutter", "von meine Mutter", "von meinem Mutter", "von meinen Mutter", "von takes the dative, and Mutter is feminine: meiner."],
-      ["mc", "'I've lived in Cologne for two years.' =", "Ich wohne seit zwei Jahren in Köln.", "Ich wohne seit zwei Jahre in Köln.", "Ich wohne für zwei Jahre in Köln.", "Ich wohne zwei Jahren in Köln.", "seit with the present tense, and the dative plural Jahren."],
-      ["or", "I'm going by bus (start with ich)", "Ich fahre mit dem Bus", "der", "mit takes the dative: der Bus becomes dem Bus."],
-      ["or", "Today I'm going to the doctor (start with heute)", "Heute gehe ich zum Arzt", "zur", "Arzt is masculine, so zu dem becomes zum in the dative; gehe is in second place."],
-      ["or", "Anna lives with her parents (start with Anna)", "Anna wohnt bei ihren Eltern", "ihre", "bei takes the dative: ihren Eltern, the plural form."],
-      ["fi", "Ich fahre mit __ Zug.", "I'm going by train.", "dem", "der|den|das", "mit takes the dative, and Zug is masculine: dem Zug."],
-      ["fi", "Wir gehen __ Apotheke.", "We're going to the pharmacy.", "zur", "zum|nach|zu", "Apotheke is feminine: zu der, which becomes zur."],
-      ["fi", "Ich wohne __ zwei Jahren in Berlin.", "I've lived in Berlin for two years.", "seit", "für|vor|nach", "For something that started in the past and is still going on, use seit with the present."],
-      ["ty", "I'm going by bus (use mit)", "Ich fahre mit dem Bus.", "fahren · mit · der Bus", "der", "mit takes the dative: dem Bus."],
-      ["ty", "We're going to the train station", "Wir gehen zum Bahnhof.|Wir fahren zum Bahnhof.", "gehen · zu · der Bahnhof", "zur geht", "zum = zu dem: Bahnhof is masculine and in the dative; gehen matches the subject wir."],
-      ["ty", "I'm going home", "Ich gehe nach Hause.|Ich fahre nach Hause.|Ich gehe heim.", "gehen · nach Hause", "zu", "Going home is nach Hause; zu Hause means at home."]
+      ["mc","'with the children' =","mit den Kindern","mit die Kinder","mit den Kinder","mit dem Kindern","In the dative plural: ‹den›, and the noun adds ‹-n›: ‹Kindern›."],
+      ["mc","'to the train station' (‹der Bahnhof›) =","zum Bahnhof","zur Bahnhof","nach dem Bahnhof","zu der Bahnhof","‹Bahnhof› is masculine: ‹zu dem›, which becomes ‹zum›."],
+      ["mc","'I'm going to Hamburg.' =","Ich fahre nach Hamburg.","Ich fahre zu Hamburg.","Ich fahre zum Hamburg.","Ich fahre in Hamburg.","For a city, to is ‹nach›."],
+      ["mc","'from my mother' =","von meiner Mutter","von meine Mutter","von meinem Mutter","von meinen Mutter","‹von› takes the dative, and ‹Mutter› is feminine: ‹meiner›."],
+      ["mc","'I've lived in Cologne for two years.' =","Ich wohne seit zwei Jahren in Köln.","Ich wohne seit zwei Jahre in Köln.","Ich wohne für zwei Jahre in Köln.","Ich wohne zwei Jahren in Köln.","‹seit› with the present tense, and the dative plural ‹Jahren›."],
+      ["or","I'm going by bus (start with ‹ich›)","Ich fahre mit dem Bus","der","‹mit› takes the dative: ‹der Bus› becomes ‹dem Bus›."],
+      ["or","Today I'm going to the doctor (start with ‹heute›)","Heute gehe ich zum Arzt","zur","‹Arzt› is masculine, so ‹zu dem› becomes ‹zum› in the dative; ‹gehe› is in second place."],
+      ["or","Anna lives with her parents (start with Anna)","Anna wohnt bei ihren Eltern","ihre","‹bei› takes the dative: ‹ihren Eltern›, the plural form."],
+      ["fi","Ich fahre mit __ Zug.","I'm going by train.","dem","der|den|das","‹mit› takes the dative, and ‹Zug› is masculine: ‹dem Zug›."],
+      ["fi","Wir gehen __ Apotheke.","We're going to the pharmacy.","zur","zum|nach|zu","‹Apotheke› is feminine: ‹zu der›, which becomes ‹zur›."],
+      ["fi","Ich wohne __ zwei Jahren in Berlin.","I've lived in Berlin for two years.","seit","für|vor|nach","For something that started in the past and is still going on, use ‹seit› with the present."],
+      ["ty","I'm going by bus (use ‹mit›)","Ich fahre mit dem Bus.","‹fahren› · ‹mit› · ‹der Bus›","der","‹mit› takes the dative: ‹dem Bus›."],
+      ["ty","We're going to the train station","Wir gehen zum Bahnhof.|Wir fahren zum Bahnhof.","‹gehen› · ‹zu› · ‹der Bahnhof›","zur geht","‹zum› = ‹zu dem›: ‹Bahnhof› is masculine and in the dative; ‹gehen› matches the subject ‹wir›."],
+      ["ty","I'm going home","Ich gehe nach Hause.|Ich fahre nach Hause.|Ich gehe heim.","‹gehen› · ‹nach Hause›","zu","Going home is ‹nach Hause›; ‹zu Hause› means at home."]
     ]
   }
 ];

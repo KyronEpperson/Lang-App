@@ -3,82 +3,82 @@ module.exports = [
   {
     id: "sounds",
     title: "Sounds, spelling and the alphabet",
-    blurb: "Read any German word aloud: the letters that differ from English, the umlauts, the two ch sounds and where the stress goes.",
+    blurb: "Read any German word aloud: the letters that differ from English, the umlauts, the two ‹ch› sounds and where the stress goes.",
     deck: "Sounds and spelling",
-    sections: [null, {"deck": "Sounds and spelling", "n": [11, 18]}, [{"name": "Vowel pairs", "cards": [["ei", "ai", "ei: sounds like eye", "der Wein (dayr vain), wine"], ["ie", "ee", "ie: sounds like ee in see", "Wien (veen), Vienna. Wein, with ei, is wine."], ["eu", "oy", "eu: sounds like oy in boy", "neu (noy), new"], ["äu", "oy", "äu: the same oy as eu", "die Häuser (dee HOY-zuh), houses"], ["au", "ow", "au: sounds like ow in how", "das Haus (dahs hows), house"]]}, {"deck": "Sounds and spelling", "n": [5, 8]}], {"deck": "Sounds and spelling", "n": [8, 11]}, null, {"deck": "Sounds and spelling", "n": [0, 5]}, {"name": "Long vowels", "cards": [["ah", "ah", "long a: the h is silent", "die Bahn (dee bahn), the railway"], ["eh", "ay", "long e: the h is silent", "sehr (zayr), very"], ["ih", "ee", "long i: the h is silent", "ihn (een), him"], ["oh", "oh", "long o: the h is silent", "der Sohn (dayr zohn), son"], ["uh", "oo", "long u: the h is silent", "die Uhr (dee oor), clock"], ["aa", "ah", "long a, written double", "das Haar (dahs hahr), hair"], ["ee", "ay", "long e, written double", "der Tee (dayr tay), tea"], ["oo", "oh", "long o, written double", "das Boot (dahs boht), boat"]]}, null, {"name": "Read whole words", "cards": [["der Spiegel", "dayr SHPEE-guhl", "the mirror", "sp at the start is shp; ie is ee; the ending -el is uhl. Stress on the first syllable."], ["der Strand", "dayr shtrahnt", "the beach", "st at the start is sht; the final d sounds t. One syllable."], ["der Zoo", "dayr tsoh", "the zoo", "z is ts; the doubled o is a long oh. One syllable."], ["die Wurst", "dee voorst", "the sausage", "w is v; the u before two consonants is short. One syllable."], ["die Zwiebel", "dee TSVEE-buhl", "the onion", "z is ts and w is v, so zw is tsv; ie is ee; the ending -el is uhl. Stress on the first syllable."], ["die Kirche", "dee KIR-hhuh", "the church", "ch after r is the soft hh; the final e is said, uh. Stress on Kir."], ["die Brille", "dee BRIL-uh", "the glasses (for your eyes)", "i before a doubled l is short; the final e is said. Stress on the first syllable."], ["der Schuh", "dayr shoo", "the shoe", "sch is sh; the h after u is silent and makes it long. One syllable."], ["das Eis", "dahs ais", "the ice; ice cream", "ei is ai, as in eye. One syllable."], ["die Bäckerei", "dee behk-uh-RAI", "the bakery", "ä is eh, ck is k, ei is ai. The ending -ei is always stressed: behk-uh-RAI."], ["der Fußball", "dayr FOOS-bahl", "soccer; the soccer ball", "Fuß + Ball (foot + ball). ß after the long u is s; a is short before ll. Stress on the first part."], ["der Bahnhof", "dayr BAHN-hohf", "the train station", "Bahn + Hof (railway + yard). The h after a is silent and makes it long. Stress on Bahn."], ["das Fahrrad", "dahs FAHR-raht", "the bicycle", "Fahr + Rad (ride + wheel). The h makes the a long; the final d sounds t. Stress on Fahr."], ["der Handschuh", "dayr HAHNT-shoo", "the glove", "Hand + Schuh (hand + shoe). The d ends the first part, so it sounds t; sch is sh. Stress on Hand."], ["das Flugzeug", "dahs FLOOK-tsoyk", "the airplane", "Flug + Zeug (flight + thing). The g ending each part sounds k; z is ts; eu is oy. Stress on Flug."], ["die Straßenbahn", "dee SHTRAH-suhn-bahn", "the streetcar, the tram", "Straßen + Bahn (streets + railway). st at the start is sht; ß is s. Stress on the first part."], ["die Hausaufgabe", "dee HOWS-owf-gah-buh", "the homework", "Haus + Aufgabe (home + task). au is ow, twice; the final e is said. Stress on Haus."]]}],
+    sections: [null, {"deck": "Sounds and spelling", "n": [11, 18]}, [{"name": "Vowel pairs", "cards": [["ei", "ai", "‹ei›: sounds like eye", "‹der Wein› (dayr vain), wine"], ["ie", "ee", "‹ie›: sounds like ee in see", "‹Wien› (veen), Vienna. ‹Wein›, with ‹ei›, is wine."], ["eu", "oy", "‹eu›: sounds like oy in boy", "‹neu› (noy), new"], ["äu", "oy", "‹äu›: the same oy as ‹eu›", "‹die Häuser› (dee HOY-zuh), houses"], ["au", "ow", "‹au›: sounds like ow in how", "‹das Haus› (dahs hows), house"]]}, {"deck": "Sounds and spelling", "n": [5, 8]}], {"deck": "Sounds and spelling", "n": [8, 11]}, null, {"deck": "Sounds and spelling", "n": [0, 5]}, {"name": "Long vowels", "cards": [["ah", "ah", "long a: the ‹h› is silent", "‹die Bahn› (dee bahn), the railway"], ["eh", "ay", "long e: the ‹h› is silent", "‹sehr› (zayr), very"], ["ih", "ee", "long i: the ‹h› is silent", "‹ihn› (een), him"], ["oh", "oh", "long o: the ‹h› is silent", "‹der Sohn› (dayr zohn), son"], ["uh", "oo", "long u: the ‹h› is silent", "‹die Uhr› (dee oor), clock"], ["aa", "ah", "long a, written double", "‹das Haar› (dahs hahr), hair"], ["ee", "ay", "long e, written double", "‹der Tee› (dayr tay), tea"], ["oo", "oh", "long o, written double", "‹das Boot› (dahs boht), boat"]]}, null, {"name": "Read whole words", "cards": [["der Spiegel", "dayr SHPEE-guhl", "the mirror", "‹sp› at the start is shp; ‹ie› is ee; the ending ‹-el› is uhl. Stress on the first syllable."], ["der Strand", "dayr shtrahnt", "the beach", "‹st› at the start is sht; the final ‹d› sounds t. One syllable."], ["der Zoo", "dayr tsoh", "the zoo", "‹z› is ts; the doubled ‹o› is a long oh. One syllable."], ["die Wurst", "dee voorst", "the sausage", "‹w› is v; the ‹u› before two consonants is short. One syllable."], ["die Zwiebel", "dee TSVEE-buhl", "the onion", "‹z› is ts and ‹w› is v, so ‹zw› is tsv; ‹ie› is ee; the ending ‹-el› is uhl. Stress on the first syllable."], ["die Kirche", "dee KIR-hhuh", "the church", "‹ch› after ‹r› is the soft hh; the final ‹e› is said, uh. Stress on ‹Kir›."], ["die Brille", "dee BRIL-uh", "the glasses (for your eyes)", "‹i› before a doubled ‹l› is short; the final ‹e› is said. Stress on the first syllable."], ["der Schuh", "dayr shoo", "the shoe", "‹sch› is sh; the ‹h› after ‹u› is silent and makes it long. One syllable."], ["das Eis", "dahs ais", "the ice; ice cream", "‹ei› is ai, as in eye. One syllable."], ["die Bäckerei", "dee behk-uh-RAI", "the bakery", "‹ä› is eh, ‹ck› is k, ‹ei› is ai. The ending ‹-ei› is always stressed: behk-uh-RAI."], ["der Fußball", "dayr FOOS-bahl", "soccer; the soccer ball", "‹Fuß› + ‹Ball› (foot + ball). ‹ß› after the long ‹u› is s; ‹a› is short before ‹ll›. Stress on the first part."], ["der Bahnhof", "dayr BAHN-hohf", "the train station", "‹Bahn› + ‹Hof› (railway + yard). The ‹h› after ‹a› is silent and makes it long. Stress on ‹Bahn›."], ["das Fahrrad", "dahs FAHR-raht", "the bicycle", "‹Fahr› + ‹Rad› (ride + wheel). The ‹h› makes the ‹a› long; the final ‹d› sounds t. Stress on ‹Fahr›."], ["der Handschuh", "dayr HAHNT-shoo", "the glove", "‹Hand› + ‹Schuh› (hand + shoe). The ‹d› ends the first part, so it sounds t; ‹sch› is sh. Stress on ‹Hand›."], ["das Flugzeug", "dahs FLOOK-tsoyk", "the airplane", "‹Flug› + ‹Zeug› (flight + thing). The ‹g› ending each part sounds k; ‹z› is ts; ‹eu› is oy. Stress on ‹Flug›."], ["die Straßenbahn", "dee SHTRAH-suhn-bahn", "the streetcar, the tram", "‹Straßen› + ‹Bahn› (streets + railway). ‹st› at the start is sht; ‹ß› is s. Stress on the first part."], ["die Hausaufgabe", "dee HOWS-owf-gah-buh", "the homework", "‹Haus› + ‹Aufgabe› (home + task). ‹au› is ow, twice; the final ‹e› is said. Stress on ‹Haus›."]]}],
     body: `
 <h3>How German spelling works</h3>
-<p>German uses the same 26 letters as English, plus <b>ä, ö, ü</b> and <b>ß</b>. Its spelling is far more regular than English: once you know a handful of rules, you can read almost any word. Under every German phrase in this course there is a pronunciation line in English letters. The syllable in CAPITALS is the stressed one.</p>
-<p>Most letters sound as they do in English, so this lesson teaches only what is different, in small groups: letters with a new sound, vowel pairs, umlauts, ch, word endings, and long and short vowels. Each group has tiles: tap one to hear it and see how the line writes it. Here is the whole alphabet with the German names of the letters. You need them to spell your name.</p>
+<p>German uses the same 26 letters as English, plus <b>ä</b>, <b>ö</b>, <b>ü</b> and <b>ß</b>. Its spelling is far more regular than English: once you know a handful of rules, you can read almost any word. Under every German phrase in this course there is a pronunciation line in English letters. The syllable in CAPITALS is the stressed one.</p>
+<p>Most letters sound as they do in English, so this lesson teaches only what is different, in small groups: letters with a new sound, vowel pairs, umlauts, ‹ch›, word endings, and long and short vowels. Each group has tiles: tap one to hear it and see how the line writes it. Here is the whole alphabet with the German names of the letters. You need them to spell your name.</p>
 {{tiles:a=ah b=bay c=tsay d=day e=ay f=ehf g=gay h=hah i=ee j=yawt k=kah l=ehl m=ehm n=ehn o=oh p=pay q=koo r=ehr s=ehs t=tay u=oo v=fow w=vay x=iks y=EWP-see-lawn z=tseht ä=eh ö=ur ü=ew ß=ehs-TSEHT}}
 <h3>Letters that sound different</h3>
 <p>The letters are the ones you know, but several stand for a different sound. These are the ones English speakers misread most.</p>
-<div class="tbl"><table><tr><th>Letter</th><th>Sounds like</th><th>Example</th></tr><tr><td class="k">w</td><td>English v</td><td class="k">das Wasser</td></tr><tr><td class="k">v</td><td>English f</td><td class="k">der Vater</td></tr><tr><td class="k">z</td><td>ts, as in <i>cats</i></td><td class="k">die Zeit</td></tr><tr><td class="k">j</td><td>y, as in <i>yes</i></td><td class="k">ja</td></tr><tr><td>s before a vowel</td><td>z</td><td class="k">die Sonne</td></tr><tr><td>sp, st at the start</td><td>shp, sht</td><td class="k">die Straße</td></tr><tr><td class="k">ß</td><td>s</td><td class="k">die Straße</td></tr></table></div>
+<div class="tbl"><table><tr><th>Letter</th><th>Sounds like</th><th>Example</th></tr><tr><td class="k">w</td><td>English v</td><td class="k">das Wasser</td></tr><tr><td class="k">v</td><td>English f</td><td class="k">der Vater</td></tr><tr><td class="k">z</td><td>ts, as in <i>cats</i></td><td class="k">die Zeit</td></tr><tr><td class="k">j</td><td>y, as in <i>yes</i></td><td class="k">ja</td></tr><tr><td>‹s› before a vowel</td><td>z</td><td class="k">die Sonne</td></tr><tr><td>‹sp›, ‹st› at the start</td><td>shp, sht</td><td class="k">die Straße</td></tr><tr><td class="k">ß</td><td>s</td><td class="k">die Straße</td></tr></table></div>
 <p>Tap a tile to hear the sound.</p>
 {{tiles:w=v v=f z=ts j=y s=z sp=shp st=sht ß=s}}
 {{ex:das Wasser|dahs VAHS-uh|the water}}
 {{ex:die Straße|dee SHTRAH-suh|the street}}
-<p><b>ß</b> is used after a long vowel or after <b>ei, au, eu</b>, as in <b>Straße</b> and <b>heißen</b>. Swiss German writes <b>ss</b> instead.</p>
-<h3>ei and ie</h3>
-<p><b>ei</b> sounds like English <i>eye</i> (the line writes <i>ai</i>), and <b>ie</b> sounds like <i>ee</i>. Read the second letter and say its English name: <b>Wein</b> (wine), <b>Wien</b> (Vienna). <b>eu</b> and <b>äu</b> sound like <i>oy</i>, and <b>au</b> like <i>ow</i>. A long e, as in <b>Tee</b> (tea), is written <i>ay</i>: say <i>day</i> without the glide at the end.</p>
+<p><b>ß</b> is used after a long vowel or after <b>ei</b>, <b>au</b>, <b>eu</b>, as in <b>Straße</b> and <b>heißen</b>. Swiss German writes <b>ss</b> instead.</p>
+<h3>‹ei› and ‹ie›</h3>
+<p><b>ei</b> sounds like English <i>eye</i> (the line writes <i>ai</i>), and <b>ie</b> sounds like <i>ee</i>. Read the second letter and say its English name: <b>Wein</b> (wine), <b>Wien</b> (Vienna). <b>eu</b> and <b>äu</b> sound like <i>oy</i>, and <b>au</b> like <i>ow</i>. A long ‹e›, as in <b>Tee</b> (tea), is written <i>ay</i>: say <i>day</i> without the glide at the end.</p>
 {{tiles:ei ie eu äu au}}
 {{ex:der Wein|dayr vain|the wine}}
 {{ex:in Wien|in veen|in Vienna}}
-<h3>Umlauts: ä, ö, ü</h3>
+<h3>Umlauts: ‹ä›, ‹ö›, ‹ü›</h3>
 <p>The two dots change the sound. <b>ä</b> is close to the e in <i>bet</i>. For <b>ü</b>, say <i>ee</i> with your lips rounded; the pronunciation line writes it <i>ew</i>. For <b>ö</b>, say <i>ay</i> with rounded lips; the line writes <i>ur</i>, but there is no r sound in it.</p>
 {{tiles:ä=eh ö=ur ü=ew}}
 {{ex:fünf|fewnf|five}}
 {{ex:schön|shurn|beautiful}}
-<h3>Two ch sounds</h3>
-<p>After <b>a, o, u</b> and <b>au</b>, <b>ch</b> is throaty, like Scottish <i>loch</i>: the line writes <i>kh</i>. Everywhere else it is soft, like a strong h in <i>huge</i>: the line writes <i>hh</i>. Neither one is a k or a sh. <b>sch</b> is one sound, always <i>sh</i>, as in <b>schön</b>. In the tiles, the first row is throaty and the second soft.</p>
+<h3>Two ‹ch› sounds</h3>
+<p>After <b>a</b>, <b>o</b>, <b>u</b> and <b>au</b>, <b>ch</b> is throaty, like Scottish <i>loch</i>: the line writes <i>kh</i>. Everywhere else it is soft, like a strong h in <i>huge</i>: the line writes <i>hh</i>. Neither one is a k or a sh. <b>sch</b> is one sound, always <i>sh</i>, as in <b>schön</b>. In the tiles, the first row is throaty and the second soft.</p>
 {{tiles:ach=ahkh och=awkh uch=ookh auch=owkh _ ich ech=ehh _ _ _ sch=sh}}
 {{ex:das Buch|dahs bookh|the book}}
 {{ex:ich|ihh|I}}
 <h3>Word endings</h3>
-<p>At the end of a word, <b>b, d, g</b> sound like <b>p, t, k</b>: <b>Hund</b> sounds like <i>hoont</i>, and <b>Tag</b> (day) like <i>tahk</i>. A final <b>e</b> is never silent, so <b>Bitte</b> has two syllables. The line writes this weak e, and the weak endings <b>-en</b> and <b>-er</b>, with <i>uh</i>: <i>BIT-uh</i>. One ending breaks the rule: <b>-ig</b> sounds like <i>ihh</i>, as in <b>zwanzig</b> (TSVAHN-tsihh).</p>
+<p>At the end of a word, <b>b</b>, <b>d</b>, <b>g</b> sound like p, t, k: <b>Hund</b> sounds like <i>hoont</i>, and <b>Tag</b> (day) like <i>tahk</i>. A final <b>e</b> is never silent, so <b>Bitte</b> has two syllables. The line writes this weak ‹e›, and the weak endings <b>-en</b> and <b>-er</b>, with <i>uh</i>: <i>BIT-uh</i>. One ending breaks the rule: <b>-ig</b> sounds like <i>ihh</i>, as in <b>zwanzig</b> (TSVAHN-tsihh).</p>
 {{tiles:b=p d=t g=k ig=ihh _ e=uh en=uhn er=uh}}
 {{ex:der Hund|dayr hoont|the dog}}
 {{ex:Bitte!|BIT-uh|Please!}}
 <h3>Long and short vowels</h3>
-<p>A German vowel can be long or short, and the spelling usually tells you which. An <b>h</b> after a vowel is silent and makes it long: <b>Bahn</b>, <b>Uhr</b>. A doubled vowel is long too: <b>Tee</b>, <b>Boot</b>. Before a doubled consonant, or before two consonants, a vowel is usually short: <b>Wasser</b>, <b>Sonne</b>, <b>Hund</b>. The line shows the difference for e, i and o: long <i>ay, ee, oh</i>, short <i>eh, i, aw</i>. So <b>Tee</b> is <i>tay</i> but <b>Bett</b> (bed) is <i>beht</i>, and <b>Sohn</b> (son) is <i>zohn</i> but <b>Sonne</b> is <i>ZAWN-uh</i>. For a and u the line writes <i>ah</i> and <i>oo</i> either way.</p>
+<p>A German vowel can be long or short, and the spelling usually tells you which. An <b>h</b> after a vowel is silent and makes it long: <b>Bahn</b>, <b>Uhr</b>. A doubled vowel is long too: <b>Tee</b>, <b>Boot</b>. Before a doubled consonant, or before two consonants, a vowel is usually short: <b>Wasser</b>, <b>Sonne</b>, <b>Hund</b>. The line shows the difference for ‹e›, ‹i› and ‹o›: long <i>ay, ee, oh</i>, short <i>eh, i, aw</i>. So <b>Tee</b> is <i>tay</i> but <b>Bett</b> (bed) is <i>beht</i>, and <b>Sohn</b> (son) is <i>zohn</i> but <b>Sonne</b> is <i>ZAWN-uh</i>. For ‹a› and ‹u› the line writes <i>ah</i> and <i>oo</i> either way.</p>
 {{tiles:ah eh ih oh uh aa ee oo}}
 {{ex:die Uhr|dee oor|the clock}}
 {{ex:das Bett|dahs beht|the bed}}
-<h3>Stress, r and capital letters</h3>
-<p>Most German words stress their first syllable, but <b>be-, ge-, ver-, er-</b> and <b>ent-</b> are never stressed, and many words borrowed from other languages stress the last syllable: <b>Hotel</b>, <b>Büro</b>. The German <b>r</b> is made in the throat, and after a vowel it often softens to an <i>uh</i>; listen to the audio. Every noun starts with a capital letter, and the small words <b>der, die, das</b> in front of nouns all mean "the" (lesson 3 explains them).</p>
+<h3>Stress, ‹r› and capital letters</h3>
+<p>Most German words stress their first syllable, but <b>be-</b>, <b>ge-</b>, <b>ver-</b>, <b>er-</b> and <b>ent-</b> are never stressed, and many words borrowed from other languages stress the last syllable: <b>Hotel</b>, <b>Büro</b>. The German <b>r</b> is made in the throat, and after a vowel it often softens to an <i>uh</i>; listen to the audio. Every noun starts with a capital letter, and the small words <b>der</b>, <b>die</b>, <b>das</b> in front of nouns all mean "the" (lesson 3 explains them).</p>
 {{ex:Entschuldigung!|ehnt-SHOOL-dih-goong|Excuse me!}}
-<div class="tip"><b>Most common mistake:</b> reading w the English way. <b>Wasser</b> with an English w → <b>Wasser</b> starting with a v sound.</div>
+<div class="tip"><strong>Most common mistake:</strong> reading ‹w› the English way. <b>Wasser</b> with an English w → <b>Wasser</b> starting with a v sound.</div>
 <h3>Read whole words</h3>
-<p>Now put the pieces together. Read a word left to right, one spelling at a time: <b>sch</b>, <b>ei</b> and <b>ie</b> each count as one sound. Most words stress their first syllable; the notes point out the ones that do not. German builds long words by joining short ones. Read a compound part by part, with the stress on the first part: <b>Fahr + Rad</b> is <b>Fahrrad</b> (bicycle), FAHR-raht. Each part keeps its own ending, so the d at the end of <b>Hand</b> still sounds t in <b>Handschuh</b> (glove). Sound out every card below before you flip it.</p>
+<p>Now put the pieces together. Read a word left to right, one spelling at a time: <b>sch</b>, <b>ei</b> and <b>ie</b> each count as one sound. Most words stress their first syllable; the notes point out the ones that do not. German builds long words by joining short ones. Read a compound part by part, with the stress on the first part: <b>Fahr</b> + <b>Rad</b> is <b>Fahrrad</b> (bicycle), FAHR-raht. Each part keeps its own ending, so the ‹d› at the end of <b>Hand</b> still sounds t in <b>Handschuh</b> (glove). Sound out every card below before you flip it.</p>
 {{ex:das Fahrrad|dahs FAHR-raht|the bicycle}}
 {{ex:der Handschuh|dayr HAHNT-shoo|the glove}}
 `,
     check: [
-      ["How do you say the w in Wasser?", ["Like English v", "Like English w", "Like English f", "It is silent"], 0, "German w always sounds like English v."],
-      ["Which syllable carries the stress in Entschuldigung?", ["The first: ent", "The second: schul", "The third: di", "The last: gung"], 1, "ent- is never stressed, so the stress falls on the next syllable: ehnt-SHOOL-dih-goong."],
-      ["How many syllables does Bitte have?", ["One: the final e is silent", "Three", "Two: the final e is said, BIT-uh", "It depends on the speaker"], 2, "A final e is always pronounced in German, like the a in about."]
+      ["How do you say the ‹w› in ‹Wasser›?",["Like English v","Like English w","Like English f","It is silent"],0,"German ‹w› always sounds like English v."],
+      ["Which syllable carries the stress in ‹Entschuldigung›?",["The first: ‹ent›","The second: ‹schul›","The third: ‹di›","The last: ‹gung›"],1,"‹ent-› is never stressed, so the stress falls on the next syllable: ehnt-SHOOL-dih-goong."],
+      ["How many syllables does ‹Bitte› have?",["One: the final ‹e› is silent","Three","Two: the final ‹e› is said, BIT-uh","It depends on the speaker"],2,"A final ‹e› is always pronounced in German, like the a in about."]
     ],
     practice: [
-      ["mc", "Which word starts with the sound of English f?", "Vater", "Wasser", "Wein", "Zeit", "v sounds like English f: Vater. w sounds like English v."],
-      ["mc", "Which word has the ee sound of English see?", "Wien", "Wein", "mein", "Zeit", "ie sounds like ee; ei sounds like eye."],
-      ["mc", "How does Hund (dog) end?", "With a t sound", "With a d sound, as in hound", "With no sound: the d is silent", "With an ng sound", "b, d and g at the end of a word sound like p, t and k."],
-      ["mc", "In which word is ch throaty, like Scottish loch?", "Buch", "ich", "Milch", "sprechen", "ch is throaty only after a, o, u and au; after i, after a consonant and after e it is soft."],
-      ["mc", "Which syllable is stressed in verstehen (to understand)?", "ste, in the middle", "ver, at the start", "hen, at the end", "None: German has no stress", "ver- is never stressed, so the stress moves to the stem: fehr-SHTAY-uhn."],
-      ["or", "the street", "die Straße", "der", "Straße is feminine: die Straße."],
-      ["or", "the book", "das Buch", "die", "Buch is neuter: das Buch."],
-      ["or", "the day", "der Tag", "das", "Tag is masculine: der Tag."],
-      ["fi", "__ Zeit", "the time", "die", "der|das|den", "Zeit is feminine: die Zeit."],
-      ["fi", "Ich wohne in W__n.", "I live in Vienna.", "ie", "ei|i|ee", "Vienna is Wien, with ie for the ee sound. Wein means wine."],
-      ["fi", "Das ist sch__n.", "That's beautiful.", "ö", "o|ü|ä", "schön has ö. schon, with a plain o, means already.", "!strict"],
-      ["ty", "the wine", "der Wein", "Wein · ei sounds like eye", "die das", "Wein is masculine: der Wein."],
-      ["ty", "the dog", "der Hund", "Hund · a final d sounds like t", "das", "Hund is masculine: der Hund."],
-      ["ty", "beautiful", "schön", "ö · say ay with rounded lips", "schon", "schön needs its umlaut: schon is a different word, already.", "!strict"]
+      ["mc","Which word starts with the sound of English f?","Vater","Wasser","Wein","Zeit","‹v› sounds like English f: ‹Vater›. ‹w› sounds like English v."],
+      ["mc","Which word has the ee sound of English see?","Wien","Wein","mein","Zeit","‹ie› sounds like ee; ‹ei› sounds like eye."],
+      ["mc","How does ‹Hund› (dog) end?","With a t sound","With a d sound, as in hound","With no sound: the ‹d› is silent","With an ng sound","‹b›, ‹d› and ‹g› at the end of a word sound like p, t and k."],
+      ["mc","In which word is ‹ch› throaty, like Scottish loch?","Buch","ich","Milch","sprechen","‹ch› is throaty only after ‹a›, ‹o›, ‹u› and ‹au›; after ‹i›, after a consonant and after ‹e› it is soft."],
+      ["mc","Which syllable is stressed in ‹verstehen› (to understand)?","‹ste›, in the middle","‹ver›, at the start","‹hen›, at the end","None: German has no stress","‹ver-› is never stressed, so the stress moves to the stem: fehr-SHTAY-uhn."],
+      ["or","the street","die Straße","der","‹Straße› is feminine: ‹die Straße›."],
+      ["or","the book","das Buch","die","‹Buch› is neuter: ‹das Buch›."],
+      ["or","the day","der Tag","das","‹Tag› is masculine: ‹der Tag›."],
+      ["fi","__ Zeit","the time","die","der|das|den","‹Zeit› is feminine: ‹die Zeit›."],
+      ["fi","Ich wohne in W__n.","I live in Vienna.","ie","ei|i|ee","Vienna is ‹Wien›, with ‹ie› for the ee sound. ‹Wein› means wine."],
+      ["fi","Das ist sch__n.","That's beautiful.","ö","o|ü|ä","‹schön› has ‹ö›. ‹schon›, with a plain ‹o›, means already.","!strict"],
+      ["ty","the wine","der Wein","‹Wein› · ‹ei› sounds like eye","die das","‹Wein› is masculine: ‹der Wein›."],
+      ["ty","the dog","der Hund","‹Hund› · a final ‹d› sounds like t","das","‹Hund› is masculine: ‹der Hund›."],
+      ["ty","beautiful","schön","‹ö› · say ay with rounded lips","schon","‹schön› needs its umlaut: ‹schon› is a different word, already.","!strict"]
     ]
   },
   {
     id: "greetings",
-    title: "Greetings: Sie and du",
-    blurb: "Greet people at any time of day, give your name and where you are from, and choose between Sie and du.",
+    title: "Greetings: ‹Sie› and ‹du›",
+    blurb: "Greet people at any time of day, give your name and where you are from, and choose between ‹Sie› and ‹du›.",
     deck: "Greetings and courtesy",
     body: `
 <p>Greetings change with the time of day, and German has two ways to say "you". Start with the polite one: it is what you need with strangers.</p>
@@ -88,48 +88,48 @@ module.exports = [
 {{ex:Guten Tag, Frau Becker.|GOO-tuhn tahk frow BEHK-uh|Hello, Ms. Becker.}}
 <h3>Two ways to say "you"</h3>
 <p>English has one "you". German uses <b>Sie</b> for people you would call <b>Frau</b> or <b>Herr</b> plus their last name: staff, officials, older strangers, customers. It uses <b>du</b> for friends, family, children and people your age at a party. When in doubt, use <b>Sie</b>: too polite is quickly fixed, too casual can sound rude.</p>
-<div class="tbl"><table><tr><th></th><th>To a stranger (Sie)</th><th>To a friend (du)</th></tr><tr><td>What's your name?</td><td class="k">Wie heißen Sie?</td><td class="k">Wie heißt du?</td></tr><tr><td>Where are you from?</td><td class="k">Woher kommen Sie?</td><td class="k">Woher kommst du?</td></tr><tr><td>How are you?</td><td class="k">Wie geht es Ihnen?</td><td class="k">Wie geht's? Wie geht es dir?</td></tr></table></div>
+<div class="tbl"><table><tr><th></th><th>To a stranger (‹Sie›)</th><th>To a friend (‹du›)</th></tr><tr><td>What's your name?</td><td class="k">Wie heißen Sie?</td><td class="k">Wie heißt du?</td></tr><tr><td>Where are you from?</td><td class="k">Woher kommen Sie?</td><td class="k">Woher kommst du?</td></tr><tr><td>How are you?</td><td class="k">Wie geht es Ihnen?</td><td class="k">Wie geht's? Wie geht es dir?</td></tr></table></div>
 {{ex:Wie heißen Sie?|vee HAI-suhn zee|What's your name? (formal)}}
 {{ex:Hallo! Wie heißt du?|HAHL-oh vee haist doo|Hi! What's your name? (to a friend)}}
 <h3>The verb changes too</h3>
-<p>The form of a verb you find in a word list is the infinitive: <b>heißen</b> (to be called), <b>kommen</b> (to come). With <b>Sie</b>, the verb looks exactly like the infinitive: <b>Sie heißen, Sie kommen</b>. With <b>du</b>, it ends in <b>-st</b>: <b>kommst</b>. <b>heißen</b> already ends in an s sound, so it adds only <b>-t</b>: <b>du heißt</b>. When you talk about yourself, with <b>ich</b>, the verb ends in <b>-e</b>.</p>
+<p>The form of a verb you find in a word list is the infinitive: <b>heißen</b> (to be called), <b>kommen</b> (to come). With <b>Sie</b>, the verb looks exactly like the infinitive: <b>Sie heißen</b>, <b>Sie kommen</b>. With <b>du</b>, it ends in <b>-st</b>: <b>kommst</b>. <b>heißen</b> already ends in an s sound, so it adds only <b>-t</b>: <b>du heißt</b>. When you talk about yourself, with <b>ich</b>, the verb ends in <b>-e</b>.</p>
 {{ex:Woher kommen Sie?|voh-HAYR KAWM-uhn zee|Where are you from? (formal)}}
 {{ex:Ich komme aus Chicago.|ihh KAWM-uh ows shih-KAH-goh|I'm from Chicago.}}
 {{ex:Ich heiße Emily.|ihh HAI-suh EH-mih-lee|My name is Emily.}}
-<h3>Sie or sie?</h3>
-<p><b>Sie</b> with a capital S means "you". <b>sie</b> with a small s means "she" or "they". In speech they sound the same; in writing the capital letter matters.</p>
+<h3>‹Sie› or ‹sie›?</h3>
+<p><b>Sie</b> with a capital ‹S› means "you". <b>sie</b> with a small ‹s› means "she" or "they". In speech they sound the same; in writing the capital letter matters.</p>
 <h3>Small polite words</h3>
 <p><b>danke</b> is "thank you". <b>bitte</b> means "please" and is also the answer to <b>danke</b>: "you're welcome". <b>Entschuldigung</b> gets attention or says sorry.</p>
 {{ex:Gut, danke. Und Ihnen?|goot DAHN-kuh oont EE-nuhn|Fine, thanks. And you? (formal)}}
 {{ex:Auf Wiedersehen!|owf VEE-duh-zay-uhn|Goodbye!}}
-<div class="tip"><b>Most common mistake:</b> using du with everyone. <b>Wie heißt du?</b> to a hotel receptionist → <b>Wie heißen Sie?</b></div>
+<div class="tip"><strong>Most common mistake:</strong> using ‹du› with everyone. <b>Wie heißt du?</b> to a hotel receptionist → <b>Wie heißen Sie?</b></div>
 `,
     check: [
-      ["Which one asks a stranger's name?", ["Wie heißen sie?", "Wie heißen Sie?", "Wie heißt du?", "Wie heißt sie?"], 1, "Sie with a capital S is the polite you. With a small s, Wie heißen sie? asks what THEY are called."],
-      ["Someone says Danke. What do you answer?", ["Danke.", "Tschüss.", "Bitte.", "Gute Nacht."], 2, "bitte means please, and it is also the answer to danke: you're welcome."],
-      ["Your new friend at a party asks where you are from. What did they say?", ["Woher kommst du?", "Woher kommen du?", "Woher kommen Sie?", "Woher kommt du?"], 0, "Among friends people use du, and the verb with du ends in -st: kommst."]
+      ["Which one asks a stranger's name?",["Wie heißen sie?","Wie heißen Sie?","Wie heißt du?","Wie heißt sie?"],1,"‹Sie› with a capital ‹S› is the polite you. With a small ‹s›, ‹Wie heißen sie?› asks what THEY are called."],
+      ["Someone says ‹Danke›. What do you answer?",["Danke.","Tschüss.","Bitte.","Gute Nacht."],2,"‹bitte› means please, and it is also the answer to ‹danke›: you're welcome."],
+      ["Your new friend at a party asks where you are from. What did they say?",["Woher kommst du?","Woher kommen du?","Woher kommen Sie?","Woher kommt du?"],0,"Among friends people use ‹du›, and the verb with ‹du› ends in ‹-st›: ‹kommst›."]
     ],
     practice: [
-      ["mc", "It's 8 a.m. at your hotel. You greet the receptionist with…", "Guten Morgen!", "Gute Nacht!", "Guten Abend!", "Tschüss!", "Guten Morgen is the early greeting; Gute Nacht is only for leaving late or going to bed."],
-      ["mc", "Which one asks a stranger's name?", "Wie heißen Sie?", "Wie heißt du?", "Wie heißt Sie?", "Wie heiße Sie?", "To a stranger, use Sie with the verb in the infinitive: heißen."],
-      ["mc", "Someone says Danke! You answer…", "Bitte!", "Gute Nacht!", "Hallo!", "Entschuldigung!", "bitte means please, and also you're welcome."],
-      ["mc", "You bump into someone on the train. You say…", "Entschuldigung!", "Bitte!", "Tschüss!", "Guten Abend!", "Entschuldigung says sorry and also gets someone's attention."],
-      ["mc", "Which goodbye is casual?", "Tschüss!", "Auf Wiedersehen!", "Guten Tag!", "Gute Nacht!", "Tschüss is the casual goodbye; Auf Wiedersehen is the polite one."],
-      ["or", "What's your name? (formal)", "Wie heißen Sie?", "heißt", "The Sie form is the same as the infinitive: heißen."],
-      ["or", "Where are you from? (to a friend)", "Woher kommst du?", "kommen", "The du form ends in -st: kommst."],
-      ["or", "How are you? (formal)", "Wie geht es Ihnen?", "Sie", "In this question, Sie changes to Ihnen: Wie geht es Ihnen?"],
-      ["fi", "Woher __ Sie?", "Where are you from? (formal)", "kommen", "kommst|kommt|komme", "The Sie form is the same as the infinitive: kommen."],
-      ["fi", "Wie __ du?", "What's your name? (to a friend)", "heißt", "heißen|heiße|heißst", "heiß- already ends in ß, so the du form adds only -t: heißt."],
-      ["fi", "Guten __!", "Good evening!", "Abend", "Nacht|Morgen|Tag", "Good evening is Guten Abend; Gute Nacht is only for leaving late or going to bed."],
-      ["ty", "My name is Anna.", "Ich heiße Anna.|Mein Name ist Anna.", "heißen · Anna", "heißt", "The ich form ends in -e: heiße."],
-      ["ty", "Where are you from? (formal)", "Woher kommen Sie?", "woher · kommen · Sie", "kommst", "The Sie form is the same as the infinitive: kommen."],
-      ["ty", "How are you? (to a friend)", "Wie geht's?|Wie gehts?|Wie geht es dir?|Wie geht's dir?|Wie gehts dir?", "gehen · the short casual question", "Ihnen", "Wie geht's? is short for Wie geht es dir?, the casual question for friends."]
+      ["mc","It's 8 a.m. at your hotel. You greet the receptionist with…","Guten Morgen!","Gute Nacht!","Guten Abend!","Tschüss!","‹Guten Morgen› is the early greeting; ‹Gute Nacht› is only for leaving late or going to bed."],
+      ["mc","Which one asks a stranger's name?","Wie heißen Sie?","Wie heißt du?","Wie heißt Sie?","Wie heiße Sie?","To a stranger, use ‹Sie› with the verb in the infinitive: ‹heißen›."],
+      ["mc","Someone says ‹Danke!› You answer…","Bitte!","Gute Nacht!","Hallo!","Entschuldigung!","‹bitte› means please, and also you're welcome."],
+      ["mc","You bump into someone on the train. You say…","Entschuldigung!","Bitte!","Tschüss!","Guten Abend!","‹Entschuldigung› says sorry and also gets someone's attention."],
+      ["mc","Which goodbye is casual?","Tschüss!","Auf Wiedersehen!","Guten Tag!","Gute Nacht!","‹Tschüss› is the casual goodbye; ‹Auf Wiedersehen› is the polite one."],
+      ["or","What's your name? (formal)","Wie heißen Sie?","heißt","The ‹Sie› form is the same as the infinitive: ‹heißen›."],
+      ["or","Where are you from? (to a friend)","Woher kommst du?","kommen","The ‹du› form ends in ‹-st›: ‹kommst›."],
+      ["or","How are you? (formal)","Wie geht es Ihnen?","Sie","In this question, ‹Sie› changes to ‹Ihnen›: ‹Wie geht es Ihnen?›"],
+      ["fi","Woher __ Sie?","Where are you from? (formal)","kommen","kommst|kommt|komme","The ‹Sie› form is the same as the infinitive: ‹kommen›."],
+      ["fi","Wie __ du?","What's your name? (to a friend)","heißt","heißen|heiße|heißst","‹heiß-› already ends in ‹ß›, so the ‹du› form adds only ‹-t›: ‹heißt›."],
+      ["fi","Guten __!","Good evening!","Abend","Nacht|Morgen|Tag","Good evening is ‹Guten Abend›; ‹Gute Nacht› is only for leaving late or going to bed."],
+      ["ty","My name is Anna.","Ich heiße Anna.|Mein Name ist Anna.","‹heißen› · Anna","heißt","The ‹ich› form ends in ‹-e›: ‹heiße›."],
+      ["ty","Where are you from? (formal)","Woher kommen Sie?","‹woher› · ‹kommen› · ‹Sie›","kommst","The ‹Sie› form is the same as the infinitive: ‹kommen›."],
+      ["ty","How are you? (to a friend)","Wie geht's?|Wie gehts?|Wie geht es dir?|Wie geht's dir?|Wie gehts dir?","‹gehen› · the short casual question","Ihnen","‹Wie geht's?› is short for ‹Wie geht es dir?›, the casual question for friends."]
     ]
   },
   {
     id: "gender",
-    title: "der, die, das and plurals",
-    blurb: "Learn every noun with its der, die or das, spot the endings that give the gender away, and make plurals with die.",
+    title: "‹der›, ‹die›, ‹das› and plurals",
+    blurb: "Learn every noun with its ‹der›, ‹die› or ‹das›, spot the endings that give the gender away, and make plurals with ‹die›.",
     deck: "People and family",
     body: `
 <p>English has one word for "the". German has three for one person or thing, because every noun has a gender: masculine, feminine or neuter.</p>
@@ -150,49 +150,49 @@ module.exports = [
 {{ex:das Schlafzimmer|dahs SHLAHF-tsim-uh|the bedroom}}
 <h3>Plurals</h3>
 <p>Here is the good news: in the plural, every noun takes <b>die</b>, whatever its gender. The bad news: the noun itself changes in several ways, so learn the plural with the noun too.</p>
-<div class="tbl"><table><tr><th>Change</th><th>One</th><th>More than one</th></tr><tr><td>add -e</td><td class="k">der Tag</td><td class="k">die Tage</td></tr><tr><td>add -n or -en</td><td class="k">die Frau</td><td class="k">die Frauen</td></tr><tr><td>add -er and an umlaut</td><td class="k">das Buch</td><td class="k">die Bücher</td></tr><tr><td>umlaut only</td><td class="k">die Mutter</td><td class="k">die Mütter</td></tr><tr><td>add -s</td><td class="k">das Auto</td><td class="k">die Autos</td></tr><tr><td>no change</td><td class="k">der Lehrer</td><td class="k">die Lehrer</td></tr></table></div>
+<div class="tbl"><table><tr><th>Change</th><th>One</th><th>More than one</th></tr><tr><td>add ‹-e›</td><td class="k">der Tag</td><td class="k">die Tage</td></tr><tr><td>add ‹-n› or ‹-en›</td><td class="k">die Frau</td><td class="k">die Frauen</td></tr><tr><td>add ‹-er› and an umlaut</td><td class="k">das Buch</td><td class="k">die Bücher</td></tr><tr><td>umlaut only</td><td class="k">die Mutter</td><td class="k">die Mütter</td></tr><tr><td>add ‹-s›</td><td class="k">das Auto</td><td class="k">die Autos</td></tr><tr><td>no change</td><td class="k">der Lehrer</td><td class="k">die Lehrer</td></tr></table></div>
 {{ex:die Kinder|dee KIN-duh|the children}}
 {{ex:die Bücher|dee BEWHH-uh|the books}}
 <p>So <b>die</b> has two jobs: a feminine noun (<b>die Frau</b>) or any plural (<b>die Kinder</b>, <b>die Tage</b>).</p>
-<div class="tip"><b>Most common mistake:</b> using die for everything. <b>die Tisch</b> → <b>der Tisch</b>. Say the article every time you say the noun, until it sounds wrong without it.</div>
+<div class="tip"><strong>Most common mistake:</strong> using ‹die› for everything. <b>die Tisch</b> → <b>der Tisch</b>. Say the article every time you say the noun, until it sounds wrong without it.</div>
 `,
     check: [
-      ["Why is it das Mädchen, although a girl is female?", ["Every noun ending in -chen is neuter", "Young people are always neuter", "It is an old mistake that stuck", "Mädchen is a plural"], 0, "-chen always makes a noun neuter: grammar follows the ending, not the meaning."],
-      ["Which article do plural nouns take?", ["der", "das", "die, for all three genders", "It depends on the gender"], 2, "In the plural every noun takes die: die Tage, die Frauen, die Bücher."],
-      ["What is the best way to learn the word Tisch (table)?", ["Just the noun: Tisch", "With its article: der Tisch", "With an English article: the Tisch", "Guess the gender from the meaning"], 1, "Gender cannot be guessed from the meaning, so learn the article and the noun together."]
+      ["Why is it ‹das Mädchen›, although a girl is female?",["Every noun ending in ‹-chen› is neuter","Young people are always neuter","It is an old mistake that stuck","‹Mädchen› is a plural"],0,"‹-chen› always makes a noun neuter: grammar follows the ending, not the meaning."],
+      ["Which article do plural nouns take?",["‹der›","‹das›","‹die›, for all three genders","It depends on the gender"],2,"In the plural every noun takes ‹die›: ‹die Tage›, ‹die Frauen›, ‹die Bücher›."],
+      ["What is the best way to learn the word ‹Tisch› (table)?",["Just the noun: ‹Tisch›","With its article: ‹der Tisch›","With an English article: the ‹Tisch›","Guess the gender from the meaning"],1,"Gender cannot be guessed from the meaning, so learn the article and the noun together."]
     ],
     practice: [
-      ["mc", "the newspaper =", "die Zeitung", "der Zeitung", "das Zeitung", "den Zeitung", "Nouns ending in -ung are always feminine: die Zeitung."],
-      ["mc", "the girl (one girl) =", "das Mädchen", "die Mädchen", "der Mädchen", "dem Mädchen", "-chen makes a noun neuter: das Mädchen. die Mädchen means the girls."],
-      ["mc", "Which article goes with every plural noun?", "die", "der", "das", "den", "Whatever the gender, plural nouns take die."],
-      ["mc", "Why is it das Schlafzimmer (bedroom)?", "The last part decides: das Zimmer", "Rooms are always neuter", "der Schlaf is neuter", "Long words are always neuter", "A compound noun takes the gender of its last part: das Zimmer, so das Schlafzimmer."],
-      ["mc", "the mothers =", "die Mütter", "die Mutter", "die Muttern", "die Mutters", "Mutter makes its plural with an umlaut only: die Mütter.", "!strict"],
-      ["or", "the mother", "die Mutter", "der", "Mutter is feminine: die Mutter."],
-      ["or", "the girl", "das Mädchen", "die", "Mädchen is neuter, because every noun ending in -chen is: das Mädchen."],
-      ["or", "the books", "die Bücher", "das", "The plural article is always die, even for a neuter noun: die Bücher."],
-      ["fi", "__ Freiheit", "the freedom", "die", "der|das|den", "Nouns ending in -heit are feminine: die Freiheit."],
-      ["fi", "zwei __", "two mothers", "Mütter", "Mutter|Muttern|Mutters", "Mutter makes its plural with an umlaut: Mütter.", "!strict"],
-      ["fi", "__ Kind", "the child", "das", "der|die|den", "Kind is neuter: das Kind."],
-      ["ty", "the father", "der Vater", "Vater · v sounds like f", "die das", "Vater is masculine: der Vater."],
-      ["ty", "the newspaper", "die Zeitung", "Zeitung · the ending -ung", "der das", "Nouns ending in -ung are feminine: die Zeitung."],
-      ["ty", "the children", "die Kinder", "Kind · plural Kinder", "das der", "The plural article is always die: die Kinder."]
+      ["mc","the newspaper =","die Zeitung","der Zeitung","das Zeitung","den Zeitung","Nouns ending in ‹-ung› are always feminine: ‹die Zeitung›."],
+      ["mc","the girl (one girl) =","das Mädchen","die Mädchen","der Mädchen","dem Mädchen","‹-chen› makes a noun neuter: ‹das Mädchen›. ‹die Mädchen› means the girls."],
+      ["mc","Which article goes with every plural noun?","die","der","das","den","Whatever the gender, plural nouns take ‹die›."],
+      ["mc","Why is it ‹das Schlafzimmer› (bedroom)?","The last part decides: ‹das Zimmer›","Rooms are always neuter","‹der Schlaf› is neuter","Long words are always neuter","A compound noun takes the gender of its last part: ‹das Zimmer›, so ‹das Schlafzimmer›."],
+      ["mc","the mothers =","die Mütter","die Mutter","die Muttern","die Mutters","‹Mutter› makes its plural with an umlaut only: ‹die Mütter›.","!strict"],
+      ["or","the mother","die Mutter","der","‹Mutter› is feminine: ‹die Mutter›."],
+      ["or","the girl","das Mädchen","die","‹Mädchen› is neuter, because every noun ending in ‹-chen› is: ‹das Mädchen›."],
+      ["or","the books","die Bücher","das","The plural article is always ‹die›, even for a neuter noun: ‹die Bücher›."],
+      ["fi","__ Freiheit","the freedom","die","der|das|den","Nouns ending in ‹-heit› are feminine: ‹die Freiheit›."],
+      ["fi","zwei __","two mothers","Mütter","Mutter|Muttern|Mutters","‹Mutter› makes its plural with an umlaut: ‹Mütter›.","!strict"],
+      ["fi","__ Kind","the child","das","der|die|den","‹Kind› is neuter: ‹das Kind›."],
+      ["ty","the father","der Vater","‹Vater› · ‹v› sounds like f","die das","‹Vater› is masculine: ‹der Vater›."],
+      ["ty","the newspaper","die Zeitung","‹Zeitung› · the ending ‹-ung›","der das","Nouns ending in ‹-ung› are feminine: ‹die Zeitung›."],
+      ["ty","the children","die Kinder","‹Kind› · plural ‹Kinder›","das der","The plural article is always ‹die›: ‹die Kinder›."]
     ]
   },
   {
     id: "sein-haben",
-    title: "sein and haben: I am, I have",
+    title: "‹sein› and ‹haben›: I am, I have",
     blurb: "Say who you are, what you do, how old you are and what you have, with the two most important German verbs.",
     deck: "About me",
     body: `
 <p>English changes "be" a little: <i>I am, you are, he is</i>. German does the same with <b>sein</b> (to be) and <b>haben</b> (to have), but every person has its own form. Learn these two by heart: almost every sentence needs one, and they are the two verbs that break the regular pattern most.</p>
-<h3>sein and haben</h3>
-<div class="tbl"><table><tr><th></th><th>sein (be)</th><th>haben (have)</th></tr><tr><td class="k">ich</td><td class="k">bin</td><td class="k">habe</td></tr><tr><td class="k">du</td><td class="k">bist</td><td class="k">hast</td></tr><tr><td class="k">er, sie, es</td><td class="k">ist</td><td class="k">hat</td></tr><tr><td class="k">wir</td><td class="k">sind</td><td class="k">haben</td></tr><tr><td class="k">ihr</td><td class="k">seid</td><td class="k">habt</td></tr><tr><td class="k">sie, Sie</td><td class="k">sind</td><td class="k">haben</td></tr></table></div>
-<p><b>er</b> is "he", <b>sie</b> "she", <b>es</b> "it". <b>ihr</b> is "you" for a group of friends. The last row is for <b>sie</b> (they) and for <b>Sie</b> (formal you, with a capital S): they always share a form.</p>
+<h3>‹sein› and ‹haben›</h3>
+<div class="tbl"><table><tr><th></th><th>‹sein› (be)</th><th>‹haben› (have)</th></tr><tr><td class="k">ich</td><td class="k">bin</td><td class="k">habe</td></tr><tr><td class="k">du</td><td class="k">bist</td><td class="k">hast</td></tr><tr><td class="k">er, sie, es</td><td class="k">ist</td><td class="k">hat</td></tr><tr><td class="k">wir</td><td class="k">sind</td><td class="k">haben</td></tr><tr><td class="k">ihr</td><td class="k">seid</td><td class="k">habt</td></tr><tr><td class="k">sie, Sie</td><td class="k">sind</td><td class="k">haben</td></tr></table></div>
+<p><b>er</b> is "he", <b>sie</b> "she", <b>es</b> "it". <b>ihr</b> is "you" for a group of friends. The last row is for <b>sie</b> (they) and for <b>Sie</b> (formal you, with a capital ‹S›): they always share a form.</p>
 {{ex:Ich bin müde.|ihh bin MEW-duh|I'm tired.}}
 {{ex:Wir sind aus Hamburg.|veer zint ows HAHM-boork|We're from Hamburg.}}
 {{ex:Ihr seid sehr nett.|eer zait zayr neht|You're very nice. (to friends)}}
 <h3>Jobs: no article</h3>
-<p>English says "I'm <i>a</i> teacher". German leaves out "a" before a job: <b>Ich bin Lehrerin</b>. A woman adds <b>-in</b> to most job words; a man says <b>Ich bin Lehrer</b>. Many job words work this way: <b>Student, Studentin</b>; <b>Ingenieur, Ingenieurin</b>.</p>
+<p>English says "I'm <i>a</i> teacher". German leaves out "a" before a job: <b>Ich bin Lehrerin</b>. A woman adds <b>-in</b> to most job words; a man says <b>Ich bin Lehrer</b>. Many job words work this way: <b>Student</b>, <b>Studentin</b>; <b>Ingenieur</b>, <b>Ingenieurin</b>.</p>
 {{ex:Ich bin Lehrerin.|ihh bin LAY-ruh-rin|I'm a teacher. (a woman speaking)}}
 <h3>Age: the same as English</h3>
 <p>Good news: age uses <b>sein</b>, just as in English. You can also leave out <b>Jahre alt</b> and just say the number, as English speakers do.</p>
@@ -204,28 +204,28 @@ module.exports = [
 <h3>Hungry and thirsty</h3>
 <p>Some feelings use <b>haben</b> where English uses "be". English is hungry; German <i>has</i> hunger. <b>Ich habe Hunger</b> and <b>Ich habe Durst</b> are the everyday ways to say "I'm hungry" and "I'm thirsty".</p>
 {{ex:Ich habe Hunger.|ihh HAH-buh HOONG-uh|I'm hungry.}}
-<div class="tip"><b>Most common mistake:</b> one form for every person. <b>Er sind Lehrer</b> → <b>Er ist Lehrer</b>. And with Sie: <b>Sie hast</b> → <b>Sie haben</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> one form for every person. <b>Er sind Lehrer</b> → <b>Er ist Lehrer</b>. And with ‹Sie›: <b>Sie hast</b> → <b>Sie haben</b>.</div>
 `,
     check: [
-      ["How do you say I'm a doctor? (a woman speaking)", ["Ich bin eine Ärztin.", "Ich habe Ärztin.", "Ich bin Ärztin.", "Ich bin ein Arzt."], 2, "No article before a job, and a woman uses the -in form: Ich bin Ärztin."],
-      ["Which form of haben goes with Sie (formal you)?", ["haben", "hast", "hat", "habt"], 0, "Sie always shares the form of sie (they): Sie haben."],
-      ["How do you usually say I'm hungry?", ["Ich bin Hunger.", "Ich habe Hunger.", "Ich habe hungrig.", "Ich bin Hungers."], 1, "German says I have hunger: Ich habe Hunger."]
+      ["How do you say I'm a doctor? (a woman speaking)",["Ich bin eine Ärztin.","Ich habe Ärztin.","Ich bin Ärztin.","Ich bin ein Arzt."],2,"No article before a job, and a woman uses the ‹-in› form: ‹Ich bin Ärztin›."],
+      ["Which form of ‹haben› goes with ‹Sie› (formal you)?",["haben","hast","hat","habt"],0,"‹Sie› always shares the form of ‹sie› (they): ‹Sie haben›."],
+      ["How do you usually say I'm hungry?",["Ich bin Hunger.","Ich habe Hunger.","Ich habe hungrig.","Ich bin Hungers."],1,"German says I have hunger: ‹Ich habe Hunger›."]
     ],
     practice: [
-      ["mc", "Which sentence is right?", "Er ist Lehrer.", "Er sind Lehrer.", "Er bist Lehrer.", "Er hat Lehrer.", "er takes ist, and a job needs no article: Er ist Lehrer."],
-      ["mc", "Which form of sein goes with Sie (formal you)?", "sind", "ist", "seid", "bist", "Sie always shares the form of sie (they): Sie sind."],
-      ["mc", "I'm thirty years old =", "Ich bin dreißig Jahre alt.", "Ich habe dreißig Jahre.", "Ich habe dreißig Jahre alt.", "Ich bin dreißig alt Jahre.", "Age uses sein, as in English: Ich bin dreißig Jahre alt."],
-      ["mc", "I'm thirsty =", "Ich habe Durst.", "Ich bin Durst.", "Ich habe durstig.", "Ich bin Durst haben.", "German says I have thirst: Ich habe Durst."],
-      ["mc", "You are from Berlin. (to friends) =", "Ihr seid aus Berlin.", "Ihr sind aus Berlin.", "Ihr seit aus Berlin.", "Ihr ist aus Berlin.", "ihr takes seid, spelled with a d. seit is a different word, since."],
-      ["or", "We are tired.", "Wir sind müde.", "seid", "The wir form of sein is sind."],
-      ["or", "Anna has a sister.", "Anna hat eine Schwester.", "haben", "Anna takes the er/sie/es form: hat."],
-      ["or", "I'm a teacher. (a woman speaking)", "Ich bin Lehrerin.", "eine", "No article before a job: Ich bin Lehrerin."],
-      ["fi", "Wir __ müde.", "We're tired.", "sind", "seid|ist|bin", "The wir form of sein is sind."],
-      ["fi", "Du __ eine Schwester.", "You have a sister. (to a friend)", "hast", "habst|hat|habe", "The du form of haben is hast, with no b."],
-      ["fi", "Ich __ Ingenieurin.", "I'm an engineer. (a woman speaking)", "bin", "habe|ist|bist", "Jobs use sein: Ich bin Ingenieurin."],
-      ["ty", "You're tired. (to a friend)", "Du bist müde.", "sein · müde", "ist", "The du form of sein is bist."],
-      ["ty", "We have a car.", "Wir haben ein Auto.", "haben · das Auto", "habt hat", "The wir form of haben is haben, and das Auto is neuter: ein Auto."],
-      ["ty", "I'm hungry. (use haben)", "Ich habe Hunger.|Ich hab Hunger.", "haben · der Hunger", "bin", "German says I have hunger: Ich habe Hunger."]
+      ["mc","Which sentence is right?","Er ist Lehrer.","Er sind Lehrer.","Er bist Lehrer.","Er hat Lehrer.","‹er› takes ‹ist›, and a job needs no article: ‹Er ist Lehrer›."],
+      ["mc","Which form of ‹sein› goes with ‹Sie› (formal you)?","sind","ist","seid","bist","‹Sie› always shares the form of ‹sie› (they): ‹Sie sind›."],
+      ["mc","I'm thirty years old =","Ich bin dreißig Jahre alt.","Ich habe dreißig Jahre.","Ich habe dreißig Jahre alt.","Ich bin dreißig alt Jahre.","Age uses ‹sein›, as in English: ‹Ich bin dreißig Jahre alt›."],
+      ["mc","I'm thirsty =","Ich habe Durst.","Ich bin Durst.","Ich habe durstig.","Ich bin Durst haben.","German says I have thirst: ‹Ich habe Durst›."],
+      ["mc","You are from Berlin. (to friends) =","Ihr seid aus Berlin.","Ihr sind aus Berlin.","Ihr seit aus Berlin.","Ihr ist aus Berlin.","‹ihr› takes ‹seid›, spelled with a ‹d›. ‹seit› is a different word, since."],
+      ["or","We are tired.","Wir sind müde.","seid","The ‹wir› form of ‹sein› is ‹sind›."],
+      ["or","Anna has a sister.","Anna hat eine Schwester.","haben","Anna takes the ‹er›/‹sie›/‹es› form: ‹hat›."],
+      ["or","I'm a teacher. (a woman speaking)","Ich bin Lehrerin.","eine","No article before a job: ‹Ich bin Lehrerin›."],
+      ["fi","Wir __ müde.","We're tired.","sind","seid|ist|bin","The ‹wir› form of ‹sein› is ‹sind›."],
+      ["fi","Du __ eine Schwester.","You have a sister. (to a friend)","hast","habst|hat|habe","The ‹du› form of ‹haben› is ‹hast›, with no ‹b›."],
+      ["fi","Ich __ Ingenieurin.","I'm an engineer. (a woman speaking)","bin","habe|ist|bist","Jobs use ‹sein›: ‹Ich bin Ingenieurin›."],
+      ["ty","You're tired. (to a friend)","Du bist müde.","‹sein› · ‹müde›","ist","The ‹du› form of ‹sein› is ‹bist›."],
+      ["ty","We have a car.","Wir haben ein Auto.","‹haben› · ‹das Auto›","habt hat","The ‹wir› form of ‹haben› is ‹haben›, and ‹das Auto› is neuter: ‹ein Auto›."],
+      ["ty","I'm hungry. (use ‹haben›)","Ich habe Hunger.|Ich hab Hunger.","‹haben› · ‹der Hunger›","bin","German says I have hunger: ‹Ich habe Hunger›."]
     ]
   },
   {
@@ -237,48 +237,48 @@ module.exports = [
 <p>English verbs barely change: <i>I live, you live, she lives</i>. German verbs take a different ending for almost every person. The good news: most verbs follow one pattern.</p>
 <h3>Stem plus ending</h3>
 <p>Take the infinitive, the form in a word list (<b>wohnen</b>, to live), and drop <b>-en</b>. What is left is the stem: <b>wohn-</b>. Then add the ending that matches the subject.</p>
-<div class="tbl"><table><tr><th>Subject</th><th>Ending</th><th>wohnen</th></tr><tr><td class="k">ich</td><td class="k">-e</td><td class="k">wohne</td></tr><tr><td class="k">du</td><td class="k">-st</td><td class="k">wohnst</td></tr><tr><td class="k">er, sie, es</td><td class="k">-t</td><td class="k">wohnt</td></tr><tr><td class="k">wir</td><td class="k">-en</td><td class="k">wohnen</td></tr><tr><td class="k">ihr</td><td class="k">-t</td><td class="k">wohnt</td></tr><tr><td class="k">sie, Sie</td><td class="k">-en</td><td class="k">wohnen</td></tr></table></div>
+<div class="tbl"><table><tr><th>Subject</th><th>Ending</th><th>‹wohnen›</th></tr><tr><td class="k">ich</td><td class="k">-e</td><td class="k">wohne</td></tr><tr><td class="k">du</td><td class="k">-st</td><td class="k">wohnst</td></tr><tr><td class="k">er, sie, es</td><td class="k">-t</td><td class="k">wohnt</td></tr><tr><td class="k">wir</td><td class="k">-en</td><td class="k">wohnen</td></tr><tr><td class="k">ihr</td><td class="k">-t</td><td class="k">wohnt</td></tr><tr><td class="k">sie, Sie</td><td class="k">-en</td><td class="k">wohnen</td></tr></table></div>
 {{ex:Ich wohne in Berlin.|ihh VOH-nuh in behr-LEEN|I live in Berlin.}}
 {{ex:Er heißt Max.|ayr haist mahks|His name is Max.}}
 <p>For <b>Sie</b> (formal you) and <b>sie</b> (they), the verb is simply the infinitive: <b>Sie wohnen</b>. A name works like <b>er</b> or <b>sie</b>: <b>Lena wohnt</b>. Two or more people work like <b>sie</b> (they): <b>Lena und Max wohnen</b>.</p>
 {{ex:Sie wohnen in Köln.|zee VOH-nuhn in kurln|They live in Cologne.}}
 <h3>You, to a group of friends</h3>
-<p><b>ihr</b> is "you" for two or more people you would each call <b>du</b>: friends, family, classmates. Its ending is <b>-t</b>, the same as the er form. For a group of strangers, use <b>Sie</b>, as for one stranger.</p>
+<p><b>ihr</b> is "you" for two or more people you would each call <b>du</b>: friends, family, classmates. Its ending is <b>-t</b>, the same as the ‹er› form. For a group of strangers, use <b>Sie</b>, as for one stranger.</p>
 {{ex:Ihr spielt Tennis.|eer shpeelt TEHN-is|You play tennis. (to friends)}}
 <h3>Two small adjustments</h3>
-<p>If the stem ends in <b>-t</b> or <b>-d</b>, an <b>e</b> slips in so you can say the ending: <b>du arbeitest</b>, <b>er arbeitet</b>, <b>ihr arbeitet</b>. Without it, <b>arbeitst</b> would be almost impossible to say, and <b>er arbeitt</b> would sound the same as the stem. If it ends in an s sound (<b>s, ß, z</b>), the du form adds only <b>-t</b>: <b>du heißt</b>, <b>du tanzt</b>.</p>
+<p>If the stem ends in <b>-t</b> or <b>-d</b>, an <b>e</b> slips in so you can say the ending: <b>du arbeitest</b>, <b>er arbeitet</b>, <b>ihr arbeitet</b>. Without it, <b>arbeitst</b> would be almost impossible to say, and <b>er arbeitt</b> would sound the same as the stem. If it ends in an s sound (<b>s</b>, <b>ß</b>, <b>z</b>), the ‹du› form adds only <b>-t</b>: <b>du heißt</b>, <b>du tanzt</b>.</p>
 {{ex:Du arbeitest viel.|doo AHR-bai-tuhst feel|You work a lot. (to a friend)}}
 <h3>One tense, three English meanings</h3>
 <p>German has no "-ing" form. <b>Ich lerne Deutsch</b> means "I learn German", "I'm learning German", and, with a time word, "I'll learn German". Never build it with <b>sein</b>.</p>
 {{ex:Ich lerne Deutsch.|ihh LEHR-nuh doych|I'm learning German.}}
 {{ex:Ich studiere Informatik.|ihh shtoo-DEE-ruh in-fawr-MAH-tik|I'm studying computer science.}}
-<div class="tip"><b>Most common mistake:</b> one verb form for every person. <b>Er wohnen in Hamburg</b> → <b>Er wohnt in Hamburg</b>. And no "am": <b>Ich bin lerne Deutsch</b> → <b>Ich lerne Deutsch</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> one verb form for every person. <b>Er wohnen in Hamburg</b> → <b>Er wohnt in Hamburg</b>. And no "am": <b>Ich bin lerne Deutsch</b> → <b>Ich lerne Deutsch</b>.</div>
 `,
     check: [
-      ["Which sentence is right?", ["Er wohnen in Köln.", "Er wohnt in Köln.", "Er wohnst in Köln.", "Er wohne in Köln."], 1, "er takes -t: Er wohnt in Köln."],
-      ["How do you say I'm working? (right now)", ["Ich arbeite.", "Ich bin arbeite.", "Ich arbeiten.", "Ich bin arbeitend."], 0, "German has no -ing form: Ich arbeite covers I work and I'm working."],
-      ["What can Sie kommen aus Kanada mean?", ["Only She comes from Canada", "Only We come from Canada", "They come from Canada, or You (formal) come from Canada", "Only I come from Canada"], 2, "sie (they) and Sie (formal you) share the infinitive form: kommen. She would be sie kommt."]
+      ["Which sentence is right?",["Er wohnen in Köln.","Er wohnt in Köln.","Er wohnst in Köln.","Er wohne in Köln."],1,"‹er› takes ‹-t›: ‹Er wohnt in Köln›."],
+      ["How do you say I'm working? (right now)",["Ich arbeite.","Ich bin arbeite.","Ich arbeiten.","Ich bin arbeitend."],0,"German has no -ing form: ‹Ich arbeite› covers I work and I'm working."],
+      ["What can ‹Sie kommen aus Kanada› mean?",["Only She comes from Canada","Only We come from Canada","They come from Canada, or You (formal) come from Canada","Only I come from Canada"],2,"‹sie› (they) and ‹Sie› (formal you) share the infinitive form: ‹kommen›. She would be ‹sie kommt›."]
     ],
     practice: [
-      ["mc", "Which sentence is right?", "Lena wohnt in Köln.", "Lena wohnen in Köln.", "Lena wohnst in Köln.", "Lena wohne in Köln.", "A name works like sie (she): Lena wohnt."],
-      ["mc", "I'm learning German =", "Ich lerne Deutsch.", "Ich bin lerne Deutsch.", "Ich bin lernen Deutsch.", "Ich lernen Deutsch.", "German has no -ing form: Ich lerne means I learn and I'm learning."],
-      ["mc", "You make dinner. (to friends): which verb form?", "ihr macht", "ihr machst", "ihr machen", "ihr mache", "ihr takes -t: ihr macht."],
-      ["mc", "Which ending goes with du?", "-st", "-t", "-e", "-en", "du takes -st: du wohnst, du kommst."],
-      ["mc", "You work a lot. (to a friend) =", "Du arbeitest viel.", "Du arbeitst viel.", "Du arbeitet viel.", "Du arbeiten viel.", "arbeit- ends in t, so an e slips in: du arbeitest."],
-      ["or", "Lena works in Berlin.", "Lena arbeitet in Berlin.", "arbeiten", "Lena takes the er/sie/es form: arbeitet."],
-      ["or", "We live in Hamburg.", "Wir wohnen in Hamburg.", "wohnt", "The wir form ends in -en: wohnen."],
-      ["or", "You work a lot. (to friends)", "Ihr arbeitet viel.", "arbeitest", "The ihr form ends in -t; after arbeit- an e slips in: arbeitet."],
-      ["fi", "Er __ in Hamburg.", "He lives in Hamburg.", "wohnt", "wohnen|wohnst|wohne", "The er form ends in -t: wohnt."],
-      ["fi", "Du __ viel.", "You work a lot. (to a friend)", "arbeitest", "arbeitst|arbeitet|arbeiten", "The du form ends in -st, and after arbeit- an e slips in: arbeitest."],
-      ["fi", "Ihr __ Tennis.", "You play tennis. (to friends)", "spielt", "spielen|spielst|spiele", "The ihr form ends in -t: spielt."],
-      ["ty", "I'm learning German.", "Ich lerne Deutsch.", "lernen · Deutsch", "lernt bin", "The ich form ends in -e: lerne. No form of sein is needed for -ing."],
-      ["ty", "You work in Munich. (to a friend)", "Du arbeitest in München.", "arbeiten · München", "arbeitet", "The du form ends in -st, and after arbeit- an e slips in: arbeitest."],
-      ["ty", "They play soccer.", "Sie spielen Fußball.", "spielen · der Fußball", "spielt", "Plural subject: the verb ending is -en, spielen."]
+      ["mc","Which sentence is right?","Lena wohnt in Köln.","Lena wohnen in Köln.","Lena wohnst in Köln.","Lena wohne in Köln.","A name works like ‹sie› (she): ‹Lena wohnt›."],
+      ["mc","I'm learning German =","Ich lerne Deutsch.","Ich bin lerne Deutsch.","Ich bin lernen Deutsch.","Ich lernen Deutsch.","German has no -ing form: ‹Ich lerne› means I learn and I'm learning."],
+      ["mc","You make dinner. (to friends): which verb form?","ihr macht","ihr machst","ihr machen","ihr mache","‹ihr› takes ‹-t›: ‹ihr macht›."],
+      ["mc","Which ending goes with ‹du›?","-st","-t","-e","-en","‹du› takes ‹-st›: ‹du wohnst›, ‹du kommst›."],
+      ["mc","You work a lot. (to a friend) =","Du arbeitest viel.","Du arbeitst viel.","Du arbeitet viel.","Du arbeiten viel.","‹arbeit-› ends in ‹t›, so an ‹e› slips in: ‹du arbeitest›."],
+      ["or","Lena works in Berlin.","Lena arbeitet in Berlin.","arbeiten","Lena takes the ‹er›/‹sie›/‹es› form: ‹arbeitet›."],
+      ["or","We live in Hamburg.","Wir wohnen in Hamburg.","wohnt","The ‹wir› form ends in ‹-en›: ‹wohnen›."],
+      ["or","You work a lot. (to friends)","Ihr arbeitet viel.","arbeitest","The ‹ihr› form ends in ‹-t›; after ‹arbeit-› an ‹e› slips in: ‹arbeitet›."],
+      ["fi","Er __ in Hamburg.","He lives in Hamburg.","wohnt","wohnen|wohnst|wohne","The ‹er› form ends in ‹-t›: ‹wohnt›."],
+      ["fi","Du __ viel.","You work a lot. (to a friend)","arbeitest","arbeitst|arbeitet|arbeiten","The ‹du› form ends in ‹-st›, and after ‹arbeit-› an ‹e› slips in: ‹arbeitest›."],
+      ["fi","Ihr __ Tennis.","You play tennis. (to friends)","spielt","spielen|spielst|spiele","The ‹ihr› form ends in ‹-t›: ‹spielt›."],
+      ["ty","I'm learning German.","Ich lerne Deutsch.","‹lernen› · ‹Deutsch›","lernt bin","The ‹ich› form ends in ‹-e›: ‹lerne›. No form of ‹sein› is needed for -ing."],
+      ["ty","You work in Munich. (to a friend)","Du arbeitest in München.","‹arbeiten› · ‹München›","arbeitet","The ‹du› form ends in ‹-st›, and after ‹arbeit-› an ‹e› slips in: ‹arbeitest›."],
+      ["ty","They play soccer.","Sie spielen Fußball.","‹spielen› · ‹der Fußball›","spielt","Plural subject: the verb ending is ‹-en›, ‹spielen›."]
     ]
   },
   {
     id: "word-order",
-    title: "Verb second: Heute arbeite ich",
+    title: "Verb second: ‹Heute arbeite ich›",
     blurb: "Start a sentence with a time or a place and keep the verb in second place, the way German does.",
     deck: "Days, dates and weather",
     body: `
@@ -293,37 +293,37 @@ module.exports = [
 {{ex:Am Montag habe ich Zeit.|ahm MOHN-tahk HAH-buh ihh tsait|On Monday I have time.}}
 {{ex:Die Kinder spielen im Park.|dee KIN-duh SHPEE-luhn im pahrk|The children are playing in the park.}}
 <h3>Time words that often come first</h3>
-<p><b>heute</b> (today), <b>morgen</b> (tomorrow), <b>am Wochenende</b> (on the weekend), and the days with <b>am</b>: <b>am Montag, am Dienstag, am Samstag, am Sonntag</b>. Starting with one of them is very natural, and the subject then follows the verb.</p>
+<p><b>heute</b> (today), <b>morgen</b> (tomorrow), <b>am Wochenende</b> (on the weekend), and the days with <b>am</b>: <b>am Montag</b>, <b>am Dienstag</b>, <b>am Samstag</b>, <b>am Sonntag</b>. Starting with one of them is very natural, and the subject then follows the verb.</p>
 {{ex:Morgen fahre ich nach Hamburg.|MAWR-guhn FAH-ruh ihh nahkh HAHM-boork|Tomorrow I'm going to Hamburg.}}
 <h3>The weather</h3>
 <p>Weather sentences need <b>es</b> (it), just like English: <b>Es regnet</b> (it's raining). Put a time word first and <b>es</b> moves behind the verb.</p>
 {{ex:Es regnet.|ehs RAYG-nuht|It's raining.}}
 {{ex:Heute ist es kalt.|HOY-tuh ist ehs kahlt|It's cold today.}}
-<h3>und and aber do not count</h3>
+<h3>‹und› and ‹aber› do not count</h3>
 <p><b>und</b> (and) and <b>aber</b> (but) join two sentences without taking a place. After them, count again from the next block: the first block after <b>aber</b> is the first element, and the verb follows it.</p>
 {{ex:Heute habe ich frei, aber morgen arbeite ich.|HOY-tuh HAH-buh ihh frai AH-buh MAWR-guhn AHR-bai-tuh ihh|Today I'm off, but tomorrow I'm working.}}
-<div class="tip"><b>Most common mistake:</b> keeping English order after a time word. <b>Heute ich arbeite</b> → <b>Heute arbeite ich</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> keeping English order after a time word. <b>Heute ich arbeite</b> → <b>Heute arbeite ich</b>.</div>
 `,
     check: [
-      ["Which sentence is right?", ["Heute ich arbeite.", "Heute arbeite ich.", "Ich heute arbeite.", "Arbeite heute ich."], 1, "heute takes the first place, so the verb comes second and ich follows it."],
-      ["In Am Montag habe ich Zeit, what is the first element?", ["Am", "Am Montag", "habe", "ich"], 1, "Am Montag is one building block, so habe is in second place."],
-      ["Does aber count as the first element?", ["Yes, always", "Only in questions", "Only before a time word", "No: aber joins two sentences and takes no place"], 3, "aber and und take no place: …, aber morgen arbeite ich."]
+      ["Which sentence is right?",["Heute ich arbeite.","Heute arbeite ich.","Ich heute arbeite.","Arbeite heute ich."],1,"‹heute› takes the first place, so the verb comes second and ‹ich› follows it."],
+      ["In ‹Am Montag habe ich Zeit›, what is the first element?",["Am","Am Montag","habe","ich"],1,"‹Am Montag› is one building block, so ‹habe› is in second place."],
+      ["Does ‹aber› count as the first element?",["Yes, always","Only in questions","Only before a time word","No: ‹aber› joins two sentences and takes no place"],3,"‹aber› and ‹und› take no place: …, ‹aber morgen arbeite ich›."]
     ],
     practice: [
-      ["mc", "Which sentence is right?", "Heute arbeite ich.", "Heute ich arbeite.", "Ich heute arbeite.", "Arbeite heute ich.", "heute first, then the verb, then ich."],
-      ["mc", "On Monday I have time =", "Am Montag habe ich Zeit.", "Am Montag ich habe Zeit.", "Am Montag habe Zeit ich.", "Am Montag Zeit habe ich.", "Am Montag is one block; the verb habe comes right after it."],
-      ["mc", "Heute habe ich frei, aber … (tomorrow I'm working)", "morgen arbeite ich.", "morgen ich arbeite.", "arbeite ich morgen.", "morgen arbeiten ich.", "aber takes no place: morgen comes first, then arbeite."],
-      ["mc", "It's snowing =", "Es schneit.", "Schneit.", "Es schneien.", "Ist Schnee.", "Weather sentences need es: es schneit."],
-      ["mc", "In Lena und Max wohnen in Köln, what is the first element?", "Lena und Max", "Lena", "Lena und", "wohnen", "Lena und Max is one block, so the verb wohnen comes second."],
-      ["or", "Tomorrow I'm going to Hamburg. (start with morgen)", "Morgen fahre ich nach Hamburg.", "fährt", "Verb second: morgen first, then fahre, then ich."],
-      ["or", "On Monday Lena is off. (start with am Montag)", "Am Montag hat Lena frei.", "haben", "The verb is the second element: am Montag first, then hat, then Lena."],
-      ["or", "It's cold today. (start with heute)", "Heute ist es kalt.", "sind", "Verb second: heute first, then ist, then es."],
-      ["fi", "Heute __ es kalt.", "It's cold today.", "ist", "sind|bin|bist", "es takes ist, and it stays in second place after heute."],
-      ["fi", "Am Freitag __ ich nach Berlin.", "On Friday I'm going to Berlin.", "fahre", "fährt|fahren|fahrst", "The ich form ends in -e: fahre."],
-      ["fi", "Morgen __ wir Tennis.", "Tomorrow we're playing tennis.", "spielen", "spielt|spiele|spielst", "The wir form ends in -en: spielen."],
-      ["ty", "On Sunday we sleep late. (start with am Sonntag)", "Am Sonntag schlafen wir lange.|Am Sonntag schlafen wir aus.", "am Sonntag · schlafen · lange", "schlaft", "The verb is the second element: am Sonntag first, then schlafen, then wir."],
-      ["ty", "Today I work at home. (start with heute)", "Heute arbeite ich zu Hause.|Heute arbeite ich zuhause.", "heute · arbeiten · zu Hause", "arbeitet", "Verb second: heute first, then arbeite, then ich."],
-      ["ty", "It's raining today.", "Es regnet heute.|Heute regnet es.", "regnen · heute · es", "regnen", "The verb is the second element either way: Es regnet heute, or Heute regnet es."]
+      ["mc","Which sentence is right?","Heute arbeite ich.","Heute ich arbeite.","Ich heute arbeite.","Arbeite heute ich.","‹heute› first, then the verb, then ‹ich›."],
+      ["mc","On Monday I have time =","Am Montag habe ich Zeit.","Am Montag ich habe Zeit.","Am Montag habe Zeit ich.","Am Montag Zeit habe ich.","‹Am Montag› is one block; the verb ‹habe› comes right after it."],
+      ["mc","‹Heute habe ich frei, aber› … (tomorrow I'm working)","morgen arbeite ich.","morgen ich arbeite.","arbeite ich morgen.","morgen arbeiten ich.","‹aber› takes no place: ‹morgen› comes first, then ‹arbeite›."],
+      ["mc","It's snowing =","Es schneit.","Schneit.","Es schneien.","Ist Schnee.","Weather sentences need ‹es›: ‹es schneit›."],
+      ["mc","In ‹Lena und Max wohnen in Köln›, what is the first element?","Lena und Max","Lena","Lena und","wohnen","‹Lena und Max› is one block, so the verb ‹wohnen› comes second."],
+      ["or","Tomorrow I'm going to Hamburg. (start with ‹morgen›)","Morgen fahre ich nach Hamburg.","fährt","Verb second: ‹morgen› first, then ‹fahre›, then ‹ich›."],
+      ["or","On Monday Lena is off. (start with ‹am Montag›)","Am Montag hat Lena frei.","haben","The verb is the second element: ‹am Montag› first, then ‹hat›, then Lena."],
+      ["or","It's cold today. (start with ‹heute›)","Heute ist es kalt.","sind","Verb second: ‹heute› first, then ‹ist›, then ‹es›."],
+      ["fi","Heute __ es kalt.","It's cold today.","ist","sind|bin|bist","‹es› takes ‹ist›, and it stays in second place after ‹heute›."],
+      ["fi","Am Freitag __ ich nach Berlin.","On Friday I'm going to Berlin.","fahre","fährt|fahren|fahrst","The ‹ich› form ends in ‹-e›: ‹fahre›."],
+      ["fi","Morgen __ wir Tennis.","Tomorrow we're playing tennis.","spielen","spielt|spiele|spielst","The ‹wir› form ends in ‹-en›: ‹spielen›."],
+      ["ty","On Sunday we sleep late. (start with ‹am Sonntag›)","Am Sonntag schlafen wir lange.|Am Sonntag schlafen wir aus.","‹am Sonntag› · ‹schlafen› · ‹lange›","schlaft","The verb is the second element: ‹am Sonntag› first, then ‹schlafen›, then ‹wir›."],
+      ["ty","Today I work at home. (start with ‹heute›)","Heute arbeite ich zu Hause.|Heute arbeite ich zuhause.","‹heute› · ‹arbeiten› · ‹zu Hause›","arbeitet","Verb second: ‹heute› first, then ‹arbeite›, then ‹ich›."],
+      ["ty","It's raining today.","Es regnet heute.|Heute regnet es.","‹regnen› · ‹heute› · ‹es›","regnen","The verb is the second element either way: ‹Es regnet heute›, or ‹Heute regnet es›."]
     ]
   },
   {
@@ -348,35 +348,35 @@ module.exports = [
 <p>English often adds "from" or "to" at the end. German puts it into the question word: <b>wo</b> asks where something is, <b>woher</b> where someone comes from, <b>wohin</b> where someone is going. So the answer to <b>Woher?</b> usually starts with <b>aus</b>, and the answer to <b>Wo?</b> often with <b>in</b>.</p>
 {{ex:Wohin gehst du?|voh-HIN gayst doo|Where are you going? (to a friend)}}
 <h3>Yes/no questions: the verb comes first</h3>
-<p>For a question that expects ja (yes) or nein (no), put the verb at the very start, then the subject. No "do" is needed.</p>
+<p>For a question that expects ‹ja› (yes) or ‹nein› (no), put the verb at the very start, then the subject. No "do" is needed.</p>
 {{ex:Wohnst du in Berlin?|vohnst doo in behr-LEEN|Do you live in Berlin? (to a friend)}}
 {{ex:Kommen Sie aus Kanada?|KAWM-uhn zee ows KAH-nah-dah|Are you from Canada? (formal)}}
 {{ex:Hast du Zeit?|hahst doo tsait|Do you have time? (to a friend)}}
-<h3>ja, nein, doch</h3>
+<h3>‹ja›, ‹nein›, ‹doch›</h3>
 <p><b>ja</b> is yes and <b>nein</b> is no. You will also hear <b>doch</b>: it means "yes, actually" and contradicts a question or statement that has a "not" in it.</p>
 <p>The verb keeps its normal ending in a question: <b>du wohnst</b> becomes <b>Wohnst du?</b>, and <b>Sie kommen</b> becomes <b>Kommen Sie?</b></p>
-<div class="tip"><b>Most common mistake:</b> keeping the statement order after a question word. <b>Wo du wohnst?</b> → <b>Wo wohnst du?</b></div>
+<div class="tip"><strong>Most common mistake:</strong> keeping the statement order after a question word. <b>Wo du wohnst?</b> → <b>Wo wohnst du?</b></div>
 `,
     check: [
-      ["What does wer mean?", ["where", "who", "when", "what"], 1, "wer means who. Where is wo."],
-      ["How do you ask Do you live in Berlin? (to a friend)", ["Wohnst du in Berlin?", "Tust du wohnen in Berlin?", "Du wohnst in Berlin, tun?", "Wohnen du in Berlin?"], 0, "No do in German: the verb simply comes first, with its du ending."],
-      ["Which word asks where someone is going?", ["wo", "woher", "wer", "wohin"], 3, "wohin asks where to; woher asks where from; wo asks where."]
+      ["What does ‹wer› mean?",["where","who","when","what"],1,"‹wer› means who. Where is ‹wo›."],
+      ["How do you ask Do you live in Berlin? (to a friend)",["Wohnst du in Berlin?","Tust du wohnen in Berlin?","Du wohnst in Berlin, tun?","Wohnen du in Berlin?"],0,"No do in German: the verb simply comes first, with its ‹du› ending."],
+      ["Which word asks where someone is going?",["wo","woher","wer","wohin"],3,"‹wohin› asks where to; ‹woher› asks where from; ‹wo› asks where."]
     ],
     practice: [
-      ["mc", "wann means…", "when", "who", "where", "how", "wann is when. Be careful: wenn means if."],
-      ["mc", "Where are you going? (to a friend) =", "Wohin gehst du?", "Wo gehst du?", "Woher gehst du?", "Wohin du gehst?", "Going somewhere is wohin, followed by the verb."],
-      ["mc", "Do you live in Berlin? (to a friend) =", "Wohnst du in Berlin?", "Tust du wohnen in Berlin?", "Machst du wohnen in Berlin?", "Wohnen du in Berlin?", "No do in German: the verb comes first."],
-      ["mc", "Which word asks who?", "wer", "wo", "wie", "was", "wer is who; wo is where."],
-      ["mc", "How much does that cost? =", "Wie viel kostet das?", "Wie viel das kostet?", "Wie viel kosten das?", "Wie kostet das viel?", "Question words first, then the verb: Wie viel kostet das?"],
-      ["or", "Where do you live? (to a friend)", "Wo wohnst du?", "wohnt", "Verb second after the question word, and the du form ends in -st: wohnst."],
-      ["or", "Are you from Canada? (formal)", "Kommen Sie aus Kanada?", "kommst", "Yes/no question: the verb comes first, and the Sie form is kommen."],
-      ["or", "When does the train come?", "Wann kommt der Zug?", "kommen", "der Zug takes the er form: kommt, right after wann."],
-      ["fi", "__ kommen Sie?", "Where are you from? (formal)", "Woher", "Wo|Wohin|Wer", "Where from is woher."],
-      ["fi", "__ du Kinder?", "Do you have children? (to a friend)", "Hast", "Hat|Habe|Haben", "The du form of haben is hast, and it comes first in a yes/no question."],
-      ["fi", "Was __ ihr heute?", "What are you doing today? (to friends)", "macht", "machst|machen|mache", "The ihr form ends in -t: macht."],
-      ["ty", "Where does Anna live?", "Wo wohnt Anna?", "wo · wohnen · Anna", "wohnen", "Anna takes the er/sie/es form: wohnt, right after wo."],
-      ["ty", "Do you speak English? (formal)", "Sprechen Sie Englisch?", "sprechen · Sie · Englisch", "sprichst", "Yes/no question: the verb comes first, in the Sie form: sprechen."],
-      ["ty", "What are you doing? (to a friend)", "Was machst du?|Was tust du?", "was · machen · du", "macht", "The du form ends in -st: machst, right after was."]
+      ["mc","‹wann› means…","when","who","where","how","‹wann› is when. Be careful: ‹wenn› means if."],
+      ["mc","Where are you going? (to a friend) =","Wohin gehst du?","Wo gehst du?","Woher gehst du?","Wohin du gehst?","Going somewhere is ‹wohin›, followed by the verb."],
+      ["mc","Do you live in Berlin? (to a friend) =","Wohnst du in Berlin?","Tust du wohnen in Berlin?","Machst du wohnen in Berlin?","Wohnen du in Berlin?","No do in German: the verb comes first."],
+      ["mc","Which word asks who?","wer","wo","wie","was","‹wer› is who; ‹wo› is where."],
+      ["mc","How much does that cost? =","Wie viel kostet das?","Wie viel das kostet?","Wie viel kosten das?","Wie kostet das viel?","Question words first, then the verb: ‹Wie viel kostet das?›"],
+      ["or","Where do you live? (to a friend)","Wo wohnst du?","wohnt","Verb second after the question word, and the ‹du› form ends in ‹-st›: ‹wohnst›."],
+      ["or","Are you from Canada? (formal)","Kommen Sie aus Kanada?","kommst","Yes/no question: the verb comes first, and the ‹Sie› form is ‹kommen›."],
+      ["or","When does the train come?","Wann kommt der Zug?","kommen","‹der Zug› takes the ‹er› form: ‹kommt›, right after ‹wann›."],
+      ["fi","__ kommen Sie?","Where are you from? (formal)","Woher","Wo|Wohin|Wer","Where from is ‹woher›."],
+      ["fi","__ du Kinder?","Do you have children? (to a friend)","Hast","Hat|Habe|Haben","The ‹du› form of ‹haben› is ‹hast›, and it comes first in a yes/no question."],
+      ["fi","Was __ ihr heute?","What are you doing today? (to friends)","macht","machst|machen|mache","The ‹ihr› form ends in ‹-t›: ‹macht›."],
+      ["ty","Where does Anna live?","Wo wohnt Anna?","‹wo› · ‹wohnen› · Anna","wohnen","Anna takes the ‹er›/‹sie›/‹es› form: ‹wohnt›, right after ‹wo›."],
+      ["ty","Do you speak English? (formal)","Sprechen Sie Englisch?","‹sprechen› · ‹Sie› · ‹Englisch›","sprichst","Yes/no question: the verb comes first, in the ‹Sie› form: ‹sprechen›."],
+      ["ty","What are you doing? (to a friend)","Was machst du?|Was tust du?","‹was› · ‹machen› · ‹du›","macht","The ‹du› form ends in ‹-st›: ‹machst›, right after ‹was›."]
     ]
   },
   {
@@ -387,16 +387,16 @@ module.exports = [
     body: `
 <p>German numbers are built from a small set of parts. Two things surprise English speakers: the ones come before the tens, and "half three" means 2:30.</p>
 <h3>0 to 20</h3>
-<p><b>null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf</b>. From 13, add <b>-zehn</b>: <b>dreizehn, vierzehn</b>. Two spellings drop letters: <b>sechzehn</b> (no s) and <b>siebzehn</b> (no en). Then <b>zwanzig</b>.</p>
+<p><b>null</b>, <b>eins</b>, <b>zwei</b>, <b>drei</b>, <b>vier</b>, <b>fünf</b>, <b>sechs</b>, <b>sieben</b>, <b>acht</b>, <b>neun</b>, <b>zehn</b>, <b>elf</b>, <b>zwölf</b>. From 13, add <b>-zehn</b>: <b>dreizehn</b>, <b>vierzehn</b>. Two spellings drop letters: <b>sechzehn</b> (no ‹s›) and <b>siebzehn</b> (no ‹en›). Then <b>zwanzig</b>.</p>
 {{ex:zwölf|tsvurlf|twelve}}
 {{ex:sechzehn|ZEHH-tsayn|sixteen}}
 <h3>Tens, and ones before tens</h3>
-<p>The tens end in <b>-zig</b>: <b>zwanzig, vierzig, fünfzig</b>, with one exception, <b>dreißig</b> (30). From 21 on, German says the ones first: "one-and-twenty", written as one word.</p>
+<p>The tens end in <b>-zig</b>: <b>zwanzig</b>, <b>vierzig</b>, <b>fünfzig</b>, with one exception, <b>dreißig</b> (30). From 21 on, German says the ones first: "one-and-twenty", written as one word.</p>
 {{ex:einundzwanzig|AIN-oont-tsvahn-tsihh|twenty-one}}
 {{ex:zweiundvierzig|TSVAI-oont-fir-tsihh|forty-two}}
 <p><b>hundert</b> is 100 and <b>tausend</b> 1,000. When you count, one is <b>eins</b>; before a noun, and in <b>einundzwanzig</b>, it is <b>ein</b>.</p>
 <h3>Prices</h3>
-<p>Say the euros, the word <b>Euro</b>, then the cents. <b>Euro</b> never takes an -s after a number. To ask a price: <b>Was kostet das?</b> or <b>Wie viel kostet das?</b></p>
+<p>Say the euros, the word <b>Euro</b>, then the cents. <b>Euro</b> never takes an ‹-s› after a number. To ask a price: <b>Was kostet das?</b> or <b>Wie viel kostet das?</b></p>
 {{ex:Das kostet zwei Euro fünfzig.|dahs KAWS-tuht tsvai OY-roh FEWNF-tsihh|That's two euros fifty.}}
 {{ex:Was kosten die Brötchen?|vahs KAWS-tuhn dee BRURT-hhuhn|How much are the rolls?}}
 <p>For one thing, the verb is <b>kostet</b>; for several, it is <b>kosten</b>.</p>
@@ -407,80 +407,80 @@ module.exports = [
 <p>For "at", use <b>um</b>: <b>um acht Uhr</b>. Timetables, shops and offices use the 24-hour clock: <b>um zwanzig Uhr</b> is 8 p.m.</p>
 {{ex:Um acht Uhr arbeite ich.|oom ahkht oor AHR-bai-tuh ihh|At eight o'clock I work.}}
 <p>A time at the front is the first element, so the verb comes next and the subject follows.</p>
-<div class="tip"><b>Most common mistake:</b> reading halb as half past. <b>halb vier</b> for 4:30 → <b>halb fünf</b>. halb always points to the next hour.</div>
+<div class="tip"><strong>Most common mistake:</strong> reading ‹halb› as half past. <b>halb vier</b> for 4:30 → <b>halb fünf</b>. ‹halb› always points to the next hour.</div>
 `,
     check: [
-      ["What time is halb vier?", ["4:30", "3:30", "3:15", "4:15"], 1, "halb looks ahead to the next hour: half way to four, so 3:30."],
-      ["How do you say 42?", ["vierzigzwei", "zweivierzig", "vierundzwanzig", "zweiundvierzig"], 3, "Ones before tens, joined with und: zweiundvierzig."],
-      ["How do you say €2.50?", ["zwei Euro fünfzig", "zwei Euros fünfzig", "zwei Komma fünfzig Euros", "fünfzig zwei Euro"], 0, "Euros, the word Euro without -s, then the cents."]
+      ["What time is ‹halb vier›?",["4:30","3:30","3:15","4:15"],1,"‹halb› looks ahead to the next hour: half way to four, so 3:30."],
+      ["How do you say 42?",["vierzigzwei","zweivierzig","vierundzwanzig","zweiundvierzig"],3,"Ones before tens, joined with ‹und›: ‹zweiundvierzig›."],
+      ["How do you say €2.50?",["zwei Euro fünfzig","zwei Euros fünfzig","zwei Komma fünfzig Euros","fünfzig zwei Euro"],0,"‹Euros›, the word ‹Euro› without ‹-s›, then the cents."]
     ],
     practice: [
-      ["mc", "zweiundvierzig =", "42", "24", "420", "204", "Ones come before tens: two-and-forty."],
-      ["mc", "halb vier =", "3:30", "4:30", "3:15", "4:15", "halb points to the next hour: half way to four."],
-      ["mc", "Which spelling is right for 16?", "sechzehn", "sechszehn", "sechzen", "seckzehn", "16 drops the s of sechs: sechzehn."],
-      ["mc", "€3.50 =", "drei Euro fünfzig", "drei Euros fünfzig", "fünfzig drei Euro", "drei Euro und fünfzig Euros", "Say the euros, the word Euro with no -s, then the cents."],
-      ["mc", "Viertel nach acht =", "8:15", "7:45", "8:45", "8:30", "Viertel nach is a quarter past."],
-      ["or", "That costs two euros fifty.", "Das kostet zwei Euro fünfzig.", "kosten", "One thing takes the er/sie/es form: kostet."],
-      ["or", "At eight o'clock I work. (start with um acht Uhr)", "Um acht Uhr arbeite ich.", "arbeitet", "Verb second: um acht Uhr first, then arbeite, then ich."],
-      ["or", "It's three thirty.", "Es ist halb vier.", "drei", "halb looks ahead to the next hour: 3:30 is halb vier."],
-      ["fi", "Es ist __ Uhr.", "It's one o'clock.", "ein", "eins|eine|einen", "Before Uhr, one is ein. Alone, it is eins."],
-      ["fi", "Das kostet zwei __.", "That costs two euros.", "Euro", "Euros|Euren|Eure", "Euro takes no -s after a number."],
-      ["fi", "Ich bin __ Jahre alt.", "I'm thirty years old.", "dreißig", "dreizig|dreizehn|dreisig", "30 is the one ten that does not end in -zig: dreißig."],
-      ["ty", "How much are the rolls?", "Was kosten die Brötchen?|Wie viel kosten die Brötchen?", "kosten · die Brötchen", "kostet", "Plural subject: die Brötchen takes kosten."],
-      ["ty", "Today I work until six. (start with heute)", "Heute arbeite ich bis sechs.|Heute arbeite ich bis sechs Uhr.", "heute · arbeiten · bis sechs", "arbeitest", "Verb second: heute first, then arbeite, then ich."],
-      ["ty", "twenty-one", "einundzwanzig", "ein · und · zwanzig, as one word", "zwanzigeins", "Ones before tens, joined with und: einundzwanzig."]
+      ["mc","‹zweiundvierzig› =","42","24","420","204","Ones come before tens: two-and-forty."],
+      ["mc","‹halb vier› =","3:30","4:30","3:15","4:15","‹halb› points to the next hour: half way to four."],
+      ["mc","Which spelling is right for 16?","sechzehn","sechszehn","sechzen","seckzehn","16 drops the ‹s› of ‹sechs›: ‹sechzehn›."],
+      ["mc","€3.50 =","drei Euro fünfzig","drei Euros fünfzig","fünfzig drei Euro","drei Euro und fünfzig Euros","Say the euros, the word ‹Euro› with no ‹-s›, then the cents."],
+      ["mc","‹Viertel nach acht› =","8:15","7:45","8:45","8:30","‹Viertel nach› is a quarter past."],
+      ["or","That costs two euros fifty.","Das kostet zwei Euro fünfzig.","kosten","One thing takes the ‹er›/‹sie›/‹es› form: ‹kostet›."],
+      ["or","At eight o'clock I work. (start with ‹um acht Uhr›)","Um acht Uhr arbeite ich.","arbeitet","Verb second: ‹um acht Uhr› first, then ‹arbeite›, then ‹ich›."],
+      ["or","It's three thirty.","Es ist halb vier.","drei","‹halb› looks ahead to the next hour: 3:30 is ‹halb vier›."],
+      ["fi","Es ist __ Uhr.","It's one o'clock.","ein","eins|eine|einen","Before ‹Uhr›, one is ‹ein›. Alone, it is ‹eins›."],
+      ["fi","Das kostet zwei __.","That costs two euros.","Euro","Euros|Euren|Eure","‹Euro› takes no ‹-s› after a number."],
+      ["fi","Ich bin __ Jahre alt.","I'm thirty years old.","dreißig","dreizig|dreizehn|dreisig","30 is the one ten that does not end in ‹-zig›: ‹dreißig›."],
+      ["ty","How much are the rolls?","Was kosten die Brötchen?|Wie viel kosten die Brötchen?","‹kosten› · ‹die Brötchen›","kostet","Plural subject: ‹die Brötchen› takes ‹kosten›."],
+      ["ty","Today I work until six. (start with ‹heute›)","Heute arbeite ich bis sechs.|Heute arbeite ich bis sechs Uhr.","‹heute› · ‹arbeiten› · ‹bis sechs›","arbeitest","Verb second: ‹heute› first, then ‹arbeite›, then ‹ich›."],
+      ["ty","twenty-one","einundzwanzig","‹ein› · ‹und› · ‹zwanzig›, as one word","zwanzigeins","Ones before tens, joined with ‹und›: ‹einundzwanzig›."]
     ]
   },
   {
     id: "stem-change",
-    title: "Stem-changing verbs: fahren, essen, nehmen",
-    blurb: "Use the verbs that change their vowel, and order food with Ich nehme and Was nimmst du?",
+    title: "Stem-changing verbs: ‹fahren›, ‹essen›, ‹nehmen›",
+    blurb: "Use the verbs that change their vowel, and order food with ‹Ich nehme› and ‹Was nimmst du?›",
     deck: "Food and drink",
     body: `
-<p>English has a few verbs that change their vowel (<i>I do, she does</i>). German has a group of common verbs that change the vowel of the stem, but only in two forms: with <b>du</b> and with <b>er, sie, es</b>.</p>
-<h3>a becomes ä</h3>
-<p><b>fahren</b> (to drive, to go by vehicle), <b>schlafen</b> (to sleep) and <b>tragen</b> (to carry, to wear) take an umlaut: <b>du fährst, er fährt</b>.</p>
+<p>English has a few verbs that change their vowel (<i>I do, she does</i>). German has a group of common verbs that change the vowel of the stem, but only in two forms: with <b>du</b> and with <b>er</b>, <b>sie</b>, <b>es</b>.</p>
+<h3>‹a› becomes ‹ä›</h3>
+<p><b>fahren</b> (to drive, to go by vehicle), <b>schlafen</b> (to sleep) and <b>tragen</b> (to carry, to wear) take an umlaut: <b>du fährst</b>, <b>er fährt</b>.</p>
 {{ex:Ich fahre nach Köln.|ihh FAH-ruh nahkh kurln|I'm going to Cologne.}}
 {{ex:Er fährt nach Köln.|ayr fehrt nahkh kurln|He's going to Cologne.}}
 {{ex:Das Baby schläft.|dahs BAY-bee shlehft|The baby is sleeping.}}
 <h3>The whole pattern</h3>
-<p>Here are three of these verbs side by side. Look at the du and er rows.</p>
-<div class="tbl"><table><tr><th></th><th>fahren</th><th>essen</th><th>lesen</th></tr><tr><td class="k">ich</td><td class="k">fahre</td><td class="k">esse</td><td class="k">lese</td></tr><tr><td class="k">du</td><td class="k">fährst</td><td class="k">isst</td><td class="k">liest</td></tr><tr><td class="k">er, sie, es</td><td class="k">fährt</td><td class="k">isst</td><td class="k">liest</td></tr><tr><td class="k">wir</td><td class="k">fahren</td><td class="k">essen</td><td class="k">lesen</td></tr><tr><td class="k">ihr</td><td class="k">fahrt</td><td class="k">esst</td><td class="k">lest</td></tr><tr><td class="k">sie, Sie</td><td class="k">fahren</td><td class="k">essen</td><td class="k">lesen</td></tr></table></div>
-<h3>e becomes i or ie</h3>
-<p><b>essen</b> (to eat), <b>nehmen</b> (to take), <b>sprechen</b> (to speak) and <b>geben</b> (to give) change e to i. <b>lesen</b> (to read) and <b>sehen</b> (to see) change e to ie. <b>nehmen</b> also changes its consonants: <b>du nimmst, er nimmt</b>. In <b>du isst</b>, the stem already ends in an s sound, so only <b>-t</b> is added.</p>
+<p>Here are three of these verbs side by side. Look at the ‹du› and ‹er› rows.</p>
+<div class="tbl"><table><tr><th></th><th>‹fahren›</th><th>‹essen›</th><th>‹lesen›</th></tr><tr><td class="k">ich</td><td class="k">fahre</td><td class="k">esse</td><td class="k">lese</td></tr><tr><td class="k">du</td><td class="k">fährst</td><td class="k">isst</td><td class="k">liest</td></tr><tr><td class="k">er, sie, es</td><td class="k">fährt</td><td class="k">isst</td><td class="k">liest</td></tr><tr><td class="k">wir</td><td class="k">fahren</td><td class="k">essen</td><td class="k">lesen</td></tr><tr><td class="k">ihr</td><td class="k">fahrt</td><td class="k">esst</td><td class="k">lest</td></tr><tr><td class="k">sie, Sie</td><td class="k">fahren</td><td class="k">essen</td><td class="k">lesen</td></tr></table></div>
+<h3>‹e› becomes ‹i› or ‹ie›</h3>
+<p><b>essen</b> (to eat), <b>nehmen</b> (to take), <b>sprechen</b> (to speak) and <b>geben</b> (to give) change ‹e› to ‹i›. <b>lesen</b> (to read) and <b>sehen</b> (to see) change ‹e› to ‹ie›. <b>nehmen</b> also changes its consonants: <b>du nimmst</b>, <b>er nimmt</b>. In <b>du isst</b>, the stem already ends in an s sound, so only <b>-t</b> is added.</p>
 {{ex:Sie liest ein Buch.|zee leest ain bookh|She's reading a book.}}
 {{ex:Er spricht sehr gut Deutsch.|ayr shprihht zayr goot doych|He speaks German very well.}}
 {{ex:Was isst du?|vahs ist doo|What are you eating? (to a friend)}}
 {{ex:Sprichst du Englisch?|shprihhst doo EHNG-lish|Do you speak English? (to a friend)}}
 <h3>Only two forms change</h3>
-<p><b>ich, wir, ihr, sie</b> (they) and <b>Sie</b> keep the normal stem. So it is <b>ich fahre</b>, never <b>ich fähre</b>, and <b>ihr fahrt</b>, without the umlaut. A dictionary or a word list marks these verbs; learn the er form with the infinitive: <b>fahren, fährt</b>.</p>
+<p><b>ich</b>, <b>wir</b>, <b>ihr</b>, <b>sie</b> (they) and <b>Sie</b> keep the normal stem. So it is <b>ich fahre</b>, never <b>ich fähre</b>, and <b>ihr fahrt</b>, without the umlaut. A dictionary or a word list marks these verbs; learn the ‹er› form with the infinitive: <b>fahren</b>, <b>fährt</b>.</p>
 <h3>Ordering food</h3>
 <p><b>nehmen</b> is the everyday verb for ordering: "I'll have…" is <b>Ich nehme…</b>. A server asks <b>Was nehmen Sie?</b>; a friend asks <b>Was nimmst du?</b></p>
 {{ex:Was nimmst du?|vahs nimst doo|What are you having? (to a friend)}}
 {{ex:Ich nehme die Suppe.|ihh NAY-muh dee ZOOP-uh|I'll have the soup.}}
 {{ex:Was nehmen Sie?|vahs NAY-muhn zee|What will you have? (formal)}}
-<div class="tip"><b>Most common mistake:</b> forgetting the change, or adding it everywhere. <b>Er fahrt</b> → <b>Er fährt</b>, but <b>Ich fähre</b> → <b>Ich fahre</b>.</div>
+<div class="tip"><strong>Most common mistake:</strong> forgetting the change, or adding it everywhere. <b>Er fahrt</b> → <b>Er fährt</b>, but <b>Ich fähre</b> → <b>Ich fahre</b>.</div>
 `,
     check: [
-      ["Which forms of fahren take the umlaut?", ["All of them", "Only du and er, sie, es", "Only ich", "Only wir and Sie"], 1, "Stem changes happen only with du and er, sie, es: du fährst, er fährt."],
-      ["What are you having? (to a friend)", ["Was nehmst du?", "Was nimmt du?", "Was nehmen du?", "Was nimmst du?"], 3, "nehmen changes to nimm- in the du form: nimmst."],
-      ["I'm going to Hamburg =", ["Ich fahre nach Hamburg.", "Ich fähre nach Hamburg.", "Ich fährt nach Hamburg.", "Ich fahrt nach Hamburg."], 0, "ich keeps the normal stem: ich fahre."]
+      ["Which forms of ‹fahren› take the umlaut?",["All of them","Only ‹du› and ‹er›, ‹sie›, ‹es›","Only ‹ich›","Only ‹wir› and ‹Sie›"],1,"Stem changes happen only with ‹du› and ‹er›, ‹sie›, ‹es›: ‹du fährst›, ‹er fährt›."],
+      ["What are you having? (to a friend)",["Was nehmst du?","Was nimmt du?","Was nehmen du?","Was nimmst du?"],3,"‹nehmen› changes to ‹nimm-› in the ‹du› form: ‹nimmst›."],
+      ["I'm going to Hamburg =",["Ich fahre nach Hamburg.","Ich fähre nach Hamburg.","Ich fährt nach Hamburg.","Ich fahrt nach Hamburg."],0,"‹ich› keeps the normal stem: ‹ich fahre›."]
     ],
     practice: [
-      ["mc", "Which sentence is right?", "Er fährt nach Berlin.", "Er fahrt nach Berlin.", "Er fahren nach Berlin.", "Er fährst nach Berlin.", "fahren takes an umlaut with er: er fährt.", "!strict"],
-      ["mc", "I'm going to Hamburg =", "Ich fahre nach Hamburg.", "Ich fähre nach Hamburg.", "Ich fährt nach Hamburg.", "Ich fahrt nach Hamburg.", "ich keeps the normal stem: ich fahre.", "!strict"],
-      ["mc", "Which form of nehmen is right?", "du nimmst", "ich nimm", "wir nimmen", "ihr nimmt", "Only du and er, sie, es change: du nimmst, er nimmt."],
-      ["mc", "Was isst du? means…", "What are you eating? (to a friend)", "What is he eating?", "Where are you eating? (to a friend)", "What are you drinking? (to a friend)", "isst is a form of essen, to eat, and du is you."],
-      ["mc", "Do you speak German? (to a friend) =", "Sprichst du Deutsch?", "Sprechst du Deutsch?", "Spricht du Deutsch?", "Sprechen du Deutsch?", "sprechen changes e to i with du: sprichst."],
-      ["or", "Lena is having the soup.", "Lena nimmt die Suppe.", "nehmt", "nehmen changes in the er/sie/es form: nimmt."],
-      ["or", "What are you having? (to a friend)", "Was nimmst du?", "nehmst", "nehmen changes in the du form: nimmst."],
-      ["or", "Tomorrow he's going to Cologne. (start with morgen)", "Morgen fährt er nach Köln.", "fahrt", "Verb second after morgen, and the er form of fahren has an umlaut: fährt."],
-      ["fi", "Was __ Anna?", "What is Anna eating?", "isst", "esst|essen|iss", "essen changes e to i with er, sie, es: isst."],
-      ["fi", "Du __ sehr gut Deutsch.", "You speak German very well. (to a friend)", "sprichst", "sprechst|spricht|sprechen", "sprechen changes e to i with du: sprichst."],
-      ["fi", "Lena __ nach Köln.", "Lena is driving to Cologne.", "fährt", "fahrt|fahren|fährst", "fahren takes an umlaut with er, sie, es: fährt.", "!strict"],
-      ["ty", "Do you eat meat? (to a friend)", "Isst du Fleisch?", "essen · das Fleisch", "esst", "Yes/no question with the verb first, and essen changes in the du form: isst."],
-      ["ty", "She's reading a book.", "Sie liest ein Buch.", "lesen · das Buch", "lest", "lesen changes e to ie in the er/sie/es form: liest."],
-      ["ty", "He's sleeping.", "Er schläft.", "schlafen · er", "schlaft", "schlafen takes an umlaut in the er form: schläft.", "!strict"]
+      ["mc","Which sentence is right?","Er fährt nach Berlin.","Er fahrt nach Berlin.","Er fahren nach Berlin.","Er fährst nach Berlin.","‹fahren› takes an umlaut with ‹er›: ‹er fährt›.","!strict"],
+      ["mc","I'm going to Hamburg =","Ich fahre nach Hamburg.","Ich fähre nach Hamburg.","Ich fährt nach Hamburg.","Ich fahrt nach Hamburg.","‹ich› keeps the normal stem: ‹ich fahre›.","!strict"],
+      ["mc","Which form of ‹nehmen› is right?","du nimmst","ich nimm","wir nimmen","ihr nimmt","Only ‹du› and ‹er›, ‹sie›, ‹es› change: ‹du nimmst›, ‹er nimmt›."],
+      ["mc","‹Was isst du?› means…","What are you eating? (to a friend)","What is he eating?","Where are you eating? (to a friend)","What are you drinking? (to a friend)","‹isst› is a form of ‹essen›, to eat, and ‹du› is you."],
+      ["mc","Do you speak German? (to a friend) =","Sprichst du Deutsch?","Sprechst du Deutsch?","Spricht du Deutsch?","Sprechen du Deutsch?","‹sprechen› changes ‹e› to ‹i› with ‹du›: ‹sprichst›."],
+      ["or","Lena is having the soup.","Lena nimmt die Suppe.","nehmt","‹nehmen› changes in the ‹er›/‹sie›/‹es› form: ‹nimmt›."],
+      ["or","What are you having? (to a friend)","Was nimmst du?","nehmst","‹nehmen› changes in the ‹du› form: ‹nimmst›."],
+      ["or","Tomorrow he's going to Cologne. (start with ‹morgen›)","Morgen fährt er nach Köln.","fahrt","Verb second after ‹morgen›, and the ‹er› form of ‹fahren› has an umlaut: ‹fährt›."],
+      ["fi","Was __ Anna?","What is Anna eating?","isst","esst|essen|iss","‹essen› changes ‹e› to ‹i› with ‹er›, ‹sie›, ‹es›: ‹isst›."],
+      ["fi","Du __ sehr gut Deutsch.","You speak German very well. (to a friend)","sprichst","sprechst|spricht|sprechen","‹sprechen› changes ‹e› to ‹i› with ‹du›: ‹sprichst›."],
+      ["fi","Lena __ nach Köln.","Lena is driving to Cologne.","fährt","fahrt|fahren|fährst","‹fahren› takes an umlaut with ‹er›, ‹sie›, ‹es›: ‹fährt›.","!strict"],
+      ["ty","Do you eat meat? (to a friend)","Isst du Fleisch?","‹essen› · ‹das Fleisch›","esst","Yes/no question with the verb first, and ‹essen› changes in the ‹du› form: ‹isst›."],
+      ["ty","She's reading a book.","Sie liest ein Buch.","‹lesen› · ‹das Buch›","lest","‹lesen› changes ‹e› to ‹ie› in the ‹er›/‹sie›/‹es› form: ‹liest›."],
+      ["ty","He's sleeping.","Er schläft.","‹schlafen› · ‹er›","schlaft","‹schlafen› takes an umlaut in the ‹er› form: ‹schläft›.","!strict"]
     ]
   },
 ];
