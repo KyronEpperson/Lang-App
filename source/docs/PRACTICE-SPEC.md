@@ -41,6 +41,7 @@ Rules for authors
 
 ## Engine behaviour (for reference)
 - Practice is offered from the lesson page. It never gates unlocking and never changes what marks a lesson done.
+  - **Pilot exception (LP-1, 2.146.0, en-es only):** one finished run of the practice set is the last step of the lesson (no pass mark). Missed first tries are kept in `S.pmiss` and weight the checkpoints. See `docs/briefs/learn-loop-pilot.md`.
 - Scoring is on the FIRST attempt of each item. Wrong first attempt → one hint and one retry → then the model answer + `why`.
 - State: `S.practice[lessonId] = { n: runs, first: best first-attempt score (0-1), last: last first-attempt score, ts }`.
 - No-keyboard fallback (`S.kbTiles`): `fill` becomes a 4-option tap, `type` becomes tiles built from a[0] + x.

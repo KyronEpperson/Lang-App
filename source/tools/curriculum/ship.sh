@@ -18,6 +18,10 @@ node tools/tests/quizflow.js > /tmp/claude-0/quizflow.out 2>&1 || { echo 'QUIZ F
 node tools/tests/decksimple.js > /tmp/claude-0/decksimple.out 2>&1 || { echo 'DECK PAGE TEST FAIL'; grep -v '^PASS' /tmp/claude-0/decksimple.out | head -20; exit 1; }; echo "deck page: $(grep -c '^PASS' /tmp/claude-0/decksimple.out) pass"
 node tools/tests/practicemodes.js > /tmp/claude-0/practicemodes.out 2>&1 || { echo 'PRACTICE MODES TEST FAIL'; grep -v '^PASS' /tmp/claude-0/practicemodes.out | head -20; exit 1; }; echo "practice modes: $(grep -c '^PASS' /tmp/claude-0/practicemodes.out) pass"
 { for tg in es fr de pt it; do node tools/halves/tags.js lint $tg || exit 1; done; for tg in es; do node tools/content/tags.js lint $tg || exit 1; done; } > /tmp/claude-0/tagslint.out 2>&1 || { echo 'UNTAGGED TARGET TEXT in a tagged course (docs/briefs/target-text-tags.md)'; tail -20 /tmp/claude-0/tagslint.out; exit 1; }; node tools/tests/tags.js > /tmp/claude-0/tags.out 2>&1 || { echo 'TARGET-TEXT TAGS TEST FAIL'; grep -v '^PASS' /tmp/claude-0/tags.out | head -20; exit 1; }; echo "target-text tags: $(grep -c '^PASS' /tmp/claude-0/tags.out) pass · $(grep -c 'tagged runs' /tmp/claude-0/tagslint.out) courses, 0 untagged"
+for t in stories sounds about; do node tools/$t/apply.js --check || { echo "PACK BLOCK OUT OF DATE ($t): after regenerating a pack run node tools/sections/apply.js, then node tools/$t/apply.js"; exit 1; }; done
+for d in tools/stories/*/; do c=$(basename $d); node tools/stories/check.js check $c tools/stories/$c/stories.js > /tmp/claude-0/stories-$c.out 2>&1 || { echo "STORY CHECK FAIL $c"; grep -v '^PASS' /tmp/claude-0/stories-$c.out | head -20; exit 1; }; done
+for t in stories sayrecord soundtrain pathspeed labels; do node tools/tests/$t.js > /tmp/claude-0/$t.out 2>&1 || { echo "TEST FAIL $t"; grep -v '^PASS' /tmp/claude-0/$t.out | head -20; exit 1; }; echo "$t: $(grep -c '^PASS' /tmp/claude-0/$t.out) checks pass"; done
+node tools/tests/learnloop.js > /tmp/claude-0/learnloop.out 2>&1 || { echo 'LEARN LOOP TEST FAIL'; grep -v '^PASS' /tmp/claude-0/learnloop.out | head -20; exit 1; }; echo "learn loop: $(grep -c '^PASS' /tmp/claude-0/learnloop.out) checks pass"
 node tools/sections/apply.js --check || { echo 'SECTION TABLES MISSING FROM A PACK: run node tools/sections/apply.js after regenerating a pack, then ./build.sh'; exit 1; }
 node tools/tests/lesson_sections.js > /tmp/claude-0/lsec.out 2>&1 || { echo 'LESSON SECTIONS TEST FAIL'; grep '^FAIL' /tmp/claude-0/lsec.out | head -20; exit 1; }; echo "lesson sections: $(grep '^A:' /tmp/claude-0/lsec.out) · $(tail -2 /tmp/claude-0/lsec.out | head -1)"
 node tools/tests/foundations.js > /tmp/claude-0/found.out 2>&1 || { echo 'FOUNDATIONS TEST FAIL'; grep '^FAIL' /tmp/claude-0/found.out | head -20; exit 1; }; echo "foundations: $(tail -2 /tmp/claude-0/found.out | head -1)"
@@ -33,4 +37,4 @@ cd lang-app && git add -A && git -c user.name="Kyron Epperson" -c user.email="ep
 $3
 
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01DWtPfrxadA54B4a34z4Kt3" && git push origin HEAD:main 2>&1 | tail -1
+Claude-Session: https://claude.ai/code/session_01DWtPftiFiV2MEkDa9R4hpx" && git push origin HEAD:main 2>&1 | tail -1

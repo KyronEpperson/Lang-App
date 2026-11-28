@@ -4,7 +4,7 @@ module.exports = {
     ¿Dónde está el baño? | DOHN-deh ehs-TAH ehl BAH-nyoh | Where is the bathroom? | Where something is: ‹estar›.
     a la derecha | ah lah deh-REH-chah | on the right | ‹derecho› = straight ahead; ‹derecha› = right.
     Siga derecho. | SEE-gah deh-REH-choh | Go straight ahead. | ‹usted› command: what a stranger will say to you.
-    la parada de autobús | lah pah-RAH-dah deh ow-toh-BOOS | the bus stop | Mexico: ‹la parada del camión›.
+    la parada de autobús | lah pah-RAH-dah deh ow-toh-BOOS | the bus stop | Mexico: ‹la parada del camión› (‹camión› = bus in Mexico).
     Está cerca. | ehs-TAH SEHR-kah | It's close. | ‹lejos› = far.
     a la izquierda | ah lah ees-KYEHR-dah | on the left | ‹izquierda› is feminine, like ‹derecha›: ‹a la izquierda›.
     Gire a la izquierda en el semáforo. | HEE-reh ah lah ees-KYEHR-dah ehn ehl seh-MAH-foh-roh | Turn left at the traffic light. | ‹usted› command. In Mexico you will also hear: ‹Dé vuelta a la izquierda›.
@@ -43,7 +43,7 @@ module.exports = {
     Me duele la cabeza. | meh DWEH-leh lah kah-BEH-sah | My head hurts. | Works like ‹gustar›. ‹la cabeza›, not ‹mi cabeza›.
     Estoy enfermo. | ehs-TOY ehn-FEHR-moh | I'm sick. | A woman says ‹enferma›. A condition: ‹estar›.
     ¡Ayuda! | ah-YOO-dah | Help! | 
-    ¿Puede llamar a una ambulancia? | PWEH-deh yah-MAHR ah OO-nah ahm-boo-LAHN-syah | Can you call an ambulance? | ‹puede›: ‹poder› (‹o› → ‹ue›), ‹usted› form.
+    ¿Puede llamar a una ambulancia? | PWEH-deh yah-MAHR ah OO-nah ahm-boo-LAHN-syah | Can you call an ambulance? | ‹puede› = you can, ‹usted› form of ‹poder› (‹o› → ‹ue›).
     la farmacia | lah fahr-MAH-syah | the pharmacy | 
     Me duele el estómago. | meh DWEH-leh ehl ehs-TOH-mah-goh | My stomach hurts. | ‹duele› because ‹el estómago› is one thing.
     Me duelen los pies. | meh DWEH-lehn lohs pyehs | My feet hurt. | ‹duelen› agrees with ‹los pies› (plural), like ‹gustan›.
@@ -69,8 +69,8 @@ module.exports = {
     Trabajo desde casa. | trah-BAH-hoh DEHS-deh KAH-sah | I work from home. | No article: ‹desde casa›, ‹en casa›.
     ¿Cómo se dice esto? | KOH-moh seh DEE-seh EHS-toh | How do you say this? | Impersonal ‹se›: how does one say it.
     Tengo mucha tarea. | TEHN-goh MOO-chah tah-REH-ah | I have a lot of homework. | ‹mucha› agrees with ‹la tarea› (feminine).
-    Mañana tengo un examen. | mah-NYAH-nah TEHN-goh oon ehk-SAH-mehn | I have a test tomorrow. | ‹el examen›; plural ‹los exámenes›.
-    La clase empieza a las nueve. | lah KLAH-seh ehm-PYEH-sah ah lahs NWEH-beh | Class starts at nine. | ‹empezar› (‹e› → ‹ie›): ‹empieza›.
+    Mañana tengo un examen. | mah-NYAH-nah TEHN-goh oon ehk-SAH-mehn | I have a test tomorrow. | ‹el examen› = the test; plural ‹los exámenes›.
+    La clase empieza a las nueve. | lah KLAH-seh ehm-PYEH-sah ah lahs NWEH-beh | Class starts at nine. | ‹empieza› = it starts, from ‹empezar› (‹e› → ‹ie›).
     Mi computadora no funciona. | mee kohm-poo-tah-DOH-rah noh foon-SYOH-nah | My computer isn't working. | Spain: ‹el ordenador›. ‹funcionar› is for machines that work.
     Te mando un correo. | teh MAHN-doh oon koh-RREH-oh | I'll send you an email. | The present often covers I'll do it in a moment.
     Se necesitan meseros. | seh neh-seh-SEE-tahn meh-SEH-rohs | Servers wanted. | ‹necesitan› agrees with ‹meseros› (plural). Spain: ‹camareros›.
@@ -79,7 +79,7 @@ module.exports = {
   `,
   "Feelings and states": `
     Estoy cansado. | ehs-TOY kahn-SAH-doh | I'm tired. | A woman says ‹cansada›.
-    Tengo hambre. | TEHN-goh AHM-breh | I'm hungry. | ‹tener› + noun: ‹tengo sed›, ‹tengo frío›, ‹tengo miedo›.
+    Tengo hambre. | TEHN-goh AHM-breh | I'm hungry. | ‹tener› + noun: ‹tengo sed› = I'm thirsty, ‹tengo frío› = I'm cold, ‹tengo miedo› = I'm scared.
     Estoy contenta. | ehs-TOY kohn-TEHN-tah | I'm happy. | Said by a woman; a man says ‹contento›.
     Estoy aburrido. | ehs-TOY ah-boo-RREE-doh | I'm bored. | ‹Soy aburrido› = I am boring.
     Tengo miedo. | TEHN-goh MYEH-doh | I'm scared. | 
@@ -112,7 +112,7 @@ module.exports = {
     ¿Qué hiciste el fin de semana? | keh ee-SEES-teh ehl feen deh seh-MAH-nah | What did you do on the weekend? | ‹hiciste›: the ‹tú› form of ‹hacer› in the preterite.
     Salí con mis amigos. | sah-LEE kohn mees ah-MEE-gohs | I went out with my friends. | ‹salí› = I went out, from ‹salir›. Present: ‹salgo›.
     Vimos una película. | BEE-mohs OO-nah peh-LEE-koo-lah | We watched a movie. | ‹vimos› = we saw, from ‹ver›.
-    ¿Quieres ir a la playa? | KYEH-rehs eer ah lah PLAH-yah | Do you want to go to the beach? | ‹querer› (‹e› → ‹ie›): ‹quieres›.
+    ¿Quieres ir a la playa? | KYEH-rehs eer ah lah PLAH-yah | Do you want to go to the beach? | ‹quieres› = you want, from ‹querer› (‹e› → ‹ie›).
     Me encantan los perros. | meh ehn-KAHN-tahn lohs PEH-rrohs | I love dogs. | ‹encantan› agrees with ‹los perros› (plural).
   `,
   "Questions and connectors": `

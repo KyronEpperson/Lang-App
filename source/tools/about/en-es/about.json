@@ -1,0 +1,25 @@
+{
+ "_about": "HL-1: honest labels for en-es (course report, solution 14). What the course covers, what it does not train, and what to add outside the app. The hours are an estimate from the report's time model, not a measurement.",
+ "about": {
+  "hours": "about 30 to 40 hours",
+  "level": "This is a first layer of Spanish: most of what level A1 asks for. A1 is usually put at 90 to 100 hours of guided study, so plan to add practice outside the app.",
+  "can": [
+   "Read any Spanish word aloud and be understood.",
+   "Greet people, introduce yourself, and say where you are from and what you do.",
+   "Order food, shop, ask prices, and ask for directions and the time.",
+   "Talk about your day, your plans, and what you did yesterday.",
+   "Follow short everyday exchanges and short stories made of words you know."
+  ],
+  "not": [
+   "Following fast natural speech or a long conversation.",
+   "Past tenses beyond the simple preterite, the future tense and the subjunctive.",
+   "Free conversation: nothing here answers you back or checks what you say.",
+   "Writing more than a sentence."
+  ],
+  "add": [
+   "Talk with a person every week: a tutor, a class or an exchange partner.",
+   "Listen to easy Spanish every day, such as slow news or videos made for learners.",
+   "Read graded readers once the stories here feel easy."
+  ]
+ }
+}

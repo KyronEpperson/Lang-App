@@ -138,7 +138,7 @@
 {"f":"cards","id":"es.c0161","k":"note","spans":["‹estar›"]}
 {"f":"cards","id":"es.c0162","k":"note","spans":["‹derecho›","‹derecha›"]}
 {"f":"cards","id":"es.c0163","k":"note","spans":["‹usted›"]}
-{"f":"cards","id":"es.c0164","k":"note","spans":["‹la parada del camión›"]}
+{"f":"cards","id":"es.c0164","k":"note","spans":["‹la parada del camión›","‹camión›"]}
 {"f":"cards","id":"es.c0165","k":"note","spans":["‹lejos›"]}
 {"f":"cards","id":"es.c0166","k":"note","spans":["‹izquierda›","‹derecha›","‹a la izquierda›"]}
 {"f":"cards","id":"es.c0167","k":"note","spans":["‹usted›","‹Dé vuelta a la izquierda›"]}
@@ -169,7 +169,7 @@
 {"f":"cards","id":"es.c0195","k":"note","spans":["‹libre›","‹-e›"]}
 {"f":"cards","id":"es.c0196","k":"note","spans":["‹gustar›","‹la cabeza›","‹mi cabeza›"]}
 {"f":"cards","id":"es.c0197","k":"note","spans":["‹enferma›","‹estar›"]}
-{"f":"cards","id":"es.c0199","k":"note","spans":["‹puede›","‹poder›","‹o›","‹ue›","‹usted›"]}
+{"f":"cards","id":"es.c0199","k":"note","spans":["‹puede›","‹usted›","‹poder›","‹o›","‹ue›"]}
 {"f":"cards","id":"es.c0201","k":"note","spans":["‹duele›","‹el estómago›"]}
 {"f":"cards","id":"es.c0202","k":"note","spans":["‹duelen›","‹los pies›","‹gustan›"]}
 {"f":"cards","id":"es.c0203","k":"note","spans":["‹tener›","‹tengo tos›","‹tengo fiebre›"]}
@@ -189,7 +189,7 @@
 {"f":"cards","id":"es.c0221","k":"note","spans":["‹se›"]}
 {"f":"cards","id":"es.c0222","k":"note","spans":["‹mucha›","‹la tarea›"]}
 {"f":"cards","id":"es.c0223","k":"note","spans":["‹el examen›","‹los exámenes›"]}
-{"f":"cards","id":"es.c0224","k":"note","spans":["‹empezar›","‹e›","‹ie›","‹empieza›"]}
+{"f":"cards","id":"es.c0224","k":"note","spans":["‹empieza›","‹empezar›","‹e›","‹ie›"]}
 {"f":"cards","id":"es.c0225","k":"note","spans":["‹el ordenador›","‹funcionar›"]}
 {"f":"cards","id":"es.c0227","k":"note","spans":["‹necesitan›","‹meseros›","‹camareros›"]}
 {"f":"cards","id":"es.c0228","k":"note","spans":["‹los sábados›","‹-amos›","‹nosotros›"]}
@@ -223,7 +223,7 @@
 {"f":"cards","id":"es.c0259","k":"note","spans":["‹hiciste›","‹tú›","‹hacer›"]}
 {"f":"cards","id":"es.c0260","k":"note","spans":["‹salí›","‹salir›","‹salgo›"]}
 {"f":"cards","id":"es.c0261","k":"note","spans":["‹vimos›","‹ver›"]}
-{"f":"cards","id":"es.c0262","k":"note","spans":["‹querer›","‹e›","‹ie›","‹quieres›"]}
+{"f":"cards","id":"es.c0262","k":"note","spans":["‹quieres›","‹querer›","‹e›","‹ie›"]}
 {"f":"cards","id":"es.c0263","k":"note","spans":["‹encantan›","‹los perros›"]}
 {"f":"cards","id":"es.c0264","k":"note","spans":["‹porque›"]}
 {"f":"cards","id":"es.c0265","k":"note","spans":["‹cuándo›","‹dónde›","‹qué›"]}
@@ -483,7 +483,7 @@
 {"f":"cards","id":"es.c0547","k":"note","spans":["‹yo empiezo›","‹e›","‹ie›"]}
 {"f":"cards","id":"es.c0548","k":"note","spans":["‹yo espero›"]}
 {"f":"cards","id":"es.c0549","k":"note","spans":["‹yo busco›","‹busco mi llave›"]}
-{"f":"cards","id":"es.c0550","k":"note","spans":["‹yo entro›","‹entrar a›","‹en›"]}
+{"f":"cards","id":"es.c0550","k":"note","spans":["‹yo entro›","‹entrar a›","‹entrar en›"]}
 {"f":"cards","id":"es.c0551","k":"note","spans":["‹yo trabajo›"]}
 {"f":"cards","id":"es.c0552","k":"note","spans":["‹yo necesito›"]}
 {"f":"cards","id":"es.c0553","k":"note","spans":["‹me gusta›"]}
@@ -665,7 +665,7 @@
 {"f":"cards","id":"es.c0742","k":"note","spans":["‹Que›"]}
 {"f":"cards","id":"es.c0743","k":"note","spans":["‹Soy de Texas›"]}
 {"f":"cards","id":"es.c0744","k":"note","spans":["‹todas›","‹Todos los días›"]}
-{"f":"cards","id":"es.c0745","k":"note","spans":["‹Nos gusta›","‹nos vemos›"]}
+{"f":"cards","id":"es.c0745","k":"note","spans":["‹Nos gusta›","‹Nos vemos›"]}
 {"f":"cards","id":"es.c0746","k":"note","spans":["‹el›"]}
 {"f":"cards","id":"es.c0747","k":"note","spans":["‹Te quiero›","‹te llamo›","‹usted›","‹lo›","‹la›","‹le›"]}
 {"f":"cards","id":"es.c0748","k":"note","spans":["‹¡Eso es!›"]}

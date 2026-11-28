@@ -3,54 +3,54 @@ module.exports = {
   "Top nouns": `
 la vez | lah behs | time (one occasion) | ‹una vez› = once; ‹dos veces› = twice. Plural: ‹veces›.
 el año | ehl AH-nyoh | year | ‹Tengo veinte años› = I'm twenty years old.
-el tiempo | ehl TYEHM-poh | time (in general); weather | ‹¿Tienes tiempo?› / ‹Hace buen tiempo›.
-la cosa | lah KOH-sah | thing | ‹Una cosa más, por favor›.
-el hombre | ehl OHM-breh | man | ‹el hombre alto›, ‹los hombres›.
+el tiempo | ehl TYEHM-poh | time (in general); weather | ‹¿Tienes tiempo?› = Do you have time? ‹Hace buen tiempo› = The weather is nice.
+la cosa | lah KOH-sah | thing | ‹Una cosa más, por favor› = One more thing, please.
+el hombre | ehl OHM-breh | man | ‹el hombre alto› = the tall man. Plural: ‹los hombres›.
 la parte | lah PAHR-teh | part | ‹en todas partes› = everywhere.
-la vida | lah BEE-dah | life | ‹¡Así es la vida!›
+la vida | lah BEE-dah | life | ‹¡Así es la vida!› = That's life!
 la casa | lah KAH-sah | house; home | ‹en casa› = at home; ‹a casa› = home (going there).
 el mundo | ehl MOON-doh | world | ‹todo el mundo› = everybody, not the whole world.
 la mujer | lah moo-HEHR | woman; wife | Mexico: ‹mi esposa› is more polite than ‹mi mujer›.
 la noche | lah NOH-cheh | night; evening | ‹esta noche› = tonight; ‹de noche› = at night.
-el momento | ehl moh-MEHN-toh | moment | ‹Un momento, por favor›.
+el momento | ehl moh-MEHN-toh | moment | ‹Un momento, por favor› = One moment, please.
 el señor | ehl seh-NYOHR | gentleman; Mr.; sir | ‹el señor López›; written ‹Sr.› Use ‹el› when talking about him.
 la señora | lah seh-NYOH-rah | lady; Mrs.; ma'am | Use ‹¿Señora?› to get a woman's attention politely.
-el trabajo | ehl trah-BAH-hoh | work; job | ‹Voy al trabajo a las ocho›.
+el trabajo | ehl trah-BAH-hoh | work; job | ‹Voy al trabajo a las ocho› = I go to work at eight.
 la verdad | lah behr-DAHD | truth | ‹¿Verdad?› at the end of a sentence = right?
-el lugar | ehl loo-GAHR | place | ‹un lugar tranquilo›.
+el lugar | ehl loo-GAHR | place | ‹un lugar tranquilo› = a quiet place.
 la persona | lah pehr-SOH-nah | person | Always feminine, even for a man: ‹Juan es una buena persona›.
 la mañana | lah mah-NYAH-nah | morning | ‹la mañana› = morning; ‹mañana› alone = tomorrow.
 el padre | ehl PAH-dreh | father; priest | Day to day, people say ‹mi papá›.
 la madre | lah MAH-dreh | mother | Day to day, people say ‹mi mamá›; ‹madre› turns up in Mexican slang.
-la familia | lah fah-MEE-lyah | family | Singular: ‹mi familia es grande›.
+la familia | lah fah-MEE-lyah | family | Singular: ‹mi familia es grande› = my family is big.
 el amigo | ehl ah-MEE-goh | friend (male, or a mixed group) | For a woman: ‹la amiga›. A group: ‹los amigos›.
 el dinero | ehl dee-NEH-roh | money | Mexico, casual: ‹la lana›.
 la mano | lah MAH-noh | hand | Feminine though it ends in ‹-o›: ‹la mano derecha›.
 la forma | lah FOHR-mah | shape; form | ‹de todas formas› = anyway.
 la manera | lah mah-NEH-rah | way (of doing something) | ‹de esta manera› = this way.
-el país | ehl pah-EES | country (nation) | ‹¿De qué país eres?›
-la ciudad | lah syoo-DAHD | city | ‹la Ciudad de México›.
+el país | ehl pah-EES | country (nation) | ‹¿De qué país eres?› = What country are you from?
+la ciudad | lah syoo-DAHD | city | ‹la Ciudad de México› = Mexico City.
 la tarde | lah TAHR-deh | afternoon; early evening | ‹Buenas tardes› until it gets dark.
-el nombre | ehl NOHM-breh | name | ‹¿Cuál es tu nombre?›
-la historia | lah ees-TOH-ryah | story; history | ‹Es una historia muy larga›.
-la idea | lah ee-DEH-ah | idea | ‹¡Buena idea!›
+el nombre | ehl NOHM-breh | name | ‹¿Cuál es tu nombre?› = What is your name?
+la historia | lah ees-TOH-ryah | story; history | ‹Es una historia muy larga› = It's a very long story.
+la idea | lah ee-DEH-ah | idea | ‹¡Buena idea!› = Good idea!
 el amor | ehl ah-MOHR | love | ‹mi amor› = my love, also said to children.
 la razón | lah rrah-SOHN | reason | ‹tener razón› = to be right.
 el camino | ehl kah-MEE-noh | way (route); road; path | ‹en el camino› = on the way.
 la luz | lah loos | light; electricity | Plural: ‹luces›. ‹Se fue la luz› = the power went out.
 la cabeza | lah kah-BEH-sah | head | ‹Me duele la cabeza› = I have a headache.
 la hija | lah EE-hah | daughter | A son: ‹el hijo›. Children (mixed): ‹los hijos›.
-la palabra | lah pah-LAH-brah | word | ‹¿Qué significa esta palabra?›
+la palabra | lah pah-LAH-brah | word | ‹¿Qué significa esta palabra?› = What does this word mean?
 el agua | ehl AH-gwah | water | Feminine: ‹el agua fría›. ‹El› only to avoid a-a.
 el ojo | ehl OH-hoh | eye | ‹¡Ojo!› alone = careful! watch out!
 el corazón | ehl koh-rah-SOHN | heart | ‹de corazón› = sincerely.
-la puerta | lah PWEHR-tah | door | ‹Cierra la puerta, por favor›.
+la puerta | lah PWEHR-tah | door | ‹Cierra la puerta, por favor› = Close the door, please.
 el lado | ehl LAH-doh | side | ‹al lado de› = next to.
 la semana | lah seh-MAH-nah | week | ‹la semana pasada› = last week.
 el mes | ehl mehs | month | ‹el mes que viene› = next month.
-el número | ehl NOO-meh-roh | number | ‹¿Cuál es tu número de teléfono?›
+el número | ehl NOO-meh-roh | number | ‹¿Cuál es tu número de teléfono?› = What is your phone number?
 la muerte | lah MWEHR-teh | death | Also an image in Day of the Dead art.
-el cuerpo | ehl KWEHR-poh | body | ‹el cuerpo humano›.
+el cuerpo | ehl KWEHR-poh | body | ‹el cuerpo humano› = the human body.
 la comida | lah koh-MEE-dah | food; meal | ‹la comida› = lunch in much of Mexico.
 la escuela | lah ehs-KWEH-lah | school | Mexico: ‹la prepa› = high school.
 la chica | lah CHEE-kah | girl; young woman | Not for small children: use ‹la niña›.
@@ -60,45 +60,45 @@ el final | ehl fee-NAHL | end | ‹al final› = in the end. ‹el fin› is use
 el teléfono | ehl teh-LEH-foh-noh | telephone | Also used for a phone number.
 el celular | ehl seh-loo-LAHR | cell phone | Spain: ‹el móvil›.
 la pregunta | lah preh-GOON-tah | question | ‹hacer una pregunta› = to ask a question.
-la respuesta | lah rrehs-PWEHS-tah | answer | ‹la respuesta correcta›.
-el favor | ehl fah-BOHR | favor | ‹¿Me haces un favor?›
+la respuesta | lah rrehs-PWEHS-tah | answer | ‹la respuesta correcta› = the right answer.
+el favor | ehl fah-BOHR | favor | ‹¿Me haces un favor?› = Will you do me a favor?
 el libro | ehl LEE-broh | book | ‹la librería› sells books; ‹la biblioteca› lends them.
 la noticia | lah noh-TEE-syah | piece of news | ‹las noticias› = the news (TV, paper).
 el juego | ehl HWEH-goh | game | ‹un juego de mesa› = a board game. A sports match: ‹el partido›.
-la clase | lah KLAH-seh | class (lesson); kind | ‹¿A qué hora es tu clase?›
+la clase | lah KLAH-seh | class (lesson); kind | ‹¿A qué hora es tu clase?› = What time is your class?
 el cuarto | ehl KWAHR-toh | room; bedroom (Mexico); quarter | ‹las ocho y cuarto› = a quarter past eight.
 la mesa | lah MEH-sah | table | ‹poner la mesa› = to set the table.
-la fiesta | lah FYEHS-tah | party | ‹¿Vamos a la fiesta?›
-la tienda | lah TYEHN-dah | store; shop | ‹Voy a la tienda por leche›.
+la fiesta | lah FYEHS-tah | party | ‹¿Vamos a la fiesta?› = Shall we go to the party?
+la tienda | lah TYEHN-dah | store; shop | ‹Voy a la tienda por leche› = I'm going to the store for milk.
 el sueño | ehl SWEH-nyoh | dream; sleepiness | ‹Tengo sueño› = I'm sleepy.
-el viaje | ehl BYAH-heh | trip | ‹¡Buen viaje!›
-el pueblo | ehl PWEH-bloh | town; village; a people | ‹Mi abuela es de un pueblo pequeño›.
+el viaje | ehl BYAH-heh | trip | ‹¡Buen viaje!› = Have a good trip!
+el pueblo | ehl PWEH-bloh | town; village; a people | ‹Mi abuela es de un pueblo pequeño› = My grandmother is from a small town.
 el error | ehl eh-RROHR | mistake | ‹cometer un error› = to make a mistake.
-la película | lah peh-LEE-koo-lah | movie | ‹ver una película›.
-la música | lah MOO-see-kah | music | Feminine: ‹la música mexicana›.
+la película | lah peh-LEE-koo-lah | movie | ‹ver una película› = to watch a movie.
+la música | lah MOO-see-kah | music | Feminine: ‹la música mexicana› = Mexican music.
 la canción | lah kahn-SYOHN | song | Plural: ‹canciones›, no accent.
 la foto | lah FOH-toh | photo | Feminine (from ‹fotografía›): ‹la foto›.
 la policía | lah poh-lee-SEE-ah | police | ‹la policía› = the police force; ‹el policía› = a policeman.
 el doctor | ehl dohk-TOHR | doctor | Also ‹el médico›. A woman: ‹la doctora›.
 la tierra | lah TYEH-rrah | earth; land; soil | ‹la Tierra› (capital) = planet Earth.
-la ayuda | lah ah-YOO-dah | help | ‹¿Necesitas ayuda?›
-la cuenta | lah KWEHN-tah | bill (check); account | ‹La cuenta, por favor›.
-el precio | ehl PREH-syoh | price | ‹¿Qué precio tiene?›
+la ayuda | lah ah-YOO-dah | help | ‹¿Necesitas ayuda?› = Do you need help?
+la cuenta | lah KWEHN-tah | bill (check); account | ‹La cuenta, por favor› = The check, please.
+el precio | ehl PREH-syoh | price | ‹¿Qué precio tiene?› = What is the price?
 el regalo | ehl rreh-GAH-loh | gift; present | Not "regal". ‹un regalo de cumpleaños›.
 el cumpleaños | ehl koom-pleh-AH-nyohs | birthday | Same in the plural: ‹los cumpleaños›.
 la ropa | lah RROH-pah | clothes | Singular in Spanish: ‹la ropa está limpia›.
 el idioma | ehl ee-DYOH-mah | language | Masculine though it ends in ‹-a›: ‹el idioma español›.
-el centro | ehl SEHN-troh | downtown; center | ‹Voy al centro›.
+el centro | ehl SEHN-troh | downtown; center | ‹Voy al centro› = I'm going downtown.
 el barrio | ehl BAH-rryoh | neighborhood | Mexico also: ‹la colonia›.
 el sol | ehl sohl | sun | ‹Hace sol› = it's sunny.
 el mar | ehl mahr | sea | Usually masculine: ‹el mar›.
 el cielo | ehl SYEH-loh | sky; heaven | Also: ‹¡mi cielo!› = sweetheart.
-el estado | ehl ehs-TAH-doh | state | ‹los Estados Unidos›.
-la empresa | lah ehm-PREH-sah | company (business) | ‹Trabajo en una empresa grande›.
-el grupo | ehl GROO-poh | group | ‹un grupo de amigos›.
+el estado | ehl ehs-TAH-doh | state | ‹los Estados Unidos› = the United States.
+la empresa | lah ehm-PREH-sah | company (business) | ‹Trabajo en una empresa grande› = I work at a big company.
+el grupo | ehl GROO-poh | group | ‹un grupo de amigos› = a group of friends.
 el caso | ehl KAH-soh | case | ‹en ese caso› = in that case.
 el ejemplo | ehl eh-HEHM-ploh | example | ‹por ejemplo› = for example.
-la suerte | lah SWEHR-teh | luck | ‹¡Buena suerte!›
+la suerte | lah SWEHR-teh | luck | ‹¡Buena suerte!› = Good luck!
 la salud | lah sah-LOOD | health | ‹¡Salud!› = cheers; also bless you.
 el miedo | ehl MYEH-doh | fear | ‹Tengo miedo› = I'm scared.
 el dolor | ehl doh-LOHR | pain; ache | ‹dolor de cabeza› = headache.
@@ -106,13 +106,13 @@ la duda | lah DOO-dah | doubt | ‹Sin duda› = no doubt.
 las ganas | lahs GAH-nahs | wish (feeling like it) | ‹Tengo ganas de bailar› = I feel like dancing.
 la carta | lah KAHR-tah | letter; menu | Also ‹el menú› at restaurants.
 el correo | ehl koh-RREH-oh | mail; email | ‹correo electrónico› = email.
-la cita | lah SEE-tah | appointment; date | ‹una cita con el doctor›.
+la cita | lah SEE-tah | appointment; date | ‹una cita con el doctor› = a doctor's appointment.
 la oficina | lah oh-fee-SEE-nah | office | ‹la oficina de correos› = the post office.
 el gato | ehl GAH-toh | cat | A female cat: ‹la gata›.
-la ventana | lah behn-TAH-nah | window | ‹Abre la ventana, por favor›.
+la ventana | lah behn-TAH-nah | window | ‹Abre la ventana, por favor› = Open the window, please.
 el pan | ehl pahn | bread | ‹pan dulce› = Mexican sweet bread.
 la paz | lah pahs | peace | ‹¡Déjame en paz!› = leave me alone!
-la sorpresa | lah sohr-PREH-sah | surprise | ‹¡Qué sorpresa!›
+la sorpresa | lah sohr-PREH-sah | surprise | ‹¡Qué sorpresa!› = What a surprise!
 `,
   "Top verbs": `
 ser | sehr | to be (what something is) | ‹yo soy›. Irregular. Identity, origin, job, time.
@@ -120,117 +120,117 @@ haber | ah-BEHR | to have (done); there is (‹hay›) | ‹hay› = there is / 
 estar | ehs-TAHR | to be (where, how right now) | ‹yo estoy›. Irregular. Location and states.
 tener | teh-NEHR | to have | ‹yo tengo›. Irregular. ‹tener que› + verb = to have to.
 hacer | ah-SEHR | to do; to make | ‹yo hago›. Irregular. ‹Hace frío› = it's cold.
-poder | poh-DEHR | can; to be able to | ‹yo puedo›. Irregular (‹o› → ‹ue›).
-decir | deh-SEER | to say; to tell | ‹yo digo›. Irregular.
+poder | poh-DEHR | can; to be able to | ‹yo puedo› = I can. Irregular (‹o› → ‹ue›).
+decir | deh-SEER | to say; to tell | ‹yo digo› = I say. Irregular.
 ir | eer | to go | ‹yo voy›. Irregular. ‹voy a› + verb = I'm going to.
 ver | behr | to see; to watch | ‹yo veo›. Irregular. Preterite: ‹vi›, ‹vio› (no accents).
-dar | dahr | to give | ‹yo doy›. Irregular.
+dar | dahr | to give | ‹yo doy› = I give. Irregular.
 saber | sah-BEHR | to know (a fact); to know how | ‹yo sé›. Irregular. ‹Sé nadar› = I can swim.
 querer | keh-REHR | to want; to love (someone) | ‹yo quiero›. Irregular (‹e› → ‹ie›). ‹Te quiero› = I love you.
-llegar | yeh-GAHR | to arrive; to get (somewhere) | ‹yo llego›. Regular.
+llegar | yeh-GAHR | to arrive; to get (somewhere) | ‹yo llego› = I arrive. Regular.
 pasar | pah-SAHR | to happen; to pass; to spend (time) | ‹yo paso›. Regular. ‹¿Qué pasó?› = what happened?
-deber | deh-BEHR | should; must; to owe | ‹yo debo›. Regular.
-poner | poh-NEHR | to put; to turn on (TV) | ‹yo pongo›. Irregular.
+deber | deh-BEHR | should; must; to owe | ‹yo debo› = I should; I owe. Regular.
+poner | poh-NEHR | to put; to turn on (TV) | ‹yo pongo› = I put. Irregular.
 parecer | pah-reh-SEHR | to seem; to look like | ‹yo parezco›. Irregular ‹yo› form. ‹¿Qué te parece?› = what do you think?
 quedar | keh-DAHR | to stay; to be left; to fit (clothes) | ‹yo quedo›. Regular. ‹quedarse› = to stay somewhere.
 creer | kreh-EHR | to believe; to think (so) | ‹yo creo›. Regular. ‹Creo que sí› = I think so.
-hablar | ah-BLAHR | to speak; to talk | ‹yo hablo›. Regular.
-llevar | yeh-BAHR | to carry; to take along; to wear | ‹yo llevo›. Regular.
+hablar | ah-BLAHR | to speak; to talk | ‹yo hablo› = I speak. Regular.
+llevar | yeh-BAHR | to carry; to take along; to wear | ‹yo llevo› = I carry; I wear. Regular.
 dejar | deh-HAHR | to leave (something); to let | ‹yo dejo›. Regular. ‹Déjame› = let me.
-seguir | seh-GHEER | to follow; to keep (doing) | ‹yo sigo›. Irregular (‹e› → ‹i›).
-encontrar | ehn-kohn-TRAHR | to find | ‹yo encuentro›. Irregular (‹o› → ‹ue›).
+seguir | seh-GHEER | to follow; to keep (doing) | ‹yo sigo› = I follow. Irregular (‹e› → ‹i›).
+encontrar | ehn-kohn-TRAHR | to find | ‹yo encuentro› = I find. Irregular (‹o› → ‹ue›).
 llamar | yah-MAHR | to call | ‹yo llamo›. Regular. ‹llamarse› = to be called.
-venir | beh-NEER | to come | ‹yo vengo›. Irregular.
+venir | beh-NEER | to come | ‹yo vengo› = I come. Irregular.
 pensar | pehn-SAHR | to think | ‹yo pienso›. Irregular (‹e› → ‹ie›). ‹pensar en› = to think about.
-salir | sah-LEER | to go out; to leave (a place) | ‹yo salgo›. Irregular.
+salir | sah-LEER | to go out; to leave (a place) | ‹yo salgo› = I go out. Irregular.
 volver | bohl-BEHR | to come back; to return | ‹yo vuelvo›. Irregular (‹o› → ‹ue›). ‹volver a› + verb = to do again.
 tomar | toh-MAHR | to take; to have (a drink) | ‹yo tomo›. Regular. ‹Tomar el autobús›. Never ‹coger› in Mexico.
 conocer | koh-noh-SEHR | to know (a person, a place); to meet | ‹yo conozco›. Irregular ‹yo› form.
-vivir | bee-BEER | to live | ‹yo vivo›. Regular.
+vivir | bee-BEER | to live | ‹yo vivo› = I live. Regular.
 sentir | sehn-TEER | to feel; to be sorry | ‹yo siento›. Irregular (‹e› → ‹ie›). ‹Lo siento› = I'm sorry.
 tratar | trah-TAHR | to treat; to try (‹tratar de›) | ‹yo trato›. Regular. ‹Trato de dormir› = I try to sleep.
 mirar | mee-RAHR | to look at | ‹yo miro›. Regular. No "at": ‹mira la foto›.
-contar | kohn-TAHR | to count; to tell (a story) | ‹yo cuento›. Irregular (‹o› → ‹ue›).
-empezar | ehm-peh-SAHR | to begin; to start | ‹yo empiezo›. Irregular (‹e› → ‹ie›).
-esperar | ehs-peh-RAHR | to wait; to hope; to expect | ‹yo espero›. Regular.
+contar | kohn-TAHR | to count; to tell (a story) | ‹yo cuento› = I count; I tell. Irregular (‹o› → ‹ue›).
+empezar | ehm-peh-SAHR | to begin; to start | ‹yo empiezo› = I start. Irregular (‹e› → ‹ie›).
+esperar | ehs-peh-RAHR | to wait; to hope; to expect | ‹yo espero› = I wait; I hope. Regular.
 buscar | boos-KAHR | to look for | ‹yo busco›. Regular. No "for": ‹busco mi llave›.
-entrar | ehn-TRAHR | to go in; to enter | ‹yo entro›. Regular. ‹entrar a› / ‹en›.
-trabajar | trah-bah-HAHR | to work (at a job) | ‹yo trabajo›. Regular.
-necesitar | neh-seh-see-TAHR | to need | ‹yo necesito›. Regular.
+entrar | ehn-TRAHR | to go in; to enter | ‹yo entro› = I go in. Regular. Into a place: ‹entrar a› or ‹entrar en›.
+trabajar | trah-bah-HAHR | to work (at a job) | ‹yo trabajo› = I work. Regular.
+necesitar | neh-seh-see-TAHR | to need | ‹yo necesito› = I need. Regular.
 gustar | goos-TAHR | to be pleasing (how "like" works) | ‹me gusta› = I like it. The thing liked is the subject.
 escribir | ehs-kree-BEER | to write | ‹yo escribo›. Regular, but past participle ‹escrito›.
-perder | pehr-DEHR | to lose; to miss (a bus) | ‹yo pierdo›. Irregular (‹e› → ‹ie›).
-entender | ehn-tehn-DEHR | to understand | ‹yo entiendo›. Irregular (‹e› → ‹ie›).
-comer | koh-MEHR | to eat | ‹yo como›. Regular.
+perder | pehr-DEHR | to lose; to miss (a bus) | ‹yo pierdo› = I lose. Irregular (‹e› → ‹ie›).
+entender | ehn-tehn-DEHR | to understand | ‹yo entiendo› = I understand. Irregular (‹e› → ‹ie›).
+comer | koh-MEHR | to eat | ‹yo como› = I eat. Regular.
 ayudar | ah-yoo-DAHR | to help | ‹yo ayudo›. Regular. ‹¿Te ayudo?› = shall I help you?
-morir | moh-REER | to die | ‹yo muero›. Irregular (‹o› → ‹ue›).
-recordar | rreh-kohr-DAHR | to remember; to remind | ‹yo recuerdo›. Irregular (‹o› → ‹ue›).
-terminar | tehr-mee-NAHR | to finish; to end | ‹yo termino›. Regular.
+morir | moh-REER | to die | ‹yo muero› = I die. Irregular (‹o› → ‹ue›).
+recordar | rreh-kohr-DAHR | to remember; to remind | ‹yo recuerdo› = I remember. Irregular (‹o› → ‹ue›).
+terminar | tehr-mee-NAHR | to finish; to end | ‹yo termino› = I finish. Regular.
 jugar | hoo-GAHR | to play (a game, a sport) | ‹yo juego›. Irregular (‹u› → ‹ue›). For music: ‹tocar›.
-dormir | dohr-MEER | to sleep | ‹yo duermo›. Irregular (‹o› → ‹ue›).
+dormir | dohr-MEER | to sleep | ‹yo duermo› = I sleep. Irregular (‹o› → ‹ue›).
 oír | oh-EER | to hear | ‹yo oigo›. Irregular. ‹¡Oye!› = hey!
 escuchar | ehs-koo-CHAHR | to listen (to) | ‹yo escucho›. Regular. No "to": ‹escucho música›.
-pedir | peh-DEER | to ask for; to order (food) | ‹yo pido›. Irregular (‹e› → ‹i›).
+pedir | peh-DEER | to ask for; to order (food) | ‹yo pido› = I ask for; I order. Irregular (‹e› → ‹i›).
 preguntar | preh-goon-TAHR | to ask (a question) | ‹yo pregunto›. Regular. To ask FOR something: ‹pedir›.
-traer | trah-EHR | to bring | ‹yo traigo›. Irregular.
+traer | trah-EHR | to bring | ‹yo traigo› = I bring. Irregular.
 pagar | pah-GAHR | to pay (for) | ‹yo pago›. Regular. No "for": ‹pago la cuenta›.
-comprar | kohm-PRAHR | to buy | ‹yo compro›. Regular.
+comprar | kohm-PRAHR | to buy | ‹yo compro› = I buy. Regular.
 abrir | ah-BREER | to open | ‹yo abro›. Regular, but past participle ‹abierto›.
-cerrar | seh-RRAHR | to close; to shut | ‹yo cierro›. Irregular (‹e› → ‹ie›).
+cerrar | seh-RRAHR | to close; to shut | ‹yo cierro› = I close. Irregular (‹e› → ‹ie›).
 olvidar | ohl-bee-DAHR | to forget | ‹yo olvido›. Regular. Also ‹olvidarse de›.
-cambiar | kahm-BYAHR | to change | ‹yo cambio›. Regular.
+cambiar | kahm-BYAHR | to change | ‹yo cambio› = I change. Regular.
 leer | leh-EHR | to read | ‹yo leo›. Regular (preterite ‹leyó›).
 aprender | ah-prehn-DEHR | to learn | ‹yo aprendo›. Regular. ‹aprender a› + verb.
-estudiar | ehs-too-DYAHR | to study | ‹yo estudio›. Regular.
-usar | oo-SAHR | to use | ‹yo uso›. Regular.
-ganar | gah-NAHR | to win; to earn | ‹yo gano›. Regular.
+estudiar | ehs-too-DYAHR | to study | ‹yo estudio› = I study. Regular.
+usar | oo-SAHR | to use | ‹yo uso› = I use. Regular.
+ganar | gah-NAHR | to win; to earn | ‹yo gano› = I win; I earn. Regular.
 mandar | mahn-DAHR | to send; to order (someone) | ‹yo mando›. Regular. In Mexico the everyday "send".
 sacar | sah-KAHR | to take out; to get (a grade) | ‹yo saco›. Regular. ‹sacar una foto› = to take a photo.
 acabar | ah-kah-BAHR | to have just (‹acabar de›); to finish off | ‹yo acabo›. Regular. ‹Acabo de llegar› = I just arrived.
-explicar | ehks-plee-KAHR | to explain | ‹yo explico›. Regular.
-enseñar | ehn-seh-NYAHR | to teach; to show | ‹yo enseño›. Regular.
+explicar | ehks-plee-KAHR | to explain | ‹yo explico› = I explain. Regular.
+enseñar | ehn-seh-NYAHR | to teach; to show | ‹yo enseño› = I teach; I show. Regular.
 nacer | nah-SEHR | to be born | ‹yo nazco›. Irregular ‹yo› form. ‹Nací en 1990›.
-recibir | rreh-see-BEER | to receive; to get | ‹yo recibo›. Regular.
-caminar | kah-mee-NAHR | to walk | ‹yo camino›. Regular.
-correr | koh-RREHR | to run | ‹yo corro›. Regular.
-subir | soo-BEER | to go up; to get on; to upload | ‹yo subo›. Regular.
-bajar | bah-HAHR | to go down; to get off | ‹yo bajo›. Regular. ‹bajar del autobús›.
+recibir | rreh-see-BEER | to receive; to get | ‹yo recibo› = I receive. Regular.
+caminar | kah-mee-NAHR | to walk | ‹yo camino› = I walk. Regular.
+correr | koh-RREHR | to run | ‹yo corro› = I run. Regular.
+subir | soo-BEER | to go up; to get on; to upload | ‹yo subo› = I go up; I get on. Regular.
+bajar | bah-HAHR | to go down; to get off | ‹yo bajo› = I go down; I get off. Regular. ‹bajar del autobús› = to get off the bus.
 manejar | mah-neh-HAHR | to drive | ‹yo manejo›. Regular. Spain: ‹conducir›.
-viajar | byah-HAHR | to travel | ‹yo viajo›. Regular.
-cocinar | koh-see-NAHR | to cook | ‹yo cocino›. Regular.
-bailar | bai-LAHR | to dance | ‹yo bailo›. Regular.
-cantar | kahn-TAHR | to sing | ‹yo canto›. Regular.
+viajar | byah-HAHR | to travel | ‹yo viajo› = I travel. Regular.
+cocinar | koh-see-NAHR | to cook | ‹yo cocino› = I cook. Regular.
+bailar | bai-LAHR | to dance | ‹yo bailo› = I dance. Regular.
+cantar | kahn-TAHR | to sing | ‹yo canto› = I sing. Regular.
 tocar | toh-KAHR | to touch; to play (an instrument) | ‹yo toco›. Regular. ‹¿Te toca?› = is it your turn?
-vender | behn-DEHR | to sell | ‹yo vendo›. Regular.
-preferir | preh-feh-REER | to prefer | ‹yo prefiero›. Irregular (‹e› → ‹ie›).
+vender | behn-DEHR | to sell | ‹yo vendo› = I sell. Regular.
+preferir | preh-feh-REER | to prefer | ‹yo prefiero› = I prefer. Irregular (‹e› → ‹ie›).
 importar | eem-pohr-TAHR | to matter; to import | ‹yo importo›. Regular. ‹No importa› = it doesn't matter.
 preocupar | preh-oh-koo-PAHR | to worry (someone) | Works like ‹gustar›: ‹me preocupa› = it worries me.
 doler | doh-LEHR | to hurt (ache) | Works like ‹gustar›: ‹me duele› = it hurts me. Irregular (‹o› → ‹ue›).
-llorar | yoh-RAHR | to cry | ‹yo lloro›. Regular.
+llorar | yoh-RAHR | to cry | ‹yo lloro› = I cry. Regular.
 reír | rreh-EER | to laugh | ‹yo río›. Irregular. Usually ‹reírse›: ‹me río›.
 cuidar | kwee-DAHR | to take care of | ‹yo cuido›. Regular. ‹¡Cuídate!› = take care!
 amar | ah-MAHR | to love (deeply) | ‹yo amo›. Regular. Stronger than ‹querer›.
 andar | ahn-DAHR | to walk around; to be (going around) | ‹yo ando›. Irregular preterite: ‹anduve›. ‹¿Cómo andas?› = how's it going?
 casarse | kah-SAHR-seh | to get married | ‹yo me caso›. Regular. ‹casarse con› = to marry.
-descansar | dehs-kahn-SAHR | to rest | ‹yo descanso›. Regular.
-limpiar | leem-PYAHR | to clean | ‹yo limpio›. Regular.
+descansar | dehs-kahn-SAHR | to rest | ‹yo descanso› = I rest. Regular.
+limpiar | leem-PYAHR | to clean | ‹yo limpio› = I clean. Regular.
 invitar | een-bee-TAHR | to invite; to treat (pay) | ‹yo invito›. Regular. ‹Yo invito› = it's on me.
 caer | kah-EHR | to fall | ‹yo caigo›. Irregular. Usually ‹caerse›: ‹me caí›.
 funcionar | foon-syoh-NAHR | to work (machine) | ‹yo funciono›. Regular. ‹No funciona› = it's broken.
-probar | proh-BAHR | to taste; to try (on) | ‹yo pruebo›. Irregular (‹o› → ‹ue›).
-decidir | deh-see-DEER | to decide | ‹yo decido›. Regular.
-arreglar | ah-rreh-GLAHR | to fix; to tidy | ‹yo arreglo›. Regular.
+probar | proh-BAHR | to taste; to try (on) | ‹yo pruebo› = I taste; I try. Irregular (‹o› → ‹ue›).
+decidir | deh-see-DEER | to decide | ‹yo decido› = I decide. Regular.
+arreglar | ah-rreh-GLAHR | to fix; to tidy | ‹yo arreglo› = I fix. Regular.
 crecer | kreh-SEHR | to grow; to grow up | ‹yo crezco›. Irregular ‹yo› form.
 `,
   "Top adjectives": `
 primero | pree-MEH-roh | first | ‹primera›. Before a masculine noun: ‹primer› (‹el primer día›).
 grande | GRAHN-deh | big; large | Same for both. Before a noun: ‹gran› = great (‹un gran amigo›).
-nuevo | NWEH-boh | new | ‹nueva›.
+nuevo | NWEH-boh | new | Feminine: ‹nueva›.
 bueno | BWEH-noh | good | ‹buena›. Before a masculine noun: ‹buen› (‹un buen día›).
 malo | MAH-loh | bad | ‹mala›. Before a masculine noun: ‹mal› (‹un mal día›).
 mejor | meh-HOHR | better; best | Same for both. ‹el mejor› = the best.
 mayor | mah-YOHR | older; bigger (greater) | Same for both. ‹mi hermano mayor› = my older brother.
-último | OOL-tee-moh | last (final) | ‹última›.
+último | OOL-tee-moh | last (final) | Feminine: ‹última›.
 cierto | SYEHR-toh | true; certain | ‹cierta›. Before a noun = a certain: ‹cierta persona›.
 seguro | seh-GOO-roh | sure; safe | ‹segura›. ‹¿Seguro?› = are you sure?
 claro | KLAH-roh | clear; light (color) | ‹clara›. ‹¡Claro!› = of course!
@@ -245,8 +245,8 @@ fácil | FAH-seel | easy | Same for both.
 propio | PROH-pyoh | own | ‹propia›. ‹mi propia casa› = my own house.
 joven | HOH-behn | young | Same for both. Plural: ‹jóvenes›.
 largo | LAHR-goh | long | ‹larga›. False friend: it does not mean large.
-alto | AHL-toh | tall; high; loud | ‹alta›.
-bajo | BAH-hoh | short (height); low; quiet | ‹baja›.
+alto | AHL-toh | tall; high; loud | Feminine: ‹alta›.
+bajo | BAH-hoh | short (height); low; quiet | Feminine: ‹baja›.
 menor | meh-NOHR | younger; smaller (lesser) | Same for both. ‹mi hermana menor› = my younger sister.
 peor | peh-OHR | worse; worst | Same for both.
 igual | ee-GWAHL | same; equal | Same for both. ‹Es igual› = it's all the same.
@@ -256,49 +256,49 @@ rico | RREE-koh | rich; tasty | ‹rica›. Food: ‹está rico› = it's tasty.
 pobre | POH-breh | poor | Same for both. Before a noun = unfortunate: ‹¡pobre niño!›
 especial | ehs-peh-SYAHL | special | Same for both.
 normal | nohr-MAHL | normal; ordinary | Same for both.
-blanco | BLAHN-koh | white | ‹blanca›.
+blanco | BLAHN-koh | white | Feminine: ‹blanca›.
 increíble | een-kreh-EE-bleh | amazing; unbelievable | Same for both.
 loco | LOH-koh | crazy | ‹loca›. ‹¿Estás loco?› = are you crazy?
-raro | RRAH-roh | strange; rare | ‹rara›.
+raro | RRAH-roh | strange; rare | Feminine: ‹rara›.
 fuerte | FWEHR-teh | strong; loud | Same for both.
-negro | NEH-groh | black | ‹negra›.
-rojo | RROH-hoh | red | ‹roja›.
-vivo | BEE-boh | alive; lively; bright (color) | ‹viva›.
+negro | NEH-groh | black | Feminine: ‹negra›.
+rojo | RROH-hoh | red | Feminine: ‹roja›.
+vivo | BEE-boh | alive; lively; bright (color) | Feminine: ‹viva›.
 perfecto | pehr-FEHK-toh | perfect | ‹perfecta›. ‹¡Perfecto!› = great, sounds good.
 terrible | teh-RREE-bleh | terrible; awful | Same for both.
 triste | TREES-teh | sad | Same for both. With ‹estar› for a mood: ‹estoy triste›.
-caro | KAH-roh | expensive | ‹cara›.
-barato | bah-RAH-toh | cheap | ‹barata›.
-rápido | RRAH-pee-doh | fast; quick | ‹rápida›.
-lento | LEHN-toh | slow | ‹lenta›.
+caro | KAH-roh | expensive | Feminine: ‹cara›.
+barato | bah-RAH-toh | cheap | Feminine: ‹barata›.
+rápido | RRAH-pee-doh | fast; quick | Feminine: ‹rápida›.
+lento | LEHN-toh | slow | Feminine: ‹lenta›.
 frío | FREE-oh | cold | ‹fría›. For people, use ‹tener›: ‹tengo frío›.
 caliente | kah-LYEHN-teh | hot (to the touch) | Same for both. For weather: ‹hace calor›.
 muerto | MWEHR-toh | dead | ‹muerta›. ‹Estoy muerto› = I'm exhausted.
 ocupado | oh-koo-PAH-doh | busy | ‹ocupada›. Also "taken" (a seat) or "engaged" (a phone).
 amable | ah-MAH-bleh | kind; nice (polite) | Same for both. ‹Muy amable› = how kind of you.
-lleno | YEH-noh | full | ‹llena›.
-abierto | ah-BYEHR-toh | open | ‹abierta›.
+lleno | YEH-noh | full | Feminine: ‹llena›.
+abierto | ah-BYEHR-toh | open | Feminine: ‹abierta›.
 corto | KOHR-toh | short (length) | ‹corta›. For people's height: ‹bajo›.
 imposible | eem-poh-SEE-bleh | impossible | Same for both.
-necesario | neh-seh-SAH-ryoh | necessary | ‹necesaria›.
-peligroso | peh-lee-GROH-soh | dangerous | ‹peligrosa›.
-famoso | fah-MOH-soh | famous | ‹famosa›.
-tranquilo | trahn-KEE-loh | calm; quiet (peaceful) | ‹tranquila›. ‹¡Tranquilo!› = relax!
-cerrado | seh-RRAH-doh | closed | ‹cerrada›.
+necesario | neh-seh-SAH-ryoh | necessary | Feminine: ‹necesaria›.
+peligroso | peh-lee-GROH-soh | dangerous | Feminine: ‹peligrosa›.
+famoso | fah-MOH-soh | famous | Feminine: ‹famosa›.
+tranquilo | trahn-KEE-loh | calm; quiet (peaceful) | Feminine: ‹tranquila›. ‹¡Tranquilo!› = Relax!
+cerrado | seh-RRAH-doh | closed | Feminine: ‹cerrada›.
 querido | keh-REE-doh | dear; beloved | ‹querida›. ‹Querida Ana› = Dear Ana (letters).
 azul | ah-SOOL | blue | Same for both. Plural: ‹azules›.
 verde | BEHR-deh | green; unripe | Same for both.
-oscuro | ohs-KOO-roh | dark | ‹oscura›.
-limpio | LEEM-pyoh | clean | ‹limpia›.
-sucio | SOO-syoh | dirty | ‹sucia›.
-vacío | bah-SEE-oh | empty | ‹vacía›.
-cansado | kahn-SAH-doh | tired | ‹cansada›. With ‹estar›: ‹estoy cansado›.
-enfermo | ehn-FEHR-moh | sick; ill | ‹enferma›. With ‹estar›: ‹está enfermo›.
-duro | DOO-roh | hard (not soft); tough | ‹dura›.
+oscuro | ohs-KOO-roh | dark | Feminine: ‹oscura›.
+limpio | LEEM-pyoh | clean | Feminine: ‹limpia›.
+sucio | SOO-syoh | dirty | Feminine: ‹sucia›.
+vacío | bah-SEE-oh | empty | Feminine: ‹vacía›.
+cansado | kahn-SAH-doh | tired | Feminine: ‹cansada›. With ‹estar›: ‹estoy cansado› = I'm tired.
+enfermo | ehn-FEHR-moh | sick; ill | Feminine: ‹enferma›. With ‹estar›: ‹está enfermo› = he is sick.
+duro | DOO-roh | hard (not soft); tough | Feminine: ‹dura›.
 débil | DEH-beel | weak | Same for both. Plural: ‹débiles›.
 fresco | FREHS-koh | fresh; cool | ‹fresca›. ‹Hace fresco› = it's cool out.
-pesado | peh-SAH-doh | heavy; annoying (person) | ‹pesada›.
-amarillo | ah-mah-REE-yoh | yellow | ‹amarilla›.
-favorito | fah-boh-REE-toh | favorite | ‹favorita›.
+pesado | peh-SAH-doh | heavy; annoying (person) | Feminine: ‹pesada›.
+amarillo | ah-mah-REE-yoh | yellow | Feminine: ‹amarilla›.
+favorito | fah-boh-REE-toh | favorite | Feminine: ‹favorita›.
 `
 };

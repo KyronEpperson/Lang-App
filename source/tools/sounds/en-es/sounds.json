@@ -1,0 +1,211 @@
+{
+ "_about": "SD-1: sound training for en-es. Keyed by lesson id. Each group is one contrast English speakers mix up; each pair is two real words that differ only in it: [word A, word B, meaning A, meaning B].",
+ "sounds": {
+  "sounds": [
+   {
+    "label": "r / rr",
+    "tip": "One tap of the tongue for r, a roll for rr.",
+    "pairs": [
+     [
+      "pero",
+      "perro",
+      "but",
+      "dog"
+     ],
+     [
+      "caro",
+      "carro",
+      "expensive",
+      "car"
+     ],
+     [
+      "para",
+      "parra",
+      "for",
+      "grapevine"
+     ],
+     [
+      "coro",
+      "corro",
+      "choir",
+      "I run"
+     ],
+     [
+      "ahora",
+      "ahorra",
+      "now",
+      "he saves"
+     ],
+     [
+      "cero",
+      "cerro",
+      "zero",
+      "hill"
+     ]
+    ]
+   },
+   {
+    "label": "Stress",
+    "tip": "The accent mark shows the loud syllable, and it changes the meaning.",
+    "pairs": [
+     [
+      "hablo",
+      "habló",
+      "I speak",
+      "he spoke"
+     ],
+     [
+      "papa",
+      "papá",
+      "potato",
+      "dad"
+     ],
+     [
+      "esta",
+      "está",
+      "this",
+      "is"
+     ],
+     [
+      "llego",
+      "llegó",
+      "I arrive",
+      "he arrived"
+     ],
+     [
+      "compro",
+      "compró",
+      "I buy",
+      "he bought"
+     ],
+     [
+      "canto",
+      "cantó",
+      "I sing",
+      "he sang"
+     ]
+    ]
+   },
+   {
+    "label": "n / ñ",
+    "tip": "ñ sounds like the ny in canyon.",
+    "pairs": [
+     [
+      "una",
+      "uña",
+      "a, one",
+      "fingernail"
+     ],
+     [
+      "cana",
+      "caña",
+      "gray hair",
+      "cane"
+     ],
+     [
+      "pena",
+      "peña",
+      "sorrow",
+      "rock"
+     ],
+     [
+      "sonar",
+      "soñar",
+      "to sound",
+      "to dream"
+     ],
+     [
+      "mono",
+      "moño",
+      "monkey",
+      "hair bun"
+     ]
+    ]
+   },
+   {
+    "label": "Vowels",
+    "tip": "Every vowel keeps its full sound, even at the end of a word.",
+    "pairs": [
+     [
+      "peso",
+      "piso",
+      "weight",
+      "floor"
+     ],
+     [
+      "mesa",
+      "misa",
+      "table",
+      "mass"
+     ],
+     [
+      "pelo",
+      "palo",
+      "hair",
+      "stick"
+     ],
+     [
+      "chico",
+      "chica",
+      "boy",
+      "girl"
+     ],
+     [
+      "hablo",
+      "habla",
+      "I speak",
+      "he speaks"
+     ],
+     [
+      "como",
+      "come",
+      "I eat",
+      "he eats"
+     ],
+     [
+      "tomo",
+      "toma",
+      "I take",
+      "he takes"
+     ]
+    ]
+   },
+   {
+    "label": "p / b, t / d",
+    "tip": "Spanish p and t have no puff of air, so they sit closer to b and d.",
+    "pairs": [
+     [
+      "peso",
+      "beso",
+      "weight",
+      "kiss"
+     ],
+     [
+      "pata",
+      "bata",
+      "leg of an animal",
+      "robe"
+     ],
+     [
+      "tos",
+      "dos",
+      "cough",
+      "two"
+     ],
+     [
+      "tía",
+      "día",
+      "aunt",
+      "day"
+     ],
+     [
+      "cuanto",
+      "cuando",
+      "how much",
+      "when"
+     ]
+    ]
+   }
+  ]
+ }
+}

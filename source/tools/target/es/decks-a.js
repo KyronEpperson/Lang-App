@@ -107,7 +107,7 @@ Hoy es martes. | oy ehs MAHR-tehs | Today is Tuesday. | After ‹hoy es›, no a
 el día | ehl DEE-ah | the day | ‹día› is masculine even though it ends in ‹-a›: ‹buenos días›, ‹el primer día›.
 mañana | mah-NYAH-nah | tomorrow | ‹la mañana› = the morning. Tomorrow morning: ‹mañana en la mañana› (Mexico) or ‹mañana por la mañana›.
 ayer | ah-YEHR | yesterday | ‹mañana› = tomorrow (and also morning).
-la semana que viene | lah seh-MAH-nah keh BYEH-neh | next week | Also: ‹la próxima semana›.
+la semana que viene | lah seh-MAH-nah keh BYEH-neh | next week | Also: ‹la próxima semana› = next week.
 el quince de septiembre | ehl KEEN-seh deh sehp-TYEHM-breh | September 15 | Day before month; months are lowercase.
 en enero | ehn eh-NEH-roh | in January | Months take ‹en› and no article: ‹en enero›, ‹en mayo›.
 Mi cumpleaños es el ocho de marzo. | mee koom-pleh-AH-nyohs ehs ehl OH-choh deh MAHR-soh | My birthday is March 8. | ‹el› before the day: ‹el ocho de marzo›. ‹cumpleaños› ends in ‹-s› even for one birthday.
@@ -165,11 +165,11 @@ la cama | lah KAH-mah | the bed | Make the bed: ‹hacer la cama› (Mexico also
 el refrigerador | ehl rreh-free-heh-rah-DOHR | the fridge | Mexico, informal: ‹el refri›. Spain: ‹la nevera›.
 Vivo en un apartamento. | BEE-boh ehn oon ah-pahr-tah-MEHN-toh | I live in an apartment. | Mexico also: ‹departamento›. Spain: ‹piso›.
 Hay dos cuartos. | ai dohs KWAHR-tohs | There are two bedrooms. | ‹hay› = there is and there are.
-Hay un sofá en la sala. | ai oon soh-FAH ehn lah SAH-lah | There's a sofa in the living room. | ‹hay› + ‹un› / ‹una›, never ‹hay el›: ‹Hay un sofá›.
+Hay un sofá en la sala. | ai oon soh-FAH ehn lah SAH-lah | There's a sofa in the living room. | ‹hay› + ‹un› / ‹una›, never ‹hay el›: ‹Hay un sofá› = There's a sofa.
 No hay leche. | noh ai LEH-cheh | There's no milk. | ‹no hay› with no article: ‹No hay leche›, ‹no hay tiempo›.
 Me despierto a las seis. | meh dehs-PYEHR-toh ah lahs says | I wake up at six. | ‹despertarse›: ‹e› changes to ‹ie›, and ‹me› goes with ‹yo›.
 Me levanto a las siete. | meh leh-BAHN-toh ah lahs SYEH-teh | I get up at seven. | ‹levantarse› is reflexive: ‹me› with ‹yo›.
-¿A qué hora te levantas? | ah keh OH-rah teh leh-BAHN-tahs | What time do you get up? | ‹te› with ‹tú›: ‹te levantas›.
+¿A qué hora te levantas? | ah keh OH-rah teh leh-BAHN-tahs | What time do you get up? | ‹te› with ‹tú›: ‹te levantas› = you get up.
 Me baño. | meh BAH-nyoh | I take a shower. | Latin America: ‹bañarse› for a shower too; ‹ducharse› also exists.
 Me lavo los dientes. | meh LAH-boh lohs DYEHN-tehs | I brush my teeth. | ‹los dientes›, not ‹mis dientes›: ‹me› already says whose.
 Me lavo las manos. | meh LAH-boh lahs MAH-nohs | I wash my hands. | ‹mano› is feminine even though it ends in ‹-o›: ‹las manos›.

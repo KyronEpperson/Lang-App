@@ -1789,3 +1789,19 @@ Built: `es-zh` from `target/zh/` + a new Spanish half (`tools/halves/native/es/z
 Agents: Opus lead (242k), four Opus writers (233k / 267k / 281k / 257k), Opus cold reviewer (377k, 52 edits), Opus section writer (133k). Reading lists held: no agent read a file outside its list except single Greps.
 Dispatcher's own decisions: Mandarin before Cantonese for Spanish speakers (the proven half first); the lead's lesson-21 title kept; `tools/patches/new_assembled_course.py` registers an assembled course from a sister course.
 Not tested: native speakers; real phones; tone-mark typing on a Spanish keyboard.
+
+## CR-2 (2.146.0, 2026-11-28): course report solutions 6, 8, 9, 10, 11, 14 on en-es
+
+Ask (owner): "yes lets implement these" (the ranked solutions of the course report, after the pilot of 1 to 5).
+Rewritten prompt: build each remaining solution that needs no key, no money and no speech leaving the device, on en-es, each behind its own switch or its own pack data so another course gets it by adding data; keep every one out of lesson completion and out of review scheduling; give each a test and a brief; leave 7, 12 and 13 to the owner.
+Built: ST-1 stories, SR-1 say-record-compare, SD-1 sound training, OP-1 one path, FL-1 speed round, HL-1 honest labels. Briefs in `docs/briefs/` (graded-stories, say-record-compare, sound-training, speed-round, honest-labels). HANDOFF 2.146.0.
+One release instead of six: each piece has its own test, and one full run costs about 35 minutes of shared cloud time.
+Agents: three Opus writers for the 25 stories (about 85k tokens each), gated by `tools/stories/check.js`, read and corrected by the dispatcher. The sound pairs (29 textbook pairs) and the labels were written by the dispatcher.
+
+## LP-1 (2.146.0, 2026-11-28): learn-loop pilot on en-es
+
+Ask (owner): "yes lets implement these" (the 14 ranked solutions of the course report; plus English for the bare-Spanish card notes of en-es).
+Rewritten prompt: build the report's solutions in rank order, one release per coherent piece, on en-es first, behind one switch, reusing the practice engine, the judge and the dialogue data; take the report's four decisions as it recommends and tell the owner; stop for the owner only where a solution needs their keys, their money or a privacy choice (7, 12, 13); after the pilot release ask before any roll-out.
+Built: solutions 1 to 5 and the notes. Details: `docs/briefs/learn-loop-pilot.md`, HANDOFF 2.146.0.
+Agents: none. The dispatcher wrote the engine change and the 167 notes itself (short glosses of cards already in the course, checked by `tags.js apply`, the lint, proof and validate).
+Not tested: real phones, recorded clips in a real browser, learners.

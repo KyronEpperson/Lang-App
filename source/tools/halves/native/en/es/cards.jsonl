@@ -94,7 +94,7 @@
 {"id":"es.c0094","meaning":"the day","note":"‹día› is masculine even though it ends in ‹-a›: ‹buenos días›, ‹el primer día›."}
 {"id":"es.c0095","meaning":"tomorrow","note":"‹la mañana› = the morning. Tomorrow morning: ‹mañana en la mañana› (Mexico) or ‹mañana por la mañana›."}
 {"id":"es.c0096","meaning":"yesterday","note":"‹mañana› = tomorrow (and also morning)."}
-{"id":"es.c0097","meaning":"next week","note":"Also: ‹la próxima semana›."}
+{"id":"es.c0097","meaning":"next week","note":"Also: ‹la próxima semana› = next week."}
 {"id":"es.c0098","meaning":"September 15","note":"Day before month; months are lowercase."}
 {"id":"es.c0099","meaning":"in January","note":"Months take ‹en› and no article: ‹en enero›, ‹en mayo›."}
 {"id":"es.c0100","meaning":"My birthday is March 8.","note":"‹el› before the day: ‹el ocho de marzo›. ‹cumpleaños› ends in ‹-s› even for one birthday."}
@@ -146,11 +146,11 @@
 {"id":"es.c0146","meaning":"the fridge","note":"Mexico, informal: ‹el refri›. Spain: ‹la nevera›."}
 {"id":"es.c0147","meaning":"I live in an apartment.","note":"Mexico also: ‹departamento›. Spain: ‹piso›."}
 {"id":"es.c0148","meaning":"There are two bedrooms.","note":"‹hay› = there is and there are."}
-{"id":"es.c0149","meaning":"There's a sofa in the living room.","note":"‹hay› + ‹un› / ‹una›, never ‹hay el›: ‹Hay un sofá›."}
+{"id":"es.c0149","meaning":"There's a sofa in the living room.","note":"‹hay› + ‹un› / ‹una›, never ‹hay el›: ‹Hay un sofá› = There's a sofa."}
 {"id":"es.c0150","meaning":"There's no milk.","note":"‹no hay› with no article: ‹No hay leche›, ‹no hay tiempo›."}
 {"id":"es.c0151","meaning":"I wake up at six.","note":"‹despertarse›: ‹e› changes to ‹ie›, and ‹me› goes with ‹yo›."}
 {"id":"es.c0152","meaning":"I get up at seven.","note":"‹levantarse› is reflexive: ‹me› with ‹yo›."}
-{"id":"es.c0153","meaning":"What time do you get up?","note":"‹te› with ‹tú›: ‹te levantas›."}
+{"id":"es.c0153","meaning":"What time do you get up?","note":"‹te› with ‹tú›: ‹te levantas› = you get up."}
 {"id":"es.c0154","meaning":"I take a shower.","note":"Latin America: ‹bañarse› for a shower too; ‹ducharse› also exists."}
 {"id":"es.c0155","meaning":"I brush my teeth.","note":"‹los dientes›, not ‹mis dientes›: ‹me› already says whose."}
 {"id":"es.c0156","meaning":"I wash my hands.","note":"‹mano› is feminine even though it ends in ‹-o›: ‹las manos›."}
@@ -161,7 +161,7 @@
 {"id":"es.c0161","meaning":"Where is the bathroom?","note":"Where something is: ‹estar›."}
 {"id":"es.c0162","meaning":"on the right","note":"‹derecho› = straight ahead; ‹derecha› = right."}
 {"id":"es.c0163","meaning":"Go straight ahead.","note":"‹usted› command: what a stranger will say to you."}
-{"id":"es.c0164","meaning":"the bus stop","note":"Mexico: ‹la parada del camión›."}
+{"id":"es.c0164","meaning":"the bus stop","note":"Mexico: ‹la parada del camión› (‹camión› = bus in Mexico)."}
 {"id":"es.c0165","meaning":"It's close.","note":"‹lejos› = far."}
 {"id":"es.c0166","meaning":"on the left","note":"‹izquierda› is feminine, like ‹derecha›: ‹a la izquierda›."}
 {"id":"es.c0167","meaning":"Turn left at the traffic light.","note":"‹usted› command. In Mexico you will also hear: ‹Dé vuelta a la izquierda›."}
@@ -196,7 +196,7 @@
 {"id":"es.c0196","meaning":"My head hurts.","note":"Works like ‹gustar›. ‹la cabeza›, not ‹mi cabeza›."}
 {"id":"es.c0197","meaning":"I'm sick.","note":"A woman says ‹enferma›. A condition: ‹estar›."}
 {"id":"es.c0198","meaning":"Help!","note":""}
-{"id":"es.c0199","meaning":"Can you call an ambulance?","note":"‹puede›: ‹poder› (‹o› → ‹ue›), ‹usted› form."}
+{"id":"es.c0199","meaning":"Can you call an ambulance?","note":"‹puede› = you can, ‹usted› form of ‹poder› (‹o› → ‹ue›)."}
 {"id":"es.c0200","meaning":"the pharmacy","note":""}
 {"id":"es.c0201","meaning":"My stomach hurts.","note":"‹duele› because ‹el estómago› is one thing."}
 {"id":"es.c0202","meaning":"My feet hurt.","note":"‹duelen› agrees with ‹los pies› (plural), like ‹gustan›."}
@@ -220,15 +220,15 @@
 {"id":"es.c0220","meaning":"I work from home.","note":"No article: ‹desde casa›, ‹en casa›."}
 {"id":"es.c0221","meaning":"How do you say this?","note":"Impersonal ‹se›: how does one say it."}
 {"id":"es.c0222","meaning":"I have a lot of homework.","note":"‹mucha› agrees with ‹la tarea› (feminine)."}
-{"id":"es.c0223","meaning":"I have a test tomorrow.","note":"‹el examen›; plural ‹los exámenes›."}
-{"id":"es.c0224","meaning":"Class starts at nine.","note":"‹empezar› (‹e› → ‹ie›): ‹empieza›."}
+{"id":"es.c0223","meaning":"I have a test tomorrow.","note":"‹el examen› = the test; plural ‹los exámenes›."}
+{"id":"es.c0224","meaning":"Class starts at nine.","note":"‹empieza› = it starts, from ‹empezar› (‹e› → ‹ie›)."}
 {"id":"es.c0225","meaning":"My computer isn't working.","note":"Spain: ‹el ordenador›. ‹funcionar› is for machines that work."}
 {"id":"es.c0226","meaning":"I'll send you an email.","note":"The present often covers I'll do it in a moment."}
 {"id":"es.c0227","meaning":"Servers wanted.","note":"‹necesitan› agrees with ‹meseros› (plural). Spain: ‹camareros›."}
 {"id":"es.c0228","meaning":"We work on Saturdays.","note":"‹los sábados› = every Saturday. ‹-amos› is the ‹nosotros› ending."}
 {"id":"es.c0229","meaning":"I'm on vacation.","note":"Always plural: ‹las vacaciones›."}
 {"id":"es.c0230","meaning":"I'm tired.","note":"A woman says ‹cansada›."}
-{"id":"es.c0231","meaning":"I'm hungry.","note":"‹tener› + noun: ‹tengo sed›, ‹tengo frío›, ‹tengo miedo›."}
+{"id":"es.c0231","meaning":"I'm hungry.","note":"‹tener› + noun: ‹tengo sed› = I'm thirsty, ‹tengo frío› = I'm cold, ‹tengo miedo› = I'm scared."}
 {"id":"es.c0232","meaning":"I'm happy.","note":"Said by a woman; a man says ‹contento›."}
 {"id":"es.c0233","meaning":"I'm bored.","note":"‹Soy aburrido› = I am boring."}
 {"id":"es.c0234","meaning":"I'm scared.","note":""}
@@ -259,7 +259,7 @@
 {"id":"es.c0259","meaning":"What did you do on the weekend?","note":"‹hiciste›: the ‹tú› form of ‹hacer› in the preterite."}
 {"id":"es.c0260","meaning":"I went out with my friends.","note":"‹salí› = I went out, from ‹salir›. Present: ‹salgo›."}
 {"id":"es.c0261","meaning":"We watched a movie.","note":"‹vimos› = we saw, from ‹ver›."}
-{"id":"es.c0262","meaning":"Do you want to go to the beach?","note":"‹querer› (‹e› → ‹ie›): ‹quieres›."}
+{"id":"es.c0262","meaning":"Do you want to go to the beach?","note":"‹quieres› = you want, from ‹querer› (‹e› → ‹ie›)."}
 {"id":"es.c0263","meaning":"I love dogs.","note":"‹encantan› agrees with ‹los perros› (plural)."}
 {"id":"es.c0264","meaning":"Why?","note":"‹porque› (one word, no accent) = because."}
 {"id":"es.c0265","meaning":"When?","note":"Question words carry an accent: ‹cuándo›, ‹dónde›, ‹qué›."}
@@ -398,54 +398,54 @@
 {"id":"es.c0398","meaning":"I'd rather we be friends.","note":"The softest no, anyone to anyone; no gender change. Mild."}
 {"id":"es.c0399","meaning":"time (one occasion)","note":"‹una vez› = once; ‹dos veces› = twice. Plural: ‹veces›."}
 {"id":"es.c0400","meaning":"year","note":"‹Tengo veinte años› = I'm twenty years old."}
-{"id":"es.c0401","meaning":"time (in general); weather","note":"‹¿Tienes tiempo?› / ‹Hace buen tiempo›."}
-{"id":"es.c0402","meaning":"thing","note":"‹Una cosa más, por favor›."}
-{"id":"es.c0403","meaning":"man","note":"‹el hombre alto›, ‹los hombres›."}
+{"id":"es.c0401","meaning":"time (in general); weather","note":"‹¿Tienes tiempo?› = Do you have time? ‹Hace buen tiempo› = The weather is nice."}
+{"id":"es.c0402","meaning":"thing","note":"‹Una cosa más, por favor› = One more thing, please."}
+{"id":"es.c0403","meaning":"man","note":"‹el hombre alto› = the tall man. Plural: ‹los hombres›."}
 {"id":"es.c0404","meaning":"part","note":"‹en todas partes› = everywhere."}
-{"id":"es.c0405","meaning":"life","note":"‹¡Así es la vida!›"}
+{"id":"es.c0405","meaning":"life","note":"‹¡Así es la vida!› = That's life!"}
 {"id":"es.c0406","meaning":"house; home","note":"‹en casa› = at home; ‹a casa› = home (going there)."}
 {"id":"es.c0407","meaning":"world","note":"‹todo el mundo› = everybody, not the whole world."}
 {"id":"es.c0408","meaning":"woman; wife","note":"Mexico: ‹mi esposa› is more polite than ‹mi mujer›."}
 {"id":"es.c0409","meaning":"night; evening","note":"‹esta noche› = tonight; ‹de noche› = at night."}
-{"id":"es.c0410","meaning":"moment","note":"‹Un momento, por favor›."}
+{"id":"es.c0410","meaning":"moment","note":"‹Un momento, por favor› = One moment, please."}
 {"id":"es.c0411","meaning":"gentleman; Mr.; sir","note":"‹el señor López›; written ‹Sr.› Use ‹el› when talking about him."}
 {"id":"es.c0412","meaning":"lady; Mrs.; ma'am","note":"Use ‹¿Señora?› to get a woman's attention politely."}
-{"id":"es.c0413","meaning":"work; job","note":"‹Voy al trabajo a las ocho›."}
+{"id":"es.c0413","meaning":"work; job","note":"‹Voy al trabajo a las ocho› = I go to work at eight."}
 {"id":"es.c0414","meaning":"truth","note":"‹¿Verdad?› at the end of a sentence = right?"}
-{"id":"es.c0415","meaning":"place","note":"‹un lugar tranquilo›."}
+{"id":"es.c0415","meaning":"place","note":"‹un lugar tranquilo› = a quiet place."}
 {"id":"es.c0416","meaning":"person","note":"Always feminine, even for a man: ‹Juan es una buena persona›."}
 {"id":"es.c0417","meaning":"morning","note":"‹la mañana› = morning; ‹mañana› alone = tomorrow."}
 {"id":"es.c0418","meaning":"father; priest","note":"Day to day, people say ‹mi papá›."}
 {"id":"es.c0419","meaning":"mother","note":"Day to day, people say ‹mi mamá›; ‹madre› turns up in Mexican slang."}
-{"id":"es.c0420","meaning":"family","note":"Singular: ‹mi familia es grande›."}
+{"id":"es.c0420","meaning":"family","note":"Singular: ‹mi familia es grande› = my family is big."}
 {"id":"es.c0421","meaning":"friend (male, or a mixed group)","note":"For a woman: ‹la amiga›. A group: ‹los amigos›."}
 {"id":"es.c0422","meaning":"money","note":"Mexico, casual: ‹la lana›."}
 {"id":"es.c0423","meaning":"hand","note":"Feminine though it ends in ‹-o›: ‹la mano derecha›."}
 {"id":"es.c0424","meaning":"shape; form","note":"‹de todas formas› = anyway."}
 {"id":"es.c0425","meaning":"way (of doing something)","note":"‹de esta manera› = this way."}
-{"id":"es.c0426","meaning":"country (nation)","note":"‹¿De qué país eres?›"}
-{"id":"es.c0427","meaning":"city","note":"‹la Ciudad de México›."}
+{"id":"es.c0426","meaning":"country (nation)","note":"‹¿De qué país eres?› = What country are you from?"}
+{"id":"es.c0427","meaning":"city","note":"‹la Ciudad de México› = Mexico City."}
 {"id":"es.c0428","meaning":"afternoon; early evening","note":"‹Buenas tardes› until it gets dark."}
-{"id":"es.c0429","meaning":"name","note":"‹¿Cuál es tu nombre?›"}
-{"id":"es.c0430","meaning":"story; history","note":"‹Es una historia muy larga›."}
-{"id":"es.c0431","meaning":"idea","note":"‹¡Buena idea!›"}
+{"id":"es.c0429","meaning":"name","note":"‹¿Cuál es tu nombre?› = What is your name?"}
+{"id":"es.c0430","meaning":"story; history","note":"‹Es una historia muy larga› = It's a very long story."}
+{"id":"es.c0431","meaning":"idea","note":"‹¡Buena idea!› = Good idea!"}
 {"id":"es.c0432","meaning":"love","note":"‹mi amor› = my love, also said to children."}
 {"id":"es.c0433","meaning":"reason","note":"‹tener razón› = to be right."}
 {"id":"es.c0434","meaning":"way (route); road; path","note":"‹en el camino› = on the way."}
 {"id":"es.c0435","meaning":"light; electricity","note":"Plural: ‹luces›. ‹Se fue la luz› = the power went out."}
 {"id":"es.c0436","meaning":"head","note":"‹Me duele la cabeza› = I have a headache."}
 {"id":"es.c0437","meaning":"daughter","note":"A son: ‹el hijo›. Children (mixed): ‹los hijos›."}
-{"id":"es.c0438","meaning":"word","note":"‹¿Qué significa esta palabra?›"}
+{"id":"es.c0438","meaning":"word","note":"‹¿Qué significa esta palabra?› = What does this word mean?"}
 {"id":"es.c0439","meaning":"water","note":"Feminine: ‹el agua fría›. ‹El› only to avoid a-a."}
 {"id":"es.c0440","meaning":"eye","note":"‹¡Ojo!› alone = careful! watch out!"}
 {"id":"es.c0441","meaning":"heart","note":"‹de corazón› = sincerely."}
-{"id":"es.c0442","meaning":"door","note":"‹Cierra la puerta, por favor›."}
+{"id":"es.c0442","meaning":"door","note":"‹Cierra la puerta, por favor› = Close the door, please."}
 {"id":"es.c0443","meaning":"side","note":"‹al lado de› = next to."}
 {"id":"es.c0444","meaning":"week","note":"‹la semana pasada› = last week."}
 {"id":"es.c0445","meaning":"month","note":"‹el mes que viene› = next month."}
-{"id":"es.c0446","meaning":"number","note":"‹¿Cuál es tu número de teléfono?›"}
+{"id":"es.c0446","meaning":"number","note":"‹¿Cuál es tu número de teléfono?› = What is your phone number?"}
 {"id":"es.c0447","meaning":"death","note":"Also an image in Day of the Dead art."}
-{"id":"es.c0448","meaning":"body","note":"‹el cuerpo humano›."}
+{"id":"es.c0448","meaning":"body","note":"‹el cuerpo humano› = the human body."}
 {"id":"es.c0449","meaning":"food; meal","note":"‹la comida› = lunch in much of Mexico."}
 {"id":"es.c0450","meaning":"school","note":"Mexico: ‹la prepa› = high school."}
 {"id":"es.c0451","meaning":"girl; young woman","note":"Not for small children: use ‹la niña›."}
@@ -455,45 +455,45 @@
 {"id":"es.c0455","meaning":"telephone","note":"Also used for a phone number."}
 {"id":"es.c0456","meaning":"cell phone","note":"Spain: ‹el móvil›."}
 {"id":"es.c0457","meaning":"question","note":"‹hacer una pregunta› = to ask a question."}
-{"id":"es.c0458","meaning":"answer","note":"‹la respuesta correcta›."}
-{"id":"es.c0459","meaning":"favor","note":"‹¿Me haces un favor?›"}
+{"id":"es.c0458","meaning":"answer","note":"‹la respuesta correcta› = the right answer."}
+{"id":"es.c0459","meaning":"favor","note":"‹¿Me haces un favor?› = Will you do me a favor?"}
 {"id":"es.c0460","meaning":"book","note":"‹la librería› sells books; ‹la biblioteca› lends them."}
 {"id":"es.c0461","meaning":"piece of news","note":"‹las noticias› = the news (TV, paper)."}
 {"id":"es.c0462","meaning":"game","note":"‹un juego de mesa› = a board game. A sports match: ‹el partido›."}
-{"id":"es.c0463","meaning":"class (lesson); kind","note":"‹¿A qué hora es tu clase?›"}
+{"id":"es.c0463","meaning":"class (lesson); kind","note":"‹¿A qué hora es tu clase?› = What time is your class?"}
 {"id":"es.c0464","meaning":"room; bedroom (Mexico); quarter","note":"‹las ocho y cuarto› = a quarter past eight."}
 {"id":"es.c0465","meaning":"table","note":"‹poner la mesa› = to set the table."}
-{"id":"es.c0466","meaning":"party","note":"‹¿Vamos a la fiesta?›"}
-{"id":"es.c0467","meaning":"store; shop","note":"‹Voy a la tienda por leche›."}
+{"id":"es.c0466","meaning":"party","note":"‹¿Vamos a la fiesta?› = Shall we go to the party?"}
+{"id":"es.c0467","meaning":"store; shop","note":"‹Voy a la tienda por leche› = I'm going to the store for milk."}
 {"id":"es.c0468","meaning":"dream; sleepiness","note":"‹Tengo sueño› = I'm sleepy."}
-{"id":"es.c0469","meaning":"trip","note":"‹¡Buen viaje!›"}
-{"id":"es.c0470","meaning":"town; village; a people","note":"‹Mi abuela es de un pueblo pequeño›."}
+{"id":"es.c0469","meaning":"trip","note":"‹¡Buen viaje!› = Have a good trip!"}
+{"id":"es.c0470","meaning":"town; village; a people","note":"‹Mi abuela es de un pueblo pequeño› = My grandmother is from a small town."}
 {"id":"es.c0471","meaning":"mistake","note":"‹cometer un error› = to make a mistake."}
-{"id":"es.c0472","meaning":"movie","note":"‹ver una película›."}
-{"id":"es.c0473","meaning":"music","note":"Feminine: ‹la música mexicana›."}
+{"id":"es.c0472","meaning":"movie","note":"‹ver una película› = to watch a movie."}
+{"id":"es.c0473","meaning":"music","note":"Feminine: ‹la música mexicana› = Mexican music."}
 {"id":"es.c0474","meaning":"song","note":"Plural: ‹canciones›, no accent."}
 {"id":"es.c0475","meaning":"photo","note":"Feminine (from ‹fotografía›): ‹la foto›."}
 {"id":"es.c0476","meaning":"police","note":"‹la policía› = the police force; ‹el policía› = a policeman."}
 {"id":"es.c0477","meaning":"doctor","note":"Also ‹el médico›. A woman: ‹la doctora›."}
 {"id":"es.c0478","meaning":"earth; land; soil","note":"‹la Tierra› (capital) = planet Earth."}
-{"id":"es.c0479","meaning":"help","note":"‹¿Necesitas ayuda?›"}
-{"id":"es.c0480","meaning":"bill (check); account","note":"‹La cuenta, por favor›."}
-{"id":"es.c0481","meaning":"price","note":"‹¿Qué precio tiene?›"}
+{"id":"es.c0479","meaning":"help","note":"‹¿Necesitas ayuda?› = Do you need help?"}
+{"id":"es.c0480","meaning":"bill (check); account","note":"‹La cuenta, por favor› = The check, please."}
+{"id":"es.c0481","meaning":"price","note":"‹¿Qué precio tiene?› = What is the price?"}
 {"id":"es.c0482","meaning":"gift; present","note":"Not \"regal\". ‹un regalo de cumpleaños›."}
 {"id":"es.c0483","meaning":"birthday","note":"Same in the plural: ‹los cumpleaños›."}
 {"id":"es.c0484","meaning":"clothes","note":"Singular in Spanish: ‹la ropa está limpia›."}
 {"id":"es.c0485","meaning":"language","note":"Masculine though it ends in ‹-a›: ‹el idioma español›."}
-{"id":"es.c0486","meaning":"downtown; center","note":"‹Voy al centro›."}
+{"id":"es.c0486","meaning":"downtown; center","note":"‹Voy al centro› = I'm going downtown."}
 {"id":"es.c0487","meaning":"neighborhood","note":"Mexico also: ‹la colonia›."}
 {"id":"es.c0488","meaning":"sun","note":"‹Hace sol› = it's sunny."}
 {"id":"es.c0489","meaning":"sea","note":"Usually masculine: ‹el mar›."}
 {"id":"es.c0490","meaning":"sky; heaven","note":"Also: ‹¡mi cielo!› = sweetheart."}
-{"id":"es.c0491","meaning":"state","note":"‹los Estados Unidos›."}
-{"id":"es.c0492","meaning":"company (business)","note":"‹Trabajo en una empresa grande›."}
-{"id":"es.c0493","meaning":"group","note":"‹un grupo de amigos›."}
+{"id":"es.c0491","meaning":"state","note":"‹los Estados Unidos› = the United States."}
+{"id":"es.c0492","meaning":"company (business)","note":"‹Trabajo en una empresa grande› = I work at a big company."}
+{"id":"es.c0493","meaning":"group","note":"‹un grupo de amigos› = a group of friends."}
 {"id":"es.c0494","meaning":"case","note":"‹en ese caso› = in that case."}
 {"id":"es.c0495","meaning":"example","note":"‹por ejemplo› = for example."}
-{"id":"es.c0496","meaning":"luck","note":"‹¡Buena suerte!›"}
+{"id":"es.c0496","meaning":"luck","note":"‹¡Buena suerte!› = Good luck!"}
 {"id":"es.c0497","meaning":"health","note":"‹¡Salud!› = cheers; also bless you."}
 {"id":"es.c0498","meaning":"fear","note":"‹Tengo miedo› = I'm scared."}
 {"id":"es.c0499","meaning":"pain; ache","note":"‹dolor de cabeza› = headache."}
@@ -501,127 +501,127 @@
 {"id":"es.c0501","meaning":"wish (feeling like it)","note":"‹Tengo ganas de bailar› = I feel like dancing."}
 {"id":"es.c0502","meaning":"letter; menu","note":"Also ‹el menú› at restaurants."}
 {"id":"es.c0503","meaning":"mail; email","note":"‹correo electrónico› = email."}
-{"id":"es.c0504","meaning":"appointment; date","note":"‹una cita con el doctor›."}
+{"id":"es.c0504","meaning":"appointment; date","note":"‹una cita con el doctor› = a doctor's appointment."}
 {"id":"es.c0505","meaning":"office","note":"‹la oficina de correos› = the post office."}
 {"id":"es.c0506","meaning":"cat","note":"A female cat: ‹la gata›."}
-{"id":"es.c0507","meaning":"window","note":"‹Abre la ventana, por favor›."}
+{"id":"es.c0507","meaning":"window","note":"‹Abre la ventana, por favor› = Open the window, please."}
 {"id":"es.c0508","meaning":"bread","note":"‹pan dulce› = Mexican sweet bread."}
 {"id":"es.c0509","meaning":"peace","note":"‹¡Déjame en paz!› = leave me alone!"}
-{"id":"es.c0510","meaning":"surprise","note":"‹¡Qué sorpresa!›"}
+{"id":"es.c0510","meaning":"surprise","note":"‹¡Qué sorpresa!› = What a surprise!"}
 {"id":"es.c0511","meaning":"to be (what something is)","note":"‹yo soy›. Irregular. Identity, origin, job, time."}
 {"id":"es.c0512","meaning":"to have (done); there is (‹hay›)","note":"‹hay› = there is / there are. ‹yo he›. Irregular."}
 {"id":"es.c0513","meaning":"to be (where, how right now)","note":"‹yo estoy›. Irregular. Location and states."}
 {"id":"es.c0514","meaning":"to have","note":"‹yo tengo›. Irregular. ‹tener que› + verb = to have to."}
 {"id":"es.c0515","meaning":"to do; to make","note":"‹yo hago›. Irregular. ‹Hace frío› = it's cold."}
-{"id":"es.c0516","meaning":"can; to be able to","note":"‹yo puedo›. Irregular (‹o› → ‹ue›)."}
-{"id":"es.c0517","meaning":"to say; to tell","note":"‹yo digo›. Irregular."}
+{"id":"es.c0516","meaning":"can; to be able to","note":"‹yo puedo› = I can. Irregular (‹o› → ‹ue›)."}
+{"id":"es.c0517","meaning":"to say; to tell","note":"‹yo digo› = I say. Irregular."}
 {"id":"es.c0518","meaning":"to go","note":"‹yo voy›. Irregular. ‹voy a› + verb = I'm going to."}
 {"id":"es.c0519","meaning":"to see; to watch","note":"‹yo veo›. Irregular. Preterite: ‹vi›, ‹vio› (no accents)."}
-{"id":"es.c0520","meaning":"to give","note":"‹yo doy›. Irregular."}
+{"id":"es.c0520","meaning":"to give","note":"‹yo doy› = I give. Irregular."}
 {"id":"es.c0521","meaning":"to know (a fact); to know how","note":"‹yo sé›. Irregular. ‹Sé nadar› = I can swim."}
 {"id":"es.c0522","meaning":"to want; to love (someone)","note":"‹yo quiero›. Irregular (‹e› → ‹ie›). ‹Te quiero› = I love you."}
-{"id":"es.c0523","meaning":"to arrive; to get (somewhere)","note":"‹yo llego›. Regular."}
+{"id":"es.c0523","meaning":"to arrive; to get (somewhere)","note":"‹yo llego› = I arrive. Regular."}
 {"id":"es.c0524","meaning":"to happen; to pass; to spend (time)","note":"‹yo paso›. Regular. ‹¿Qué pasó?› = what happened?"}
-{"id":"es.c0525","meaning":"should; must; to owe","note":"‹yo debo›. Regular."}
-{"id":"es.c0526","meaning":"to put; to turn on (TV)","note":"‹yo pongo›. Irregular."}
+{"id":"es.c0525","meaning":"should; must; to owe","note":"‹yo debo› = I should; I owe. Regular."}
+{"id":"es.c0526","meaning":"to put; to turn on (TV)","note":"‹yo pongo› = I put. Irregular."}
 {"id":"es.c0527","meaning":"to seem; to look like","note":"‹yo parezco›. Irregular ‹yo› form. ‹¿Qué te parece?› = what do you think?"}
 {"id":"es.c0528","meaning":"to stay; to be left; to fit (clothes)","note":"‹yo quedo›. Regular. ‹quedarse› = to stay somewhere."}
 {"id":"es.c0529","meaning":"to believe; to think (so)","note":"‹yo creo›. Regular. ‹Creo que sí› = I think so."}
-{"id":"es.c0530","meaning":"to speak; to talk","note":"‹yo hablo›. Regular."}
-{"id":"es.c0531","meaning":"to carry; to take along; to wear","note":"‹yo llevo›. Regular."}
+{"id":"es.c0530","meaning":"to speak; to talk","note":"‹yo hablo› = I speak. Regular."}
+{"id":"es.c0531","meaning":"to carry; to take along; to wear","note":"‹yo llevo› = I carry; I wear. Regular."}
 {"id":"es.c0532","meaning":"to leave (something); to let","note":"‹yo dejo›. Regular. ‹Déjame› = let me."}
-{"id":"es.c0533","meaning":"to follow; to keep (doing)","note":"‹yo sigo›. Irregular (‹e› → ‹i›)."}
-{"id":"es.c0534","meaning":"to find","note":"‹yo encuentro›. Irregular (‹o› → ‹ue›)."}
+{"id":"es.c0533","meaning":"to follow; to keep (doing)","note":"‹yo sigo› = I follow. Irregular (‹e› → ‹i›)."}
+{"id":"es.c0534","meaning":"to find","note":"‹yo encuentro› = I find. Irregular (‹o› → ‹ue›)."}
 {"id":"es.c0535","meaning":"to call","note":"‹yo llamo›. Regular. ‹llamarse› = to be called."}
-{"id":"es.c0536","meaning":"to come","note":"‹yo vengo›. Irregular."}
+{"id":"es.c0536","meaning":"to come","note":"‹yo vengo› = I come. Irregular."}
 {"id":"es.c0537","meaning":"to think","note":"‹yo pienso›. Irregular (‹e› → ‹ie›). ‹pensar en› = to think about."}
-{"id":"es.c0538","meaning":"to go out; to leave (a place)","note":"‹yo salgo›. Irregular."}
+{"id":"es.c0538","meaning":"to go out; to leave (a place)","note":"‹yo salgo› = I go out. Irregular."}
 {"id":"es.c0539","meaning":"to come back; to return","note":"‹yo vuelvo›. Irregular (‹o› → ‹ue›). ‹volver a› + verb = to do again."}
 {"id":"es.c0540","meaning":"to take; to have (a drink)","note":"‹yo tomo›. Regular. ‹Tomar el autobús›. Never ‹coger› in Mexico."}
 {"id":"es.c0541","meaning":"to know (a person, a place); to meet","note":"‹yo conozco›. Irregular ‹yo› form."}
-{"id":"es.c0542","meaning":"to live","note":"‹yo vivo›. Regular."}
+{"id":"es.c0542","meaning":"to live","note":"‹yo vivo› = I live. Regular."}
 {"id":"es.c0543","meaning":"to feel; to be sorry","note":"‹yo siento›. Irregular (‹e› → ‹ie›). ‹Lo siento› = I'm sorry."}
 {"id":"es.c0544","meaning":"to treat; to try (‹tratar de›)","note":"‹yo trato›. Regular. ‹Trato de dormir› = I try to sleep."}
 {"id":"es.c0545","meaning":"to look at","note":"‹yo miro›. Regular. No \"at\": ‹mira la foto›."}
-{"id":"es.c0546","meaning":"to count; to tell (a story)","note":"‹yo cuento›. Irregular (‹o› → ‹ue›)."}
-{"id":"es.c0547","meaning":"to begin; to start","note":"‹yo empiezo›. Irregular (‹e› → ‹ie›)."}
-{"id":"es.c0548","meaning":"to wait; to hope; to expect","note":"‹yo espero›. Regular."}
+{"id":"es.c0546","meaning":"to count; to tell (a story)","note":"‹yo cuento› = I count; I tell. Irregular (‹o› → ‹ue›)."}
+{"id":"es.c0547","meaning":"to begin; to start","note":"‹yo empiezo› = I start. Irregular (‹e› → ‹ie›)."}
+{"id":"es.c0548","meaning":"to wait; to hope; to expect","note":"‹yo espero› = I wait; I hope. Regular."}
 {"id":"es.c0549","meaning":"to look for","note":"‹yo busco›. Regular. No \"for\": ‹busco mi llave›."}
-{"id":"es.c0550","meaning":"to go in; to enter","note":"‹yo entro›. Regular. ‹entrar a› / ‹en›."}
-{"id":"es.c0551","meaning":"to work (at a job)","note":"‹yo trabajo›. Regular."}
-{"id":"es.c0552","meaning":"to need","note":"‹yo necesito›. Regular."}
+{"id":"es.c0550","meaning":"to go in; to enter","note":"‹yo entro› = I go in. Regular. Into a place: ‹entrar a› or ‹entrar en›."}
+{"id":"es.c0551","meaning":"to work (at a job)","note":"‹yo trabajo› = I work. Regular."}
+{"id":"es.c0552","meaning":"to need","note":"‹yo necesito› = I need. Regular."}
 {"id":"es.c0553","meaning":"to be pleasing (how \"like\" works)","note":"‹me gusta› = I like it. The thing liked is the subject."}
 {"id":"es.c0554","meaning":"to write","note":"‹yo escribo›. Regular, but past participle ‹escrito›."}
-{"id":"es.c0555","meaning":"to lose; to miss (a bus)","note":"‹yo pierdo›. Irregular (‹e› → ‹ie›)."}
-{"id":"es.c0556","meaning":"to understand","note":"‹yo entiendo›. Irregular (‹e› → ‹ie›)."}
-{"id":"es.c0557","meaning":"to eat","note":"‹yo como›. Regular."}
+{"id":"es.c0555","meaning":"to lose; to miss (a bus)","note":"‹yo pierdo› = I lose. Irregular (‹e› → ‹ie›)."}
+{"id":"es.c0556","meaning":"to understand","note":"‹yo entiendo› = I understand. Irregular (‹e› → ‹ie›)."}
+{"id":"es.c0557","meaning":"to eat","note":"‹yo como› = I eat. Regular."}
 {"id":"es.c0558","meaning":"to help","note":"‹yo ayudo›. Regular. ‹¿Te ayudo?› = shall I help you?"}
-{"id":"es.c0559","meaning":"to die","note":"‹yo muero›. Irregular (‹o› → ‹ue›)."}
-{"id":"es.c0560","meaning":"to remember; to remind","note":"‹yo recuerdo›. Irregular (‹o› → ‹ue›)."}
-{"id":"es.c0561","meaning":"to finish; to end","note":"‹yo termino›. Regular."}
+{"id":"es.c0559","meaning":"to die","note":"‹yo muero› = I die. Irregular (‹o› → ‹ue›)."}
+{"id":"es.c0560","meaning":"to remember; to remind","note":"‹yo recuerdo› = I remember. Irregular (‹o› → ‹ue›)."}
+{"id":"es.c0561","meaning":"to finish; to end","note":"‹yo termino› = I finish. Regular."}
 {"id":"es.c0562","meaning":"to play (a game, a sport)","note":"‹yo juego›. Irregular (‹u› → ‹ue›). For music: ‹tocar›."}
-{"id":"es.c0563","meaning":"to sleep","note":"‹yo duermo›. Irregular (‹o› → ‹ue›)."}
+{"id":"es.c0563","meaning":"to sleep","note":"‹yo duermo› = I sleep. Irregular (‹o› → ‹ue›)."}
 {"id":"es.c0564","meaning":"to hear","note":"‹yo oigo›. Irregular. ‹¡Oye!› = hey!"}
 {"id":"es.c0565","meaning":"to listen (to)","note":"‹yo escucho›. Regular. No \"to\": ‹escucho música›."}
-{"id":"es.c0566","meaning":"to ask for; to order (food)","note":"‹yo pido›. Irregular (‹e› → ‹i›)."}
+{"id":"es.c0566","meaning":"to ask for; to order (food)","note":"‹yo pido› = I ask for; I order. Irregular (‹e› → ‹i›)."}
 {"id":"es.c0567","meaning":"to ask (a question)","note":"‹yo pregunto›. Regular. To ask FOR something: ‹pedir›."}
-{"id":"es.c0568","meaning":"to bring","note":"‹yo traigo›. Irregular."}
+{"id":"es.c0568","meaning":"to bring","note":"‹yo traigo› = I bring. Irregular."}
 {"id":"es.c0569","meaning":"to pay (for)","note":"‹yo pago›. Regular. No \"for\": ‹pago la cuenta›."}
-{"id":"es.c0570","meaning":"to buy","note":"‹yo compro›. Regular."}
+{"id":"es.c0570","meaning":"to buy","note":"‹yo compro› = I buy. Regular."}
 {"id":"es.c0571","meaning":"to open","note":"‹yo abro›. Regular, but past participle ‹abierto›."}
-{"id":"es.c0572","meaning":"to close; to shut","note":"‹yo cierro›. Irregular (‹e› → ‹ie›)."}
+{"id":"es.c0572","meaning":"to close; to shut","note":"‹yo cierro› = I close. Irregular (‹e› → ‹ie›)."}
 {"id":"es.c0573","meaning":"to forget","note":"‹yo olvido›. Regular. Also ‹olvidarse de›."}
-{"id":"es.c0574","meaning":"to change","note":"‹yo cambio›. Regular."}
+{"id":"es.c0574","meaning":"to change","note":"‹yo cambio› = I change. Regular."}
 {"id":"es.c0575","meaning":"to read","note":"‹yo leo›. Regular (preterite ‹leyó›)."}
 {"id":"es.c0576","meaning":"to learn","note":"‹yo aprendo›. Regular. ‹aprender a› + verb."}
-{"id":"es.c0577","meaning":"to study","note":"‹yo estudio›. Regular."}
-{"id":"es.c0578","meaning":"to use","note":"‹yo uso›. Regular."}
-{"id":"es.c0579","meaning":"to win; to earn","note":"‹yo gano›. Regular."}
+{"id":"es.c0577","meaning":"to study","note":"‹yo estudio› = I study. Regular."}
+{"id":"es.c0578","meaning":"to use","note":"‹yo uso› = I use. Regular."}
+{"id":"es.c0579","meaning":"to win; to earn","note":"‹yo gano› = I win; I earn. Regular."}
 {"id":"es.c0580","meaning":"to send; to order (someone)","note":"‹yo mando›. Regular. In Mexico the everyday \"send\"."}
 {"id":"es.c0581","meaning":"to take out; to get (a grade)","note":"‹yo saco›. Regular. ‹sacar una foto› = to take a photo."}
 {"id":"es.c0582","meaning":"to have just (‹acabar de›); to finish off","note":"‹yo acabo›. Regular. ‹Acabo de llegar› = I just arrived."}
-{"id":"es.c0583","meaning":"to explain","note":"‹yo explico›. Regular."}
-{"id":"es.c0584","meaning":"to teach; to show","note":"‹yo enseño›. Regular."}
+{"id":"es.c0583","meaning":"to explain","note":"‹yo explico› = I explain. Regular."}
+{"id":"es.c0584","meaning":"to teach; to show","note":"‹yo enseño› = I teach; I show. Regular."}
 {"id":"es.c0585","meaning":"to be born","note":"‹yo nazco›. Irregular ‹yo› form. ‹Nací en 1990›."}
-{"id":"es.c0586","meaning":"to receive; to get","note":"‹yo recibo›. Regular."}
-{"id":"es.c0587","meaning":"to walk","note":"‹yo camino›. Regular."}
-{"id":"es.c0588","meaning":"to run","note":"‹yo corro›. Regular."}
-{"id":"es.c0589","meaning":"to go up; to get on; to upload","note":"‹yo subo›. Regular."}
-{"id":"es.c0590","meaning":"to go down; to get off","note":"‹yo bajo›. Regular. ‹bajar del autobús›."}
+{"id":"es.c0586","meaning":"to receive; to get","note":"‹yo recibo› = I receive. Regular."}
+{"id":"es.c0587","meaning":"to walk","note":"‹yo camino› = I walk. Regular."}
+{"id":"es.c0588","meaning":"to run","note":"‹yo corro› = I run. Regular."}
+{"id":"es.c0589","meaning":"to go up; to get on; to upload","note":"‹yo subo› = I go up; I get on. Regular."}
+{"id":"es.c0590","meaning":"to go down; to get off","note":"‹yo bajo› = I go down; I get off. Regular. ‹bajar del autobús› = to get off the bus."}
 {"id":"es.c0591","meaning":"to drive","note":"‹yo manejo›. Regular. Spain: ‹conducir›."}
-{"id":"es.c0592","meaning":"to travel","note":"‹yo viajo›. Regular."}
-{"id":"es.c0593","meaning":"to cook","note":"‹yo cocino›. Regular."}
-{"id":"es.c0594","meaning":"to dance","note":"‹yo bailo›. Regular."}
-{"id":"es.c0595","meaning":"to sing","note":"‹yo canto›. Regular."}
+{"id":"es.c0592","meaning":"to travel","note":"‹yo viajo› = I travel. Regular."}
+{"id":"es.c0593","meaning":"to cook","note":"‹yo cocino› = I cook. Regular."}
+{"id":"es.c0594","meaning":"to dance","note":"‹yo bailo› = I dance. Regular."}
+{"id":"es.c0595","meaning":"to sing","note":"‹yo canto› = I sing. Regular."}
 {"id":"es.c0596","meaning":"to touch; to play (an instrument)","note":"‹yo toco›. Regular. ‹¿Te toca?› = is it your turn?"}
-{"id":"es.c0597","meaning":"to sell","note":"‹yo vendo›. Regular."}
-{"id":"es.c0598","meaning":"to prefer","note":"‹yo prefiero›. Irregular (‹e› → ‹ie›)."}
+{"id":"es.c0597","meaning":"to sell","note":"‹yo vendo› = I sell. Regular."}
+{"id":"es.c0598","meaning":"to prefer","note":"‹yo prefiero› = I prefer. Irregular (‹e› → ‹ie›)."}
 {"id":"es.c0599","meaning":"to matter; to import","note":"‹yo importo›. Regular. ‹No importa› = it doesn't matter."}
 {"id":"es.c0600","meaning":"to worry (someone)","note":"Works like ‹gustar›: ‹me preocupa› = it worries me."}
 {"id":"es.c0601","meaning":"to hurt (ache)","note":"Works like ‹gustar›: ‹me duele› = it hurts me. Irregular (‹o› → ‹ue›)."}
-{"id":"es.c0602","meaning":"to cry","note":"‹yo lloro›. Regular."}
+{"id":"es.c0602","meaning":"to cry","note":"‹yo lloro› = I cry. Regular."}
 {"id":"es.c0603","meaning":"to laugh","note":"‹yo río›. Irregular. Usually ‹reírse›: ‹me río›."}
 {"id":"es.c0604","meaning":"to take care of","note":"‹yo cuido›. Regular. ‹¡Cuídate!› = take care!"}
 {"id":"es.c0605","meaning":"to love (deeply)","note":"‹yo amo›. Regular. Stronger than ‹querer›."}
 {"id":"es.c0606","meaning":"to walk around; to be (going around)","note":"‹yo ando›. Irregular preterite: ‹anduve›. ‹¿Cómo andas?› = how's it going?"}
 {"id":"es.c0607","meaning":"to get married","note":"‹yo me caso›. Regular. ‹casarse con› = to marry."}
-{"id":"es.c0608","meaning":"to rest","note":"‹yo descanso›. Regular."}
-{"id":"es.c0609","meaning":"to clean","note":"‹yo limpio›. Regular."}
+{"id":"es.c0608","meaning":"to rest","note":"‹yo descanso› = I rest. Regular."}
+{"id":"es.c0609","meaning":"to clean","note":"‹yo limpio› = I clean. Regular."}
 {"id":"es.c0610","meaning":"to invite; to treat (pay)","note":"‹yo invito›. Regular. ‹Yo invito› = it's on me."}
 {"id":"es.c0611","meaning":"to fall","note":"‹yo caigo›. Irregular. Usually ‹caerse›: ‹me caí›."}
 {"id":"es.c0612","meaning":"to work (machine)","note":"‹yo funciono›. Regular. ‹No funciona› = it's broken."}
-{"id":"es.c0613","meaning":"to taste; to try (on)","note":"‹yo pruebo›. Irregular (‹o› → ‹ue›)."}
-{"id":"es.c0614","meaning":"to decide","note":"‹yo decido›. Regular."}
-{"id":"es.c0615","meaning":"to fix; to tidy","note":"‹yo arreglo›. Regular."}
+{"id":"es.c0613","meaning":"to taste; to try (on)","note":"‹yo pruebo› = I taste; I try. Irregular (‹o› → ‹ue›)."}
+{"id":"es.c0614","meaning":"to decide","note":"‹yo decido› = I decide. Regular."}
+{"id":"es.c0615","meaning":"to fix; to tidy","note":"‹yo arreglo› = I fix. Regular."}
 {"id":"es.c0616","meaning":"to grow; to grow up","note":"‹yo crezco›. Irregular ‹yo› form."}
 {"id":"es.c0617","meaning":"first","note":"‹primera›. Before a masculine noun: ‹primer› (‹el primer día›)."}
 {"id":"es.c0618","meaning":"big; large","note":"Same for both. Before a noun: ‹gran› = great (‹un gran amigo›)."}
-{"id":"es.c0619","meaning":"new","note":"‹nueva›."}
+{"id":"es.c0619","meaning":"new","note":"Feminine: ‹nueva›."}
 {"id":"es.c0620","meaning":"good","note":"‹buena›. Before a masculine noun: ‹buen› (‹un buen día›)."}
 {"id":"es.c0621","meaning":"bad","note":"‹mala›. Before a masculine noun: ‹mal› (‹un mal día›)."}
 {"id":"es.c0622","meaning":"better; best","note":"Same for both. ‹el mejor› = the best."}
 {"id":"es.c0623","meaning":"older; bigger (greater)","note":"Same for both. ‹mi hermano mayor› = my older brother."}
-{"id":"es.c0624","meaning":"last (final)","note":"‹última›."}
+{"id":"es.c0624","meaning":"last (final)","note":"Feminine: ‹última›."}
 {"id":"es.c0625","meaning":"true; certain","note":"‹cierta›. Before a noun = a certain: ‹cierta persona›."}
 {"id":"es.c0626","meaning":"sure; safe","note":"‹segura›. ‹¿Seguro?› = are you sure?"}
 {"id":"es.c0627","meaning":"clear; light (color)","note":"‹clara›. ‹¡Claro!› = of course!"}
@@ -636,8 +636,8 @@
 {"id":"es.c0636","meaning":"own","note":"‹propia›. ‹mi propia casa› = my own house."}
 {"id":"es.c0637","meaning":"young","note":"Same for both. Plural: ‹jóvenes›."}
 {"id":"es.c0638","meaning":"long","note":"‹larga›. False friend: it does not mean large."}
-{"id":"es.c0639","meaning":"tall; high; loud","note":"‹alta›."}
-{"id":"es.c0640","meaning":"short (height); low; quiet","note":"‹baja›."}
+{"id":"es.c0639","meaning":"tall; high; loud","note":"Feminine: ‹alta›."}
+{"id":"es.c0640","meaning":"short (height); low; quiet","note":"Feminine: ‹baja›."}
 {"id":"es.c0641","meaning":"younger; smaller (lesser)","note":"Same for both. ‹mi hermana menor› = my younger sister."}
 {"id":"es.c0642","meaning":"worse; worst","note":"Same for both."}
 {"id":"es.c0643","meaning":"same; equal","note":"Same for both. ‹Es igual› = it's all the same."}
@@ -647,50 +647,50 @@
 {"id":"es.c0647","meaning":"poor","note":"Same for both. Before a noun = unfortunate: ‹¡pobre niño!›"}
 {"id":"es.c0648","meaning":"special","note":"Same for both."}
 {"id":"es.c0649","meaning":"normal; ordinary","note":"Same for both."}
-{"id":"es.c0650","meaning":"white","note":"‹blanca›."}
+{"id":"es.c0650","meaning":"white","note":"Feminine: ‹blanca›."}
 {"id":"es.c0651","meaning":"amazing; unbelievable","note":"Same for both."}
 {"id":"es.c0652","meaning":"crazy","note":"‹loca›. ‹¿Estás loco?› = are you crazy?"}
-{"id":"es.c0653","meaning":"strange; rare","note":"‹rara›."}
+{"id":"es.c0653","meaning":"strange; rare","note":"Feminine: ‹rara›."}
 {"id":"es.c0654","meaning":"strong; loud","note":"Same for both."}
-{"id":"es.c0655","meaning":"black","note":"‹negra›."}
-{"id":"es.c0656","meaning":"red","note":"‹roja›."}
-{"id":"es.c0657","meaning":"alive; lively; bright (color)","note":"‹viva›."}
+{"id":"es.c0655","meaning":"black","note":"Feminine: ‹negra›."}
+{"id":"es.c0656","meaning":"red","note":"Feminine: ‹roja›."}
+{"id":"es.c0657","meaning":"alive; lively; bright (color)","note":"Feminine: ‹viva›."}
 {"id":"es.c0658","meaning":"perfect","note":"‹perfecta›. ‹¡Perfecto!› = great, sounds good."}
 {"id":"es.c0659","meaning":"terrible; awful","note":"Same for both."}
 {"id":"es.c0660","meaning":"sad","note":"Same for both. With ‹estar› for a mood: ‹estoy triste›."}
-{"id":"es.c0661","meaning":"expensive","note":"‹cara›."}
-{"id":"es.c0662","meaning":"cheap","note":"‹barata›."}
-{"id":"es.c0663","meaning":"fast; quick","note":"‹rápida›."}
-{"id":"es.c0664","meaning":"slow","note":"‹lenta›."}
+{"id":"es.c0661","meaning":"expensive","note":"Feminine: ‹cara›."}
+{"id":"es.c0662","meaning":"cheap","note":"Feminine: ‹barata›."}
+{"id":"es.c0663","meaning":"fast; quick","note":"Feminine: ‹rápida›."}
+{"id":"es.c0664","meaning":"slow","note":"Feminine: ‹lenta›."}
 {"id":"es.c0665","meaning":"cold","note":"‹fría›. For people, use ‹tener›: ‹tengo frío›."}
 {"id":"es.c0666","meaning":"hot (to the touch)","note":"Same for both. For weather: ‹hace calor›."}
 {"id":"es.c0667","meaning":"dead","note":"‹muerta›. ‹Estoy muerto› = I'm exhausted."}
 {"id":"es.c0668","meaning":"busy","note":"‹ocupada›. Also \"taken\" (a seat) or \"engaged\" (a phone)."}
 {"id":"es.c0669","meaning":"kind; nice (polite)","note":"Same for both. ‹Muy amable› = how kind of you."}
-{"id":"es.c0670","meaning":"full","note":"‹llena›."}
-{"id":"es.c0671","meaning":"open","note":"‹abierta›."}
+{"id":"es.c0670","meaning":"full","note":"Feminine: ‹llena›."}
+{"id":"es.c0671","meaning":"open","note":"Feminine: ‹abierta›."}
 {"id":"es.c0672","meaning":"short (length)","note":"‹corta›. For people's height: ‹bajo›."}
 {"id":"es.c0673","meaning":"impossible","note":"Same for both."}
-{"id":"es.c0674","meaning":"necessary","note":"‹necesaria›."}
-{"id":"es.c0675","meaning":"dangerous","note":"‹peligrosa›."}
-{"id":"es.c0676","meaning":"famous","note":"‹famosa›."}
-{"id":"es.c0677","meaning":"calm; quiet (peaceful)","note":"‹tranquila›. ‹¡Tranquilo!› = relax!"}
-{"id":"es.c0678","meaning":"closed","note":"‹cerrada›."}
+{"id":"es.c0674","meaning":"necessary","note":"Feminine: ‹necesaria›."}
+{"id":"es.c0675","meaning":"dangerous","note":"Feminine: ‹peligrosa›."}
+{"id":"es.c0676","meaning":"famous","note":"Feminine: ‹famosa›."}
+{"id":"es.c0677","meaning":"calm; quiet (peaceful)","note":"Feminine: ‹tranquila›. ‹¡Tranquilo!› = Relax!"}
+{"id":"es.c0678","meaning":"closed","note":"Feminine: ‹cerrada›."}
 {"id":"es.c0679","meaning":"dear; beloved","note":"‹querida›. ‹Querida Ana› = Dear Ana (letters)."}
 {"id":"es.c0680","meaning":"blue","note":"Same for both. Plural: ‹azules›."}
 {"id":"es.c0681","meaning":"green; unripe","note":"Same for both."}
-{"id":"es.c0682","meaning":"dark","note":"‹oscura›."}
-{"id":"es.c0683","meaning":"clean","note":"‹limpia›."}
-{"id":"es.c0684","meaning":"dirty","note":"‹sucia›."}
-{"id":"es.c0685","meaning":"empty","note":"‹vacía›."}
-{"id":"es.c0686","meaning":"tired","note":"‹cansada›. With ‹estar›: ‹estoy cansado›."}
-{"id":"es.c0687","meaning":"sick; ill","note":"‹enferma›. With ‹estar›: ‹está enfermo›."}
-{"id":"es.c0688","meaning":"hard (not soft); tough","note":"‹dura›."}
+{"id":"es.c0682","meaning":"dark","note":"Feminine: ‹oscura›."}
+{"id":"es.c0683","meaning":"clean","note":"Feminine: ‹limpia›."}
+{"id":"es.c0684","meaning":"dirty","note":"Feminine: ‹sucia›."}
+{"id":"es.c0685","meaning":"empty","note":"Feminine: ‹vacía›."}
+{"id":"es.c0686","meaning":"tired","note":"Feminine: ‹cansada›. With ‹estar›: ‹estoy cansado› = I'm tired."}
+{"id":"es.c0687","meaning":"sick; ill","note":"Feminine: ‹enferma›. With ‹estar›: ‹está enfermo› = he is sick."}
+{"id":"es.c0688","meaning":"hard (not soft); tough","note":"Feminine: ‹dura›."}
 {"id":"es.c0689","meaning":"weak","note":"Same for both. Plural: ‹débiles›."}
 {"id":"es.c0690","meaning":"fresh; cool","note":"‹fresca›. ‹Hace fresco› = it's cool out."}
-{"id":"es.c0691","meaning":"heavy; annoying (person)","note":"‹pesada›."}
-{"id":"es.c0692","meaning":"yellow","note":"‹amarilla›."}
-{"id":"es.c0693","meaning":"favorite","note":"‹favorita›."}
+{"id":"es.c0691","meaning":"heavy; annoying (person)","note":"Feminine: ‹pesada›."}
+{"id":"es.c0692","meaning":"yellow","note":"Feminine: ‹amarilla›."}
+{"id":"es.c0693","meaning":"favorite","note":"Feminine: ‹favorita›."}
 {"id":"es.c0694","meaning":"more","note":"‹más que› = more than: ‹más grande que yo›."}
 {"id":"es.c0695","meaning":"already; now (right away)","note":"‹¿Ya comiste?› = Did you eat yet? ‹Ya voy› = I'm coming."}
 {"id":"es.c0696","meaning":"very","note":"Only before adjectives and adverbs: ‹muy alto›. Never ‹muy hambre›."}
@@ -719,13 +719,13 @@
 {"id":"es.c0719","meaning":"too (too much)","note":"Before an adjective it never changes: ‹demasiado caro›."}
 {"id":"es.c0720","meaning":"soon","note":"‹¡Hasta pronto!› = See you soon!"}
 {"id":"es.c0721","meaning":"late","note":"‹Llegué tarde›. ‹la tarde› (noun) = the afternoon."}
-{"id":"es.c0722","meaning":"early","note":"‹Me levanto temprano›."}
+{"id":"es.c0722","meaning":"early","note":"‹Me levanto temprano› = I get up early."}
 {"id":"es.c0723","meaning":"besides; on top of that","note":"Adds a reason or fact: ‹Además, es barato›."}
 {"id":"es.c0724","meaning":"again","note":"Literally another time. Same as ‹de nuevo›."}
 {"id":"es.c0725","meaning":"maybe","note":"Also ‹quizás›. Same meaning."}
 {"id":"es.c0726","meaning":"slowly","note":"‹Más despacio, por favor› = slower, please."}
-{"id":"es.c0727","meaning":"up; upstairs","note":"Opposite: ‹abajo›."}
-{"id":"es.c0728","meaning":"down; downstairs","note":"Opposite: ‹arriba›."}
+{"id":"es.c0727","meaning":"up; upstairs","note":"Opposite: ‹abajo› = down."}
+{"id":"es.c0728","meaning":"down; downstairs","note":"Opposite: ‹arriba› = up."}
 {"id":"es.c0729","meaning":"inside","note":"Latin America. Spain prefers ‹dentro›."}
 {"id":"es.c0730","meaning":"outside","note":"Latin America. Spain prefers ‹fuera›."}
 {"id":"es.c0731","meaning":"barely; hardly","note":"‹Apenas hablo español› = I barely speak Spanish."}
@@ -742,7 +742,7 @@
 {"id":"es.c0742","meaning":"what?","note":"Always with an accent mark in a question. ‹Que› without it = that."}
 {"id":"es.c0743","meaning":"I","note":"Usually dropped: ‹Soy de Texas›. Keep it for contrast."}
 {"id":"es.c0744","meaning":"everybody; all of them","note":"Feminine: ‹todas›. ‹Todos los días› = every day."}
-{"id":"es.c0745","meaning":"us; to us; ourselves","note":"‹Nos gusta›, ‹nos vemos›."}
+{"id":"es.c0745","meaning":"us; to us; ourselves","note":"‹Nos gusta› = We like it. ‹Nos vemos› = See you."}
 {"id":"es.c0746","meaning":"he; him (after a preposition)","note":"With an accent mark. ‹el› without it = the."}
 {"id":"es.c0747","meaning":"you; to you (object, friendly)","note":"‹Te quiero›, ‹te llamo›. To ‹usted›: ‹lo›, ‹la› or ‹le›."}
 {"id":"es.c0748","meaning":"that (thing or idea)","note":"Neuter: for an idea or something unnamed. ‹¡Eso es!› = That's it!"}
@@ -754,7 +754,7 @@
 {"id":"es.c0754","meaning":"something","note":"‹¿Algo más?› = Anything else?"}
 {"id":"es.c0755","meaning":"to them; to you all","note":"Indirect object: ‹les gusta›, ‹les escribo›."}
 {"id":"es.c0756","meaning":"they (men or a mixed group)","note":"For a group of only women: ‹ellas›."}
-{"id":"es.c0757","meaning":"who? (one person)","note":"Plural: ‹¿Quiénes?›"}
+{"id":"es.c0757","meaning":"who? (one person)","note":"Plural, for more than one person: ‹¿Quiénes?›"}
 {"id":"es.c0758","meaning":"we (men or a mixed group)","note":"For a group of only women: ‹nosotras›."}
 {"id":"es.c0759","meaning":"me (after a preposition)","note":"With an accent mark: ‹para mí›, ‹a mí›. With ‹con›: ‹conmigo›."}
 {"id":"es.c0760","meaning":"you (after a preposition, friendly)","note":"No accent mark: ‹para ti›. With ‹con›: ‹contigo›."}
@@ -778,31 +778,31 @@
 {"id":"es.c0778","meaning":"to; at (a time)","note":"‹Voy a México›. ‹A las tres›. Also the personal ‹a›: ‹Veo a Ana›."}
 {"id":"es.c0779","meaning":"of the; from the","note":"‹de› + ‹el› always joins: ‹del banco›. Never ‹de el›."}
 {"id":"es.c0780","meaning":"through; by; because of","note":"‹Gracias por todo›. ‹por la mañana› = in the morning."}
-{"id":"es.c0781","meaning":"with","note":"‹con› + ‹mí› = ‹conmigo›, ‹con› + ‹ti› = ‹contigo›."}
+{"id":"es.c0781","meaning":"with","note":"‹con› + ‹mí› = ‹conmigo› (with me), ‹con› + ‹ti› = ‹contigo› (with you)."}
 {"id":"es.c0782","meaning":"for; in order to","note":"For a goal or person: ‹para ti›, ‹para aprender›."}
 {"id":"es.c0783","meaning":"to the","note":"‹a› + ‹el› always joins: ‹al parque›. Never ‹a el›."}
-{"id":"es.c0784","meaning":"without","note":"‹Café sin azúcar›."}
-{"id":"es.c0785","meaning":"on; over; about","note":"‹Sobre la mesa›. ‹Un libro sobre México›."}
+{"id":"es.c0784","meaning":"without","note":"‹Café sin azúcar› = Coffee without sugar."}
+{"id":"es.c0785","meaning":"on; over; about","note":"‹Sobre la mesa› = On the table. ‹Un libro sobre México› = A book about Mexico."}
 {"id":"es.c0786","meaning":"between; among","note":"‹Entre tú y yo› = between you and me."}
 {"id":"es.c0787","meaning":"until; up to","note":"‹Hasta mañana› = see you tomorrow."}
 {"id":"es.c0788","meaning":"since; from (a starting point)","note":"‹Desde las ocho› = since eight o'clock."}
-{"id":"es.c0789","meaning":"during; for (a length of time)","note":"‹Durante la clase›. ‹Durante dos horas›."}
-{"id":"es.c0790","meaning":"according to","note":"‹Según mi mamá›…"}
-{"id":"es.c0791","meaning":"against","note":"‹México contra Brasil›."}
-{"id":"es.c0792","meaning":"toward","note":"‹Camina hacia el parque›."}
+{"id":"es.c0789","meaning":"during; for (a length of time)","note":"‹Durante la clase› = During class. ‹Durante dos horas› = For two hours."}
+{"id":"es.c0790","meaning":"according to","note":"‹Según mi mamá›… = According to my mom…"}
+{"id":"es.c0791","meaning":"against","note":"‹México contra Brasil› = Mexico against Brazil."}
+{"id":"es.c0792","meaning":"toward","note":"‹Camina hacia el parque› = He walks toward the park."}
 {"id":"es.c0793","meaning":"after","note":"After ‹de›, an infinitive: ‹después de comer›."}
 {"id":"es.c0794","meaning":"before","note":"Before an infinitive: ‹antes de salir›."}
-{"id":"es.c0795","meaning":"near; close to","note":"‹de› + ‹el› = ‹del›: ‹cerca del hotel›."}
-{"id":"es.c0796","meaning":"far from","note":"Opposite: ‹cerca de›."}
+{"id":"es.c0795","meaning":"near; close to","note":"‹de› + ‹el› = ‹del›: ‹cerca del hotel› = near the hotel."}
+{"id":"es.c0796","meaning":"far from","note":"Opposite: ‹cerca de› = near."}
 {"id":"es.c0797","meaning":"inside (of)","note":"Also in (time): ‹dentro de una hora›."}
-{"id":"es.c0798","meaning":"outside (of)","note":"‹Fuera de la casa›."}
+{"id":"es.c0798","meaning":"outside (of)","note":"‹Fuera de la casa› = Outside the house."}
 {"id":"es.c0799","meaning":"in front of","note":"Opposite: ‹detrás de›. Across the street is ‹enfrente de›."}
-{"id":"es.c0800","meaning":"behind","note":"‹Detrás de la puerta›."}
-{"id":"es.c0801","meaning":"on top of","note":"‹Encima de la cama›."}
-{"id":"es.c0802","meaning":"under; underneath","note":"‹Debajo de la mesa›."}
+{"id":"es.c0800","meaning":"behind","note":"‹Detrás de la puerta› = Behind the door."}
+{"id":"es.c0801","meaning":"on top of","note":"‹Encima de la cama› = On top of the bed."}
+{"id":"es.c0802","meaning":"under; underneath","note":"‹Debajo de la mesa› = Under the table."}
 {"id":"es.c0803","meaning":"right next to","note":"Takes ‹a›, not ‹de›: ‹junto a la ventana›."}
-{"id":"es.c0804","meaning":"through; across","note":"‹A través de la ventana›."}
-{"id":"es.c0805","meaning":"instead of","note":"‹En vez de café, té›."}
+{"id":"es.c0804","meaning":"through; across","note":"‹A través de la ventana› = Through the window."}
+{"id":"es.c0805","meaning":"instead of","note":"‹En vez de café, té› = Instead of coffee, tea."}
 {"id":"es.c0806","meaning":"about (a topic)","note":"A little more formal than ‹sobre›."}
 {"id":"es.c0807","meaning":"except","note":"‹Todos excepto yo›. Pronoun after it: ‹yo›, ‹tú›."}
 {"id":"es.c0808","meaning":"that (joins two ideas)","note":"‹Creo que sí›. Never dropped like English that. Also who/which: ‹el libro que leo›."}
@@ -814,16 +814,16 @@
 {"id":"es.c0814","meaning":"because","note":"One word, no accent. ‹¿Por qué?› = why?"}
 {"id":"es.c0815","meaning":"nor; not even","note":"‹No tengo ni idea› = I have no idea."}
 {"id":"es.c0816","meaning":"where (not a question)","note":"No accent mark. In a question: ‹¿Dónde?›"}
-{"id":"es.c0817","meaning":"and (before an ‹i-› or ‹hi-› sound)","note":"‹Ana e Isabel›, ‹padres e hijos›."}
-{"id":"es.c0818","meaning":"although; even if","note":"‹Aunque llueve, voy›."}
-{"id":"es.c0819","meaning":"or (before an ‹o-› or ‹ho-› sound)","note":"‹siete u ocho›, ‹uno u otro›."}
+{"id":"es.c0817","meaning":"and (before an ‹i-› or ‹hi-› sound)","note":"‹Ana e Isabel› = Ana and Isabel. ‹padres e hijos› = parents and children."}
+{"id":"es.c0818","meaning":"although; even if","note":"‹Aunque llueve, voy› = Although it's raining, I'm going."}
+{"id":"es.c0819","meaning":"or (before an ‹o-› or ‹ho-› sound)","note":"‹siete u ocho› = seven or eight. ‹uno u otro› = one or the other."}
 {"id":"es.c0820","meaning":"well; since","note":"Very common to start an answer: ‹Pues, no sé›."}
-{"id":"es.c0821","meaning":"while","note":"‹Escucho música mientras cocino›."}
-{"id":"es.c0822","meaning":"but rather (after a no)","note":"‹No es azul, sino verde›."}
-{"id":"es.c0823","meaning":"so (as a result)","note":"‹Tengo hambre, así que voy a comer›."}
-{"id":"es.c0824","meaning":"since; seeing that","note":"‹Ya que estás aquí, ¿me ayudas?›"}
+{"id":"es.c0821","meaning":"while","note":"‹Escucho música mientras cocino› = I listen to music while I cook."}
+{"id":"es.c0822","meaning":"but rather (after a no)","note":"‹No es azul, sino verde› = It isn't blue, but green."}
+{"id":"es.c0823","meaning":"so (as a result)","note":"‹Tengo hambre, así que voy a comer› = I'm hungry, so I'm going to eat."}
+{"id":"es.c0824","meaning":"since; seeing that","note":"‹Ya que estás aquí, ¿me ayudas?› = Since you're here, will you help me?"}
 {"id":"es.c0825","meaning":"I mean; in other words","note":"Very common in speech to fix or explain."}
-{"id":"es.c0826","meaning":"that's why","note":"‹Llueve, por eso no salgo›."}
+{"id":"es.c0826","meaning":"that's why","note":"‹Llueve, por eso no salgo› = It's raining, that's why I'm not going out."}
 {"id":"es.c0827","meaning":"however","note":"More formal than ‹pero›. Often after a period."}
 {"id":"es.c0828","meaning":"so that","note":"‹Te lo explico para que entiendas›. (The verb after it changes form; learn it later.)"}
 {"id":"es.c0829","meaning":"until (before a verb)","note":"‹Espero hasta que llegues›. (The verb after it changes form; learn it later.)"}
@@ -872,21 +872,21 @@
 {"id":"es.c0872","meaning":"each; every","note":"Never changes: ‹cada día›, ‹cada semana›."}
 {"id":"es.c0873","meaning":"little; not much","note":"Agrees: ‹pocas personas›. ‹un poco› = a little."}
 {"id":"es.c0874","meaning":"another; other","note":"Never ‹un otro›: ‹otro café› = another coffee."}
-{"id":"es.c0875","meaning":"that (feminine)","note":"‹esa casa›. Plural: ‹esas›."}
-{"id":"es.c0876","meaning":"our","note":"Agrees: ‹nuestra casa›, ‹nuestros amigos›."}
+{"id":"es.c0875","meaning":"that (feminine)","note":"‹esa casa› = that house. Plural: ‹esas›."}
+{"id":"es.c0876","meaning":"our","note":"Agrees with the thing owned: ‹nuestra casa› = our house, ‹nuestros amigos› = our friends."}
 {"id":"es.c0877","meaning":"three","note":""}
 {"id":"es.c0878","meaning":"yes","note":"With an accent mark. ‹si› without one = if."}
 {"id":"es.c0879","meaning":"your (friendly)","note":"No accent mark. ‹tú› with one = you. Plural: ‹tus›."}
 {"id":"es.c0880","meaning":"where?","note":"‹¿Dónde está…?› for a place."}
 {"id":"es.c0881","meaning":"how? / sorry? (didn't hear)","note":"Polite way to ask someone to repeat. Mexico: ‹¿Mande?›"}
-{"id":"es.c0882","meaning":"how much?","note":"Agrees: ‹¿Cuánta agua?›"}
-{"id":"es.c0883","meaning":"how many?","note":"Agrees: ‹¿Cuántas personas?›"}
-{"id":"es.c0884","meaning":"where to?","note":"With ‹ir›: ‹¿Adónde vas?›"}
-{"id":"es.c0885","meaning":"my (more than one thing)","note":"‹mis amigos›, ‹mis llaves›."}
-{"id":"es.c0886","meaning":"these (masculine)","note":"‹estos zapatos›."}
-{"id":"es.c0887","meaning":"these (feminine)","note":"‹estas llaves›."}
-{"id":"es.c0888","meaning":"those (masculine)","note":"‹esos libros›."}
-{"id":"es.c0889","meaning":"those (feminine)","note":"‹esas casas›."}
+{"id":"es.c0882","meaning":"how much?","note":"Agrees: ‹¿Cuánta agua?› = How much water?"}
+{"id":"es.c0883","meaning":"how many?","note":"Agrees: ‹¿Cuántas personas?› = How many people?"}
+{"id":"es.c0884","meaning":"where to?","note":"With ‹ir›: ‹¿Adónde vas?› = Where are you going?"}
+{"id":"es.c0885","meaning":"my (more than one thing)","note":"‹mis amigos› = my friends, ‹mis llaves› = my keys."}
+{"id":"es.c0886","meaning":"these (masculine)","note":"‹estos zapatos› = these shoes."}
+{"id":"es.c0887","meaning":"these (feminine)","note":"‹estas llaves› = these keys."}
+{"id":"es.c0888","meaning":"those (masculine)","note":"‹esos libros› = those books."}
+{"id":"es.c0889","meaning":"those (feminine)","note":"‹esas casas› = those houses."}
 {"id":"es.c0890","meaning":"that (over there)","note":"Farther than ‹ese›. Feminine: ‹aquella›."}
 {"id":"es.c0891","meaning":"several","note":"Feminine: ‹varias›. Always plural."}
 {"id":"es.c0892","meaning":"four","note":""}

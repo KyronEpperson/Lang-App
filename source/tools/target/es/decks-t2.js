@@ -29,13 +29,13 @@ module.exports = {
     demasiado | deh-mah-SYAH-doh | too (too much) | Before an adjective it never changes: ‹demasiado caro›.
     pronto | PROHN-toh | soon | ‹¡Hasta pronto!› = See you soon!
     tarde | TAHR-deh | late | ‹Llegué tarde›. ‹la tarde› (noun) = the afternoon.
-    temprano | tehm-PRAH-noh | early | ‹Me levanto temprano›.
+    temprano | tehm-PRAH-noh | early | ‹Me levanto temprano› = I get up early.
     además | ah-deh-MAHS | besides; on top of that | Adds a reason or fact: ‹Además, es barato›.
     otra vez | OH-trah behs | again | Literally another time. Same as ‹de nuevo›.
     tal vez | tahl behs | maybe | Also ‹quizás›. Same meaning.
     despacio | dehs-PAH-syoh | slowly | ‹Más despacio, por favor› = slower, please.
-    arriba | ah-RREE-bah | up; upstairs | Opposite: ‹abajo›.
-    abajo | ah-BAH-hoh | down; downstairs | Opposite: ‹arriba›.
+    arriba | ah-RREE-bah | up; upstairs | Opposite: ‹abajo› = down.
+    abajo | ah-BAH-hoh | down; downstairs | Opposite: ‹arriba› = up.
     adentro | ah-DEHN-troh | inside | Latin America. Spain prefers ‹dentro›.
     afuera | ah-FWEH-rah | outside | Latin America. Spain prefers ‹fuera›.
     apenas | ah-PEH-nahs | barely; hardly | ‹Apenas hablo español› = I barely speak Spanish.
@@ -54,7 +54,7 @@ module.exports = {
     ¿Qué? | keh | what? | Always with an accent mark in a question. ‹Que› without it = that.
     yo | yoh | I | Usually dropped: ‹Soy de Texas›. Keep it for contrast.
     todos | TOH-dohs | everybody; all of them | Feminine: ‹todas›. ‹Todos los días› = every day.
-    nos | nohs | us; to us; ourselves | ‹Nos gusta›, ‹nos vemos›.
+    nos | nohs | us; to us; ourselves | ‹Nos gusta› = We like it. ‹Nos vemos› = See you.
     él | ehl | he; him (after a preposition) | With an accent mark. ‹el› without it = the.
     te | teh | you; to you (object, friendly) | ‹Te quiero›, ‹te llamo›. To ‹usted›: ‹lo›, ‹la› or ‹le›.
     eso | EH-soh | that (thing or idea) | Neuter: for an idea or something unnamed. ‹¡Eso es!› = That's it!
@@ -66,7 +66,7 @@ module.exports = {
     algo | AHL-goh | something | ‹¿Algo más?› = Anything else?
     les | lehs | to them; to you all | Indirect object: ‹les gusta›, ‹les escribo›.
     ellos | EH-yohs | they (men or a mixed group) | For a group of only women: ‹ellas›.
-    ¿Quién? | kyehn | who? (one person) | Plural: ‹¿Quiénes?›
+    ¿Quién? | kyehn | who? (one person) | Plural, for more than one person: ‹¿Quiénes?›
     nosotros | noh-SOH-trohs | we (men or a mixed group) | For a group of only women: ‹nosotras›.
     mí | mee | me (after a preposition) | With an accent mark: ‹para mí›, ‹a mí›. With ‹con›: ‹conmigo›.
     ti | tee | you (after a preposition, friendly) | No accent mark: ‹para ti›. With ‹con›: ‹contigo›.
@@ -92,31 +92,31 @@ module.exports = {
     a | ah | to; at (a time) | ‹Voy a México›. ‹A las tres›. Also the personal ‹a›: ‹Veo a Ana›.
     del | dehl | of the; from the | ‹de› + ‹el› always joins: ‹del banco›. Never ‹de el›.
     por | pohr | through; by; because of | ‹Gracias por todo›. ‹por la mañana› = in the morning.
-    con | kohn | with | ‹con› + ‹mí› = ‹conmigo›, ‹con› + ‹ti› = ‹contigo›.
+    con | kohn | with | ‹con› + ‹mí› = ‹conmigo› (with me), ‹con› + ‹ti› = ‹contigo› (with you).
     para | PAH-rah | for; in order to | For a goal or person: ‹para ti›, ‹para aprender›.
     al | ahl | to the | ‹a› + ‹el› always joins: ‹al parque›. Never ‹a el›.
-    sin | seen | without | ‹Café sin azúcar›.
-    sobre | SOH-breh | on; over; about | ‹Sobre la mesa›. ‹Un libro sobre México›.
+    sin | seen | without | ‹Café sin azúcar› = Coffee without sugar.
+    sobre | SOH-breh | on; over; about | ‹Sobre la mesa› = On the table. ‹Un libro sobre México› = A book about Mexico.
     entre | EHN-treh | between; among | ‹Entre tú y yo› = between you and me.
     hasta | AHS-tah | until; up to | ‹Hasta mañana› = see you tomorrow.
     desde | DEHS-deh | since; from (a starting point) | ‹Desde las ocho› = since eight o'clock.
-    durante | doo-RAHN-teh | during; for (a length of time) | ‹Durante la clase›. ‹Durante dos horas›.
-    según | seh-GOON | according to | ‹Según mi mamá›…
-    contra | KOHN-trah | against | ‹México contra Brasil›.
-    hacia | AH-syah | toward | ‹Camina hacia el parque›.
+    durante | doo-RAHN-teh | during; for (a length of time) | ‹Durante la clase› = During class. ‹Durante dos horas› = For two hours.
+    según | seh-GOON | according to | ‹Según mi mamá›… = According to my mom…
+    contra | KOHN-trah | against | ‹México contra Brasil› = Mexico against Brazil.
+    hacia | AH-syah | toward | ‹Camina hacia el parque› = He walks toward the park.
     después de | dehs-PWEHS deh | after | After ‹de›, an infinitive: ‹después de comer›.
     antes de | AHN-tehs deh | before | Before an infinitive: ‹antes de salir›.
-    cerca de | SEHR-kah deh | near; close to | ‹de› + ‹el› = ‹del›: ‹cerca del hotel›.
-    lejos de | LEH-hohs deh | far from | Opposite: ‹cerca de›.
+    cerca de | SEHR-kah deh | near; close to | ‹de› + ‹el› = ‹del›: ‹cerca del hotel› = near the hotel.
+    lejos de | LEH-hohs deh | far from | Opposite: ‹cerca de› = near.
     dentro de | DEHN-troh deh | inside (of) | Also in (time): ‹dentro de una hora›.
-    fuera de | FWEH-rah deh | outside (of) | ‹Fuera de la casa›.
+    fuera de | FWEH-rah deh | outside (of) | ‹Fuera de la casa› = Outside the house.
     delante de | deh-LAHN-teh deh | in front of | Opposite: ‹detrás de›. Across the street is ‹enfrente de›.
-    detrás de | deh-TRAHS deh | behind | ‹Detrás de la puerta›.
-    encima de | ehn-SEE-mah deh | on top of | ‹Encima de la cama›.
-    debajo de | deh-BAH-hoh deh | under; underneath | ‹Debajo de la mesa›.
+    detrás de | deh-TRAHS deh | behind | ‹Detrás de la puerta› = Behind the door.
+    encima de | ehn-SEE-mah deh | on top of | ‹Encima de la cama› = On top of the bed.
+    debajo de | deh-BAH-hoh deh | under; underneath | ‹Debajo de la mesa› = Under the table.
     junto a | HOON-toh ah | right next to | Takes ‹a›, not ‹de›: ‹junto a la ventana›.
-    a través de | ah trah-BEHS deh | through; across | ‹A través de la ventana›.
-    en vez de | ehn behs deh | instead of | ‹En vez de café, té›.
+    a través de | ah trah-BEHS deh | through; across | ‹A través de la ventana› = Through the window.
+    en vez de | ehn behs deh | instead of | ‹En vez de café, té› = Instead of coffee, tea.
     acerca de | ah-SEHR-kah deh | about (a topic) | A little more formal than ‹sobre›.
     excepto | ehks-SEHP-toh | except | ‹Todos excepto yo›. Pronoun after it: ‹yo›, ‹tú›.
   `,
@@ -130,16 +130,16 @@ module.exports = {
     porque | POHR-keh | because | One word, no accent. ‹¿Por qué?› = why?
     ni | nee | nor; not even | ‹No tengo ni idea› = I have no idea.
     donde | DOHN-deh | where (not a question) | No accent mark. In a question: ‹¿Dónde?›
-    e | eh | and (before an ‹i-› or ‹hi-› sound) | ‹Ana e Isabel›, ‹padres e hijos›.
-    aunque | OWN-keh | although; even if | ‹Aunque llueve, voy›.
-    u | oo | or (before an ‹o-› or ‹ho-› sound) | ‹siete u ocho›, ‹uno u otro›.
+    e | eh | and (before an ‹i-› or ‹hi-› sound) | ‹Ana e Isabel› = Ana and Isabel. ‹padres e hijos› = parents and children.
+    aunque | OWN-keh | although; even if | ‹Aunque llueve, voy› = Although it's raining, I'm going.
+    u | oo | or (before an ‹o-› or ‹ho-› sound) | ‹siete u ocho› = seven or eight. ‹uno u otro› = one or the other.
     pues | pwehs | well; since | Very common to start an answer: ‹Pues, no sé›.
-    mientras | MYEHN-trahs | while | ‹Escucho música mientras cocino›.
-    sino | SEE-noh | but rather (after a no) | ‹No es azul, sino verde›.
-    así que | ah-SEE keh | so (as a result) | ‹Tengo hambre, así que voy a comer›.
-    ya que | yah keh | since; seeing that | ‹Ya que estás aquí, ¿me ayudas?›
+    mientras | MYEHN-trahs | while | ‹Escucho música mientras cocino› = I listen to music while I cook.
+    sino | SEE-noh | but rather (after a no) | ‹No es azul, sino verde› = It isn't blue, but green.
+    así que | ah-SEE keh | so (as a result) | ‹Tengo hambre, así que voy a comer› = I'm hungry, so I'm going to eat.
+    ya que | yah keh | since; seeing that | ‹Ya que estás aquí, ¿me ayudas?› = Since you're here, will you help me?
     o sea | oh SEH-ah | I mean; in other words | Very common in speech to fix or explain.
-    por eso | pohr EH-soh | that's why | ‹Llueve, por eso no salgo›.
+    por eso | pohr EH-soh | that's why | ‹Llueve, por eso no salgo› = It's raining, that's why I'm not going out.
     sin embargo | seen ehm-BAHR-goh | however | More formal than ‹pero›. Often after a period.
     para que | PAH-rah keh | so that | ‹Te lo explico para que entiendas›. (The verb after it changes form; learn it later.)
     hasta que | AHS-tah keh | until (before a verb) | ‹Espero hasta que llegues›. (The verb after it changes form; learn it later.)
@@ -192,21 +192,21 @@ module.exports = {
     cada | KAH-dah | each; every | Never changes: ‹cada día›, ‹cada semana›.
     poco | POH-koh | little; not much | Agrees: ‹pocas personas›. ‹un poco› = a little.
     otro | OH-troh | another; other | Never ‹un otro›: ‹otro café› = another coffee.
-    esa | EH-sah | that (feminine) | ‹esa casa›. Plural: ‹esas›.
-    nuestro | NWEHS-troh | our | Agrees: ‹nuestra casa›, ‹nuestros amigos›.
+    esa | EH-sah | that (feminine) | ‹esa casa› = that house. Plural: ‹esas›.
+    nuestro | NWEHS-troh | our | Agrees with the thing owned: ‹nuestra casa› = our house, ‹nuestros amigos› = our friends.
     tres | trehs | three | 
     sí | see | yes | With an accent mark. ‹si› without one = if.
     tu | too | your (friendly) | No accent mark. ‹tú› with one = you. Plural: ‹tus›.
     ¿Dónde? | DOHN-deh | where? | ‹¿Dónde está…?› for a place.
     ¿Cómo? | KOH-moh | how? / sorry? (didn't hear) | Polite way to ask someone to repeat. Mexico: ‹¿Mande?›
-    ¿Cuánto? | KWAHN-toh | how much? | Agrees: ‹¿Cuánta agua?›
-    ¿Cuántos? | KWAHN-tohs | how many? | Agrees: ‹¿Cuántas personas?›
-    ¿Adónde? | ah-DOHN-deh | where to? | With ‹ir›: ‹¿Adónde vas?›
-    mis | mees | my (more than one thing) | ‹mis amigos›, ‹mis llaves›.
-    estos | EHS-tohs | these (masculine) | ‹estos zapatos›.
-    estas | EHS-tahs | these (feminine) | ‹estas llaves›.
-    esos | EH-sohs | those (masculine) | ‹esos libros›.
-    esas | EH-sahs | those (feminine) | ‹esas casas›.
+    ¿Cuánto? | KWAHN-toh | how much? | Agrees: ‹¿Cuánta agua?› = How much water?
+    ¿Cuántos? | KWAHN-tohs | how many? | Agrees: ‹¿Cuántas personas?› = How many people?
+    ¿Adónde? | ah-DOHN-deh | where to? | With ‹ir›: ‹¿Adónde vas?› = Where are you going?
+    mis | mees | my (more than one thing) | ‹mis amigos› = my friends, ‹mis llaves› = my keys.
+    estos | EHS-tohs | these (masculine) | ‹estos zapatos› = these shoes.
+    estas | EHS-tahs | these (feminine) | ‹estas llaves› = these keys.
+    esos | EH-sohs | those (masculine) | ‹esos libros› = those books.
+    esas | EH-sahs | those (feminine) | ‹esas casas› = those houses.
     aquel | ah-KEHL | that (over there) | Farther than ‹ese›. Feminine: ‹aquella›.
     varios | BAH-ryohs | several | Feminine: ‹varias›. Always plural.
     cuatro | KWAH-troh | four | 
